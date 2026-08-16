@@ -5,8 +5,8 @@ project:
 
 website:
   title: "Matemática para Gañanes y Patanes"
-  site-url: https://USUARIO.github.io/mgp/
-  repo-url: https://github.com/USUARIO/mgp
+  site-url: https://diegoigmorales.github.io/MGP/
+  repo-url: https://github.com/diegoigmorales/MGP
   repo-actions: [edit, issue]
   navbar:
     left:
@@ -38,4 +38,3 @@ format:
 lang: es
 execute:
   freeze: auto
-
