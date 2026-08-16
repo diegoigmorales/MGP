@@ -1,0 +1,8 @@
+---
+title: "Acerca del proyecto"
+---
+
+**Matemática para Gañanes y Patanes** es una plataforma gratuita orientada a la PAES de Matemática en Chile. Su prioridad es construir comprensión y no sólo entregar respuestas.
+
+El contenido se publica desde una única fuente en Quarto. El modelo de conocimiento —tags, objetos y relaciones— es propio del proyecto y puede migrar a otro motor de publicación en el futuro.
+

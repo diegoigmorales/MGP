@@ -1,0 +1,41 @@
+project:
+  type: website
+  pre-render: python scripts/build_registry.py
+  output-dir: _site
+
+website:
+  title: "Matemática para Gañanes y Patanes"
+  site-url: https://USUARIO.github.io/mgp/
+  repo-url: https://github.com/USUARIO/mgp
+  repo-actions: [edit, issue]
+  navbar:
+    left:
+      - href: index.qmd
+        text: Inicio
+      - href: contenidos/index.qmd
+        text: Contenidos
+      - href: _generated/catalogo.qmd
+        text: Catálogo
+      - href: acerca.qmd
+        text: Acerca de
+  page-footer:
+    center: "Contenido educativo abierto. Identificadores permanentes e inmutables."
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    code-copy: true
+    filters:
+      - filters/knowledge.lua
+  pdf:
+    documentclass: scrreprt
+    toc: true
+    filters:
+      - filters/knowledge.lua
+
+lang: es
+execute:
+  freeze: auto
+

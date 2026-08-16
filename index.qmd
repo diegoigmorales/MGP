@@ -1,0 +1,15 @@
+---
+title: "Matemática para Gañanes y Patanes"
+description: "Una base de conocimiento rigurosa e interconectada para preparar la PAES de Matemática."
+---
+
+# Matemática que se puede recorrer
+
+Este proyecto no es un solucionario. Cada definición, técnica, pregunta, error y demostración es un nodo estable de una red de conocimiento matemático.
+
+Empieza por el [primer contenido](contenidos/numeros/porcentajes.qmd) o explora el [catálogo completo](_generated/catalogo.qmd), que se construye automáticamente.
+
+## Cómo leer una página
+
+Cada objeto muestra un tag permanente. Los vínculos entre objetos y las referencias inversas permiten avanzar desde una pregunta hacia sus prerrequisitos, métodos, errores frecuentes y generalizaciones.
+

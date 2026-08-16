@@ -1,0 +1,67 @@
+{
+  "objects": [
+    {
+      "tag": "0001",
+      "type": "definicion",
+      "title": "Porcentaje",
+      "source": "contenidos/numeros/porcentajes.qmd",
+      "line": 6,
+      "href": "../contenidos/numeros/porcentajes.qmd#tag-0001",
+      "relations": {}
+    },
+    {
+      "tag": "0002",
+      "type": "tecnica",
+      "title": "Calcular un porcentaje de una cantidad",
+      "source": "contenidos/numeros/porcentajes.qmd",
+      "line": 16,
+      "href": "../contenidos/numeros/porcentajes.qmd#tag-0002",
+      "relations": {
+        "requiere": [
+          "0001"
+        ]
+      }
+    },
+    {
+      "tag": "0003",
+      "type": "pregunta",
+      "title": "Descuento porcentual",
+      "source": "contenidos/numeros/porcentajes.qmd",
+      "line": 32,
+      "href": "../contenidos/numeros/porcentajes.qmd#tag-0003",
+      "relations": {
+        "usa": [
+          "0001",
+          "0002"
+        ]
+      }
+    }
+  ],
+  "backlinks": {
+    "0001": [
+      {
+        "tag": "0002",
+        "title": "Calcular un porcentaje de una cantidad",
+        "source": "contenidos/numeros/porcentajes.qmd",
+        "href": "porcentajes.qmd#tag-0002",
+        "relation": "requiere"
+      },
+      {
+        "tag": "0003",
+        "title": "Descuento porcentual",
+        "source": "contenidos/numeros/porcentajes.qmd",
+        "href": "porcentajes.qmd#tag-0003",
+        "relation": "usa"
+      }
+    ],
+    "0002": [
+      {
+        "tag": "0003",
+        "title": "Descuento porcentual",
+        "source": "contenidos/numeros/porcentajes.qmd",
+        "href": "porcentajes.qmd#tag-0003",
+        "relation": "usa"
+      }
+    ]
+  }
+}

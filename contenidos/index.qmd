@@ -1,0 +1,8 @@
+---
+title: "Contenidos"
+---
+
+Los índices temáticos se irán derivando del registro de objetos. Por ahora:
+
+- [Porcentajes](numeros/porcentajes.qmd)
+

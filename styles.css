@@ -1,0 +1,26 @@
+:root {
+  --mgp-tag: #5b3cc4;
+}
+
+.knowledge-object {
+  border-left: .3rem solid var(--mgp-tag);
+  margin: 1.5rem 0;
+  padding: .25rem 1rem 1rem;
+}
+
+.knowledge-tag {
+  color: var(--mgp-tag);
+  font-family: var(--bs-font-monospace);
+  font-size: .85rem;
+  font-weight: 700;
+  letter-spacing: .04em;
+  margin-bottom: .25rem;
+}
+
+.knowledge-backlinks {
+  border-top: 1px solid #ddd;
+  font-size: .9rem;
+  margin-top: 1rem;
+  padding-top: .6rem;
+}
+
