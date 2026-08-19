@@ -24,8 +24,8 @@
   padding-top: .6rem;
 }
 
-.answer-options > ol {
-  list-style-type: upper-alpha;
+.answer-options > ol[type="1"] {
+  list-style-type: upper-alpha !important;
 }
 
 .answer-options > ol > li {
