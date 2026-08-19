@@ -1,0 +1,22 @@
+---
+title: "Parte IV · Estadística"
+---
+
+# Capítulo 1 · Estadística descriptiva
+
+## Sección 1.1 · Medidas de centro
+
+- [Media ponderada: problema de ejemplo](media-ponderada.qmd)
+
+## Sección 1.2 · Medidas de dispersión
+
+Contenido previsto.
+
+# Capítulo 2 · Probabilidad
+
+Contenido previsto.
+
+# Capítulo 3 · Inferencia estadística
+
+Contenido previsto.
+

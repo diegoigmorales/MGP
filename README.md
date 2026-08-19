@@ -2,6 +2,8 @@
 
 Base de conocimiento abierta e interconectada para la preparación de la PAES de Matemática, publicada con Quarto.
 
+El proyecto ofrece tres recorridos conectados: análisis de preguntas PAES, libro de matemática y profundización universitaria. Consulta la [organización editorial](docs/organizacion-editorial.md).
+
 ## Desarrollo local
 
 Requisitos: Python 3.11 o superior y [Quarto](https://quarto.org/docs/get-started/).
@@ -25,7 +27,7 @@ Contenido del objeto.
 :::
 ```
 
-Relaciones admitidas: `usa`, `requiere`, `demuestra`, `generaliza`, `especializa`, `relacionado`, `error_asociado`, `alternativa` y `prerequisito`.
+Relaciones admitidas: `usa`, `requiere`, `demuestra`, `generaliza`, `especializa`, `relacionado`, `error_asociado`, `alternativa`, `prerequisito`, `pertenece_a`, `evalua`, `profundiza`, `aplica` y `similar_a`.
 
 Los tags tienen cuatro caracteres en mayúsculas (`0-9`, `A-Z`). Una vez asignados, no se renombran ni reutilizan. Antes de publicar, el script detecta tags inválidos o duplicados y referencias rotas.
 
@@ -41,4 +43,3 @@ Para producir PDF se necesita una distribución TeX compatible con TikZ/pgfplots
 ```powershell
 quarto render --to pdf
 ```
-

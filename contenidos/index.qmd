@@ -2,7 +2,28 @@
 title: "Contenidos"
 ---
 
-Los índices temáticos se irán derivando del registro de objetos. Por ahora:
+La plataforma posee tres recorridos complementarios. Todos utilizan el mismo registro de objetos y el mismo sistema global de tags.
 
-- [Porcentajes](numeros/porcentajes.qmd)
+## Preparar la PAES
 
+Análisis detallado de preguntas, soluciones alternativas, distractores, habilidades y errores frecuentes.
+
+[Entrar a Preparación PAES](paes/index.qmd)
+
+## Estudiar matemática
+
+Un libro progresivo con explicaciones, definiciones, ejemplos, teoremas y demostraciones.
+
+[Entrar al Libro de matemática](libro/index.qmd)
+
+## Profundización universitaria
+
+Contenidos y problemas de cursos iniciales de universidad conectados con sus prerrequisitos escolares.
+
+[Entrar a Nivel universitario](universitario/index.qmd)
+
+## Estructura curricular
+
+Materias, ejes, habilidades y niveles también son objetos referenciables.
+
+[Explorar el currículum](curriculum/index.qmd)

@@ -1,0 +1,66 @@
+---
+title: "Pregunta original: descuento porcentual"
+description: "Ejemplo de análisis progresivo de una pregunta tipo PAES."
+---
+
+# Parte I · La pregunta
+
+:::: {.knowledge-object #tag-0003 tag="0003" type="pregunta" title="Descuento porcentual" usa="0001,0002" pertenece_a="C001" evalua="H001"}
+## Descuento porcentual
+
+Una chaqueta cuesta $\$40\,000$ y tiene un descuento de $25\%$. ¿Cuál es su precio final?
+
+A. $\$10\,000$  
+B. $\$25\,000$  
+C. $\$30\,000$  
+D. $\$35\,000$
+
+::: {.callout-note collapse="true"}
+## Resolución principal
+
+El descuento es
+
+$$
+40\,000\cdot\frac{25}{100}=10\,000.
+$$
+
+Por tanto, el precio final es $40\,000-10\,000=30\,000$. La respuesta es **C**.
+:::
+
+::: {.callout-tip collapse="true"}
+## Método alternativo
+
+Pagar el precio después de un descuento de $25\%$ equivale a pagar el $75\%$:
+
+$$
+40\,000\cdot 0{,}75=30\,000.
+$$
+:::
+
+::: {.callout-warning collapse="true"}
+## Análisis de distractores
+
+- **A:** confunde el monto descontado con el precio final.
+- **B:** interpreta el número $25$ como una cantidad monetaria.
+- **D:** corresponde a descontar solamente $12{,}5\%$.
+:::
+::::
+
+# Parte II · Qué se espera del estudiante
+
+## Materia
+
+La pregunta pertenece al eje [Números](../../../curriculum/ejes.qmd#tag-C001).
+
+## Habilidad
+
+Evalúa [resolver problemas](../../../curriculum/habilidades.qmd#tag-H001): traducir una situación contextual a una operación porcentual y comprobar la razonabilidad del resultado.
+
+## Teoría necesaria
+
+- [Definición de porcentaje](../../../libro/numeros/porcentajes.qmd#tag-0001)
+- [Técnica para calcular un porcentaje](../../../libro/numeros/porcentajes.qmd#tag-0002)
+
+# Parte III · Procedencia
+
+Esta es una pregunta original del proyecto. Si fuera una pregunta externa, aquí se mostrarían autor, título, fuente, enlace, titular de derechos y fundamento de uso.

@@ -1,0 +1,42 @@
+---
+title: "Libro de matemática"
+description: "Una exposición progresiva, rigurosa e interconectada."
+---
+
+# Parte I · Fundamentos y números
+
+## Capítulo 1 · Lenguaje matemático
+
+Proposiciones, conjuntos, operaciones y formas de argumentación *(contenido previsto)*.
+
+## Capítulo 2 · Números y proporcionalidad
+
+- [Índice de números](numeros/index.qmd)
+- [Porcentajes](numeros/porcentajes.qmd)
+
+# Parte II · Álgebra y funciones
+
+## Capítulo 3 · Expresiones y ecuaciones
+
+Contenido previsto.
+
+## Capítulo 4 · Funciones
+
+Contenido previsto.
+
+# Parte III · Geometría
+
+## Capítulo 5 · Geometría euclidiana
+
+Contenido previsto.
+
+# Parte IV · Probabilidad y estadística
+
+## Capítulo 6 · Azar y datos
+
+Contenido previsto.
+
+# Parte V · Puentes hacia la universidad
+
+Cada capítulo podrá terminar con una sección opcional de profundización enlazada al [nivel universitario](../universitario/index.qmd).
+

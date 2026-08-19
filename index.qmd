@@ -7,9 +7,32 @@ description: "Una base de conocimiento rigurosa e interconectada para preparar l
 
 Este proyecto no es un solucionario. Cada definición, técnica, pregunta, error y demostración es un nodo estable de una red de conocimiento matemático.
 
-Empieza por el [primer contenido](contenidos/numeros/porcentajes.qmd) o explora el [catálogo completo](_generated/catalogo.qmd), que se construye automáticamente.
+## ¿Qué quieres hacer?
+
+### Preparar la PAES
+
+Estudiar preguntas con varias soluciones, análisis de distractores, errores frecuentes, materia y habilidad evaluada.
+
+[Ir a Preparación PAES](contenidos/paes/index.qmd)
+
+### Estudiar matemática
+
+Recorrer un gran libro de texto con definiciones, teoremas, demostraciones, ejemplos y explicaciones progresivas.
+
+[Ir al Libro de matemática](contenidos/libro/index.qmd)
+
+### Profundizar en matemática universitaria
+
+Estudiar problemas y contenidos iniciales de cálculo, álgebra, probabilidad y estadística, enlazados con sus bases escolares.
+
+[Ir a Nivel universitario](contenidos/universitario/index.qmd)
 
 ## Cómo leer una página
 
-Cada objeto muestra un tag permanente. Los vínculos entre objetos y las referencias inversas permiten avanzar desde una pregunta hacia sus prerrequisitos, métodos, errores frecuentes y generalizaciones.
+Cada objeto muestra un tag permanente. Los vínculos y backlinks permiten recorrer, por ejemplo:
 
+```text
+Pregunta PAES → técnica → definición → demostración → profundización universitaria
+```
+
+También puedes explorar el [catálogo completo](_generated/catalogo.qmd), construido automáticamente.

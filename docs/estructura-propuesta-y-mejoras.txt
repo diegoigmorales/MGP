@@ -1,0 +1,670 @@
+MATEMÁTICA PARA GAÑANES Y PATANES
+ESTRUCTURA POSIBLE DEL PROYECTO Y MEJORAS RECOMENDADAS
+======================================================
+
+Este documento presenta un mapa conceptual posible del proyecto. No significa
+que todas las carpetas deban crearse inmediatamente. Conviene conservarlo como
+plano arquitectónico y crear cada sección cuando exista contenido real.
+
+
+1. ESTRUCTURA GENERAL PROPUESTA
+===============================
+
+MGP/
+|-- index.qmd
+|-- acerca.qmd
+|-- colaboradores.qmd
+|-- como-contribuir.qmd
+|-- _quarto.yml
+|-- styles.css
+|-- README.md
+|-- LICENSE-CONTENT.md
+|-- LICENSE-CODE.md
+|
+|-- contenidos/
+|   |-- index.qmd
+|   |
+|   |-- paes/
+|   |   |-- index.qmd
+|   |   |
+|   |   |-- introduccion/
+|   |   |   |-- estructura-paes.qmd
+|   |   |   |-- habilidades-evaluadas.qmd
+|   |   |   |-- como-estudiar.qmd
+|   |   |   `-- como-leer-un-analisis.qmd
+|   |   |
+|   |   |-- m1/
+|   |   |   |-- index.qmd
+|   |   |   |-- preguntas-oficiales/
+|   |   |   |   |-- index.qmd
+|   |   |   |   |-- admision-2024/
+|   |   |   |   |   |-- numeros.qmd
+|   |   |   |   |   |-- algebra-funciones.qmd
+|   |   |   |   |   |-- geometria.qmd
+|   |   |   |   |   `-- probabilidad-estadistica.qmd
+|   |   |   |   |-- admision-2025/
+|   |   |   |   `-- admision-2026/
+|   |   |   |-- preguntas-originales/
+|   |   |   |   |-- numeros/
+|   |   |   |   |-- algebra-funciones/
+|   |   |   |   |-- geometria/
+|   |   |   |   `-- probabilidad-estadistica/
+|   |   |   |-- por-eje/
+|   |   |   |   |-- numeros.qmd
+|   |   |   |   |-- algebra-funciones.qmd
+|   |   |   |   |-- geometria.qmd
+|   |   |   |   `-- probabilidad-estadistica.qmd
+|   |   |   `-- simulacros/
+|   |   |       |-- simulacro-01.qmd
+|   |   |       `-- simulacro-02.qmd
+|   |   |
+|   |   |-- m2/
+|   |   |   |-- index.qmd
+|   |   |   |-- preguntas-oficiales/
+|   |   |   |-- preguntas-originales/
+|   |   |   |-- por-eje/
+|   |   |   `-- simulacros/
+|   |   |
+|   |   |-- habilidades/
+|   |   |   |-- resolver-problemas.qmd
+|   |   |   |-- modelar.qmd
+|   |   |   |-- representar.qmd
+|   |   |   `-- argumentar.qmd
+|   |   |
+|   |   |-- tecnicas/
+|   |   |   |-- estimacion.qmd
+|   |   |   |-- descarte-de-alternativas.qmd
+|   |   |   |-- sustitucion.qmd
+|   |   |   |-- trabajo-hacia-atras.qmd
+|   |   |   `-- interpretacion-grafica.qmd
+|   |   |
+|   |   |-- errores-frecuentes/
+|   |   |   |-- errores-aritmeticos.qmd
+|   |   |   |-- errores-algebraicos.qmd
+|   |   |   |-- errores-de-interpretacion.qmd
+|   |   |   |-- errores-con-porcentajes.qmd
+|   |   |   `-- errores-probabilisticos.qmd
+|   |   |
+|   |   `-- rutas-de-aprendizaje/
+|   |       |-- diagnostico-inicial.qmd
+|   |       |-- ruta-m1-fundamental.qmd
+|   |       |-- ruta-m1-intensiva.qmd
+|   |       |-- ruta-m2.qmd
+|   |       `-- recuperacion-de-prerrequisitos.qmd
+|   |
+|   |-- libro/
+|   |   |-- index.qmd
+|   |   |-- prefacio.qmd
+|   |   |-- como-leer-el-libro.qmd
+|   |   |
+|   |   |-- parte-01-fundamentos/
+|   |   |   |-- capitulo-01-lenguaje-matematico.qmd
+|   |   |   |-- capitulo-02-logica.qmd
+|   |   |   |-- capitulo-03-conjuntos.qmd
+|   |   |   `-- capitulo-04-metodos-demostracion.qmd
+|   |   |
+|   |   |-- parte-02-numeros/
+|   |   |   |-- capitulo-05-numeros-naturales.qmd
+|   |   |   |-- capitulo-06-enteros.qmd
+|   |   |   |-- capitulo-07-racionales.qmd
+|   |   |   |-- capitulo-08-reales.qmd
+|   |   |   |-- capitulo-09-razones-proporciones.qmd
+|   |   |   |-- capitulo-10-porcentajes.qmd
+|   |   |   `-- capitulo-11-potencias-raices.qmd
+|   |   |
+|   |   |-- parte-03-algebra/
+|   |   |   |-- capitulo-12-expresiones-algebraicas.qmd
+|   |   |   |-- capitulo-13-productos-notables.qmd
+|   |   |   |-- capitulo-14-factorizacion.qmd
+|   |   |   |-- capitulo-15-ecuaciones.qmd
+|   |   |   |-- capitulo-16-inecuaciones.qmd
+|   |   |   `-- capitulo-17-sistemas-ecuaciones.qmd
+|   |   |
+|   |   |-- parte-04-funciones/
+|   |   |   |-- capitulo-18-concepto-funcion.qmd
+|   |   |   |-- capitulo-19-funcion-lineal.qmd
+|   |   |   |-- capitulo-20-funcion-cuadratica.qmd
+|   |   |   |-- capitulo-21-potencias-exponenciales.qmd
+|   |   |   `-- capitulo-22-transformaciones.qmd
+|   |   |
+|   |   |-- parte-05-geometria/
+|   |   |   |-- capitulo-23-geometria-plana.qmd
+|   |   |   |-- capitulo-24-semejanza.qmd
+|   |   |   |-- capitulo-25-circunferencia.qmd
+|   |   |   |-- capitulo-26-geometria-espacial.qmd
+|   |   |   `-- capitulo-27-transformaciones-isometricas.qmd
+|   |   |
+|   |   |-- parte-06-probabilidad/
+|   |   |   |-- capitulo-28-conteo.qmd
+|   |   |   |-- capitulo-29-probabilidad-elemental.qmd
+|   |   |   |-- capitulo-30-probabilidad-condicional.qmd
+|   |   |   `-- capitulo-31-variables-aleatorias.qmd
+|   |   |
+|   |   |-- parte-07-estadistica/
+|   |   |   |-- capitulo-32-datos-variables.qmd
+|   |   |   |-- capitulo-33-representaciones-graficas.qmd
+|   |   |   |-- capitulo-34-medidas-centro.qmd
+|   |   |   |-- capitulo-35-medidas-dispersion.qmd
+|   |   |   `-- capitulo-36-introduccion-inferencia.qmd
+|   |   |
+|   |   `-- apendices/
+|   |       |-- notacion.qmd
+|   |       |-- formulas.qmd
+|   |       |-- tablas.qmd
+|   |       `-- respuestas.qmd
+|   |
+|   |-- universitario/
+|   |   |-- index.qmd
+|   |   |-- como-usar-esta-seccion.qmd
+|   |   |-- fundamentos/
+|   |   |   |-- logica-proposicional.qmd
+|   |   |   |-- teoria-conjuntos.qmd
+|   |   |   |-- relaciones-funciones.qmd
+|   |   |   `-- escritura-demostraciones.qmd
+|   |   |-- calculo/
+|   |   |   |-- parte-01-precalculo/
+|   |   |   |-- parte-02-limites/
+|   |   |   |-- parte-03-derivadas/
+|   |   |   |-- parte-04-integrales/
+|   |   |   `-- problemas/
+|   |   |-- algebra-lineal/
+|   |   |   |-- sistemas-lineales.qmd
+|   |   |   |-- matrices.qmd
+|   |   |   |-- espacios-vectoriales.qmd
+|   |   |   |-- transformaciones-lineales.qmd
+|   |   |   `-- problemas/
+|   |   |-- probabilidad/
+|   |   |   |-- axiomas.qmd
+|   |   |   |-- variables-aleatorias.qmd
+|   |   |   |-- distribuciones.qmd
+|   |   |   `-- problemas/
+|   |   |-- estadistica/
+|   |   |   |-- estadistica-descriptiva.qmd
+|   |   |   |-- estimacion.qmd
+|   |   |   |-- pruebas-hipotesis.qmd
+|   |   |   |-- regresion.qmd
+|   |   |   `-- problemas/
+|   |   `-- problemas-de-cursos/
+|   |       |-- calculo-i/
+|   |       |   |-- problemas-originales.qmd
+|   |       |   `-- evaluaciones-comentadas.qmd
+|   |       |-- algebra-lineal/
+|   |       |-- probabilidad/
+|   |       `-- estadistica/
+|   |
+|   `-- curriculum/
+|       |-- index.qmd
+|       |-- ejes.qmd
+|       |-- materias.qmd
+|       |-- habilidades.qmd
+|       |-- niveles.qmd
+|       |-- objetivos-aprendizaje.qmd
+|       |-- temario-m1.qmd
+|       |-- temario-m2.qmd
+|       `-- relaciones-universitarias.qmd
+|
+|-- referencias/
+|   |-- bibliografia.bib
+|   |-- fuentes-paes.yml
+|   |-- fuentes-universitarias.yml
+|   |-- licencias-externas.yml
+|   `-- abreviaturas.yml
+|
+|-- datos/
+|   |-- tipos-objetos.yml
+|   |-- tipos-relaciones.yml
+|   |-- tags-reservados.yml
+|   |-- tags-retirados.yml
+|   |-- vocabulario-curricular.yml
+|   `-- instituciones.yml
+|
+|-- plantillas/
+|   |-- pregunta-paes.qmd
+|   |-- pregunta-original.qmd
+|   |-- problema-universitario.qmd
+|   |-- capitulo-libro.qmd
+|   |-- definicion.qmd
+|   |-- teorema-demostracion.qmd
+|   |-- tecnica.qmd
+|   |-- error-frecuente.qmd
+|   `-- fuente-externa.qmd
+|
+|-- assets/
+|   |-- imagenes/
+|   |   |-- propias/
+|   |   `-- externas/
+|   |-- tikz/
+|   |-- graficos/
+|   |-- datos/
+|   |-- iconos/
+|   `-- logos/
+|
+|-- scripts/
+|   |-- build_registry.py
+|   |-- validar_tags.py
+|   |-- validar_fuentes.py
+|   |-- generar_indices.py
+|   `-- generar_estadisticas.py
+|
+|-- filters/
+|   `-- knowledge.lua
+|
+|-- docs/
+|   |-- arquitectura.md
+|   |-- organizacion-editorial.md
+|   |-- guia-de-autor.md
+|   |-- guia-de-estilo.md
+|   |-- modelo-de-datos.md
+|   `-- derechos-de-autor.md
+|
+|-- _generated/
+|   |-- catalogo.qmd
+|   |-- registry.json
+|   |-- backlinks/
+|   |-- indices/
+|   |-- rutas/
+|   `-- estadisticas/
+|
+`-- .github/
+    |-- workflows/
+    |   |-- publish.yml
+    |   `-- validate.yml
+    |-- ISSUE_TEMPLATE/
+    |   |-- nuevo-contenido.yml
+    |   |-- reservar-tag.yml
+    |   |-- error-matematico.yml
+    |   `-- problema-tecnico.yml
+    `-- PULL_REQUEST_TEMPLATE.md
+
+
+2. SIGNIFICADO DE LAS SECCIONES
+===============================
+
+ARCHIVOS DE LA RAÍZ
+
+index.qmd es la portada general. acerca.qmd explica propósito y autoría.
+colaboradores.qmd reconoce aportes. como-contribuir.qmd explica el flujo de
+trabajo. _quarto.yml configura navegación y formatos; styles.css controla la
+apariencia. Las licencias separan los derechos del contenido y del código.
+
+
+CONTENIDOS/PAES
+
+Reúne preguntas oficiales divulgadas, preguntas originales, soluciones
+múltiples, distractores, errores, habilidades, técnicas, simulacros y rutas de
+aprendizaje. La carpeta de una pregunta no determina toda su clasificación: una
+pregunta puede relacionarse simultáneamente con varios ejes mediante tags.
+
+
+CONTENIDOS/LIBRO
+
+Es el gran libro matemático. Su jerarquía editorial es:
+
+Parte -> Capítulo -> Sección -> Subsección -> Objeto de conocimiento
+
+Ejemplo:
+
+Parte II. Números
+`-- Capítulo 10. Porcentajes
+    |-- 10.1 Motivación
+    |-- 10.2 Definición
+    |-- 10.3 Representación fraccionaria
+    |-- 10.4 Representación decimal
+    |-- 10.5 Técnicas
+    |-- 10.6 Ejemplos
+    |-- 10.7 Errores frecuentes
+    |-- 10.8 Problemas
+    `-- 10.9 Profundización
+
+Las secciones y subsecciones suelen vivir en el mismo QMD. No es necesario crear
+una carpeta para cada una.
+
+
+CONTENIDOS/UNIVERSITARIO
+
+Contiene fundamentos, cálculo, álgebra lineal, probabilidad, estadística,
+problemas de cursos y demostraciones más formales. Cada objeto universitario
+debería declarar sus prerrequisitos y enlazar los fundamentos escolares.
+
+
+CONTENIDOS/CURRICULUM
+
+Describe ejes, materias, habilidades, objetivos de aprendizaje, niveles,
+temarios PAES y puentes universitarios. Estos elementos pueden tener tags
+propios, de modo que sean nodos reales del grafo.
+
+
+REFERENCIAS
+
+Centraliza libros, artículos, fuentes PAES, fuentes universitarias, licencias
+externas y abreviaturas. bibliografia.bib permite integrar Quarto con BibLaTeX y
+gestores como Zotero.
+
+
+DATOS
+
+Contiene información estructurada, no contenido pedagógico: tipos de objetos,
+relaciones, tags reservados y retirados, vocabulario curricular e instituciones.
+
+
+PLANTILLAS
+
+Proporciona moldes para preguntas, capítulos, problemas, definiciones, teoremas,
+técnicas, errores y fuentes. Reduce omisiones y hace consistente la escritura.
+
+
+ASSETS
+
+Almacena imágenes, TikZ, gráficos, datos, iconos y logotipos. Separar recursos
+propios y externos facilita controlar licencias y atribuciones.
+
+
+SCRIPTS Y FILTERS
+
+Automatizan validaciones, backlinks, índices, rutas y transformaciones de
+publicación. Los autores no deberían editar manualmente resultados generados.
+
+
+DOCS
+
+Documentación interna para autores: arquitectura, modelo de datos, convenciones
+editoriales, estilo matemático, colaboración y derechos de autor.
+
+
+_GENERATED
+
+Contiene registro, catálogo, backlinks, índices, rutas y estadísticas derivados.
+Nada en esta carpeta debería editarse manualmente.
+
+
+.GITHUB
+
+Administra publicación, validaciones, reserva de tags, reportes de errores y
+revisión mediante Pull Requests.
+
+
+3. POSIBLES MEJORAS: PROS, CONTRAS Y RECOMENDACIÓN
+==================================================
+
+3.1. CREAR CARPETAS SÓLO CUANDO EXISTA CONTENIDO
+
+Pros:
+* Evita cientos de páginas vacías.
+* Reduce mantenimiento y confusión inicial.
+* Permite aprender de la experiencia editorial.
+
+Contras:
+* El proyecto se verá incompleto al comienzo.
+* Autores distintos pueden inventar nombres inconsistentes.
+
+Recomendación:
+Aplicarlo. Mantener este archivo como plano general.
+
+
+3.2. CONFIGURACIONES DIFERENTES PARA SITIO Y LIBRO PDF
+
+Pros:
+* La web puede tener navegación libre.
+* El PDF puede conservar orden lineal y capítulos estables.
+* Ambas salidas comparten la misma fuente QMD.
+
+Contras:
+* Hay dos configuraciones que mantener.
+* Debe definirse qué entra al libro y en qué orden.
+
+Recomendación:
+Implementarlo cuando existan tres o más capítulos completos.
+
+
+3.3. ASIGNADOR Y RESERVA AUTOMÁTICA DE TAGS
+
+Pros:
+* Evita duplicados entre colaboradores.
+* Impide reutilizar tags retirados.
+* Reduce errores manuales.
+
+Contras:
+* Dos ramas pueden solicitar el mismo tag simultáneamente.
+* Requiere diseñar un procedimiento de reserva.
+
+Recomendación:
+Alta prioridad. Inicialmente se pueden reservar tags mediante Issues de GitHub.
+
+
+3.4. ESQUEMA FORMAL DEL MODELO DE DATOS
+
+Pros:
+* El modelo puede sobrevivir a Quarto.
+* Facilita migraciones futuras.
+* Detecta metadatos mal escritos.
+
+Contras:
+* Aumenta la complejidad inicial.
+* Un esquema demasiado rígido dificulta experimentar.
+
+Recomendación:
+Definir pronto un esquema mínimo y ampliarlo gradualmente.
+
+
+3.5. MATERIAS Y HABILIDADES COMO OBJETOS CON TAG
+
+Pros:
+* Permite backlinks curriculares.
+* Normaliza nombres y categorías.
+* Una materia puede tener explicación y prerrequisitos.
+
+Contras:
+* Aumenta el número de objetos abstractos.
+* Hay que distinguir relaciones conceptuales de simples filtros.
+
+Recomendación:
+Implementarlo con un vocabulario curricular pequeño.
+
+
+3.6. PROCEDENCIA Y DERECHOS POR OBJETO
+
+Pros:
+* Reduce riesgos jurídicos.
+* Genera atribuciones automáticamente.
+* Distingue contenido original, citado y adaptado.
+
+Contras:
+* Añade trabajo al incorporar preguntas.
+* Algunas fuentes antiguas pueden estar incompletas.
+
+Recomendación:
+Prioridad máxima antes de incorporar preguntas oficiales sistemáticamente.
+
+
+3.7. LICENCIAS SEPARADAS PARA CONTENIDO Y CÓDIGO
+
+Pros:
+* Aclara la reutilización.
+* Facilita colaboración y atribución.
+* Separa material educativo de automatizaciones.
+
+Contras:
+* Los colaboradores deben aceptar las condiciones.
+* No cubre material externo cuyos derechos pertenezcan a terceros.
+
+Recomendación:
+Resolverlo antes de recibir contribuciones importantes.
+
+
+3.8. PROCESO FORMAL DE REVISIÓN
+
+Revisar cada aporte en cuatro dimensiones: matemática, pedagogía, integridad
+técnica y derechos/procedencia.
+
+Pros:
+* Mejora calidad y consistencia.
+* Distribuye responsabilidades.
+* Conserva historial de decisiones.
+
+Contras:
+* Puede ralentizar la publicación.
+* Requiere revisores con competencias diferentes.
+
+Recomendación:
+Comenzar con una lista de verificación breve.
+
+
+3.9. RUTAS DE APRENDIZAJE AUTOMÁTICAS
+
+Pros:
+* Personaliza el estudio sin duplicar contenido.
+* Ayuda a detectar prerrequisitos faltantes.
+* Conecta diagnóstico, teoría y preguntas.
+
+Contras:
+* Un grafo correcto no siempre produce una buena secuencia pedagógica.
+* Las rutas generadas necesitan revisión humana.
+
+Recomendación:
+Implementarlo cuando exista una cantidad suficiente de relaciones confiables.
+
+
+3.10. BÚSQUEDA Y VISUALIZACIÓN DEL GRAFO
+
+Pros:
+* Facilita descubrir contenido.
+* Muestra la naturaleza interconectada del proyecto.
+* Permite detectar objetos aislados.
+
+Contras:
+* Un grafo grande puede ser confuso.
+* Aumenta el peso y complejidad del sitio.
+* Puede distraer si hay poco contenido.
+
+Recomendación:
+Priorizar búsqueda y filtros. Dejar el grafo como herramienta secundaria.
+
+
+3.11. ESTADÍSTICAS DE APRENDIZAJE
+
+Pros:
+* Permite estudiar errores reales.
+* Mejora la estimación de dificultad.
+* Puede apoyar investigación educativa.
+
+Contras:
+* Implica privacidad, consentimiento y seguridad.
+* GitHub Pages no debe almacenar datos sensibles.
+* Muestras pequeñas pueden producir conclusiones engañosas.
+
+Recomendación:
+No implementarlo inicialmente. Tratarlo como proyecto estadístico separado.
+
+
+3.12. MANTENER TAGS DE CUATRO CARACTERES
+
+Pros:
+* Son cortos y memorables.
+* Existen 36^4 = 1.679.616 combinaciones posibles.
+* Son cómodos para referencias y enlaces.
+
+Contras:
+* La asignación aleatoria puede producir colisiones.
+* Reservar bloques reduce parte del espacio disponible.
+
+Recomendación:
+Mantener cuatro caracteres y controlar asignación y retiro.
+
+
+3.13. DIFERENCIAR DOCUMENTOS Y OBJETOS
+
+Un QMD es una unidad narrativa; un objeto con tag es una unidad semántica.
+
+Pros:
+* Los capítulos mantienen lectura fluida.
+* Los objetos son referenciables individualmente.
+* Evita miles de archivos diminutos.
+
+Contras:
+* Los capítulos grandes generan conflictos de edición.
+* Mover objetos exige regenerar índices y enlaces.
+
+Recomendación:
+Agrupar objetos relacionados y dividir sólo cuando un archivo sea difícil de
+editar o revisar.
+
+
+3.14. GUÍA DE ESTILO MATEMÁTICO Y PEDAGÓGICO
+
+Pros:
+* Unifica notación, tono y terminología.
+* Reduce correcciones repetitivas.
+* Facilita incorporar nuevos autores.
+
+Contras:
+* Requiere mantenimiento.
+* Una guía demasiado rígida puede limitar explicaciones útiles.
+
+Recomendación:
+Alta prioridad, pero comenzar con reglas breves basadas en contenido real.
+
+
+3.15. ORGANIZACIÓN DE GITHUB AL CRECER EL EQUIPO
+
+Pros:
+* Permisos y roles más granulares.
+* Equipos de matemática, edición, tecnología y derechos.
+* Mayor continuidad institucional.
+
+Contras:
+* Añade administración.
+* Puede requerir adaptar URLs y permisos.
+
+Recomendación:
+Mantener la cuenta personal al inicio y reevaluar con tres o más colaboradores
+permanentes.
+
+
+4. ORDEN DE IMPLEMENTACIÓN SUGERIDO
+===================================
+
+ETAPA 1. FUNDACIÓN
+
+1. Definir tags, tipos y relaciones mínimos.
+2. Resolver licencias y registro de procedencia.
+3. Crear una plantilla de pregunta y una de capítulo.
+4. Escribir una guía de estilo breve.
+5. Publicar un capítulo y entre cinco y diez preguntas muy bien analizadas.
+
+
+ETAPA 2. CONSISTENCIA
+
+1. Crear asignador o reserva de tags.
+2. Automatizar índices y validación de fuentes.
+3. Formalizar el modelo de datos.
+4. Incorporar revisión mediante Pull Requests.
+5. Generar sitio HTML y libro PDF desde las mismas fuentes.
+
+
+ETAPA 3. CRECIMIENTO
+
+1. Ampliar M1 y comenzar M2.
+2. Desarrollar las partes principales del libro.
+3. Añadir contenidos universitarios conectados.
+4. Generar rutas de aprendizaje.
+5. Mejorar búsqueda y filtros.
+
+
+ETAPA 4. INVESTIGACIÓN Y ESCALA
+
+1. Evaluar una organización de GitHub.
+2. Diseñar análisis estadísticos con criterios éticos.
+3. Incorporar visualización del grafo.
+4. Evaluar VPS o base de datos sólo si GitHub Pages deja de ser suficiente.
+
+
+5. PRINCIPIO CENTRAL
+====================
+
+La estructura física responde a cómo los autores escriben y cómo los lectores
+recorren el material. El grafo responde a qué es cada objeto y cómo se relaciona.
+
+Una carpeta, un capítulo o una ruta pueden cambiar. El tag de un objeto publicado
+no debe cambiar ni reutilizarse. Quarto es el motor de publicación; el modelo de
+conocimiento pertenece al proyecto.
+

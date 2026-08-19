@@ -1,0 +1,22 @@
+---
+title: "Parte I · Números"
+---
+
+# Capítulo 1 · Sistemas numéricos
+
+Contenido previsto: naturales, enteros, racionales, irracionales y reales.
+
+# Capítulo 2 · Razones y proporcionalidad
+
+## Sección 2.1 · Razones
+
+Contenido previsto.
+
+## Sección 2.2 · Porcentajes
+
+- [Definición, técnicas y ejemplos](porcentajes.qmd)
+
+# Capítulo 3 · Potencias y raíces
+
+Contenido previsto.
+

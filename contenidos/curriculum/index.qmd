@@ -1,0 +1,18 @@
+---
+title: "Estructura curricular"
+---
+
+# Parte I · Materias y ejes
+
+Las materias son nodos del grafo, no simples nombres escritos en cada pregunta.
+
+- [Ejes y materias](ejes.qmd)
+
+# Parte II · Habilidades
+
+- [Habilidades matemáticas](habilidades.qmd)
+
+# Parte III · Niveles
+
+Los metadatos de nivel permitirán distinguir contenido escolar, PAES, universitario inicial y profundización, sin duplicar objetos matemáticos.
+

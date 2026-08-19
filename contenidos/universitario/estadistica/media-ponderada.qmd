@@ -1,0 +1,59 @@
+---
+title: "Media ponderada"
+description: "Ejemplo de conexión entre porcentajes escolares y estadística universitaria."
+---
+
+# Capítulo 1 · Medidas de centro
+
+## 1.1 Del porcentaje al peso estadístico
+
+Una ponderación expresa la importancia relativa de cada observación. Cuando los pesos se presentan como porcentajes, deben sumar $100\%$.
+
+:::: {.knowledge-object #tag-U001 tag="U001" type="problema" title="Calificación final ponderada" requiere="0001,0002" profundiza="0003" pertenece_a="C002"}
+## 1.2 Problema
+
+La calificación final de un curso se calcula con tres evaluaciones:
+
+- control: $20\%$, nota $5{,}0$;
+- certamen: $30\%$, nota $4{,}5$;
+- examen: $50\%$, nota $6{,}0$.
+
+Determine la calificación final.
+
+::: {.callout-note collapse="true"}
+## Solución principal
+
+La media ponderada es
+
+$$
+0{,}20(5{,}0)+0{,}30(4{,}5)+0{,}50(6{,}0)=5{,}35.
+$$
+:::
+
+::: {.callout-tip collapse="true"}
+## Otra representación
+
+Puede escribirse como
+
+$$
+\frac{20(5{,}0)+30(4{,}5)+50(6{,}0)}{100}=5{,}35.
+$$
+:::
+::::
+
+## 1.3 Prerrequisitos escolares
+
+Este problema utiliza la [definición de porcentaje](../../libro/numeros/porcentajes.qmd#tag-0001) y la [técnica de cálculo porcentual](../../libro/numeros/porcentajes.qmd#tag-0002).
+
+## 1.4 Generalización
+
+Para valores $x_1,\ldots,x_n$ con pesos $w_1,\ldots,w_n$, la media ponderada es
+
+$$
+\bar{x}_w=\frac{\sum_{i=1}^n w_i x_i}{\sum_{i=1}^n w_i}.
+$$
+
+## 1.5 Procedencia
+
+Problema original de ejemplo. Los problemas externos deberán declarar autor, curso, institución, año, enlace y situación de derechos.
+

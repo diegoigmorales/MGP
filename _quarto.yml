@@ -12,8 +12,32 @@ website:
     left:
       - href: index.qmd
         text: Inicio
-      - href: contenidos/index.qmd
-        text: Contenidos
+      - text: Preparar la PAES
+        menu:
+          - href: contenidos/paes/index.qmd
+            text: Portada PAES
+          - href: contenidos/paes/m1/index.qmd
+            text: Competencia Matemática M1
+          - href: contenidos/paes/m1/preguntas-originales/porcentajes.qmd
+            text: Pregunta de ejemplo
+      - text: Libro de matemática
+        menu:
+          - href: contenidos/libro/index.qmd
+            text: Índice general
+          - href: contenidos/libro/numeros/index.qmd
+            text: Parte I · Números
+          - href: contenidos/libro/numeros/porcentajes.qmd
+            text: Capítulo · Porcentajes
+      - text: Universidad
+        menu:
+          - href: contenidos/universitario/index.qmd
+            text: Índice general
+          - href: contenidos/universitario/estadistica/index.qmd
+            text: Estadística
+          - href: contenidos/universitario/estadistica/media-ponderada.qmd
+            text: Problema de ejemplo
+      - href: contenidos/curriculum/index.qmd
+        text: Currículum
       - href: _generated/catalogo.qmd
         text: Catálogo
       - href: acerca.qmd
@@ -29,6 +53,7 @@ format:
     code-copy: true
     filters:
       - filters/knowledge.lua
+    number-sections: true
   pdf:
     documentclass: scrreprt
     toc: true

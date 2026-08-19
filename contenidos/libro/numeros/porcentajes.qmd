@@ -1,0 +1,79 @@
+---
+title: "Porcentajes"
+description: "Capítulo de ejemplo para el libro de matemática."
+---
+
+# Capítulo 2 · Porcentajes
+
+## 2.1 Motivación
+
+Los porcentajes permiten comparar cantidades respecto de una referencia común de cien unidades. Aparecen en descuentos, impuestos, variaciones, encuestas y análisis estadísticos.
+
+::: {.knowledge-object #tag-0001 tag="0001" type="definicion" title="Porcentaje" pertenece_a="C001"}
+## 2.2 Definición
+
+Un **porcentaje** es una razón cuyo consecuente es $100$. Decir $p\%$ equivale a
+
+$$
+\frac{p}{100}.
+$$
+:::
+
+## 2.3 Interpretaciones
+
+### 2.3.1 Como fracción
+
+$$
+25\%=\frac{25}{100}=\frac14.
+$$
+
+### 2.3.2 Como número decimal
+
+$$
+25\%=0{,}25.
+$$
+
+:::: {.knowledge-object #tag-0002 tag="0002" type="tecnica" title="Calcular un porcentaje de una cantidad" requiere="0001" pertenece_a="C001"}
+## 2.4 Técnica fundamental
+
+Para calcular el $p\%$ de una cantidad $x$, se multiplica
+
+$$
+x\cdot\frac{p}{100}.
+$$
+
+::: {.callout-tip collapse="true"}
+## Interpretación alternativa
+
+Primero se encuentra el $1\%$ dividiendo por $100$ y después se multiplica por $p$.
+:::
+::::
+
+## 2.5 Ejemplos
+
+### 2.5.1 Porcentaje de una cantidad
+
+El $20\%$ de $350$ es
+
+$$
+350\cdot\frac{20}{100}=70.
+$$
+
+### 2.5.2 Aumento y disminución
+
+Contenido previsto: distinguir el porcentaje de cambio del valor final.
+
+## 2.6 Errores frecuentes
+
+- Confundir el porcentaje descontado con el precio final.
+- Sumar o restar el número porcentual sin convertirlo en una razón.
+- Aplicar porcentajes sucesivos como si se sumaran directamente.
+
+## 2.7 Preguntas relacionadas
+
+- [Pregunta original sobre descuento](../../paes/m1/preguntas-originales/porcentajes.qmd#tag-0003)
+
+## 2.8 Profundización
+
+El concepto reaparece en ponderaciones estadísticas. Véase [media ponderada](../../universitario/estadistica/media-ponderada.qmd).
+

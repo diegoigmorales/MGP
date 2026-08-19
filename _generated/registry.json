@@ -1,22 +1,56 @@
 {
   "objects": [
     {
+      "tag": "C001",
+      "type": "materia",
+      "title": "Números",
+      "source": "contenidos/curriculum/ejes.qmd",
+      "line": 7,
+      "href": "../contenidos/curriculum/ejes.qmd#tag-C001",
+      "relations": {}
+    },
+    {
+      "tag": "C002",
+      "type": "materia",
+      "title": "Estadística",
+      "source": "contenidos/curriculum/ejes.qmd",
+      "line": 15,
+      "href": "../contenidos/curriculum/ejes.qmd#tag-C002",
+      "relations": {}
+    },
+    {
+      "tag": "H001",
+      "type": "habilidad",
+      "title": "Resolver problemas",
+      "source": "contenidos/curriculum/habilidades.qmd",
+      "line": 5,
+      "href": "../contenidos/curriculum/habilidades.qmd#tag-H001",
+      "relations": {}
+    },
+    {
       "tag": "0001",
       "type": "definicion",
       "title": "Porcentaje",
-      "source": "contenidos/numeros/porcentajes.qmd",
-      "line": 6,
-      "href": "../contenidos/numeros/porcentajes.qmd#tag-0001",
-      "relations": {}
+      "source": "contenidos/libro/numeros/porcentajes.qmd",
+      "line": 12,
+      "href": "../contenidos/libro/numeros/porcentajes.qmd#tag-0001",
+      "relations": {
+        "pertenece_a": [
+          "C001"
+        ]
+      }
     },
     {
       "tag": "0002",
       "type": "tecnica",
       "title": "Calcular un porcentaje de una cantidad",
-      "source": "contenidos/numeros/porcentajes.qmd",
-      "line": 16,
-      "href": "../contenidos/numeros/porcentajes.qmd#tag-0002",
+      "source": "contenidos/libro/numeros/porcentajes.qmd",
+      "line": 36,
+      "href": "../contenidos/libro/numeros/porcentajes.qmd#tag-0002",
       "relations": {
+        "pertenece_a": [
+          "C001"
+        ],
         "requiere": [
           "0001"
         ]
@@ -26,11 +60,37 @@
       "tag": "0003",
       "type": "pregunta",
       "title": "Descuento porcentual",
-      "source": "contenidos/numeros/porcentajes.qmd",
-      "line": 32,
-      "href": "../contenidos/numeros/porcentajes.qmd#tag-0003",
+      "source": "contenidos/paes/m1/preguntas-originales/porcentajes.qmd",
+      "line": 8,
+      "href": "../contenidos/paes/m1/preguntas-originales/porcentajes.qmd#tag-0003",
       "relations": {
         "usa": [
+          "0001",
+          "0002"
+        ],
+        "evalua": [
+          "H001"
+        ],
+        "pertenece_a": [
+          "C001"
+        ]
+      }
+    },
+    {
+      "tag": "U001",
+      "type": "problema",
+      "title": "Calificación final ponderada",
+      "source": "contenidos/universitario/estadistica/media-ponderada.qmd",
+      "line": 12,
+      "href": "../contenidos/universitario/estadistica/media-ponderada.qmd#tag-U001",
+      "relations": {
+        "profundiza": [
+          "0003"
+        ],
+        "pertenece_a": [
+          "C002"
+        ],
+        "requiere": [
           "0001",
           "0002"
         ]
@@ -38,29 +98,93 @@
     }
   ],
   "backlinks": {
+    "C001": [
+      {
+        "tag": "0001",
+        "title": "Porcentaje",
+        "source": "contenidos/libro/numeros/porcentajes.qmd",
+        "href": "../libro/numeros/porcentajes.qmd#tag-0001",
+        "relation": "pertenece_a"
+      },
+      {
+        "tag": "0002",
+        "title": "Calcular un porcentaje de una cantidad",
+        "source": "contenidos/libro/numeros/porcentajes.qmd",
+        "href": "../libro/numeros/porcentajes.qmd#tag-0002",
+        "relation": "pertenece_a"
+      },
+      {
+        "tag": "0003",
+        "title": "Descuento porcentual",
+        "source": "contenidos/paes/m1/preguntas-originales/porcentajes.qmd",
+        "href": "../paes/m1/preguntas-originales/porcentajes.qmd#tag-0003",
+        "relation": "pertenece_a"
+      }
+    ],
     "0001": [
       {
         "tag": "0002",
         "title": "Calcular un porcentaje de una cantidad",
-        "source": "contenidos/numeros/porcentajes.qmd",
+        "source": "contenidos/libro/numeros/porcentajes.qmd",
         "href": "porcentajes.qmd#tag-0002",
         "relation": "requiere"
       },
       {
         "tag": "0003",
         "title": "Descuento porcentual",
-        "source": "contenidos/numeros/porcentajes.qmd",
-        "href": "porcentajes.qmd#tag-0003",
+        "source": "contenidos/paes/m1/preguntas-originales/porcentajes.qmd",
+        "href": "../../paes/m1/preguntas-originales/porcentajes.qmd#tag-0003",
         "relation": "usa"
+      },
+      {
+        "tag": "U001",
+        "title": "Calificación final ponderada",
+        "source": "contenidos/universitario/estadistica/media-ponderada.qmd",
+        "href": "../../universitario/estadistica/media-ponderada.qmd#tag-U001",
+        "relation": "requiere"
       }
     ],
     "0002": [
       {
         "tag": "0003",
         "title": "Descuento porcentual",
-        "source": "contenidos/numeros/porcentajes.qmd",
-        "href": "porcentajes.qmd#tag-0003",
+        "source": "contenidos/paes/m1/preguntas-originales/porcentajes.qmd",
+        "href": "../../paes/m1/preguntas-originales/porcentajes.qmd#tag-0003",
         "relation": "usa"
+      },
+      {
+        "tag": "U001",
+        "title": "Calificación final ponderada",
+        "source": "contenidos/universitario/estadistica/media-ponderada.qmd",
+        "href": "../../universitario/estadistica/media-ponderada.qmd#tag-U001",
+        "relation": "requiere"
+      }
+    ],
+    "H001": [
+      {
+        "tag": "0003",
+        "title": "Descuento porcentual",
+        "source": "contenidos/paes/m1/preguntas-originales/porcentajes.qmd",
+        "href": "../paes/m1/preguntas-originales/porcentajes.qmd#tag-0003",
+        "relation": "evalua"
+      }
+    ],
+    "0003": [
+      {
+        "tag": "U001",
+        "title": "Calificación final ponderada",
+        "source": "contenidos/universitario/estadistica/media-ponderada.qmd",
+        "href": "../../../universitario/estadistica/media-ponderada.qmd#tag-U001",
+        "relation": "profundiza"
+      }
+    ],
+    "C002": [
+      {
+        "tag": "U001",
+        "title": "Calificación final ponderada",
+        "source": "contenidos/universitario/estadistica/media-ponderada.qmd",
+        "href": "../universitario/estadistica/media-ponderada.qmd#tag-U001",
+        "relation": "pertenece_a"
       }
     ]
   }

@@ -1,0 +1,24 @@
+---
+title: "Competencia Matemática M1"
+---
+
+# Parte I · Números
+
+## Capítulo 1 · Razones y porcentajes
+
+- [Descuento porcentual: pregunta original](preguntas-originales/porcentajes.qmd)
+
+# Parte II · Álgebra y funciones
+
+## Capítulo 2 · Expresiones y ecuaciones
+
+Contenido previsto.
+
+# Parte III · Geometría
+
+Contenido previsto.
+
+# Parte IV · Probabilidad y estadística
+
+Contenido previsto.
+

@@ -1,0 +1,36 @@
+---
+title: "Profundización universitaria"
+description: "Contenidos y problemas conectados con sus fundamentos escolares."
+---
+
+# Parte I · Fundamentos
+
+## Capítulo 1 · Lógica, conjuntos y demostraciones
+
+Contenido previsto.
+
+# Parte II · Cálculo
+
+## Capítulo 2 · Límites y continuidad
+
+Contenido previsto.
+
+## Capítulo 3 · Derivación e integración
+
+Contenido previsto.
+
+# Parte III · Álgebra lineal
+
+## Capítulo 4 · Vectores, matrices y transformaciones
+
+Contenido previsto.
+
+# Parte IV · Probabilidad y estadística
+
+- [Índice de estadística](estadistica/index.qmd)
+- [Problema de media ponderada](estadistica/media-ponderada.qmd)
+
+# Parte V · Problemas de cursos
+
+Los problemas podrán clasificarse por asignatura, institución, año, prerrequisitos y procedencia, sin mezclar su autoría con la del análisis original.
+

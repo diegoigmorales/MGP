@@ -14,7 +14,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 GENERATED = ROOT / "_generated"
 TAG_RE = re.compile(r"^[0-9A-Z]{4}$")
-OPEN_RE = re.compile(r"^\s*:::\s*\{([^}]*)\}\s*$")
+OPEN_RE = re.compile(r"^\s*:{3,}\s*\{([^}]*)\}\s*$")
 RELATIONS = {
     "usa",
     "requiere",
@@ -25,6 +25,11 @@ RELATIONS = {
     "error_asociado",
     "alternativa",
     "prerequisito",
+    "pertenece_a",
+    "evalua",
+    "profundiza",
+    "aplica",
+    "similar_a",
 }
 
 

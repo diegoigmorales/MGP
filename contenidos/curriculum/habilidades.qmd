@@ -1,0 +1,10 @@
+---
+title: "Habilidades matemáticas"
+---
+
+::: {.knowledge-object #tag-H001 tag="H001" type="habilidad" title="Resolver problemas"}
+## Resolver problemas
+
+Reconocer la información relevante, seleccionar una estrategia, ejecutar procedimientos y evaluar si la respuesta es coherente con el contexto.
+:::
+

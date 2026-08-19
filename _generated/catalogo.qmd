@@ -4,6 +4,10 @@ title: "Catálogo de objetos"
 
 Este índice se genera automáticamente.
 
-- `0001` · **definicion** · [Porcentaje](../contenidos/numeros/porcentajes.qmd#tag-0001)
-- `0003` · **pregunta** · [Descuento porcentual](../contenidos/numeros/porcentajes.qmd#tag-0003)
-- `0002` · **tecnica** · [Calcular un porcentaje de una cantidad](../contenidos/numeros/porcentajes.qmd#tag-0002)
+- `0001` · **definicion** · [Porcentaje](../contenidos/libro/numeros/porcentajes.qmd#tag-0001)
+- `H001` · **habilidad** · [Resolver problemas](../contenidos/curriculum/habilidades.qmd#tag-H001)
+- `C001` · **materia** · [Números](../contenidos/curriculum/ejes.qmd#tag-C001)
+- `C002` · **materia** · [Estadística](../contenidos/curriculum/ejes.qmd#tag-C002)
+- `0003` · **pregunta** · [Descuento porcentual](../contenidos/paes/m1/preguntas-originales/porcentajes.qmd#tag-0003)
+- `U001` · **problema** · [Calificación final ponderada](../contenidos/universitario/estadistica/media-ponderada.qmd#tag-U001)
+- `0002` · **tecnica** · [Calcular un porcentaje de una cantidad](../contenidos/libro/numeros/porcentajes.qmd#tag-0002)
