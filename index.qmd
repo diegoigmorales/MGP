@@ -1,6 +1,7 @@
 ---
 title: "Matemática para Gañanes y Patanes"
-description: "Una base de conocimiento rigurosa e interconectada para preparar la PAES de Matemática."
+subtitle: "Para enseñar sin fingir que nunca olvidamos nada"
+description: "Para enseñar sin fingir que nunca olvidamos nada."
 ---
 
 # Matemática que se puede recorrer

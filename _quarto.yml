@@ -43,7 +43,7 @@ website:
       - href: acerca.qmd
         text: Acerca de
   page-footer:
-    center: "Contenido educativo abierto. Identificadores permanentes e inmutables."
+    center: "Para enseñar sin fingir que nunca olvidamos nada."
 
 format:
   html:

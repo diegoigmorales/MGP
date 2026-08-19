@@ -1,5 +1,7 @@
 # Matemática para Gañanes y Patanes
 
+*Para enseñar sin fingir que nunca olvidamos nada.*
+
 Base de conocimiento abierta e interconectada para la preparación de la PAES de Matemática, publicada con Quarto.
 
 El proyecto ofrece tres recorridos conectados: análisis de preguntas PAES, libro de matemática y profundización universitaria. Consulta la [organización editorial](docs/organizacion-editorial.md).
