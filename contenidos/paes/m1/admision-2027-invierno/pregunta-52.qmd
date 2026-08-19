@@ -1,0 +1,37 @@
+---
+title: "Pregunta 52 · PAES M1 Invierno — Admisión 2027"
+description: "Pregunta de la PAES de Competencia Matemática M1 de Invierno para el proceso de Admisión 2027."
+---
+
+:::: {.knowledge-object #tag-2752 tag="2752" type="pregunta" title="Pregunta 52 · PAES M1 Invierno — Admisión 2027"}
+## Pregunta 52
+
+En la siguiente tabla se presenta el tiempo que las personas han trabajado en un colegio.
+
+\[
+\begin{array}{c|c}
+\text{Tiempo de trabajo en años} & \text{Cantidad de personas} \\
+\hline
+1 & 2 \\
+2 & 4 \\
+3 & 5 \\
+4 & 4 \\
+5 & 2 \\
+6 & 7 \\
+7 & 2 \\
+8 & 8 \\
+9 & 3 \\
+10 & 2
+\end{array}
+\]
+
+Si se entrega una bonificación salarial a aquellas personas que lleven como mínimo $6$ años trabajando en el colegio, ¿cuántas personas recibirán la bonificación salarial?
+
+
+A. $12$
+B. $17$
+C. $18$
+D. $23$
+
+
+::::

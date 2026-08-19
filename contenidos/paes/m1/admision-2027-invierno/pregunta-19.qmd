@@ -1,0 +1,22 @@
+---
+title: "Pregunta 19 · PAES M1 Invierno — Admisión 2027"
+description: "Pregunta de la PAES de Competencia Matemática M1 de Invierno para el proceso de Admisión 2027."
+---
+
+:::: {.knowledge-object #tag-2719 tag="2719" type="pregunta" title="Pregunta 19 · PAES M1 Invierno — Admisión 2027"}
+## Pregunta 19
+
+La Maratón de Santiago, realizada el 28 de abril de 2024 tenía tres categorías 10k, 21k y 42k, y participaron $31000$ corredores.
+
+Del total de corredores, un $25\,\%$ eran extranjeros y un $12\,\%$ de estos compitieron en la categoría 10k.
+
+¿Cuál de las siguientes expresiones representa la cantidad de corredores extranjeros que compitieron en la categoría 10k?
+
+
+A. $25 \cdot 12 \cdot 31000$
+B. $(25 + 12) \cdot 31000$
+C. $0.25 \cdot 0.12 \cdot 31000$
+D. $(0.25 + 0.12) \cdot 31000$
+
+
+::::

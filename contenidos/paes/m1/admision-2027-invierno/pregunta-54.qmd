@@ -1,0 +1,37 @@
+---
+title: "Pregunta 54 · PAES M1 Invierno — Admisión 2027"
+description: "Pregunta de la PAES de Competencia Matemática M1 de Invierno para el proceso de Admisión 2027."
+---
+
+:::: {.knowledge-object #tag-2754 tag="2754" type="pregunta" title="Pregunta 54 · PAES M1 Invierno — Admisión 2027"}
+## Pregunta 54
+
+Una municipalidad desea implementar un plan de vacunación y esterilización de mascotas, para lo cual realiza una encuesta sobre la cantidad de mascotas que hay en cierto sector.
+
+Los resultados de la encuesta se presentan en la siguiente tabla:
+
+\[
+\begin{array}{c|c}
+\text{Cantidad de mascotas} & \text{Cantidad de familias} \\
+\hline
+0 & 12 \\
+1 & 10 \\
+2 & 15 \\
+3 & 6 \\
+4 & 4 \\
+5 \text{ o más} & 2
+\end{array}
+\]
+
+Esta municipalidad dará un beneficio a las familias que tengan $3$ o más mascotas que consiste en vacunación o esterilización gratis.
+
+¿Cuál de las siguientes expresiones representa el porcentaje de familias beneficiadas?
+
+
+A. $\dfrac{7}{50} \cdot 100\%$
+B. $\dfrac{13}{50} \cdot 100\%$
+C. $\dfrac{37}{50} \cdot 100\%$
+D. $\dfrac{43}{50} \cdot 100\%$
+
+
+::::

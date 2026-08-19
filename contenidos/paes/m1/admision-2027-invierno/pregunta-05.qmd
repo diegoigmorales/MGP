@@ -1,0 +1,26 @@
+---
+title: "Pregunta 5 · PAES M1 Invierno — Admisión 2027"
+description: "Pregunta de la PAES de Competencia Matemática M1 de Invierno para el proceso de Admisión 2027."
+---
+
+:::: {.knowledge-object #tag-2705 tag="2705" type="pregunta" title="Pregunta 5 · PAES M1 Invierno — Admisión 2027"}
+## Pregunta 5
+
+En la figura adjunta se representa una barra de $20\,\mathrm{kg}$ con tres discos distintos en cada lado. Los discos de cada lado tienen una masa de $5\,\mathrm{kg}$, $10\,\mathrm{kg}$ y $15\,\mathrm{kg}$.
+
+
+::: {.text-center}
+(imagen)
+:::
+
+
+Si se quiere levantar la misma cantidad de kilogramos usando solo discos de $10\,\mathrm{kg}$, ¿cuántos discos se deben colocar a cada lado de la barra?
+
+
+A. $3$
+B. $4$
+C. $5$
+D. $6$
+
+
+::::

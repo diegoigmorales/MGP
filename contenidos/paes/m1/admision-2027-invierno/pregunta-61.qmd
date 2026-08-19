@@ -1,0 +1,26 @@
+---
+title: "Pregunta 61 · PAES M1 Invierno — Admisión 2027"
+description: "Pregunta de la PAES de Competencia Matemática M1 de Invierno para el proceso de Admisión 2027."
+---
+
+:::: {.knowledge-object #tag-2761 tag="2761" type="pregunta" title="Pregunta 61 · PAES M1 Invierno — Admisión 2027"}
+## Pregunta 61
+
+En el siguiente diagrama de cajón se presenta el tiempo que tardó un grupo de personas en completar un circuito deportivo.
+
+
+::: {.text-center}
+(imagen)
+:::
+
+
+¿Qué representa el $16$ en el diagrama de cajón?
+
+
+A. Que al menos un $75\,\%$ de las personas terminó el circuito en $16\,\mathrm{min}$ o menos.
+B. Que un $16\,\%$ de las personas terminó el circuito en a lo más $16\,\mathrm{min}$.
+C. Que la dieciseisava persona que terminó el circuito demoró $16\,\mathrm{min}$.
+D. Que la cuarta persona que terminó el circuito demoró $16\,\mathrm{min}$.
+
+
+::::

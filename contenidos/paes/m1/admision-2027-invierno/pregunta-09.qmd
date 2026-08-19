@@ -1,0 +1,42 @@
+---
+title: "Pregunta 9 · PAES M1 Invierno — Admisión 2027"
+description: "Pregunta de la PAES de Competencia Matemática M1 de Invierno para el proceso de Admisión 2027."
+---
+
+:::: {.knowledge-object #tag-2709 tag="2709" type="pregunta" title="Pregunta 9 · PAES M1 Invierno — Admisión 2027"}
+## Pregunta 9
+
+Una persona necesita comprar $3\,\mathrm{kg}$ de azúcar, $6\,\mathrm{L}$ de lavaozza, $4\,\mathrm{L}$ de leche y $1\,\mathrm{kg}$ de arroz.
+
+En la siguiente tabla se registraron los precios de los productos por comprar.
+
+\[
+\begin{array}{c|c|c}
+\text{Producto} & \text{Precio unitario} & \text{Promoción por dos unidades} \\
+\hline
+1 \text{ kilogramo de azúcar} & \$1400 & \$2600 \\
+\frac{1}{2} \text{ litro de lavaozza} & \$1600 & \$3000 \\
+1 \text{ litro de leche} & \$1200 & \$2200 \\
+1 \text{ kilogramo de arroz} & \$1700 & \$3300
+\end{array}
+\]
+
+Para calcular el menor precio por pagar, la persona efectúa el siguiente procedimiento, en el cual comete un error.
+
+
+- Paso 1: calcula que en azúcar debe gastar $\$2600 + \$1400 = \$4000$.
+- Paso 2: calcula que en lavaozza debe gastar $3 \cdot \$3000 = \$9000$.
+- Paso 3: calcula que en leche debe gastar $2 \cdot \$2200 = \$4400$.
+- Paso 4: suma a los valores anteriores el precio de un kilogramo de arroz y obtiene que el precio final por pagar es $\$19100$.
+
+
+¿En cuál de los pasos la persona cometió el error?
+
+
+A. En el Paso 1
+B. En el Paso 2
+C. En el Paso 3
+D. En el Paso 4
+
+
+::::

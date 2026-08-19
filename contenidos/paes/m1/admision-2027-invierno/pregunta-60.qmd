@@ -1,0 +1,26 @@
+---
+title: "Pregunta 60 · PAES M1 Invierno — Admisión 2027"
+description: "Pregunta de la PAES de Competencia Matemática M1 de Invierno para el proceso de Admisión 2027."
+---
+
+:::: {.knowledge-object #tag-2760 tag="2760" type="pregunta" title="Pregunta 60 · PAES M1 Invierno — Admisión 2027"}
+## Pregunta 60
+
+En el siguiente gráfico se presenta el promedio de las puntuaciones que ha recibido un hotel por parte de sus huéspedes con respecto a seis categorías.
+
+
+::: {.text-center}
+(imagen)
+:::
+
+
+Si todas las personas contestaron todas las categorías, ¿cuál es el promedio general de puntuación del hotel considerando estas seis categorías?
+
+
+A. $4.7$ puntos
+B. $4.8$ puntos
+C. $4.9$ puntos
+D. $5$ puntos
+
+
+::::

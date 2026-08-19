@@ -1,0 +1,26 @@
+---
+title: "Pregunta 44 · PAES M1 Invierno — Admisión 2027"
+description: "Pregunta de la PAES de Competencia Matemática M1 de Invierno para el proceso de Admisión 2027."
+---
+
+:::: {.knowledge-object #tag-2744 tag="2744" type="pregunta" title="Pregunta 44 · PAES M1 Invierno — Admisión 2027"}
+## Pregunta 44
+
+Un estanque de agua tiene forma de prisma recto de base rectangular, cuya base mide $4\,\mathrm{m}$ de ancho y $3\,\mathrm{m}$ de largo. Este se debe llenar hasta $2\,\mathrm{m}$ de altura con agua proveniente de un ducto.
+
+Para calcular el caudal del agua que sale de un ducto, se puede utilizar la siguiente expresión:
+\[
+\frac{V}{t}
+\]
+tal que $V$ corresponde al volumen de agua que sale del ducto durante $t$ unidades de tiempo.
+
+¿Cuál de las siguientes expresiones corresponde al caudal de agua que debe salir del ducto, medido en $\mathrm{m^3/h}$, para que el estanque se llene hasta $2\,\mathrm{m}$ de altura en $10\,\mathrm{h}$?
+
+
+A. $\dfrac{4 \cdot 3 \cdot 2}{10}$
+B. $\dfrac{4 + 3 + 2}{10}$
+C. $\dfrac{2(4 + 3)}{10}$
+D. $\dfrac{2(4 \cdot 3 + 2 \cdot 4 + 2 \cdot 3)}{10}$
+
+
+::::

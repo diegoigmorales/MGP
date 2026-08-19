@@ -1,0 +1,26 @@
+---
+title: "Pregunta 31 · PAES M1 Invierno — Admisión 2027"
+description: "Pregunta de la PAES de Competencia Matemática M1 de Invierno para el proceso de Admisión 2027."
+---
+
+:::: {.knowledge-object #tag-2731 tag="2731" type="pregunta" title="Pregunta 31 · PAES M1 Invierno — Admisión 2027"}
+## Pregunta 31
+
+En la siguiente infografía se presenta información respecto a la rapidez máxima permitida en zonas de escuela.
+
+
+::: {.text-center}
+(imagen)
+:::
+
+
+¿En cuál de las siguientes gráficas se representan únicamente todas las posibles rapideces de un vehículo, en $\mathrm{km/h}$, con las que puede transitar en zona de escuela en horario de entrada y salida de clases?
+
+
+A. (imagen)
+B. (imagen)
+C. (imagen)
+D. (imagen)
+
+
+::::

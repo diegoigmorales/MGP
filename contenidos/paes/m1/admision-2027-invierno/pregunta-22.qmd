@@ -1,0 +1,18 @@
+---
+title: "Pregunta 22 · PAES M1 Invierno — Admisión 2027"
+description: "Pregunta de la PAES de Competencia Matemática M1 de Invierno para el proceso de Admisión 2027."
+---
+
+:::: {.knowledge-object #tag-2722 tag="2722" type="pregunta" title="Pregunta 22 · PAES M1 Invierno — Admisión 2027"}
+## Pregunta 22
+
+Un Gúgol es un número muy grande cuyos dígitos son un $1$ seguido por cien ceros. Por otra parte, un Gúgoplex es un número inmensamente más grande que el anterior cuyos dígitos son un $1$ seguido por un Gúgol de ceros. ¿Cuál de los siguientes números equivale a un Gúgoplex?
+
+
+A. $10^{10^{100}}$
+B. $10^{100} \cdot 10^{100}$
+C. $2 \cdot 10^{100}$
+D. $10^{10^{99}}$
+
+
+::::

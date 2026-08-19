@@ -1,0 +1,28 @@
+---
+title: "Pregunta 48 · PAES M1 Invierno — Admisión 2027"
+description: "Pregunta de la PAES de Competencia Matemática M1 de Invierno para el proceso de Admisión 2027."
+---
+
+:::: {.knowledge-object #tag-2748 tag="2748" type="pregunta" title="Pregunta 48 · PAES M1 Invierno — Admisión 2027"}
+## Pregunta 48
+
+En el siguiente gráfico se representa una simulación bidimensional de una proteína con su grupo metilo, localizado en el punto $P(6, 2)$, con el objetivo de estudiar su desplazamiento.
+
+
+::: {.text-center}
+(imagen)
+:::
+
+
+Dicha proteína con su grupo metilo es sometida a una rotación de $90^\circ$ en sentido antihorario con respecto al origen del sistema de coordenadas cartesianas.
+
+¿En cuál de los siguientes gráficos se representa la proteína con su grupo metilo después de la rotación?
+
+
+A. (imagen)
+B. (imagen)
+C. (imagen)
+D. (imagen)
+
+
+::::

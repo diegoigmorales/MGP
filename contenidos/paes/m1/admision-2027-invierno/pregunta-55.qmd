@@ -1,0 +1,26 @@
+---
+title: "Pregunta 55 · PAES M1 Invierno — Admisión 2027"
+description: "Pregunta de la PAES de Competencia Matemática M1 de Invierno para el proceso de Admisión 2027."
+---
+
+:::: {.knowledge-object #tag-2755 tag="2755" type="pregunta" title="Pregunta 55 · PAES M1 Invierno — Admisión 2027"}
+## Pregunta 55
+
+En el siguiente gráfico se presentan los resultados de una encuesta realizada el 2016 a un grupo de personas estadounidenses y a un grupo de nutricionistas sobre qué alimentos consideraban saludables.
+
+
+::: {.text-center}
+(imagen)
+:::
+
+
+¿Para qué alimento existe la mayor diferencia entre los porcentajes según lo que consideran saludable el grupo de nutricionistas versus el grupo de estadounidenses encuestados?
+
+
+A. Helado
+B. Quinoa
+C. Manzana
+D. Barra de cereal
+
+
+::::

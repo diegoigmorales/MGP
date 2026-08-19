@@ -1,0 +1,20 @@
+---
+title: "Pregunta 35 · PAES M1 Invierno — Admisión 2027"
+description: "Pregunta de la PAES de Competencia Matemática M1 de Invierno para el proceso de Admisión 2027."
+---
+
+:::: {.knowledge-object #tag-2735 tag="2735" type="pregunta" title="Pregunta 35 · PAES M1 Invierno — Admisión 2027"}
+## Pregunta 35
+
+Una empresa contrata a una persona para que publique videos mostrando los beneficios de sus productos. La empresa le paga $\$150000$, más $\$100000$ por cada video publicado.
+
+¿Cuál de las siguientes funciones modela el dinero que recibirá la persona tras publicar $x$ videos para la empresa?
+
+
+A. $f(x) = 150000x + 100000$
+B. $g(x) = 100000x + 150000$
+C. $h(x) = 100000 \cdot (x + 150000)$
+D. $k(x) = x \cdot (100000 + 150000)$
+
+
+::::

@@ -18,6 +18,8 @@ website:
             text: Portada PAES
           - href: contenidos/paes/m1/index.qmd
             text: Competencia Matemática M1
+          - href: contenidos/paes/m1/admision-2027-invierno/index.qmd
+            text: M1 Invierno · Admisión 2027
           - href: contenidos/paes/m1/preguntas-originales/porcentajes.qmd
             text: Pregunta de ejemplo
       - text: Libro de matemática

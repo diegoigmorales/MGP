@@ -1,0 +1,26 @@
+---
+title: "Pregunta 21 · PAES M1 Invierno — Admisión 2027"
+description: "Pregunta de la PAES de Competencia Matemática M1 de Invierno para el proceso de Admisión 2027."
+---
+
+:::: {.knowledge-object #tag-2721 tag="2721" type="pregunta" title="Pregunta 21 · PAES M1 Invierno — Admisión 2027"}
+## Pregunta 21
+
+Para promocionar un negocio se contrata a un grupo de personas para que cada una pueda captar a un máximo de $20$ clientes por día.
+
+Para calcular el pago diario, en pesos, que recibirá cada persona se utiliza el siguiente modelo:
+\[
+2000 \cdot C + 10000,
+\]
+tal que $C$ es la cantidad de clientes captados.
+
+Si una persona logró captar en un día $16$ clientes, ¿qué porcentaje recibió del pago máximo diario?
+
+
+A. $16\,\%$
+B. $20\,\%$
+C. $80\,\%$
+D. $84\,\%$
+
+
+::::

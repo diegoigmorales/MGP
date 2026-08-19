@@ -1,0 +1,41 @@
+---
+title: "Pregunta 1 · PAES M1 Invierno — Admisión 2027"
+description: "Pregunta de la PAES de Competencia Matemática M1 de Invierno para el proceso de Admisión 2027."
+---
+
+:::: {.knowledge-object #tag-2701 tag="2701" type="pregunta" title="Pregunta 1 · PAES M1 Invierno — Admisión 2027"}
+## Pregunta 1
+
+En un juego de mesa se pueden obtener las siguientes tarjetas:
+
+
+::: {.text-center}
+Diamante \quad Estrella \quad Calavera
+:::
+
+
+Para determinar el puntaje de cada jugador se debe sumar o restar los puntos de cada tarjeta.
+
+Al finalizar una partida, cuatro jugadores habían sacado las siguientes tarjetas:
+
+\[
+\begin{array}{c|ccc}
+& \text{Diamante} & \text{Estrella} & \text{Calavera} \\
+\hline
+\text{Claudio} & 5 & 10 & 1 \\
+\text{María} & 3 & 10 & 0 \\
+\text{Angélica} & 5 & 5 & 2 \\
+\text{Roberto} & 8 & 5 & 1
+\end{array}
+\]
+
+¿Cuál de los jugadores obtuvo el mayor puntaje en esta partida?
+
+
+A. Claudio
+B. María
+C. Angélica
+D. Roberto
+
+
+::::

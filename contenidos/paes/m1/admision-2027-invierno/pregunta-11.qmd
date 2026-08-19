@@ -1,0 +1,28 @@
+---
+title: "Pregunta 11 · PAES M1 Invierno — Admisión 2027"
+description: "Pregunta de la PAES de Competencia Matemática M1 de Invierno para el proceso de Admisión 2027."
+---
+
+:::: {.knowledge-object #tag-2711 tag="2711" type="pregunta" title="Pregunta 11 · PAES M1 Invierno — Admisión 2027"}
+## Pregunta 11
+
+En el siguiente mapa se presenta la hora en cuatro ciudades del mundo en un mismo momento del día lunes.
+
+
+::: {.text-center}
+(imagen)
+:::
+
+
+Una persona viaja en un vuelo directo desde Nueva York hasta Tokio. Su vuelo partió a las $05:00$ $\mathrm{h}$ de Nueva York de ese día lunes y duró $14.5\,\mathrm{h}$.
+
+¿A qué hora de Tokio aterrizó el vuelo de esta persona?
+
+
+A. A las $19:50$ $\mathrm{h}$ del día lunes
+B. A las $19:30$ $\mathrm{h}$ del día lunes
+C. A las $09:30$ $\mathrm{h}$ del día martes
+D. A las $09:50$ $\mathrm{h}$ del día miércoles
+
+
+::::

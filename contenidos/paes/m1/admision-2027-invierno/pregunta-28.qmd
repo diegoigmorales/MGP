@@ -1,0 +1,29 @@
+---
+title: "Pregunta 28 · PAES M1 Invierno — Admisión 2027"
+description: "Pregunta de la PAES de Competencia Matemática M1 de Invierno para el proceso de Admisión 2027."
+---
+
+:::: {.knowledge-object #tag-2728 tag="2728" type="pregunta" title="Pregunta 28 · PAES M1 Invierno — Admisión 2027"}
+## Pregunta 28
+
+En una empresa hay $4$ trabajadores para cosechar uvas y estos logran llenar $2000$ cajas en $20$ días de trabajo, todos trabajando todos los días, al mismo ritmo y la misma cantidad de horas.
+
+En la empresa se realiza el siguiente procedimiento para calcular la cantidad de trabajadores necesarios para llenar $32000$ cajas en $10$ días, bajo las mismas condiciones, cometiéndose un error.
+
+
+- Paso 1: se calcula la cantidad de cajas que llenan diariamente los $4$ trabajadores iniciales en conjunto como $\dfrac{2000}{20}$, obteniéndose que llenan $100$ cajas diarias.
+- Paso 2: se calcula la cantidad de cajas que cada trabajador llena diariamente como $100 \cdot 4$, obteniéndose $400$ cajas diarias por trabajador.
+- Paso 3: se calcula la cantidad de cajas que se deben llenar diariamente para la nueva producción como $\dfrac{32000}{10}$, obteniéndose que deben llenar $3200$ cajas diarias.
+- Paso 4: se divide la cantidad de cajas diarias que deben llenar por la cantidad que cada trabajador llena diariamente como $\dfrac{3200}{400}$, obteniéndose que necesitan $8$ trabajadores.
+
+
+¿En cuál de los pasos se cometió el error?
+
+
+A. En el Paso 1
+B. En el Paso 2
+C. En el Paso 3
+D. En el Paso 4
+
+
+::::

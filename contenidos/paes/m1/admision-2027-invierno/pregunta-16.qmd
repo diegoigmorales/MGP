@@ -1,0 +1,30 @@
+---
+title: "Pregunta 16 · PAES M1 Invierno — Admisión 2027"
+description: "Pregunta de la PAES de Competencia Matemática M1 de Invierno para el proceso de Admisión 2027."
+---
+
+:::: {.knowledge-object #tag-2716 tag="2716" type="pregunta" title="Pregunta 16 · PAES M1 Invierno — Admisión 2027"}
+## Pregunta 16
+
+Se realizó una encuesta a un grupo de personas respecto a su legumbre preferida y cada persona eligió solo una opción. Los resultados se presentan en la siguiente tabla:
+
+\[
+\begin{array}{c|c}
+\text{Tipo de legumbre} & \text{Porcentaje de preferencia} \\
+\hline
+\text{Lentejas (L)} & 20\% \\
+\text{Garbanzos (G)} & 10\% \\
+\text{Porotos (P)} & 45\% \\
+\text{Otra legumbre (O)} & 25\%
+\end{array}
+\]
+
+¿Cuál de los siguientes gráficos representa mejor esta información?
+
+
+::: {.text-center}
+(imagen)
+:::
+
+
+::::

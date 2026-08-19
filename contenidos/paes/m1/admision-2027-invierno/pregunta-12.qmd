@@ -1,0 +1,20 @@
+---
+title: "Pregunta 12 · PAES M1 Invierno — Admisión 2027"
+description: "Pregunta de la PAES de Competencia Matemática M1 de Invierno para el proceso de Admisión 2027."
+---
+
+:::: {.knowledge-object #tag-2712 tag="2712" type="pregunta" title="Pregunta 12 · PAES M1 Invierno — Admisión 2027"}
+## Pregunta 12
+
+En la entrada de una obra de teatro, hay una persona encargada de recibir los tickets de entrada de los asistentes.
+
+Si se estima que la persona encargada recibe $15$ tickets cada $60\,\mathrm{s}$, ¿cuál de las siguientes expresiones permite estimar la cantidad de tickets que recibe cada $t$ minutos?
+
+
+A. $15t$
+B. $900t$
+C. $4t$
+D. $\dfrac{t}{900}$
+
+
+::::

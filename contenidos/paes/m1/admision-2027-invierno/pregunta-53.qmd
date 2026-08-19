@@ -1,0 +1,26 @@
+---
+title: "Pregunta 53 · PAES M1 Invierno — Admisión 2027"
+description: "Pregunta de la PAES de Competencia Matemática M1 de Invierno para el proceso de Admisión 2027."
+---
+
+:::: {.knowledge-object #tag-2753 tag="2753" type="pregunta" title="Pregunta 53 · PAES M1 Invierno — Admisión 2027"}
+## Pregunta 53
+
+En el siguiente gráfico se presenta la producción mensual de huevos de consumo en Chile desde febrero de 2024 a febrero de 2025.
+
+
+::: {.text-center}
+(imagen)
+:::
+
+
+¿Cuál de las siguientes afirmaciones interpreta de mejor manera la evolución de la producción mensual a lo largo del periodo?
+
+
+A. Hasta agosto la producción aumentó mes a mes.
+B. En enero de 2024 no hubo producción.
+C. En junio hubo la menor producción.
+D. En agosto hubo la mayor producción.
+
+
+::::

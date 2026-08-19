@@ -1,0 +1,26 @@
+---
+title: "Pregunta 37 · PAES M1 Invierno — Admisión 2027"
+description: "Pregunta de la PAES de Competencia Matemática M1 de Invierno para el proceso de Admisión 2027."
+---
+
+:::: {.knowledge-object #tag-2737 tag="2737" type="pregunta" title="Pregunta 37 · PAES M1 Invierno — Admisión 2027"}
+## Pregunta 37
+
+En la siguiente gráfica se representa la posición de un automóvil en distintos tiempos.
+
+
+::: {.text-center}
+(imagen)
+:::
+
+
+¿Cuánto tiempo estuvo detenido el automóvil?
+
+
+A. $0.5\,\mathrm{h}$
+B. $1.5\,\mathrm{h}$
+C. $3.5\,\mathrm{h}$
+D. $4\,\mathrm{h}$
+
+
+::::

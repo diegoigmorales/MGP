@@ -1,0 +1,22 @@
+---
+title: "Pregunta 6 · PAES M1 Invierno — Admisión 2027"
+description: "Pregunta de la PAES de Competencia Matemática M1 de Invierno para el proceso de Admisión 2027."
+---
+
+:::: {.knowledge-object #tag-2706 tag="2706" type="pregunta" title="Pregunta 6 · PAES M1 Invierno — Admisión 2027"}
+## Pregunta 6
+
+Sandra y Miguel quieren leer, cada uno por su cuenta, un libro de $175$ páginas en $5$ días.
+
+Sandra decide leer $40$ páginas el primer día, y cada día en adelante leer $3$ páginas menos que el día anterior, mientras que Miguel decide leer $25$ páginas el primer día, y cada día en adelante leer $5$ páginas más que el día anterior.
+
+Si ambos cumplen con la lectura diaria estipulada, ¿cuál de las siguientes afirmaciones es verdadera con respecto al plazo de lectura de Sandra y Miguel?
+
+
+A. Ambos alcanzaron a leer el libro en el plazo.
+B. Sandra alcanzó a leer el libro en el plazo, pero Miguel no.
+C. Miguel alcanzó a leer el libro en el plazo, pero Sandra no.
+D. Ninguno alcanzó a leer el libro en el plazo.
+
+
+::::

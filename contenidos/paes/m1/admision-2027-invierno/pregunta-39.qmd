@@ -1,0 +1,18 @@
+---
+title: "Pregunta 39 · PAES M1 Invierno — Admisión 2027"
+description: "Pregunta de la PAES de Competencia Matemática M1 de Invierno para el proceso de Admisión 2027."
+---
+
+:::: {.knowledge-object #tag-2739 tag="2739" type="pregunta" title="Pregunta 39 · PAES M1 Invierno — Admisión 2027"}
+## Pregunta 39
+
+Considera la función $f$ definida por $f(x) = 2x^2 - 7x + 1$. ¿Cuál es el valor de $f(-3)$?
+
+
+A. $-56$
+B. $-38$
+C. $40$
+D. $58$
+
+
+::::

@@ -1,0 +1,20 @@
+---
+title: "Pregunta 3 · PAES M1 Invierno — Admisión 2027"
+description: "Pregunta de la PAES de Competencia Matemática M1 de Invierno para el proceso de Admisión 2027."
+---
+
+:::: {.knowledge-object #tag-2703 tag="2703" type="pregunta" title="Pregunta 3 · PAES M1 Invierno — Admisión 2027"}
+## Pregunta 3
+
+José tiene $90$ dulces y se quedará con $18$, repartiendo el resto en partes iguales entre ocho amigos.
+
+¿Cuántos dulces recibirá cada amigo de José?
+
+
+A. $8$
+B. $9$
+C. $10$
+D. $11$
+
+
+::::

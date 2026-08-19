@@ -1,0 +1,26 @@
+---
+title: "Pregunta 8 · PAES M1 Invierno — Admisión 2027"
+description: "Pregunta de la PAES de Competencia Matemática M1 de Invierno para el proceso de Admisión 2027."
+---
+
+:::: {.knowledge-object #tag-2708 tag="2708" type="pregunta" title="Pregunta 8 · PAES M1 Invierno — Admisión 2027"}
+## Pregunta 8
+
+Considera las siguientes botellas de agua y sus respectivas capacidades en L.
+
+
+::: {.text-center}
+(imagen)
+:::
+
+
+¿Cuál de las siguientes expresiones representa la diferencia de capacidad entre ambas botellas, en litros?
+
+
+A. $(2 - 1) - \left(\frac{1}{4} + \frac{1}{8}\right)$
+B. $(2 - 1) + \left(\frac{1}{4} - \frac{1}{8}\right)$
+C. $(2 - 1) + \left(\frac{1}{8} - \frac{1}{4}\right)$
+D. $(2 + 1) - \left(\frac{1}{8} + \frac{1}{4}\right)$
+
+
+::::

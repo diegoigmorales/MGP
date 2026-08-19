@@ -1,0 +1,26 @@
+---
+title: "Pregunta 57 · PAES M1 Invierno — Admisión 2027"
+description: "Pregunta de la PAES de Competencia Matemática M1 de Invierno para el proceso de Admisión 2027."
+---
+
+:::: {.knowledge-object #tag-2757 tag="2757" type="pregunta" title="Pregunta 57 · PAES M1 Invierno — Admisión 2027"}
+## Pregunta 57
+
+En los siguientes pictogramas se representa la cantidad de personas que hay en cinco grupos, tal que cada $\square$ corresponde a una persona.
+
+
+::: {.text-center}
+(imagen)
+:::
+
+
+¿En cuál de los pictogramas hay un mayor promedio de personas por grupo?
+
+
+A. En el pictograma 1
+B. En el pictograma 2
+C. En el pictograma 3
+D. En el pictograma 4
+
+
+::::

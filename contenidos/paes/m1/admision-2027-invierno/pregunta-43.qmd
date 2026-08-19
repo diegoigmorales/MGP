@@ -1,0 +1,26 @@
+---
+title: "Pregunta 43 · PAES M1 Invierno — Admisión 2027"
+description: "Pregunta de la PAES de Competencia Matemática M1 de Invierno para el proceso de Admisión 2027."
+---
+
+:::: {.knowledge-object #tag-2743 tag="2743" type="pregunta" title="Pregunta 43 · PAES M1 Invierno — Admisión 2027"}
+## Pregunta 43
+
+Una empresa que vende cajas de cereales decide ofrecer una oferta que implica un nuevo diseño de caja. Esta es un $10\,\%$ más alta que el diseño original, tal como se representa a continuación:
+
+
+::: {.text-center}
+(imagen)
+:::
+
+
+¿Cuál es el volumen de la caja con oferta si sus medidas originales eran de $20\,\mathrm{cm}$ de largo, $5\,\mathrm{cm}$ de fondo y $30\,\mathrm{cm}$ de alto?
+
+
+A. $300\,\mathrm{cm^3}$
+B. $3300\,\mathrm{cm^3}$
+C. $3993\,\mathrm{cm^3}$
+D. $4000\,\mathrm{cm^3}$
+
+
+::::

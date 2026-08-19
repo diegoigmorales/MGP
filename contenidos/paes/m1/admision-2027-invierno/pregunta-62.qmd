@@ -1,0 +1,38 @@
+---
+title: "Pregunta 62 · PAES M1 Invierno — Admisión 2027"
+description: "Pregunta de la PAES de Competencia Matemática M1 de Invierno para el proceso de Admisión 2027."
+---
+
+:::: {.knowledge-object #tag-2762 tag="2762" type="pregunta" title="Pregunta 62 · PAES M1 Invierno — Admisión 2027"}
+## Pregunta 62
+
+Para una tarea de Estadística, una estudiante tiene que representar un conjunto de datos a través de un diagrama de cajón. Los datos que se presentan a continuación corresponden a la cantidad de anotaciones positivas que tuvieron los amigos de esta estudiante el semestre anterior.
+\[
+4 - 0 - 0 - 2 - 3 - 3 - 1 - 0 - 3
+\]
+
+Para construir el diagrama de cajón, ella realiza los siguientes pasos, cometiendo un error.
+
+
+- Paso 1: ordena los datos de menor a mayor y determina que el dato central es $2$.
+- Paso 2: identifica los valores mínimo y máximo, obteniendo $0$ y $4$ respectivamente.
+- Paso 3: determina el primer cuartil como $1$, ya que se encuentra entre $0$ y $2$, y el tercer cuartil como $3$, ya que se encuentra entre $2$ y $4$.
+- Paso 4: construye el diagrama de cajón, obteniendo:
+
+
+
+::: {.text-center}
+(imagen)
+:::
+
+
+¿En cuál de los pasos la estudiante cometió el error?
+
+
+A. En el Paso 1
+B. En el Paso 2
+C. En el Paso 3
+D. En el Paso 4
+
+
+::::

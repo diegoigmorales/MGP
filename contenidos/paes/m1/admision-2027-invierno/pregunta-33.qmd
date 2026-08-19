@@ -1,0 +1,18 @@
+---
+title: "Pregunta 33 · PAES M1 Invierno — Admisión 2027"
+description: "Pregunta de la PAES de Competencia Matemática M1 de Invierno para el proceso de Admisión 2027."
+---
+
+:::: {.knowledge-object #tag-2733 tag="2733" type="pregunta" title="Pregunta 33 · PAES M1 Invierno — Admisión 2027"}
+## Pregunta 33
+
+Para la celebración de un evento familiar, una persona compró velas blancas y amarillas. En total, compró $14$ velas y pagó $\$60000$. Si por cada vela blanca pagó $\$3000$ y por cada vela amarilla pagó $\$6000$, ¿cuántas velas blancas compró en total la persona?
+
+
+A. $2$
+B. $3$
+C. $7$
+D. $8$
+
+
+::::

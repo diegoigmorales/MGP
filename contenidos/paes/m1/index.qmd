@@ -4,6 +4,10 @@ title: "Competencia Matemática M1"
 
 # Parte I · Números
 
+## Evaluaciones oficiales
+
+- [PAES M1 Invierno — Admisión 2027](admision-2027-invierno/index.qmd)
+
 ## Capítulo 1 · Razones y porcentajes
 
 - [Descuento porcentual: pregunta original](preguntas-originales/porcentajes.qmd)
@@ -21,4 +25,3 @@ Contenido previsto.
 # Parte IV · Probabilidad y estadística
 
 Contenido previsto.
-

@@ -1,0 +1,30 @@
+---
+title: "Pregunta 4 · PAES M1 Invierno — Admisión 2027"
+description: "Pregunta de la PAES de Competencia Matemática M1 de Invierno para el proceso de Admisión 2027."
+---
+
+:::: {.knowledge-object #tag-2704 tag="2704" type="pregunta" title="Pregunta 4 · PAES M1 Invierno — Admisión 2027"}
+## Pregunta 4
+
+Considera el siguiente modelo que permite estimar la estatura, en centímetros, que tendrán niñas y niños cuando terminen su desarrollo.
+
+\[
+\frac{\text{Estatura del padre }(\text{cm}) + \text{estatura de la madre }(\text{cm}) + 13 \cdot P}{2}
+\]
+
+tal que:
+
+- $P = 1$, si su sexo es masculino.
+- $P = -1$, si su sexo es femenino.
+
+
+¿Cuál será la estatura estimada de un niño de sexo masculino cuando termine su desarrollo si su madre mide $159\,\mathrm{cm}$ y su padre mide $168\,\mathrm{cm}$?
+
+
+A. $157\,\mathrm{cm}$
+B. $163.5\,\mathrm{cm}$
+C. $170\,\mathrm{cm}$
+D. $176.5\,\mathrm{cm}$
+
+
+::::

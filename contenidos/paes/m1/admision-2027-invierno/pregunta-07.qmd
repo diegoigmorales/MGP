@@ -1,0 +1,18 @@
+---
+title: "Pregunta 7 · PAES M1 Invierno — Admisión 2027"
+description: "Pregunta de la PAES de Competencia Matemática M1 de Invierno para el proceso de Admisión 2027."
+---
+
+:::: {.knowledge-object #tag-2707 tag="2707" type="pregunta" title="Pregunta 7 · PAES M1 Invierno — Admisión 2027"}
+## Pregunta 7
+
+¿Cuál es el valor de $2 \cdot (2\sqrt{3}) \cdot \sqrt{3}$?
+
+
+A. $12$
+B. $4\sqrt{18}$
+C. $12\sqrt{3}$
+D. $24$
+
+
+::::

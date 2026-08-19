@@ -1,0 +1,31 @@
+---
+title: "Pregunta 40 · PAES M1 Invierno — Admisión 2027"
+description: "Pregunta de la PAES de Competencia Matemática M1 de Invierno para el proceso de Admisión 2027."
+---
+
+:::: {.knowledge-object #tag-2740 tag="2740" type="pregunta" title="Pregunta 40 · PAES M1 Invierno — Admisión 2027"}
+## Pregunta 40
+
+Un proyector de imágenes tiene una proporción de $9 : 16$ entre la altura y el ancho de su proyección rectangular, siendo su altura el lado menor. Al situar el proyector a cierta distancia de la pared, la longitud de la diagonal del rectángulo de proyección será de $100\,\mathrm{in}$, tal como se representa en la siguiente imagen:
+
+
+::: {.text-center}
+(imagen)
+:::
+
+
+Para calcular la altura de este rectángulo de proyección, se utiliza el siguiente modelo:
+\[
+(9x)^2 + (16x)^2 = 100^2
+\]
+
+¿Qué representa $16x$ en el modelo?
+
+
+A. El factor de proporcionalidad
+B. El ancho del rectángulo de proyección
+C. La altura del rectángulo de proyección
+D. La distancia desde el proyector hasta la pared
+
+
+::::

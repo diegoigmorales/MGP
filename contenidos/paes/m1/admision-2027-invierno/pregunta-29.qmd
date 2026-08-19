@@ -1,0 +1,18 @@
+---
+title: "Pregunta 29 · PAES M1 Invierno — Admisión 2027"
+description: "Pregunta de la PAES de Competencia Matemática M1 de Invierno para el proceso de Admisión 2027."
+---
+
+:::: {.knowledge-object #tag-2729 tag="2729" type="pregunta" title="Pregunta 29 · PAES M1 Invierno — Admisión 2027"}
+## Pregunta 29
+
+Josefa y Francisca asistieron al festival juvenil. La entrada a este evento tiene un precio de $\$20000$ por persona y quienes asistan pueden comprar chapitas para regalar a $\$500$ cada una. Josefa gastó en total $\$30000$ por la entrada y por las chapitas que compró, y por cada $5$ chapitas que compró Francisca, Josefa compró $4$. ¿Cuánto gastó Francisca en chapitas en el festival?
+
+
+A. $\$12500$
+B. $\$37500$
+C. $\$42500$
+D. $\$62500$
+
+
+::::

@@ -1,0 +1,24 @@
+---
+title: "Pregunta 30 · PAES M1 Invierno — Admisión 2027"
+description: "Pregunta de la PAES de Competencia Matemática M1 de Invierno para el proceso de Admisión 2027."
+---
+
+:::: {.knowledge-object #tag-2730 tag="2730" type="pregunta" title="Pregunta 30 · PAES M1 Invierno — Admisión 2027"}
+## Pregunta 30
+
+En una empresa que se dedica a la mantención y reparación de calefont, trabajan Pedro, Joaquín, Rosario y Teresa, como técnicos.
+
+En una semana de trabajo se registra la cantidad de clientes atendidos por los técnicos, la cual dio un total de $79$ clientes.
+
+En dicha semana Pedro atendió $18$ clientes, Joaquín atendió $8$ clientes más que Rosario y Teresa atendió $9$ clientes más que Joaquín.
+
+¿Cuántos clientes atendió Rosario en esa semana de trabajo?
+
+
+A. $12$
+B. $18$
+C. $22$
+D. $36$
+
+
+::::

@@ -1,0 +1,20 @@
+---
+title: "Pregunta 58 · PAES M1 Invierno — Admisión 2027"
+description: "Pregunta de la PAES de Competencia Matemática M1 de Invierno para el proceso de Admisión 2027."
+---
+
+:::: {.knowledge-object #tag-2758 tag="2758" type="pregunta" title="Pregunta 58 · PAES M1 Invierno — Admisión 2027"}
+## Pregunta 58
+
+El promedio de edad de un grupo $A$ de personas es $30$ años, mientras que el promedio de edad de un grupo $B$ de personas es $40$ años.
+
+Si se quiere cambiar solo a una persona de grupo, ¿en cuál de los siguientes casos el promedio aumentará en ambos grupos?
+
+
+A. Que se cambie una persona de $45$ años del grupo $B$ al grupo $A$.
+B. Que se cambie una persona de $35$ años del grupo $B$ al grupo $A$.
+C. Que se cambie una persona de $45$ años del grupo $A$ al grupo $B$.
+D. Que se cambie una persona de $30$ años del grupo $A$ al grupo $B$.
+
+
+::::

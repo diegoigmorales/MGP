@@ -1,0 +1,35 @@
+---
+title: "Pregunta 41 · PAES M1 Invierno — Admisión 2027"
+description: "Pregunta de la PAES de Competencia Matemática M1 de Invierno para el proceso de Admisión 2027."
+---
+
+:::: {.knowledge-object #tag-2741 tag="2741" type="pregunta" title="Pregunta 41 · PAES M1 Invierno — Admisión 2027"}
+## Pregunta 41
+
+En la parte superior de un poste de $3\,\mathrm{m}$ de altura perpendicular al suelo, se atan dos cuerdas de manera tensa, quedando de $4\,\mathrm{m}$ cada una, tal como se representa en la figura adjunta.
+
+
+::: {.text-center}
+(imagen)
+:::
+
+
+Para determinar la distancia $x$ con respecto al poste, se realiza el siguiente procedimiento, cometiéndose un error.
+
+
+- Paso 1: para calcular la longitud $x$ se decide utilizar el teorema de Pitágoras, por lo que se reemplazan los valores, obteniéndose $x^2 + 3^2 = 4^2$.
+- Paso 2: se calculan las potencias en la ecuación anterior, obteniéndose $x^2 + 9 = 16$.
+- Paso 3: se despeja $x$, obteniéndose $x = \sqrt{16 + 9}$.
+- Paso 4: se calcula la raíz cuadrada del paso anterior, obteniéndose la distancia de $5\,\mathrm{m}$.
+
+
+¿En cuál de los pasos se cometió el error?
+
+
+A. En el Paso 1
+B. En el Paso 2
+C. En el Paso 3
+D. En el Paso 4
+
+
+::::

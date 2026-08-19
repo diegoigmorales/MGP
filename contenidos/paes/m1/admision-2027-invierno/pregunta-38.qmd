@@ -1,0 +1,28 @@
+---
+title: "Pregunta 38 · PAES M1 Invierno — Admisión 2027"
+description: "Pregunta de la PAES de Competencia Matemática M1 de Invierno para el proceso de Admisión 2027."
+---
+
+:::: {.knowledge-object #tag-2738 tag="2738" type="pregunta" title="Pregunta 38 · PAES M1 Invierno — Admisión 2027"}
+## Pregunta 38
+
+El peso $p$ en newtons ($\mathrm{N}$) de un cuerpo depende de su masa $m$ en kilogramos, y se modela mediante la expresión $p = g \cdot m$, tal que $g$ es una constante que depende del planeta donde se encuentre el cuerpo.
+
+En Mercurio, el valor de $g$ es aproximadamente $3.7\,\mathrm{m/s^2}$, de manera que se puede establecer el siguiente gráfico:
+
+
+::: {.text-center}
+(imagen)
+:::
+
+
+Si el valor de $g$ en la Tierra es aproximadamente $10\,\mathrm{m/s^2}$, ¿cuál de los siguientes gráficos podría representar el peso en función de la masa en Mercurio y en la Tierra?
+
+
+A. (imagen)
+B. (imagen)
+C. (imagen)
+D. (imagen)
+
+
+::::

@@ -1,0 +1,39 @@
+---
+title: "Pregunta 18 · PAES M1 Invierno — Admisión 2027"
+description: "Pregunta de la PAES de Competencia Matemática M1 de Invierno para el proceso de Admisión 2027."
+---
+
+:::: {.knowledge-object #tag-2718 tag="2718" type="pregunta" title="Pregunta 18 · PAES M1 Invierno — Admisión 2027"}
+## Pregunta 18
+
+En la siguiente tabla se presenta la cantidad de licencias de conducir tramitadas a mujeres durante el 2021 por clase.
+
+\[
+\begin{array}{c|c}
+\text{Clase} & \text{Cantidad} \\
+\hline
+A1 & 244 \\
+A2 & 3617 \\
+A3 & 1962 \\
+A4 & 1535 \\
+A5 & 199 \\
+B & 248\,700 \\
+C & 5859 \\
+D & 3734 \\
+E & 7 \\
+F & 687 \\
+\hline
+\text{Total} & 266\,544
+\end{array}
+\]
+
+¿Cuál de las siguientes expresiones representa el porcentaje de licencias clase A1 que se tramitaron, con respecto al total de licencias cuya clase comienza con la letra A?
+
+
+A. $\dfrac{244 \cdot 100}{7557}\%$
+B. $\dfrac{244}{7557 \cdot 100}\%$
+C. $\dfrac{244 \cdot 100}{7313}\%$
+D. $\dfrac{244}{7313 \cdot 100}\%$
+
+
+::::

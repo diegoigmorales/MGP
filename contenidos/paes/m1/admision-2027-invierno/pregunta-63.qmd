@@ -1,0 +1,26 @@
+---
+title: "Pregunta 63 · PAES M1 Invierno — Admisión 2027"
+description: "Pregunta de la PAES de Competencia Matemática M1 de Invierno para el proceso de Admisión 2027."
+---
+
+:::: {.knowledge-object #tag-2763 tag="2763" type="pregunta" title="Pregunta 63 · PAES M1 Invierno — Admisión 2027"}
+## Pregunta 63
+
+En el gráfico adjunto se presentan las preferencias de un grupo de personas respecto a los dispositivos que utilizan para tomar notas durante las reuniones.
+
+
+::: {.text-center}
+(imagen)
+:::
+
+
+Si se selecciona al azar una persona de este grupo, ¿cuál es la probabilidad de que esta prefiera tomar notas utilizando un computador?
+
+
+A. $\dfrac{1}{9}$
+B. $\dfrac{1}{3}$
+C. $\dfrac{9}{19}$
+D. $\dfrac{9}{28}$
+
+
+::::

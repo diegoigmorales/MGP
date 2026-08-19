@@ -1,0 +1,47 @@
+---
+title: "Pregunta 17 · PAES M1 Invierno — Admisión 2027"
+description: "Pregunta de la PAES de Competencia Matemática M1 de Invierno para el proceso de Admisión 2027."
+---
+
+:::: {.knowledge-object #tag-2717 tag="2717" type="pregunta" title="Pregunta 17 · PAES M1 Invierno — Admisión 2027"}
+## Pregunta 17
+
+Para arrendar botes en una empresa se debe enviar una solicitud. En la siguiente figura se representa una solicitud que está en estado de “Aprobada” y le falta pasar por los últimos tres estados.
+
+
+::: {.text-center}
+(imagen)
+:::
+
+
+Para calcular el progreso de las últimas $20$ solicitudes, la empresa calcula el porcentaje de ellas que está o ya ha pasado el estado “Aprobada”.
+
+En la siguiente tabla se presentan las últimas $20$ solicitudes:
+
+\[
+\begin{array}{c|c|c|c}
+\text{Solicitud} & \text{Estado} & \text{Solicitud} & \text{Estado} \\
+\hline
+1 & \text{Enviada} & 11 & \text{En curso} \\
+2 & \text{En curso} & 12 & \text{En curso} \\
+3 & \text{En curso} & 13 & \text{En curso} \\
+4 & \text{Finalizada} & 14 & \text{Enviada} \\
+5 & \text{Finalizada} & 15 & \text{Enviada} \\
+6 & \text{Pagada} & 16 & \text{Pagada} \\
+7 & \text{Enviada} & 17 & \text{Finalizada} \\
+8 & \text{Aprobada} & 18 & \text{Aprobada} \\
+9 & \text{Enviada} & 19 & \text{Pagada} \\
+10 & \text{Pagada} & 20 & \text{Pagada}
+\end{array}
+\]
+
+¿Cuál es el porcentaje de las solicitudes que está o ya ha pasado por el estado “Aprobada”?
+
+
+A. $13\,\%$
+B. $15\,\%$
+C. $65\,\%$
+D. $75\,\%$
+
+
+::::

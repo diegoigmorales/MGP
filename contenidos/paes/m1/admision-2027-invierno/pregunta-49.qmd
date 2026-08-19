@@ -1,0 +1,26 @@
+---
+title: "Pregunta 49 · PAES M1 Invierno — Admisión 2027"
+description: "Pregunta de la PAES de Competencia Matemática M1 de Invierno para el proceso de Admisión 2027."
+---
+
+:::: {.knowledge-object #tag-2749 tag="2749" type="pregunta" title="Pregunta 49 · PAES M1 Invierno — Admisión 2027"}
+## Pregunta 49
+
+En la figura adjunta se representan los asientos de un teatro, cuya distribución es simétrica con respecto a la línea segmentada.
+
+
+::: {.text-center}
+(imagen)
+:::
+
+
+¿En cuál de las siguientes opciones la distribución de los asientos ocupados mantiene la simetría?
+
+
+A. (imagen)
+B. (imagen)
+C. (imagen)
+D. (imagen)
+
+
+::::

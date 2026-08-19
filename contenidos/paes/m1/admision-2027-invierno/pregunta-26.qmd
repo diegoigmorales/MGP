@@ -1,0 +1,26 @@
+---
+title: "Pregunta 26 · PAES M1 Invierno — Admisión 2027"
+description: "Pregunta de la PAES de Competencia Matemática M1 de Invierno para el proceso de Admisión 2027."
+---
+
+:::: {.knowledge-object #tag-2726 tag="2726" type="pregunta" title="Pregunta 26 · PAES M1 Invierno — Admisión 2027"}
+## Pregunta 26
+
+Martina debe realizar un viaje por una calle recta y para esto revisa un mapa. En la figura adjunta se presenta el mapa y la distancia en el mapa entre los dos puntos que tiene que recorrer. Se sabe que $2\,\mathrm{cm}$ en el mapa equivalen a $200\,\mathrm{m}$ de distancia en la realidad.
+
+
+::: {.text-center}
+(imagen)
+:::
+
+
+¿Cuál es la distancia que debe recorrer Martina?
+
+
+A. $400\,\mathrm{m}$
+B. $1100\,\mathrm{m}$
+C. $2200\,\mathrm{m}$
+D. $4400\,\mathrm{m}$
+
+
+::::

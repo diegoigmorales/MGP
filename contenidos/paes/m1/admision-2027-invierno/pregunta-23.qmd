@@ -1,0 +1,20 @@
+---
+title: "Pregunta 23 · PAES M1 Invierno — Admisión 2027"
+description: "Pregunta de la PAES de Competencia Matemática M1 de Invierno para el proceso de Admisión 2027."
+---
+
+:::: {.knowledge-object #tag-2723 tag="2723" type="pregunta" title="Pregunta 23 · PAES M1 Invierno — Admisión 2027"}
+## Pregunta 23
+
+En un laboratorio, a partir de un estudio bajo ciertas condiciones, se determinó que un tipo de bacteria se duplica cada $4\,\mathrm{min}$.
+
+Si en un instante se tenía una de estas bacterias, ¿cuánto tiempo transcurrió para tener $64$ de esas bacterias?
+
+
+A. $5\,\mathrm{min}$
+B. $6\,\mathrm{min}$
+C. $20\,\mathrm{min}$
+D. $24\,\mathrm{min}$
+
+
+::::

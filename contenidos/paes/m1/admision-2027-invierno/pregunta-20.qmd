@@ -1,0 +1,22 @@
+---
+title: "Pregunta 20 · PAES M1 Invierno — Admisión 2027"
+description: "Pregunta de la PAES de Competencia Matemática M1 de Invierno para el proceso de Admisión 2027."
+---
+
+:::: {.knowledge-object #tag-2720 tag="2720" type="pregunta" title="Pregunta 20 · PAES M1 Invierno — Admisión 2027"}
+## Pregunta 20
+
+Una empresa de limpieza de automóviles realiza un cobro base de $\$20000$ por lavado y secado exterior del vehículo. Al agregar otros servicios extras, se cobra un adicional de $\$5000$ por cada uno.
+
+La empresa ofrece un $15\,\%$ de descuento en el total a pagar si se realizan más de tres tipos de servicios extras.
+
+Si una persona realiza el lavado y secado exterior con cinco servicios extras, ¿cuánto es el total que debe pagar?
+
+
+A. $\$38250$
+B. $\$41250$
+C. $\$42000$
+D. $\$42750$
+
+
+::::

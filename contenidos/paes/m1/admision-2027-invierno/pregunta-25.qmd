@@ -1,0 +1,30 @@
+---
+title: "Pregunta 25 · PAES M1 Invierno — Admisión 2027"
+description: "Pregunta de la PAES de Competencia Matemática M1 de Invierno para el proceso de Admisión 2027."
+---
+
+:::: {.knowledge-object #tag-2725 tag="2725" type="pregunta" title="Pregunta 25 · PAES M1 Invierno — Admisión 2027"}
+## Pregunta 25
+
+Para organizar un torneo de ajedrez en dos grupos, se definió un sistema de clasificación por eliminación directa, es decir, un jugador se queda fuera del torneo al perder una partida.
+
+Se utilizó el siguiente esquema para registrar a las personas participantes y ganadoras en cada ronda, hasta llegar a la final.
+
+
+::: {.text-center}
+(imagen)
+:::
+
+
+Como la convocatoria al torneo fue exitosa, se decidió inscribir a más personas en el torneo, alcanzándose a completar los cupos para realizar una ronda más por grupo.
+
+¿Cuántas personas participarán en el torneo de ajedrez?
+
+
+A. $10$
+B. $16$
+C. $20$
+D. $32$
+
+
+::::

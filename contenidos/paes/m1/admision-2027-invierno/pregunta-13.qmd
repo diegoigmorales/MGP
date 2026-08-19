@@ -1,0 +1,18 @@
+---
+title: "Pregunta 13 · PAES M1 Invierno — Admisión 2027"
+description: "Pregunta de la PAES de Competencia Matemática M1 de Invierno para el proceso de Admisión 2027."
+---
+
+:::: {.knowledge-object #tag-2713 tag="2713" type="pregunta" title="Pregunta 13 · PAES M1 Invierno — Admisión 2027"}
+## Pregunta 13
+
+¿Qué número corresponde al $15\,\%$ de $480$?
+
+
+A. $28.8$
+B. $31.3$
+C. $68$
+D. $72$
+
+
+::::

@@ -1,0 +1,26 @@
+---
+title: "Pregunta 51 · PAES M1 Invierno — Admisión 2027"
+description: "Pregunta de la PAES de Competencia Matemática M1 de Invierno para el proceso de Admisión 2027."
+---
+
+:::: {.knowledge-object #tag-2751 tag="2751" type="pregunta" title="Pregunta 51 · PAES M1 Invierno — Admisión 2027"}
+## Pregunta 51
+
+En la siguiente figura se representa un cuadrilátero cuyas medidas están en centímetros.
+
+
+::: {.text-center}
+(imagen)
+:::
+
+
+¿Cuál de las siguientes expresiones corresponde al perímetro del cuadrilátero?
+
+
+A. $22\,\mathrm{cm}$
+B. $(\sqrt{6} + 15)$ cm
+C. $20\,\mathrm{cm}$
+D. $(\sqrt{29} + 15)$ cm
+
+
+::::

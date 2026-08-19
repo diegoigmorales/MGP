@@ -1,0 +1,28 @@
+---
+title: "Pregunta 32 · PAES M1 Invierno — Admisión 2027"
+description: "Pregunta de la PAES de Competencia Matemática M1 de Invierno para el proceso de Admisión 2027."
+---
+
+:::: {.knowledge-object #tag-2732 tag="2732" type="pregunta" title="Pregunta 32 · PAES M1 Invierno — Admisión 2027"}
+## Pregunta 32
+
+Considera la siguiente oferta:
+
+
+::: {.text-center}
+(imagen)
+:::
+
+
+Una persona tiene $\$10000$ para comprar un paquete de tallarines de $\$800$ y la máxima cantidad de kilogramos de tomates posible.
+
+¿Cuál de las siguientes inecuaciones permite determinar la máxima cantidad $x$ de kilogramos de tomates que puede comprar la persona?
+
+
+A. $10000 - 800 \geq 1800x$
+B. $10000 - 800 \geq 1800$
+C. $10000 + 800 \geq 1800x$
+D. $10000 + 800 \geq 1800$
+
+
+::::

@@ -1,0 +1,18 @@
+---
+title: "Pregunta 42 · PAES M1 Invierno — Admisión 2027"
+description: "Pregunta de la PAES de Competencia Matemática M1 de Invierno para el proceso de Admisión 2027."
+---
+
+:::: {.knowledge-object #tag-2742 tag="2742" type="pregunta" title="Pregunta 42 · PAES M1 Invierno — Admisión 2027"}
+## Pregunta 42
+
+Las diagonales de un rombo miden $24\,\mathrm{cm}$ y $30\,\mathrm{cm}$. ¿Cuál es su área?
+
+
+A. $180\,\mathrm{cm^2}$
+B. $360\,\mathrm{cm^2}$
+C. $720\,\mathrm{cm^2}$
+D. $1440\,\mathrm{cm^2}$
+
+
+::::
