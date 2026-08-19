@@ -7,9 +7,9 @@ description: "Pregunta de la PAES de Competencia Matemática M1 de Invierno para
 ## Pregunta 62
 
 Para una tarea de Estadística, una estudiante tiene que representar un conjunto de datos a través de un diagrama de cajón. Los datos que se presentan a continuación corresponden a la cantidad de anotaciones positivas que tuvieron los amigos de esta estudiante el semestre anterior.
-\[
+$$
 4 - 0 - 0 - 2 - 3 - 3 - 1 - 0 - 3
-\]
+$$
 
 Para construir el diagrama de cajón, ella realiza los siguientes pasos, cometiendo un error.
 
@@ -29,10 +29,12 @@ Para construir el diagrama de cajón, ella realiza los siguientes pasos, cometie
 ¿En cuál de los pasos la estudiante cometió el error?
 
 
-A. En el Paso 1
-B. En el Paso 2
-C. En el Paso 3
-D. En el Paso 4
+::: {.answer-options}
+1. En el Paso 1
+1. En el Paso 2
+1. En el Paso 3
+1. En el Paso 4
+:::
 
 
 ::::

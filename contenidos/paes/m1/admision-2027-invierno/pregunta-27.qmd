@@ -9,10 +9,12 @@ description: "Pregunta de la PAES de Competencia Matemática M1 de Invierno para
 Una persona preparará un postre de frutilla. La receta que tiene indica que por cada $500\,\mathrm{g}$ de frutilla deberá usar $200\,\mathrm{g}$ de azúcar. Para elaborar el postre utilizará $100\,\mathrm{g}$ más de frutilla de lo indicado en la receta. ¿Cuántos gramos de azúcar en total deberá utilizar la persona para mantener la proporción indicada en la receta?
 
 
-A. $100\,\mathrm{g}$
-B. $140\,\mathrm{g}$
-C. $240\,\mathrm{g}$
-D. $300\,\mathrm{g}$
+::: {.answer-options}
+1. $100\,\mathrm{g}$
+1. $140\,\mathrm{g}$
+1. $240\,\mathrm{g}$
+1. $300\,\mathrm{g}$
+:::
 
 
 ::::

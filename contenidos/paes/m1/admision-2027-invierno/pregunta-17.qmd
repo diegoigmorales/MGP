@@ -18,7 +18,7 @@ Para calcular el progreso de las últimas $20$ solicitudes, la empresa calcula e
 
 En la siguiente tabla se presentan las últimas $20$ solicitudes:
 
-\[
+$$
 \begin{array}{c|c|c|c}
 \text{Solicitud} & \text{Estado} & \text{Solicitud} & \text{Estado} \\
 \hline
@@ -33,15 +33,17 @@ En la siguiente tabla se presentan las últimas $20$ solicitudes:
 9 & \text{Enviada} & 19 & \text{Pagada} \\
 10 & \text{Pagada} & 20 & \text{Pagada}
 \end{array}
-\]
+$$
 
 ¿Cuál es el porcentaje de las solicitudes que está o ya ha pasado por el estado “Aprobada”?
 
 
-A. $13\,\%$
-B. $15\,\%$
-C. $65\,\%$
-D. $75\,\%$
+::: {.answer-options}
+1. $13\,\%$
+1. $15\,\%$
+1. $65\,\%$
+1. $75\,\%$
+:::
 
 
 ::::

@@ -17,10 +17,12 @@ En la siguiente gráfica se representa la posición de un automóvil en distinto
 ¿Cuánto tiempo estuvo detenido el automóvil?
 
 
-A. $0.5\,\mathrm{h}$
-B. $1.5\,\mathrm{h}$
-C. $3.5\,\mathrm{h}$
-D. $4\,\mathrm{h}$
+::: {.answer-options}
+1. $0.5\,\mathrm{h}$
+1. $1.5\,\mathrm{h}$
+1. $3.5\,\mathrm{h}$
+1. $4\,\mathrm{h}$
+:::
 
 
 ::::

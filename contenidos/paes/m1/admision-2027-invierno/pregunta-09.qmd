@@ -10,7 +10,7 @@ Una persona necesita comprar $3\,\mathrm{kg}$ de azúcar, $6\,\mathrm{L}$ de lav
 
 En la siguiente tabla se registraron los precios de los productos por comprar.
 
-\[
+$$
 \begin{array}{c|c|c}
 \text{Producto} & \text{Precio unitario} & \text{Promoción por dos unidades} \\
 \hline
@@ -19,7 +19,7 @@ En la siguiente tabla se registraron los precios de los productos por comprar.
 1 \text{ litro de leche} & \$1200 & \$2200 \\
 1 \text{ kilogramo de arroz} & \$1700 & \$3300
 \end{array}
-\]
+$$
 
 Para calcular el menor precio por pagar, la persona efectúa el siguiente procedimiento, en el cual comete un error.
 
@@ -33,10 +33,12 @@ Para calcular el menor precio por pagar, la persona efectúa el siguiente proced
 ¿En cuál de los pasos la persona cometió el error?
 
 
-A. En el Paso 1
-B. En el Paso 2
-C. En el Paso 3
-D. En el Paso 4
+::: {.answer-options}
+1. En el Paso 1
+1. En el Paso 2
+1. En el Paso 3
+1. En el Paso 4
+:::
 
 
 ::::

@@ -11,10 +11,12 @@ El promedio de edad de un grupo $A$ de personas es $30$ años, mientras que el p
 Si se quiere cambiar solo a una persona de grupo, ¿en cuál de los siguientes casos el promedio aumentará en ambos grupos?
 
 
-A. Que se cambie una persona de $45$ años del grupo $B$ al grupo $A$.
-B. Que se cambie una persona de $35$ años del grupo $B$ al grupo $A$.
-C. Que se cambie una persona de $45$ años del grupo $A$ al grupo $B$.
-D. Que se cambie una persona de $30$ años del grupo $A$ al grupo $B$.
+::: {.answer-options}
+1. Que se cambie una persona de $45$ años del grupo $B$ al grupo $A$.
+1. Que se cambie una persona de $35$ años del grupo $B$ al grupo $A$.
+1. Que se cambie una persona de $45$ años del grupo $A$ al grupo $B$.
+1. Que se cambie una persona de $30$ años del grupo $A$ al grupo $B$.
+:::
 
 
 ::::

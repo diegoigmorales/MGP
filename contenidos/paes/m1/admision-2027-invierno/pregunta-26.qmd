@@ -17,10 +17,12 @@ Martina debe realizar un viaje por una calle recta y para esto revisa un mapa. E
 ¿Cuál es la distancia que debe recorrer Martina?
 
 
-A. $400\,\mathrm{m}$
-B. $1100\,\mathrm{m}$
-C. $2200\,\mathrm{m}$
-D. $4400\,\mathrm{m}$
+::: {.answer-options}
+1. $400\,\mathrm{m}$
+1. $1100\,\mathrm{m}$
+1. $2200\,\mathrm{m}$
+1. $4400\,\mathrm{m}$
+:::
 
 
 ::::

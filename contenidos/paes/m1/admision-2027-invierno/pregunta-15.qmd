@@ -13,10 +13,12 @@ Por un incremento en los costos, la empresa decide aumentar la tarifa por minuto
 ¿Cuánto se tiene que pagar por usar el estacionamiento $10$ minutos, después del aumento de la tarifa?
 
 
-A. $\$370$
-B. $\$300$
-C. $\$280$
-D. $\$120$
+::: {.answer-options}
+1. $\$370$
+1. $\$300$
+1. $\$280$
+1. $\$120$
+:::
 
 
 ::::

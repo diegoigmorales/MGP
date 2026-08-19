@@ -17,10 +17,12 @@ En el siguiente diagrama de cajón se presenta el tiempo que tardó un grupo de 
 ¿Qué representa el $16$ en el diagrama de cajón?
 
 
-A. Que al menos un $75\,\%$ de las personas terminó el circuito en $16\,\mathrm{min}$ o menos.
-B. Que un $16\,\%$ de las personas terminó el circuito en a lo más $16\,\mathrm{min}$.
-C. Que la dieciseisava persona que terminó el circuito demoró $16\,\mathrm{min}$.
-D. Que la cuarta persona que terminó el circuito demoró $16\,\mathrm{min}$.
+::: {.answer-options}
+1. Que al menos un $75\,\%$ de las personas terminó el circuito en $16\,\mathrm{min}$ o menos.
+1. Que un $16\,\%$ de las personas terminó el circuito en a lo más $16\,\mathrm{min}$.
+1. Que la dieciseisava persona que terminó el circuito demoró $16\,\mathrm{min}$.
+1. Que la cuarta persona que terminó el circuito demoró $16\,\mathrm{min}$.
+:::
 
 
 ::::

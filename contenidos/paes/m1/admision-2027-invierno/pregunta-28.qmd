@@ -20,10 +20,12 @@ En la empresa se realiza el siguiente procedimiento para calcular la cantidad de
 ¿En cuál de los pasos se cometió el error?
 
 
-A. En el Paso 1
-B. En el Paso 2
-C. En el Paso 3
-D. En el Paso 4
+::: {.answer-options}
+1. En el Paso 1
+1. En el Paso 2
+1. En el Paso 3
+1. En el Paso 4
+:::
 
 
 ::::

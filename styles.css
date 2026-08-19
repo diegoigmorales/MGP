@@ -24,3 +24,11 @@
   padding-top: .6rem;
 }
 
+.answer-options > ol {
+  list-style-type: upper-alpha;
+}
+
+.answer-options > ol > li {
+  margin-bottom: .35rem;
+  padding-left: .25rem;
+}

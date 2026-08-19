@@ -18,7 +18,7 @@ Para determinar el puntaje de cada jugador se debe sumar o restar los puntos de 
 
 Al finalizar una partida, cuatro jugadores habían sacado las siguientes tarjetas:
 
-\[
+$$
 \begin{array}{c|ccc}
 & \text{Diamante} & \text{Estrella} & \text{Calavera} \\
 \hline
@@ -27,15 +27,17 @@ Al finalizar una partida, cuatro jugadores habían sacado las siguientes tarjeta
 \text{Angélica} & 5 & 5 & 2 \\
 \text{Roberto} & 8 & 5 & 1
 \end{array}
-\]
+$$
 
 ¿Cuál de los jugadores obtuvo el mayor puntaje en esta partida?
 
 
-A. Claudio
-B. María
-C. Angélica
-D. Roberto
+::: {.answer-options}
+1. Claudio
+1. María
+1. Angélica
+1. Roberto
+:::
 
 
 ::::

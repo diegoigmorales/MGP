@@ -17,10 +17,12 @@ En el siguiente gráfico se presenta la producción mensual de huevos de consumo
 ¿Cuál de las siguientes afirmaciones interpreta de mejor manera la evolución de la producción mensual a lo largo del periodo?
 
 
-A. Hasta agosto la producción aumentó mes a mes.
-B. En enero de 2024 no hubo producción.
-C. En junio hubo la menor producción.
-D. En agosto hubo la mayor producción.
+::: {.answer-options}
+1. Hasta agosto la producción aumentó mes a mes.
+1. En enero de 2024 no hubo producción.
+1. En junio hubo la menor producción.
+1. En agosto hubo la mayor producción.
+:::
 
 
 ::::

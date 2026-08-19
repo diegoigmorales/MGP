@@ -15,17 +15,19 @@ En la figura adjunta se explican los términos “DAP” y “altura comercial�
 
 
 El volumen de madera que se obtiene de un cedro se calcula con la expresión
-\[
+$$
 \frac{3}{4}\pi \left(\frac{\text{DAP}}{2}\right)^2 \cdot \text{altura comercial}.
-\]
+$$
 
 ¿Cuál es el volumen de madera que se obtendrá de un cedro de altura comercial de $6\,\mathrm{m}$ y DAP de $0.4\,\mathrm{m}$?
 
 
-A. $0.72\,\pi m^3$
-B. $0.18\,\pi m^3$
-C. $0.039\,\pi m^3$
-D. $0.156\,\pi m^3$
+::: {.answer-options}
+1. $0.72\,\pi m^3$
+1. $0.18\,\pi m^3$
+1. $0.039\,\pi m^3$
+1. $0.156\,\pi m^3$
+:::
 
 
 ::::

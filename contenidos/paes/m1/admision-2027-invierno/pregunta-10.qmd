@@ -8,9 +8,9 @@ description: "Pregunta de la PAES de Competencia Matemática M1 de Invierno para
 
 Para calcular el monto final de dinero que se tendrá por medio de un interés simple mensual del $i\%$, después de una cantidad $n$ de meses, se utiliza la siguiente expresión:
 
-\[
+$$
 C_f = C_i \left(1 + \frac{i \cdot n}{100}\right),
-\]
+$$
 
 tal que $C_f$ es el monto final de dinero y $C_i$ es el monto inicial de dinero.
 
@@ -19,10 +19,12 @@ Considera una inversión con un monto inicial de $\$100000$ al que se le aplica 
 ¿Cuánto dinero se tendrá transcurridos $5$ meses?
 
 
-A. $\$102000$
-B. $\$110000$
-C. $\$120000$
-D. $\$200000$
+::: {.answer-options}
+1. $\$102000$
+1. $\$110000$
+1. $\$120000$
+1. $\$200000$
+:::
 
 
 ::::

@@ -17,10 +17,12 @@ En el siguiente gráfico se presenta el promedio de las puntuaciones que ha reci
 Si todas las personas contestaron todas las categorías, ¿cuál es el promedio general de puntuación del hotel considerando estas seis categorías?
 
 
-A. $4.7$ puntos
-B. $4.8$ puntos
-C. $4.9$ puntos
-D. $5$ puntos
+::: {.answer-options}
+1. $4.7$ puntos
+1. $4.8$ puntos
+1. $4.9$ puntos
+1. $5$ puntos
+:::
 
 
 ::::

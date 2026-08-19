@@ -93,11 +93,11 @@ def convert_question(source: str, number: int) -> str:
         if stripped.startswith(r"\begin{enumerate}"):
             list_kind = "enumerate"
             choice = 0
-            converted.append("")
+            converted.extend(["", "::: {.answer-options}"])
             continue
         if stripped == r"\end{enumerate}":
             list_kind = None
-            converted.append("")
+            converted.extend([":::", ""])
             continue
         if stripped == r"\begin{itemize}":
             list_kind = "itemize"
@@ -119,9 +119,14 @@ def convert_question(source: str, number: int) -> str:
         if item:
             marker = "-"
             if list_kind == "enumerate":
-                marker = f"{chr(ord('A') + choice)}."
+                marker = "1."
                 choice += 1
             line = f"{marker} {item.group(1)}"
+
+        if stripped == r"\[":
+            line = "$$"
+        elif stripped == r"\]":
+            line = "$$"
 
         converted.append(replace_commands(line, in_display_math).rstrip())
         in_display_math = final_math_state(original_line, in_display_math)

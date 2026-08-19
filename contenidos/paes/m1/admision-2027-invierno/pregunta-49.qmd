@@ -17,10 +17,12 @@ En la figura adjunta se representan los asientos de un teatro, cuya distribució
 ¿En cuál de las siguientes opciones la distribución de los asientos ocupados mantiene la simetría?
 
 
-A. (imagen)
-B. (imagen)
-C. (imagen)
-D. (imagen)
+::: {.answer-options}
+1. (imagen)
+1. (imagen)
+1. (imagen)
+1. (imagen)
+:::
 
 
 ::::

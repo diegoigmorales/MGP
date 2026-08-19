@@ -8,24 +8,26 @@ description: "Pregunta de la PAES de Competencia Matemática M1 de Invierno para
 
 En la siguiente tabla se presenta la tarifa a cobrar por minuto para el uso de los estacionamientos de dos centros comerciales.
 
-\[
+$$
 \begin{array}{c|c}
 \text{Estacionamiento} & \text{Tarifa por minuto} \\
 \hline
 \text{Centro comercial R} & \$16 \\
 \text{Centro comercial Q} & \$30
 \end{array}
-\]
+$$
 
 Para calcular el valor que se debe pagar por la estadía en estos centros comerciales, desde el ingreso por la barrera de entrada al estacionamiento hasta el pago en caja, utilizan la expresión $p \cdot (t - 15)$, tal que $p$ es la tarifa por minuto y $t$ es la cantidad de minutos de la estadía.
 
 Considerando una estadía de $55$ minutos, ¿cuánto más caro es estacionar en el estacionamiento Q que en el estacionamiento R?
 
 
-A. $\$1200$
-B. $\$770$
-C. $\$640$
-D. $\$560$
+::: {.answer-options}
+1. $\$1200$
+1. $\$770$
+1. $\$640$
+1. $\$560$
+:::
 
 
 ::::

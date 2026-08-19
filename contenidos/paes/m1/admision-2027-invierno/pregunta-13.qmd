@@ -9,10 +9,12 @@ description: "Pregunta de la PAES de Competencia Matemática M1 de Invierno para
 ¿Qué número corresponde al $15\,\%$ de $480$?
 
 
-A. $28.8$
-B. $31.3$
-C. $68$
-D. $72$
+::: {.answer-options}
+1. $28.8$
+1. $31.3$
+1. $68$
+1. $72$
+:::
 
 
 ::::

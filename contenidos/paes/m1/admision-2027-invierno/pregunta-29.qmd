@@ -9,10 +9,12 @@ description: "Pregunta de la PAES de Competencia Matemática M1 de Invierno para
 Josefa y Francisca asistieron al festival juvenil. La entrada a este evento tiene un precio de $\$20000$ por persona y quienes asistan pueden comprar chapitas para regalar a $\$500$ cada una. Josefa gastó en total $\$30000$ por la entrada y por las chapitas que compró, y por cada $5$ chapitas que compró Francisca, Josefa compró $4$. ¿Cuánto gastó Francisca en chapitas en el festival?
 
 
-A. $\$12500$
-B. $\$37500$
-C. $\$42500$
-D. $\$62500$
+::: {.answer-options}
+1. $\$12500$
+1. $\$37500$
+1. $\$42500$
+1. $\$62500$
+:::
 
 
 ::::

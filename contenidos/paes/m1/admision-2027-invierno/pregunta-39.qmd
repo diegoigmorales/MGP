@@ -9,10 +9,12 @@ description: "Pregunta de la PAES de Competencia Matemática M1 de Invierno para
 Considera la función $f$ definida por $f(x) = 2x^2 - 7x + 1$. ¿Cuál es el valor de $f(-3)$?
 
 
-A. $-56$
-B. $-38$
-C. $40$
-D. $58$
+::: {.answer-options}
+1. $-56$
+1. $-38$
+1. $40$
+1. $58$
+:::
 
 
 ::::

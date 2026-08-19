@@ -17,10 +17,12 @@ Una empresa que vende cajas de cereales decide ofrecer una oferta que implica un
 ¿Cuál es el volumen de la caja con oferta si sus medidas originales eran de $20\,\mathrm{cm}$ de largo, $5\,\mathrm{cm}$ de fondo y $30\,\mathrm{cm}$ de alto?
 
 
-A. $300\,\mathrm{cm^3}$
-B. $3300\,\mathrm{cm^3}$
-C. $3993\,\mathrm{cm^3}$
-D. $4000\,\mathrm{cm^3}$
+::: {.answer-options}
+1. $300\,\mathrm{cm^3}$
+1. $3300\,\mathrm{cm^3}$
+1. $3993\,\mathrm{cm^3}$
+1. $4000\,\mathrm{cm^3}$
+:::
 
 
 ::::

@@ -17,17 +17,19 @@ Una ruleta está dividida en nueve partes de igual área, como se representa a c
 Un juego consiste en realizar $3$ giros de la ruleta, pero si en algunos de esos giros se obtiene un fantasma, se termina el juego y no se puede seguir girando la ruleta y el premio es la suma de lo obtenido en cada giro. Por cada estrella que se obtenga se ganan $\$50000$ y por cada diamante que se obtenga se ganan $\$100000$.
 
 La probabilidad de ganar exactamente $\$100000$ en un juego se calcula con la siguiente expresión:
-\[
+$$
 \frac{4}{9} \cdot \frac{4}{9} \cdot \frac{2}{9} + \frac{3}{9} \cdot \frac{2}{9}
-\]
+$$
 
 ¿Qué representa el término $\dfrac{4}{9} \cdot \dfrac{4}{9} \cdot \dfrac{2}{9}$ en la expresión anterior?
 
 
-A. La probabilidad de sacar un diamante en el primer lanzamiento y una estrella en el segundo.
-B. La probabilidad de sacar un diamante en el primer lanzamiento y un fantasma en el segundo.
-C. La probabilidad de sacar una estrella en el primer lanzamiento, una estrella en el segundo y un fantasma en el tercero.
-D. La probabilidad de sacar dos estrellas en los dos primeros lanzamientos y un diamante en el tercero.
+::: {.answer-options}
+1. La probabilidad de sacar un diamante en el primer lanzamiento y una estrella en el segundo.
+1. La probabilidad de sacar un diamante en el primer lanzamiento y un fantasma en el segundo.
+1. La probabilidad de sacar una estrella en el primer lanzamiento, una estrella en el segundo y un fantasma en el tercero.
+1. La probabilidad de sacar dos estrellas en los dos primeros lanzamientos y un diamante en el tercero.
+:::
 
 
 ::::

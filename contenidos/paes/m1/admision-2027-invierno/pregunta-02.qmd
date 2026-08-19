@@ -9,10 +9,12 @@ description: "Pregunta de la PAES de Competencia Matemática M1 de Invierno para
 Una persona compra manzanas en cajas de $24$ unidades para vender en su local. Si esta persona hace un pedido de $45$ de estas cajas, pero le llegaron solo $38$ cajas, ¿cuántas manzanas le faltaron en el pedido?
 
 
-A. $42$
-B. $148$
-C. $168$
-D. $278$
+::: {.answer-options}
+1. $42$
+1. $148$
+1. $168$
+1. $278$
+:::
 
 
 ::::

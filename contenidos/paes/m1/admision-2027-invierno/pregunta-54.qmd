@@ -10,7 +10,7 @@ Una municipalidad desea implementar un plan de vacunación y esterilización de 
 
 Los resultados de la encuesta se presentan en la siguiente tabla:
 
-\[
+$$
 \begin{array}{c|c}
 \text{Cantidad de mascotas} & \text{Cantidad de familias} \\
 \hline
@@ -21,17 +21,19 @@ Los resultados de la encuesta se presentan en la siguiente tabla:
 4 & 4 \\
 5 \text{ o más} & 2
 \end{array}
-\]
+$$
 
 Esta municipalidad dará un beneficio a las familias que tengan $3$ o más mascotas que consiste en vacunación o esterilización gratis.
 
 ¿Cuál de las siguientes expresiones representa el porcentaje de familias beneficiadas?
 
 
-A. $\dfrac{7}{50} \cdot 100\%$
-B. $\dfrac{13}{50} \cdot 100\%$
-C. $\dfrac{37}{50} \cdot 100\%$
-D. $\dfrac{43}{50} \cdot 100\%$
+::: {.answer-options}
+1. $\dfrac{7}{50} \cdot 100\%$
+1. $\dfrac{13}{50} \cdot 100\%$
+1. $\dfrac{37}{50} \cdot 100\%$
+1. $\dfrac{43}{50} \cdot 100\%$
+:::
 
 
 ::::

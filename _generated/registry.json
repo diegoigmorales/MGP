@@ -48,11 +48,11 @@
       "line": 36,
       "href": "../contenidos/libro/numeros/porcentajes.qmd#tag-0002",
       "relations": {
-        "requiere": [
-          "0001"
-        ],
         "pertenece_a": [
           "C001"
+        ],
+        "requiere": [
+          "0001"
         ]
       }
     },
@@ -653,11 +653,11 @@
           "0001",
           "0002"
         ],
-        "evalua": [
-          "H001"
-        ],
         "pertenece_a": [
           "C001"
+        ],
+        "evalua": [
+          "H001"
         ]
       }
     },
@@ -669,15 +669,15 @@
       "line": 12,
       "href": "../contenidos/universitario/estadistica/media-ponderada.qmd#tag-U001",
       "relations": {
-        "profundiza": [
-          "0003"
+        "pertenece_a": [
+          "C002"
         ],
         "requiere": [
           "0001",
           "0002"
         ],
-        "pertenece_a": [
-          "C002"
+        "profundiza": [
+          "0003"
         ]
       }
     }
@@ -754,15 +754,6 @@
         "relation": "evalua"
       }
     ],
-    "0003": [
-      {
-        "tag": "U001",
-        "title": "Calificación final ponderada",
-        "source": "contenidos/universitario/estadistica/media-ponderada.qmd",
-        "href": "../../../universitario/estadistica/media-ponderada.qmd#tag-U001",
-        "relation": "profundiza"
-      }
-    ],
     "C002": [
       {
         "tag": "U001",
@@ -770,6 +761,15 @@
         "source": "contenidos/universitario/estadistica/media-ponderada.qmd",
         "href": "../universitario/estadistica/media-ponderada.qmd#tag-U001",
         "relation": "pertenece_a"
+      }
+    ],
+    "0003": [
+      {
+        "tag": "U001",
+        "title": "Calificación final ponderada",
+        "source": "contenidos/universitario/estadistica/media-ponderada.qmd",
+        "href": "../../../universitario/estadistica/media-ponderada.qmd#tag-U001",
+        "relation": "profundiza"
       }
     ]
   }

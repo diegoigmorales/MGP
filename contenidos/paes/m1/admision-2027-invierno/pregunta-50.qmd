@@ -17,10 +17,12 @@ En una empresa de embalaje, al ingresar una caja a una cinta transportadora se l
 Si los movimientos de la caja en la cinta transportadora son en relación con su cara frontal, ¿en qué posición ingresó la caja a la cinta transportadora?
 
 
-A. (imagen)
-B. (imagen)
-C. (imagen)
-D. (imagen)
+::: {.answer-options}
+1. (imagen)
+1. (imagen)
+1. (imagen)
+1. (imagen)
+:::
 
 
 ::::

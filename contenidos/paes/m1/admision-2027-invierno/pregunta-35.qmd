@@ -11,10 +11,12 @@ Una empresa contrata a una persona para que publique videos mostrando los benefi
 ¿Cuál de las siguientes funciones modela el dinero que recibirá la persona tras publicar $x$ videos para la empresa?
 
 
-A. $f(x) = 150000x + 100000$
-B. $g(x) = 100000x + 150000$
-C. $h(x) = 100000 \cdot (x + 150000)$
-D. $k(x) = x \cdot (100000 + 150000)$
+::: {.answer-options}
+1. $f(x) = 150000x + 100000$
+1. $g(x) = 100000x + 150000$
+1. $h(x) = 100000 \cdot (x + 150000)$
+1. $k(x) = x \cdot (100000 + 150000)$
+:::
 
 
 ::::

@@ -17,10 +17,12 @@ En el siguiente gráfico se presentan los resultados de una encuesta realizada e
 ¿Para qué alimento existe la mayor diferencia entre los porcentajes según lo que consideran saludable el grupo de nutricionistas versus el grupo de estadounidenses encuestados?
 
 
-A. Helado
-B. Quinoa
-C. Manzana
-D. Barra de cereal
+::: {.answer-options}
+1. Helado
+1. Quinoa
+1. Manzana
+1. Barra de cereal
+:::
 
 
 ::::

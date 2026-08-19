@@ -13,10 +13,12 @@ Sandra decide leer $40$ páginas el primer día, y cada día en adelante leer $3
 Si ambos cumplen con la lectura diaria estipulada, ¿cuál de las siguientes afirmaciones es verdadera con respecto al plazo de lectura de Sandra y Miguel?
 
 
-A. Ambos alcanzaron a leer el libro en el plazo.
-B. Sandra alcanzó a leer el libro en el plazo, pero Miguel no.
-C. Miguel alcanzó a leer el libro en el plazo, pero Sandra no.
-D. Ninguno alcanzó a leer el libro en el plazo.
+::: {.answer-options}
+1. Ambos alcanzaron a leer el libro en el plazo.
+1. Sandra alcanzó a leer el libro en el plazo, pero Miguel no.
+1. Miguel alcanzó a leer el libro en el plazo, pero Sandra no.
+1. Ninguno alcanzó a leer el libro en el plazo.
+:::
 
 
 ::::

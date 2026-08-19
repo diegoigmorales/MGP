@@ -13,10 +13,12 @@ Del total de corredores, un $25\,\%$ eran extranjeros y un $12\,\%$ de estos com
 ¿Cuál de las siguientes expresiones representa la cantidad de corredores extranjeros que compitieron en la categoría 10k?
 
 
-A. $25 \cdot 12 \cdot 31000$
-B. $(25 + 12) \cdot 31000$
-C. $0.25 \cdot 0.12 \cdot 31000$
-D. $(0.25 + 0.12) \cdot 31000$
+::: {.answer-options}
+1. $25 \cdot 12 \cdot 31000$
+1. $(25 + 12) \cdot 31000$
+1. $0.25 \cdot 0.12 \cdot 31000$
+1. $(0.25 + 0.12) \cdot 31000$
+:::
 
 
 ::::

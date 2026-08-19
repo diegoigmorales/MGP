@@ -19,10 +19,12 @@ Una persona tiene $\$10000$ para comprar un paquete de tallarines de $\$800$ y l
 ¿Cuál de las siguientes inecuaciones permite determinar la máxima cantidad $x$ de kilogramos de tomates que puede comprar la persona?
 
 
-A. $10000 - 800 \geq 1800x$
-B. $10000 - 800 \geq 1800$
-C. $10000 + 800 \geq 1800x$
-D. $10000 + 800 \geq 1800$
+::: {.answer-options}
+1. $10000 - 800 \geq 1800x$
+1. $10000 - 800 \geq 1800$
+1. $10000 + 800 \geq 1800x$
+1. $10000 + 800 \geq 1800$
+:::
 
 
 ::::

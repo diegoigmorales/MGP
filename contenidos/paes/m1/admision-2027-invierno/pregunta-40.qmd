@@ -15,17 +15,19 @@ Un proyector de imágenes tiene una proporción de $9 : 16$ entre la altura y el
 
 
 Para calcular la altura de este rectángulo de proyección, se utiliza el siguiente modelo:
-\[
+$$
 (9x)^2 + (16x)^2 = 100^2
-\]
+$$
 
 ¿Qué representa $16x$ en el modelo?
 
 
-A. El factor de proporcionalidad
-B. El ancho del rectángulo de proyección
-C. La altura del rectángulo de proyección
-D. La distancia desde el proyector hasta la pared
+::: {.answer-options}
+1. El factor de proporcionalidad
+1. El ancho del rectángulo de proyección
+1. La altura del rectángulo de proyección
+1. La distancia desde el proyector hasta la pared
+:::
 
 
 ::::

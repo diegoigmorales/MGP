@@ -17,10 +17,12 @@ En los siguientes pictogramas se representa la cantidad de personas que hay en c
 ¿En cuál de los pictogramas hay un mayor promedio de personas por grupo?
 
 
-A. En el pictograma 1
-B. En el pictograma 2
-C. En el pictograma 3
-D. En el pictograma 4
+::: {.answer-options}
+1. En el pictograma 1
+1. En el pictograma 2
+1. En el pictograma 3
+1. En el pictograma 4
+:::
 
 
 ::::

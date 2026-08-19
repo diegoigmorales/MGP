@@ -15,10 +15,12 @@ En dicha semana Pedro atendió $18$ clientes, Joaquín atendió $8$ clientes má
 ¿Cuántos clientes atendió Rosario en esa semana de trabajo?
 
 
-A. $12$
-B. $18$
-C. $22$
-D. $36$
+::: {.answer-options}
+1. $12$
+1. $18$
+1. $22$
+1. $36$
+:::
 
 
 ::::

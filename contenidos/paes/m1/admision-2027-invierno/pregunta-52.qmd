@@ -8,7 +8,7 @@ description: "Pregunta de la PAES de Competencia Matemática M1 de Invierno para
 
 En la siguiente tabla se presenta el tiempo que las personas han trabajado en un colegio.
 
-\[
+$$
 \begin{array}{c|c}
 \text{Tiempo de trabajo en años} & \text{Cantidad de personas} \\
 \hline
@@ -23,15 +23,17 @@ En la siguiente tabla se presenta el tiempo que las personas han trabajado en un
 9 & 3 \\
 10 & 2
 \end{array}
-\]
+$$
 
 Si se entrega una bonificación salarial a aquellas personas que lleven como mínimo $6$ años trabajando en el colegio, ¿cuántas personas recibirán la bonificación salarial?
 
 
-A. $12$
-B. $17$
-C. $18$
-D. $23$
+::: {.answer-options}
+1. $12$
+1. $17$
+1. $18$
+1. $23$
+:::
 
 
 ::::

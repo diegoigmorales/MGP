@@ -19,10 +19,12 @@ En el siguiente gráfico se representa la concentración de glucosa en el cuerpo
 ¿Cuál de las siguientes afirmaciones se puede deducir del gráfico?
 
 
-A. El paciente ingiere la glucosa aproximadamente una hora después de iniciar el examen.
-B. La concentración de glucosa se estabiliza en su nivel basal luego de aproximadamente $4\,\mathrm{h}$ de ingerir glucosa.
-C. La concentración de glucosa basal del paciente es de $110\,\mathrm{mg/dL}$, aproximadamente.
-D. El punto más alto de la concentración de glucosa sucede $3\,\mathrm{h}$ después de ingerir la glucosa.
+::: {.answer-options}
+1. El paciente ingiere la glucosa aproximadamente una hora después de iniciar el examen.
+1. La concentración de glucosa se estabiliza en su nivel basal luego de aproximadamente $4\,\mathrm{h}$ de ingerir glucosa.
+1. La concentración de glucosa basal del paciente es de $110\,\mathrm{mg/dL}$, aproximadamente.
+1. El punto más alto de la concentración de glucosa sucede $3\,\mathrm{h}$ después de ingerir la glucosa.
+:::
 
 
 ::::

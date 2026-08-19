@@ -9,10 +9,12 @@ description: "Pregunta de la PAES de Competencia Matemática M1 de Invierno para
 Si $(p - 3)^2 - 36 = 0$, ¿cuál de los siguientes valores puede ser un valor de $p$?
 
 
-A. $-15$
-B. $-9$
-C. $9$
-D. $15$
+::: {.answer-options}
+1. $-15$
+1. $-9$
+1. $9$
+1. $15$
+:::
 
 
 ::::

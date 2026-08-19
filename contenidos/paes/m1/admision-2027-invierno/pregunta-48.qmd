@@ -19,10 +19,12 @@ Dicha proteína con su grupo metilo es sometida a una rotación de $90^\circ$ en
 ¿En cuál de los siguientes gráficos se representa la proteína con su grupo metilo después de la rotación?
 
 
-A. (imagen)
-B. (imagen)
-C. (imagen)
-D. (imagen)
+::: {.answer-options}
+1. (imagen)
+1. (imagen)
+1. (imagen)
+1. (imagen)
+:::
 
 
 ::::

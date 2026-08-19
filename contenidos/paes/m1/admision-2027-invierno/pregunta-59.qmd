@@ -8,21 +8,23 @@ description: "Pregunta de la PAES de Competencia Matemática M1 de Invierno para
 
 En la siguiente tabla se presenta el gasto diario en almuerzo de una persona durante una semana.
 
-\[
+$$
 \begin{array}{c|ccccccc}
 \text{Día} & \text{Lunes} & \text{Martes} & \text{Miércoles} & \text{Jueves} & \text{Viernes} & \text{Sábado} & \text{Domingo} \\
 \hline
 \text{Gasto (\$)} & 3200 & 5300 & 7200 & 2500 & 11400 & 12000 & 6000
 \end{array}
-\]
+$$
 
 ¿Cuánto dinero gastó en promedio diariamente en almuerzo esa semana?
 
 
-A. $\$2500$
-B. $\$6000$
-C. $\$6800$
-D. $\$9520$
+::: {.answer-options}
+1. $\$2500$
+1. $\$6000$
+1. $\$6800$
+1. $\$9520$
+:::
 
 
 ::::

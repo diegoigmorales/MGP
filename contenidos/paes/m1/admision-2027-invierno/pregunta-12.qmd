@@ -11,10 +11,12 @@ En la entrada de una obra de teatro, hay una persona encargada de recibir los ti
 Si se estima que la persona encargada recibe $15$ tickets cada $60\,\mathrm{s}$, ¿cuál de las siguientes expresiones permite estimar la cantidad de tickets que recibe cada $t$ minutos?
 
 
-A. $15t$
-B. $900t$
-C. $4t$
-D. $\dfrac{t}{900}$
+::: {.answer-options}
+1. $15t$
+1. $900t$
+1. $4t$
+1. $\dfrac{t}{900}$
+:::
 
 
 ::::

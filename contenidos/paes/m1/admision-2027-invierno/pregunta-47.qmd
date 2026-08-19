@@ -17,10 +17,12 @@ Una hoja de papel se dobla dos veces consecutivas y luego se le realiza una perf
 ¿Cuál de las siguientes imágenes representa las perforaciones que tendrá el papel al extenderse?
 
 
-A. (imagen)
-B. (imagen)
-C. (imagen)
-D. (imagen)
+::: {.answer-options}
+1. (imagen)
+1. (imagen)
+1. (imagen)
+1. (imagen)
+:::
 
 
 ::::

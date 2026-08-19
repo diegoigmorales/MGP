@@ -17,10 +17,12 @@ En la siguiente figura se representa un cuadrilátero cuyas medidas están en ce
 ¿Cuál de las siguientes expresiones corresponde al perímetro del cuadrilátero?
 
 
-A. $22\,\mathrm{cm}$
-B. $(\sqrt{6} + 15)$ cm
-C. $20\,\mathrm{cm}$
-D. $(\sqrt{29} + 15)$ cm
+::: {.answer-options}
+1. $22\,\mathrm{cm}$
+1. $(\sqrt{6} + 15)$ cm
+1. $20\,\mathrm{cm}$
+1. $(\sqrt{29} + 15)$ cm
+:::
 
 
 ::::

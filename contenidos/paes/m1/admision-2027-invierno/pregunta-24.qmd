@@ -7,9 +7,9 @@ description: "Pregunta de la PAES de Competencia Matemática M1 de Invierno para
 ## Pregunta 24
 
 El crecimiento de una población de bacterias se modela utilizando la siguiente expresión:
-\[
+$$
 F = P(1 + r)^t,
-\]
+$$
 tal que $F$ es la cantidad final de bacterias transcurrido un tiempo $t$ en horas, $P$ es la cantidad inicial de bacterias y $r$ es la tasa de crecimiento por hora.
 
 Para calcular la cantidad de bacterias que habrá transcurridas $2$ horas, en un cultivo en que inicialmente hay $100$ bacterias y tiene una tasa de crecimiento de $\dfrac{1}{2}$ por hora, se realiza el siguiente procedimiento cometiéndose un error.
@@ -24,10 +24,12 @@ Para calcular la cantidad de bacterias que habrá transcurridas $2$ horas, en un
 ¿En cuál de los pasos se cometió el error?
 
 
-A. En el Paso 1
-B. En el Paso 2
-C. En el Paso 3
-D. En el Paso 4
+::: {.answer-options}
+1. En el Paso 1
+1. En el Paso 2
+1. En el Paso 3
+1. En el Paso 4
+:::
 
 
 ::::

@@ -11,10 +11,12 @@ José tiene $90$ dulces y se quedará con $18$, repartiendo el resto en partes i
 ¿Cuántos dulces recibirá cada amigo de José?
 
 
-A. $8$
-B. $9$
-C. $10$
-D. $11$
+::: {.answer-options}
+1. $8$
+1. $9$
+1. $10$
+1. $11$
+:::
 
 
 ::::

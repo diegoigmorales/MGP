@@ -13,10 +13,12 @@ La empresa ofrece un $15\,\%$ de descuento en el total a pagar si se realizan m�
 Si una persona realiza el lavado y secado exterior con cinco servicios extras, ¿cuánto es el total que debe pagar?
 
 
-A. $\$38250$
-B. $\$41250$
-C. $\$42000$
-D. $\$42750$
+::: {.answer-options}
+1. $\$38250$
+1. $\$41250$
+1. $\$42000$
+1. $\$42750$
+:::
 
 
 ::::

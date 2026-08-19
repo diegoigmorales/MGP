@@ -19,10 +19,12 @@ En Mercurio, el valor de $g$ es aproximadamente $3.7\,\mathrm{m/s^2}$, de manera
 Si el valor de $g$ en la Tierra es aproximadamente $10\,\mathrm{m/s^2}$, ¿cuál de los siguientes gráficos podría representar el peso en función de la masa en Mercurio y en la Tierra?
 
 
-A. (imagen)
-B. (imagen)
-C. (imagen)
-D. (imagen)
+::: {.answer-options}
+1. (imagen)
+1. (imagen)
+1. (imagen)
+1. (imagen)
+:::
 
 
 ::::
