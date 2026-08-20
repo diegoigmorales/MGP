@@ -12,7 +12,6 @@ website:
   title: "Matemática para Gañanes y Patanes"
   site-url: https://diegoigmorales.github.io/MGP/
   repo-url: https://github.com/diegoigmorales/MGP
-  repo-actions: [edit, issue]
   page-navigation: true
   navbar:
     collapse-below: lg

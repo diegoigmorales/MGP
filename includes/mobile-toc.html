@@ -3,7 +3,29 @@ document.addEventListener("DOMContentLoaded", () => {
   const source = document.querySelector("#quarto-margin-sidebar nav#TOC > ul");
   const main = document.querySelector("main.content");
 
-  if (!source || !main || document.querySelector(".mobile-page-toc")) return;
+  if (!main) return;
+
+  const feedback = document.createElement("aside");
+  feedback.className = "page-feedback";
+  feedback.setAttribute("aria-label", "Comentarios sobre esta página");
+
+  const prompt = document.createElement("span");
+  prompt.textContent = "¿Encontraste un error?";
+
+  const pageReference = encodeURIComponent(`Página: ${window.location.href}\n\n`);
+  const report = document.createElement("a");
+  report.href = `https://github.com/diegoigmorales/MGP/issues/new?title=Error%20en%20una%20página&body=${pageReference}`;
+  report.textContent = "Informar";
+
+  const separator = document.createTextNode(" · ");
+  const proposal = document.createElement("a");
+  proposal.href = `https://github.com/diegoigmorales/MGP/issues/new?title=Propuesta%20de%20mejora&body=${pageReference}`;
+  proposal.textContent = "Proponer una mejora";
+
+  feedback.append(prompt, document.createTextNode(" "), report, separator, proposal);
+  main.appendChild(feedback);
+
+  if (!source || document.querySelector(".mobile-page-toc")) return;
 
   const details = document.createElement("details");
   details.className = "mobile-page-toc";

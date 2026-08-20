@@ -154,6 +154,24 @@
   display: none;
 }
 
+.page-feedback {
+  border-top: 1px solid #d9dee5;
+  color: #5f6873;
+  font-size: .9rem;
+  margin-top: 3rem;
+  padding-top: .8rem;
+}
+
+.page-feedback a {
+  font-weight: 550;
+  text-decoration: none;
+}
+
+.page-feedback a:hover,
+.page-feedback a:focus {
+  text-decoration: underline;
+}
+
 @media (max-width: 1199.98px) {
   #quarto-margin-sidebar {
     display: none !important;

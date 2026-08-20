@@ -3,6 +3,57 @@ title: "Acerca del proyecto"
 toc: false
 ---
 
-**Matemática para Gañanes y Patanes** es una plataforma gratuita orientada a la PAES de Matemática en Chile. Su prioridad es construir comprensión y no sólo entregar respuestas.
+# Matemática para comprender y volver a aprender
 
-El contenido se publica desde una única fuente en Quarto. El modelo de conocimiento —tags, objetos y relaciones— es propio del proyecto y puede migrar a otro motor de publicación en el futuro.
+**Matemática para Gañanes y Patanes (MGP)** es un proyecto educativo gratuito para quienes necesitan estudiar matemática sin dar por supuesto que recuerdan cada definición, técnica o paso intermedio.
+
+Está dirigido principalmente a estudiantes que preparan la PAES de Matemática en Chile, pero también puede ser útil para docentes, familias, tutores y personas adultas que quieren recuperar conocimientos escolares. No pretende sustituir una clase, un texto oficial ni la orientación de un establecimiento: ofrece otra forma de recorrer y relacionar el contenido.
+
+## El problema que busca resolver
+
+Al estudiar matemática es frecuente encontrar explicaciones que saltan pasos, respuestas que solo muestran un procedimiento y materiales dispersos que obligan a empezar de nuevo cada vez que aparece una duda. Esto perjudica especialmente a quien ha olvidado una base, aprendió un método sin comprenderlo o no sabe qué conocimiento previo necesita repasar.
+
+MGP busca reducir esa fragmentación. Una pregunta puede conducir a la técnica que permite resolverla, a la definición que sostiene esa técnica, a los errores habituales y a la habilidad curricular involucrada. Así, olvidar algo no es un fracaso: es el punto de partida para encontrar una ruta de estudio.
+
+## Más que un solucionario
+
+Un solucionario común suele concentrarse en obtener la alternativa correcta. MGP intenta documentar también:
+
+- por qué funciona cada procedimiento;
+- qué conocimientos previos requiere;
+- métodos alternativos cuando aportan comprensión;
+- errores frecuentes y el sentido de los distractores;
+- la materia y la habilidad evaluadas;
+- relaciones con otras preguntas y capítulos.
+
+Los objetos importantes reciben un identificador estable. Esto permite enlazar una explicación desde distintos lugares sin copiarla ni convertir el sitio en una colección de respuestas aisladas.
+
+## Quién desarrolla MGP
+
+MGP es un proyecto independiente desarrollado y mantenido por **Diego Morales**. El contenido, la estructura pedagógica, el sistema de relaciones y las herramientas de publicación se construyen de manera progresiva. El sitio muestra únicamente las secciones que ya tienen material utilizable; la arquitectura futura se conserva como planificación interna.
+
+El proyecto no representa ni está afiliado al DEMRE, a la Universidad de Chile ni a otra institución educativa.
+
+## Fuentes y procedencia
+
+Los temarios y materiales oficiales se identifican con su institución de origen y enlazan, siempre que es posible, a la publicación original. Para la historia de los temarios PAES se utilizan documentos del **Departamento de Evaluación, Medición y Registro Educacional (DEMRE) de la Universidad de Chile**. Puedes consultar el [inventario de fuentes oficiales](contenidos/paes/temarios/fuentes.qmd).
+
+Las preguntas creadas para MGP se señalan como originales. Cuando se incorpora material externo, el proyecto procura registrar autoría, fuente, fecha, titular de derechos, alcance de la transcripción y finalidad educativa. La fuente oficial debe prevalecer ante cualquier diferencia o actualización.
+
+## Licencias y reutilización
+
+El acceso al sitio es gratuito, pero el repositorio **todavía no declara una licencia general de reutilización** para el contenido ni para el código. Hasta que se publique una licencia expresa, no debe suponerse autorización para copiar, adaptar o redistribuir el material más allá de lo permitido por la legislación aplicable.
+
+Los documentos, preguntas, nombres y demás materiales de terceros conservan las licencias y derechos de sus respectivos titulares. Un futuro esquema de licencias del proyecto no podrá modificar esos derechos.
+
+## Cómo colaborar
+
+Hay varias formas de ayudar:
+
+- informar errores matemáticos, enlaces rotos o problemas de accesibilidad;
+- proponer explicaciones más claras o métodos alternativos;
+- aportar preguntas originales con su solución y procedencia;
+- revisar transcripciones, fuentes y metadatos;
+- mejorar el código, el diseño o la experiencia en dispositivos móviles.
+
+Puedes utilizar los enlaces **Informar** y **Proponer una mejora** que aparecen al pie de cada página, o abrir una [incidencia en GitHub](https://github.com/diegoigmorales/MGP/issues). Quienes colaboran directamente en el repositorio también pueden editar los archivos QMD y enviar sus cambios para revisión. Antes de incorporar contribuciones extensas será necesario acordar su autoría, procedencia y condiciones de licencia.
