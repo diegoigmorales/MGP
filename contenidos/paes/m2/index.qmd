@@ -1,0 +1,19 @@
+---
+title: "Competencia Matemática M2"
+description: "Temarios, evolución y futuros análisis de preguntas de Competencia Matemática 2."
+---
+
+# Comprender la M2
+
+La M2 evalúa todos los conocimientos definidos para M1 y agrega contenidos que requieren una comprensión conceptual más profunda, especialmente para carreras con uso intensivo de matemática.
+
+## Temario y evolución
+
+- [Temario M2 vigente · Admisión 2027](../temarios/vigente.qmd#m2-regular)
+- [Cambios históricos de M2](../temarios/evolucion/index.qmd)
+- [Comparación cronológica](../temarios/comparacion.qmd)
+- [Fuentes oficiales](../temarios/fuentes.qmd)
+
+## Preguntas
+
+Los análisis de preguntas oficiales y originales de M2 se incorporarán aquí como nodos conectados con el libro y el currículum.

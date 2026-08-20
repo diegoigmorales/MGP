@@ -1,0 +1,52 @@
+---
+title: "Temarios PAES de Matemática"
+description: "Temario vigente, evolución histórica y comparación de M1 y M2."
+toc: false
+---
+
+::: {.temario-hero}
+## Del primer temario al vigente
+
+Esta sección conserva el primer temario PAES completo y muestra, proceso por proceso, qué contenidos de M1 y M2 fueron incorporados, eliminados, reformulados o reubicados. Las series **regular** e **invierno** se comparan por separado.
+:::
+
+::: {.temario-grid}
+::: {.temario-card}
+### [Temario vigente](vigente.qmd)
+
+Admisión 2027 completa, con las diferencias entre la prueba regular y la de invierno.
+:::
+
+::: {.temario-card}
+### [Evolución histórica](evolucion/index.qmd)
+
+Primera versión completa y cambios de cada proceso de Admisión 2023 a 2027.
+:::
+
+::: {.temario-card}
+### [Comparación](comparacion.qmd)
+
+Cronología por unidad temática, cambios acumulados y acceso a cada transición.
+:::
+
+::: {.temario-card}
+### [Fuentes oficiales](fuentes.qmd)
+
+Documentos DEMRE, fechas de publicación y control de las copias utilizadas.
+:::
+:::
+
+## Recorrido recomendado
+
+1. Si estás preparando la prueba, comienza por el [temario vigente](vigente.qmd).
+2. Si quieres interpretar las etiquetas y los conteos, consulta [cómo leer esta historia](como-leer.qmd).
+3. Para saber qué cambió en un proceso específico, abre la [evolución histórica](evolucion/index.qmd).
+4. Para seguir una unidad a través del tiempo, usa la [comparación cronológica](comparacion.qmd).
+
+::: {.callout-note}
+## La inclusión no garantiza una pregunta
+
+Que un conocimiento figure en el temario no significa que necesariamente aparezca en una forma particular de la prueba. El temario delimita el universo desde el cual se construyen las preguntas.
+:::
+
+[Volver a Preparación PAES](../index.qmd)

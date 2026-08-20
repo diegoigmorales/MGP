@@ -1,0 +1,163 @@
+---
+title: "Comparación histórica de temarios"
+description: "Matrices cronológicas de M1 y M2 para PAES regular e invierno, Admisión 2023–2027."
+---
+
+# Cómo usar las tablas
+
+Cada celda describe lo ocurrido **en ese proceso respecto de la edición anterior de la misma modalidad**. “Ausente” indica que una unidad ya no figuraba; no constituye una nueva eliminación. Consulta los [criterios editoriales](como-leer.qmd) antes de interpretar una reformulación.
+
+## Conteo de estructura documental
+
+El formato `unidades / enunciados` cuenta unidades temáticas y las descripciones explícitas que las desarrollan. M2 propio cuenta solo lo adicional a M1.
+
+::: {.temario-table}
+| Serie regular | 2023 | 2024 | 2025 | 2026 | 2027 |
+|---|---:|---:|---:|---:|---:|
+| M1 | 17 / 49 | 16 / 45 | 16 / 46 | 15 / 45 | 16 / 46* |
+| M2 propio | 9 / 16 | 10 / 17 | 11 / 17 | 13 / 23 | 15 / 25 |
+| M2 efectivo, incluido M1 | 26 / 65 | 26 / 62 | 27 / 63 | 28 / 68 | 31 / 71* |
+:::
+
+\* En M1 regular 2027 hay 46 enunciados semánticos, aunque solo 45 viñetas: un enunciado de función lineal y afín quedó unido tipográficamente al anterior.
+
+::: {.temario-table}
+| Serie invierno | 2024 | 2025 | 2026 | 2027 |
+|---|---:|---:|---:|---:|
+| M1 | 17 / 49 | 16 / 45 | 16 / 46 | 15 / 45 |
+| M2 propio | 9 / 16 | 10 / 17 | 11 / 17 | 13 / 23 |
+| M2 efectivo, incluido M1 | 26 / 65 | 26 / 62 | 27 / 63 | 28 / 68 |
+:::
+
+# Serie regular
+
+## M1 por unidad temática
+
+::: {.temario-table}
+| Unidad | 2023 | 2024 | 2025 | 2026 | 2027 |
+|---|---|---|---|---|---|
+| Enteros y racionales | Incluido | Sin cambios | Reformulado | Sin cambios | Sin cambios |
+| Porcentaje | Incluido | Sin cambios | Sin cambios | Sin cambios | Sin cambios |
+| Potencias y raíces | Incluido | Sin cambios | Sin cambios | Sin cambios | Sin cambios |
+| Expresiones algebraicas | Incluido | Sin cambios | Reformulado | Sin cambios | Sin cambios |
+| Proporcionalidad | Incluido | Sin cambios | Sin cambios | Sin cambios | Sin cambios |
+| Ecuaciones e inecuaciones lineales | Incluido | Sin cambios | Sin cambios | Sin cambios | Sin cambios |
+| Sistemas lineales (2 × 2) | Incluido | Sin cambios | Sin cambios | Sin cambios | Sin cambios |
+| Función lineal y afín | Incluido | Sin cambios | Sin cambios | Sin cambios | Sin cambios* |
+| Función cuadrática | Incluido | Sin cambios | Sin cambios | Sin cambios | Sin cambios |
+| Figuras geométricas | Incluido | Sin cambios | Reformulado | Sin cambios | Sin cambios |
+| Cuerpos geométricos | Incluido | Reformulado | Sin cambios | Reformulado | Reformulado |
+| Transformaciones isométricas | Incluido | Sin cambios | Sin cambios | Sin cambios | Sin cambios |
+| Semejanza y proporcionalidad | Incluido | Eliminado | Ausente | Ausente | Reincorporado parcial |
+| Representación de datos | Incluido | Sin cambios | Sin cambios | Reubicado/promedio | Sin cambios |
+| Tendencia central y rango | Incluido | Sin cambios | Sin cambios | Eliminado | Ausente |
+| Medidas de posición | Incluido | Sin cambios | Sin cambios | Sin cambios | Sin cambios |
+| Reglas de probabilidades | Incluido | Sin cambios | Sin cambios | Sin cambios | Sin cambios |
+:::
+
+\* El contenido continúa; existe un defecto de viñeta en el PDF 2027.
+
+## M2 propio por unidad temática
+
+::: {.temario-table}
+| Unidad adicional a M1 | 2023 | 2024 | 2025 | 2026 | 2027 |
+|---|---|---|---|---|---|
+| Números reales | Incluido | Sin cambios | Sin cambios | Sin cambios | Sin cambios |
+| Matemática financiera | Ausente | Incorporado | Sin cambios | Sin cambios | Sin cambios |
+| Logaritmos | Incluido | Sin cambios | Reformulado | Sin cambios | Sin cambios |
+| Casos de sistemas lineales | Incluido | Sin cambios | Sin cambios | Sin cambios | Sin cambios |
+| Ecuaciones de segundo grado, extensión M2 | Incluido | Sin cambios | Eliminado | Ausente | Ausente |
+| Función potencia/exponencial/logarítmica | Ausente | Ausente | Incorporado: potencia | Reformulado/ampliado | Sin cambios |
+| Funciones trigonométricas | Ausente | Ausente | Ausente | Incorporado | Sin cambios |
+| Homotecia | Incluido | Sin cambios | Sin cambios | Sin cambios | Sin cambios |
+| Razones trigonométricas | Incluido | Sin cambios | Sin cambios | Sin cambios | Sin cambios |
+| Relaciones métricas en circunferencia | Ausente | Ausente | Ausente | Incorporado | Sin cambios |
+| Esferas | Ausente | Ausente | Ausente | Ausente | Incorporado |
+| Rectas en el plano | Ausente | Ausente | Ausente | Ausente | Incorporado |
+| Medidas de dispersión | Incluido | Sin cambios | Sin cambios | Sin cambios | Sin cambios |
+| Probabilidad condicional | Incluido | Sin cambios | Sin cambios | Sin cambios | Sin cambios |
+| Permutación y combinatoria | Incluido | Sin cambios | Sin cambios | Sin cambios | Sin cambios |
+| Modelos probabilísticos | Ausente | Ausente | Incorporado: binomial | Reformulado: + normal | Sin cambios |
+:::
+
+# Serie de invierno
+
+## M1 por unidad temática
+
+::: {.temario-table}
+| Unidad | 2024 | 2025 | 2026 | 2027 |
+|---|---|---|---|---|
+| Enteros y racionales | Incluido | Sin cambios | Reformulado | Sin cambios |
+| Porcentaje | Incluido | Sin cambios | Sin cambios | Sin cambios |
+| Potencias y raíces | Incluido | Sin cambios | Sin cambios | Sin cambios |
+| Expresiones algebraicas | Incluido | Sin cambios | Reformulado | Sin cambios |
+| Proporcionalidad | Incluido | Sin cambios | Sin cambios | Sin cambios |
+| Ecuaciones e inecuaciones lineales | Incluido | Sin cambios | Sin cambios | Sin cambios |
+| Sistemas lineales (2 × 2) | Incluido | Sin cambios | Sin cambios | Sin cambios |
+| Función lineal y afín | Incluido | Sin cambios | Sin cambios | Sin cambios |
+| Función cuadrática | Incluido | Sin cambios | Sin cambios | Sin cambios |
+| Figuras geométricas | Incluido | Sin cambios | Reformulado | Sin cambios |
+| Cuerpos geométricos | Incluido | Reformulado | Sin cambios | Reformulado |
+| Transformaciones isométricas | Incluido | Sin cambios | Sin cambios | Sin cambios |
+| Semejanza y proporcionalidad | Incluido | Eliminado | Ausente | Ausente |
+| Representación de datos | Incluido | Sin cambios | Sin cambios | Reubicado/promedio |
+| Tendencia central y rango | Incluido | Sin cambios | Sin cambios | Eliminado |
+| Medidas de posición | Incluido | Sin cambios | Sin cambios | Sin cambios |
+| Reglas de probabilidades | Incluido | Sin cambios | Sin cambios | Sin cambios |
+:::
+
+## M2 propio por unidad temática
+
+::: {.temario-table}
+| Unidad adicional a M1 | 2024 | 2025 | 2026 | 2027 |
+|---|---|---|---|---|
+| Números reales | Incluido | Sin cambios | Sin cambios | Sin cambios |
+| Matemática financiera | Ausente | Incorporado | Sin cambios | Sin cambios |
+| Logaritmos | Incluido | Sin cambios | Reformulado | Sin cambios |
+| Casos de sistemas lineales | Incluido | Sin cambios | Sin cambios | Sin cambios |
+| Ecuaciones de segundo grado, extensión M2 | Incluido | Sin cambios | Eliminado | Ausente |
+| Función potencia/exponencial/logarítmica | Ausente | Ausente | Incorporado: potencia | Reformulado/ampliado |
+| Funciones trigonométricas | Ausente | Ausente | Ausente | Incorporado |
+| Homotecia | Incluido | Sin cambios | Sin cambios | Sin cambios |
+| Razones trigonométricas | Incluido | Sin cambios | Sin cambios | Sin cambios |
+| Relaciones métricas en circunferencia | Ausente | Ausente | Ausente | Incorporado |
+| Medidas de dispersión | Incluido | Sin cambios | Sin cambios | Sin cambios |
+| Probabilidad condicional | Incluido | Sin cambios | Sin cambios | Sin cambios |
+| Permutación y combinatoria | Incluido | Sin cambios | Sin cambios | Sin cambios |
+| Modelos probabilísticos | Ausente | Ausente | Incorporado: binomial | Reformulado: + normal |
+:::
+
+# Cambios acumulados por eje
+
+## Regular, Admisión 2023 → 2027
+
+| Eje | Evolución acumulada |
+|---|---|
+| Números | M1 separa enteros/racionales. M2 agrega matemática financiera y condensa logaritmos. |
+| Álgebra y funciones | M1 explicita desarrollo algebraico. M2 reemplaza su extensión de ecuaciones cuadráticas por funciones potencia, exponencial y logarítmica, y suma seno/coseno. |
+| Geometría | M1 pierde conos, segmentos/sectores y Thales; recupera cilindros y semejanza aplicada. M2 suma circunferencia, esfera y rectas. |
+| Probabilidad y estadística | M1 conserva promedio reubicado pero deja de explicitar mediana, moda y rango. M2 suma modelos binomial y normal. |
+
+## Invierno, Admisión 2024 → 2027
+
+| Eje | Evolución acumulada |
+|---|---|
+| Números | M1 separa enteros/racionales; M2 agrega matemática financiera y consolida logaritmos. |
+| Álgebra y funciones | M1 explicita desarrollo; M2 reemplaza la extensión cuadrática por nuevas familias de funciones y seno/coseno. |
+| Geometría | M1 pasa de prismas/cilindros/conos a paralelepípedos/cubos y pierde semejanza; M2 suma circunferencia. |
+| Probabilidad y estadística | M1 reubica promedio y deja de explicitar las demás medidas centrales/rango; M2 suma binomial y normal. |
+
+# Comparación inmediata
+
+- [2023 → 2024 regular y base de invierno](evolucion/admision-2024.qmd)
+- [2024 → 2025](evolucion/admision-2025.qmd)
+- [2025 → 2026](evolucion/admision-2026.qmd)
+- [2026 → 2027](evolucion/admision-2027.qmd)
+
+::: {.callout-tip}
+## De la historia al plan de estudio
+
+La matriz muestra evolución documental, no prioridad estadística. Para preparar una rendición concreta, usa el [temario vigente completo](vigente.qmd) y no solo la lista de incorporaciones.
+:::
+
+[Ver fuentes](fuentes.qmd) · [Volver a Temarios PAES](index.qmd)

@@ -1,29 +1,27 @@
 ---
-title: "Contenidos"
+title: "Tabla de contenidos"
+description: "Contenido actualmente publicado en MGP."
+toc: false
 ---
 
-La plataforma posee tres recorridos complementarios. Todos utilizan el mismo registro de objetos y el mismo sistema global de tags.
+Solo aparecen rutas con contenido real. Las secciones futuras permanecen en la planificación interna hasta que exista una página utilizable.
 
-## Preparar la PAES
+## Matemática escolar
 
-Análisis detallado de preguntas, soluciones alternativas, distractores, habilidades y errores frecuentes.
+- [Porcentajes](libro/numeros/porcentajes.qmd): definición, interpretaciones, técnica, ejemplos y errores frecuentes.
+- [Pregunta original sobre descuento](paes/m1/preguntas-originales/porcentajes.qmd): solución, método alternativo y análisis de distractores.
 
-[Entrar a Preparación PAES](paes/index.qmd)
+## Currículo
 
-## Estudiar matemática
+- [Ejes y materias](curriculum/ejes.qmd)
+- [Habilidades matemáticas](curriculum/habilidades.qmd)
 
-Un libro progresivo con explicaciones, definiciones, ejemplos, teoremas y demostraciones.
+## PAES de Matemática
 
-[Entrar al Libro de matemática](libro/index.qmd)
+- [Preparación PAES](paes/index.qmd)
+- [Temario vigente · Admisión 2027](paes/temarios/vigente.qmd)
+- [Evolución histórica](paes/temarios/evolucion/index.qmd)
+- [Comparación de temarios](paes/temarios/comparacion.qmd)
+- [PAES M1 Invierno · Admisión 2027](paes/m1/admision-2027-invierno/index.qmd)
 
-## Profundización universitaria
-
-Contenidos y problemas de cursos iniciales de universidad conectados con sus prerrequisitos escolares.
-
-[Entrar a Nivel universitario](universitario/index.qmd)
-
-## Estructura curricular
-
-Materias, ejes, habilidades y niveles también son objetos referenciables.
-
-[Explorar el currículum](curriculum/index.qmd)
+[Volver a la portada](../index.qmd)

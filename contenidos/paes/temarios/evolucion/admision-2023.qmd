@@ -1,0 +1,275 @@
+---
+title: "Admisión 2023: primer temario PAES"
+description: "Versión regular completa del primer temario de Competencia Matemática M1 y M2."
+---
+
+# Ficha del proceso
+
+| Campo | Dato |
+|---|---|
+| Proceso de admisión | 2023 |
+| Modalidad disponible | Regular |
+| Publicación | 26 de enero de 2022; actualización del 9 de junio de 2022 |
+| Rendición | M2: 29 de noviembre de 2022; M1: 30 de noviembre de 2022 |
+| Fuentes | [DEMRE M1](https://demre.cl/publicaciones/2023/2023-22-01-26-demre-temario-paes-matematica1) · [DEMRE M2](https://demre.cl/publicaciones/2023/2023-22-01-26-demre-temario-paes-matematica2) |
+
+Esta es la base de la serie regular. Los procesos posteriores se describen como cambios respecto de su antecesor, y el [temario vigente](../vigente.qmd) vuelve a presentar una versión completa.
+
+# Competencia Matemática 1 {#m1-2023}
+
+## Características generales
+
+| Característica | Admisión 2023 |
+|---|---|
+| Propósito | Competencia matemática para situaciones cotidianas y continuidad de estudios superiores. |
+| Referencia curricular | Formación general de 7.º básico a 2.º medio. |
+| Habilidades | Resolver problemas, modelar, representar y argumentar. |
+| Ejes | Números; Álgebra y funciones; Geometría; Probabilidad y estadística. |
+| Preguntas | 65 de selección múltiple y 4 opciones: 60 con puntaje y 5 experimentales. |
+| Duración | 2 horas y 20 minutos. |
+
+El documento también informaba rangos esperados de preguntas por habilidad y eje. Esas bandas describían la composición posible del instrumento, no un reparto fijo para toda forma.
+
+## Habilidades evaluadas
+
+- **Resolver problemas:** solucionar situaciones rutinarias o no rutinarias mediante cálculos, conocimientos y estrategias; interpretar y evaluar los resultados.
+- **Modelar:** usar, comprender y comparar expresiones matemáticas que representan aspectos relevantes de situaciones cotidianas o científicas.
+- **Representar:** transferir información mediante símbolos, tablas, gráficos, diagramas, recta numérica o plano cartesiano, y transitar entre representaciones.
+- **Argumentar:** reconocer, explicar y justificar procedimientos, deducciones, demostraciones y estrategias; detectar argumentos erróneos.
+
+## Conocimientos evaluados
+
+### Números
+
+::: {.temario-unit}
+#### Conjunto de los números enteros y racionales
+
+- Operaciones y orden en enteros y racionales.
+- Problemas con enteros y racionales en distintos contextos.
+:::
+
+::: {.temario-unit}
+#### Porcentaje
+
+- Concepto y cálculo de porcentaje.
+- Problemas de porcentaje en distintos contextos.
+:::
+
+::: {.temario-unit}
+#### Potencias y raíces enésimas
+
+- Propiedades de potencias de base racional y exponente racional.
+- Descomposición y propiedades de raíces enésimas en los números reales.
+- Problemas con potencias y raíces enésimas en distintos contextos.
+:::
+
+### Álgebra y funciones
+
+::: {.temario-unit}
+#### Expresiones algebraicas
+
+- Productos notables.
+- Factorización de expresiones algebraicas.
+- Operatoria con expresiones algebraicas.
+- Problemas con expresiones algebraicas en distintos contextos.
+:::
+
+::: {.temario-unit}
+#### Proporcionalidad
+
+- Proporción directa e inversa y sus representaciones.
+- Problemas de proporcionalidad directa e inversa.
+:::
+
+::: {.temario-unit}
+#### Ecuaciones e inecuaciones de primer grado
+
+- Resolución de ecuaciones lineales y problemas asociados.
+- Resolución de inecuaciones lineales y problemas asociados.
+:::
+
+::: {.temario-unit}
+#### Sistemas de ecuaciones lineales (2 × 2)
+
+- Resolución de sistemas de ecuaciones lineales.
+- Problemas con sistemas lineales en distintos contextos.
+:::
+
+::: {.temario-unit}
+#### Función lineal y afín
+
+- Conceptos de función lineal y función afín.
+- Tablas y gráficos de ambas funciones.
+- Problemas con funciones lineales y afines.
+:::
+
+::: {.temario-unit}
+#### Función cuadrática
+
+- Resolución de ecuaciones de segundo grado y problemas asociados.
+- Tablas y gráficos, considerando la variación de parámetros.
+- Vértice, ceros e intersecciones con los ejes.
+- Problemas con la función cuadrática.
+:::
+
+### Geometría
+
+::: {.temario-unit}
+#### Figuras geométricas
+
+- Problemas con el teorema de Pitágoras.
+- Perímetros y áreas de triángulos, paralelogramos, trapecios, círculos, segmentos y sectores circulares.
+- Problemas de perímetro y área con esas figuras.
+:::
+
+::: {.temario-unit}
+#### Cuerpos geométricos
+
+- Área de prismas rectos de distintas bases, cilindros y conos.
+- Volumen de prismas rectos de distintas bases, cilindros y conos.
+- Problemas de área y volumen con esos cuerpos.
+:::
+
+::: {.temario-unit}
+#### Transformaciones isométricas
+
+- Puntos y vectores en el plano cartesiano.
+- Rotación, traslación y reflexión.
+- Problemas con transformaciones isométricas.
+:::
+
+::: {.temario-unit}
+#### Semejanza y proporcionalidad de figuras planas
+
+- Concepto y propiedades de semejanza.
+- Modelos a escala.
+- Problemas con semejanza.
+- Problemas con el teorema de Thales.
+:::
+
+### Probabilidad y estadística
+
+::: {.temario-unit}
+#### Representación de datos mediante tablas y gráficos
+
+- Tablas de frecuencia absoluta y relativa.
+- Gráficos para representar datos.
+- Problemas con tablas y gráficos.
+:::
+
+::: {.temario-unit}
+#### Medidas de tendencia central y rango
+
+- Medidas de tendencia central y rango de uno o más grupos de datos.
+- Problemas con esas medidas.
+:::
+
+::: {.temario-unit}
+#### Medidas de posición
+
+- Cuartiles y percentiles de uno o más grupos.
+- Diagrama de cajón.
+- Problemas con medidas de posición.
+:::
+
+::: {.temario-unit}
+#### Reglas de las probabilidades
+
+- Probabilidad de un evento.
+- Reglas aditiva y multiplicativa en distintos contextos.
+:::
+
+# Competencia Matemática 2 {#m2-2023}
+
+## Características generales
+
+| Característica | Admisión 2023 |
+|---|---|
+| Propósito | Competencia matemática para la vida y el estudio de disciplinas científicas, con mayor profundidad conceptual. |
+| Referencia curricular declarada | Formación general de 1.º a 3.º medio. |
+| Base común | Todos los conocimientos de M1 podían ser evaluados. |
+| Preguntas | 55 de selección múltiple y 4 o 5 opciones: 50 con puntaje y 5 experimentales; incluía suficiencia de datos. |
+| Duración | 2 horas y 20 minutos. |
+
+Las cuatro habilidades tenían las mismas definiciones generales de M1. Los conocimientos propios de M2 se agregaban a toda la base M1 anterior.
+
+## Conocimientos adicionales a M1
+
+### Números
+
+::: {.temario-unit}
+#### Conjunto de los números reales
+
+- Operaciones en los números reales.
+- Problemas con números reales en distintos contextos.
+:::
+
+::: {.temario-unit}
+#### Logaritmos
+
+- Concepto y propiedades de los logaritmos.
+- Relación entre potencias, raíces y logaritmos.
+- Problemas con logaritmos.
+:::
+
+### Álgebra y funciones
+
+::: {.temario-unit}
+#### Sistemas de ecuaciones lineales (2 × 2)
+
+- Casos con solución única, infinitas soluciones o sin solución.
+:::
+
+::: {.temario-unit}
+#### Ecuaciones de segundo grado
+
+- Resolución mediante completación de cuadrados, factorización, gráficos y fórmula general.
+- Casos con dos, una o ninguna solución real.
+:::
+
+### Geometría
+
+::: {.temario-unit}
+#### Homotecia de figuras planas
+
+- Problemas de homotecia en distintos contextos.
+:::
+
+::: {.temario-unit}
+#### Razones trigonométricas en triángulos rectángulos
+
+- Seno, coseno y tangente.
+- Problemas con razones trigonométricas.
+:::
+
+### Probabilidad y estadística
+
+::: {.temario-unit}
+#### Medidas de dispersión
+
+- Medidas de dispersión de uno o más grupos de datos.
+- Problemas con medidas de dispersión.
+:::
+
+::: {.temario-unit}
+#### Probabilidad condicional
+
+- Problemas con probabilidad condicional y sus propiedades.
+:::
+
+::: {.temario-unit}
+#### Permutación y combinatoria
+
+- Permutación y combinatoria.
+- Problemas de conteo en distintos contextos.
+:::
+
+::: {.callout-tip}
+## Punto de partida acumulativo
+
+Para leer M2 correctamente hay que sumar esta lista al temario completo de M1. Una modificación posterior de M1 también cambia, por herencia, el universo de M2.
+:::
+
+<p class="source-note">Transcripción estructurada y síntesis fiel de las unidades y descripciones DEMRE; se omite el diseño del documento original.</p>
+
+[Siguiente: Admisión 2024](admision-2024.qmd) · [Volver a la evolución](index.qmd)

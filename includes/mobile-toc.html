@@ -1,0 +1,31 @@
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const source = document.querySelector("#quarto-margin-sidebar nav#TOC > ul");
+  const main = document.querySelector("main.content");
+
+  if (!source || !main || document.querySelector(".mobile-page-toc")) return;
+
+  const details = document.createElement("details");
+  details.className = "mobile-page-toc";
+
+  const summary = document.createElement("summary");
+  summary.textContent = "En esta página";
+
+  const nav = document.createElement("nav");
+  nav.setAttribute("aria-label", "Tabla de contenidos de esta página");
+
+  const list = source.cloneNode(true);
+  list.querySelectorAll("[id]").forEach((element) => element.removeAttribute("id"));
+  list.querySelectorAll(".collapse").forEach((element) => element.classList.remove("collapse"));
+  nav.appendChild(list);
+  details.append(summary, nav);
+
+  const title = main.querySelector("#title-block-header");
+  if (title) title.insertAdjacentElement("afterend", details);
+  else main.prepend(details);
+
+  nav.querySelectorAll("a").forEach((link) => {
+    link.addEventListener("click", () => details.removeAttribute("open"));
+  });
+});
+</script>

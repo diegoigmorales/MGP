@@ -1,0 +1,40 @@
+---
+title: "Fuentes oficiales de los temarios"
+description: "Inventario documental DEMRE utilizado para reconstruir la evolución de M1 y M2."
+toc: false
+---
+
+# Inventario documental
+
+Todos los temarios comparados fueron publicados por el **Departamento de Evaluación, Medición y Registro Educacional (DEMRE) de la Universidad de Chile**. Los enlaces siguientes apuntan a la publicación oficial o a la colección oficial del proceso.
+
+::: {.temario-table}
+| Admisión | Modalidad | Publicación | M1 | M2 |
+|---:|---|---:|---|---|
+| 2023 | Regular | 26 ene 2022; actualización 9 jun 2022 | [DEMRE M1](https://demre.cl/publicaciones/2023/2023-22-01-26-demre-temario-paes-matematica1) | [DEMRE M2](https://demre.cl/publicaciones/2023/2023-22-01-26-demre-temario-paes-matematica2) |
+| 2024 | Invierno | 26 ene 2023 | [DEMRE M1](https://demre.cl/publicaciones/2024/2024-23-01-26-temario-paes-invierno-m1) | [DEMRE M2](https://demre.cl/publicaciones/2024/2024-23-01-26-temario-paes-invierno-m2) |
+| 2024 | Regular | 23 mar 2023 | [DEMRE M1](https://demre.cl/publicaciones/2024/2024-23-03-23-temario-paes-regular-m1) | [DEMRE M2](https://demre.cl/publicaciones/2024/2024-23-03-23-temario-paes-regular-m2) |
+| 2025 | Invierno | 25 ene 2024 | [DEMRE M1](https://demre.cl/publicaciones/2025/2025-24-01-25-temario-paes-invierno-m1) | [DEMRE M2](https://demre.cl/publicaciones/2025/2025-24-01-25-temario-paes-invierno-m2) |
+| 2025 | Regular | 21 mar 2024 | [DEMRE M1](https://demre.cl/publicaciones/2025/2025-24-03-21-temario-paes-regular-m1) | [DEMRE M2](https://demre.cl/publicaciones/2025/2025-24-03-21-temario-paes-regular-m2) |
+| 2026 | Invierno | 24 ene 2025 | [DEMRE M1](https://demre.cl/publicaciones/2026/2026-25-01-24-temario-paes-invierno-m1) | [DEMRE M2](https://demre.cl/publicaciones/2026/2026-25-01-24-temario-paes-invierno-m2) |
+| 2026 | Regular | 20 mar 2025 | [DEMRE M1](https://demre.cl/publicaciones/2026/2026-25-03-20-temario-paes-regular-m1) | [DEMRE M2](https://demre.cl/publicaciones/2026/2026-25-03-20-temario-paes-regular-m2) |
+| 2027 | Invierno | 23 ene 2026 | [Colección DEMRE](https://demre.cl/la-prueba/pruebas-y-temarios/presentacion-pruebas-temarios-paes-invierno) | [Colección DEMRE](https://demre.cl/la-prueba/pruebas-y-temarios/presentacion-pruebas-temarios-paes-invierno) |
+| 2027 | Regular | 19 mar 2026 | [Colección DEMRE](https://demre.cl/la-prueba/pruebas-y-temarios/presentacion-pruebas-temarios-paes-regular) | [Colección DEMRE](https://demre.cl/la-prueba/pruebas-y-temarios/presentacion-pruebas-temarios-paes-regular) |
+:::
+
+# Control de integridad de las copias locales
+
+Las copias locales se revisaron por su contenido, no solo por el nombre del archivo. Tras la actualización del PDF M1 de Invierno 2026, los archivos rotulados como **Invierno M1** e **Invierno M2** corresponden correctamente a esa modalidad y proceso. Persisten estas inconsistencias en `docs/`:
+
+- `PAES Admisión 2026 - Verano M1 (Temario).pdf` es una copia binaria del archivo **Invierno M1 2026** y su portada interna declara Invierno.
+- `PAES Admisión 2026 - Verano M2 (Temario).pdf` es una copia binaria del archivo **Invierno M2 2026** y su portada interna declara Invierno.
+
+En consecuencia, todavía no hay copias locales de los temarios **regulares** M1 y M2 de Admisión 2026. La comparación de esa serie usa directamente los documentos oficiales enlazados arriba; ninguna diferencia se dedujo a partir del nombre de un archivo contradictorio.
+
+::: {.callout-note}
+## Procedencia y alcance de la transcripción
+
+**Autor y titular indicados por la fuente:** DEMRE, Universidad de Chile. **Alcance:** unidades temáticas, descripciones y características necesarias para comparación documental; se omite el diseño gráfico original. **Finalidad editorial:** análisis histórico y orientación pedagógica. Para citar normativamente el temario, consulta siempre el PDF oficial.
+:::
+
+[Ver criterios de comparación](como-leer.qmd) · [Volver a Temarios PAES](index.qmd)

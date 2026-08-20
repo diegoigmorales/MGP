@@ -1,39 +1,33 @@
 ---
 title: "Matemática para Gañanes y Patanes"
-subtitle: "Para enseñar sin fingir que nunca olvidamos nada"
-description: "Para enseñar sin fingir que nunca olvidamos nada."
+description: "Biblioteca interconectada de matemática, currículo y preparación PAES."
+toc: false
 ---
 
-# Matemática que se puede recorrer
+# Tabla de contenidos
 
-Este proyecto no es un solucionario. Cada definición, técnica, pregunta, error y demostración es un nodo estable de una red de conocimiento matemático.
+Esta portada muestra únicamente material desarrollado y utilizable. La arquitectura futura se conserva en la documentación interna del repositorio, pero no ocupa espacio en la navegación pública.
 
-## ¿Qué quieres hacer?
+::: {.published-toc}
+## Matemática escolar
 
-### Preparar la PAES
+- [Porcentajes: definición, técnicas y ejemplos](contenidos/libro/numeros/porcentajes.qmd)
+- [Pregunta original sobre descuento porcentual](contenidos/paes/m1/preguntas-originales/porcentajes.qmd)
 
-Estudiar preguntas con varias soluciones, análisis de distractores, errores frecuentes, materia y habilidad evaluada.
+## Currículo y PAES
 
-[Ir a Preparación PAES](contenidos/paes/index.qmd)
+- [Temario vigente · Admisión 2027](contenidos/paes/temarios/vigente.qmd)
+- [Evolución histórica de los temarios](contenidos/paes/temarios/evolucion/index.qmd)
+- [PAES M1 Invierno · Admisión 2027](contenidos/paes/m1/admision-2027-invierno/index.qmd)
+- [Ejes y habilidades matemáticas](contenidos/curriculum/index.qmd)
+:::
 
-### Estudiar matemática
+# Cómo recorrer MGP
 
-Recorrer un gran libro de texto con definiciones, teoremas, demostraciones, ejemplos y explicaciones progresivas.
-
-[Ir al Libro de matemática](contenidos/libro/index.qmd)
-
-### Profundizar en matemática universitaria
-
-Estudiar problemas y contenidos iniciales de cálculo, álgebra, probabilidad y estadística, enlazados con sus bases escolares.
-
-[Ir a Nivel universitario](contenidos/universitario/index.qmd)
-
-## Cómo leer una página
-
-Cada objeto muestra un tag permanente. Los vínculos y backlinks permiten recorrer, por ejemplo:
+Cada definición, técnica y pregunta puede ser un nodo estable de una red de conocimiento matemático. Los tags y enlaces permiten pasar de una pregunta a la teoría necesaria y volver.
 
 ```text
-Pregunta PAES → técnica → definición → demostración → profundización universitaria
+Pregunta PAES → técnica → definición → habilidad curricular
 ```
 
-También puedes explorar el [catálogo completo](_generated/catalogo.qmd), construido automáticamente.
+[Abrir la tabla de contenidos detallada](contenidos/index.qmd)

@@ -1,0 +1,50 @@
+---
+title: "Evolución histórica de los temarios"
+description: "Cambios documentados en M1 y M2 entre los procesos de Admisión 2023 y 2027."
+toc: false
+---
+
+# Dos líneas de tiempo
+
+La serie **regular** conserva como base el primer temario PAES, Admisión 2023. La serie **invierno** comienza en Admisión 2024. Cada página posterior registra diferencias respecto de la edición anterior de la misma modalidad.
+
+::: {.temario-grid}
+::: {.temario-card}
+### [Admisión 2023](admision-2023.qmd)
+
+Primer temario regular completo de M1 y M2.
+:::
+
+::: {.temario-card}
+### [Admisión 2024](admision-2024.qmd)
+
+Cambios de la prueba regular y base inicial de invierno.
+:::
+
+::: {.temario-card}
+### [Admisión 2025](admision-2025.qmd)
+
+Actualizaciones regulares y de invierno respecto de 2024.
+:::
+
+::: {.temario-card}
+### [Admisión 2026](admision-2026.qmd)
+
+Expansiones en M2 y cambios de alcance en M1.
+:::
+
+::: {.temario-card}
+### [Admisión 2027](admision-2027.qmd)
+
+Última actualización y diferencias entre regular e invierno.
+:::
+:::
+
+## Lecturas transversales
+
+- [Temario vigente consolidado](../vigente.qmd)
+- [Tabla cronológica y cambios acumulados](../comparacion.qmd)
+- [Criterios de comparación](../como-leer.qmd)
+- [Fuentes oficiales](../fuentes.qmd)
+
+[Volver a Temarios PAES](../index.qmd)

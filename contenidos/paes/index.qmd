@@ -1,24 +1,22 @@
 ---
 title: "Preparación PAES"
 description: "Preguntas convertidas en nodos de conocimiento matemático."
+toc: false
 ---
 
 # Parte I · Comprender la prueba
 
-## Capítulo 1 · Pruebas y habilidades
+## Capítulo 1 · Temarios, pruebas y habilidades
+
+- [Temario vigente · Admisión 2027](temarios/vigente.qmd)
+- [Evolución histórica de los temarios](temarios/evolucion/index.qmd)
+- [Comparación cronológica](temarios/comparacion.qmd)
+- [Cómo leer esta historia](temarios/como-leer.qmd)
+- [Fuentes oficiales](temarios/fuentes.qmd)
 
 - [Competencia Matemática M1](m1/index.qmd)
-- Competencia Matemática M2 *(estructura prevista)*
 
-## Capítulo 2 · Cómo analizar una pregunta
+## Capítulo 2 · Preguntas M1
 
-Cada pregunta puede contener enunciado, alternativas, soluciones múltiples, análisis de distractores, errores asociados, materia, habilidad, dificultad y referencias.
-
-# Parte II · Estudiar por materia
-
-Las preguntas se podrán explorar por números, álgebra y funciones, geometría, probabilidad y estadística. Estos índices se generarán desde sus relaciones curriculares.
-
-# Parte III · Estrategias y errores
-
-Esta parte reunirá técnicas transversales, estrategias de administración del tiempo y errores frecuentes detectados en los distractores.
-
+- [Colección PAES M1 Invierno · Admisión 2027](m1/admision-2027-invierno/index.qmd)
+- [Pregunta original sobre porcentajes](m1/preguntas-originales/porcentajes.qmd)

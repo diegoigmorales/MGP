@@ -5,7 +5,7 @@
       "type": "materia",
       "title": "Números",
       "source": "contenidos/curriculum/ejes.qmd",
-      "line": 7,
+      "line": 8,
       "href": "../contenidos/curriculum/ejes.qmd#tag-C001",
       "relations": {}
     },
@@ -14,7 +14,7 @@
       "type": "materia",
       "title": "Estadística",
       "source": "contenidos/curriculum/ejes.qmd",
-      "line": 15,
+      "line": 17,
       "href": "../contenidos/curriculum/ejes.qmd#tag-C002",
       "relations": {}
     },
@@ -23,7 +23,7 @@
       "type": "habilidad",
       "title": "Resolver problemas",
       "source": "contenidos/curriculum/habilidades.qmd",
-      "line": 5,
+      "line": 6,
       "href": "../contenidos/curriculum/habilidades.qmd#tag-H001",
       "relations": {}
     },
@@ -32,7 +32,7 @@
       "type": "definicion",
       "title": "Porcentaje",
       "source": "contenidos/libro/numeros/porcentajes.qmd",
-      "line": 12,
+      "line": 16,
       "href": "../contenidos/libro/numeros/porcentajes.qmd#tag-0001",
       "relations": {
         "pertenece_a": [
@@ -45,7 +45,7 @@
       "type": "tecnica",
       "title": "Calcular un porcentaje de una cantidad",
       "source": "contenidos/libro/numeros/porcentajes.qmd",
-      "line": 36,
+      "line": 40,
       "href": "../contenidos/libro/numeros/porcentajes.qmd#tag-0002",
       "relations": {
         "pertenece_a": [
@@ -649,15 +649,15 @@
       "line": 8,
       "href": "../contenidos/paes/m1/preguntas-originales/porcentajes.qmd#tag-0003",
       "relations": {
-        "usa": [
-          "0001",
-          "0002"
-        ],
         "pertenece_a": [
           "C001"
         ],
         "evalua": [
           "H001"
+        ],
+        "usa": [
+          "0001",
+          "0002"
         ]
       }
     },
@@ -729,6 +729,15 @@
         "relation": "requiere"
       }
     ],
+    "H001": [
+      {
+        "tag": "0003",
+        "title": "Descuento porcentual",
+        "source": "contenidos/paes/m1/preguntas-originales/porcentajes.qmd",
+        "href": "../paes/m1/preguntas-originales/porcentajes.qmd#tag-0003",
+        "relation": "evalua"
+      }
+    ],
     "0002": [
       {
         "tag": "0003",
@@ -743,15 +752,6 @@
         "source": "contenidos/universitario/estadistica/media-ponderada.qmd",
         "href": "../../universitario/estadistica/media-ponderada.qmd#tag-U001",
         "relation": "requiere"
-      }
-    ],
-    "H001": [
-      {
-        "tag": "0003",
-        "title": "Descuento porcentual",
-        "source": "contenidos/paes/m1/preguntas-originales/porcentajes.qmd",
-        "href": "../paes/m1/preguntas-originales/porcentajes.qmd#tag-0003",
-        "relation": "evalua"
       }
     ],
     "C002": [

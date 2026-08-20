@@ -1,0 +1,105 @@
+---
+title: "Admisión 2026: reestructuración estadística y expansión de M2"
+description: "Cambios regulares e invierno respecto de sus ediciones Admisión 2025."
+---
+
+# Fuentes y rendición
+
+| Modalidad | Publicación | Rendición | Fuentes |
+|---|---:|---:|---|
+| Invierno | 24 ene 2025 | 16–18 jun 2025 | [M1](https://demre.cl/publicaciones/2026/2026-25-01-24-temario-paes-invierno-m1) · [M2](https://demre.cl/publicaciones/2026/2026-25-01-24-temario-paes-invierno-m2) |
+| Regular | 20 mar 2025 | 1–3 dic 2025 | [M1](https://demre.cl/publicaciones/2026/2026-25-03-20-temario-paes-regular-m1) · [M2](https://demre.cl/publicaciones/2026/2026-25-03-20-temario-paes-regular-m2) |
+
+::: {.callout-warning}
+## Copias locales mal rotuladas
+
+Los PDF locales llamados “Verano 2026” contienen en realidad los temarios de invierno. Esta página usa los documentos regulares oficiales de DEMRE. Consulta el [control de integridad](../fuentes.qmd#control-de-integridad-de-las-copias-locales).
+:::
+
+# Regular: cambios respecto de Admisión 2025
+
+## Resumen cuantitativo
+
+| Tipo | M1 | M2 propio |
+|---|---:|---:|
+| Incorporado | 0 | 2 |
+| Eliminado | 1 | 0 |
+| Reformulado | 1 | 2 |
+| Reubicado | 1 | 0 |
+
+M1 pasa de **16 unidades y 46 enunciados** a **15 y 45**. M2 propio pasa de **11/17** a **13/23**.
+
+## Ficha y habilidades
+
+- Se conservan cantidad de preguntas, opciones, preguntas puntuadas, duración y los 13 criterios.
+- El texto de contexto agrega “conocimientos y habilidades” y actualiza la cohorte de referencia al egreso 2025.
+- Aparece el aviso de que un conocimiento listado no necesariamente será preguntado y se añade que **la totalidad de las preguntas se desprende del temario**.
+
+## Cambios en M1
+
+::: {.temario-table}
+| Cambio | Ubicación | Versión 2025 | Versión 2026 |
+|---|---|---|---|
+| [Reformulado]{.change-badge .change-reworded} | Geometría · Cuerpos geométricos | Prismas rectos de distintas bases y cilindros en superficie, volumen y problemas. | Paralelepípedos y cubos. Salen cilindros y los demás prismas rectos. |
+| [Eliminado]{.change-badge .change-removed} | Estadística · Medidas de tendencia central y rango | Unidad con medidas de tendencia central, rango y problemas asociados. | La unidad deja de figurar; mediana, moda y rango ya no están explícitos. |
+| [Reubicado]{.change-badge .change-moved} | Estadística · Promedio | Estaba comprendido en “medidas de tendencia central”. | “Promedio de un conjunto de datos” pasa a Representación de datos mediante tablas y gráficos. |
+:::
+
+## Cambios propios de M2
+
+::: {.temario-table}
+| Cambio | Ubicación | Versión 2025 | Versión 2026 |
+|---|---|---|---|
+| [Reformulado]{.change-badge .change-reworded} | Álgebra · Función potencia | Gráfico y problemas de función potencia. | Se amplía a funciones potencia, exponencial y logarítmica, tanto en gráficos como en problemas. |
+| [Incorporado]{.change-badge .change-added} | Álgebra · Funciones trigonométricas | No figuraba. | Gráficos y problemas con seno y coseno. |
+| [Incorporado]{.change-badge .change-added} | Geometría · Relaciones métricas en la circunferencia | No figuraba. | Ángulos y arcos; cuerdas y secantes; problemas contextualizados. |
+| [Reformulado]{.change-badge .change-reworded} | Probabilidad · Modelos probabilísticos | Modelos binomiales. | Conserva binomial y agrega distribución normal. |
+:::
+
+## ¿Qué significa para el estudiante?
+
+M1 reduce el catálogo explícito de cuerpos y de estadística descriptiva, aunque conserva el promedio en una nueva ubicación. M2, en cambio, da un salto claro hacia familias de funciones, trigonometría, geometría de la circunferencia y dos modelos probabilísticos. Preparar M2 exige leer también la reducción heredada desde M1.
+
+## Diferencia acumulada respecto de Admisión 2023
+
+- **M1:** pasa de 17/49 a 15/45; además de las reducciones previas, ahora restringe cuerpos a paralelepípedos/cubos y deja explícito solo el promedio entre las antiguas medidas de tendencia central.
+- **M2 propio:** pasa de 9/16 a 13/23 e incorpora finanzas, tres familias funcionales, seno/coseno, circunferencia, binomial y normal; deja de declarar la extensión específica de ecuaciones cuadráticas.
+- **Ficha:** M2 cubre 7.º básico–4.º medio y ambas pruebas publican 13 criterios de habilidad.
+
+# Invierno: cambios respecto de Admisión 2025
+
+## Resumen cuantitativo
+
+| Tipo | M1 | M2 propio |
+|---|---:|---:|
+| Incorporado | 0 | 2 |
+| Eliminado | 0 | 1 |
+| Reformulado material | 2 | 1 |
+| Reformulado aclaratorio | 1 | 0 |
+| Reubicado | 0 | 0 |
+
+La estructura M1 se mantiene en 16 unidades y pasa de 45 a 46 enunciados. M2 propio pasa de 10/17 a 11/17.
+
+## Habilidades
+
+[Incorporado]{.change-badge .change-added} Se publican por primera vez en la serie de invierno los mismos **13 criterios**: resolver problemas (3), modelar (4), representar (3) y argumentar (3).
+
+## Cambios de conocimiento
+
+::: {.temario-table}
+| Prueba | Cambio | Antes | Después |
+|---|---|---|---|
+| M1 | [Reformulado]{.change-badge .change-reworded} Enteros y racionales | Un enunciado común de operaciones y orden. | Dos enunciados: enteros por una parte y comparación de racionales por otra. |
+| M1 | [Reformulado]{.change-badge .change-reworded} Expresiones | Factorizaciones. | Factorizaciones **y desarrollo**. |
+| M1 | [Reformulado]{.change-badge .change-reworded} Figuras | Incluía segmentos y sectores circulares. | Ambos dejan de figurar. |
+| M2 | [Reformulado]{.change-badge .change-reworded} Logaritmos | Concepto/propiedades y relación en viñetas separadas. | Relación y propiedades se consolidan; “concepto” deja de ser viñeta independiente. |
+| M2 | [Eliminado]{.change-badge .change-removed} Ecuaciones cuadráticas M2 | Métodos y casos de soluciones reales. | Sale la extensión M2; permanece la base heredada de M1. |
+| M2 | [Incorporado]{.change-badge .change-added} Función potencia | No figuraba. | Gráfico y problemas. |
+| M2 | [Incorporado]{.change-badge .change-added} Modelos probabilísticos | No figuraba. | Modelo binomial. |
+:::
+
+## Diferencia acumulada desde la base invierno 2024
+
+Además de esta actualización, la línea ya había eliminado semejanza y conos e incorporado matemática financiera. El balance llega a **16/46 en M1** y **11/17 en M2 propio**, con criterios de habilidad ahora explícitos.
+
+[Anterior: Admisión 2025](admision-2025.qmd) · [Siguiente: Admisión 2027](admision-2027.qmd) · [Volver a la evolución](index.qmd)

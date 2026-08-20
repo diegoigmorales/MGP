@@ -1,0 +1,90 @@
+---
+title: "Admisión 2025: precisión en M1 y nuevas áreas en M2"
+description: "Cambios regulares e invierno respecto de sus ediciones Admisión 2024."
+---
+
+# Fuentes y rendición
+
+| Modalidad | Publicación | Rendición | Fuentes |
+|---|---:|---:|---|
+| Invierno | 25 ene 2024 | 17–19 jun 2024 | [M1](https://demre.cl/publicaciones/2025/2025-24-01-25-temario-paes-invierno-m1) · [M2](https://demre.cl/publicaciones/2025/2025-24-01-25-temario-paes-invierno-m2) |
+| Regular | 21 mar 2024 | 2–4 dic 2024 | [M1](https://demre.cl/publicaciones/2025/2025-24-03-21-temario-paes-regular-m1) · [M2](https://demre.cl/publicaciones/2025/2025-24-03-21-temario-paes-regular-m2) |
+
+# Regular: cambios respecto de Admisión 2024
+
+## Resumen cuantitativo
+
+| Tipo | M1 | M2 propio |
+|---|---:|---:|
+| Incorporado | 0 | 2 |
+| Eliminado | 0 | 1 |
+| Reformulado | 3 | 1 |
+| Reubicado | 0 | 0 |
+
+M1 conserva 16 unidades y pasa de **45 a 46 enunciados** por el desdoblamiento de enteros y racionales. M2 propio pasa de **10 a 11 unidades** y mantiene **17 enunciados**.
+
+## Habilidades
+
+[Incorporado]{.change-badge .change-added} Se añaden **13 criterios de evaluación** a las cuatro habilidades ya existentes: 3 para resolver problemas, 4 para modelar, 3 para representar y 3 para argumentar. No son habilidades nuevas; hacen observables las acciones esperadas.
+
+## Cambios en M1
+
+::: {.temario-table}
+| Cambio | Ubicación | Versión 2024 | Versión 2025 |
+|---|---|---|---|
+| [Reformulado]{.change-badge .change-reworded} | Números · Enteros y racionales | Un enunciado común: operaciones y orden en enteros y racionales. | Se separa en operaciones y orden con enteros, y operaciones y comparación con racionales. Es una precisión, no una ampliación inequívoca. |
+| [Reformulado]{.change-badge .change-reworded} | Álgebra · Expresiones algebraicas | “Factorizaciones de expresiones algebraicas”. | “Factorizaciones **y desarrollo** de expresiones algebraicas”. El desarrollo queda explícito. |
+| [Reformulado]{.change-badge .change-reworded} | Geometría · Figuras geométricas | Perímetros, áreas y problemas con triángulos, paralelogramos, trapecios, círculos, segmentos y sectores circulares. | Segmentos y sectores circulares dejan de figurar en ambos enunciados. |
+:::
+
+## Cambios propios de M2
+
+::: {.temario-table}
+| Cambio | Ubicación | Versión 2024 | Versión 2025 |
+|---|---|---|---|
+| [Reformulado]{.change-badge .change-reworded} | Números · Logaritmos | Concepto y propiedades; relación entre potencias, raíces y logaritmos. | Se condensa en la relación entre potencias, raíces y logaritmos, **y sus propiedades**. “Concepto” deja de figurar por separado. |
+| [Eliminado]{.change-badge .change-removed} | Álgebra · Ecuaciones de segundo grado, extensión M2 | Métodos específicos —completación de cuadrados, factorización, gráficos y fórmula general— y clasificación de soluciones reales. | Sale la extensión propia de M2. La resolución general sigue evaluable por herencia de M1. |
+| [Incorporado]{.change-badge .change-added} | Álgebra · Función potencia | No figuraba. | Gráfico y problemas con la función potencia. |
+| [Incorporado]{.change-badge .change-added} | Probabilidad · Modelos probabilísticos | No figuraba. | Problemas con modelos binomiales. |
+:::
+
+## ¿Qué significa para el estudiante?
+
+En M1 conviene practicar la distinción entre operatoria de enteros y comparación de racionales, y considerar el desarrollo algebraico de manera explícita. En M2 cambia el foco de una profundización en ecuaciones cuadráticas hacia funciones y modelos: aparece función potencia y entra el modelo binomial.
+
+## Diferencia acumulada respecto de Admisión 2023
+
+- **M1:** ya no declara semejanza/Thales, conos, segmentos ni sectores circulares; agrega “desarrollo” algebraico y separa el tratamiento de enteros y racionales.
+- **M2 propio:** agrega matemática financiera, función potencia y modelos binomiales; elimina la extensión específica de ecuaciones de segundo grado y condensa logaritmos.
+- **Habilidades:** las mismas cuatro, ahora acompañadas por 13 criterios observables.
+
+# Invierno: cambios respecto de Admisión 2024
+
+## Resumen cuantitativo
+
+| Tipo | M1 | M2 propio |
+|---|---:|---:|
+| Incorporado | 0 | 1 |
+| Eliminado | 1 | 0 |
+| Reformulado | 1 | 0 |
+| Reubicado | 0 | 0 |
+
+La edición de invierno aplica un año después la misma modificación de conocimientos que la serie regular registró en Admisión 2024.
+
+## Cambios de ficha y contenido
+
+- M2 amplía su referencia de **7.º básico–3.º medio** a **7.º básico–4.º medio**.
+- Dejan de publicarse los rangos de distribución por habilidades y ejes.
+- Las cuatro habilidades conservan sus definiciones; esta edición todavía no incorpora los 13 criterios.
+
+::: {.temario-table}
+| Prueba | Cambio | Antes | Después |
+|---|---|---|---|
+| M1 | [Eliminado]{.change-badge .change-removed} Semejanza | Semejanza, modelos a escala y teorema de Thales. | La unidad completa deja de figurar. |
+| M1 | [Reformulado]{.change-badge .change-reworded} Cuerpos | Prismas rectos, cilindros y conos. | Se conservan prismas rectos y cilindros; salen conos. |
+| M2 | [Incorporado]{.change-badge .change-added} Matemática financiera | No figuraba. | Problemas de jubilación, créditos hipotecarios y de consumo. |
+:::
+
+M2 hereda también los dos cambios M1. Como esta es la primera actualización de invierno, su comparación acumulada desde Admisión 2024 coincide con la inmediata.
+
+[Anterior: Admisión 2024](admision-2024.qmd) · [Siguiente: Admisión 2026](admision-2026.qmd) · [Volver a la evolución](index.qmd)

@@ -1,0 +1,81 @@
+---
+title: "Admisión 2024: cambios y primera edición de invierno"
+description: "Cambios del temario regular respecto de Admisión 2023 y base histórica de la PAES de invierno."
+---
+
+# Fuentes y rendición
+
+| Modalidad | Publicación | Rendición | Fuentes |
+|---|---:|---:|---|
+| Invierno | 26 ene 2023 | primer semestre de 2023 | [M1](https://demre.cl/publicaciones/2024/2024-23-01-26-temario-paes-invierno-m1) · [M2](https://demre.cl/publicaciones/2024/2024-23-01-26-temario-paes-invierno-m2) |
+| Regular | 23 mar 2023 | fines del segundo semestre de 2023 | [M1](https://demre.cl/publicaciones/2024/2024-23-03-23-temario-paes-regular-m1) · [M2](https://demre.cl/publicaciones/2024/2024-23-03-23-temario-paes-regular-m2) |
+
+# Regular: cambios respecto de Admisión 2023
+
+## Resumen cuantitativo
+
+Los conteos siguientes consideran unidades temáticas afectadas; las correcciones puramente editoriales no se suman.
+
+| Tipo | M1 | M2 propio |
+|---|---:|---:|
+| Incorporado | 0 | 1 |
+| Eliminado | 1 | 0 |
+| Reformulado | 1 | 0 |
+| Reubicado | 0 | 0 |
+
+La estructura pasa de **17 unidades y 49 enunciados** a **16 y 45** en M1. Los contenidos adicionales de M2 pasan de **9 unidades y 16 enunciados** a **10 y 17**.
+
+## Cambios en la ficha técnica
+
+- Se mantienen cantidad de preguntas, preguntas puntuadas, opciones y duración.
+- Dejan de publicarse los rangos de distribución por habilidad y eje que aparecían en 2023.
+- El texto ya no identifica expresamente como experimentales las cinco preguntas no puntuadas; esto es una omisión documental, no evidencia de un cambio de función.
+- La referencia curricular declarada de M2 pasa de **1.º a 3.º medio** a **7.º básico a 4.º medio**.
+
+## Cambios en M1
+
+::: {.temario-table}
+| Cambio | Ubicación | Versión 2023 | Versión 2024 |
+|---|---|---|---|
+| [Eliminado]{.change-badge .change-removed} | Geometría · Semejanza y proporcionalidad | Concepto y propiedades de semejanza; modelos a escala; problemas de semejanza y teorema de Thales. | La unidad completa deja de figurar. |
+| [Reformulado]{.change-badge .change-reworded} | Geometría · Cuerpos geométricos | Superficie, volumen y problemas con prismas rectos, cilindros y **conos**. | Se conservan prismas rectos y cilindros; los conos dejan de figurar en los tres enunciados. |
+:::
+
+**Ajuste editorial no contabilizado:** “Expresiones algebráicas” se corrige a “Expresiones algebraicas”.
+
+## Cambios propios de M2
+
+::: {.temario-table}
+| Cambio | Ubicación | Versión 2023 | Versión 2024 |
+|---|---|---|---|
+| [Incorporado]{.change-badge .change-added} | Números · Matemática financiera | No figuraba. | Problemas de AFP y jubilación, créditos hipotecarios y créditos de consumo. |
+:::
+
+M2 hereda además la eliminación de semejanza y la reducción de cuerpos geométricos ocurridas en M1.
+
+## ¿Qué significa para el estudiante?
+
+La preparación regular se estrecha en geometría escolar: conos, semejanza, escala y Thales dejan de estar declarados. En cambio, M2 incorpora por primera vez situaciones financieras aplicadas. La ampliación de la referencia curricular de M2 aclara que su base evaluable incluye también todo el recorrido de M1.
+
+## Cambio acumulado desde el primer temario
+
+Como esta es la primera actualización regular, el cambio acumulado coincide con la comparación inmediata: M1 pierde una unidad completa y restringe otra; M2 agrega matemática financiera.
+
+# Invierno: primera base de la serie
+
+La edición de invierno Admisión 2024 inaugura esta línea histórica. Su listado de conocimientos coincide, en alcance, con el [primer temario regular Admisión 2023](admision-2023.qmd):
+
+- **M1:** 17 unidades y 49 enunciados; incluye conos, semejanza, modelos a escala y teorema de Thales.
+- **M2 propio:** 9 unidades y 16 enunciados; todavía no incluye matemática financiera.
+- **M2 curricular:** declara como referencia de 7.º básico a 3.º medio, mientras la regular 2023 había indicado 1.º a 3.º medio.
+- Conserva los rangos de distribución por habilidad y eje y la identificación expresa de cinco preguntas experimentales.
+
+Esta remisión forma la versión completa de invierno sin duplicar dos veces un listado idéntico de unidades y descripciones.
+
+::: {.callout-note}
+## No mezclar las dos comparaciones
+
+La regular 2024 no se compara con invierno 2024. A partir del siguiente proceso, cada modalidad se seguirá contra su propia edición anterior.
+:::
+
+[Anterior: Admisión 2023](admision-2023.qmd) · [Siguiente: Admisión 2025](admision-2025.qmd) · [Volver a la evolución](index.qmd)

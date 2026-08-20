@@ -1,0 +1,306 @@
+---
+title: "Temario vigente · Admisión 2027"
+description: "Temario consolidado de M1 y M2 para las PAES regular y de invierno del proceso de Admisión 2027."
+---
+
+::: {.temario-hero}
+## Admisión 2027
+
+La edición regular fue publicada el **19 de marzo de 2026** para rendirse a fines de 2026. La edición de invierno fue publicada el **23 de enero de 2026** y se rindió entre el 15 y el 17 de junio de 2026.
+
+[Fuentes regulares](https://demre.cl/la-prueba/pruebas-y-temarios/presentacion-pruebas-temarios-paes-regular) · [Fuentes de invierno](https://demre.cl/la-prueba/pruebas-y-temarios/presentacion-pruebas-temarios-paes-invierno)
+:::
+
+::: {.callout-important}
+## Elige tu modalidad
+
+Los contenidos comunes se presentan una sola vez. Las marcas **Solo regular** señalan alcance que no figura en el temario de invierno 2027. M2 siempre incluye todo el M1 de la misma modalidad.
+:::
+
+# Características generales
+
+| Característica | M1 | M2 |
+|---|---|---|
+| Referencia curricular | 7.º básico a 2.º medio | 7.º básico a 4.º medio |
+| Preguntas | 65; 60 consideradas para el puntaje | 55; 50 consideradas para el puntaje |
+| Alternativas | 4 | 4 o 5 |
+| Duración | 2 horas y 20 minutos | 2 horas y 20 minutos |
+| Particularidad | Prueba obligatoria | Incluye preguntas de suficiencia de datos |
+
+## Habilidades y criterios
+
+| Habilidad | Qué se observa |
+|---|---|
+| Resolver problemas | Resuelve situaciones rutinarias y problemáticas mediante procedimientos o estrategias; evalúa la validez del resultado. |
+| Modelar | Usa modelos, interpreta parámetros y supuestos, ajusta y evalúa modelos ante una situación. |
+| Representar | Traduce entre lenguaje natural y matemático, interpreta representaciones y transfiere información entre ellas. |
+| Argumentar | Evalúa argumentos, identifica errores en procedimientos o demostraciones y valida deducciones. |
+
+# Competencia Matemática 1 {#m1-regular}
+
+## Números
+
+::: {.temario-unit}
+### Enteros y racionales
+
+- Operaciones y orden con números enteros.
+- Operaciones y comparación con números racionales.
+- Problemas con enteros y racionales en distintos contextos.
+:::
+
+::: {.temario-unit}
+### Porcentaje
+
+- Concepto y cálculo de porcentajes.
+- Problemas de porcentaje en distintos contextos.
+:::
+
+::: {.temario-unit}
+### Potencias y raíces enésimas
+
+- Propiedades de potencias de base y exponente racionales.
+- Descomposición y propiedades de raíces enésimas en los números reales.
+- Problemas con potencias y raíces enésimas.
+:::
+
+## Álgebra y funciones
+
+::: {.temario-unit}
+### Expresiones algebraicas
+
+- Productos notables.
+- Factorización y desarrollo de expresiones algebraicas.
+- Operatoria con expresiones algebraicas.
+- Problemas con expresiones algebraicas.
+:::
+
+::: {.temario-unit}
+### Proporcionalidad
+
+- Proporción directa e inversa y sus representaciones.
+- Problemas con proporcionalidad directa e inversa.
+:::
+
+::: {.temario-unit}
+### Ecuaciones e inecuaciones de primer grado
+
+- Resolución de ecuaciones e inecuaciones lineales.
+- Problemas asociados a ambas.
+:::
+
+::: {.temario-unit}
+### Sistemas de ecuaciones lineales (2 × 2)
+
+- Resolución de sistemas lineales.
+- Problemas con sistemas lineales.
+:::
+
+::: {.temario-unit}
+### Función lineal y afín
+
+- Conceptos de función lineal y función afín.
+- Tablas y gráficos de ambas funciones.
+- Problemas con funciones lineales y afines.
+:::
+
+::: {.temario-unit}
+### Función cuadrática
+
+- Resolución de ecuaciones de segundo grado y problemas asociados.
+- Tablas y gráficos con variación de parámetros.
+- Vértice, ceros e intersecciones con los ejes.
+- Problemas con la función cuadrática.
+:::
+
+## Geometría
+
+::: {.temario-unit}
+### Figuras geométricas
+
+- Problemas con el teorema de Pitágoras.
+- Perímetros y áreas de triángulos, paralelogramos, trapecios y círculos.
+- Problemas de perímetro y área con esas figuras.
+:::
+
+::: {.temario-unit}
+### Cuerpos geométricos
+
+- **Ambas modalidades:** superficie, volumen y problemas de paralelepípedos y cubos.
+- [Solo regular]{.change-badge .change-added} Los tres enunciados incluyen también cilindros.
+:::
+
+::: {.temario-unit}
+### Transformaciones isométricas
+
+- Puntos y vectores en el plano cartesiano.
+- Rotación, traslación y reflexión de figuras.
+- Problemas con transformaciones isométricas.
+:::
+
+::: {.temario-unit}
+### Semejanza y proporcionalidad de figuras
+
+[Solo regular]{.change-badge .change-added}
+
+- Aplicación de propiedades de semejanza y proporcionalidad a modelos a escala y a situaciones cotidianas o de otras asignaturas.
+:::
+
+## Probabilidad y estadística
+
+::: {.temario-unit}
+### Representación mediante tablas y gráficos
+
+- Tablas de frecuencia absoluta y relativa.
+- Gráficos para representar datos.
+- Promedio de un conjunto de datos.
+- Problemas con tablas y gráficos.
+:::
+
+::: {.temario-unit}
+### Medidas de posición
+
+- Cuartiles y percentiles de uno o más grupos.
+- Diagrama de cajón.
+- Problemas con medidas de posición.
+:::
+
+::: {.temario-unit}
+### Reglas de las probabilidades
+
+- Probabilidad de un evento.
+- Reglas aditiva y multiplicativa de probabilidades.
+:::
+
+# Competencia Matemática 2 {#m2-regular}
+
+M2 puede evaluar **todo el M1 de la modalidad correspondiente** y, además, los contenidos siguientes.
+
+## Números
+
+::: {.temario-unit}
+### Conjunto de los números reales
+
+- Operaciones con números reales.
+- Problemas con números reales.
+:::
+
+::: {.temario-unit}
+### Matemática financiera
+
+- Problemas financieros como AFP y jubilación, créditos hipotecarios y créditos de consumo.
+:::
+
+::: {.temario-unit}
+### Logaritmos
+
+- Relación entre potencias, raíces y logaritmos, y sus propiedades.
+- Problemas con logaritmos.
+:::
+
+## Álgebra y funciones
+
+::: {.temario-unit}
+### Sistemas de ecuaciones lineales (2 × 2)
+
+- Casos con solución única, infinitas soluciones o sin solución.
+:::
+
+::: {.temario-unit}
+### Función potencia, exponencial y logarítmica
+
+- Gráficos de las tres familias.
+- Problemas con funciones potencia, exponencial y logarítmica.
+:::
+
+::: {.temario-unit}
+### Funciones trigonométricas
+
+- Gráficos de seno y coseno.
+- Problemas con las funciones seno y coseno.
+:::
+
+## Geometría
+
+::: {.temario-unit}
+### Homotecia de figuras planas
+
+- Problemas de homotecia.
+:::
+
+::: {.temario-unit}
+### Razones trigonométricas en triángulos rectángulos
+
+- Seno, coseno y tangente.
+- Problemas con razones trigonométricas.
+:::
+
+::: {.temario-unit}
+### Relaciones métricas en la circunferencia
+
+- Ángulos y arcos.
+- Cuerdas y secantes.
+- Problemas con relaciones métricas en la circunferencia.
+:::
+
+::: {.temario-unit}
+### Esferas, superficie y volumen
+
+[Solo regular]{.change-badge .change-added}
+
+- Problemas con el área de la superficie y el volumen de la esfera.
+:::
+
+::: {.temario-unit}
+### Rectas en el plano
+
+[Solo regular]{.change-badge .change-added}
+
+- Problemas con rectas y sus posiciones relativas.
+:::
+
+## Probabilidad y estadística
+
+::: {.temario-unit}
+### Medidas de dispersión
+
+- Medidas de dispersión de uno o más grupos.
+- Problemas con medidas de dispersión.
+:::
+
+::: {.temario-unit}
+### Probabilidad condicional
+
+- Problemas con probabilidad condicional y sus propiedades.
+:::
+
+::: {.temario-unit}
+### Permutación y combinatoria
+
+- Permutación y combinatoria.
+- Problemas de conteo.
+:::
+
+::: {.temario-unit}
+### Modelos probabilísticos
+
+- Problemas con modelos binomiales.
+- Problemas con la distribución normal.
+:::
+
+# Diferencia práctica entre modalidades
+
+| Prueba | Invierno 2027 | Regular 2027 |
+|---|---|---|
+| M1 | Paralelepípedos y cubos; no declara semejanza. | Agrega cilindros y una unidad aplicada de semejanza/proporcionalidad. |
+| M2 propio | No declara esferas ni rectas en el plano. | Agrega esferas y posiciones relativas de rectas. |
+| M2 heredado | Hereda M1 invierno. | Hereda los dos alcances adicionales de M1 regular. |
+
+::: {.callout-tip}
+## Qué estudiar
+
+Prepara siempre el temario de la modalidad que rendirás. Si aún no la has elegido, estudiar la versión regular cubre también todo lo que los documentos de invierno 2027 declaran explícitamente.
+:::
+
+<p class="source-note">Síntesis completa del alcance documental de conocimientos. Para redacción normativa y diagramación original, consulta los PDF de DEMRE.</p>
+
+[Ver la evolución hasta 2027](evolucion/admision-2027.qmd) · [Comparar todos los procesos](comparacion.qmd) · [Volver a Temarios PAES](index.qmd)

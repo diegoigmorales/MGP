@@ -1,6 +1,10 @@
 ---
 title: "Porcentajes"
 description: "Capítulo de ejemplo para el libro de matemática."
+format:
+  html:
+    format-links: [pdf]
+  pdf: default
 ---
 
 # Capítulo 2 · Porcentajes
@@ -59,10 +63,6 @@ $$
 350\cdot\frac{20}{100}=70.
 $$
 
-### 2.5.2 Aumento y disminución
-
-Contenido previsto: distinguir el porcentaje de cambio del valor final.
-
 ## 2.6 Errores frecuentes
 
 - Confundir el porcentaje descontado con el precio final.
@@ -72,8 +72,3 @@ Contenido previsto: distinguir el porcentaje de cambio del valor final.
 ## 2.7 Preguntas relacionadas
 
 - [Pregunta original sobre descuento](../../paes/m1/preguntas-originales/porcentajes.qmd#tag-0003)
-
-## 2.8 Profundización
-
-El concepto reaparece en ponderaciones estadísticas. Véase [media ponderada](../../universitario/estadistica/media-ponderada.qmd).
-

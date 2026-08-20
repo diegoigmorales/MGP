@@ -2,46 +2,39 @@ project:
   type: website
   pre-render: python scripts/build_registry.py
   output-dir: _site
+  render:
+    - "*.qmd"
+    - "contenidos/**/*.qmd"
+    - "!contenidos/universitario/"
+    - "!contenidos/paes/m2/"
 
 website:
   title: "Matemática para Gañanes y Patanes"
   site-url: https://diegoigmorales.github.io/MGP/
   repo-url: https://github.com/diegoigmorales/MGP
   repo-actions: [edit, issue]
+  page-navigation: true
   navbar:
+    collapse-below: lg
     left:
-      - href: index.qmd
-        text: Inicio
-      - text: Preparar la PAES
+      - href: contenidos/index.qmd
+        text: Contenido
+      - text: PAES
         menu:
           - href: contenidos/paes/index.qmd
-            text: Portada PAES
-          - href: contenidos/paes/m1/index.qmd
-            text: Competencia Matemática M1
+            text: Preparación PAES
+          - href: contenidos/paes/temarios/vigente.qmd
+            text: Temario vigente
+          - href: contenidos/paes/temarios/evolucion/index.qmd
+            text: Evolución histórica
           - href: contenidos/paes/m1/admision-2027-invierno/index.qmd
             text: M1 Invierno · Admisión 2027
           - href: contenidos/paes/m1/preguntas-originales/porcentajes.qmd
-            text: Pregunta de ejemplo
-      - text: Libro de matemática
-        menu:
-          - href: contenidos/libro/index.qmd
-            text: Índice general
-          - href: contenidos/libro/numeros/index.qmd
-            text: Parte I · Números
-          - href: contenidos/libro/numeros/porcentajes.qmd
-            text: Capítulo · Porcentajes
-      - text: Universidad
-        menu:
-          - href: contenidos/universitario/index.qmd
-            text: Índice general
-          - href: contenidos/universitario/estadistica/index.qmd
-            text: Estadística
-          - href: contenidos/universitario/estadistica/media-ponderada.qmd
-            text: Problema de ejemplo
+            text: Pregunta original
+      - href: contenidos/libro/index.qmd
+        text: Matemática
       - href: contenidos/curriculum/index.qmd
         text: Currículum
-      - href: _generated/catalogo.qmd
-        text: Catálogo
       - href: acerca.qmd
         text: Acerca de
   page-footer:
@@ -52,10 +45,13 @@ format:
     theme: cosmo
     css: styles.css
     toc: true
+    toc-depth: 2
     code-copy: true
+    format-links: false
+    include-after-body: includes/mobile-toc.html
     filters:
       - filters/knowledge.lua
-    number-sections: true
+    number-sections: false
   pdf:
     documentclass: scrreprt
     toc: true

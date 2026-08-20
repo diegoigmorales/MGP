@@ -1,5 +1,6 @@
 ---
 title: "Ejes y materias"
+toc: false
 ---
 
 # Ejes escolares y PAES
@@ -10,6 +11,7 @@ title: "Ejes y materias"
 Comprende sistemas numéricos, razones, proporciones, porcentajes, potencias y raíces, según el nivel curricular correspondiente.
 :::
 
+<!-- Contenido conservado para el grafo interno, aún no publicado.
 # Áreas universitarias
 
 ::: {.knowledge-object #tag-C002 tag="C002" type="materia" title="Estadística"}
@@ -17,4 +19,4 @@ Comprende sistemas numéricos, razones, proporciones, porcentajes, potencias y r
 
 Estudio de la recolección, descripción, modelamiento e inferencia a partir de datos.
 :::
-
+-->
