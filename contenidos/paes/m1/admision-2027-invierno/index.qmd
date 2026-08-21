@@ -1,7 +1,8 @@
 ---
-title: "PAES M1 Invierno — Admisión 2027"
 description: "Preguntas de la PAES de Competencia Matemática M1 de Invierno para el proceso de Admisión 2027."
 ---
+
+# PAES M1 Invierno — Admisión 2027 {.unnumbered}
 
 # Preguntas
 

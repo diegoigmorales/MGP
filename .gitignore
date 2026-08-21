@@ -1,7 +1,10 @@
 /.quarto/
 /_site/
 /_book/
+/docs/
 /.venv/
 __pycache__/
 *.pyc
 
+
+**/*.quarto_ipynb

@@ -1,7 +1,8 @@
 ---
-title: "Pregunta 6 · PAES M1 Invierno — Admisión 2027"
 description: "Pregunta de la PAES de Competencia Matemática M1 de Invierno para el proceso de Admisión 2027."
 ---
+
+# Pregunta 6 · PAES M1 Invierno — Admisión 2027 {.unnumbered}
 
 :::: {.knowledge-object #tag-2706 tag="2706" type="pregunta" title="Pregunta 6 · PAES M1 Invierno — Admisión 2027"}
 ## Pregunta 6

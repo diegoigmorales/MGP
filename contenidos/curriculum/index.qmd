@@ -1,15 +1,17 @@
 ---
-title: "Estructura curricular"
 toc: false
+number-sections: false
 ---
 
-# Parte I · Materias y ejes
+# Estructura curricular {.unnumbered}
+
+## Materias y ejes
 
 Las materias son nodos del grafo, no simples nombres escritos en cada pregunta.
 
 - [Ejes y materias](ejes.qmd)
 
-# Parte II · Habilidades
+## Habilidades
 
 - [Habilidades matemáticas](habilidades.qmd)
 

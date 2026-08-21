@@ -1,10 +1,12 @@
 ---
-title: "Libro de matemática"
 description: "Una exposición progresiva, rigurosa e interconectada."
 toc: false
+number-sections: false
 ---
 
-# Números y proporcionalidad
+# Libro de matemática {.unnumbered}
+
+## Números y proporcionalidad
 
 - [Índice de números](numeros/index.qmd)
 - [Porcentajes: definición, técnicas y ejemplos](numeros/porcentajes.qmd)

@@ -7,14 +7,12 @@ format:
   pdf: default
 ---
 
-# Capítulo 2 · Porcentajes
-
-## 2.1 Motivación
+## Motivación
 
 Los porcentajes permiten comparar cantidades respecto de una referencia común de cien unidades. Aparecen en descuentos, impuestos, variaciones, encuestas y análisis estadísticos.
 
 ::: {.knowledge-object #tag-0001 tag="0001" type="definicion" title="Porcentaje" pertenece_a="C001"}
-## 2.2 Definición
+## Definición
 
 Un **porcentaje** es una razón cuyo consecuente es $100$. Decir $p\%$ equivale a
 
@@ -23,22 +21,22 @@ $$
 $$
 :::
 
-## 2.3 Interpretaciones
+## Interpretaciones
 
-### 2.3.1 Como fracción
+### Como fracción
 
 $$
 25\%=\frac{25}{100}=\frac14.
 $$
 
-### 2.3.2 Como número decimal
+### Como número decimal
 
 $$
 25\%=0{,}25.
 $$
 
 :::: {.knowledge-object #tag-0002 tag="0002" type="tecnica" title="Calcular un porcentaje de una cantidad" requiere="0001" pertenece_a="C001"}
-## 2.4 Técnica fundamental
+## Técnica fundamental
 
 Para calcular el $p\%$ de una cantidad $x$, se multiplica
 
@@ -53,9 +51,9 @@ Primero se encuentra el $1\%$ dividiendo por $100$ y después se multiplica por 
 :::
 ::::
 
-## 2.5 Ejemplos
+## Ejemplos
 
-### 2.5.1 Porcentaje de una cantidad
+### Porcentaje de una cantidad
 
 El $20\%$ de $350$ es
 
@@ -63,12 +61,12 @@ $$
 350\cdot\frac{20}{100}=70.
 $$
 
-## 2.6 Errores frecuentes
+## Errores frecuentes
 
 - Confundir el porcentaje descontado con el precio final.
 - Sumar o restar el número porcentual sin convertirlo en una razón.
 - Aplicar porcentajes sucesivos como si se sumaran directamente.
 
-## 2.7 Preguntas relacionadas
+## Preguntas relacionadas
 
 - [Pregunta original sobre descuento](../../paes/m1/preguntas-originales/porcentajes.qmd#tag-0003)

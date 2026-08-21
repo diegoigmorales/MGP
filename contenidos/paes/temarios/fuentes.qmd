@@ -4,7 +4,7 @@ description: "Inventario documental DEMRE utilizado para reconstruir la evoluci�
 toc: false
 ---
 
-# Inventario documental
+## Inventario documental
 
 Todos los temarios comparados fueron publicados por el **Departamento de Evaluación, Medición y Registro Educacional (DEMRE) de la Universidad de Chile**. Los enlaces siguientes apuntan a la publicación oficial o a la colección oficial del proceso.
 
@@ -22,7 +22,7 @@ Todos los temarios comparados fueron publicados por el **Departamento de Evaluac
 | 2027 | Regular | 19 mar 2026 | [Colección DEMRE](https://demre.cl/la-prueba/pruebas-y-temarios/presentacion-pruebas-temarios-paes-regular) | [Colección DEMRE](https://demre.cl/la-prueba/pruebas-y-temarios/presentacion-pruebas-temarios-paes-regular) |
 :::
 
-# Control de integridad de las copias locales
+## Control de integridad de las copias locales
 
 Las copias locales se revisaron por su contenido, no solo por el nombre del archivo. Tras la actualización del PDF M1 de Invierno 2026, los archivos rotulados como **Invierno M1** e **Invierno M2** corresponden correctamente a esa modalidad y proceso. Persisten estas inconsistencias en `docs/`:
 
@@ -32,7 +32,7 @@ Las copias locales se revisaron por su contenido, no solo por el nombre del arch
 En consecuencia, todavía no hay copias locales de los temarios **regulares** M1 y M2 de Admisión 2026. La comparación de esa serie usa directamente los documentos oficiales enlazados arriba; ninguna diferencia se dedujo a partir del nombre de un archivo contradictorio.
 
 ::: {.callout-note}
-## Procedencia y alcance de la transcripción
+### Procedencia y alcance de la transcripción
 
 **Autor y titular indicados por la fuente:** DEMRE, Universidad de Chile. **Alcance:** unidades temáticas, descripciones y características necesarias para comparación documental; se omite el diseño gráfico original. **Finalidad editorial:** análisis histórico y orientación pedagógica. Para citar normativamente el temario, consulta siempre el PDF oficial.
 :::

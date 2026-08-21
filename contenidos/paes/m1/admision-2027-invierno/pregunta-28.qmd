@@ -1,7 +1,8 @@
 ---
-title: "Pregunta 28 · PAES M1 Invierno — Admisión 2027"
 description: "Pregunta de la PAES de Competencia Matemática M1 de Invierno para el proceso de Admisión 2027."
 ---
+
+# Pregunta 28 · PAES M1 Invierno — Admisión 2027 {.unnumbered}
 
 :::: {.knowledge-object #tag-2728 tag="2728" type="pregunta" title="Pregunta 28 · PAES M1 Invierno — Admisión 2027"}
 ## Pregunta 28

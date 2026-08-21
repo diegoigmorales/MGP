@@ -3,7 +3,7 @@ title: "Admisión 2027: temarios vigentes"
 description: "Últimos cambios regulares e invierno y comparación acumulada desde la primera PAES."
 ---
 
-# Fuentes y rendición
+## Fuentes y rendición
 
 | Modalidad | Publicación | Rendición | Fuente |
 |---|---:|---:|---|
@@ -12,9 +12,9 @@ description: "Últimos cambios regulares e invierno y comparación acumulada des
 
 [Consultar el temario vigente completo](../vigente.qmd)
 
-# Regular: cambios respecto de Admisión 2026
+## Regular: cambios respecto de Admisión 2026
 
-## Resumen cuantitativo
+### Resumen cuantitativo
 
 | Tipo | M1 | M2 propio |
 |---|---:|---:|
@@ -25,17 +25,17 @@ description: "Últimos cambios regulares e invierno y comparación acumulada des
 
 M1 pasa de **15 unidades y 45 enunciados** a **16 y 46 enunciados semánticos**. M2 propio pasa de **13/23** a **15/25**.
 
-## Habilidades y ajustes editoriales
+### Habilidades y ajustes editoriales
 
 Las cuatro habilidades, los 13 criterios, la cantidad de preguntas y la duración no cambian. Hay nueve ajustes de redacción —por ejemplo, “suposiciones” pasa a “supuestos” y se simplifica la definición de argumentar— sin cambio operacional claro.
 
 ::: {.callout-note}
-## Defecto de diagramación detectado
+### Defecto de diagramación detectado
 
 En M1, el enunciado de problemas con función lineal y afín quedó unido a la viñeta anterior. El texto está presente, por lo que se contabiliza como enunciado conservado y no como eliminación.
 :::
 
-## Cambios en M1
+### Cambios en M1
 
 ::: {.temario-table}
 | Cambio | Ubicación | Versión 2026 | Versión 2027 |
@@ -44,7 +44,7 @@ En M1, el enunciado de problemas con función lineal y afín quedó unido a la v
 | [Incorporado]{.change-badge .change-added} | Geometría · Semejanza y proporcionalidad de figuras | No figuraba desde 2024. | Aplicación de semejanza y proporcionalidad a modelos a escala y situaciones cotidianas o de otras asignaturas. Es un retorno parcial y condensado; Thales no vuelve a explicitarse. |
 :::
 
-## Cambios propios de M2
+### Cambios propios de M2
 
 ::: {.temario-table}
 | Cambio | Ubicación | Versión 2026 | Versión 2027 |
@@ -55,13 +55,13 @@ En M1, el enunciado de problemas con función lineal y afín quedó unido a la v
 
 M2 hereda además el regreso de cilindros y de la unidad aplicada de semejanza desde M1.
 
-## ¿Qué significa para el estudiante?
+### ¿Qué significa para el estudiante?
 
 La versión regular vuelve a ampliar geometría: M1 recupera cilindros y una forma aplicada de semejanza; M2 suma esfera y posiciones relativas de rectas. El retorno no restaura íntegramente el temario 2023: conos, Thales y prismas de otras bases continúan sin declararse.
 
-## Diferencia acumulada respecto de Admisión 2023
+### Diferencia acumulada respecto de Admisión 2023
 
-### M1
+#### M1
 
 - Balance: **17/49 → 16/46**, una unidad y tres enunciados menos.
 - No regresan conos, segmentos y sectores circulares, teorema de Thales, mediana, moda ni rango.
@@ -69,15 +69,15 @@ La versión regular vuelve a ampliar geometría: M1 recupera cilindros y una for
 - Semejanza y escala regresan en un solo enunciado aplicado.
 - El promedio se conserva reubicado; el desarrollo algebraico queda explícito.
 
-### M2 propio
+#### M2 propio
 
 - Balance: **9/16 → 15/25**, seis unidades y nueve enunciados más.
 - Se incorporan matemática financiera; funciones potencia, exponencial, logarítmica y trigonométricas; circunferencia; esfera; rectas; modelo binomial y normal.
 - Sale la extensión M2 de ecuaciones de segundo grado, aunque la cobertura general permanece heredada de M1.
 
-# Invierno: cambios respecto de Admisión 2026
+## Invierno: cambios respecto de Admisión 2026
 
-## Resumen cuantitativo
+### Resumen cuantitativo
 
 | Tipo | M1 | M2 propio |
 |---|---:|---:|
@@ -88,7 +88,7 @@ La versión regular vuelve a ampliar geometría: M1 recupera cilindros y una for
 
 M1 pasa de **16/46** a **15/45**. M2 propio pasa de **11/17** a **13/23**.
 
-## Cambios en M1
+### Cambios en M1
 
 ::: {.temario-table}
 | Cambio | Ubicación | Versión invierno 2026 | Versión invierno 2027 |
@@ -98,7 +98,7 @@ M1 pasa de **16/46** a **15/45**. M2 propio pasa de **11/17** a **13/23**.
 | [Reubicado]{.change-badge .change-moved} | Estadística · Promedio | Incluido en la unidad general de tendencia central. | Se explicita bajo representación mediante tablas y gráficos. |
 :::
 
-## Cambios propios de M2
+### Cambios propios de M2
 
 ::: {.temario-table}
 | Cambio | Ubicación | Versión invierno 2026 | Versión invierno 2027 |
@@ -109,13 +109,13 @@ M1 pasa de **16/46** a **15/45**. M2 propio pasa de **11/17** a **13/23**.
 | [Reformulado]{.change-badge .change-reworded} | Probabilidad · Modelos | Modelo binomial. | Agrega distribución normal. |
 :::
 
-## Diferencia acumulada desde invierno Admisión 2024
+### Diferencia acumulada desde invierno Admisión 2024
 
 - **M1:** 17/49 → 15/45. Desaparecen semejanza, conos, segmentos/sectores circulares, prismas generales/cilindros y la unidad amplia de tendencia central/rango; el promedio se conserva reubicado.
 - **M2 propio:** 9/16 → 13/23. Agrega matemática financiera, las nuevas familias funcionales, seno/coseno, circunferencia y modelos binomial/normal; elimina la extensión M2 de ecuaciones cuadráticas.
 - **Ficha:** M2 amplía la referencia hasta 4.º medio y ambas pruebas incorporan 13 criterios de evaluación.
 
-# Regular frente a invierno 2027
+## Regular frente a invierno 2027
 
 La regular incluye, además de todo lo declarado en invierno, **cilindros y semejanza aplicada en M1**, y **esferas y rectas en el plano en M2**. La comparación completa está en el [temario vigente](../vigente.qmd#diferencia-práctica-entre-modalidades).
 

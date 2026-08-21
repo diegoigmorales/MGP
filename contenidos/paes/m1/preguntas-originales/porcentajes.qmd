@@ -3,10 +3,10 @@ title: "Pregunta original: descuento porcentual"
 description: "Ejemplo de análisis progresivo de una pregunta tipo PAES."
 ---
 
-# Parte I · La pregunta
+## Parte I · La pregunta
 
 :::: {.knowledge-object #tag-0003 tag="0003" type="pregunta" title="Descuento porcentual" usa="0001,0002" pertenece_a="C001" evalua="H001"}
-## Descuento porcentual
+### Descuento porcentual
 
 Una chaqueta cuesta $\$40\,000$ y tiene un descuento de $25\%$. ¿Cuál es su precio final?
 
@@ -16,7 +16,7 @@ C. $\$30\,000$
 D. $\$35\,000$
 
 ::: {.callout-note collapse="true"}
-## Resolución principal
+### Resolución principal
 
 El descuento es
 
@@ -28,7 +28,7 @@ Por tanto, el precio final es $40\,000-10\,000=30\,000$. La respuesta es **C**.
 :::
 
 ::: {.callout-tip collapse="true"}
-## Método alternativo
+### Método alternativo
 
 Pagar el precio después de un descuento de $25\%$ equivale a pagar el $75\%$:
 
@@ -38,7 +38,7 @@ $$
 :::
 
 ::: {.callout-warning collapse="true"}
-## Análisis de distractores
+### Análisis de distractores
 
 - **A:** confunde el monto descontado con el precio final.
 - **B:** interpreta el número $25$ como una cantidad monetaria.
@@ -46,21 +46,21 @@ $$
 :::
 ::::
 
-# Parte II · Qué se espera del estudiante
+## Parte II · Qué se espera del estudiante
 
-## Materia
+### Materia
 
 La pregunta pertenece al eje [Números](../../../curriculum/ejes.qmd#tag-C001).
 
-## Habilidad
+### Habilidad
 
 Evalúa [resolver problemas](../../../curriculum/habilidades.qmd#tag-H001): traducir una situación contextual a una operación porcentual y comprobar la razonabilidad del resultado.
 
-## Teoría necesaria
+### Teoría necesaria
 
 - [Definición de porcentaje](../../../libro/numeros/porcentajes.qmd#tag-0001)
 - [Técnica para calcular un porcentaje](../../../libro/numeros/porcentajes.qmd#tag-0002)
 
-# Parte III · Procedencia
+## Parte III · Procedencia
 
 Esta es una pregunta original del proyecto. Si fuera una pregunta externa, aquí se mostrarían autor, título, fuente, enlace, titular de derechos y fundamento de uso.

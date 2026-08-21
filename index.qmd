@@ -1,20 +1,21 @@
 ---
-title: "Matemática para Gañanes y Patanes"
-description: "Biblioteca interconectada de matemática, currículo y preparación PAES."
 toc: false
+number-sections: false
 ---
 
-# Tabla de contenidos
+# Inicio {.unnumbered}
+
+## Tabla de contenidos
 
 Esta portada muestra únicamente material desarrollado y utilizable. La arquitectura futura se conserva en la documentación interna del repositorio, pero no ocupa espacio en la navegación pública.
 
 ::: {.published-toc}
-## Matemática escolar
+### Matemática escolar
 
 - [Porcentajes: definición, técnicas y ejemplos](contenidos/libro/numeros/porcentajes.qmd)
 - [Pregunta original sobre descuento porcentual](contenidos/paes/m1/preguntas-originales/porcentajes.qmd)
 
-## Currículo y PAES
+### Currículo y PAES
 
 - [Temario vigente · Admisión 2027](contenidos/paes/temarios/vigente.qmd)
 - [Evolución histórica de los temarios](contenidos/paes/temarios/evolucion/index.qmd)
@@ -22,7 +23,7 @@ Esta portada muestra únicamente material desarrollado y utilizable. La arquitec
 - [Ejes y habilidades matemáticas](contenidos/curriculum/index.qmd)
 :::
 
-# Cómo recorrer MGP
+## Cómo recorrer MGP
 
 Cada definición, técnica y pregunta puede ser un nodo estable de una red de conocimiento matemático. Los tags y enlaces permiten pasar de una pregunta a la teoría necesaria y volver.
 

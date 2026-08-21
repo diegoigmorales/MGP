@@ -1,8 +1,10 @@
 ---
-title: "Temarios PAES de Matemática"
 description: "Temario vigente, evolución histórica y comparación de M1 y M2."
 toc: false
+number-sections: false
 ---
+
+# Temarios PAES de Matemática {.unnumbered}
 
 ::: {.temario-hero}
 ## Del primer temario al vigente

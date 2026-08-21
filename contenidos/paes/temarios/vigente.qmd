@@ -17,7 +17,7 @@ La edición regular fue publicada el **19 de marzo de 2026** para rendirse a fin
 Los contenidos comunes se presentan una sola vez. Las marcas **Solo regular** señalan alcance que no figura en el temario de invierno 2027. M2 siempre incluye todo el M1 de la misma modalidad.
 :::
 
-# Características generales
+## Características generales
 
 | Característica | M1 | M2 |
 |---|---|---|
@@ -27,7 +27,7 @@ Los contenidos comunes se presentan una sola vez. Las marcas **Solo regular** se
 | Duración | 2 horas y 20 minutos | 2 horas y 20 minutos |
 | Particularidad | Prueba obligatoria | Incluye preguntas de suficiencia de datos |
 
-## Habilidades y criterios
+### Habilidades y criterios
 
 | Habilidad | Qué se observa |
 |---|---|
@@ -36,12 +36,12 @@ Los contenidos comunes se presentan una sola vez. Las marcas **Solo regular** se
 | Representar | Traduce entre lenguaje natural y matemático, interpreta representaciones y transfiere información entre ellas. |
 | Argumentar | Evalúa argumentos, identifica errores en procedimientos o demostraciones y valida deducciones. |
 
-# Competencia Matemática 1 {#m1-regular}
+## Competencia Matemática 1 {#m1-regular}
 
-## Números
+### Números
 
 ::: {.temario-unit}
-### Enteros y racionales
+#### Enteros y racionales
 
 - Operaciones y orden con números enteros.
 - Operaciones y comparación con números racionales.
@@ -49,24 +49,24 @@ Los contenidos comunes se presentan una sola vez. Las marcas **Solo regular** se
 :::
 
 ::: {.temario-unit}
-### Porcentaje
+#### Porcentaje
 
 - Concepto y cálculo de porcentajes.
 - Problemas de porcentaje en distintos contextos.
 :::
 
 ::: {.temario-unit}
-### Potencias y raíces enésimas
+#### Potencias y raíces enésimas
 
 - Propiedades de potencias de base y exponente racionales.
 - Descomposición y propiedades de raíces enésimas en los números reales.
 - Problemas con potencias y raíces enésimas.
 :::
 
-## Álgebra y funciones
+### Álgebra y funciones
 
 ::: {.temario-unit}
-### Expresiones algebraicas
+#### Expresiones algebraicas
 
 - Productos notables.
 - Factorización y desarrollo de expresiones algebraicas.
@@ -75,28 +75,28 @@ Los contenidos comunes se presentan una sola vez. Las marcas **Solo regular** se
 :::
 
 ::: {.temario-unit}
-### Proporcionalidad
+#### Proporcionalidad
 
 - Proporción directa e inversa y sus representaciones.
 - Problemas con proporcionalidad directa e inversa.
 :::
 
 ::: {.temario-unit}
-### Ecuaciones e inecuaciones de primer grado
+#### Ecuaciones e inecuaciones de primer grado
 
 - Resolución de ecuaciones e inecuaciones lineales.
 - Problemas asociados a ambas.
 :::
 
 ::: {.temario-unit}
-### Sistemas de ecuaciones lineales (2 × 2)
+#### Sistemas de ecuaciones lineales (2 × 2)
 
 - Resolución de sistemas lineales.
 - Problemas con sistemas lineales.
 :::
 
 ::: {.temario-unit}
-### Función lineal y afín
+#### Función lineal y afín
 
 - Conceptos de función lineal y función afín.
 - Tablas y gráficos de ambas funciones.
@@ -104,7 +104,7 @@ Los contenidos comunes se presentan una sola vez. Las marcas **Solo regular** se
 :::
 
 ::: {.temario-unit}
-### Función cuadrática
+#### Función cuadrática
 
 - Resolución de ecuaciones de segundo grado y problemas asociados.
 - Tablas y gráficos con variación de parámetros.
@@ -112,10 +112,10 @@ Los contenidos comunes se presentan una sola vez. Las marcas **Solo regular** se
 - Problemas con la función cuadrática.
 :::
 
-## Geometría
+### Geometría
 
 ::: {.temario-unit}
-### Figuras geométricas
+#### Figuras geométricas
 
 - Problemas con el teorema de Pitágoras.
 - Perímetros y áreas de triángulos, paralelogramos, trapecios y círculos.
@@ -123,14 +123,14 @@ Los contenidos comunes se presentan una sola vez. Las marcas **Solo regular** se
 :::
 
 ::: {.temario-unit}
-### Cuerpos geométricos
+#### Cuerpos geométricos
 
 - **Ambas modalidades:** superficie, volumen y problemas de paralelepípedos y cubos.
 - [Solo regular]{.change-badge .change-added} Los tres enunciados incluyen también cilindros.
 :::
 
 ::: {.temario-unit}
-### Transformaciones isométricas
+#### Transformaciones isométricas
 
 - Puntos y vectores en el plano cartesiano.
 - Rotación, traslación y reflexión de figuras.
@@ -138,17 +138,17 @@ Los contenidos comunes se presentan una sola vez. Las marcas **Solo regular** se
 :::
 
 ::: {.temario-unit}
-### Semejanza y proporcionalidad de figuras
+#### Semejanza y proporcionalidad de figuras
 
 [Solo regular]{.change-badge .change-added}
 
 - Aplicación de propiedades de semejanza y proporcionalidad a modelos a escala y a situaciones cotidianas o de otras asignaturas.
 :::
 
-## Probabilidad y estadística
+### Probabilidad y estadística
 
 ::: {.temario-unit}
-### Representación mediante tablas y gráficos
+#### Representación mediante tablas y gráficos
 
 - Tablas de frecuencia absoluta y relativa.
 - Gráficos para representar datos.
@@ -157,7 +157,7 @@ Los contenidos comunes se presentan una sola vez. Las marcas **Solo regular** se
 :::
 
 ::: {.temario-unit}
-### Medidas de posición
+#### Medidas de posición
 
 - Cuartiles y percentiles de uno o más grupos.
 - Diagrama de cajón.
@@ -165,77 +165,77 @@ Los contenidos comunes se presentan una sola vez. Las marcas **Solo regular** se
 :::
 
 ::: {.temario-unit}
-### Reglas de las probabilidades
+#### Reglas de las probabilidades
 
 - Probabilidad de un evento.
 - Reglas aditiva y multiplicativa de probabilidades.
 :::
 
-# Competencia Matemática 2 {#m2-regular}
+## Competencia Matemática 2 {#m2-regular}
 
 M2 puede evaluar **todo el M1 de la modalidad correspondiente** y, además, los contenidos siguientes.
 
-## Números
+### Números
 
 ::: {.temario-unit}
-### Conjunto de los números reales
+#### Conjunto de los números reales
 
 - Operaciones con números reales.
 - Problemas con números reales.
 :::
 
 ::: {.temario-unit}
-### Matemática financiera
+#### Matemática financiera
 
 - Problemas financieros como AFP y jubilación, créditos hipotecarios y créditos de consumo.
 :::
 
 ::: {.temario-unit}
-### Logaritmos
+#### Logaritmos
 
 - Relación entre potencias, raíces y logaritmos, y sus propiedades.
 - Problemas con logaritmos.
 :::
 
-## Álgebra y funciones
+### Álgebra y funciones
 
 ::: {.temario-unit}
-### Sistemas de ecuaciones lineales (2 × 2)
+#### Sistemas de ecuaciones lineales (2 × 2)
 
 - Casos con solución única, infinitas soluciones o sin solución.
 :::
 
 ::: {.temario-unit}
-### Función potencia, exponencial y logarítmica
+#### Función potencia, exponencial y logarítmica
 
 - Gráficos de las tres familias.
 - Problemas con funciones potencia, exponencial y logarítmica.
 :::
 
 ::: {.temario-unit}
-### Funciones trigonométricas
+#### Funciones trigonométricas
 
 - Gráficos de seno y coseno.
 - Problemas con las funciones seno y coseno.
 :::
 
-## Geometría
+### Geometría
 
 ::: {.temario-unit}
-### Homotecia de figuras planas
+#### Homotecia de figuras planas
 
 - Problemas de homotecia.
 :::
 
 ::: {.temario-unit}
-### Razones trigonométricas en triángulos rectángulos
+#### Razones trigonométricas en triángulos rectángulos
 
 - Seno, coseno y tangente.
 - Problemas con razones trigonométricas.
 :::
 
 ::: {.temario-unit}
-### Relaciones métricas en la circunferencia
+#### Relaciones métricas en la circunferencia
 
 - Ángulos y arcos.
 - Cuerdas y secantes.
@@ -243,7 +243,7 @@ M2 puede evaluar **todo el M1 de la modalidad correspondiente** y, además, los 
 :::
 
 ::: {.temario-unit}
-### Esferas, superficie y volumen
+#### Esferas, superficie y volumen
 
 [Solo regular]{.change-badge .change-added}
 
@@ -251,43 +251,43 @@ M2 puede evaluar **todo el M1 de la modalidad correspondiente** y, además, los 
 :::
 
 ::: {.temario-unit}
-### Rectas en el plano
+#### Rectas en el plano
 
 [Solo regular]{.change-badge .change-added}
 
 - Problemas con rectas y sus posiciones relativas.
 :::
 
-## Probabilidad y estadística
+### Probabilidad y estadística
 
 ::: {.temario-unit}
-### Medidas de dispersión
+#### Medidas de dispersión
 
 - Medidas de dispersión de uno o más grupos.
 - Problemas con medidas de dispersión.
 :::
 
 ::: {.temario-unit}
-### Probabilidad condicional
+#### Probabilidad condicional
 
 - Problemas con probabilidad condicional y sus propiedades.
 :::
 
 ::: {.temario-unit}
-### Permutación y combinatoria
+#### Permutación y combinatoria
 
 - Permutación y combinatoria.
 - Problemas de conteo.
 :::
 
 ::: {.temario-unit}
-### Modelos probabilísticos
+#### Modelos probabilísticos
 
 - Problemas con modelos binomiales.
 - Problemas con la distribución normal.
 :::
 
-# Diferencia práctica entre modalidades
+## Diferencia práctica entre modalidades
 
 | Prueba | Invierno 2027 | Regular 2027 |
 |---|---|---|
@@ -296,7 +296,7 @@ M2 puede evaluar **todo el M1 de la modalidad correspondiente** y, además, los 
 | M2 heredado | Hereda M1 invierno. | Hereda los dos alcances adicionales de M1 regular. |
 
 ::: {.callout-tip}
-## Qué estudiar
+### Qué estudiar
 
 Prepara siempre el temario de la modalidad que rendirás. Si aún no la has elegido, estudiar la versión regular cubre también todo lo que los documentos de invierno 2027 declaran explícitamente.
 :::

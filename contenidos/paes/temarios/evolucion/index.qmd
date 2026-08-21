@@ -1,8 +1,10 @@
 ---
-title: "Evolución histórica de los temarios"
 description: "Cambios documentados en M1 y M2 entre los procesos de Admisión 2023 y 2027."
 toc: false
+number-sections: false
 ---
+
+# Evolución histórica de los temarios {.unnumbered}
 
 # Dos líneas de tiempo
 

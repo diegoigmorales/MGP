@@ -3,7 +3,7 @@ title: "Admisión 2023: primer temario PAES"
 description: "Versión regular completa del primer temario de Competencia Matemática M1 y M2."
 ---
 
-# Ficha del proceso
+## Ficha del proceso
 
 | Campo | Dato |
 |---|---|
@@ -15,9 +15,9 @@ description: "Versión regular completa del primer temario de Competencia Matem�
 
 Esta es la base de la serie regular. Los procesos posteriores se describen como cambios respecto de su antecesor, y el [temario vigente](../vigente.qmd) vuelve a presentar una versión completa.
 
-# Competencia Matemática 1 {#m1-2023}
+## Competencia Matemática 1 {#m1-2023}
 
-## Características generales
+### Características generales
 
 | Característica | Admisión 2023 |
 |---|---|
@@ -30,43 +30,43 @@ Esta es la base de la serie regular. Los procesos posteriores se describen como 
 
 El documento también informaba rangos esperados de preguntas por habilidad y eje. Esas bandas describían la composición posible del instrumento, no un reparto fijo para toda forma.
 
-## Habilidades evaluadas
+### Habilidades evaluadas
 
 - **Resolver problemas:** solucionar situaciones rutinarias o no rutinarias mediante cálculos, conocimientos y estrategias; interpretar y evaluar los resultados.
 - **Modelar:** usar, comprender y comparar expresiones matemáticas que representan aspectos relevantes de situaciones cotidianas o científicas.
 - **Representar:** transferir información mediante símbolos, tablas, gráficos, diagramas, recta numérica o plano cartesiano, y transitar entre representaciones.
 - **Argumentar:** reconocer, explicar y justificar procedimientos, deducciones, demostraciones y estrategias; detectar argumentos erróneos.
 
-## Conocimientos evaluados
+### Conocimientos evaluados
 
-### Números
+#### Números
 
 ::: {.temario-unit}
-#### Conjunto de los números enteros y racionales
+##### Conjunto de los números enteros y racionales
 
 - Operaciones y orden en enteros y racionales.
 - Problemas con enteros y racionales en distintos contextos.
 :::
 
 ::: {.temario-unit}
-#### Porcentaje
+##### Porcentaje
 
 - Concepto y cálculo de porcentaje.
 - Problemas de porcentaje en distintos contextos.
 :::
 
 ::: {.temario-unit}
-#### Potencias y raíces enésimas
+##### Potencias y raíces enésimas
 
 - Propiedades de potencias de base racional y exponente racional.
 - Descomposición y propiedades de raíces enésimas en los números reales.
 - Problemas con potencias y raíces enésimas en distintos contextos.
 :::
 
-### Álgebra y funciones
+#### Álgebra y funciones
 
 ::: {.temario-unit}
-#### Expresiones algebraicas
+##### Expresiones algebraicas
 
 - Productos notables.
 - Factorización de expresiones algebraicas.
@@ -75,28 +75,28 @@ El documento también informaba rangos esperados de preguntas por habilidad y ej
 :::
 
 ::: {.temario-unit}
-#### Proporcionalidad
+##### Proporcionalidad
 
 - Proporción directa e inversa y sus representaciones.
 - Problemas de proporcionalidad directa e inversa.
 :::
 
 ::: {.temario-unit}
-#### Ecuaciones e inecuaciones de primer grado
+##### Ecuaciones e inecuaciones de primer grado
 
 - Resolución de ecuaciones lineales y problemas asociados.
 - Resolución de inecuaciones lineales y problemas asociados.
 :::
 
 ::: {.temario-unit}
-#### Sistemas de ecuaciones lineales (2 × 2)
+##### Sistemas de ecuaciones lineales (2 × 2)
 
 - Resolución de sistemas de ecuaciones lineales.
 - Problemas con sistemas lineales en distintos contextos.
 :::
 
 ::: {.temario-unit}
-#### Función lineal y afín
+##### Función lineal y afín
 
 - Conceptos de función lineal y función afín.
 - Tablas y gráficos de ambas funciones.
@@ -104,7 +104,7 @@ El documento también informaba rangos esperados de preguntas por habilidad y ej
 :::
 
 ::: {.temario-unit}
-#### Función cuadrática
+##### Función cuadrática
 
 - Resolución de ecuaciones de segundo grado y problemas asociados.
 - Tablas y gráficos, considerando la variación de parámetros.
@@ -112,10 +112,10 @@ El documento también informaba rangos esperados de preguntas por habilidad y ej
 - Problemas con la función cuadrática.
 :::
 
-### Geometría
+#### Geometría
 
 ::: {.temario-unit}
-#### Figuras geométricas
+##### Figuras geométricas
 
 - Problemas con el teorema de Pitágoras.
 - Perímetros y áreas de triángulos, paralelogramos, trapecios, círculos, segmentos y sectores circulares.
@@ -123,7 +123,7 @@ El documento también informaba rangos esperados de preguntas por habilidad y ej
 :::
 
 ::: {.temario-unit}
-#### Cuerpos geométricos
+##### Cuerpos geométricos
 
 - Área de prismas rectos de distintas bases, cilindros y conos.
 - Volumen de prismas rectos de distintas bases, cilindros y conos.
@@ -131,7 +131,7 @@ El documento también informaba rangos esperados de preguntas por habilidad y ej
 :::
 
 ::: {.temario-unit}
-#### Transformaciones isométricas
+##### Transformaciones isométricas
 
 - Puntos y vectores en el plano cartesiano.
 - Rotación, traslación y reflexión.
@@ -139,7 +139,7 @@ El documento también informaba rangos esperados de preguntas por habilidad y ej
 :::
 
 ::: {.temario-unit}
-#### Semejanza y proporcionalidad de figuras planas
+##### Semejanza y proporcionalidad de figuras planas
 
 - Concepto y propiedades de semejanza.
 - Modelos a escala.
@@ -147,10 +147,10 @@ El documento también informaba rangos esperados de preguntas por habilidad y ej
 - Problemas con el teorema de Thales.
 :::
 
-### Probabilidad y estadística
+#### Probabilidad y estadística
 
 ::: {.temario-unit}
-#### Representación de datos mediante tablas y gráficos
+##### Representación de datos mediante tablas y gráficos
 
 - Tablas de frecuencia absoluta y relativa.
 - Gráficos para representar datos.
@@ -158,14 +158,14 @@ El documento también informaba rangos esperados de preguntas por habilidad y ej
 :::
 
 ::: {.temario-unit}
-#### Medidas de tendencia central y rango
+##### Medidas de tendencia central y rango
 
 - Medidas de tendencia central y rango de uno o más grupos de datos.
 - Problemas con esas medidas.
 :::
 
 ::: {.temario-unit}
-#### Medidas de posición
+##### Medidas de posición
 
 - Cuartiles y percentiles de uno o más grupos.
 - Diagrama de cajón.
@@ -173,15 +173,15 @@ El documento también informaba rangos esperados de preguntas por habilidad y ej
 :::
 
 ::: {.temario-unit}
-#### Reglas de las probabilidades
+##### Reglas de las probabilidades
 
 - Probabilidad de un evento.
 - Reglas aditiva y multiplicativa en distintos contextos.
 :::
 
-# Competencia Matemática 2 {#m2-2023}
+## Competencia Matemática 2 {#m2-2023}
 
-## Características generales
+### Características generales
 
 | Característica | Admisión 2023 |
 |---|---|
@@ -193,79 +193,79 @@ El documento también informaba rangos esperados de preguntas por habilidad y ej
 
 Las cuatro habilidades tenían las mismas definiciones generales de M1. Los conocimientos propios de M2 se agregaban a toda la base M1 anterior.
 
-## Conocimientos adicionales a M1
+### Conocimientos adicionales a M1
 
-### Números
+#### Números
 
 ::: {.temario-unit}
-#### Conjunto de los números reales
+##### Conjunto de los números reales
 
 - Operaciones en los números reales.
 - Problemas con números reales en distintos contextos.
 :::
 
 ::: {.temario-unit}
-#### Logaritmos
+##### Logaritmos
 
 - Concepto y propiedades de los logaritmos.
 - Relación entre potencias, raíces y logaritmos.
 - Problemas con logaritmos.
 :::
 
-### Álgebra y funciones
+#### Álgebra y funciones
 
 ::: {.temario-unit}
-#### Sistemas de ecuaciones lineales (2 × 2)
+##### Sistemas de ecuaciones lineales (2 × 2)
 
 - Casos con solución única, infinitas soluciones o sin solución.
 :::
 
 ::: {.temario-unit}
-#### Ecuaciones de segundo grado
+##### Ecuaciones de segundo grado
 
 - Resolución mediante completación de cuadrados, factorización, gráficos y fórmula general.
 - Casos con dos, una o ninguna solución real.
 :::
 
-### Geometría
+#### Geometría
 
 ::: {.temario-unit}
-#### Homotecia de figuras planas
+##### Homotecia de figuras planas
 
 - Problemas de homotecia en distintos contextos.
 :::
 
 ::: {.temario-unit}
-#### Razones trigonométricas en triángulos rectángulos
+##### Razones trigonométricas en triángulos rectángulos
 
 - Seno, coseno y tangente.
 - Problemas con razones trigonométricas.
 :::
 
-### Probabilidad y estadística
+#### Probabilidad y estadística
 
 ::: {.temario-unit}
-#### Medidas de dispersión
+##### Medidas de dispersión
 
 - Medidas de dispersión de uno o más grupos de datos.
 - Problemas con medidas de dispersión.
 :::
 
 ::: {.temario-unit}
-#### Probabilidad condicional
+##### Probabilidad condicional
 
 - Problemas con probabilidad condicional y sus propiedades.
 :::
 
 ::: {.temario-unit}
-#### Permutación y combinatoria
+##### Permutación y combinatoria
 
 - Permutación y combinatoria.
 - Problemas de conteo en distintos contextos.
 :::
 
 ::: {.callout-tip}
-## Punto de partida acumulativo
+### Punto de partida acumulativo
 
 Para leer M2 correctamente hay que sumar esta lista al temario completo de M1. Una modificación posterior de M1 también cambia, por herencia, el universo de M2.
 :::

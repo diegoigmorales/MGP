@@ -1,8 +1,10 @@
 ---
-title: "Tabla de contenidos"
 description: "Contenido actualmente publicado en MGP."
 toc: false
+number-sections: false
 ---
+
+# Tabla de contenidos {.unnumbered}
 
 Solo aparecen rutas con contenido real. Las secciones futuras permanecen en la planificación interna hasta que exista una página utilizable.
 

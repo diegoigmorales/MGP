@@ -32,7 +32,7 @@
       "type": "definicion",
       "title": "Porcentaje",
       "source": "contenidos/libro/numeros/porcentajes.qmd",
-      "line": 16,
+      "line": 14,
       "href": "../contenidos/libro/numeros/porcentajes.qmd#tag-0001",
       "relations": {
         "pertenece_a": [
@@ -45,14 +45,14 @@
       "type": "tecnica",
       "title": "Calcular un porcentaje de una cantidad",
       "source": "contenidos/libro/numeros/porcentajes.qmd",
-      "line": 40,
+      "line": 38,
       "href": "../contenidos/libro/numeros/porcentajes.qmd#tag-0002",
       "relations": {
-        "pertenece_a": [
-          "C001"
-        ],
         "requiere": [
           "0001"
+        ],
+        "pertenece_a": [
+          "C001"
         ]
       }
     },
@@ -61,7 +61,7 @@
       "type": "pregunta",
       "title": "Pregunta 1 · PAES M1 Invierno — Admisión 2027",
       "source": "contenidos/paes/m1/admision-2027-invierno/pregunta-01.qmd",
-      "line": 6,
+      "line": 7,
       "href": "../contenidos/paes/m1/admision-2027-invierno/pregunta-01.qmd#tag-2701",
       "relations": {}
     },
@@ -70,7 +70,7 @@
       "type": "pregunta",
       "title": "Pregunta 2 · PAES M1 Invierno — Admisión 2027",
       "source": "contenidos/paes/m1/admision-2027-invierno/pregunta-02.qmd",
-      "line": 6,
+      "line": 7,
       "href": "../contenidos/paes/m1/admision-2027-invierno/pregunta-02.qmd#tag-2702",
       "relations": {}
     },
@@ -79,7 +79,7 @@
       "type": "pregunta",
       "title": "Pregunta 3 · PAES M1 Invierno — Admisión 2027",
       "source": "contenidos/paes/m1/admision-2027-invierno/pregunta-03.qmd",
-      "line": 6,
+      "line": 7,
       "href": "../contenidos/paes/m1/admision-2027-invierno/pregunta-03.qmd#tag-2703",
       "relations": {}
     },
@@ -88,7 +88,7 @@
       "type": "pregunta",
       "title": "Pregunta 4 · PAES M1 Invierno — Admisión 2027",
       "source": "contenidos/paes/m1/admision-2027-invierno/pregunta-04.qmd",
-      "line": 6,
+      "line": 7,
       "href": "../contenidos/paes/m1/admision-2027-invierno/pregunta-04.qmd#tag-2704",
       "relations": {}
     },
@@ -97,7 +97,7 @@
       "type": "pregunta",
       "title": "Pregunta 5 · PAES M1 Invierno — Admisión 2027",
       "source": "contenidos/paes/m1/admision-2027-invierno/pregunta-05.qmd",
-      "line": 6,
+      "line": 7,
       "href": "../contenidos/paes/m1/admision-2027-invierno/pregunta-05.qmd#tag-2705",
       "relations": {}
     },
@@ -106,7 +106,7 @@
       "type": "pregunta",
       "title": "Pregunta 6 · PAES M1 Invierno — Admisión 2027",
       "source": "contenidos/paes/m1/admision-2027-invierno/pregunta-06.qmd",
-      "line": 6,
+      "line": 7,
       "href": "../contenidos/paes/m1/admision-2027-invierno/pregunta-06.qmd#tag-2706",
       "relations": {}
     },
@@ -115,7 +115,7 @@
       "type": "pregunta",
       "title": "Pregunta 7 · PAES M1 Invierno — Admisión 2027",
       "source": "contenidos/paes/m1/admision-2027-invierno/pregunta-07.qmd",
-      "line": 6,
+      "line": 7,
       "href": "../contenidos/paes/m1/admision-2027-invierno/pregunta-07.qmd#tag-2707",
       "relations": {}
     },
@@ -124,7 +124,7 @@
       "type": "pregunta",
       "title": "Pregunta 8 · PAES M1 Invierno — Admisión 2027",
       "source": "contenidos/paes/m1/admision-2027-invierno/pregunta-08.qmd",
-      "line": 6,
+      "line": 7,
       "href": "../contenidos/paes/m1/admision-2027-invierno/pregunta-08.qmd#tag-2708",
       "relations": {}
     },
@@ -133,7 +133,7 @@
       "type": "pregunta",
       "title": "Pregunta 9 · PAES M1 Invierno — Admisión 2027",
       "source": "contenidos/paes/m1/admision-2027-invierno/pregunta-09.qmd",
-      "line": 6,
+      "line": 7,
       "href": "../contenidos/paes/m1/admision-2027-invierno/pregunta-09.qmd#tag-2709",
       "relations": {}
     },
@@ -142,7 +142,7 @@
       "type": "pregunta",
       "title": "Pregunta 10 · PAES M1 Invierno — Admisión 2027",
       "source": "contenidos/paes/m1/admision-2027-invierno/pregunta-10.qmd",
-      "line": 6,
+      "line": 7,
       "href": "../contenidos/paes/m1/admision-2027-invierno/pregunta-10.qmd#tag-2710",
       "relations": {}
     },
@@ -151,7 +151,7 @@
       "type": "pregunta",
       "title": "Pregunta 11 · PAES M1 Invierno — Admisión 2027",
       "source": "contenidos/paes/m1/admision-2027-invierno/pregunta-11.qmd",
-      "line": 6,
+      "line": 7,
       "href": "../contenidos/paes/m1/admision-2027-invierno/pregunta-11.qmd#tag-2711",
       "relations": {}
     },
@@ -160,7 +160,7 @@
       "type": "pregunta",
       "title": "Pregunta 12 · PAES M1 Invierno — Admisión 2027",
       "source": "contenidos/paes/m1/admision-2027-invierno/pregunta-12.qmd",
-      "line": 6,
+      "line": 7,
       "href": "../contenidos/paes/m1/admision-2027-invierno/pregunta-12.qmd#tag-2712",
       "relations": {}
     },
@@ -169,7 +169,7 @@
       "type": "pregunta",
       "title": "Pregunta 13 · PAES M1 Invierno — Admisión 2027",
       "source": "contenidos/paes/m1/admision-2027-invierno/pregunta-13.qmd",
-      "line": 6,
+      "line": 7,
       "href": "../contenidos/paes/m1/admision-2027-invierno/pregunta-13.qmd#tag-2713",
       "relations": {}
     },
@@ -178,7 +178,7 @@
       "type": "pregunta",
       "title": "Pregunta 14 · PAES M1 Invierno — Admisión 2027",
       "source": "contenidos/paes/m1/admision-2027-invierno/pregunta-14.qmd",
-      "line": 6,
+      "line": 7,
       "href": "../contenidos/paes/m1/admision-2027-invierno/pregunta-14.qmd#tag-2714",
       "relations": {}
     },
@@ -187,7 +187,7 @@
       "type": "pregunta",
       "title": "Pregunta 15 · PAES M1 Invierno — Admisión 2027",
       "source": "contenidos/paes/m1/admision-2027-invierno/pregunta-15.qmd",
-      "line": 6,
+      "line": 7,
       "href": "../contenidos/paes/m1/admision-2027-invierno/pregunta-15.qmd#tag-2715",
       "relations": {}
     },
@@ -196,7 +196,7 @@
       "type": "pregunta",
       "title": "Pregunta 16 · PAES M1 Invierno — Admisión 2027",
       "source": "contenidos/paes/m1/admision-2027-invierno/pregunta-16.qmd",
-      "line": 6,
+      "line": 7,
       "href": "../contenidos/paes/m1/admision-2027-invierno/pregunta-16.qmd#tag-2716",
       "relations": {}
     },
@@ -205,7 +205,7 @@
       "type": "pregunta",
       "title": "Pregunta 17 · PAES M1 Invierno — Admisión 2027",
       "source": "contenidos/paes/m1/admision-2027-invierno/pregunta-17.qmd",
-      "line": 6,
+      "line": 7,
       "href": "../contenidos/paes/m1/admision-2027-invierno/pregunta-17.qmd#tag-2717",
       "relations": {}
     },
@@ -214,7 +214,7 @@
       "type": "pregunta",
       "title": "Pregunta 18 · PAES M1 Invierno — Admisión 2027",
       "source": "contenidos/paes/m1/admision-2027-invierno/pregunta-18.qmd",
-      "line": 6,
+      "line": 7,
       "href": "../contenidos/paes/m1/admision-2027-invierno/pregunta-18.qmd#tag-2718",
       "relations": {}
     },
@@ -223,7 +223,7 @@
       "type": "pregunta",
       "title": "Pregunta 19 · PAES M1 Invierno — Admisión 2027",
       "source": "contenidos/paes/m1/admision-2027-invierno/pregunta-19.qmd",
-      "line": 6,
+      "line": 7,
       "href": "../contenidos/paes/m1/admision-2027-invierno/pregunta-19.qmd#tag-2719",
       "relations": {}
     },
@@ -232,7 +232,7 @@
       "type": "pregunta",
       "title": "Pregunta 20 · PAES M1 Invierno — Admisión 2027",
       "source": "contenidos/paes/m1/admision-2027-invierno/pregunta-20.qmd",
-      "line": 6,
+      "line": 7,
       "href": "../contenidos/paes/m1/admision-2027-invierno/pregunta-20.qmd#tag-2720",
       "relations": {}
     },
@@ -241,7 +241,7 @@
       "type": "pregunta",
       "title": "Pregunta 21 · PAES M1 Invierno — Admisión 2027",
       "source": "contenidos/paes/m1/admision-2027-invierno/pregunta-21.qmd",
-      "line": 6,
+      "line": 7,
       "href": "../contenidos/paes/m1/admision-2027-invierno/pregunta-21.qmd#tag-2721",
       "relations": {}
     },
@@ -250,7 +250,7 @@
       "type": "pregunta",
       "title": "Pregunta 22 · PAES M1 Invierno — Admisión 2027",
       "source": "contenidos/paes/m1/admision-2027-invierno/pregunta-22.qmd",
-      "line": 6,
+      "line": 7,
       "href": "../contenidos/paes/m1/admision-2027-invierno/pregunta-22.qmd#tag-2722",
       "relations": {}
     },
@@ -259,7 +259,7 @@
       "type": "pregunta",
       "title": "Pregunta 23 · PAES M1 Invierno — Admisión 2027",
       "source": "contenidos/paes/m1/admision-2027-invierno/pregunta-23.qmd",
-      "line": 6,
+      "line": 7,
       "href": "../contenidos/paes/m1/admision-2027-invierno/pregunta-23.qmd#tag-2723",
       "relations": {}
     },
@@ -268,7 +268,7 @@
       "type": "pregunta",
       "title": "Pregunta 24 · PAES M1 Invierno — Admisión 2027",
       "source": "contenidos/paes/m1/admision-2027-invierno/pregunta-24.qmd",
-      "line": 6,
+      "line": 7,
       "href": "../contenidos/paes/m1/admision-2027-invierno/pregunta-24.qmd#tag-2724",
       "relations": {}
     },
@@ -277,7 +277,7 @@
       "type": "pregunta",
       "title": "Pregunta 25 · PAES M1 Invierno — Admisión 2027",
       "source": "contenidos/paes/m1/admision-2027-invierno/pregunta-25.qmd",
-      "line": 6,
+      "line": 7,
       "href": "../contenidos/paes/m1/admision-2027-invierno/pregunta-25.qmd#tag-2725",
       "relations": {}
     },
@@ -286,7 +286,7 @@
       "type": "pregunta",
       "title": "Pregunta 26 · PAES M1 Invierno — Admisión 2027",
       "source": "contenidos/paes/m1/admision-2027-invierno/pregunta-26.qmd",
-      "line": 6,
+      "line": 7,
       "href": "../contenidos/paes/m1/admision-2027-invierno/pregunta-26.qmd#tag-2726",
       "relations": {}
     },
@@ -295,7 +295,7 @@
       "type": "pregunta",
       "title": "Pregunta 27 · PAES M1 Invierno — Admisión 2027",
       "source": "contenidos/paes/m1/admision-2027-invierno/pregunta-27.qmd",
-      "line": 6,
+      "line": 7,
       "href": "../contenidos/paes/m1/admision-2027-invierno/pregunta-27.qmd#tag-2727",
       "relations": {}
     },
@@ -304,7 +304,7 @@
       "type": "pregunta",
       "title": "Pregunta 28 · PAES M1 Invierno — Admisión 2027",
       "source": "contenidos/paes/m1/admision-2027-invierno/pregunta-28.qmd",
-      "line": 6,
+      "line": 7,
       "href": "../contenidos/paes/m1/admision-2027-invierno/pregunta-28.qmd#tag-2728",
       "relations": {}
     },
@@ -313,7 +313,7 @@
       "type": "pregunta",
       "title": "Pregunta 29 · PAES M1 Invierno — Admisión 2027",
       "source": "contenidos/paes/m1/admision-2027-invierno/pregunta-29.qmd",
-      "line": 6,
+      "line": 7,
       "href": "../contenidos/paes/m1/admision-2027-invierno/pregunta-29.qmd#tag-2729",
       "relations": {}
     },
@@ -322,7 +322,7 @@
       "type": "pregunta",
       "title": "Pregunta 30 · PAES M1 Invierno — Admisión 2027",
       "source": "contenidos/paes/m1/admision-2027-invierno/pregunta-30.qmd",
-      "line": 6,
+      "line": 7,
       "href": "../contenidos/paes/m1/admision-2027-invierno/pregunta-30.qmd#tag-2730",
       "relations": {}
     },
@@ -331,7 +331,7 @@
       "type": "pregunta",
       "title": "Pregunta 31 · PAES M1 Invierno — Admisión 2027",
       "source": "contenidos/paes/m1/admision-2027-invierno/pregunta-31.qmd",
-      "line": 6,
+      "line": 7,
       "href": "../contenidos/paes/m1/admision-2027-invierno/pregunta-31.qmd#tag-2731",
       "relations": {}
     },
@@ -340,7 +340,7 @@
       "type": "pregunta",
       "title": "Pregunta 32 · PAES M1 Invierno — Admisión 2027",
       "source": "contenidos/paes/m1/admision-2027-invierno/pregunta-32.qmd",
-      "line": 6,
+      "line": 7,
       "href": "../contenidos/paes/m1/admision-2027-invierno/pregunta-32.qmd#tag-2732",
       "relations": {}
     },
@@ -349,7 +349,7 @@
       "type": "pregunta",
       "title": "Pregunta 33 · PAES M1 Invierno — Admisión 2027",
       "source": "contenidos/paes/m1/admision-2027-invierno/pregunta-33.qmd",
-      "line": 6,
+      "line": 7,
       "href": "../contenidos/paes/m1/admision-2027-invierno/pregunta-33.qmd#tag-2733",
       "relations": {}
     },
@@ -358,7 +358,7 @@
       "type": "pregunta",
       "title": "Pregunta 34 · PAES M1 Invierno — Admisión 2027",
       "source": "contenidos/paes/m1/admision-2027-invierno/pregunta-34.qmd",
-      "line": 6,
+      "line": 7,
       "href": "../contenidos/paes/m1/admision-2027-invierno/pregunta-34.qmd#tag-2734",
       "relations": {}
     },
@@ -367,7 +367,7 @@
       "type": "pregunta",
       "title": "Pregunta 35 · PAES M1 Invierno — Admisión 2027",
       "source": "contenidos/paes/m1/admision-2027-invierno/pregunta-35.qmd",
-      "line": 6,
+      "line": 7,
       "href": "../contenidos/paes/m1/admision-2027-invierno/pregunta-35.qmd#tag-2735",
       "relations": {}
     },
@@ -376,7 +376,7 @@
       "type": "pregunta",
       "title": "Pregunta 36 · PAES M1 Invierno — Admisión 2027",
       "source": "contenidos/paes/m1/admision-2027-invierno/pregunta-36.qmd",
-      "line": 6,
+      "line": 7,
       "href": "../contenidos/paes/m1/admision-2027-invierno/pregunta-36.qmd#tag-2736",
       "relations": {}
     },
@@ -385,7 +385,7 @@
       "type": "pregunta",
       "title": "Pregunta 37 · PAES M1 Invierno — Admisión 2027",
       "source": "contenidos/paes/m1/admision-2027-invierno/pregunta-37.qmd",
-      "line": 6,
+      "line": 7,
       "href": "../contenidos/paes/m1/admision-2027-invierno/pregunta-37.qmd#tag-2737",
       "relations": {}
     },
@@ -394,7 +394,7 @@
       "type": "pregunta",
       "title": "Pregunta 38 · PAES M1 Invierno — Admisión 2027",
       "source": "contenidos/paes/m1/admision-2027-invierno/pregunta-38.qmd",
-      "line": 6,
+      "line": 7,
       "href": "../contenidos/paes/m1/admision-2027-invierno/pregunta-38.qmd#tag-2738",
       "relations": {}
     },
@@ -403,7 +403,7 @@
       "type": "pregunta",
       "title": "Pregunta 39 · PAES M1 Invierno — Admisión 2027",
       "source": "contenidos/paes/m1/admision-2027-invierno/pregunta-39.qmd",
-      "line": 6,
+      "line": 7,
       "href": "../contenidos/paes/m1/admision-2027-invierno/pregunta-39.qmd#tag-2739",
       "relations": {}
     },
@@ -412,7 +412,7 @@
       "type": "pregunta",
       "title": "Pregunta 40 · PAES M1 Invierno — Admisión 2027",
       "source": "contenidos/paes/m1/admision-2027-invierno/pregunta-40.qmd",
-      "line": 6,
+      "line": 7,
       "href": "../contenidos/paes/m1/admision-2027-invierno/pregunta-40.qmd#tag-2740",
       "relations": {}
     },
@@ -421,7 +421,7 @@
       "type": "pregunta",
       "title": "Pregunta 41 · PAES M1 Invierno — Admisión 2027",
       "source": "contenidos/paes/m1/admision-2027-invierno/pregunta-41.qmd",
-      "line": 6,
+      "line": 7,
       "href": "../contenidos/paes/m1/admision-2027-invierno/pregunta-41.qmd#tag-2741",
       "relations": {}
     },
@@ -430,7 +430,7 @@
       "type": "pregunta",
       "title": "Pregunta 42 · PAES M1 Invierno — Admisión 2027",
       "source": "contenidos/paes/m1/admision-2027-invierno/pregunta-42.qmd",
-      "line": 6,
+      "line": 7,
       "href": "../contenidos/paes/m1/admision-2027-invierno/pregunta-42.qmd#tag-2742",
       "relations": {}
     },
@@ -439,7 +439,7 @@
       "type": "pregunta",
       "title": "Pregunta 43 · PAES M1 Invierno — Admisión 2027",
       "source": "contenidos/paes/m1/admision-2027-invierno/pregunta-43.qmd",
-      "line": 6,
+      "line": 7,
       "href": "../contenidos/paes/m1/admision-2027-invierno/pregunta-43.qmd#tag-2743",
       "relations": {}
     },
@@ -448,7 +448,7 @@
       "type": "pregunta",
       "title": "Pregunta 44 · PAES M1 Invierno — Admisión 2027",
       "source": "contenidos/paes/m1/admision-2027-invierno/pregunta-44.qmd",
-      "line": 6,
+      "line": 7,
       "href": "../contenidos/paes/m1/admision-2027-invierno/pregunta-44.qmd#tag-2744",
       "relations": {}
     },
@@ -457,7 +457,7 @@
       "type": "pregunta",
       "title": "Pregunta 45 · PAES M1 Invierno — Admisión 2027",
       "source": "contenidos/paes/m1/admision-2027-invierno/pregunta-45.qmd",
-      "line": 6,
+      "line": 7,
       "href": "../contenidos/paes/m1/admision-2027-invierno/pregunta-45.qmd#tag-2745",
       "relations": {}
     },
@@ -466,7 +466,7 @@
       "type": "pregunta",
       "title": "Pregunta 46 · PAES M1 Invierno — Admisión 2027",
       "source": "contenidos/paes/m1/admision-2027-invierno/pregunta-46.qmd",
-      "line": 6,
+      "line": 7,
       "href": "../contenidos/paes/m1/admision-2027-invierno/pregunta-46.qmd#tag-2746",
       "relations": {}
     },
@@ -475,7 +475,7 @@
       "type": "pregunta",
       "title": "Pregunta 47 · PAES M1 Invierno — Admisión 2027",
       "source": "contenidos/paes/m1/admision-2027-invierno/pregunta-47.qmd",
-      "line": 6,
+      "line": 7,
       "href": "../contenidos/paes/m1/admision-2027-invierno/pregunta-47.qmd#tag-2747",
       "relations": {}
     },
@@ -484,7 +484,7 @@
       "type": "pregunta",
       "title": "Pregunta 48 · PAES M1 Invierno — Admisión 2027",
       "source": "contenidos/paes/m1/admision-2027-invierno/pregunta-48.qmd",
-      "line": 6,
+      "line": 7,
       "href": "../contenidos/paes/m1/admision-2027-invierno/pregunta-48.qmd#tag-2748",
       "relations": {}
     },
@@ -493,7 +493,7 @@
       "type": "pregunta",
       "title": "Pregunta 49 · PAES M1 Invierno — Admisión 2027",
       "source": "contenidos/paes/m1/admision-2027-invierno/pregunta-49.qmd",
-      "line": 6,
+      "line": 7,
       "href": "../contenidos/paes/m1/admision-2027-invierno/pregunta-49.qmd#tag-2749",
       "relations": {}
     },
@@ -502,7 +502,7 @@
       "type": "pregunta",
       "title": "Pregunta 50 · PAES M1 Invierno — Admisión 2027",
       "source": "contenidos/paes/m1/admision-2027-invierno/pregunta-50.qmd",
-      "line": 6,
+      "line": 7,
       "href": "../contenidos/paes/m1/admision-2027-invierno/pregunta-50.qmd#tag-2750",
       "relations": {}
     },
@@ -511,7 +511,7 @@
       "type": "pregunta",
       "title": "Pregunta 51 · PAES M1 Invierno — Admisión 2027",
       "source": "contenidos/paes/m1/admision-2027-invierno/pregunta-51.qmd",
-      "line": 6,
+      "line": 7,
       "href": "../contenidos/paes/m1/admision-2027-invierno/pregunta-51.qmd#tag-2751",
       "relations": {}
     },
@@ -520,7 +520,7 @@
       "type": "pregunta",
       "title": "Pregunta 52 · PAES M1 Invierno — Admisión 2027",
       "source": "contenidos/paes/m1/admision-2027-invierno/pregunta-52.qmd",
-      "line": 6,
+      "line": 7,
       "href": "../contenidos/paes/m1/admision-2027-invierno/pregunta-52.qmd#tag-2752",
       "relations": {}
     },
@@ -529,7 +529,7 @@
       "type": "pregunta",
       "title": "Pregunta 53 · PAES M1 Invierno — Admisión 2027",
       "source": "contenidos/paes/m1/admision-2027-invierno/pregunta-53.qmd",
-      "line": 6,
+      "line": 7,
       "href": "../contenidos/paes/m1/admision-2027-invierno/pregunta-53.qmd#tag-2753",
       "relations": {}
     },
@@ -538,7 +538,7 @@
       "type": "pregunta",
       "title": "Pregunta 54 · PAES M1 Invierno — Admisión 2027",
       "source": "contenidos/paes/m1/admision-2027-invierno/pregunta-54.qmd",
-      "line": 6,
+      "line": 7,
       "href": "../contenidos/paes/m1/admision-2027-invierno/pregunta-54.qmd#tag-2754",
       "relations": {}
     },
@@ -547,7 +547,7 @@
       "type": "pregunta",
       "title": "Pregunta 55 · PAES M1 Invierno — Admisión 2027",
       "source": "contenidos/paes/m1/admision-2027-invierno/pregunta-55.qmd",
-      "line": 6,
+      "line": 7,
       "href": "../contenidos/paes/m1/admision-2027-invierno/pregunta-55.qmd#tag-2755",
       "relations": {}
     },
@@ -556,7 +556,7 @@
       "type": "pregunta",
       "title": "Pregunta 56 · PAES M1 Invierno — Admisión 2027",
       "source": "contenidos/paes/m1/admision-2027-invierno/pregunta-56.qmd",
-      "line": 6,
+      "line": 7,
       "href": "../contenidos/paes/m1/admision-2027-invierno/pregunta-56.qmd#tag-2756",
       "relations": {}
     },
@@ -565,7 +565,7 @@
       "type": "pregunta",
       "title": "Pregunta 57 · PAES M1 Invierno — Admisión 2027",
       "source": "contenidos/paes/m1/admision-2027-invierno/pregunta-57.qmd",
-      "line": 6,
+      "line": 7,
       "href": "../contenidos/paes/m1/admision-2027-invierno/pregunta-57.qmd#tag-2757",
       "relations": {}
     },
@@ -574,7 +574,7 @@
       "type": "pregunta",
       "title": "Pregunta 58 · PAES M1 Invierno — Admisión 2027",
       "source": "contenidos/paes/m1/admision-2027-invierno/pregunta-58.qmd",
-      "line": 6,
+      "line": 7,
       "href": "../contenidos/paes/m1/admision-2027-invierno/pregunta-58.qmd#tag-2758",
       "relations": {}
     },
@@ -583,7 +583,7 @@
       "type": "pregunta",
       "title": "Pregunta 59 · PAES M1 Invierno — Admisión 2027",
       "source": "contenidos/paes/m1/admision-2027-invierno/pregunta-59.qmd",
-      "line": 6,
+      "line": 7,
       "href": "../contenidos/paes/m1/admision-2027-invierno/pregunta-59.qmd#tag-2759",
       "relations": {}
     },
@@ -592,7 +592,7 @@
       "type": "pregunta",
       "title": "Pregunta 60 · PAES M1 Invierno — Admisión 2027",
       "source": "contenidos/paes/m1/admision-2027-invierno/pregunta-60.qmd",
-      "line": 6,
+      "line": 7,
       "href": "../contenidos/paes/m1/admision-2027-invierno/pregunta-60.qmd#tag-2760",
       "relations": {}
     },
@@ -601,7 +601,7 @@
       "type": "pregunta",
       "title": "Pregunta 61 · PAES M1 Invierno — Admisión 2027",
       "source": "contenidos/paes/m1/admision-2027-invierno/pregunta-61.qmd",
-      "line": 6,
+      "line": 7,
       "href": "../contenidos/paes/m1/admision-2027-invierno/pregunta-61.qmd#tag-2761",
       "relations": {}
     },
@@ -610,7 +610,7 @@
       "type": "pregunta",
       "title": "Pregunta 62 · PAES M1 Invierno — Admisión 2027",
       "source": "contenidos/paes/m1/admision-2027-invierno/pregunta-62.qmd",
-      "line": 6,
+      "line": 7,
       "href": "../contenidos/paes/m1/admision-2027-invierno/pregunta-62.qmd#tag-2762",
       "relations": {}
     },
@@ -619,7 +619,7 @@
       "type": "pregunta",
       "title": "Pregunta 63 · PAES M1 Invierno — Admisión 2027",
       "source": "contenidos/paes/m1/admision-2027-invierno/pregunta-63.qmd",
-      "line": 6,
+      "line": 7,
       "href": "../contenidos/paes/m1/admision-2027-invierno/pregunta-63.qmd#tag-2763",
       "relations": {}
     },
@@ -628,7 +628,7 @@
       "type": "pregunta",
       "title": "Pregunta 64 · PAES M1 Invierno — Admisión 2027",
       "source": "contenidos/paes/m1/admision-2027-invierno/pregunta-64.qmd",
-      "line": 6,
+      "line": 7,
       "href": "../contenidos/paes/m1/admision-2027-invierno/pregunta-64.qmd#tag-2764",
       "relations": {}
     },
@@ -637,7 +637,7 @@
       "type": "pregunta",
       "title": "Pregunta 65 · PAES M1 Invierno — Admisión 2027",
       "source": "contenidos/paes/m1/admision-2027-invierno/pregunta-65.qmd",
-      "line": 6,
+      "line": 7,
       "href": "../contenidos/paes/m1/admision-2027-invierno/pregunta-65.qmd#tag-2765",
       "relations": {}
     },
@@ -649,15 +649,15 @@
       "line": 8,
       "href": "../contenidos/paes/m1/preguntas-originales/porcentajes.qmd#tag-0003",
       "relations": {
-        "pertenece_a": [
-          "C001"
+        "evalua": [
+          "H001"
         ],
         "usa": [
           "0001",
           "0002"
         ],
-        "evalua": [
-          "H001"
+        "pertenece_a": [
+          "C001"
         ]
       }
     },
@@ -669,15 +669,15 @@
       "line": 12,
       "href": "../contenidos/universitario/estadistica/media-ponderada.qmd#tag-U001",
       "relations": {
-        "pertenece_a": [
-          "C002"
+        "profundiza": [
+          "0003"
         ],
         "requiere": [
           "0001",
           "0002"
         ],
-        "profundiza": [
-          "0003"
+        "pertenece_a": [
+          "C002"
         ]
       }
     }
@@ -729,6 +729,15 @@
         "relation": "requiere"
       }
     ],
+    "H001": [
+      {
+        "tag": "0003",
+        "title": "Descuento porcentual",
+        "source": "contenidos/paes/m1/preguntas-originales/porcentajes.qmd",
+        "href": "../paes/m1/preguntas-originales/porcentajes.qmd#tag-0003",
+        "relation": "evalua"
+      }
+    ],
     "0002": [
       {
         "tag": "0003",
@@ -745,13 +754,13 @@
         "relation": "requiere"
       }
     ],
-    "H001": [
+    "0003": [
       {
-        "tag": "0003",
-        "title": "Descuento porcentual",
-        "source": "contenidos/paes/m1/preguntas-originales/porcentajes.qmd",
-        "href": "../paes/m1/preguntas-originales/porcentajes.qmd#tag-0003",
-        "relation": "evalua"
+        "tag": "U001",
+        "title": "Calificación final ponderada",
+        "source": "contenidos/universitario/estadistica/media-ponderada.qmd",
+        "href": "../../../universitario/estadistica/media-ponderada.qmd#tag-U001",
+        "relation": "profundiza"
       }
     ],
     "C002": [
@@ -761,15 +770,6 @@
         "source": "contenidos/universitario/estadistica/media-ponderada.qmd",
         "href": "../universitario/estadistica/media-ponderada.qmd#tag-U001",
         "relation": "pertenece_a"
-      }
-    ],
-    "0003": [
-      {
-        "tag": "U001",
-        "title": "Calificación final ponderada",
-        "source": "contenidos/universitario/estadistica/media-ponderada.qmd",
-        "href": "../../../universitario/estadistica/media-ponderada.qmd#tag-U001",
-        "relation": "profundiza"
       }
     ]
   }

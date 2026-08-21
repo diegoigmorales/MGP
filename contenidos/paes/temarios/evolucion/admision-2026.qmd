@@ -3,7 +3,7 @@ title: "Admisión 2026: reestructuración estadística y expansión de M2"
 description: "Cambios regulares e invierno respecto de sus ediciones Admisión 2025."
 ---
 
-# Fuentes y rendición
+## Fuentes y rendición
 
 | Modalidad | Publicación | Rendición | Fuentes |
 |---|---:|---:|---|
@@ -11,14 +11,14 @@ description: "Cambios regulares e invierno respecto de sus ediciones Admisión 2
 | Regular | 20 mar 2025 | 1–3 dic 2025 | [M1](https://demre.cl/publicaciones/2026/2026-25-03-20-temario-paes-regular-m1) · [M2](https://demre.cl/publicaciones/2026/2026-25-03-20-temario-paes-regular-m2) |
 
 ::: {.callout-warning}
-## Copias locales mal rotuladas
+### Copias locales mal rotuladas
 
 Los PDF locales llamados “Verano 2026” contienen en realidad los temarios de invierno. Esta página usa los documentos regulares oficiales de DEMRE. Consulta el [control de integridad](../fuentes.qmd#control-de-integridad-de-las-copias-locales).
 :::
 
-# Regular: cambios respecto de Admisión 2025
+## Regular: cambios respecto de Admisión 2025
 
-## Resumen cuantitativo
+### Resumen cuantitativo
 
 | Tipo | M1 | M2 propio |
 |---|---:|---:|
@@ -29,13 +29,13 @@ Los PDF locales llamados “Verano 2026” contienen en realidad los temarios de
 
 M1 pasa de **16 unidades y 46 enunciados** a **15 y 45**. M2 propio pasa de **11/17** a **13/23**.
 
-## Ficha y habilidades
+### Ficha y habilidades
 
 - Se conservan cantidad de preguntas, opciones, preguntas puntuadas, duración y los 13 criterios.
 - El texto de contexto agrega “conocimientos y habilidades” y actualiza la cohorte de referencia al egreso 2025.
 - Aparece el aviso de que un conocimiento listado no necesariamente será preguntado y se añade que **la totalidad de las preguntas se desprende del temario**.
 
-## Cambios en M1
+### Cambios en M1
 
 ::: {.temario-table}
 | Cambio | Ubicación | Versión 2025 | Versión 2026 |
@@ -45,7 +45,7 @@ M1 pasa de **16 unidades y 46 enunciados** a **15 y 45**. M2 propio pasa de **11
 | [Reubicado]{.change-badge .change-moved} | Estadística · Promedio | Estaba comprendido en “medidas de tendencia central”. | “Promedio de un conjunto de datos” pasa a Representación de datos mediante tablas y gráficos. |
 :::
 
-## Cambios propios de M2
+### Cambios propios de M2
 
 ::: {.temario-table}
 | Cambio | Ubicación | Versión 2025 | Versión 2026 |
@@ -56,19 +56,19 @@ M1 pasa de **16 unidades y 46 enunciados** a **15 y 45**. M2 propio pasa de **11
 | [Reformulado]{.change-badge .change-reworded} | Probabilidad · Modelos probabilísticos | Modelos binomiales. | Conserva binomial y agrega distribución normal. |
 :::
 
-## ¿Qué significa para el estudiante?
+### ¿Qué significa para el estudiante?
 
 M1 reduce el catálogo explícito de cuerpos y de estadística descriptiva, aunque conserva el promedio en una nueva ubicación. M2, en cambio, da un salto claro hacia familias de funciones, trigonometría, geometría de la circunferencia y dos modelos probabilísticos. Preparar M2 exige leer también la reducción heredada desde M1.
 
-## Diferencia acumulada respecto de Admisión 2023
+### Diferencia acumulada respecto de Admisión 2023
 
 - **M1:** pasa de 17/49 a 15/45; además de las reducciones previas, ahora restringe cuerpos a paralelepípedos/cubos y deja explícito solo el promedio entre las antiguas medidas de tendencia central.
 - **M2 propio:** pasa de 9/16 a 13/23 e incorpora finanzas, tres familias funcionales, seno/coseno, circunferencia, binomial y normal; deja de declarar la extensión específica de ecuaciones cuadráticas.
 - **Ficha:** M2 cubre 7.º básico–4.º medio y ambas pruebas publican 13 criterios de habilidad.
 
-# Invierno: cambios respecto de Admisión 2025
+## Invierno: cambios respecto de Admisión 2025
 
-## Resumen cuantitativo
+### Resumen cuantitativo
 
 | Tipo | M1 | M2 propio |
 |---|---:|---:|
@@ -80,11 +80,11 @@ M1 reduce el catálogo explícito de cuerpos y de estadística descriptiva, aunq
 
 La estructura M1 se mantiene en 16 unidades y pasa de 45 a 46 enunciados. M2 propio pasa de 10/17 a 11/17.
 
-## Habilidades
+### Habilidades
 
 [Incorporado]{.change-badge .change-added} Se publican por primera vez en la serie de invierno los mismos **13 criterios**: resolver problemas (3), modelar (4), representar (3) y argumentar (3).
 
-## Cambios de conocimiento
+### Cambios de conocimiento
 
 ::: {.temario-table}
 | Prueba | Cambio | Antes | Después |
@@ -98,7 +98,7 @@ La estructura M1 se mantiene en 16 unidades y pasa de 45 a 46 enunciados. M2 pro
 | M2 | [Incorporado]{.change-badge .change-added} Modelos probabilísticos | No figuraba. | Modelo binomial. |
 :::
 
-## Diferencia acumulada desde la base invierno 2024
+### Diferencia acumulada desde la base invierno 2024
 
 Además de esta actualización, la línea ya había eliminado semejanza y conos e incorporado matemática financiera. El balance llega a **16/46 en M1** y **11/17 en M2 propio**, con criterios de habilidad ahora explícitos.
 

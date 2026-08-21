@@ -10,19 +10,14 @@ document.addEventListener("DOMContentLoaded", () => {
   feedback.setAttribute("aria-label", "Comentarios sobre esta página");
 
   const prompt = document.createElement("span");
-  prompt.textContent = "¿Encontraste un error?";
+  prompt.textContent = "¿Encontraste un error o tienes una propuesta?";
 
   const pageReference = encodeURIComponent(`Página: ${window.location.href}\n\n`);
   const report = document.createElement("a");
-  report.href = `https://github.com/diegoigmorales/MGP/issues/new?title=Error%20en%20una%20página&body=${pageReference}`;
-  report.textContent = "Informar";
+  report.href = `https://github.com/diegoigmorales/MGP/issues/new?title=Comentario%20sobre%20una%20página&body=${pageReference}`;
+  report.textContent = "Informar o proponer una mejora";
 
-  const separator = document.createTextNode(" · ");
-  const proposal = document.createElement("a");
-  proposal.href = `https://github.com/diegoigmorales/MGP/issues/new?title=Propuesta%20de%20mejora&body=${pageReference}`;
-  proposal.textContent = "Proponer una mejora";
-
-  feedback.append(prompt, document.createTextNode(" "), report, separator, proposal);
+  feedback.append(prompt, document.createTextNode(" "), report);
   main.appendChild(feedback);
 
   if (!source || document.querySelector(".mobile-page-toc")) return;

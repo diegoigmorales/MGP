@@ -1,29 +1,31 @@
 ---
-title: "Acerca del proyecto"
 toc: false
+number-sections: false
 ---
 
-# Matemática para comprender y volver a aprender
+# Acerca del proyecto {.unnumbered}
 
-**Matemática para Gañanes y Patanes (MGP)** es un proyecto educativo gratuito para quienes necesitan estudiar matemática sin dar por supuesto que recuerdan cada definición, técnica o paso intermedio.
+## Una memoria profesional para enseñar matemática
 
-Está dirigido principalmente a estudiantes que preparan la PAES de Matemática en Chile, pero también puede ser útil para docentes, familias, tutores y personas adultas que quieren recuperar conocimientos escolares. No pretende sustituir una clase, un texto oficial ni la orientación de un establecimiento: ofrece otra forma de recorrer y relacionar el contenido.
+**Matemática para Gañanes y Patanes (MGP)** es una biblioteca interconectada orientada principalmente a profesores de matemática y estudiantes de pedagogía. Su propósito es facilitar la recuperación de información disciplinaria, didáctica y curricular cuando hace falta preparar una clase, analizar una pregunta, anticipar errores o volver sobre un contenido olvidado.
+
+El proyecto parte de una realidad sencilla: ejercer como profesor no significa mantener disponible, en todo momento, cada definición, demostración, técnica, representación o conexión curricular. MGP busca convertir esa información dispersa en una memoria profesional consultable, sin presentar el olvido como una deficiencia. Los materiales para estudiantes —incluida la preparación PAES— son productos y recorridos derivados de ese propósito principal.
 
 ## El problema que busca resolver
 
-Al estudiar matemática es frecuente encontrar explicaciones que saltan pasos, respuestas que solo muestran un procedimiento y materiales dispersos que obligan a empezar de nuevo cada vez que aparece una duda. Esto perjudica especialmente a quien ha olvidado una base, aprendió un método sin comprenderlo o no sabe qué conocimiento previo necesita repasar.
+El conocimiento que necesita un profesor se encuentra repartido entre textos matemáticos, documentos curriculares, evaluaciones, artículos, apuntes y experiencia de aula. Incluso cuando la información existe, encontrarla, verificarla y reconstruir sus conexiones puede consumir más tiempo que utilizarla.
 
-MGP busca reducir esa fragmentación. Una pregunta puede conducir a la técnica que permite resolverla, a la definición que sostiene esa técnica, a los errores habituales y a la habilidad curricular involucrada. Así, olvidar algo no es un fracaso: es el punto de partida para encontrar una ruta de estudio.
+MGP busca reducir esa fragmentación. Una pregunta puede conducir a la técnica que permite resolverla, a la definición que la sostiene, a sus prerrequisitos, representaciones, errores habituales, distractores y habilidades curriculares. La meta no es que el profesor memorice toda la biblioteca, sino que pueda recuperar con rapidez conocimiento fiable y movilizarlo en una decisión profesional concreta.
 
 ## Más que un solucionario
 
-Un solucionario común suele concentrarse en obtener la alternativa correcta. MGP intenta documentar también:
+Aunque algunas rutas parten de preguntas PAES, MGP no se concibe principalmente como un preuniversitario ni como un solucionario. Cada problema funciona como una entrada a una red más amplia de conocimiento profesional. El proyecto intenta documentar también:
 
 - por qué funciona cada procedimiento;
 - qué conocimientos previos requiere;
 - métodos alternativos cuando aportan comprensión;
 - errores frecuentes y el sentido de los distractores;
-- la materia y la habilidad evaluadas;
+- la materia, la habilidad y el contexto curricular involucrados;
 - relaciones con otras preguntas y capítulos.
 
 Los objetos importantes reciben un identificador estable. Esto permite enlazar una explicación desde distintos lugares sin copiarla ni convertir el sitio en una colección de respuestas aisladas.
@@ -56,4 +58,4 @@ Hay varias formas de ayudar:
 - revisar transcripciones, fuentes y metadatos;
 - mejorar el código, el diseño o la experiencia en dispositivos móviles.
 
-Puedes utilizar los enlaces **Informar** y **Proponer una mejora** que aparecen al pie de cada página, o abrir una [incidencia en GitHub](https://github.com/diegoigmorales/MGP/issues). Quienes colaboran directamente en el repositorio también pueden editar los archivos QMD y enviar sus cambios para revisión. Antes de incorporar contribuciones extensas será necesario acordar su autoría, procedencia y condiciones de licencia.
+Puedes utilizar el enlace **Informar o proponer una mejora** que aparece al pie de cada página, o abrir una [incidencia en GitHub](https://github.com/diegoigmorales/MGP/issues). Quienes colaboran directamente en el repositorio también pueden editar los archivos QMD y enviar sus cambios para revisión. Antes de incorporar contribuciones extensas será necesario acordar su autoría, procedencia y condiciones de licencia.

@@ -3,11 +3,11 @@ title: "Comparación histórica de temarios"
 description: "Matrices cronológicas de M1 y M2 para PAES regular e invierno, Admisión 2023–2027."
 ---
 
-# Cómo usar las tablas
+## Cómo usar las tablas
 
 Cada celda describe lo ocurrido **en ese proceso respecto de la edición anterior de la misma modalidad**. “Ausente” indica que una unidad ya no figuraba; no constituye una nueva eliminación. Consulta los [criterios editoriales](como-leer.qmd) antes de interpretar una reformulación.
 
-## Conteo de estructura documental
+### Conteo de estructura documental
 
 El formato `unidades / enunciados` cuenta unidades temáticas y las descripciones explícitas que las desarrollan. M2 propio cuenta solo lo adicional a M1.
 
@@ -29,9 +29,9 @@ El formato `unidades / enunciados` cuenta unidades temáticas y las descripcione
 | M2 efectivo, incluido M1 | 26 / 65 | 26 / 62 | 27 / 63 | 28 / 68 |
 :::
 
-# Serie regular
+## Serie regular
 
-## M1 por unidad temática
+### M1 por unidad temática
 
 ::: {.temario-table}
 | Unidad | 2023 | 2024 | 2025 | 2026 | 2027 |
@@ -57,7 +57,7 @@ El formato `unidades / enunciados` cuenta unidades temáticas y las descripcione
 
 \* El contenido continúa; existe un defecto de viñeta en el PDF 2027.
 
-## M2 propio por unidad temática
+### M2 propio por unidad temática
 
 ::: {.temario-table}
 | Unidad adicional a M1 | 2023 | 2024 | 2025 | 2026 | 2027 |
@@ -80,9 +80,9 @@ El formato `unidades / enunciados` cuenta unidades temáticas y las descripcione
 | Modelos probabilísticos | Ausente | Ausente | Incorporado: binomial | Reformulado: + normal | Sin cambios |
 :::
 
-# Serie de invierno
+## Serie de invierno
 
-## M1 por unidad temática
+### M1 por unidad temática
 
 ::: {.temario-table}
 | Unidad | 2024 | 2025 | 2026 | 2027 |
@@ -106,7 +106,7 @@ El formato `unidades / enunciados` cuenta unidades temáticas y las descripcione
 | Reglas de probabilidades | Incluido | Sin cambios | Sin cambios | Sin cambios |
 :::
 
-## M2 propio por unidad temática
+### M2 propio por unidad temática
 
 ::: {.temario-table}
 | Unidad adicional a M1 | 2024 | 2025 | 2026 | 2027 |
@@ -127,9 +127,9 @@ El formato `unidades / enunciados` cuenta unidades temáticas y las descripcione
 | Modelos probabilísticos | Ausente | Ausente | Incorporado: binomial | Reformulado: + normal |
 :::
 
-# Cambios acumulados por eje
+## Cambios acumulados por eje
 
-## Regular, Admisión 2023 → 2027
+### Regular, Admisión 2023 → 2027
 
 | Eje | Evolución acumulada |
 |---|---|
@@ -138,7 +138,7 @@ El formato `unidades / enunciados` cuenta unidades temáticas y las descripcione
 | Geometría | M1 pierde conos, segmentos/sectores y Thales; recupera cilindros y semejanza aplicada. M2 suma circunferencia, esfera y rectas. |
 | Probabilidad y estadística | M1 conserva promedio reubicado pero deja de explicitar mediana, moda y rango. M2 suma modelos binomial y normal. |
 
-## Invierno, Admisión 2024 → 2027
+### Invierno, Admisión 2024 → 2027
 
 | Eje | Evolución acumulada |
 |---|---|
@@ -147,7 +147,7 @@ El formato `unidades / enunciados` cuenta unidades temáticas y las descripcione
 | Geometría | M1 pasa de prismas/cilindros/conos a paralelepípedos/cubos y pierde semejanza; M2 suma circunferencia. |
 | Probabilidad y estadística | M1 reubica promedio y deja de explicitar las demás medidas centrales/rango; M2 suma binomial y normal. |
 
-# Comparación inmediata
+## Comparación inmediata
 
 - [2023 → 2024 regular y base de invierno](evolucion/admision-2024.qmd)
 - [2024 → 2025](evolucion/admision-2025.qmd)
@@ -155,7 +155,7 @@ El formato `unidades / enunciados` cuenta unidades temáticas y las descripcione
 - [2026 → 2027](evolucion/admision-2027.qmd)
 
 ::: {.callout-tip}
-## De la historia al plan de estudio
+### De la historia al plan de estudio
 
 La matriz muestra evolución documental, no prioridad estadística. Para preparar una rendición concreta, usa el [temario vigente completo](vigente.qmd) y no solo la lista de incorporaciones.
 :::

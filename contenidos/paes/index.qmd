@@ -1,12 +1,14 @@
 ---
-title: "Preparación PAES"
 description: "Preguntas convertidas en nodos de conocimiento matemático."
 toc: false
+number-sections: false
 ---
 
-# Parte I · Comprender la prueba
+# Preparación PAES {.unnumbered}
 
-## Capítulo 1 · Temarios, pruebas y habilidades
+## Comprender la prueba
+
+### Temarios, pruebas y habilidades
 
 - [Temario vigente · Admisión 2027](temarios/vigente.qmd)
 - [Evolución histórica de los temarios](temarios/evolucion/index.qmd)
@@ -16,7 +18,7 @@ toc: false
 
 - [Competencia Matemática M1](m1/index.qmd)
 
-## Capítulo 2 · Preguntas M1
+### Preguntas M1
 
 - [Colección PAES M1 Invierno · Admisión 2027](m1/admision-2027-invierno/index.qmd)
 - [Pregunta original sobre porcentajes](m1/preguntas-originales/porcentajes.qmd)

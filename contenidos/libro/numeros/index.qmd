@@ -1,10 +1,12 @@
 ---
-title: "Parte I · Números"
 toc: false
+number-sections: false
 ---
 
-# Razones y proporcionalidad
+# Parte I · Números {.unnumbered}
 
-## Porcentajes
+## Razones y proporcionalidad
+
+### Porcentajes
 
 - [Definición, técnicas y ejemplos](porcentajes.qmd)

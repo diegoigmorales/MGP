@@ -1,15 +1,17 @@
 ---
-title: "Competencia Matemática M1"
 toc: false
+number-sections: false
 ---
 
-# Parte I · Números
+# Competencia Matemática M1 {.unnumbered}
 
-## Evaluaciones oficiales
+## Números
+
+### Evaluaciones oficiales
 
 - [PAES M1 Invierno — Admisión 2027](admision-2027-invierno/index.qmd)
 - [Temario M1 vigente y evolución histórica](../temarios/vigente.qmd#m1-regular)
 
-## Capítulo 1 · Razones y porcentajes
+### Razones y porcentajes
 
 - [Descuento porcentual: pregunta original](preguntas-originales/porcentajes.qmd)

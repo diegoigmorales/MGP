@@ -3,7 +3,7 @@ title: "Cómo leer la evolución de los temarios"
 description: "Criterios editoriales para comparar procesos de admisión, modalidades y contenidos PAES."
 ---
 
-# Proceso de admisión y año de rendición
+## Proceso de admisión y año de rendición
 
 El nombre principal de cada edición es el **proceso de admisión**, no el año calendario en que se rinde. Por ejemplo, la primera PAES se rindió en noviembre de 2022 y corresponde a la **Admisión 2023**.
 
@@ -15,7 +15,7 @@ El nombre principal de cada edición es el **proceso de admisión**, no el año 
 | Admisión 2026 | 2025 | diciembre de 2025 |
 | Admisión 2027 | 2026 | fines de 2026 |
 
-# Regular e invierno
+## Regular e invierno
 
 Son dos series documentales distintas. Una comparación válida enfrenta **regular con regular** o **invierno con invierno**; no interpreta una diferencia de modalidad como si fuera una actualización anual.
 
@@ -23,7 +23,7 @@ Son dos series documentales distintas. Una comparación válida enfrenta **regul
 - La serie de invierno disponible comienza con Admisión 2024.
 - El [temario vigente](vigente.qmd) presenta ambas modalidades porque en Admisión 2027 no tienen exactamente el mismo alcance.
 
-# Habilidades y conocimientos
+## Habilidades y conocimientos
 
 M1 y M2 evalúan cuatro habilidades: **resolver problemas, modelar, representar y argumentar**. Los conocimientos se organizan en **Números, Álgebra y funciones, Geometría, y Probabilidad y estadística**.
 
@@ -33,7 +33,7 @@ La comparación distingue tres capas:
 2. **Habilidades:** definiciones y criterios de evaluación.
 3. **Conocimientos:** unidades temáticas y sus descripciones explícitas.
 
-# Etiquetas de cambio
+## Etiquetas de cambio
 
 | Etiqueta | Criterio |
 |---|---|
@@ -45,7 +45,7 @@ La comparación distingue tres capas:
 
 Las etiquetas contienen texto y no dependen solo del color.
 
-# Qué se cuenta y qué no
+## Qué se cuenta y qué no
 
 - La unidad mínima de comparación es una **unidad temática** o un **enunciado explícito** de su descripción.
 - Los registros son excluyentes: una reubicación no se suma además como eliminación e incorporación.
@@ -54,7 +54,7 @@ Las etiquetas contienen texto y no dependen solo del color.
 - “No figura” significa que el documento dejó de declararlo explícitamente; no prueba por sí solo que el aprendizaje sea irrelevante en toda actividad matemática.
 
 ::: {.callout-warning}
-## Comparación documental, no interpretación normativa
+### Comparación documental, no interpretación normativa
 
 Esta historia describe los temarios publicados. Ante cualquier discrepancia, prevalece el documento oficial de DEMRE enlazado en [Fuentes](fuentes.qmd).
 :::

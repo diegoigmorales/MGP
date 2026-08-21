@@ -1,41 +1,112 @@
 project:
-  type: website
+  type: book
   pre-render: python scripts/build_registry.py
   output-dir: _site
-  render:
-    - "*.qmd"
-    - "contenidos/**/*.qmd"
-    - "!contenidos/universitario/"
-    - "!contenidos/paes/m2/"
 
-website:
+book:
   title: "Matemática para Gañanes y Patanes"
+  subtitle: "Biblioteca interconectada para recuperar conocimiento matemático, didáctico y curricular"
   site-url: https://diegoigmorales.github.io/MGP/
   repo-url: https://github.com/diegoigmorales/MGP
   page-navigation: true
-  navbar:
-    collapse-below: lg
-    left:
-      - href: contenidos/index.qmd
-        text: Contenido
-      - text: PAES
-        menu:
-          - href: contenidos/paes/index.qmd
-            text: Preparación PAES
-          - href: contenidos/paes/temarios/vigente.qmd
-            text: Temario vigente
-          - href: contenidos/paes/temarios/evolucion/index.qmd
-            text: Evolución histórica
-          - href: contenidos/paes/m1/admision-2027-invierno/index.qmd
-            text: M1 Invierno · Admisión 2027
-          - href: contenidos/paes/m1/preguntas-originales/porcentajes.qmd
-            text: Pregunta original
-      - href: contenidos/libro/index.qmd
-        text: Matemática
-      - href: contenidos/curriculum/index.qmd
-        text: Currículum
-      - href: acerca.qmd
-        text: Acerca de
+  chapters:
+    - index.qmd
+    - contenidos/index.qmd
+    - part: "I. Matemática escolar"
+      chapters:
+        - contenidos/libro/index.qmd
+        - contenidos/libro/numeros/index.qmd
+        - contenidos/libro/numeros/porcentajes.qmd
+    - part: "II. Currículum"
+      chapters:
+        - contenidos/curriculum/index.qmd
+        - contenidos/curriculum/ejes.qmd
+        - contenidos/curriculum/habilidades.qmd
+    - part: "III. Preparación PAES"
+      chapters:
+        - contenidos/paes/index.qmd
+        - contenidos/paes/temarios/index.qmd
+        - contenidos/paes/temarios/como-leer.qmd
+        - contenidos/paes/temarios/vigente.qmd
+        - contenidos/paes/temarios/evolucion/index.qmd
+        - contenidos/paes/temarios/evolucion/admision-2023.qmd
+        - contenidos/paes/temarios/evolucion/admision-2024.qmd
+        - contenidos/paes/temarios/evolucion/admision-2025.qmd
+        - contenidos/paes/temarios/evolucion/admision-2026.qmd
+        - contenidos/paes/temarios/evolucion/admision-2027.qmd
+        - contenidos/paes/temarios/comparacion.qmd
+        - contenidos/paes/temarios/fuentes.qmd
+        - contenidos/paes/m1/index.qmd
+        - contenidos/paes/m1/preguntas-originales/porcentajes.qmd
+    - part: "IV. Banco de preguntas"
+      chapters:
+        - contenidos/paes/m1/admision-2027-invierno/index.qmd
+        - contenidos/paes/m1/admision-2027-invierno/pregunta-01.qmd
+        - contenidos/paes/m1/admision-2027-invierno/pregunta-02.qmd
+        - contenidos/paes/m1/admision-2027-invierno/pregunta-03.qmd
+        - contenidos/paes/m1/admision-2027-invierno/pregunta-04.qmd
+        - contenidos/paes/m1/admision-2027-invierno/pregunta-05.qmd
+        - contenidos/paes/m1/admision-2027-invierno/pregunta-06.qmd
+        - contenidos/paes/m1/admision-2027-invierno/pregunta-07.qmd
+        - contenidos/paes/m1/admision-2027-invierno/pregunta-08.qmd
+        - contenidos/paes/m1/admision-2027-invierno/pregunta-09.qmd
+        - contenidos/paes/m1/admision-2027-invierno/pregunta-10.qmd
+        - contenidos/paes/m1/admision-2027-invierno/pregunta-11.qmd
+        - contenidos/paes/m1/admision-2027-invierno/pregunta-12.qmd
+        - contenidos/paes/m1/admision-2027-invierno/pregunta-13.qmd
+        - contenidos/paes/m1/admision-2027-invierno/pregunta-14.qmd
+        - contenidos/paes/m1/admision-2027-invierno/pregunta-15.qmd
+        - contenidos/paes/m1/admision-2027-invierno/pregunta-16.qmd
+        - contenidos/paes/m1/admision-2027-invierno/pregunta-17.qmd
+        - contenidos/paes/m1/admision-2027-invierno/pregunta-18.qmd
+        - contenidos/paes/m1/admision-2027-invierno/pregunta-19.qmd
+        - contenidos/paes/m1/admision-2027-invierno/pregunta-20.qmd
+        - contenidos/paes/m1/admision-2027-invierno/pregunta-21.qmd
+        - contenidos/paes/m1/admision-2027-invierno/pregunta-22.qmd
+        - contenidos/paes/m1/admision-2027-invierno/pregunta-23.qmd
+        - contenidos/paes/m1/admision-2027-invierno/pregunta-24.qmd
+        - contenidos/paes/m1/admision-2027-invierno/pregunta-25.qmd
+        - contenidos/paes/m1/admision-2027-invierno/pregunta-26.qmd
+        - contenidos/paes/m1/admision-2027-invierno/pregunta-27.qmd
+        - contenidos/paes/m1/admision-2027-invierno/pregunta-28.qmd
+        - contenidos/paes/m1/admision-2027-invierno/pregunta-29.qmd
+        - contenidos/paes/m1/admision-2027-invierno/pregunta-30.qmd
+        - contenidos/paes/m1/admision-2027-invierno/pregunta-31.qmd
+        - contenidos/paes/m1/admision-2027-invierno/pregunta-32.qmd
+        - contenidos/paes/m1/admision-2027-invierno/pregunta-33.qmd
+        - contenidos/paes/m1/admision-2027-invierno/pregunta-34.qmd
+        - contenidos/paes/m1/admision-2027-invierno/pregunta-35.qmd
+        - contenidos/paes/m1/admision-2027-invierno/pregunta-36.qmd
+        - contenidos/paes/m1/admision-2027-invierno/pregunta-37.qmd
+        - contenidos/paes/m1/admision-2027-invierno/pregunta-38.qmd
+        - contenidos/paes/m1/admision-2027-invierno/pregunta-39.qmd
+        - contenidos/paes/m1/admision-2027-invierno/pregunta-40.qmd
+        - contenidos/paes/m1/admision-2027-invierno/pregunta-41.qmd
+        - contenidos/paes/m1/admision-2027-invierno/pregunta-42.qmd
+        - contenidos/paes/m1/admision-2027-invierno/pregunta-43.qmd
+        - contenidos/paes/m1/admision-2027-invierno/pregunta-44.qmd
+        - contenidos/paes/m1/admision-2027-invierno/pregunta-45.qmd
+        - contenidos/paes/m1/admision-2027-invierno/pregunta-46.qmd
+        - contenidos/paes/m1/admision-2027-invierno/pregunta-47.qmd
+        - contenidos/paes/m1/admision-2027-invierno/pregunta-48.qmd
+        - contenidos/paes/m1/admision-2027-invierno/pregunta-49.qmd
+        - contenidos/paes/m1/admision-2027-invierno/pregunta-50.qmd
+        - contenidos/paes/m1/admision-2027-invierno/pregunta-51.qmd
+        - contenidos/paes/m1/admision-2027-invierno/pregunta-52.qmd
+        - contenidos/paes/m1/admision-2027-invierno/pregunta-53.qmd
+        - contenidos/paes/m1/admision-2027-invierno/pregunta-54.qmd
+        - contenidos/paes/m1/admision-2027-invierno/pregunta-55.qmd
+        - contenidos/paes/m1/admision-2027-invierno/pregunta-56.qmd
+        - contenidos/paes/m1/admision-2027-invierno/pregunta-57.qmd
+        - contenidos/paes/m1/admision-2027-invierno/pregunta-58.qmd
+        - contenidos/paes/m1/admision-2027-invierno/pregunta-59.qmd
+        - contenidos/paes/m1/admision-2027-invierno/pregunta-60.qmd
+        - contenidos/paes/m1/admision-2027-invierno/pregunta-61.qmd
+        - contenidos/paes/m1/admision-2027-invierno/pregunta-62.qmd
+        - contenidos/paes/m1/admision-2027-invierno/pregunta-63.qmd
+        - contenidos/paes/m1/admision-2027-invierno/pregunta-64.qmd
+        - contenidos/paes/m1/admision-2027-invierno/pregunta-65.qmd
+    - acerca.qmd
   page-footer:
     center: "Para enseñar sin fingir que nunca olvidamos nada."
 
@@ -44,13 +115,13 @@ format:
     theme: cosmo
     css: styles.css
     toc: true
-    toc-depth: 2
+    toc-depth: 3
     code-copy: true
     format-links: false
     include-after-body: includes/mobile-toc.html
     filters:
       - filters/knowledge.lua
-    number-sections: false
+    number-sections: true
   pdf:
     documentclass: scrreprt
     toc: true
