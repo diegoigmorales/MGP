@@ -649,12 +649,12 @@
       "line": 8,
       "href": "../contenidos/paes/m1/preguntas-originales/porcentajes.qmd#tag-0003",
       "relations": {
-        "evalua": [
-          "H001"
-        ],
         "usa": [
           "0001",
           "0002"
+        ],
+        "evalua": [
+          "H001"
         ],
         "pertenece_a": [
           "C001"
@@ -729,15 +729,6 @@
         "relation": "requiere"
       }
     ],
-    "H001": [
-      {
-        "tag": "0003",
-        "title": "Descuento porcentual",
-        "source": "contenidos/paes/m1/preguntas-originales/porcentajes.qmd",
-        "href": "../paes/m1/preguntas-originales/porcentajes.qmd#tag-0003",
-        "relation": "evalua"
-      }
-    ],
     "0002": [
       {
         "tag": "0003",
@@ -752,6 +743,15 @@
         "source": "contenidos/universitario/estadistica/media-ponderada.qmd",
         "href": "../../universitario/estadistica/media-ponderada.qmd#tag-U001",
         "relation": "requiere"
+      }
+    ],
+    "H001": [
+      {
+        "tag": "0003",
+        "title": "Descuento porcentual",
+        "source": "contenidos/paes/m1/preguntas-originales/porcentajes.qmd",
+        "href": "../paes/m1/preguntas-originales/porcentajes.qmd#tag-0003",
+        "relation": "evalua"
       }
     ],
     "0003": [
