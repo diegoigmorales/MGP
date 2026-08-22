@@ -1,7 +1,9 @@
 ---
-title: "Admisión 2027: temarios vigentes"
+number-sections: false
 description: "Últimos cambios regulares e invierno y comparación acumulada desde la primera PAES."
 ---
+
+# Admisión 2027: temarios vigentes {.unnumbered}
 
 ## Fuentes y rendición
 

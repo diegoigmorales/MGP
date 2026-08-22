@@ -1,7 +1,9 @@
 ---
-title: "Admisión 2025: precisión en M1 y nuevas áreas en M2"
+number-sections: false
 description: "Cambios regulares e invierno respecto de sus ediciones Admisión 2024."
 ---
+
+# Admisión 2025: precisión en M1 y nuevas áreas en M2 {.unnumbered}
 
 ## Fuentes y rendición
 

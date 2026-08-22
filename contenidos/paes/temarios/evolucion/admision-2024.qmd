@@ -1,7 +1,9 @@
 ---
-title: "Admisión 2024: cambios y primera edición de invierno"
+number-sections: false
 description: "Cambios del temario regular respecto de Admisión 2023 y base histórica de la PAES de invierno."
 ---
+
+# Admisión 2024: cambios y primera edición de invierno {.unnumbered}
 
 ## Fuentes y rendición
 

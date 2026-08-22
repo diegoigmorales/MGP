@@ -1,7 +1,9 @@
 ---
-title: "Temario vigente · Admisión 2027"
+number-sections: false
 description: "Temario consolidado de M1 y M2 para las PAES regular y de invierno del proceso de Admisión 2027."
 ---
+
+# Temario vigente · Admisión 2027 {.unnumbered}
 
 ::: {.temario-hero}
 ## Admisión 2027

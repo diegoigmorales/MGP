@@ -1,9 +1,9 @@
 ---
 toc: false
-number-sections: false
+number-sections: true
 ---
 
-# Estructura curricular {.unnumbered}
+# Sistema curricular chileno
 
 ## Materias y ejes
 

@@ -1,5 +1,12 @@
 <script>
 document.addEventListener("DOMContentLoaded", () => {
+  document.querySelectorAll("#quarto-sidebar .sidebar-section.collapse").forEach((section) => {
+    section.classList.remove("show");
+  });
+  document.querySelectorAll("#quarto-sidebar [data-bs-toggle='collapse']").forEach((toggle) => {
+    toggle.setAttribute("aria-expanded", "false");
+  });
+
   const source = document.querySelector("#quarto-margin-sidebar nav#TOC > ul");
   const main = document.querySelector("main.content");
 

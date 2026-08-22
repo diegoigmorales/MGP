@@ -9,20 +9,23 @@ book:
   site-url: https://diegoigmorales.github.io/MGP/
   repo-url: https://github.com/diegoigmorales/MGP
   page-navigation: true
+  sidebar:
+    collapse-level: 1
   chapters:
     - index.qmd
+    - acerca.qmd
     - contenidos/index.qmd
-    - part: "I. Matemática escolar"
+    - part: "Volumen I · Parte I. Números, medición y álgebra"
       chapters:
         - contenidos/libro/index.qmd
         - contenidos/libro/numeros/index.qmd
         - contenidos/libro/numeros/porcentajes.qmd
-    - part: "II. Currículum"
+    - part: "Volumen II · Parte II. Currículo y evaluación"
       chapters:
         - contenidos/curriculum/index.qmd
         - contenidos/curriculum/ejes.qmd
         - contenidos/curriculum/habilidades.qmd
-    - part: "III. Preparación PAES"
+    - part: "Volumen II · Parte II. PAES de Matemática"
       chapters:
         - contenidos/paes/index.qmd
         - contenidos/paes/temarios/index.qmd
@@ -37,8 +40,7 @@ book:
         - contenidos/paes/temarios/comparacion.qmd
         - contenidos/paes/temarios/fuentes.qmd
         - contenidos/paes/m1/index.qmd
-        - contenidos/paes/m1/preguntas-originales/porcentajes.qmd
-    - part: "IV. Banco de preguntas"
+    - part: "Volumen II · Parte II. Preguntas M1"
       chapters:
         - contenidos/paes/m1/admision-2027-invierno/index.qmd
         - contenidos/paes/m1/admision-2027-invierno/pregunta-01.qmd
@@ -106,7 +108,9 @@ book:
         - contenidos/paes/m1/admision-2027-invierno/pregunta-63.qmd
         - contenidos/paes/m1/admision-2027-invierno/pregunta-64.qmd
         - contenidos/paes/m1/admision-2027-invierno/pregunta-65.qmd
-    - acerca.qmd
+    - part: "Volumen II · Parte II. Preguntas originales"
+      chapters:
+        - contenidos/paes/m1/preguntas-originales/porcentajes.qmd
   page-footer:
     center: "Para enseñar sin fingir que nunca olvidamos nada."
 
@@ -115,6 +119,7 @@ format:
     theme: cosmo
     css: styles.css
     toc: true
+    toc-expand: false
     toc-depth: 3
     code-copy: true
     format-links: false

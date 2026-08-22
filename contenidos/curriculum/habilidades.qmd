@@ -1,7 +1,9 @@
 ---
-title: "Habilidades matemáticas"
+number-sections: false
 toc: false
 ---
+
+# Habilidades matemáticas {.unnumbered}
 
 ::: {.knowledge-object #tag-H001 tag="H001" type="habilidad" title="Resolver problemas"}
 ## Resolver problemas

@@ -1,7 +1,9 @@
 ---
-title: "Admisión 2023: primer temario PAES"
+number-sections: false
 description: "Versión regular completa del primer temario de Competencia Matemática M1 y M2."
 ---
+
+# Admisión 2023: primer temario PAES {.unnumbered}
 
 ## Ficha del proceso
 

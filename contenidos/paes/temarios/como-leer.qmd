@@ -1,7 +1,9 @@
 ---
-title: "Cómo leer la evolución de los temarios"
+number-sections: false
 description: "Criterios editoriales para comparar procesos de admisión, modalidades y contenidos PAES."
 ---
+
+# Cómo leer la evolución de los temarios {.unnumbered}
 
 ## Proceso de admisión y año de rendición
 

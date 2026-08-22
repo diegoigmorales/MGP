@@ -1,10 +1,10 @@
 ---
 description: "Preguntas convertidas en nodos de conocimiento matemático."
 toc: false
-number-sections: false
+number-sections: true
 ---
 
-# Preparación PAES {.unnumbered}
+# PAES de Matemática
 
 ## Comprender la prueba
 

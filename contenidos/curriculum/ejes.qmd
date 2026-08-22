@@ -1,7 +1,9 @@
 ---
-title: "Ejes y materias"
+number-sections: false
 toc: false
 ---
+
+# Ejes y materias {.unnumbered}
 
 ## Ejes escolares y PAES
 

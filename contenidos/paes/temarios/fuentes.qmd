@@ -1,8 +1,10 @@
 ---
-title: "Fuentes oficiales de los temarios"
+number-sections: false
 description: "Inventario documental DEMRE utilizado para reconstruir la evolución de M1 y M2."
 toc: false
 ---
+
+# Fuentes oficiales de los temarios {.unnumbered}
 
 ## Inventario documental
 

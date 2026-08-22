@@ -1,7 +1,9 @@
 ---
-title: "Comparación histórica de temarios"
+number-sections: false
 description: "Matrices cronológicas de M1 y M2 para PAES regular e invierno, Admisión 2023–2027."
 ---
+
+# Comparación histórica de temarios {.unnumbered}
 
 ## Cómo usar las tablas
 

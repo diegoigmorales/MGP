@@ -10,17 +10,16 @@ number-sections: false
 Esta portada muestra únicamente material desarrollado y utilizable. La arquitectura futura se conserva en la documentación interna del repositorio, pero no ocupa espacio en la navegación pública.
 
 ::: {.published-toc}
-### Matemática escolar
+### Volumen I · Parte I. Números, medición y álgebra
 
-- [Porcentajes: definición, técnicas y ejemplos](contenidos/libro/numeros/porcentajes.qmd)
-- [Pregunta original sobre descuento porcentual](contenidos/paes/m1/preguntas-originales/porcentajes.qmd)
+- [Capítulo 1. Porcentajes](contenidos/libro/numeros/porcentajes.qmd)
 
-### Currículo y PAES
+### Volumen II · Parte II. Currículo y evaluación
 
-- [Temario vigente · Admisión 2027](contenidos/paes/temarios/vigente.qmd)
-- [Evolución histórica de los temarios](contenidos/paes/temarios/evolucion/index.qmd)
-- [PAES M1 Invierno · Admisión 2027](contenidos/paes/m1/admision-2027-invierno/index.qmd)
-- [Ejes y habilidades matemáticas](contenidos/curriculum/index.qmd)
+- [Capítulo 2. Sistema curricular chileno](contenidos/curriculum/index.qmd)
+- [Capítulo 3. PAES de Matemática](contenidos/paes/index.qmd)
+- [Capítulo 4. Preguntas M1](contenidos/paes/m1/admision-2027-invierno/index.qmd)
+- [Capítulo 5. Preguntas originales](contenidos/paes/m1/preguntas-originales/porcentajes.qmd)
 :::
 
 ## Cómo recorrer MGP

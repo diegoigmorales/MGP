@@ -1,29 +1,137 @@
 ---
-description: "Contenido actualmente publicado en MGP."
+description: "Contenido actualmente publicado en MGP, ordenado jerárquicamente."
 toc: false
 number-sections: false
 ---
 
 # Tabla de contenidos {.unnumbered}
 
-Solo aparecen rutas con contenido real. Las secciones futuras permanecen en la planificación interna hasta que exista una página utilizable.
+Esta tabla reúne únicamente material publicado y utilizable. La numeración es provisional y avanza con el contenido existente; se acercará gradualmente a la arquitectura editorial maestra a medida que se incorporen nuevos capítulos.
 
-## Matemática escolar
+## Volumen I. Matemática escolar para la enseñanza
 
-- [Porcentajes](libro/numeros/porcentajes.qmd): definición, interpretaciones, técnica, ejemplos y errores frecuentes.
-- [Pregunta original sobre descuento](paes/m1/preguntas-originales/porcentajes.qmd): solución, método alternativo y análisis de distractores.
+### Parte I. Números, medición y álgebra
 
-## Currículo
+#### Capítulo 1. Porcentajes
 
-- [Ejes y materias](curriculum/ejes.qmd)
-- [Habilidades matemáticas](curriculum/habilidades.qmd)
+- [1.1 Motivación](libro/numeros/porcentajes.qmd#motivación)
+- [1.2 Definición](libro/numeros/porcentajes.qmd#definición)
+- 1.3 Interpretaciones
+  - [1.3.1 Como fracción](libro/numeros/porcentajes.qmd#como-fracción)
+  - [1.3.2 Como número decimal](libro/numeros/porcentajes.qmd#como-número-decimal)
+- [1.4 Técnica fundamental](libro/numeros/porcentajes.qmd#técnica-fundamental)
+  - Nota desplegable: Interpretación alternativa
+- [1.5 Ejemplos](libro/numeros/porcentajes.qmd#ejemplos)
+- [1.6 Errores frecuentes](libro/numeros/porcentajes.qmd#errores-frecuentes)
+- [1.7 Preguntas relacionadas](libro/numeros/porcentajes.qmd#preguntas-relacionadas)
 
-## PAES de Matemática
+## Volumen II. Currículo, PAES y desarrollo profesional
 
-- [Preparación PAES](paes/index.qmd)
-- [Temario vigente · Admisión 2027](paes/temarios/vigente.qmd)
-- [Evolución histórica](paes/temarios/evolucion/index.qmd)
-- [Comparación de temarios](paes/temarios/comparacion.qmd)
-- [PAES M1 Invierno · Admisión 2027](paes/m1/admision-2027-invierno/index.qmd)
+### Parte II. Currículo y evaluación
+
+#### Capítulo 2. Sistema curricular chileno
+
+- [2.1 Materias y ejes](curriculum/ejes.qmd)
+- [2.2 Habilidades matemáticas](curriculum/habilidades.qmd)
+
+#### Capítulo 3. PAES de Matemática
+
+- [3.1 Comprender la prueba](paes/index.qmd)
+- 3.2 Temarios
+  - [3.2.1 Cómo leer la evolución](paes/temarios/como-leer.qmd)
+  - [3.2.2 Temario vigente · Admisión 2027](paes/temarios/vigente.qmd)
+  - [3.2.3 Evolución histórica](paes/temarios/evolucion/index.qmd)
+    - [3.2.3.1 Admisión 2023](paes/temarios/evolucion/admision-2023.qmd)
+    - [3.2.3.2 Admisión 2024](paes/temarios/evolucion/admision-2024.qmd)
+    - [3.2.3.3 Admisión 2025](paes/temarios/evolucion/admision-2025.qmd)
+    - [3.2.3.4 Admisión 2026](paes/temarios/evolucion/admision-2026.qmd)
+    - [3.2.3.5 Admisión 2027](paes/temarios/evolucion/admision-2027.qmd)
+  - [3.2.4 Comparación histórica](paes/temarios/comparacion.qmd)
+  - [3.2.5 Fuentes oficiales](paes/temarios/fuentes.qmd)
+- [3.3 Competencia Matemática M1](paes/m1/index.qmd)
+
+#### Capítulo 4. Preguntas M1
+
+- [4.1 PAES M1 Invierno · Admisión 2027](paes/m1/admision-2027-invierno/index.qmd)
+
+<details>
+<summary>4.1.1–4.1.65 · Preguntas de la prueba oficial</summary>
+
+- [4.1.1 Pregunta 1](paes/m1/admision-2027-invierno/pregunta-01.qmd)
+- [4.1.2 Pregunta 2](paes/m1/admision-2027-invierno/pregunta-02.qmd)
+- [4.1.3 Pregunta 3](paes/m1/admision-2027-invierno/pregunta-03.qmd)
+- [4.1.4 Pregunta 4](paes/m1/admision-2027-invierno/pregunta-04.qmd)
+- [4.1.5 Pregunta 5](paes/m1/admision-2027-invierno/pregunta-05.qmd)
+- [4.1.6 Pregunta 6](paes/m1/admision-2027-invierno/pregunta-06.qmd)
+- [4.1.7 Pregunta 7](paes/m1/admision-2027-invierno/pregunta-07.qmd)
+- [4.1.8 Pregunta 8](paes/m1/admision-2027-invierno/pregunta-08.qmd)
+- [4.1.9 Pregunta 9](paes/m1/admision-2027-invierno/pregunta-09.qmd)
+- [4.1.10 Pregunta 10](paes/m1/admision-2027-invierno/pregunta-10.qmd)
+- [4.1.11 Pregunta 11](paes/m1/admision-2027-invierno/pregunta-11.qmd)
+- [4.1.12 Pregunta 12](paes/m1/admision-2027-invierno/pregunta-12.qmd)
+- [4.1.13 Pregunta 13](paes/m1/admision-2027-invierno/pregunta-13.qmd)
+- [4.1.14 Pregunta 14](paes/m1/admision-2027-invierno/pregunta-14.qmd)
+- [4.1.15 Pregunta 15](paes/m1/admision-2027-invierno/pregunta-15.qmd)
+- [4.1.16 Pregunta 16](paes/m1/admision-2027-invierno/pregunta-16.qmd)
+- [4.1.17 Pregunta 17](paes/m1/admision-2027-invierno/pregunta-17.qmd)
+- [4.1.18 Pregunta 18](paes/m1/admision-2027-invierno/pregunta-18.qmd)
+- [4.1.19 Pregunta 19](paes/m1/admision-2027-invierno/pregunta-19.qmd)
+- [4.1.20 Pregunta 20](paes/m1/admision-2027-invierno/pregunta-20.qmd)
+- [4.1.21 Pregunta 21](paes/m1/admision-2027-invierno/pregunta-21.qmd)
+- [4.1.22 Pregunta 22](paes/m1/admision-2027-invierno/pregunta-22.qmd)
+- [4.1.23 Pregunta 23](paes/m1/admision-2027-invierno/pregunta-23.qmd)
+- [4.1.24 Pregunta 24](paes/m1/admision-2027-invierno/pregunta-24.qmd)
+- [4.1.25 Pregunta 25](paes/m1/admision-2027-invierno/pregunta-25.qmd)
+- [4.1.26 Pregunta 26](paes/m1/admision-2027-invierno/pregunta-26.qmd)
+- [4.1.27 Pregunta 27](paes/m1/admision-2027-invierno/pregunta-27.qmd)
+- [4.1.28 Pregunta 28](paes/m1/admision-2027-invierno/pregunta-28.qmd)
+- [4.1.29 Pregunta 29](paes/m1/admision-2027-invierno/pregunta-29.qmd)
+- [4.1.30 Pregunta 30](paes/m1/admision-2027-invierno/pregunta-30.qmd)
+- [4.1.31 Pregunta 31](paes/m1/admision-2027-invierno/pregunta-31.qmd)
+- [4.1.32 Pregunta 32](paes/m1/admision-2027-invierno/pregunta-32.qmd)
+- [4.1.33 Pregunta 33](paes/m1/admision-2027-invierno/pregunta-33.qmd)
+- [4.1.34 Pregunta 34](paes/m1/admision-2027-invierno/pregunta-34.qmd)
+- [4.1.35 Pregunta 35](paes/m1/admision-2027-invierno/pregunta-35.qmd)
+- [4.1.36 Pregunta 36](paes/m1/admision-2027-invierno/pregunta-36.qmd)
+- [4.1.37 Pregunta 37](paes/m1/admision-2027-invierno/pregunta-37.qmd)
+- [4.1.38 Pregunta 38](paes/m1/admision-2027-invierno/pregunta-38.qmd)
+- [4.1.39 Pregunta 39](paes/m1/admision-2027-invierno/pregunta-39.qmd)
+- [4.1.40 Pregunta 40](paes/m1/admision-2027-invierno/pregunta-40.qmd)
+- [4.1.41 Pregunta 41](paes/m1/admision-2027-invierno/pregunta-41.qmd)
+- [4.1.42 Pregunta 42](paes/m1/admision-2027-invierno/pregunta-42.qmd)
+- [4.1.43 Pregunta 43](paes/m1/admision-2027-invierno/pregunta-43.qmd)
+- [4.1.44 Pregunta 44](paes/m1/admision-2027-invierno/pregunta-44.qmd)
+- [4.1.45 Pregunta 45](paes/m1/admision-2027-invierno/pregunta-45.qmd)
+- [4.1.46 Pregunta 46](paes/m1/admision-2027-invierno/pregunta-46.qmd)
+- [4.1.47 Pregunta 47](paes/m1/admision-2027-invierno/pregunta-47.qmd)
+- [4.1.48 Pregunta 48](paes/m1/admision-2027-invierno/pregunta-48.qmd)
+- [4.1.49 Pregunta 49](paes/m1/admision-2027-invierno/pregunta-49.qmd)
+- [4.1.50 Pregunta 50](paes/m1/admision-2027-invierno/pregunta-50.qmd)
+- [4.1.51 Pregunta 51](paes/m1/admision-2027-invierno/pregunta-51.qmd)
+- [4.1.52 Pregunta 52](paes/m1/admision-2027-invierno/pregunta-52.qmd)
+- [4.1.53 Pregunta 53](paes/m1/admision-2027-invierno/pregunta-53.qmd)
+- [4.1.54 Pregunta 54](paes/m1/admision-2027-invierno/pregunta-54.qmd)
+- [4.1.55 Pregunta 55](paes/m1/admision-2027-invierno/pregunta-55.qmd)
+- [4.1.56 Pregunta 56](paes/m1/admision-2027-invierno/pregunta-56.qmd)
+- [4.1.57 Pregunta 57](paes/m1/admision-2027-invierno/pregunta-57.qmd)
+- [4.1.58 Pregunta 58](paes/m1/admision-2027-invierno/pregunta-58.qmd)
+- [4.1.59 Pregunta 59](paes/m1/admision-2027-invierno/pregunta-59.qmd)
+- [4.1.60 Pregunta 60](paes/m1/admision-2027-invierno/pregunta-60.qmd)
+- [4.1.61 Pregunta 61](paes/m1/admision-2027-invierno/pregunta-61.qmd)
+- [4.1.62 Pregunta 62](paes/m1/admision-2027-invierno/pregunta-62.qmd)
+- [4.1.63 Pregunta 63](paes/m1/admision-2027-invierno/pregunta-63.qmd)
+- [4.1.64 Pregunta 64](paes/m1/admision-2027-invierno/pregunta-64.qmd)
+- [4.1.65 Pregunta 65](paes/m1/admision-2027-invierno/pregunta-65.qmd)
+
+</details>
+
+#### Capítulo 5. Preguntas originales
+
+- [5.1 Descuento porcentual](paes/m1/preguntas-originales/porcentajes.qmd)
+  - 5.1.1 Pregunta
+  - 5.1.2 Resolución principal
+  - 5.1.3 Método alternativo
+  - 5.1.4 Análisis de distractores
+  - 5.1.5 Materia, habilidad y teoría necesaria
 
 [Volver a la portada](../index.qmd)
