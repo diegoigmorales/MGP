@@ -15,6 +15,7 @@ Esta parte reúne el conocimiento matemático escolar que un profesor puede nece
 | Capítulo | Material disponible | Estado |
 |---|---|---|
 | [1. Porcentajes](numeros/porcentajes.qmd) | Definición, interpretaciones, técnica fundamental, ejemplos y errores frecuentes | En desarrollo |
-| [2. Estadística escolar](estadistica/index.qmd) | Presentación del campo y objeto sobre media ponderada | En desarrollo |
+| [44. Combinatoria y probabilidad](probabilidad/combinatoria-probabilidad.qmd) | Conteo, reglas de probabilidad, condicionalidad, simulación y modelos escolares | Desarrollado |
+| [45. Estadística escolar](estadistica/index.qmd) | Ciclo estadístico, tablas, gráficos, medidas, variabilidad, asociación y lectura crítica | Desarrollado |
 
 Las preguntas y los problemas asociados se consultan desde los capítulos o mediante la búsqueda. No forman capítulos ni se despliegan en el menú principal.

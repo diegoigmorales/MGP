@@ -28,6 +28,635 @@
       "relations": {}
     },
     {
+      "tag": "0035",
+      "type": "definicion",
+      "title": "Pregunta estadística",
+      "source": "contenidos/libro/estadistica/index.qmd",
+      "line": 19,
+      "href": "../contenidos/libro/estadistica/index.qmd#tag-0035",
+      "relations": {
+        "pertenece_a": [
+          "C002"
+        ]
+      }
+    },
+    {
+      "tag": "0036",
+      "type": "proceso",
+      "title": "Ciclo de investigación estadística",
+      "source": "contenidos/libro/estadistica/index.qmd",
+      "line": 27,
+      "href": "../contenidos/libro/estadistica/index.qmd#tag-0036",
+      "relations": {
+        "requiere": [
+          "0035"
+        ],
+        "pertenece_a": [
+          "C002"
+        ]
+      }
+    },
+    {
+      "tag": "0037",
+      "type": "definicion",
+      "title": "Población, censo y muestra",
+      "source": "contenidos/libro/estadistica/index.qmd",
+      "line": 45,
+      "href": "../contenidos/libro/estadistica/index.qmd#tag-0037",
+      "relations": {
+        "requiere": [
+          "0035"
+        ],
+        "pertenece_a": [
+          "C002"
+        ]
+      }
+    },
+    {
+      "tag": "0038",
+      "type": "definicion",
+      "title": "Unidad estadística, caso, dato y conjunto de datos",
+      "source": "contenidos/libro/estadistica/index.qmd",
+      "line": 53,
+      "href": "../contenidos/libro/estadistica/index.qmd#tag-0038",
+      "relations": {
+        "requiere": [
+          "0037"
+        ],
+        "pertenece_a": [
+          "C002"
+        ]
+      }
+    },
+    {
+      "tag": "0039",
+      "type": "definicion",
+      "title": "Variable estadística y sus tipos",
+      "source": "contenidos/libro/estadistica/index.qmd",
+      "line": 61,
+      "href": "../contenidos/libro/estadistica/index.qmd#tag-0039",
+      "relations": {
+        "requiere": [
+          "0038"
+        ],
+        "pertenece_a": [
+          "C002"
+        ]
+      }
+    },
+    {
+      "tag": "0040",
+      "type": "definicion",
+      "title": "Parámetro y estadístico",
+      "source": "contenidos/libro/estadistica/index.qmd",
+      "line": 74,
+      "href": "../contenidos/libro/estadistica/index.qmd#tag-0040",
+      "relations": {
+        "requiere": [
+          "0037",
+          "0038"
+        ],
+        "pertenece_a": [
+          "C002"
+        ]
+      }
+    },
+    {
+      "tag": "0041",
+      "type": "definicion",
+      "title": "Muestreo y representatividad",
+      "source": "contenidos/libro/estadistica/index.qmd",
+      "line": 84,
+      "href": "../contenidos/libro/estadistica/index.qmd#tag-0041",
+      "relations": {
+        "requiere": [
+          "0037"
+        ],
+        "pertenece_a": [
+          "C002"
+        ]
+      }
+    },
+    {
+      "tag": "0042",
+      "type": "definicion",
+      "title": "Sesgo, error de medición y variación muestral",
+      "source": "contenidos/libro/estadistica/index.qmd",
+      "line": 98,
+      "href": "../contenidos/libro/estadistica/index.qmd#tag-0042",
+      "relations": {
+        "requiere": [
+          "0041"
+        ],
+        "pertenece_a": [
+          "C002"
+        ]
+      }
+    },
+    {
+      "tag": "0043",
+      "type": "tecnica",
+      "title": "Recolección, codificación y depuración de datos",
+      "source": "contenidos/libro/estadistica/index.qmd",
+      "line": 106,
+      "href": "../contenidos/libro/estadistica/index.qmd#tag-0043",
+      "relations": {
+        "requiere": [
+          "0038",
+          "0039",
+          "0042"
+        ],
+        "pertenece_a": [
+          "C002"
+        ]
+      }
+    },
+    {
+      "tag": "0044",
+      "type": "definicion",
+      "title": "Frecuencias absoluta, relativa y acumulada",
+      "source": "contenidos/libro/estadistica/index.qmd",
+      "line": 116,
+      "href": "../contenidos/libro/estadistica/index.qmd#tag-0044",
+      "relations": {
+        "requiere": [
+          "0039"
+        ],
+        "pertenece_a": [
+          "C002"
+        ]
+      }
+    },
+    {
+      "tag": "0045",
+      "type": "definicion",
+      "title": "Datos agrupados en intervalos",
+      "source": "contenidos/libro/estadistica/index.qmd",
+      "line": 145,
+      "href": "../contenidos/libro/estadistica/index.qmd#tag-0045",
+      "relations": {
+        "requiere": [
+          "0044"
+        ],
+        "pertenece_a": [
+          "C002"
+        ]
+      }
+    },
+    {
+      "tag": "0046",
+      "type": "definicion",
+      "title": "Tabla de doble entrada",
+      "source": "contenidos/libro/estadistica/index.qmd",
+      "line": 153,
+      "href": "../contenidos/libro/estadistica/index.qmd#tag-0046",
+      "relations": {
+        "requiere": [
+          "0039",
+          "0044"
+        ],
+        "pertenece_a": [
+          "C002"
+        ]
+      }
+    },
+    {
+      "tag": "0047",
+      "type": "criterio",
+      "title": "Selección de una representación gráfica",
+      "source": "contenidos/libro/estadistica/index.qmd",
+      "line": 163,
+      "href": "../contenidos/libro/estadistica/index.qmd#tag-0047",
+      "relations": {
+        "requiere": [
+          "0039",
+          "0044"
+        ],
+        "pertenece_a": [
+          "C002"
+        ]
+      }
+    },
+    {
+      "tag": "0048",
+      "type": "definicion",
+      "title": "Gráficos de barras, sectores y pictogramas",
+      "source": "contenidos/libro/estadistica/index.qmd",
+      "line": 179,
+      "href": "../contenidos/libro/estadistica/index.qmd#tag-0048",
+      "relations": {
+        "requiere": [
+          "0047"
+        ],
+        "pertenece_a": [
+          "C002"
+        ]
+      }
+    },
+    {
+      "tag": "0049",
+      "type": "definicion",
+      "title": "Gráfico de líneas",
+      "source": "contenidos/libro/estadistica/index.qmd",
+      "line": 199,
+      "href": "../contenidos/libro/estadistica/index.qmd#tag-0049",
+      "relations": {
+        "requiere": [
+          "0047"
+        ],
+        "pertenece_a": [
+          "C002"
+        ]
+      }
+    },
+    {
+      "tag": "0050",
+      "type": "definicion",
+      "title": "Histograma, polígono de frecuencias y ojiva",
+      "source": "contenidos/libro/estadistica/index.qmd",
+      "line": 205,
+      "href": "../contenidos/libro/estadistica/index.qmd#tag-0050",
+      "relations": {
+        "requiere": [
+          "0045",
+          "0047"
+        ],
+        "pertenece_a": [
+          "C002"
+        ]
+      }
+    },
+    {
+      "tag": "0051",
+      "type": "definicion",
+      "title": "Diagrama de puntos y diagrama de tallo y hojas",
+      "source": "contenidos/libro/estadistica/index.qmd",
+      "line": 213,
+      "href": "../contenidos/libro/estadistica/index.qmd#tag-0051",
+      "relations": {
+        "requiere": [
+          "0047"
+        ],
+        "pertenece_a": [
+          "C002"
+        ]
+      }
+    },
+    {
+      "tag": "0052",
+      "type": "definicion",
+      "title": "Media aritmética",
+      "source": "contenidos/libro/estadistica/index.qmd",
+      "line": 221,
+      "href": "../contenidos/libro/estadistica/index.qmd#tag-0052",
+      "relations": {
+        "requiere": [
+          "0038"
+        ],
+        "pertenece_a": [
+          "C002"
+        ]
+      }
+    },
+    {
+      "tag": "0053",
+      "type": "definicion",
+      "title": "Media ponderada",
+      "source": "contenidos/libro/estadistica/index.qmd",
+      "line": 235,
+      "href": "../contenidos/libro/estadistica/index.qmd#tag-0053",
+      "relations": {
+        "requiere": [
+          "0052"
+        ],
+        "pertenece_a": [
+          "C002"
+        ]
+      }
+    },
+    {
+      "tag": "0054",
+      "type": "definicion",
+      "title": "Mediana",
+      "source": "contenidos/libro/estadistica/index.qmd",
+      "line": 245,
+      "href": "../contenidos/libro/estadistica/index.qmd#tag-0054",
+      "relations": {
+        "requiere": [
+          "0038"
+        ],
+        "pertenece_a": [
+          "C002"
+        ]
+      }
+    },
+    {
+      "tag": "0055",
+      "type": "definicion",
+      "title": "Moda",
+      "source": "contenidos/libro/estadistica/index.qmd",
+      "line": 253,
+      "href": "../contenidos/libro/estadistica/index.qmd#tag-0055",
+      "relations": {
+        "requiere": [
+          "0044"
+        ],
+        "pertenece_a": [
+          "C002"
+        ]
+      }
+    },
+    {
+      "tag": "0056",
+      "type": "criterio",
+      "title": "Selección e interpretación de medidas de centro",
+      "source": "contenidos/libro/estadistica/index.qmd",
+      "line": 261,
+      "href": "../contenidos/libro/estadistica/index.qmd#tag-0056",
+      "relations": {
+        "requiere": [
+          "0052",
+          "0054",
+          "0055"
+        ],
+        "pertenece_a": [
+          "C002"
+        ]
+      }
+    },
+    {
+      "tag": "0057",
+      "type": "definicion",
+      "title": "Cuantiles, cuartiles, deciles y percentiles",
+      "source": "contenidos/libro/estadistica/index.qmd",
+      "line": 271,
+      "href": "../contenidos/libro/estadistica/index.qmd#tag-0057",
+      "relations": {
+        "requiere": [
+          "0054"
+        ],
+        "pertenece_a": [
+          "C002"
+        ]
+      }
+    },
+    {
+      "tag": "0058",
+      "type": "representacion",
+      "title": "Diagrama de caja",
+      "source": "contenidos/libro/estadistica/index.qmd",
+      "line": 279,
+      "href": "../contenidos/libro/estadistica/index.qmd#tag-0058",
+      "relations": {
+        "requiere": [
+          "0057"
+        ],
+        "pertenece_a": [
+          "C002"
+        ]
+      }
+    },
+    {
+      "tag": "0059",
+      "type": "definicion",
+      "title": "Rango y rango intercuartílico",
+      "source": "contenidos/libro/estadistica/index.qmd",
+      "line": 301,
+      "href": "../contenidos/libro/estadistica/index.qmd#tag-0059",
+      "relations": {
+        "requiere": [
+          "0057"
+        ],
+        "pertenece_a": [
+          "C002"
+        ]
+      }
+    },
+    {
+      "tag": "0060",
+      "type": "definicion",
+      "title": "Desviación respecto de la media",
+      "source": "contenidos/libro/estadistica/index.qmd",
+      "line": 315,
+      "href": "../contenidos/libro/estadistica/index.qmd#tag-0060",
+      "relations": {
+        "requiere": [
+          "0052"
+        ],
+        "pertenece_a": [
+          "C002"
+        ]
+      }
+    },
+    {
+      "tag": "0061",
+      "type": "definicion",
+      "title": "Varianza y desviación estándar",
+      "source": "contenidos/libro/estadistica/index.qmd",
+      "line": 325,
+      "href": "../contenidos/libro/estadistica/index.qmd#tag-0061",
+      "relations": {
+        "requiere": [
+          "0060"
+        ],
+        "pertenece_a": [
+          "C002"
+        ]
+      }
+    },
+    {
+      "tag": "0062",
+      "type": "definicion",
+      "title": "Coeficiente de variación",
+      "source": "contenidos/libro/estadistica/index.qmd",
+      "line": 341,
+      "href": "../contenidos/libro/estadistica/index.qmd#tag-0062",
+      "relations": {
+        "requiere": [
+          "0052",
+          "0061"
+        ],
+        "pertenece_a": [
+          "C002"
+        ]
+      }
+    },
+    {
+      "tag": "0063",
+      "type": "propiedad",
+      "title": "Efecto de transformaciones sobre centro y dispersión",
+      "source": "contenidos/libro/estadistica/index.qmd",
+      "line": 351,
+      "href": "../contenidos/libro/estadistica/index.qmd#tag-0063",
+      "relations": {
+        "requiere": [
+          "0052",
+          "0054",
+          "0059",
+          "0061"
+        ],
+        "pertenece_a": [
+          "C002"
+        ]
+      }
+    },
+    {
+      "tag": "0064",
+      "type": "definicion",
+      "title": "Variabilidad estadística",
+      "source": "contenidos/libro/estadistica/index.qmd",
+      "line": 364,
+      "href": "../contenidos/libro/estadistica/index.qmd#tag-0064",
+      "relations": {
+        "requiere": [
+          "0036",
+          "0042",
+          "0059",
+          "0061"
+        ],
+        "pertenece_a": [
+          "C002"
+        ]
+      }
+    },
+    {
+      "tag": "0065",
+      "type": "definicion",
+      "title": "Datos bivariados y diagrama de dispersión",
+      "source": "contenidos/libro/estadistica/index.qmd",
+      "line": 374,
+      "href": "../contenidos/libro/estadistica/index.qmd#tag-0065",
+      "relations": {
+        "requiere": [
+          "0039",
+          "0047"
+        ],
+        "pertenece_a": [
+          "C002"
+        ]
+      }
+    },
+    {
+      "tag": "0066",
+      "type": "definicion",
+      "title": "Asociación y correlación lineal",
+      "source": "contenidos/libro/estadistica/index.qmd",
+      "line": 394,
+      "href": "../contenidos/libro/estadistica/index.qmd#tag-0066",
+      "relations": {
+        "requiere": [
+          "0065"
+        ],
+        "pertenece_a": [
+          "C002"
+        ]
+      }
+    },
+    {
+      "tag": "0067",
+      "type": "criterio",
+      "title": "Asociación en tablas de doble entrada",
+      "source": "contenidos/libro/estadistica/index.qmd",
+      "line": 402,
+      "href": "../contenidos/libro/estadistica/index.qmd#tag-0067",
+      "relations": {
+        "requiere": [
+          "0046"
+        ],
+        "pertenece_a": [
+          "C002"
+        ]
+      }
+    },
+    {
+      "tag": "0068",
+      "type": "criterio",
+      "title": "Comparación de distribuciones",
+      "source": "contenidos/libro/estadistica/index.qmd",
+      "line": 410,
+      "href": "../contenidos/libro/estadistica/index.qmd#tag-0068",
+      "relations": {
+        "requiere": [
+          "0047",
+          "0056",
+          "0059",
+          "0064"
+        ],
+        "pertenece_a": [
+          "C002"
+        ]
+      }
+    },
+    {
+      "tag": "0069",
+      "type": "observacion",
+      "title": "Gráficos engañosos y denominadores",
+      "source": "contenidos/libro/estadistica/index.qmd",
+      "line": 425,
+      "href": "../contenidos/libro/estadistica/index.qmd#tag-0069",
+      "relations": {
+        "requiere": [
+          "0047"
+        ],
+        "pertenece_a": [
+          "C002"
+        ]
+      }
+    },
+    {
+      "tag": "0070",
+      "type": "observacion",
+      "title": "Asociación, causalidad y variables de confusión",
+      "source": "contenidos/libro/estadistica/index.qmd",
+      "line": 433,
+      "href": "../contenidos/libro/estadistica/index.qmd#tag-0070",
+      "relations": {
+        "requiere": [
+          "0066"
+        ],
+        "pertenece_a": [
+          "C002"
+        ]
+      }
+    },
+    {
+      "tag": "0071",
+      "type": "criterio",
+      "title": "Comunicación de conclusiones estadísticas",
+      "source": "contenidos/libro/estadistica/index.qmd",
+      "line": 439,
+      "href": "../contenidos/libro/estadistica/index.qmd#tag-0071",
+      "relations": {
+        "requiere": [
+          "0036",
+          "0042",
+          "0068",
+          "0069"
+        ],
+        "pertenece_a": [
+          "C002"
+        ]
+      }
+    },
+    {
+      "tag": "0072",
+      "type": "observacion",
+      "title": "Ética y procedencia de los datos",
+      "source": "contenidos/libro/estadistica/index.qmd",
+      "line": 447,
+      "href": "../contenidos/libro/estadistica/index.qmd#tag-0072",
+      "relations": {
+        "requiere": [
+          "0036",
+          "0043",
+          "0071"
+        ],
+        "pertenece_a": [
+          "C002"
+        ]
+      }
+    },
+    {
       "tag": "0001",
       "type": "definicion",
       "title": "Porcentaje",
@@ -48,11 +677,534 @@
       "line": 38,
       "href": "../contenidos/libro/numeros/porcentajes.qmd#tag-0002",
       "relations": {
-        "pertenece_a": [
-          "C001"
-        ],
         "requiere": [
           "0001"
+        ],
+        "pertenece_a": [
+          "C001"
+        ]
+      }
+    },
+    {
+      "tag": "0000",
+      "type": "principio",
+      "title": "Principio aditivo de conteo",
+      "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
+      "line": 21,
+      "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#tag-0000",
+      "relations": {
+        "pertenece_a": [
+          "C002"
+        ]
+      }
+    },
+    {
+      "tag": "0004",
+      "type": "principio",
+      "title": "Principio multiplicativo de conteo",
+      "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
+      "line": 32,
+      "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#tag-0004",
+      "relations": {
+        "pertenece_a": [
+          "C002"
+        ]
+      }
+    },
+    {
+      "tag": "0005",
+      "type": "representacion",
+      "title": "Enumeración sistemática, tablas y diagramas de árbol",
+      "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
+      "line": 42,
+      "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#tag-0005",
+      "relations": {
+        "requiere": [
+          "0000",
+          "0004"
+        ],
+        "pertenece_a": [
+          "C002"
+        ]
+      }
+    },
+    {
+      "tag": "0006",
+      "type": "definicion",
+      "title": "Factorial",
+      "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
+      "line": 73,
+      "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#tag-0006",
+      "relations": {
+        "pertenece_a": [
+          "C002"
+        ]
+      }
+    },
+    {
+      "tag": "0007",
+      "type": "definicion",
+      "title": "Permutación simple",
+      "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
+      "line": 83,
+      "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#tag-0007",
+      "relations": {
+        "requiere": [
+          "0004",
+          "0006"
+        ],
+        "pertenece_a": [
+          "C002"
+        ]
+      }
+    },
+    {
+      "tag": "0008",
+      "type": "propiedad",
+      "title": "Permutaciones con elementos repetidos",
+      "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
+      "line": 93,
+      "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#tag-0008",
+      "relations": {
+        "requiere": [
+          "0006",
+          "0007"
+        ],
+        "pertenece_a": [
+          "C002"
+        ]
+      }
+    },
+    {
+      "tag": "0009",
+      "type": "propiedad",
+      "title": "Permutaciones circulares",
+      "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
+      "line": 103,
+      "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#tag-0009",
+      "relations": {
+        "requiere": [
+          "0006",
+          "0007"
+        ],
+        "pertenece_a": [
+          "C002"
+        ]
+      }
+    },
+    {
+      "tag": "0010",
+      "type": "definicion",
+      "title": "Variación sin repetición",
+      "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
+      "line": 113,
+      "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#tag-0010",
+      "relations": {
+        "requiere": [
+          "0004",
+          "0006"
+        ],
+        "pertenece_a": [
+          "C002"
+        ]
+      }
+    },
+    {
+      "tag": "0011",
+      "type": "definicion",
+      "title": "Variación con repetición",
+      "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
+      "line": 123,
+      "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#tag-0011",
+      "relations": {
+        "requiere": [
+          "0004"
+        ],
+        "pertenece_a": [
+          "C002"
+        ]
+      }
+    },
+    {
+      "tag": "0012",
+      "type": "definicion",
+      "title": "Combinación sin repetición",
+      "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
+      "line": 133,
+      "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#tag-0012",
+      "relations": {
+        "requiere": [
+          "0006",
+          "0010"
+        ],
+        "pertenece_a": [
+          "C002"
+        ]
+      }
+    },
+    {
+      "tag": "0013",
+      "type": "definicion",
+      "title": "Combinación con repetición",
+      "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
+      "line": 143,
+      "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#tag-0013",
+      "relations": {
+        "requiere": [
+          "0006",
+          "0012"
+        ],
+        "pertenece_a": [
+          "C002"
+        ]
+      }
+    },
+    {
+      "tag": "0014",
+      "type": "propiedad",
+      "title": "Coeficientes binomiales y triángulo de Pascal",
+      "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
+      "line": 153,
+      "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#tag-0014",
+      "relations": {
+        "requiere": [
+          "0012"
+        ],
+        "pertenece_a": [
+          "C002"
+        ]
+      }
+    },
+    {
+      "tag": "0015",
+      "type": "definicion",
+      "title": "Experimento determinista y experimento aleatorio",
+      "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
+      "line": 185,
+      "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#tag-0015",
+      "relations": {
+        "pertenece_a": [
+          "C002"
+        ]
+      }
+    },
+    {
+      "tag": "0016",
+      "type": "definicion",
+      "title": "Resultado, espacio muestral y evento",
+      "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
+      "line": 193,
+      "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#tag-0016",
+      "relations": {
+        "requiere": [
+          "0015"
+        ],
+        "pertenece_a": [
+          "C002"
+        ]
+      }
+    },
+    {
+      "tag": "0017",
+      "type": "definicion",
+      "title": "Operaciones entre eventos",
+      "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
+      "line": 205,
+      "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#tag-0017",
+      "relations": {
+        "requiere": [
+          "0016"
+        ],
+        "pertenece_a": [
+          "C002"
+        ]
+      }
+    },
+    {
+      "tag": "0018",
+      "type": "definicion",
+      "title": "Probabilidad",
+      "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
+      "line": 219,
+      "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#tag-0018",
+      "relations": {
+        "requiere": [
+          "0016"
+        ],
+        "pertenece_a": [
+          "C002"
+        ]
+      }
+    },
+    {
+      "tag": "0019",
+      "type": "tecnica",
+      "title": "Regla de Laplace",
+      "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
+      "line": 231,
+      "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#tag-0019",
+      "relations": {
+        "requiere": [
+          "0016",
+          "0018"
+        ],
+        "pertenece_a": [
+          "C002"
+        ]
+      }
+    },
+    {
+      "tag": "0020",
+      "type": "definicion",
+      "title": "Probabilidad empírica y estabilización de frecuencias",
+      "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
+      "line": 242,
+      "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#tag-0020",
+      "relations": {
+        "requiere": [
+          "0018"
+        ],
+        "pertenece_a": [
+          "C002"
+        ]
+      }
+    },
+    {
+      "tag": "0021",
+      "type": "propiedad",
+      "title": "Regla del complemento",
+      "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
+      "line": 267,
+      "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#tag-0021",
+      "relations": {
+        "requiere": [
+          "0017",
+          "0018"
+        ],
+        "pertenece_a": [
+          "C002"
+        ]
+      }
+    },
+    {
+      "tag": "0022",
+      "type": "propiedad",
+      "title": "Regla aditiva de la probabilidad",
+      "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
+      "line": 279,
+      "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#tag-0022",
+      "relations": {
+        "requiere": [
+          "0017",
+          "0018"
+        ],
+        "pertenece_a": [
+          "C002"
+        ]
+      }
+    },
+    {
+      "tag": "0023",
+      "type": "definicion",
+      "title": "Probabilidad condicional",
+      "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
+      "line": 291,
+      "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#tag-0023",
+      "relations": {
+        "requiere": [
+          "0017",
+          "0018"
+        ],
+        "pertenece_a": [
+          "C002"
+        ]
+      }
+    },
+    {
+      "tag": "0024",
+      "type": "propiedad",
+      "title": "Regla multiplicativa de la probabilidad",
+      "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
+      "line": 301,
+      "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#tag-0024",
+      "relations": {
+        "requiere": [
+          "0023"
+        ],
+        "pertenece_a": [
+          "C002"
+        ]
+      }
+    },
+    {
+      "tag": "0025",
+      "type": "definicion",
+      "title": "Independencia de eventos",
+      "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
+      "line": 313,
+      "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#tag-0025",
+      "relations": {
+        "requiere": [
+          "0023",
+          "0024"
+        ],
+        "pertenece_a": [
+          "C002"
+        ]
+      }
+    },
+    {
+      "tag": "0026",
+      "type": "teorema",
+      "title": "Regla de la probabilidad total",
+      "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
+      "line": 323,
+      "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#tag-0026",
+      "relations": {
+        "requiere": [
+          "0022",
+          "0024"
+        ],
+        "pertenece_a": [
+          "C002"
+        ]
+      }
+    },
+    {
+      "tag": "0027",
+      "type": "teorema",
+      "title": "Teorema de Bayes elemental",
+      "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
+      "line": 333,
+      "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#tag-0027",
+      "relations": {
+        "requiere": [
+          "0023",
+          "0026"
+        ],
+        "pertenece_a": [
+          "C002"
+        ]
+      }
+    },
+    {
+      "tag": "0028",
+      "type": "representacion",
+      "title": "Árboles de probabilidad y tablas de contingencia",
+      "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
+      "line": 344,
+      "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#tag-0028",
+      "relations": {
+        "requiere": [
+          "0005",
+          "0023",
+          "0024",
+          "0026"
+        ],
+        "pertenece_a": [
+          "C002"
+        ]
+      }
+    },
+    {
+      "tag": "0029",
+      "type": "tecnica",
+      "title": "Simulación de experimentos aleatorios",
+      "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
+      "line": 352,
+      "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#tag-0029",
+      "relations": {
+        "requiere": [
+          "0015",
+          "0020"
+        ],
+        "pertenece_a": [
+          "C002"
+        ]
+      }
+    },
+    {
+      "tag": "0030",
+      "type": "definicion",
+      "title": "Variable aleatoria",
+      "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
+      "line": 366,
+      "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#tag-0030",
+      "relations": {
+        "requiere": [
+          "0016"
+        ],
+        "pertenece_a": [
+          "C002"
+        ]
+      }
+    },
+    {
+      "tag": "0031",
+      "type": "definicion",
+      "title": "Distribución de una variable aleatoria discreta",
+      "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
+      "line": 374,
+      "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#tag-0031",
+      "relations": {
+        "requiere": [
+          "0030"
+        ],
+        "pertenece_a": [
+          "C002"
+        ]
+      }
+    },
+    {
+      "tag": "0032",
+      "type": "definicion",
+      "title": "Modelo de Bernoulli y distribución binomial",
+      "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
+      "line": 389,
+      "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#tag-0032",
+      "relations": {
+        "requiere": [
+          "0012",
+          "0025",
+          "0031"
+        ],
+        "pertenece_a": [
+          "C002"
+        ]
+      }
+    },
+    {
+      "tag": "0033",
+      "type": "definicion",
+      "title": "Variable continua y modelo normal",
+      "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
+      "line": 399,
+      "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#tag-0033",
+      "relations": {
+        "requiere": [
+          "0030",
+          "0031"
+        ],
+        "pertenece_a": [
+          "C002"
+        ]
+      }
+    },
+    {
+      "tag": "0034",
+      "type": "observacion",
+      "title": "Interpretaciones de la probabilidad y lectura crítica",
+      "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
+      "line": 413,
+      "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#tag-0034",
+      "relations": {
+        "requiere": [
+          "0018",
+          "0020",
+          "0023"
+        ],
+        "pertenece_a": [
+          "C002"
         ]
       }
     },
@@ -649,15 +1801,15 @@
       "line": 8,
       "href": "../contenidos/paes/m1/preguntas-originales/porcentajes.qmd#tag-0003",
       "relations": {
-        "pertenece_a": [
-          "C001"
+        "evalua": [
+          "H001"
         ],
         "usa": [
           "0001",
           "0002"
         ],
-        "evalua": [
-          "H001"
+        "pertenece_a": [
+          "C001"
         ]
       }
     },
@@ -669,20 +1821,998 @@
       "line": 12,
       "href": "../contenidos/universitario/estadistica/media-ponderada.qmd#tag-U001",
       "relations": {
-        "profundiza": [
-          "0003"
+        "requiere": [
+          "0001",
+          "0002"
         ],
         "pertenece_a": [
           "C002"
         ],
-        "requiere": [
-          "0001",
-          "0002"
+        "profundiza": [
+          "0003"
         ]
       }
     }
   ],
   "backlinks": {
+    "C002": [
+      {
+        "tag": "0035",
+        "title": "Pregunta estadística",
+        "source": "contenidos/libro/estadistica/index.qmd",
+        "href": "../libro/estadistica/index.qmd#tag-0035",
+        "relation": "pertenece_a"
+      },
+      {
+        "tag": "0036",
+        "title": "Ciclo de investigación estadística",
+        "source": "contenidos/libro/estadistica/index.qmd",
+        "href": "../libro/estadistica/index.qmd#tag-0036",
+        "relation": "pertenece_a"
+      },
+      {
+        "tag": "0037",
+        "title": "Población, censo y muestra",
+        "source": "contenidos/libro/estadistica/index.qmd",
+        "href": "../libro/estadistica/index.qmd#tag-0037",
+        "relation": "pertenece_a"
+      },
+      {
+        "tag": "0038",
+        "title": "Unidad estadística, caso, dato y conjunto de datos",
+        "source": "contenidos/libro/estadistica/index.qmd",
+        "href": "../libro/estadistica/index.qmd#tag-0038",
+        "relation": "pertenece_a"
+      },
+      {
+        "tag": "0039",
+        "title": "Variable estadística y sus tipos",
+        "source": "contenidos/libro/estadistica/index.qmd",
+        "href": "../libro/estadistica/index.qmd#tag-0039",
+        "relation": "pertenece_a"
+      },
+      {
+        "tag": "0040",
+        "title": "Parámetro y estadístico",
+        "source": "contenidos/libro/estadistica/index.qmd",
+        "href": "../libro/estadistica/index.qmd#tag-0040",
+        "relation": "pertenece_a"
+      },
+      {
+        "tag": "0041",
+        "title": "Muestreo y representatividad",
+        "source": "contenidos/libro/estadistica/index.qmd",
+        "href": "../libro/estadistica/index.qmd#tag-0041",
+        "relation": "pertenece_a"
+      },
+      {
+        "tag": "0042",
+        "title": "Sesgo, error de medición y variación muestral",
+        "source": "contenidos/libro/estadistica/index.qmd",
+        "href": "../libro/estadistica/index.qmd#tag-0042",
+        "relation": "pertenece_a"
+      },
+      {
+        "tag": "0043",
+        "title": "Recolección, codificación y depuración de datos",
+        "source": "contenidos/libro/estadistica/index.qmd",
+        "href": "../libro/estadistica/index.qmd#tag-0043",
+        "relation": "pertenece_a"
+      },
+      {
+        "tag": "0044",
+        "title": "Frecuencias absoluta, relativa y acumulada",
+        "source": "contenidos/libro/estadistica/index.qmd",
+        "href": "../libro/estadistica/index.qmd#tag-0044",
+        "relation": "pertenece_a"
+      },
+      {
+        "tag": "0045",
+        "title": "Datos agrupados en intervalos",
+        "source": "contenidos/libro/estadistica/index.qmd",
+        "href": "../libro/estadistica/index.qmd#tag-0045",
+        "relation": "pertenece_a"
+      },
+      {
+        "tag": "0046",
+        "title": "Tabla de doble entrada",
+        "source": "contenidos/libro/estadistica/index.qmd",
+        "href": "../libro/estadistica/index.qmd#tag-0046",
+        "relation": "pertenece_a"
+      },
+      {
+        "tag": "0047",
+        "title": "Selección de una representación gráfica",
+        "source": "contenidos/libro/estadistica/index.qmd",
+        "href": "../libro/estadistica/index.qmd#tag-0047",
+        "relation": "pertenece_a"
+      },
+      {
+        "tag": "0048",
+        "title": "Gráficos de barras, sectores y pictogramas",
+        "source": "contenidos/libro/estadistica/index.qmd",
+        "href": "../libro/estadistica/index.qmd#tag-0048",
+        "relation": "pertenece_a"
+      },
+      {
+        "tag": "0049",
+        "title": "Gráfico de líneas",
+        "source": "contenidos/libro/estadistica/index.qmd",
+        "href": "../libro/estadistica/index.qmd#tag-0049",
+        "relation": "pertenece_a"
+      },
+      {
+        "tag": "0050",
+        "title": "Histograma, polígono de frecuencias y ojiva",
+        "source": "contenidos/libro/estadistica/index.qmd",
+        "href": "../libro/estadistica/index.qmd#tag-0050",
+        "relation": "pertenece_a"
+      },
+      {
+        "tag": "0051",
+        "title": "Diagrama de puntos y diagrama de tallo y hojas",
+        "source": "contenidos/libro/estadistica/index.qmd",
+        "href": "../libro/estadistica/index.qmd#tag-0051",
+        "relation": "pertenece_a"
+      },
+      {
+        "tag": "0052",
+        "title": "Media aritmética",
+        "source": "contenidos/libro/estadistica/index.qmd",
+        "href": "../libro/estadistica/index.qmd#tag-0052",
+        "relation": "pertenece_a"
+      },
+      {
+        "tag": "0053",
+        "title": "Media ponderada",
+        "source": "contenidos/libro/estadistica/index.qmd",
+        "href": "../libro/estadistica/index.qmd#tag-0053",
+        "relation": "pertenece_a"
+      },
+      {
+        "tag": "0054",
+        "title": "Mediana",
+        "source": "contenidos/libro/estadistica/index.qmd",
+        "href": "../libro/estadistica/index.qmd#tag-0054",
+        "relation": "pertenece_a"
+      },
+      {
+        "tag": "0055",
+        "title": "Moda",
+        "source": "contenidos/libro/estadistica/index.qmd",
+        "href": "../libro/estadistica/index.qmd#tag-0055",
+        "relation": "pertenece_a"
+      },
+      {
+        "tag": "0056",
+        "title": "Selección e interpretación de medidas de centro",
+        "source": "contenidos/libro/estadistica/index.qmd",
+        "href": "../libro/estadistica/index.qmd#tag-0056",
+        "relation": "pertenece_a"
+      },
+      {
+        "tag": "0057",
+        "title": "Cuantiles, cuartiles, deciles y percentiles",
+        "source": "contenidos/libro/estadistica/index.qmd",
+        "href": "../libro/estadistica/index.qmd#tag-0057",
+        "relation": "pertenece_a"
+      },
+      {
+        "tag": "0058",
+        "title": "Diagrama de caja",
+        "source": "contenidos/libro/estadistica/index.qmd",
+        "href": "../libro/estadistica/index.qmd#tag-0058",
+        "relation": "pertenece_a"
+      },
+      {
+        "tag": "0059",
+        "title": "Rango y rango intercuartílico",
+        "source": "contenidos/libro/estadistica/index.qmd",
+        "href": "../libro/estadistica/index.qmd#tag-0059",
+        "relation": "pertenece_a"
+      },
+      {
+        "tag": "0060",
+        "title": "Desviación respecto de la media",
+        "source": "contenidos/libro/estadistica/index.qmd",
+        "href": "../libro/estadistica/index.qmd#tag-0060",
+        "relation": "pertenece_a"
+      },
+      {
+        "tag": "0061",
+        "title": "Varianza y desviación estándar",
+        "source": "contenidos/libro/estadistica/index.qmd",
+        "href": "../libro/estadistica/index.qmd#tag-0061",
+        "relation": "pertenece_a"
+      },
+      {
+        "tag": "0062",
+        "title": "Coeficiente de variación",
+        "source": "contenidos/libro/estadistica/index.qmd",
+        "href": "../libro/estadistica/index.qmd#tag-0062",
+        "relation": "pertenece_a"
+      },
+      {
+        "tag": "0063",
+        "title": "Efecto de transformaciones sobre centro y dispersión",
+        "source": "contenidos/libro/estadistica/index.qmd",
+        "href": "../libro/estadistica/index.qmd#tag-0063",
+        "relation": "pertenece_a"
+      },
+      {
+        "tag": "0064",
+        "title": "Variabilidad estadística",
+        "source": "contenidos/libro/estadistica/index.qmd",
+        "href": "../libro/estadistica/index.qmd#tag-0064",
+        "relation": "pertenece_a"
+      },
+      {
+        "tag": "0065",
+        "title": "Datos bivariados y diagrama de dispersión",
+        "source": "contenidos/libro/estadistica/index.qmd",
+        "href": "../libro/estadistica/index.qmd#tag-0065",
+        "relation": "pertenece_a"
+      },
+      {
+        "tag": "0066",
+        "title": "Asociación y correlación lineal",
+        "source": "contenidos/libro/estadistica/index.qmd",
+        "href": "../libro/estadistica/index.qmd#tag-0066",
+        "relation": "pertenece_a"
+      },
+      {
+        "tag": "0067",
+        "title": "Asociación en tablas de doble entrada",
+        "source": "contenidos/libro/estadistica/index.qmd",
+        "href": "../libro/estadistica/index.qmd#tag-0067",
+        "relation": "pertenece_a"
+      },
+      {
+        "tag": "0068",
+        "title": "Comparación de distribuciones",
+        "source": "contenidos/libro/estadistica/index.qmd",
+        "href": "../libro/estadistica/index.qmd#tag-0068",
+        "relation": "pertenece_a"
+      },
+      {
+        "tag": "0069",
+        "title": "Gráficos engañosos y denominadores",
+        "source": "contenidos/libro/estadistica/index.qmd",
+        "href": "../libro/estadistica/index.qmd#tag-0069",
+        "relation": "pertenece_a"
+      },
+      {
+        "tag": "0070",
+        "title": "Asociación, causalidad y variables de confusión",
+        "source": "contenidos/libro/estadistica/index.qmd",
+        "href": "../libro/estadistica/index.qmd#tag-0070",
+        "relation": "pertenece_a"
+      },
+      {
+        "tag": "0071",
+        "title": "Comunicación de conclusiones estadísticas",
+        "source": "contenidos/libro/estadistica/index.qmd",
+        "href": "../libro/estadistica/index.qmd#tag-0071",
+        "relation": "pertenece_a"
+      },
+      {
+        "tag": "0072",
+        "title": "Ética y procedencia de los datos",
+        "source": "contenidos/libro/estadistica/index.qmd",
+        "href": "../libro/estadistica/index.qmd#tag-0072",
+        "relation": "pertenece_a"
+      },
+      {
+        "tag": "0000",
+        "title": "Principio aditivo de conteo",
+        "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
+        "href": "../libro/probabilidad/combinatoria-probabilidad.qmd#tag-0000",
+        "relation": "pertenece_a"
+      },
+      {
+        "tag": "0004",
+        "title": "Principio multiplicativo de conteo",
+        "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
+        "href": "../libro/probabilidad/combinatoria-probabilidad.qmd#tag-0004",
+        "relation": "pertenece_a"
+      },
+      {
+        "tag": "0005",
+        "title": "Enumeración sistemática, tablas y diagramas de árbol",
+        "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
+        "href": "../libro/probabilidad/combinatoria-probabilidad.qmd#tag-0005",
+        "relation": "pertenece_a"
+      },
+      {
+        "tag": "0006",
+        "title": "Factorial",
+        "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
+        "href": "../libro/probabilidad/combinatoria-probabilidad.qmd#tag-0006",
+        "relation": "pertenece_a"
+      },
+      {
+        "tag": "0007",
+        "title": "Permutación simple",
+        "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
+        "href": "../libro/probabilidad/combinatoria-probabilidad.qmd#tag-0007",
+        "relation": "pertenece_a"
+      },
+      {
+        "tag": "0008",
+        "title": "Permutaciones con elementos repetidos",
+        "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
+        "href": "../libro/probabilidad/combinatoria-probabilidad.qmd#tag-0008",
+        "relation": "pertenece_a"
+      },
+      {
+        "tag": "0009",
+        "title": "Permutaciones circulares",
+        "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
+        "href": "../libro/probabilidad/combinatoria-probabilidad.qmd#tag-0009",
+        "relation": "pertenece_a"
+      },
+      {
+        "tag": "0010",
+        "title": "Variación sin repetición",
+        "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
+        "href": "../libro/probabilidad/combinatoria-probabilidad.qmd#tag-0010",
+        "relation": "pertenece_a"
+      },
+      {
+        "tag": "0011",
+        "title": "Variación con repetición",
+        "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
+        "href": "../libro/probabilidad/combinatoria-probabilidad.qmd#tag-0011",
+        "relation": "pertenece_a"
+      },
+      {
+        "tag": "0012",
+        "title": "Combinación sin repetición",
+        "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
+        "href": "../libro/probabilidad/combinatoria-probabilidad.qmd#tag-0012",
+        "relation": "pertenece_a"
+      },
+      {
+        "tag": "0013",
+        "title": "Combinación con repetición",
+        "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
+        "href": "../libro/probabilidad/combinatoria-probabilidad.qmd#tag-0013",
+        "relation": "pertenece_a"
+      },
+      {
+        "tag": "0014",
+        "title": "Coeficientes binomiales y triángulo de Pascal",
+        "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
+        "href": "../libro/probabilidad/combinatoria-probabilidad.qmd#tag-0014",
+        "relation": "pertenece_a"
+      },
+      {
+        "tag": "0015",
+        "title": "Experimento determinista y experimento aleatorio",
+        "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
+        "href": "../libro/probabilidad/combinatoria-probabilidad.qmd#tag-0015",
+        "relation": "pertenece_a"
+      },
+      {
+        "tag": "0016",
+        "title": "Resultado, espacio muestral y evento",
+        "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
+        "href": "../libro/probabilidad/combinatoria-probabilidad.qmd#tag-0016",
+        "relation": "pertenece_a"
+      },
+      {
+        "tag": "0017",
+        "title": "Operaciones entre eventos",
+        "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
+        "href": "../libro/probabilidad/combinatoria-probabilidad.qmd#tag-0017",
+        "relation": "pertenece_a"
+      },
+      {
+        "tag": "0018",
+        "title": "Probabilidad",
+        "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
+        "href": "../libro/probabilidad/combinatoria-probabilidad.qmd#tag-0018",
+        "relation": "pertenece_a"
+      },
+      {
+        "tag": "0019",
+        "title": "Regla de Laplace",
+        "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
+        "href": "../libro/probabilidad/combinatoria-probabilidad.qmd#tag-0019",
+        "relation": "pertenece_a"
+      },
+      {
+        "tag": "0020",
+        "title": "Probabilidad empírica y estabilización de frecuencias",
+        "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
+        "href": "../libro/probabilidad/combinatoria-probabilidad.qmd#tag-0020",
+        "relation": "pertenece_a"
+      },
+      {
+        "tag": "0021",
+        "title": "Regla del complemento",
+        "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
+        "href": "../libro/probabilidad/combinatoria-probabilidad.qmd#tag-0021",
+        "relation": "pertenece_a"
+      },
+      {
+        "tag": "0022",
+        "title": "Regla aditiva de la probabilidad",
+        "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
+        "href": "../libro/probabilidad/combinatoria-probabilidad.qmd#tag-0022",
+        "relation": "pertenece_a"
+      },
+      {
+        "tag": "0023",
+        "title": "Probabilidad condicional",
+        "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
+        "href": "../libro/probabilidad/combinatoria-probabilidad.qmd#tag-0023",
+        "relation": "pertenece_a"
+      },
+      {
+        "tag": "0024",
+        "title": "Regla multiplicativa de la probabilidad",
+        "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
+        "href": "../libro/probabilidad/combinatoria-probabilidad.qmd#tag-0024",
+        "relation": "pertenece_a"
+      },
+      {
+        "tag": "0025",
+        "title": "Independencia de eventos",
+        "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
+        "href": "../libro/probabilidad/combinatoria-probabilidad.qmd#tag-0025",
+        "relation": "pertenece_a"
+      },
+      {
+        "tag": "0026",
+        "title": "Regla de la probabilidad total",
+        "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
+        "href": "../libro/probabilidad/combinatoria-probabilidad.qmd#tag-0026",
+        "relation": "pertenece_a"
+      },
+      {
+        "tag": "0027",
+        "title": "Teorema de Bayes elemental",
+        "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
+        "href": "../libro/probabilidad/combinatoria-probabilidad.qmd#tag-0027",
+        "relation": "pertenece_a"
+      },
+      {
+        "tag": "0028",
+        "title": "Árboles de probabilidad y tablas de contingencia",
+        "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
+        "href": "../libro/probabilidad/combinatoria-probabilidad.qmd#tag-0028",
+        "relation": "pertenece_a"
+      },
+      {
+        "tag": "0029",
+        "title": "Simulación de experimentos aleatorios",
+        "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
+        "href": "../libro/probabilidad/combinatoria-probabilidad.qmd#tag-0029",
+        "relation": "pertenece_a"
+      },
+      {
+        "tag": "0030",
+        "title": "Variable aleatoria",
+        "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
+        "href": "../libro/probabilidad/combinatoria-probabilidad.qmd#tag-0030",
+        "relation": "pertenece_a"
+      },
+      {
+        "tag": "0031",
+        "title": "Distribución de una variable aleatoria discreta",
+        "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
+        "href": "../libro/probabilidad/combinatoria-probabilidad.qmd#tag-0031",
+        "relation": "pertenece_a"
+      },
+      {
+        "tag": "0032",
+        "title": "Modelo de Bernoulli y distribución binomial",
+        "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
+        "href": "../libro/probabilidad/combinatoria-probabilidad.qmd#tag-0032",
+        "relation": "pertenece_a"
+      },
+      {
+        "tag": "0033",
+        "title": "Variable continua y modelo normal",
+        "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
+        "href": "../libro/probabilidad/combinatoria-probabilidad.qmd#tag-0033",
+        "relation": "pertenece_a"
+      },
+      {
+        "tag": "0034",
+        "title": "Interpretaciones de la probabilidad y lectura crítica",
+        "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
+        "href": "../libro/probabilidad/combinatoria-probabilidad.qmd#tag-0034",
+        "relation": "pertenece_a"
+      },
+      {
+        "tag": "U001",
+        "title": "Calificación final ponderada",
+        "source": "contenidos/universitario/estadistica/media-ponderada.qmd",
+        "href": "../universitario/estadistica/media-ponderada.qmd#tag-U001",
+        "relation": "pertenece_a"
+      }
+    ],
+    "0035": [
+      {
+        "tag": "0036",
+        "title": "Ciclo de investigación estadística",
+        "source": "contenidos/libro/estadistica/index.qmd",
+        "href": "index.qmd#tag-0036",
+        "relation": "requiere"
+      },
+      {
+        "tag": "0037",
+        "title": "Población, censo y muestra",
+        "source": "contenidos/libro/estadistica/index.qmd",
+        "href": "index.qmd#tag-0037",
+        "relation": "requiere"
+      }
+    ],
+    "0037": [
+      {
+        "tag": "0038",
+        "title": "Unidad estadística, caso, dato y conjunto de datos",
+        "source": "contenidos/libro/estadistica/index.qmd",
+        "href": "index.qmd#tag-0038",
+        "relation": "requiere"
+      },
+      {
+        "tag": "0040",
+        "title": "Parámetro y estadístico",
+        "source": "contenidos/libro/estadistica/index.qmd",
+        "href": "index.qmd#tag-0040",
+        "relation": "requiere"
+      },
+      {
+        "tag": "0041",
+        "title": "Muestreo y representatividad",
+        "source": "contenidos/libro/estadistica/index.qmd",
+        "href": "index.qmd#tag-0041",
+        "relation": "requiere"
+      }
+    ],
+    "0038": [
+      {
+        "tag": "0039",
+        "title": "Variable estadística y sus tipos",
+        "source": "contenidos/libro/estadistica/index.qmd",
+        "href": "index.qmd#tag-0039",
+        "relation": "requiere"
+      },
+      {
+        "tag": "0040",
+        "title": "Parámetro y estadístico",
+        "source": "contenidos/libro/estadistica/index.qmd",
+        "href": "index.qmd#tag-0040",
+        "relation": "requiere"
+      },
+      {
+        "tag": "0043",
+        "title": "Recolección, codificación y depuración de datos",
+        "source": "contenidos/libro/estadistica/index.qmd",
+        "href": "index.qmd#tag-0043",
+        "relation": "requiere"
+      },
+      {
+        "tag": "0052",
+        "title": "Media aritmética",
+        "source": "contenidos/libro/estadistica/index.qmd",
+        "href": "index.qmd#tag-0052",
+        "relation": "requiere"
+      },
+      {
+        "tag": "0054",
+        "title": "Mediana",
+        "source": "contenidos/libro/estadistica/index.qmd",
+        "href": "index.qmd#tag-0054",
+        "relation": "requiere"
+      }
+    ],
+    "0041": [
+      {
+        "tag": "0042",
+        "title": "Sesgo, error de medición y variación muestral",
+        "source": "contenidos/libro/estadistica/index.qmd",
+        "href": "index.qmd#tag-0042",
+        "relation": "requiere"
+      }
+    ],
+    "0039": [
+      {
+        "tag": "0043",
+        "title": "Recolección, codificación y depuración de datos",
+        "source": "contenidos/libro/estadistica/index.qmd",
+        "href": "index.qmd#tag-0043",
+        "relation": "requiere"
+      },
+      {
+        "tag": "0044",
+        "title": "Frecuencias absoluta, relativa y acumulada",
+        "source": "contenidos/libro/estadistica/index.qmd",
+        "href": "index.qmd#tag-0044",
+        "relation": "requiere"
+      },
+      {
+        "tag": "0046",
+        "title": "Tabla de doble entrada",
+        "source": "contenidos/libro/estadistica/index.qmd",
+        "href": "index.qmd#tag-0046",
+        "relation": "requiere"
+      },
+      {
+        "tag": "0047",
+        "title": "Selección de una representación gráfica",
+        "source": "contenidos/libro/estadistica/index.qmd",
+        "href": "index.qmd#tag-0047",
+        "relation": "requiere"
+      },
+      {
+        "tag": "0065",
+        "title": "Datos bivariados y diagrama de dispersión",
+        "source": "contenidos/libro/estadistica/index.qmd",
+        "href": "index.qmd#tag-0065",
+        "relation": "requiere"
+      }
+    ],
+    "0042": [
+      {
+        "tag": "0043",
+        "title": "Recolección, codificación y depuración de datos",
+        "source": "contenidos/libro/estadistica/index.qmd",
+        "href": "index.qmd#tag-0043",
+        "relation": "requiere"
+      },
+      {
+        "tag": "0064",
+        "title": "Variabilidad estadística",
+        "source": "contenidos/libro/estadistica/index.qmd",
+        "href": "index.qmd#tag-0064",
+        "relation": "requiere"
+      },
+      {
+        "tag": "0071",
+        "title": "Comunicación de conclusiones estadísticas",
+        "source": "contenidos/libro/estadistica/index.qmd",
+        "href": "index.qmd#tag-0071",
+        "relation": "requiere"
+      }
+    ],
+    "0044": [
+      {
+        "tag": "0045",
+        "title": "Datos agrupados en intervalos",
+        "source": "contenidos/libro/estadistica/index.qmd",
+        "href": "index.qmd#tag-0045",
+        "relation": "requiere"
+      },
+      {
+        "tag": "0046",
+        "title": "Tabla de doble entrada",
+        "source": "contenidos/libro/estadistica/index.qmd",
+        "href": "index.qmd#tag-0046",
+        "relation": "requiere"
+      },
+      {
+        "tag": "0047",
+        "title": "Selección de una representación gráfica",
+        "source": "contenidos/libro/estadistica/index.qmd",
+        "href": "index.qmd#tag-0047",
+        "relation": "requiere"
+      },
+      {
+        "tag": "0055",
+        "title": "Moda",
+        "source": "contenidos/libro/estadistica/index.qmd",
+        "href": "index.qmd#tag-0055",
+        "relation": "requiere"
+      }
+    ],
+    "0047": [
+      {
+        "tag": "0048",
+        "title": "Gráficos de barras, sectores y pictogramas",
+        "source": "contenidos/libro/estadistica/index.qmd",
+        "href": "index.qmd#tag-0048",
+        "relation": "requiere"
+      },
+      {
+        "tag": "0049",
+        "title": "Gráfico de líneas",
+        "source": "contenidos/libro/estadistica/index.qmd",
+        "href": "index.qmd#tag-0049",
+        "relation": "requiere"
+      },
+      {
+        "tag": "0050",
+        "title": "Histograma, polígono de frecuencias y ojiva",
+        "source": "contenidos/libro/estadistica/index.qmd",
+        "href": "index.qmd#tag-0050",
+        "relation": "requiere"
+      },
+      {
+        "tag": "0051",
+        "title": "Diagrama de puntos y diagrama de tallo y hojas",
+        "source": "contenidos/libro/estadistica/index.qmd",
+        "href": "index.qmd#tag-0051",
+        "relation": "requiere"
+      },
+      {
+        "tag": "0065",
+        "title": "Datos bivariados y diagrama de dispersión",
+        "source": "contenidos/libro/estadistica/index.qmd",
+        "href": "index.qmd#tag-0065",
+        "relation": "requiere"
+      },
+      {
+        "tag": "0068",
+        "title": "Comparación de distribuciones",
+        "source": "contenidos/libro/estadistica/index.qmd",
+        "href": "index.qmd#tag-0068",
+        "relation": "requiere"
+      },
+      {
+        "tag": "0069",
+        "title": "Gráficos engañosos y denominadores",
+        "source": "contenidos/libro/estadistica/index.qmd",
+        "href": "index.qmd#tag-0069",
+        "relation": "requiere"
+      }
+    ],
+    "0045": [
+      {
+        "tag": "0050",
+        "title": "Histograma, polígono de frecuencias y ojiva",
+        "source": "contenidos/libro/estadistica/index.qmd",
+        "href": "index.qmd#tag-0050",
+        "relation": "requiere"
+      }
+    ],
+    "0052": [
+      {
+        "tag": "0053",
+        "title": "Media ponderada",
+        "source": "contenidos/libro/estadistica/index.qmd",
+        "href": "index.qmd#tag-0053",
+        "relation": "requiere"
+      },
+      {
+        "tag": "0056",
+        "title": "Selección e interpretación de medidas de centro",
+        "source": "contenidos/libro/estadistica/index.qmd",
+        "href": "index.qmd#tag-0056",
+        "relation": "requiere"
+      },
+      {
+        "tag": "0060",
+        "title": "Desviación respecto de la media",
+        "source": "contenidos/libro/estadistica/index.qmd",
+        "href": "index.qmd#tag-0060",
+        "relation": "requiere"
+      },
+      {
+        "tag": "0062",
+        "title": "Coeficiente de variación",
+        "source": "contenidos/libro/estadistica/index.qmd",
+        "href": "index.qmd#tag-0062",
+        "relation": "requiere"
+      },
+      {
+        "tag": "0063",
+        "title": "Efecto de transformaciones sobre centro y dispersión",
+        "source": "contenidos/libro/estadistica/index.qmd",
+        "href": "index.qmd#tag-0063",
+        "relation": "requiere"
+      }
+    ],
+    "0054": [
+      {
+        "tag": "0056",
+        "title": "Selección e interpretación de medidas de centro",
+        "source": "contenidos/libro/estadistica/index.qmd",
+        "href": "index.qmd#tag-0056",
+        "relation": "requiere"
+      },
+      {
+        "tag": "0057",
+        "title": "Cuantiles, cuartiles, deciles y percentiles",
+        "source": "contenidos/libro/estadistica/index.qmd",
+        "href": "index.qmd#tag-0057",
+        "relation": "requiere"
+      },
+      {
+        "tag": "0063",
+        "title": "Efecto de transformaciones sobre centro y dispersión",
+        "source": "contenidos/libro/estadistica/index.qmd",
+        "href": "index.qmd#tag-0063",
+        "relation": "requiere"
+      }
+    ],
+    "0055": [
+      {
+        "tag": "0056",
+        "title": "Selección e interpretación de medidas de centro",
+        "source": "contenidos/libro/estadistica/index.qmd",
+        "href": "index.qmd#tag-0056",
+        "relation": "requiere"
+      }
+    ],
+    "0057": [
+      {
+        "tag": "0058",
+        "title": "Diagrama de caja",
+        "source": "contenidos/libro/estadistica/index.qmd",
+        "href": "index.qmd#tag-0058",
+        "relation": "requiere"
+      },
+      {
+        "tag": "0059",
+        "title": "Rango y rango intercuartílico",
+        "source": "contenidos/libro/estadistica/index.qmd",
+        "href": "index.qmd#tag-0059",
+        "relation": "requiere"
+      }
+    ],
+    "0060": [
+      {
+        "tag": "0061",
+        "title": "Varianza y desviación estándar",
+        "source": "contenidos/libro/estadistica/index.qmd",
+        "href": "index.qmd#tag-0061",
+        "relation": "requiere"
+      }
+    ],
+    "0061": [
+      {
+        "tag": "0062",
+        "title": "Coeficiente de variación",
+        "source": "contenidos/libro/estadistica/index.qmd",
+        "href": "index.qmd#tag-0062",
+        "relation": "requiere"
+      },
+      {
+        "tag": "0063",
+        "title": "Efecto de transformaciones sobre centro y dispersión",
+        "source": "contenidos/libro/estadistica/index.qmd",
+        "href": "index.qmd#tag-0063",
+        "relation": "requiere"
+      },
+      {
+        "tag": "0064",
+        "title": "Variabilidad estadística",
+        "source": "contenidos/libro/estadistica/index.qmd",
+        "href": "index.qmd#tag-0064",
+        "relation": "requiere"
+      }
+    ],
+    "0059": [
+      {
+        "tag": "0063",
+        "title": "Efecto de transformaciones sobre centro y dispersión",
+        "source": "contenidos/libro/estadistica/index.qmd",
+        "href": "index.qmd#tag-0063",
+        "relation": "requiere"
+      },
+      {
+        "tag": "0064",
+        "title": "Variabilidad estadística",
+        "source": "contenidos/libro/estadistica/index.qmd",
+        "href": "index.qmd#tag-0064",
+        "relation": "requiere"
+      },
+      {
+        "tag": "0068",
+        "title": "Comparación de distribuciones",
+        "source": "contenidos/libro/estadistica/index.qmd",
+        "href": "index.qmd#tag-0068",
+        "relation": "requiere"
+      }
+    ],
+    "0036": [
+      {
+        "tag": "0064",
+        "title": "Variabilidad estadística",
+        "source": "contenidos/libro/estadistica/index.qmd",
+        "href": "index.qmd#tag-0064",
+        "relation": "requiere"
+      },
+      {
+        "tag": "0071",
+        "title": "Comunicación de conclusiones estadísticas",
+        "source": "contenidos/libro/estadistica/index.qmd",
+        "href": "index.qmd#tag-0071",
+        "relation": "requiere"
+      },
+      {
+        "tag": "0072",
+        "title": "Ética y procedencia de los datos",
+        "source": "contenidos/libro/estadistica/index.qmd",
+        "href": "index.qmd#tag-0072",
+        "relation": "requiere"
+      }
+    ],
+    "0065": [
+      {
+        "tag": "0066",
+        "title": "Asociación y correlación lineal",
+        "source": "contenidos/libro/estadistica/index.qmd",
+        "href": "index.qmd#tag-0066",
+        "relation": "requiere"
+      }
+    ],
+    "0046": [
+      {
+        "tag": "0067",
+        "title": "Asociación en tablas de doble entrada",
+        "source": "contenidos/libro/estadistica/index.qmd",
+        "href": "index.qmd#tag-0067",
+        "relation": "requiere"
+      }
+    ],
+    "0056": [
+      {
+        "tag": "0068",
+        "title": "Comparación de distribuciones",
+        "source": "contenidos/libro/estadistica/index.qmd",
+        "href": "index.qmd#tag-0068",
+        "relation": "requiere"
+      }
+    ],
+    "0064": [
+      {
+        "tag": "0068",
+        "title": "Comparación de distribuciones",
+        "source": "contenidos/libro/estadistica/index.qmd",
+        "href": "index.qmd#tag-0068",
+        "relation": "requiere"
+      }
+    ],
+    "0066": [
+      {
+        "tag": "0070",
+        "title": "Asociación, causalidad y variables de confusión",
+        "source": "contenidos/libro/estadistica/index.qmd",
+        "href": "index.qmd#tag-0070",
+        "relation": "requiere"
+      }
+    ],
+    "0068": [
+      {
+        "tag": "0071",
+        "title": "Comunicación de conclusiones estadísticas",
+        "source": "contenidos/libro/estadistica/index.qmd",
+        "href": "index.qmd#tag-0071",
+        "relation": "requiere"
+      }
+    ],
+    "0069": [
+      {
+        "tag": "0071",
+        "title": "Comunicación de conclusiones estadísticas",
+        "source": "contenidos/libro/estadistica/index.qmd",
+        "href": "index.qmd#tag-0071",
+        "relation": "requiere"
+      }
+    ],
+    "0043": [
+      {
+        "tag": "0072",
+        "title": "Ética y procedencia de los datos",
+        "source": "contenidos/libro/estadistica/index.qmd",
+        "href": "index.qmd#tag-0072",
+        "relation": "requiere"
+      }
+    ],
+    "0071": [
+      {
+        "tag": "0072",
+        "title": "Ética y procedencia de los datos",
+        "source": "contenidos/libro/estadistica/index.qmd",
+        "href": "index.qmd#tag-0072",
+        "relation": "requiere"
+      }
+    ],
     "C001": [
       {
         "tag": "0001",
@@ -729,6 +2859,410 @@
         "relation": "requiere"
       }
     ],
+    "0000": [
+      {
+        "tag": "0005",
+        "title": "Enumeración sistemática, tablas y diagramas de árbol",
+        "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
+        "href": "combinatoria-probabilidad.qmd#tag-0005",
+        "relation": "requiere"
+      }
+    ],
+    "0004": [
+      {
+        "tag": "0005",
+        "title": "Enumeración sistemática, tablas y diagramas de árbol",
+        "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
+        "href": "combinatoria-probabilidad.qmd#tag-0005",
+        "relation": "requiere"
+      },
+      {
+        "tag": "0007",
+        "title": "Permutación simple",
+        "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
+        "href": "combinatoria-probabilidad.qmd#tag-0007",
+        "relation": "requiere"
+      },
+      {
+        "tag": "0010",
+        "title": "Variación sin repetición",
+        "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
+        "href": "combinatoria-probabilidad.qmd#tag-0010",
+        "relation": "requiere"
+      },
+      {
+        "tag": "0011",
+        "title": "Variación con repetición",
+        "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
+        "href": "combinatoria-probabilidad.qmd#tag-0011",
+        "relation": "requiere"
+      }
+    ],
+    "0006": [
+      {
+        "tag": "0007",
+        "title": "Permutación simple",
+        "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
+        "href": "combinatoria-probabilidad.qmd#tag-0007",
+        "relation": "requiere"
+      },
+      {
+        "tag": "0008",
+        "title": "Permutaciones con elementos repetidos",
+        "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
+        "href": "combinatoria-probabilidad.qmd#tag-0008",
+        "relation": "requiere"
+      },
+      {
+        "tag": "0009",
+        "title": "Permutaciones circulares",
+        "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
+        "href": "combinatoria-probabilidad.qmd#tag-0009",
+        "relation": "requiere"
+      },
+      {
+        "tag": "0010",
+        "title": "Variación sin repetición",
+        "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
+        "href": "combinatoria-probabilidad.qmd#tag-0010",
+        "relation": "requiere"
+      },
+      {
+        "tag": "0012",
+        "title": "Combinación sin repetición",
+        "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
+        "href": "combinatoria-probabilidad.qmd#tag-0012",
+        "relation": "requiere"
+      },
+      {
+        "tag": "0013",
+        "title": "Combinación con repetición",
+        "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
+        "href": "combinatoria-probabilidad.qmd#tag-0013",
+        "relation": "requiere"
+      }
+    ],
+    "0007": [
+      {
+        "tag": "0008",
+        "title": "Permutaciones con elementos repetidos",
+        "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
+        "href": "combinatoria-probabilidad.qmd#tag-0008",
+        "relation": "requiere"
+      },
+      {
+        "tag": "0009",
+        "title": "Permutaciones circulares",
+        "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
+        "href": "combinatoria-probabilidad.qmd#tag-0009",
+        "relation": "requiere"
+      }
+    ],
+    "0010": [
+      {
+        "tag": "0012",
+        "title": "Combinación sin repetición",
+        "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
+        "href": "combinatoria-probabilidad.qmd#tag-0012",
+        "relation": "requiere"
+      }
+    ],
+    "0012": [
+      {
+        "tag": "0013",
+        "title": "Combinación con repetición",
+        "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
+        "href": "combinatoria-probabilidad.qmd#tag-0013",
+        "relation": "requiere"
+      },
+      {
+        "tag": "0014",
+        "title": "Coeficientes binomiales y triángulo de Pascal",
+        "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
+        "href": "combinatoria-probabilidad.qmd#tag-0014",
+        "relation": "requiere"
+      },
+      {
+        "tag": "0032",
+        "title": "Modelo de Bernoulli y distribución binomial",
+        "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
+        "href": "combinatoria-probabilidad.qmd#tag-0032",
+        "relation": "requiere"
+      }
+    ],
+    "0015": [
+      {
+        "tag": "0016",
+        "title": "Resultado, espacio muestral y evento",
+        "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
+        "href": "combinatoria-probabilidad.qmd#tag-0016",
+        "relation": "requiere"
+      },
+      {
+        "tag": "0029",
+        "title": "Simulación de experimentos aleatorios",
+        "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
+        "href": "combinatoria-probabilidad.qmd#tag-0029",
+        "relation": "requiere"
+      }
+    ],
+    "0016": [
+      {
+        "tag": "0017",
+        "title": "Operaciones entre eventos",
+        "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
+        "href": "combinatoria-probabilidad.qmd#tag-0017",
+        "relation": "requiere"
+      },
+      {
+        "tag": "0018",
+        "title": "Probabilidad",
+        "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
+        "href": "combinatoria-probabilidad.qmd#tag-0018",
+        "relation": "requiere"
+      },
+      {
+        "tag": "0019",
+        "title": "Regla de Laplace",
+        "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
+        "href": "combinatoria-probabilidad.qmd#tag-0019",
+        "relation": "requiere"
+      },
+      {
+        "tag": "0030",
+        "title": "Variable aleatoria",
+        "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
+        "href": "combinatoria-probabilidad.qmd#tag-0030",
+        "relation": "requiere"
+      }
+    ],
+    "0018": [
+      {
+        "tag": "0019",
+        "title": "Regla de Laplace",
+        "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
+        "href": "combinatoria-probabilidad.qmd#tag-0019",
+        "relation": "requiere"
+      },
+      {
+        "tag": "0020",
+        "title": "Probabilidad empírica y estabilización de frecuencias",
+        "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
+        "href": "combinatoria-probabilidad.qmd#tag-0020",
+        "relation": "requiere"
+      },
+      {
+        "tag": "0021",
+        "title": "Regla del complemento",
+        "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
+        "href": "combinatoria-probabilidad.qmd#tag-0021",
+        "relation": "requiere"
+      },
+      {
+        "tag": "0022",
+        "title": "Regla aditiva de la probabilidad",
+        "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
+        "href": "combinatoria-probabilidad.qmd#tag-0022",
+        "relation": "requiere"
+      },
+      {
+        "tag": "0023",
+        "title": "Probabilidad condicional",
+        "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
+        "href": "combinatoria-probabilidad.qmd#tag-0023",
+        "relation": "requiere"
+      },
+      {
+        "tag": "0034",
+        "title": "Interpretaciones de la probabilidad y lectura crítica",
+        "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
+        "href": "combinatoria-probabilidad.qmd#tag-0034",
+        "relation": "requiere"
+      }
+    ],
+    "0017": [
+      {
+        "tag": "0021",
+        "title": "Regla del complemento",
+        "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
+        "href": "combinatoria-probabilidad.qmd#tag-0021",
+        "relation": "requiere"
+      },
+      {
+        "tag": "0022",
+        "title": "Regla aditiva de la probabilidad",
+        "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
+        "href": "combinatoria-probabilidad.qmd#tag-0022",
+        "relation": "requiere"
+      },
+      {
+        "tag": "0023",
+        "title": "Probabilidad condicional",
+        "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
+        "href": "combinatoria-probabilidad.qmd#tag-0023",
+        "relation": "requiere"
+      }
+    ],
+    "0023": [
+      {
+        "tag": "0024",
+        "title": "Regla multiplicativa de la probabilidad",
+        "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
+        "href": "combinatoria-probabilidad.qmd#tag-0024",
+        "relation": "requiere"
+      },
+      {
+        "tag": "0025",
+        "title": "Independencia de eventos",
+        "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
+        "href": "combinatoria-probabilidad.qmd#tag-0025",
+        "relation": "requiere"
+      },
+      {
+        "tag": "0027",
+        "title": "Teorema de Bayes elemental",
+        "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
+        "href": "combinatoria-probabilidad.qmd#tag-0027",
+        "relation": "requiere"
+      },
+      {
+        "tag": "0028",
+        "title": "Árboles de probabilidad y tablas de contingencia",
+        "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
+        "href": "combinatoria-probabilidad.qmd#tag-0028",
+        "relation": "requiere"
+      },
+      {
+        "tag": "0034",
+        "title": "Interpretaciones de la probabilidad y lectura crítica",
+        "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
+        "href": "combinatoria-probabilidad.qmd#tag-0034",
+        "relation": "requiere"
+      }
+    ],
+    "0024": [
+      {
+        "tag": "0025",
+        "title": "Independencia de eventos",
+        "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
+        "href": "combinatoria-probabilidad.qmd#tag-0025",
+        "relation": "requiere"
+      },
+      {
+        "tag": "0026",
+        "title": "Regla de la probabilidad total",
+        "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
+        "href": "combinatoria-probabilidad.qmd#tag-0026",
+        "relation": "requiere"
+      },
+      {
+        "tag": "0028",
+        "title": "Árboles de probabilidad y tablas de contingencia",
+        "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
+        "href": "combinatoria-probabilidad.qmd#tag-0028",
+        "relation": "requiere"
+      }
+    ],
+    "0022": [
+      {
+        "tag": "0026",
+        "title": "Regla de la probabilidad total",
+        "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
+        "href": "combinatoria-probabilidad.qmd#tag-0026",
+        "relation": "requiere"
+      }
+    ],
+    "0026": [
+      {
+        "tag": "0027",
+        "title": "Teorema de Bayes elemental",
+        "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
+        "href": "combinatoria-probabilidad.qmd#tag-0027",
+        "relation": "requiere"
+      },
+      {
+        "tag": "0028",
+        "title": "Árboles de probabilidad y tablas de contingencia",
+        "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
+        "href": "combinatoria-probabilidad.qmd#tag-0028",
+        "relation": "requiere"
+      }
+    ],
+    "0005": [
+      {
+        "tag": "0028",
+        "title": "Árboles de probabilidad y tablas de contingencia",
+        "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
+        "href": "combinatoria-probabilidad.qmd#tag-0028",
+        "relation": "requiere"
+      }
+    ],
+    "0020": [
+      {
+        "tag": "0029",
+        "title": "Simulación de experimentos aleatorios",
+        "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
+        "href": "combinatoria-probabilidad.qmd#tag-0029",
+        "relation": "requiere"
+      },
+      {
+        "tag": "0034",
+        "title": "Interpretaciones de la probabilidad y lectura crítica",
+        "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
+        "href": "combinatoria-probabilidad.qmd#tag-0034",
+        "relation": "requiere"
+      }
+    ],
+    "0030": [
+      {
+        "tag": "0031",
+        "title": "Distribución de una variable aleatoria discreta",
+        "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
+        "href": "combinatoria-probabilidad.qmd#tag-0031",
+        "relation": "requiere"
+      },
+      {
+        "tag": "0033",
+        "title": "Variable continua y modelo normal",
+        "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
+        "href": "combinatoria-probabilidad.qmd#tag-0033",
+        "relation": "requiere"
+      }
+    ],
+    "0025": [
+      {
+        "tag": "0032",
+        "title": "Modelo de Bernoulli y distribución binomial",
+        "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
+        "href": "combinatoria-probabilidad.qmd#tag-0032",
+        "relation": "requiere"
+      }
+    ],
+    "0031": [
+      {
+        "tag": "0032",
+        "title": "Modelo de Bernoulli y distribución binomial",
+        "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
+        "href": "combinatoria-probabilidad.qmd#tag-0032",
+        "relation": "requiere"
+      },
+      {
+        "tag": "0033",
+        "title": "Variable continua y modelo normal",
+        "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
+        "href": "combinatoria-probabilidad.qmd#tag-0033",
+        "relation": "requiere"
+      }
+    ],
+    "H001": [
+      {
+        "tag": "0003",
+        "title": "Descuento porcentual",
+        "source": "contenidos/paes/m1/preguntas-originales/porcentajes.qmd",
+        "href": "../paes/m1/preguntas-originales/porcentajes.qmd#tag-0003",
+        "relation": "evalua"
+      }
+    ],
     "0002": [
       {
         "tag": "0003",
@@ -745,15 +3279,6 @@
         "relation": "requiere"
       }
     ],
-    "H001": [
-      {
-        "tag": "0003",
-        "title": "Descuento porcentual",
-        "source": "contenidos/paes/m1/preguntas-originales/porcentajes.qmd",
-        "href": "../paes/m1/preguntas-originales/porcentajes.qmd#tag-0003",
-        "relation": "evalua"
-      }
-    ],
     "0003": [
       {
         "tag": "U001",
@@ -761,15 +3286,6 @@
         "source": "contenidos/universitario/estadistica/media-ponderada.qmd",
         "href": "../../../universitario/estadistica/media-ponderada.qmd#tag-U001",
         "relation": "profundiza"
-      }
-    ],
-    "C002": [
-      {
-        "tag": "U001",
-        "title": "Calificación final ponderada",
-        "source": "contenidos/universitario/estadistica/media-ponderada.qmd",
-        "href": "../universitario/estadistica/media-ponderada.qmd#tag-U001",
-        "relation": "pertenece_a"
       }
     ]
   }

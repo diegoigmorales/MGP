@@ -11,6 +11,7 @@ book:
     - part: contenidos/libro/index.qmd
       chapters:
         - contenidos/libro/numeros/porcentajes.qmd
+        - contenidos/libro/probabilidad/combinatoria-probabilidad.qmd
         - contenidos/libro/estadistica/index.qmd
     - part: contenidos/curriculo-evaluacion.qmd
       chapters:

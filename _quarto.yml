@@ -21,7 +21,9 @@ website:
         contents:
           - text: "Capítulo 1. Porcentajes"
             href: contenidos/libro/numeros/porcentajes.qmd
-          - text: "Capítulo 2. Estadística escolar"
+          - text: "Capítulo 44. Combinatoria y probabilidad"
+            href: contenidos/libro/probabilidad/combinatoria-probabilidad.qmd
+          - text: "Capítulo 45. Estadística escolar"
             href: contenidos/libro/estadistica/index.qmd
       - section: "Parte II. Currículo, evaluación y desarrollo profesional"
         href: contenidos/curriculo-evaluacion.qmd
