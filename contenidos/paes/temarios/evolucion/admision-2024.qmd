@@ -3,11 +3,11 @@ number-sections: false
 description: "Cambios del temario regular respecto de Admisión 2023 y base histórica de la PAES de invierno."
 ---
 
-# Admisión 2024: cambios y primera edición de invierno {.unnumbered}
+# 4.4.2 Admisión 2024: cambios y primera aplicación de invierno {.unnumbered}
 
 ## Fuentes y rendición
 
-| Modalidad | Publicación | Rendición | Fuentes |
+| Aplicación | Publicación | Rendición | Fuentes |
 |---|---:|---:|---|
 | Invierno | 26 ene 2023 | primer semestre de 2023 | [M1](https://demre.cl/publicaciones/2024/2024-23-01-26-temario-paes-invierno-m1) · [M2](https://demre.cl/publicaciones/2024/2024-23-01-26-temario-paes-invierno-m2) |
 | Regular | 23 mar 2023 | fines del segundo semestre de 2023 | [M1](https://demre.cl/publicaciones/2024/2024-23-03-23-temario-paes-regular-m1) · [M2](https://demre.cl/publicaciones/2024/2024-23-03-23-temario-paes-regular-m2) |
@@ -55,7 +55,7 @@ La estructura pasa de **17 unidades y 49 enunciados** a **16 y 45** en M1. Los c
 
 M2 hereda además la eliminación de semejanza y la reducción de cuerpos geométricos ocurridas en M1.
 
-### ¿Qué significa para el estudiante?
+### Interpretación profesional
 
 La preparación regular se estrecha en geometría escolar: conos, semejanza, escala y Thales dejan de estar declarados. En cambio, M2 incorpora por primera vez situaciones financieras aplicadas. La ampliación de la referencia curricular de M2 aclara que su base evaluable incluye también todo el recorrido de M1.
 
@@ -77,7 +77,7 @@ Esta remisión forma la versión completa de invierno sin duplicar dos veces un 
 ::: {.callout-note}
 ### No mezclar las dos comparaciones
 
-La regular 2024 no se compara con invierno 2024. A partir del siguiente proceso, cada modalidad se seguirá contra su propia edición anterior.
+La regular 2024 no se compara con invierno 2024. A partir del siguiente proceso, cada aplicación se seguirá contra su propia edición anterior.
 :::
 
 [Anterior: Admisión 2023](admision-2023.qmd) · [Siguiente: Admisión 2025](admision-2025.qmd) · [Volver a la evolución](index.qmd)

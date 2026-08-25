@@ -1,11 +1,8 @@
 ---
-description: "Pregunta de la PAES de Competencia Matemática M1 de Invierno para el proceso de Admisión 2027."
+title: "Pregunta 65 · PAES M1 Invierno — Admisión 2027"
+paes-question: 65
+knowledge-tag: "2765"
 ---
-
-# Pregunta 65 · PAES M1 Invierno — Admisión 2027 {.unnumbered}
-
-:::: {.knowledge-object #tag-2765 tag="2765" type="pregunta" title="Pregunta 65 · PAES M1 Invierno — Admisión 2027"}
-## Pregunta 65
 
 De acuerdo al estudio “Profundización de Ocupaciones 2024” de la Subsecretaría del Trabajo, la cantidad de guías de turismo que se han registrado en Chile y en la Región de Valparaíso son:
 
@@ -39,6 +36,3 @@ Si se escoge al azar a un guía de turismo de la Región de Valparaíso, ¿cuál
 1. $\dfrac{64 + 51}{3621}$
 1. $\dfrac{64}{3621} + \dfrac{51}{3621}$
 :::
-
-
-::::

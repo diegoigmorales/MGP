@@ -3,11 +3,11 @@ number-sections: false
 description: "Cambios regulares e invierno respecto de sus ediciones Admisión 2024."
 ---
 
-# Admisión 2025: precisión en M1 y nuevas áreas en M2 {.unnumbered}
+# 4.4.3 Admisión 2025: precisión en M1 y nuevas áreas en M2 {.unnumbered}
 
 ## Fuentes y rendición
 
-| Modalidad | Publicación | Rendición | Fuentes |
+| Aplicación | Publicación | Rendición | Fuentes |
 |---|---:|---:|---|
 | Invierno | 25 ene 2024 | 17–19 jun 2024 | [M1](https://demre.cl/publicaciones/2025/2025-24-01-25-temario-paes-invierno-m1) · [M2](https://demre.cl/publicaciones/2025/2025-24-01-25-temario-paes-invierno-m2) |
 | Regular | 21 mar 2024 | 2–4 dic 2024 | [M1](https://demre.cl/publicaciones/2025/2025-24-03-21-temario-paes-regular-m1) · [M2](https://demre.cl/publicaciones/2025/2025-24-03-21-temario-paes-regular-m2) |
@@ -50,9 +50,9 @@ M1 conserva 16 unidades y pasa de **45 a 46 enunciados** por el desdoblamiento d
 | [Incorporado]{.change-badge .change-added} | Probabilidad · Modelos probabilísticos | No figuraba. | Problemas con modelos binomiales. |
 :::
 
-### ¿Qué significa para el estudiante?
+### Interpretación profesional
 
-En M1 conviene practicar la distinción entre operatoria de enteros y comparación de racionales, y considerar el desarrollo algebraico de manera explícita. En M2 cambia el foco de una profundización en ecuaciones cuadráticas hacia funciones y modelos: aparece función potencia y entra el modelo binomial.
+En M1 se vuelve explícita la distinción entre operatoria de enteros y comparación de racionales, además del desarrollo algebraico. En M2, el foco adicional se desplaza desde métodos específicos para ecuaciones cuadráticas hacia funciones y modelos: aparecen la función potencia y el modelo binomial.
 
 ### Diferencia acumulada respecto de Admisión 2023
 

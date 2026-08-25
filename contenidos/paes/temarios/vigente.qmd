@@ -3,10 +3,10 @@ number-sections: false
 description: "Temario consolidado de M1 y M2 para las PAES regular y de invierno del proceso de Admisión 2027."
 ---
 
-# Temario vigente · Admisión 2027 {.unnumbered}
+# 4.3 Temario vigente: Admisión 2027 {.unnumbered}
 
 ::: {.temario-hero}
-## Admisión 2027
+## 4.3.1 Alcance documental
 
 La edición regular fue publicada el **19 de marzo de 2026** para rendirse a fines de 2026. La edición de invierno fue publicada el **23 de enero de 2026** y se rindió entre el 15 y el 17 de junio de 2026.
 
@@ -14,12 +14,12 @@ La edición regular fue publicada el **19 de marzo de 2026** para rendirse a fin
 :::
 
 ::: {.callout-important}
-## Elige tu modalidad
+## 4.3.2 Criterio de presentación
 
-Los contenidos comunes se presentan una sola vez. Las marcas **Solo regular** señalan alcance que no figura en el temario de invierno 2027. M2 siempre incluye todo el M1 de la misma modalidad.
+Los contenidos comunes se presentan una sola vez. Las marcas **Solo regular** señalan alcance que no figura en el temario de invierno 2027. M2 siempre incluye todo el M1 de la misma aplicación.
 :::
 
-## Características generales
+## 4.3.3 Características generales
 
 | Característica | M1 | M2 |
 |---|---|---|
@@ -29,7 +29,7 @@ Los contenidos comunes se presentan una sola vez. Las marcas **Solo regular** se
 | Duración | 2 horas y 20 minutos | 2 horas y 20 minutos |
 | Particularidad | Prueba obligatoria | Incluye preguntas de suficiencia de datos |
 
-### Habilidades y criterios
+### Habilidades y criterios de evaluación
 
 | Habilidad | Qué se observa |
 |---|---|
@@ -38,7 +38,7 @@ Los contenidos comunes se presentan una sola vez. Las marcas **Solo regular** se
 | Representar | Traduce entre lenguaje natural y matemático, interpreta representaciones y transfiere información entre ellas. |
 | Argumentar | Evalúa argumentos, identifica errores en procedimientos o demostraciones y valida deducciones. |
 
-## Competencia Matemática 1 {#m1-regular}
+## 4.3.4 Competencia Matemática M1 {#m1-vigente}
 
 ### Números
 
@@ -127,7 +127,7 @@ Los contenidos comunes se presentan una sola vez. Las marcas **Solo regular** se
 ::: {.temario-unit}
 #### Cuerpos geométricos
 
-- **Ambas modalidades:** superficie, volumen y problemas de paralelepípedos y cubos.
+- **Ambas aplicaciones:** superficie, volumen y problemas de paralelepípedos y cubos.
 - [Solo regular]{.change-badge .change-added} Los tres enunciados incluyen también cilindros.
 :::
 
@@ -173,9 +173,9 @@ Los contenidos comunes se presentan una sola vez. Las marcas **Solo regular** se
 - Reglas aditiva y multiplicativa de probabilidades.
 :::
 
-## Competencia Matemática 2 {#m2-regular}
+## 4.3.5 Competencia Matemática M2 {#m2-vigente}
 
-M2 puede evaluar **todo el M1 de la modalidad correspondiente** y, además, los contenidos siguientes.
+M2 puede evaluar **todo el M1 de la aplicación correspondiente** y, además, los contenidos siguientes.
 
 ### Números
 
@@ -289,7 +289,7 @@ M2 puede evaluar **todo el M1 de la modalidad correspondiente** y, además, los 
 - Problemas con la distribución normal.
 :::
 
-## Diferencia práctica entre modalidades
+## 4.3.6 Diferencias entre aplicaciones
 
 | Prueba | Invierno 2027 | Regular 2027 |
 |---|---|---|
@@ -298,9 +298,9 @@ M2 puede evaluar **todo el M1 de la modalidad correspondiente** y, además, los 
 | M2 heredado | Hereda M1 invierno. | Hereda los dos alcances adicionales de M1 regular. |
 
 ::: {.callout-tip}
-### Qué estudiar
+### Interpretación profesional
 
-Prepara siempre el temario de la modalidad que rendirás. Si aún no la has elegido, estudiar la versión regular cubre también todo lo que los documentos de invierno 2027 declaran explícitamente.
+Para orientar a postulantes o analizar cobertura, debe utilizarse el temario de la aplicación correspondiente. En Admisión 2027, el documento regular comprende además todos los contenidos declarados explícitamente en invierno.
 :::
 
 <p class="source-note">Síntesis completa del alcance documental de conocimientos. Para redacción normativa y diagramación original, consulta los PDF de DEMRE.</p>

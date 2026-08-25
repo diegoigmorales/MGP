@@ -4,11 +4,11 @@ toc: false
 number-sections: false
 ---
 
-# Evolución histórica de los temarios {.unnumbered}
+# 4.4 Evolución histórica de los temarios {.unnumbered}
 
-# Dos líneas de tiempo
+## Organización de las dos series
 
-La serie **regular** conserva como base el primer temario PAES, Admisión 2023. La serie **invierno** comienza en Admisión 2024. Cada página posterior registra diferencias respecto de la edición anterior de la misma modalidad.
+La serie **regular** conserva como base el primer temario PAES, Admisión 2023. La serie **invierno** comienza en Admisión 2024. Cada página posterior registra diferencias respecto de la edición anterior de la misma aplicación.
 
 ::: {.temario-grid}
 ::: {.temario-card}

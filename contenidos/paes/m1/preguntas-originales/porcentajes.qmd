@@ -3,7 +3,7 @@ title: "Pregunta original: descuento porcentual"
 description: "Ejemplo de análisis progresivo de una pregunta tipo PAES."
 ---
 
-## Parte I · La pregunta
+## La pregunta
 
 :::: {.knowledge-object #tag-0003 tag="0003" type="pregunta" title="Descuento porcentual" usa="0001,0002" pertenece_a="C001" evalua="H001"}
 ### Descuento porcentual
@@ -46,7 +46,7 @@ $$
 :::
 ::::
 
-## Parte II · Qué se espera del estudiante
+## Análisis profesional
 
 ### Materia
 
@@ -61,6 +61,6 @@ Evalúa [resolver problemas](../../../curriculum/habilidades.qmd#tag-H001): trad
 - [Definición de porcentaje](../../../libro/numeros/porcentajes.qmd#tag-0001)
 - [Técnica para calcular un porcentaje](../../../libro/numeros/porcentajes.qmd#tag-0002)
 
-## Parte III · Procedencia
+## Procedencia
 
 Esta es una pregunta original del proyecto. Si fuera una pregunta externa, aquí se mostrarían autor, título, fuente, enlace, titular de derechos y fundamento de uso.

@@ -4,9 +4,9 @@ toc: false
 number-sections: false
 ---
 
-# Libro de matemática {.unnumbered}
+# Parte I. Matemática escolar para la enseñanza {.unnumbered}
 
-## Números y proporcionalidad
+## Capítulo 1. Porcentajes
 
 - [Índice de números](numeros/index.qmd)
 - [Porcentajes: definición, técnicas y ejemplos](numeros/porcentajes.qmd)

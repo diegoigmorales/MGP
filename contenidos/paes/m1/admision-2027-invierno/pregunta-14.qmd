@@ -1,11 +1,8 @@
 ---
-description: "Pregunta de la PAES de Competencia Matemática M1 de Invierno para el proceso de Admisión 2027."
+title: "Pregunta 14 · PAES M1 Invierno — Admisión 2027"
+paes-question: 14
+knowledge-tag: "2714"
 ---
-
-# Pregunta 14 · PAES M1 Invierno — Admisión 2027 {.unnumbered}
-
-:::: {.knowledge-object #tag-2714 tag="2714" type="pregunta" title="Pregunta 14 · PAES M1 Invierno — Admisión 2027"}
-## Pregunta 14
 
 En una prueba, el índice de dificultad de una pregunta se calcula como $\dfrac{c}{n}$, tal que $c$ es la cantidad de personas que respondieron correctamente la pregunta y $n$ es el total de personas que la respondieron. Considera una pregunta que fue respondida correctamente por $280$ personas e incorrectamente por $560$ personas. ¿Cuál es el índice de dificultad de esa pregunta?
 
@@ -16,6 +13,3 @@ En una prueba, el índice de dificultad de una pregunta se calcula como $\dfrac{
 1. $\dfrac{2}{3}$
 1. $2$
 :::
-
-
-::::

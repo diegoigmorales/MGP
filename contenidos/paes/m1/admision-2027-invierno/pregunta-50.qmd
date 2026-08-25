@@ -1,11 +1,8 @@
 ---
-description: "Pregunta de la PAES de Competencia Matemática M1 de Invierno para el proceso de Admisión 2027."
+title: "Pregunta 50 · PAES M1 Invierno — Admisión 2027"
+paes-question: 50
+knowledge-tag: "2750"
 ---
-
-# Pregunta 50 · PAES M1 Invierno — Admisión 2027 {.unnumbered}
-
-:::: {.knowledge-object #tag-2750 tag="2750" type="pregunta" title="Pregunta 50 · PAES M1 Invierno — Admisión 2027"}
-## Pregunta 50
 
 En una empresa de embalaje, al ingresar una caja a una cinta transportadora se le efectúa suavemente los movimientos para su sellado, tal como se representa a continuación:
 
@@ -24,6 +21,3 @@ Si los movimientos de la caja en la cinta transportadora son en relación con su
 1. (imagen)
 1. (imagen)
 :::
-
-
-::::

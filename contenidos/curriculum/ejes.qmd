@@ -3,7 +3,7 @@ number-sections: false
 toc: false
 ---
 
-# Ejes y materias {.unnumbered}
+# 3.1 Ejes y materias {.unnumbered}
 
 ## Ejes escolares y PAES
 

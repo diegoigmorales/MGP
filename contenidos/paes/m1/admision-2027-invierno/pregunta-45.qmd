@@ -1,11 +1,8 @@
 ---
-description: "Pregunta de la PAES de Competencia Matemática M1 de Invierno para el proceso de Admisión 2027."
+title: "Pregunta 45 · PAES M1 Invierno — Admisión 2027"
+paes-question: 45
+knowledge-tag: "2745"
 ---
-
-# Pregunta 45 · PAES M1 Invierno — Admisión 2027 {.unnumbered}
-
-:::: {.knowledge-object #tag-2745 tag="2745" type="pregunta" title="Pregunta 45 · PAES M1 Invierno — Admisión 2027"}
-## Pregunta 45
 
 En la figura adjunta se explican los términos “DAP” y “altura comercial” que se utilizan en la industria de producción forestal.
 
@@ -29,6 +26,3 @@ $$
 1. $0.039\,\pi m^3$
 1. $0.156\,\pi m^3$
 :::
-
-
-::::

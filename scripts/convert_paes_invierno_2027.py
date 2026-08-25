@@ -136,15 +136,13 @@ def convert_question(source: str, number: int) -> str:
     header = [
         "---",
         f'title: "{title}"',
-        'description: "Pregunta de la PAES de Competencia Matemática M1 de Invierno para el proceso de Admisión 2027."',
+        f"paes-question: {number}",
+        f'knowledge-tag: "{tag}"',
         "---",
         "",
-        f':::: {{.knowledge-object #tag-{tag} tag="{tag}" type="pregunta" title="{title}"}}',
-        f"## Pregunta {number}",
         "",
     ]
-    footer = ["", "::::", ""]
-    return "\n".join(header + converted + footer)
+    return "\n".join(header + converted + [""])
 
 
 def build_index() -> str:

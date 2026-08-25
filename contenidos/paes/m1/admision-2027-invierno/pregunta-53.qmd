@@ -1,11 +1,8 @@
 ---
-description: "Pregunta de la PAES de Competencia Matemática M1 de Invierno para el proceso de Admisión 2027."
+title: "Pregunta 53 · PAES M1 Invierno — Admisión 2027"
+paes-question: 53
+knowledge-tag: "2753"
 ---
-
-# Pregunta 53 · PAES M1 Invierno — Admisión 2027 {.unnumbered}
-
-:::: {.knowledge-object #tag-2753 tag="2753" type="pregunta" title="Pregunta 53 · PAES M1 Invierno — Admisión 2027"}
-## Pregunta 53
 
 En el siguiente gráfico se presenta la producción mensual de huevos de consumo en Chile desde febrero de 2024 a febrero de 2025.
 
@@ -24,6 +21,3 @@ En el siguiente gráfico se presenta la producción mensual de huevos de consumo
 1. En junio hubo la menor producción.
 1. En agosto hubo la mayor producción.
 :::
-
-
-::::

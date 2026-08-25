@@ -1,11 +1,8 @@
 ---
-description: "Pregunta de la PAES de Competencia Matemática M1 de Invierno para el proceso de Admisión 2027."
+title: "Pregunta 59 · PAES M1 Invierno — Admisión 2027"
+paes-question: 59
+knowledge-tag: "2759"
 ---
-
-# Pregunta 59 · PAES M1 Invierno — Admisión 2027 {.unnumbered}
-
-:::: {.knowledge-object #tag-2759 tag="2759" type="pregunta" title="Pregunta 59 · PAES M1 Invierno — Admisión 2027"}
-## Pregunta 59
 
 En la siguiente tabla se presenta el gasto diario en almuerzo de una persona durante una semana.
 
@@ -26,6 +23,3 @@ $$
 1. $\$6800$
 1. $\$9520$
 :::
-
-
-::::

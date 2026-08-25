@@ -1,11 +1,8 @@
 ---
-description: "Pregunta de la PAES de Competencia Matemática M1 de Invierno para el proceso de Admisión 2027."
+title: "Pregunta 15 · PAES M1 Invierno — Admisión 2027"
+paes-question: 15
+knowledge-tag: "2715"
 ---
-
-# Pregunta 15 · PAES M1 Invierno — Admisión 2027 {.unnumbered}
-
-:::: {.knowledge-object #tag-2715 tag="2715" type="pregunta" title="Pregunta 15 · PAES M1 Invierno — Admisión 2027"}
-## Pregunta 15
 
 Una empresa de estacionamientos cobra una tarifa de $\$25$ por cada minuto de uso.
 
@@ -20,6 +17,3 @@ Por un incremento en los costos, la empresa decide aumentar la tarifa por minuto
 1. $\$280$
 1. $\$120$
 :::
-
-
-::::

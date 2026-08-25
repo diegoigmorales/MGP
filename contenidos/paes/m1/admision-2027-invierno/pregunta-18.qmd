@@ -1,11 +1,8 @@
 ---
-description: "Pregunta de la PAES de Competencia Matemática M1 de Invierno para el proceso de Admisión 2027."
+title: "Pregunta 18 · PAES M1 Invierno — Admisión 2027"
+paes-question: 18
+knowledge-tag: "2718"
 ---
-
-# Pregunta 18 · PAES M1 Invierno — Admisión 2027 {.unnumbered}
-
-:::: {.knowledge-object #tag-2718 tag="2718" type="pregunta" title="Pregunta 18 · PAES M1 Invierno — Admisión 2027"}
-## Pregunta 18
 
 En la siguiente tabla se presenta la cantidad de licencias de conducir tramitadas a mujeres durante el 2021 por clase.
 
@@ -37,6 +34,3 @@ $$
 1. $\dfrac{244 \cdot 100}{7313}\%$
 1. $\dfrac{244}{7313 \cdot 100}\%$
 :::
-
-
-::::

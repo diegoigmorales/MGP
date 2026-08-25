@@ -1,22 +1,15 @@
 ---
-title: "Parte IV · Estadística"
+title: "Estadística y probabilidad"
+toc: false
+number-sections: false
 ---
 
-# Capítulo 1 · Estadística descriptiva
+# Estadística y probabilidad {.unnumbered}
 
-## Sección 1.1 · Medidas de centro
+En la arquitectura maestra futura, estos contenidos se distribuirán según su nivel y propósito entre estadística escolar, formación diferenciada, probabilidad matemática e inferencia estadística.
+
+- Capítulo 2. Estadística escolar.
+
+## Objetos publicados
 
 - [Media ponderada: problema de ejemplo](media-ponderada.qmd)
-
-## Sección 1.2 · Medidas de dispersión
-
-Contenido previsto.
-
-# Capítulo 2 · Probabilidad
-
-Contenido previsto.
-
-# Capítulo 3 · Inferencia estadística
-
-Contenido previsto.
-

@@ -1,11 +1,8 @@
 ---
-description: "Pregunta de la PAES de Competencia Matemática M1 de Invierno para el proceso de Admisión 2027."
+title: "Pregunta 28 · PAES M1 Invierno — Admisión 2027"
+paes-question: 28
+knowledge-tag: "2728"
 ---
-
-# Pregunta 28 · PAES M1 Invierno — Admisión 2027 {.unnumbered}
-
-:::: {.knowledge-object #tag-2728 tag="2728" type="pregunta" title="Pregunta 28 · PAES M1 Invierno — Admisión 2027"}
-## Pregunta 28
 
 En una empresa hay $4$ trabajadores para cosechar uvas y estos logran llenar $2000$ cajas en $20$ días de trabajo, todos trabajando todos los días, al mismo ritmo y la misma cantidad de horas.
 
@@ -27,6 +24,3 @@ En la empresa se realiza el siguiente procedimiento para calcular la cantidad de
 1. En el Paso 3
 1. En el Paso 4
 :::
-
-
-::::

@@ -1,11 +1,8 @@
 ---
-description: "Pregunta de la PAES de Competencia Matemática M1 de Invierno para el proceso de Admisión 2027."
+title: "Pregunta 36 · PAES M1 Invierno — Admisión 2027"
+paes-question: 36
+knowledge-tag: "2736"
 ---
-
-# Pregunta 36 · PAES M1 Invierno — Admisión 2027 {.unnumbered}
-
-:::: {.knowledge-object #tag-2736 tag="2736" type="pregunta" title="Pregunta 36 · PAES M1 Invierno — Admisión 2027"}
-## Pregunta 36
 
 En la siguiente tabla se presenta la tarifa a cobrar por minuto para el uso de los estacionamientos de dos centros comerciales.
 
@@ -29,6 +26,3 @@ Considerando una estadía de $55$ minutos, ¿cuánto más caro es estacionar en 
 1. $\$640$
 1. $\$560$
 :::
-
-
-::::

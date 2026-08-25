@@ -1,11 +1,8 @@
 ---
-description: "Pregunta de la PAES de Competencia Matemática M1 de Invierno para el proceso de Admisión 2027."
+title: "Pregunta 17 · PAES M1 Invierno — Admisión 2027"
+paes-question: 17
+knowledge-tag: "2717"
 ---
-
-# Pregunta 17 · PAES M1 Invierno — Admisión 2027 {.unnumbered}
-
-:::: {.knowledge-object #tag-2717 tag="2717" type="pregunta" title="Pregunta 17 · PAES M1 Invierno — Admisión 2027"}
-## Pregunta 17
 
 Para arrendar botes en una empresa se debe enviar una solicitud. En la siguiente figura se representa una solicitud que está en estado de “Aprobada” y le falta pasar por los últimos tres estados.
 
@@ -45,6 +42,3 @@ $$
 1. $65\,\%$
 1. $75\,\%$
 :::
-
-
-::::

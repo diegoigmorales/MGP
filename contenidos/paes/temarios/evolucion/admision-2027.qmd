@@ -3,11 +3,11 @@ number-sections: false
 description: "Últimos cambios regulares e invierno y comparación acumulada desde la primera PAES."
 ---
 
-# Admisión 2027: temarios vigentes {.unnumbered}
+# 4.4.5 Admisión 2027: temarios vigentes {.unnumbered}
 
 ## Fuentes y rendición
 
-| Modalidad | Publicación | Rendición | Fuente |
+| Aplicación | Publicación | Rendición | Fuente |
 |---|---:|---:|---|
 | Invierno | 23 ene 2026 | 15–17 jun 2026 | [Colección DEMRE](https://demre.cl/la-prueba/pruebas-y-temarios/presentacion-pruebas-temarios-paes-invierno) |
 | Regular | 19 mar 2026 | fines de 2026 | [Colección DEMRE](https://demre.cl/la-prueba/pruebas-y-temarios/presentacion-pruebas-temarios-paes-regular) |
@@ -57,7 +57,7 @@ En M1, el enunciado de problemas con función lineal y afín quedó unido a la v
 
 M2 hereda además el regreso de cilindros y de la unidad aplicada de semejanza desde M1.
 
-### ¿Qué significa para el estudiante?
+### Interpretación profesional
 
 La versión regular vuelve a ampliar geometría: M1 recupera cilindros y una forma aplicada de semejanza; M2 suma esfera y posiciones relativas de rectas. El retorno no restaura íntegramente el temario 2023: conos, Thales y prismas de otras bases continúan sin declararse.
 
@@ -119,6 +119,6 @@ M1 pasa de **16/46** a **15/45**. M2 propio pasa de **11/17** a **13/23**.
 
 ## Regular frente a invierno 2027
 
-La regular incluye, además de todo lo declarado en invierno, **cilindros y semejanza aplicada en M1**, y **esferas y rectas en el plano en M2**. La comparación completa está en el [temario vigente](../vigente.qmd#diferencia-práctica-entre-modalidades).
+La regular incluye, además de todo lo declarado en invierno, **cilindros y semejanza aplicada en M1**, y **esferas y rectas en el plano en M2**. La comparación completa está en el [temario vigente](../vigente.qmd#diferencia-práctica-entre-aplicaciones).
 
 [Anterior: Admisión 2026](admision-2026.qmd) · [Volver a la evolución](index.qmd) · [Comparación cronológica](../comparacion.qmd)

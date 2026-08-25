@@ -1,0 +1,87 @@
+---
+title: "3.6 Formación diferenciada"
+description: "Objetivos de aprendizaje de los electivos matemáticos de formación diferenciada."
+number-sections: false
+toc: true
+toc-depth: 3
+---
+
+# 3.6 Formación diferenciada {.unnumbered}
+
+## 3.6.1 Límites, Derivadas e Integrales
+
+### Unidad 1 -- Funciones {#unidad-1-funciones}
+
+1. **OA 1.** Utilizar diversas formas de representación acerca de la resultante de la composición de funciones y la existencia de la función inversa de una función dada.
+
+### Unidad 2 -- Límites {#unidad-2-límites}
+
+2. **OA 2.** Argumentar acerca de la existencia de límites de funciones en el infinito y en un punto para determinar convergencia y continuidad en contextos matemáticos, de las ciencias y de la vida diaria, en forma manuscrita y utilizando herramientas tecnológicas digitales.
+
+### Unidad 3 -- Derivadas {#unidad-3-derivadas}
+
+3. **OA 3.** Modelar situaciones o fenómenos que involucren rapidez instantánea de cambio y evaluar la necesidad eventual de ajustar el modelo obtenido.
+
+4. **OA 4.** Resolver problemas que involucren crecimiento o decrecimiento, concavidad, puntos máximos, mínimos o de inflexión de una función, a partir del cálculo de la primera y segunda derivada, en forma manuscrita y utilizando herramientas tecnológicas digitales.
+
+### Unidad 4 -- Integrales {#unidad-4-integrales}
+
+5. **OA 5.** Modelar situaciones o fenómenos que involucren el concepto de integral como área bajo la curva en contextos matemáticos, de las ciencias y de la vida diaria, en forma manuscrita y utilizando herramientas tecnológicas digitales, y evaluar la necesidad eventual de ajustar el modelo obtenido.
+
+## 3.6.2 Probabilidades y Estadística Descriptiva e Inferencial
+
+### Unidad 1 -- ¿Qué dicen los gráficos? Análisis crítico de la información {#unidad-1-qué-dicen-los-gráficos-análisis-crítico-de-la-información}
+
+1. **OA 1.** Argumentar y comunicar decisiones a partir del análisis crítico de información presente en histogramas, polígonos de frecuencia, frecuencia acumulada, diagramas de cajón y nube de puntos, incluyendo el uso de herramientas digitales.
+
+### Unidad 2 -- Media muestral, dispersión y correlación {#unidad-2-media-muestral-dispersión-y-correlación}
+
+2. **OA 2.** Resolver problemas que involucren los conceptos de media muestral, desviación estándar, varianza, coeficiente de variación y correlación muestral entre dos variables, tanto de forma manuscrita como haciendo uso de herramientas tecnológicas digitales.
+
+### Unidad 3 -- Situaciones o fenómenos que se modelan por medio de las distribuciones binomial y normal {#unidad-3-situaciones-o-fenómenos-que-se-modelan-por-medio-de-las-distribuciones-binomial-y-normal}
+
+3. **OA 3.** Modelar fenómenos o situaciones cotidianas del ámbito científico y del ámbito social, que requieran el cálculo de probabilidades y la aplicación de las distribuciones binomial y normal.
+
+### Unidad 4 -- Inferencia estadística {#unidad-4-inferencia-estadística}
+
+4. **OA 4.** Argumentar inferencias acerca de parámetros (media y varianza) o características de una población, a partir de datos de una muestra aleatoria, bajo el supuesto de normalidad y aplicando procedimientos con base en intervalos de confianza o pruebas de hipótesis.
+
+## 3.6.3 Pensamiento Computacional y Programación
+
+### Unidad 1 -- La escritura como medio para comunicar y almacenar la información {#unidad-1-la-escritura-como-medio-para-comunicar-y-almacenar-la-información}
+
+1. **OA 1.** Aplicar conceptos de Ciencias de la Computación -- abstracción, organización lógica de datos, análisis de soluciones alternativas y generalización-- al crear el código de una solución computacional.
+
+### Unidad 2 -- La resolución de problemas y las máquinas {#unidad-2-la-resolución-de-problemas-y-las-máquinas}
+
+2. **OA 2.** Representar diferente tipo de datos en una variedad de formas que incluya textos, sonidos, imágenes y números.
+
+3. **OA 3.** Desarrollar y programar algoritmos para ejecutar procedimientos matemáticos, realizar cálculos y obtener términos definidos por una regla o patrón.
+
+### Unidad 3 -- Ayuda de la computadora en problemas geométricos y estadísticos {#unidad-3-ayuda-de-la-computadora-en-problemas-geométricos-y-estadísticos}
+
+4. **OA 4.** Crear aplicaciones y realizar análisis mediante procesadores simbólicos, de geometría dinámica y de análisis estadístico.
+
+### Unidad 4 -- Elaboración de apps para dispositivos electrónicos móviles {#unidad-4-elaboración-de-apps-para-dispositivos-electrónicos-móviles}
+
+5. **OA 5.** Desarrollar aplicaciones para dispositivos móviles y para dispositivos provistos de sensores y mecanismos de control.
+
+6. **OA 6.** Utilizar la tecnología digital, y la información personal y privada que esta contiene, de una forma creativa, respetuosa y responsable.
+
+## 3.6.4 Geometría 3D
+
+### Unidad 1 -- Representación vectorial de situaciones y fenómenos {#unidad-1-representación-vectorial-de-situaciones-y-fenómenos}
+
+1. **OA 1.** Argumentar acerca de la validez de soluciones a situaciones que involucren isometrías y homotecias en el plano, haciendo uso de vectores y de representaciones digitales.
+
+### Unidad 2 -- Rectas y planos en el espacio {#unidad-2-rectas-y-planos-en-el-espacio}
+
+2. **OA 2.** Resolver problemas que involucren puntos, rectas y planos en el espacio 3D, haciendo uso de vectores e incluyendo representaciones digitales.
+
+### Unidad 3 -- Generación de cuerpos utilizando patrones geométricos {#unidad-3-generación-de-cuerpos-utilizando-patrones-geométricos}
+
+3. **OA 3.** Formular y verificar conjeturas acerca de la forma, área y volumen de figuras 3D generadas por rotación o traslación de figuras planas en el espacio, incluyendo el uso de herramientas tecnológicas digitales.
+
+### Unidad 4 -- Los objetos con sus caras y perspectivas {#unidad-4-los-objetos-con-sus-caras-y-perspectivas}
+
+4. **OA 4.** Resolver problemas que involucren relaciones entre figuras 3D y 2D en las que intervengan vistas, cortes, proyecciones en el plano o la inscripción de figuras 3D en otras figuras tridimensionales.

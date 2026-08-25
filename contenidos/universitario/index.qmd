@@ -1,36 +1,16 @@
 ---
-title: "Profundización universitaria"
+title: "Fundamentos universitarios y aplicaciones"
 description: "Contenidos y problemas conectados con sus fundamentos escolares."
+toc: false
+number-sections: false
 ---
 
-# Parte I · Fundamentos
+# Fundamentos universitarios y aplicaciones {.unnumbered}
 
-## Capítulo 1 · Lógica, conjuntos y demostraciones
+La arquitectura maestra ubica aquí los capítulos 52–73. La navegación pública incorporará cada capítulo cuando disponga de contenido desarrollado.
 
-Contenido previsto.
+## Objetos publicados
 
-# Parte II · Cálculo
-
-## Capítulo 2 · Límites y continuidad
-
-Contenido previsto.
-
-## Capítulo 3 · Derivación e integración
-
-Contenido previsto.
-
-# Parte III · Álgebra lineal
-
-## Capítulo 4 · Vectores, matrices y transformaciones
-
-Contenido previsto.
-
-# Parte IV · Probabilidad y estadística
-
-- [Índice de estadística](estadistica/index.qmd)
 - [Problema de media ponderada](estadistica/media-ponderada.qmd)
 
-# Parte V · Problemas de cursos
-
-Los problemas podrán clasificarse por asignatura, institución, año, prerrequisitos y procedencia, sin mezclar su autoría con la del análisis original.
-
+Este problema es un objeto consultable y no constituye por sí solo un capítulo.

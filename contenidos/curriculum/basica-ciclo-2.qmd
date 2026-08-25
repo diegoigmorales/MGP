@@ -1,0 +1,445 @@
+---
+title: "3.4 Enseñanza básica, ciclo II"
+description: "Objetivos de aprendizaje de Matemática de quinto a octavo básico."
+number-sections: false
+toc: true
+toc-depth: 3
+---
+
+# 3.4 Enseñanza básica, ciclo II {.unnumbered}
+
+## 3.4.1 Quinto básico
+
+### Números y operaciones
+
+1. **OA 1.** [Prioritario]{.change-badge .change-priority} Representar y describir números naturales de hasta más de 6 dígitos y menores que 1000 millones:
+
+    - identificando el valor posicional de los dígitos
+
+    - componiendo y descomponiendo números naturales en forma estándar y expandida aproximando cantidades
+
+    - comparando y ordenando números naturales en este ámbito numérico
+
+    - dando ejemplos de estos números naturales en contextos reales
+
+2. **OA 2.** Aplicar estrategias de cálculo mental para la multiplicación:
+
+    - anexar ceros cuando se multiplica por un múltiplo de 10
+
+    - doblar y dividir por 2 en forma repetida
+
+    - usando las propiedades conmutativa, asociativa y distributiva
+
+3. **OA 3.** [Prioritario]{.change-badge .change-priority} Demostrar que comprenden la multiplicación de números naturales de dos dígitos por números naturales de dos dígitos:
+
+    - estimando productos
+
+    - aplicando estrategias de cálculo mental
+
+    - resolviendo problemas rutinarios y no rutinarios, aplicando el algoritmo
+
+4. **OA 4.** [Prioritario]{.change-badge .change-priority} Demostrar que comprenden la división con dividendos de tres dígitos y divisores de un dígito:
+
+    - interpretando el resto
+
+    - resolviendo problemas rutinarios y no rutinarios que impliquen divisiones
+
+5. **OA 5.** Realizar cálculos que involucren las cuatro operaciones, aplicando las reglas relativas a paréntesis y la prevalencia de la multiplicación y la división por sobre la adición y la sustracción cuando corresponda.
+
+    - usando la propiedad distributiva de la multiplicación respecto de la suma
+
+    - aplicando el algoritmo de la multiplicación
+
+    - resolviendo problemas rutinarios
+
+6. **OA 6.** [Prioritario]{.change-badge .change-priority} Resolver problemas rutinarios y no rutinarios que involucren las cuatro operaciones y combinaciones de ellas:
+
+    - que incluyan situaciones con dinero
+
+    - usando la calculadora y el computador en ámbitos numéricos superiores al 10000
+
+7. **OA 7.** [Prioritario]{.change-badge .change-priority} Demostrar que comprenden las fracciones propias:
+
+    - representándolas de manera concreta, pictórica y simbólica
+
+    - creando grupos de fracciones equivalentes --simplificando y amplificando-- de manera concreta, pictórica y simbólica, de forma manual y/o con *software* educativo
+
+    - comparando fracciones propias con igual y distinto denominador de manera concreta, pictórica y simbólica
+
+8. **OA 8.** Demostrar que comprenden las fracciones impropias de uso común de denominadores 2, 3, 4, 5, 6, 8, 10, 12 y los números mixtos asociados:
+
+    - usando material concreto y pictórico para representarlas, de manera manual y/o con *software* educativo
+
+    - identificando y determinando equivalencias entre fracciones impropias y números mixtos
+
+    - representando estas fracciones y estos números mixtos en la recta numérica
+
+9. **OA 9.** Resolver adiciones y sustracciones con fracciones propias con denominadores menores o iguales a 12:
+
+    - de manera pictórica y simbólica
+
+    - amplificando o simplificando
+
+10. **OA 10.** [Prioritario]{.change-badge .change-priority} Determinar el decimal que corresponde a fracciones con denominador 2, 4, 5 y 10.
+
+11. **OA 11.** [Prioritario]{.change-badge .change-priority} Comparar y ordenar decimales hasta la milésima.
+
+12. **OA 12.** Resolver adiciones y sustracciones de decimales, empleando el valor posicional hasta la milésima.
+
+13. **OA 13.** [Prioritario]{.change-badge .change-priority} Resolver problemas rutinarios y no rutinarios, aplicando adiciones y sustracciones de fracciones propias o decimales hasta la milésima.
+
+### Patrones y álgebra
+
+14. **OA 14.** [Prioritario]{.change-badge .change-priority} Descubrir alguna regla que explique una sucesión dada y que permita hacer predicciones.
+
+15. **OA 15.** [Prioritario]{.change-badge .change-priority} Resolver problemas, usando ecuaciones e inecuaciones de un paso, que involucren adiciones y sustracciones, en forma pictórica y simbólica.
+
+### Geometría
+
+16. **OA 16.** Identificar y dibujar puntos en el primer cuadrante del plano cartesiano, dadas sus coordenadas en números naturales.
+
+17. **OA 17.** [Prioritario]{.change-badge .change-priority} Describir y dar ejemplos de aristas y caras de figuras 3D y lados de figuras 2D:
+
+    - que son paralelos
+
+    - que se intersectan
+
+    - que son perpendiculares
+
+18. **OA 18.** [Prioritario]{.change-badge .change-priority} Demostrar que comprenden el concepto de congruencia, usando la traslación, la reflexión y la rotación en cuadrículas y mediante *software* geométrico.
+
+### Medición
+
+19. **OA 19.** [Prioritario]{.change-badge .change-priority} Medir longitudes con unidades estandarizadas (m, cm, mm) en el contexto de la resolución de problemas.
+
+20. **OA 20.** Realizar transformaciones entre unidades de medidas de longitud: km a m, m a cm, cm a mm y viceversa, de manera manual y/o usando *software* educativo.
+
+21. **OA 21.** [Prioritario]{.change-badge .change-priority} Diseñar y construir diferentes rectángulos, dados el perímetro, el área o ambos, y sacar conclusiones.
+
+22. **OA 22.** [Prioritario]{.change-badge .change-priority} Calcular áreas de triángulos, de paralelogramos y de trapecios, y estimar áreas de figuras irregulares, aplicando las siguientes estrategias:
+
+    - conteo de cuadrículas
+
+    - comparación con el área de un rectángulo
+
+    - completar figuras por traslación
+
+### Datos y probabilidades
+
+23. **OA 23.** [Prioritario]{.change-badge .change-priority} Calcular el promedio de datos e interpretarlo en su contexto.
+
+24. **OA 24.** [Prioritario]{.change-badge .change-priority} Describir la posibilidad de ocurrencia de un evento por sobre la base de un experimento aleatorio, empleando los términos seguro -- posible - poco posible - imposible.
+
+25. **OA 25.** Comparar probabilidades de distintos eventos sin calcularlas.
+
+26. **OA 26.** [Prioritario]{.change-badge .change-priority} Leer, interpretar y completar tablas, gráficos de barra simple y gráficos de línea y comunicar sus conclusiones.
+
+27. **OA 27.** Utilizar diagramas de tallo y hojas para representar datos provenientes de muestras aleatorias.
+
+## 3.4.2 Sexto básico
+
+### Números y operaciones
+
+1. **OA 1.** Demostrar que comprenden los factores y los múltiplos:
+
+    - determinando los múltiplos y los factores de números naturales menores de 100
+
+    - identificando números primos y compuestos
+
+    - resolviendo problemas que involucran múltiplos
+
+2. **OA 2.** [Prioritario]{.change-badge .change-priority} Realizar cálculos que involucren las cuatro operaciones en el contexto de la resolución de problemas, utilizando la calculadora en ámbitos superiores a 10000.
+
+3. **OA 3.** [Prioritario]{.change-badge .change-priority} Demostrar que comprenden el concepto de razón de manera concreta, pictórica y simbólica, en forma manual y/o usando *software* educativo.
+
+4. **OA 4.** [Prioritario]{.change-badge .change-priority} Demostrar que comprenden el concepto de porcentaje de manera concreta, pictórica y simbólica, de forma manual y/o usando *software* educativo.
+
+5. **OA 5.** [Prioritario]{.change-badge .change-priority} Demostrar que comprenden las fracciones y los números mixtos:
+
+    - identificando y determinando equivalencias entre fracciones impropias y números mixtos, usando material concreto y representaciones pictóricas de manera manual y/o con *software* educativo
+
+    - representando estos números en la recta numérica
+
+6. **OA 6.** Resolver adiciones y sustracciones de fracciones propias e impropias y números mixtos con numeradores y denominadores de hasta dos dígitos.
+
+7. **OA 7.** [Prioritario]{.change-badge .change-priority} Demostrar que comprenden la multiplicación y la división de decimales por números naturales de un dígito, múltiplos de 10 y decimales hasta la milésima de manera concreta, pictórica y simbólica.
+
+8. **OA 8.** [Prioritario]{.change-badge .change-priority} Resolver problemas rutinarios y no rutinarios que involucren adiciones y sustracciones de fracciones propias, impropias, números mixtos o decimales hasta la milésima.
+
+### Patrones y álgebra
+
+9. **OA 9.** Demostrar que comprenden la relación entre los valores de una tabla y aplicarla en la resolución de problemas sencillos:
+
+    - identificando patrones entre los valores de la tabla
+
+    - formulando una regla con lenguaje matemático
+
+10. **OA 10.** Representar generalizaciones de relaciones entre números naturales, usando expresiones con letras y ecuaciones.
+
+11. **OA 11.** [Prioritario]{.change-badge .change-priority} Resolver ecuaciones de primer grado con una incógnita, utilizando estrategias como:
+
+    - usar una balanza
+
+    - usar la descomposición y la correspondencia 1 a 1 entre los términos en cada lado de la ecuación y aplicando procedimientos formales de resolución.
+
+### Geometría
+
+12. **OA 12.** Construir y comparar triángulos de acuerdo a la medida de sus lados y/o sus ángulos con instrumentos geométricos o *software* geométrico.
+
+13. **OA 13.** [Prioritario]{.change-badge .change-priority} Demostrar que comprenden el concepto de área de una superficie en cubos y paralelepípedos, calculando el área de sus redes (plantillas) asociadas.
+
+14. **OA 14.** Realizar teselados de figuras 2D, usando traslaciones, reflexiones y rotaciones.
+
+15. **OA 15.** Construir ángulos agudos, obtusos, rectos, extendidos y completos con instrumentos geométricos o *software* geométrico.
+
+16. **OA 16.** [Prioritario]{.change-badge .change-priority} Identificar los ángulos que se forman entre dos rectas que se cortan (pares de ángulos opuestos por el vértice y pares de ángulos complementarios).
+
+17. **OA 17.** Demostrar de manera concreta, pictórica y simbólica que la suma de los ángulos interiores de un triángulo es $180^\circ$ y de un cuadrilátero es $360^\circ$
+
+### Medición
+
+18. **OA 18.** [Prioritario]{.change-badge .change-priority} Calcular la superficie de cubos y paralelepípedos, expresando el resultado en cm^2^ y m^2^.
+
+19. **OA 19.** [Prioritario]{.change-badge .change-priority} Calcular el volumen de cubos y paralelepípedos, expresando el resultado en cm^3^, m^3^ y mm^3^.
+
+20. **OA 20.** Estimar y medir ángulos, usando el transportador y expresando las mediciones en grados.
+
+21. **OA 21.** Calcular ángulos en rectas paralelas cortadas por una transversal y en triángulos.
+
+### Datos y probabilidades
+
+22. **OA 22.** Comparar distribuciones de dos grupos, provenientes de muestras aleatorias, usando diagramas de puntos y de tallo y hojas.
+
+23. **OA 23.** [Prioritario]{.change-badge .change-priority} Conjeturar acerca de la tendencia de resultados obtenidos en repeticiones de un mismo experimento con dados, monedas u otros, de manera manual y/o usando *software* educativo.
+
+24. **OA 24.** [Prioritario]{.change-badge .change-priority} Leer e interpretar gráficos de barra doble y circulares y comunicar sus conclusiones.
+
+## 3.4.3 Séptimo básico
+
+### Números
+
+1. **OA 1.** [Prioritario]{.change-badge .change-priority} Mostrar que comprenden la adición y la sustracción de números enteros:
+
+    - Representando los números enteros en la recta numérica.
+
+    - Representándolas de manera concreta, pictórica y simbólica.
+
+    - Dándole significado a los símbolos $+$ y $-$ según el contexto (por ejemplo: un movimiento en una dirección seguido de un movimiento equivalente en la posición opuesta no representa ningún cambio de posición).
+
+    - Resolviendo problemas en contextos cotidianos.
+
+2. **OA 2.** Explicar la multiplicación y la división de fracciones positivas:
+
+    - Utilizando representaciones concretas, pictóricas y simbólicas.
+
+    - Relacionándolas con la multiplicación y la división de números decimales.
+
+3. **OA 3.** [Prioritario]{.change-badge .change-priority} Resolver problemas que involucren la multiplicación y la división de fracciones y de decimales positivos de manera concreta, pictórica y simbólica (de forma manual y/o con *software* educativo).
+
+4. **OA 4.** [Prioritario]{.change-badge .change-priority} Mostrar que comprenden el concepto de porcentaje:
+
+    - Representándolo de manera pictórica.
+
+    - Calculando de varias maneras.
+
+    - Aplicándolo a situaciones sencillas.
+
+5. **OA 5.** Utilizar potencias de base 10 con exponente natural:
+
+    - Usando los términos potencia, base, exponente, elevado.
+
+    - Definiendo y usando el exponente 0 en el sistema decimal.
+
+    - Expresando números naturales en notación científica (sistema decimal).
+
+### Álgebra y funciones
+
+6. **OA 6.** [Prioritario]{.change-badge .change-priority} Utilizar el lenguaje algebraico para generalizar relaciones entre números, para establecer y formular reglas y propiedades y construir ecuaciones.
+
+7. **OA 7.** Reducir expresiones algebraicas, reuniendo términos semejantes para obtener expresiones de la forma $ax+by+cz$ $a,b,c\in \mathbb{Z}$.
+
+8. **OA 8.** [Prioritario]{.change-badge .change-priority} Mostrar que comprenden las proporciones directas e inversas:
+
+    - Realizando tablas de valores para relaciones proporcionales.
+
+    - Graficando los valores de la tabla.
+
+    - Explicando las características de la gráfica.
+
+    - Resolviendo problemas de la vida diaria y de otras asignaturas.
+
+9. **OA 9.** Modelar y resolver problemas diversos de la vida diaria y de otras asignaturas que involucran ecuaciones e inecuaciones lineales de la forma:
+
+    - $ax=b$, $\frac{x}{a}=b$ ($a,b,c\in \mathbb{Z}$, $a\neq 0$)
+
+    - $ax<b$, $ax>b$, $\frac{x}{a}<b$, $\frac{x}{a}>b$ ($a,b,c\in \mathbb{N}$, $a\neq 0$)
+
+### Geometría
+
+10. **OA 10.** Descubrir relaciones que involucran ángulos exteriores o interiores de diferentes polígonos.
+
+11. **OA 11.** [Prioritario]{.change-badge .change-priority} Mostrar que comprenden el círculo:
+
+    - Describiendo las relaciones entre el radio, el diámetro y el perímetro del círculo.
+
+    - Estimando de manera intuitiva el perímetro y el área de un círculo.
+
+    - Aplicando las aproximaciones del perímetro y del área en la resolución de problemas geométricos de otras asignaturas y de la vida diaria.
+
+    - Identificándolo como lugar geométrico.
+
+12. **OA 12.** [Prioritario]{.change-badge .change-priority} Construir objetos geométricos de manera manual y/o con *software* educativo:
+
+    - Líneas, como las perpendiculares, las paralelas, las bisectrices y alturas en triángulos y cuadriláteros.
+
+    - Puntos, como el punto medio, el centro de gravedad, el centro del círculo inscrito y del circunscrito de un triángulo.
+
+    - Triángulos y cuadriláteros congruentes.
+
+13. **OA 13.** Desarrollar y aplicar la fórmula del área de triángulos, paralelogramos y trapecios.
+
+14. **OA 14.** [Prioritario]{.change-badge .change-priority} Identificar puntos en el plano cartesiano, usando pares ordenados y vectores de forma concreta (juegos) y pictórica.
+
+### Probabilidad y estadística
+
+15. **OA 15.** Estimar el porcentaje de algunas características de una población desconocida por medio del muestreo.
+
+16. **OA 16.** [Prioritario]{.change-badge .change-priority} Representar datos obtenidos en una muestra mediante tablas de frecuencias absolutas y relativas, utilizando gráficos apropiados, de manera manual y/o con *software* educativo.
+
+17. **OA 17.** Mostrar que comprenden las medidas de tendencia central y el rango:
+
+    - Determinando las medidas de tendencia central para realizar inferencias sobre la población.
+
+    - Determinando la medida de tendencia central adecuada para responder un problema planteado.
+
+    - Utilizándolos para comparar dos poblaciones.
+
+    - Determinando el efecto de un dato que es muy diferente a los otros.
+
+18. **OA 18.** [Prioritario]{.change-badge .change-priority} Explicar las probabilidades de eventos obtenidos por medio de experimentos de manera manual y/o con *software* educativo:
+
+    - Estimándolas de manera intuitiva.
+
+    - Utilizando frecuencias relativas.
+
+    - Relacionándolas con razones, fracciones o porcentaje.
+
+19. **OA 19.** Comparar las frecuencias relativas de un evento obtenidas al repetir un experimento de forma manual y/o con software educativo, con la probabilidad obtenida de manera teórica, usando diagramas de árbol, tablas o gráficos.
+
+## 3.4.4 Octavo básico
+
+### Números
+
+1. **OA 1.** [Prioritario]{.change-badge .change-priority} Mostrar que comprenden la multiplicación y la división de números enteros:
+
+    - Representándolas de manera concreta, pictórica y simbólica.
+
+    - Aplicando procedimientos usados en la multiplicación y la división de números naturales.
+
+    - Aplicando la regla de los signos de la operación.
+
+    - Resolviendo problemas rutinarios y no rutinarios.
+
+2. **OA 2.** [Prioritario]{.change-badge .change-priority} Utilizar las operaciones de multiplicación y división con los números racionales en el contexto de la resolución de problemas:
+
+    - Representándolos en la recta numérica.
+
+    - Involucrando diferentes conjuntos numéricos (fracciones, decimales y números enteros).
+
+3. **OA 3.** [Prioritario]{.change-badge .change-priority} Explicar la multiplicación y la división de potencias de base natural y exponente natural hasta 3, de manera concreta, pictórica y simbólica.
+
+4. **OA 4.** [Prioritario]{.change-badge .change-priority} Mostrar que comprenden las raíces cuadradas de números naturales:
+
+    - Estimándolas de manera intuitiva.
+
+    - Representándolas de manera concreta, pictórica y simbólica.
+
+    - Aplicándolas en situaciones geométricas y en la vida diaria.
+
+5. **OA 5.** Resolver problemas que involucran variaciones porcentuales en contextos diversos, usando representaciones pictóricas y registrando el proceso de manera simbólica; por ejemplo: el interés anual del ahorro.
+
+### Álgebra y funciones
+
+6. **OA 6.** Mostrar que comprenden la operatoria de expresiones algebraicas:
+
+    - Representándolas de manera pictórica y simbólica.
+
+    - Relacionándolas con el área de cuadrados, rectángulos y volúmenes de paralelepípedos.
+
+    - Determinando formas factorizadas.
+
+7. **OA 7.** Mostrar que comprenden la noción de función por medio de un cambio lineal:
+
+    - Utilizando tablas.
+
+    - Usando metáforas de máquinas.
+
+    - Estableciendo reglas entre $x$ y $y$.
+
+    - Representando de manera gráfica (plano cartesiano, diagramas de Venn), de manera manual y/o con *software* educativo.
+
+8. **OA 8.** [Prioritario]{.change-badge .change-priority} Modelar situaciones de la vida diaria y de otras asignaturas, usando ecuaciones lineales de la forma: $ax=b$, $\frac{x}{a}=b$ ($a\neq 0$), $ax+b=c$, $ax+b=c$, $\frac{x}{a}+b=c$ ($a\neq 0$), $ax=b+cx$, $a(x+b)=c$, $ax+b=cx+d$; donde $a,b,c,d,e\in \mathbb{Q}$.
+
+9. **OA 9.** Resolver inecuaciones lineales con coeficientes racionales en el contexto de la resolución de problemas, por medio de representaciones gráficas, simbólicas, de manera manual y/o con *software* educativo.
+
+10. **OA 10.** [Prioritario]{.change-badge .change-priority} Mostrar que comprenden la función afín:
+
+    - Generalizándola como la suma de una constante con una función lineal.
+
+    - Trasladando funciones lineales en el plano cartesiano.
+
+    - Determinando el cambio constante de un intervalo a otro, de manera gráfica y simbólica, de manera manual y/o con *software* educativo.
+
+    - Relacionándola con el interés simple.
+
+    - Usándola para resolver problemas de la vida diaria y de otras asignaturas.
+
+### Geometría
+
+11. **OA 11.** Desarrollar las fórmulas para encontrar el área de superficies y el volumen de prismas rectos con diferentes bases y cilindros:
+
+    - Estimando de manera intuitiva área de superficie y volumen.
+
+    - Desplegando la red de prismas rectos para encontrar la fórmula del área de superficie.
+
+    - Transfiriendo la fórmula del volumen de un cubo (base por altura) en prismas diversos y cilindros.
+
+    - Aplicando las fórmulas a la resolución de problemas geométricos y de la vida diaria.
+
+12. **OA 12.** [Prioritario]{.change-badge .change-priority} Explicar, de manera concreta, pictórica y simbólica, la validez del teorema de Pitágoras y aplicar a la resolución de problemas geométricos y de la vida cotidiana, de manera manual y/o con *software* educativo.
+
+13. **OA 13.** [Prioritario]{.change-badge .change-priority} Describir la posición y el movimiento (traslaciones, rotaciones y reflexiones) de figuras 2D, de manera manual y/o con *software* educativo, utilizando:
+
+    - Los vectores para la traslación.
+
+    - Los ejes del plano cartesiano como ejes de reflexión.
+
+    - Los puntos del plano para las rotaciones.
+
+14. **OA 14.** Componer rotaciones, traslaciones y reflexiones en el plano cartesiano y en el espacio, de manera manual y/o con software educativo, y aplicar a la simetría de polígonos y poliedros y a la resolución de problemas geométricos relacionados con el arte.
+
+### Probabilidad y estadística
+
+15. **OA 15.** [Prioritario]{.change-badge .change-priority} Mostrar que comprenden las medidas de posición, percentiles y cuartiles:
+
+    - Identificando la población que está sobre o bajo el percentil.
+
+    - Representándolas con diagramas, incluyendo el diagrama de cajón, de manera manual y/o con *software* educativo.
+
+    - Utilizándolas para comparar poblaciones.
+
+16. **OA 16.** [Prioritario]{.change-badge .change-priority} Evaluar la forma en que los datos están presentados:
+
+    - Comparando la información de los mismos datos representada en distintos tipos de gráficos para determinar fortalezas y debilidades de cada uno.
+
+    - Justificando la elección del gráfico para una determinada situación y su correspondiente conjunto de datos.
+
+    - Detectando manipulaciones de gráficos para representar datos.
+
+17. **OA 17.** [Prioritario]{.change-badge .change-priority} Explicar el principio combinatorio multiplicativo:
+
+    - A partir de situaciones concretas.
+
+    - Representándolo con tablas y árboles regulares, de manera manual y/o con *software* educativo.
+
+    - Utilizándolo para calcular la probabilidad de un evento compuesto.

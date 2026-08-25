@@ -1,11 +1,8 @@
 ---
-description: "Pregunta de la PAES de Competencia Matemática M1 de Invierno para el proceso de Admisión 2027."
+title: "Pregunta 9 · PAES M1 Invierno — Admisión 2027"
+paes-question: 9
+knowledge-tag: "2709"
 ---
-
-# Pregunta 9 · PAES M1 Invierno — Admisión 2027 {.unnumbered}
-
-:::: {.knowledge-object #tag-2709 tag="2709" type="pregunta" title="Pregunta 9 · PAES M1 Invierno — Admisión 2027"}
-## Pregunta 9
 
 Una persona necesita comprar $3\,\mathrm{kg}$ de azúcar, $6\,\mathrm{L}$ de lavaozza, $4\,\mathrm{L}$ de leche y $1\,\mathrm{kg}$ de arroz.
 
@@ -40,6 +37,3 @@ Para calcular el menor precio por pagar, la persona efectúa el siguiente proced
 1. En el Paso 3
 1. En el Paso 4
 :::
-
-
-::::

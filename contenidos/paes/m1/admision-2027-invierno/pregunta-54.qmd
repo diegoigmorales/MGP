@@ -1,11 +1,8 @@
 ---
-description: "Pregunta de la PAES de Competencia Matemática M1 de Invierno para el proceso de Admisión 2027."
+title: "Pregunta 54 · PAES M1 Invierno — Admisión 2027"
+paes-question: 54
+knowledge-tag: "2754"
 ---
-
-# Pregunta 54 · PAES M1 Invierno — Admisión 2027 {.unnumbered}
-
-:::: {.knowledge-object #tag-2754 tag="2754" type="pregunta" title="Pregunta 54 · PAES M1 Invierno — Admisión 2027"}
-## Pregunta 54
 
 Una municipalidad desea implementar un plan de vacunación y esterilización de mascotas, para lo cual realiza una encuesta sobre la cantidad de mascotas que hay en cierto sector.
 
@@ -35,6 +32,3 @@ Esta municipalidad dará un beneficio a las familias que tengan $3$ o más masco
 1. $\dfrac{37}{50} \cdot 100\%$
 1. $\dfrac{43}{50} \cdot 100\%$
 :::
-
-
-::::

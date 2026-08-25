@@ -1,11 +1,8 @@
 ---
-description: "Pregunta de la PAES de Competencia Matemática M1 de Invierno para el proceso de Admisión 2027."
+title: "Pregunta 16 · PAES M1 Invierno — Admisión 2027"
+paes-question: 16
+knowledge-tag: "2716"
 ---
-
-# Pregunta 16 · PAES M1 Invierno — Admisión 2027 {.unnumbered}
-
-:::: {.knowledge-object #tag-2716 tag="2716" type="pregunta" title="Pregunta 16 · PAES M1 Invierno — Admisión 2027"}
-## Pregunta 16
 
 Se realizó una encuesta a un grupo de personas respecto a su legumbre preferida y cada persona eligió solo una opción. Los resultados se presentan en la siguiente tabla:
 
@@ -26,6 +23,3 @@ $$
 ::: {.text-center}
 (imagen)
 :::
-
-
-::::

@@ -1,11 +1,8 @@
 ---
-description: "Pregunta de la PAES de Competencia Matemática M1 de Invierno para el proceso de Admisión 2027."
+title: "Pregunta 38 · PAES M1 Invierno — Admisión 2027"
+paes-question: 38
+knowledge-tag: "2738"
 ---
-
-# Pregunta 38 · PAES M1 Invierno — Admisión 2027 {.unnumbered}
-
-:::: {.knowledge-object #tag-2738 tag="2738" type="pregunta" title="Pregunta 38 · PAES M1 Invierno — Admisión 2027"}
-## Pregunta 38
 
 El peso $p$ en newtons ($\mathrm{N}$) de un cuerpo depende de su masa $m$ en kilogramos, y se modela mediante la expresión $p = g \cdot m$, tal que $g$ es una constante que depende del planeta donde se encuentre el cuerpo.
 
@@ -26,6 +23,3 @@ Si el valor de $g$ en la Tierra es aproximadamente $10\,\mathrm{m/s^2}$, ¿cuál
 1. (imagen)
 1. (imagen)
 :::
-
-
-::::

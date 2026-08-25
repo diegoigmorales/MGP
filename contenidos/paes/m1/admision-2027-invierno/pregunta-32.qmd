@@ -1,11 +1,8 @@
 ---
-description: "Pregunta de la PAES de Competencia Matemática M1 de Invierno para el proceso de Admisión 2027."
+title: "Pregunta 32 · PAES M1 Invierno — Admisión 2027"
+paes-question: 32
+knowledge-tag: "2732"
 ---
-
-# Pregunta 32 · PAES M1 Invierno — Admisión 2027 {.unnumbered}
-
-:::: {.knowledge-object #tag-2732 tag="2732" type="pregunta" title="Pregunta 32 · PAES M1 Invierno — Admisión 2027"}
-## Pregunta 32
 
 Considera la siguiente oferta:
 
@@ -26,6 +23,3 @@ Una persona tiene $\$10000$ para comprar un paquete de tallarines de $\$800$ y l
 1. $10000 + 800 \geq 1800x$
 1. $10000 + 800 \geq 1800$
 :::
-
-
-::::

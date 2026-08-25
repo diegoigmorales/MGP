@@ -1,6 +1,7 @@
 ---
-title: "Porcentajes"
-description: "Capítulo de ejemplo para el libro de matemática."
+title: "Capítulo 1. Porcentajes"
+description: "Capítulo 1 de la Parte I: Matemática escolar para la enseñanza."
+number-sections: false
 format:
   html:
     format-links: [pdf]

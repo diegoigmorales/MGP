@@ -1,11 +1,8 @@
 ---
-description: "Pregunta de la PAES de Competencia Matemática M1 de Invierno para el proceso de Admisión 2027."
+title: "Pregunta 62 · PAES M1 Invierno — Admisión 2027"
+paes-question: 62
+knowledge-tag: "2762"
 ---
-
-# Pregunta 62 · PAES M1 Invierno — Admisión 2027 {.unnumbered}
-
-:::: {.knowledge-object #tag-2762 tag="2762" type="pregunta" title="Pregunta 62 · PAES M1 Invierno — Admisión 2027"}
-## Pregunta 62
 
 Para una tarea de Estadística, una estudiante tiene que representar un conjunto de datos a través de un diagrama de cajón. Los datos que se presentan a continuación corresponden a la cantidad de anotaciones positivas que tuvieron los amigos de esta estudiante el semestre anterior.
 $$
@@ -36,6 +33,3 @@ Para construir el diagrama de cajón, ella realiza los siguientes pasos, cometie
 1. En el Paso 3
 1. En el Paso 4
 :::
-
-
-::::

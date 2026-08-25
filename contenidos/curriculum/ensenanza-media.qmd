@@ -1,0 +1,245 @@
+---
+title: "3.5 Enseñanza media"
+description: "Objetivos de aprendizaje de Matemática de primero a cuarto medio."
+number-sections: false
+toc: true
+toc-depth: 3
+---
+
+# 3.5 Enseñanza media {.unnumbered}
+
+## 3.5.1 Primero medio
+
+### Números
+
+1. **OA 1.** [Prioritario]{.change-badge .change-priority} Calcular las operaciones con números raciones en forma simbólica.
+
+2. **OA 2.** [Prioritario]{.change-badge .change-priority} Mostrar que comprenden las potencias de base racional y exponente entero:
+
+    - Transfiriendo propiedades de la multiplicación y división de potencias a los ámbitos numéricos correspondientes.
+
+    - Relacionándolas con el crecimiento y decrecimiento de cantidades.
+
+    - Resolviendo problemas de la vida diaria y otras asignaturas.
+
+### Álgebra y funciones
+
+3. **OA 3.** [Prioritario]{.change-badge .change-priority} Desarrollar los productos notables de manera concreta, pictórica y simbólica:
+
+    - Transformando productos en sumas y viceversa.
+
+    - Aplicándolos a situaciones concretas.
+
+    - Completando el cuadrado del binomio.
+
+    - Utilizándolas en la reducción y desarrollo de expresiones algebraicas.
+
+4. **OA 4.** [Prioritario]{.change-badge .change-priority} Resolver sistemas de ecuaciones lineales $(2\times 2)$ relacionados con problemas de la vida diaria y de otras asignaturas, mediante representaciones gráficas y simbólicas, de manera manual y/o con *software* educativo.
+
+5. **OA 5.** Graficar relaciones lineales en dos variables de la forma $f(x,y)=ax+by$; por ejemplo: un haz de rectas paralelas en el plano cartesiano, líneas de nivel en planos inclinados (techo), propagación de olas en el mar y la formación de algunas capas de rocas:
+
+    - Creando tablas de valores con $a$, $b$ fijo y $x$, $y$ variable.
+
+    - Representando una ecuación lineal dada por medio de un gráfico, de manera manual y/o con *software* educativo.
+
+    - Escribiendo la relación entre las variables de un gráfico dado; por ejemplo variando $c$ en la ecuación $ax+by=c$; ($a,b,c\in \mathbb{Q}$) (decimales hasta la décima).
+
+### Geometría
+
+6. **OA 6.** Desarrollar la fórmula de los valores del área y del perímetro de sectores y segmentos circulares, respectivamente, a partir de ángulos centrales de $60^\circ$, $90^\circ$, $120^\circ$ y $180^\circ$, por medio de representaciones concretas.
+
+7. **OA 7.** Desarrollar las fórmulas para encontrar el área de la superficie y el volumen del cono:
+
+    - Desplegando la red del cono para la fórmula del área de superficie.
+
+    - Experimentando de manera concreta para encontrar la relación entre el volumen del cilindro y el cono.
+
+    - Aplicando las fórmulas a la resolución de problemas geométricos y de la vida diaria.
+
+8. **OA 8.** [Prioritario]{.change-badge .change-priority} Mostrar que comprenden el concepto de homotecia:
+
+    - Relacionándola con la perspectiva, el funcionamiento de instrumentos ópticos y el ojo humano.
+
+    - Midiendo segmentos adecuados para determinar las propiedades de la homotecia.
+
+    - Aplicando propiedades de la homotecia en la construcción de objetos, de manera manual y/o con *software* educativo.
+
+    - Resolviendo problemas de la vida cotidiana y de otras asignaturas.
+
+9. **OA 9.** Desarrollar el teorema de Tales mediante las propiedades de la homotecia, para aplicarlo en la resolución de problemas.
+
+10. **OA 10.** [Prioritario]{.change-badge .change-priority} Aplicar propiedades de semejanza y de proporcionalidad a modelos a escala y otras situaciones de la vida diaria y otras asignaturas.
+
+11. **OA 11.** Representar el concepto de homotecia de forma vectorial, relacionándolo con el producto de un vector por un escalar, de manera manual y/o con *software* educativo.
+
+### Probabilidad y estadística
+
+12. **OA 12.** [Prioritario]{.change-badge .change-priority} Registrar distribuciones de dos características distintas, de una misma población, en una tabla de doble entrada y en una nube de puntos.
+
+13. **OA 13.** Comparar poblaciones mediante la confección de gráficos “$xy$” para dos atributos de muestras, de manera concreta y pictórica:
+
+    - Utilizando nubes de puntos en dos colores.
+
+    - Separando la nube por medio de una recta trazada de manera intuitiva.
+
+14. **OA 14.** [Prioritario]{.change-badge .change-priority} Desarrollar las reglas de las probabilidades, la regla aditiva, la regla multiplicativa y la combinación de ambas, de manera concreta, pictórica y simbólica, de manera manual y/o con *software* educativo, en el contexto de la resolución de problemas.
+
+15. **OA 15.** Mostrar que comprenden el concepto de azar:
+
+    - Experimentando con la tabla de Galton y con paseos aleatorios sencillos de manera manual y/o con software educativo.
+
+    - Realizando análisis estadísticos, empezando por frecuencias relativas.
+
+    - Utilizando probabilidades para describir el comportamiento azaroso.
+
+    - Resolviendo problemas de la vida diaria y de otras asignaturas.
+
+## 3.5.2 Segundo medio
+
+### Número
+
+1. **OA 1.** [Prioritario]{.change-badge .change-priority} Realizar cálculos y estimaciones que involucren operaciones con números reales:
+
+    - Utilizando la descomposición de raíces y las propiedades de las raíces.
+
+    - Combinando raíces con números racionales.
+
+    - Resolviendo problemas que involucren estas operaciones en contextos diversos.
+
+2. **OA 2.** [Prioritario]{.change-badge .change-priority} Mostrar que comprenden las relaciones entre potencias, raíces enésimas y logaritmos:
+
+    - Comparando representaciones de potencias de exponente racional con raíces enésimas en la recta numérica.
+
+    - Convirtiendo raíces enésimas a potencias de exponente racional y viceversa.
+
+    - Describiendo la relación entre potencias y logaritmos.
+
+    - Resolviendo problemas rutinarios y no rutinarios que involucren potencias, logaritmos y raíces enésimas.
+
+### Álgebra y funciones
+
+3. **OA 3.** [Prioritario]{.change-badge .change-priority} Mostrar que comprenden la función cuadrática $f(x)=ax^{2}+bx+c$ ($a\neq 0$):
+
+    - Reconociendo la función cuadrática $f(x)=ax^{2}$ en situaciones de la vida diaria y otra asignaturas.
+
+    - Representándola en tablas y gráficos de manera manual y/o con software educativo.
+
+    - Determinando puntos especiales de su gráfica.
+
+    - Seleccionándola como modelo de situaciones de cambio cuadrático de otras asignaturas, en particular de la oferta y demanda.
+
+4. **OA 4.** Resolver, de manera concreta, pictórica y simbólica, o usando herramientas tecnológicas, ecuaciones cuadráticas de la forma:
+
+    - $ax^{2}=b$
+
+    - $(ax+b)^{2}=c$
+
+    - $ax^{2}+bx=0$
+
+    - $ax^{2}+bx=c$
+
+    ($a$, $b$, $c$ son números raciones, $a\neq 0$)
+
+5. **OA 5.** [Prioritario]{.change-badge .change-priority} Mostrar que comprenden la inversa de una función:
+
+    - Utilizando la metáfora de una máquina.
+
+    - Representándola por medio de tablas y gráficos, de manera manual y/o con software educativo.
+
+    - Utilizando la reflexión de la función representada en el gráfico en un plano cartesiano.
+
+    - Calculando las inversas en casos de funciones lineales y cuadráticas.
+
+6. **OA 6.** Explicar el cambio porcentual constante en intervalos de tiempo:
+
+    - Por medio de situaciones de la vida real y de otras asignaturas.
+
+    - Identificándolo con el interés compuesto.
+
+    - Representándolo de manera concreta, pictórica y simbólica, de manera manual y/o con *software* educativo.
+
+    - Expresándolo en forma recursiva $f(t+1)- f(t)= a\cdot f(t)$.
+
+    - Resolviendo problemas de la vida diaria y de otras asignaturas.
+
+### Geometría
+
+7. **OA 7.** Desarrollar las fórmulas del área de la superficie y del volumen de la esfera:
+
+    - Conjeturando la fórmula.
+
+    - Representando de manera concreta y simbólica, de manera manual y/o con software educativo.
+
+    - Resolviendo problemas de la vida diaria y de geometría.
+
+8. **OA 8.** [Prioritario]{.change-badge .change-priority} Mostrar que comprenden las razones trigonométricas de seno, coseno y tangente en triángulos rectángulos:
+
+    - Relacionándolas con las propiedades de la semejanza y los ángulos.
+
+    - Explicándolas de manera pictórica y simbólica, de manera manual y/o con *software* educativo.
+
+    - Aplicándolas para determinar ángulos o medidas de lados.
+
+    - Resolviendo problemas geométricos y de otras asignaturas.
+
+9. **OA 9.** Aplicar las razones trigonométricas en diversos contextos, en la composición y descomposición de vectores y determinar las proyecciones de vectores.
+
+### Probabilidad y estadística
+
+10. **OA 10.** Mostrar que comprenden las variables aleatorias finitas:
+
+    - Definiendo la variable.
+
+    - Determinando los posibles valores de la incógnita.
+
+    - Calculando su probabilidad.
+
+    - Graficando sus distribuciones.
+
+11. **OA 11.** [Prioritario]{.change-badge .change-priority} Utilizar permutaciones y la combinatoria sencilla para calcular probabilidades de eventos y resolver problemas.
+
+12. **OA 12.** Mostrar que comprenden el rol de la probabilidad en la sociedad:
+
+    - Revisando informaciones de los medios de comunicación.
+
+    - Identificando suposiciones basadas en probabilidades.
+
+    - Explicando cómo una probabilidad puede sustentar suposiciones opuestas.
+
+    - Explicando decisiones basadas en situaciones subjetivas o en probabilidades.
+
+## 3.5.3 Tercero medio
+
+### Unidad 4 -- Necesidad y aplicación de los números complejos. {#unidad-4-necesidad-y-aplicación-de-los-números-complejos.}
+
+1. **OA 1.** Resolver problemas de adición, sustracción, multiplicación y división de números complejos $\mathbb{C}$, en forma pictórica simbólica y con uso de herramientas tecnológicas.
+
+### Unidad 1 -- El uso de datos estadísticos y de modelos probabilísticos para tomar decisiones. {#unidad-1-el-uso-de-datos-estadísticos-y-de-modelos-probabilísticos-para-tomar-decisiones.}
+
+2. **OA 2.** [Prioritario]{.change-badge .change-priority} Tomar desiciones en situaciones de incerteza que involucren el análisis de datos estadísticos con medidas de dispersión y probabilidades condicionales.
+
+### Unidad 2 -- Predecir acerca de situaciones, utilizando modelos matemáticos {#unidad-2-predecir-acerca-de-situaciones-utilizando-modelos-matemáticos}
+
+3. **OA 3.** [Prioritario]{.change-badge .change-priority} Aplicar modelos matemáticos que describen fenómenos o situaciones de crecimiento y decrecimiento, que involucran las funciones exponencial y logarítmica, de forma manuscrita, con uso de herramientas tecnológicas y promoviendo la búsqueda, selección, contrastación y verificación de información en ambientes digitales y redes sociales.
+
+### Unidad 3 -- Relaciones métricas en geometría. {#unidad-3-relaciones-métricas-en-geometría.}
+
+4. **OA 4.** [Prioritario]{.change-badge .change-priority} Resolver problemas de geometría euclidiana que involucran relaciones métricas entre ángulos, arcos, cuerdas y secantes en la circunferencia, de forma manuscrita y con uso de herramientas tecnológicas.
+
+## 3.5.4 Cuarto medio
+
+### Unidad 2 -- La toma de decisiones en situaciones financieras y económicas {#unidad-2-la-toma-de-decisiones-en-situaciones-financieras-y-económicas}
+
+1. **OA 1.** [Prioritario]{.change-badge .change-priority} Fundamentar decisiones en el ámbito financiero y económico personal o comunitario, a partir de modelos que consideren tasas de interés e índices económicos.
+
+### Unidad 1 -- La toma de decisiones en situaciones de incerteza {#unidad-1-la-toma-de-decisiones-en-situaciones-de-incerteza}
+
+2. **OA 2.** [Prioritario]{.change-badge .change-priority} Fundamentar decisiones en situaciones de incerteza, a partir del análisis crítico de datos estadísticos y con base en los modelos binomial y normal.
+
+### Unidad 3 -- Modelamiento matemático para describir y predecir {#unidad-3-modelamiento-matemático-para-describir-y-predecir}
+
+3. **OA 3.** [Prioritario]{.change-badge .change-priority} Construir modelos de situaciones o fenómenos de crecimiento, decrecimiento y periódicos que involucren funciones potencia de exponente entero y trigonométricas $\sin(x)$ y $\cos{x}$, de forma manuscrita, con uso de herramientas tecnológicas y promoviendo la búsqueda, selección, contrastación y verificación de información en ambientes digitales y redes sociales.
+
+### Unidad 4 -- Geometría con coordenadas {#unidad-4-geometría-con-coordenadas}
+
+4. **OA 4.** Resolver problemas acerca de rectas y circunferencias en el plano, mediante su representación analítica, de forma manuscrita y con uso de herramientas tecnológicas.

@@ -1,33 +1,78 @@
 ---
+title: "Matemática para Gañanes y Patanes"
+description: "Obra de referencia sobre matemática y conocimiento profesional para la enseñanza."
 toc: false
 number-sections: false
 ---
 
-# Inicio {.unnumbered}
+::: {.mgp-home-hero}
+## Matemática y conocimiento profesional para la enseñanza {.unnumbered}
 
-## Tabla de contenidos
+**MGP es una obra de referencia para profesores de matemática que conecta conocimiento matemático, enseñanza, resolución de problemas, currículo, evaluación e investigación.**
 
-Esta portada muestra únicamente material desarrollado y utilizable. La arquitectura futura se conserva en la documentación interna del repositorio, pero no ocupa espacio en la navegación pública.
-
-::: {.published-toc}
-### Volumen I · Parte I. Números, medición y álgebra
-
-- [Capítulo 1. Porcentajes](contenidos/libro/numeros/porcentajes.qmd)
-
-### Volumen II · Parte II. Currículo y evaluación
-
-- [Capítulo 2. Sistema curricular chileno](contenidos/curriculum/index.qmd)
-- [Capítulo 3. PAES de Matemática](contenidos/paes/index.qmd)
-- [Capítulo 4. Preguntas M1](contenidos/paes/m1/admision-2027-invierno/index.qmd)
-- [Capítulo 5. Preguntas originales](contenidos/paes/m1/preguntas-originales/porcentajes.qmd)
+Su propósito es facilitar la consulta, recuperación y profundización de conocimientos que suelen encontrarse dispersos entre libros, artículos, documentos oficiales, evaluaciones y experiencias profesionales.
 :::
 
-## Cómo recorrer MGP
+## Alcance de la obra {.unnumbered}
 
-Cada definición, técnica y pregunta puede ser un nodo estable de una red de conocimiento matemático. Los tags y enlaces permiten pasar de una pregunta a la teoría necesaria y volver.
+La arquitectura proyectada comprende cinco grandes dominios. Esta organización expresa el horizonte de MGP, no el estado actual de publicación.
 
-```text
-Pregunta PAES → técnica → definición → habilidad curricular
-```
+::: {.mgp-domain-grid}
+::: {.mgp-domain-card}
+### Conocimiento profesional y enseñanza
 
-[Abrir la tabla de contenidos detallada](contenidos/index.qmd)
+Conocimiento docente, tareas, representaciones, argumentación, resolución de problemas, heurismos y análisis de errores.
+:::
+
+::: {.mgp-domain-card}
+### Matemática escolar
+
+Fundamentos y profundización de los contenidos matemáticos escolares, incluida la formación diferenciada.
+:::
+
+::: {.mgp-domain-card}
+### Fundamentos universitarios y aplicaciones
+
+Conocimientos que permiten fundamentar, recuperar y ampliar la matemática relevante para el trabajo profesional.
+:::
+
+::: {.mgp-domain-card}
+### Currículo, evaluación y desarrollo profesional
+
+Currículo chileno, PAES, SIMCE, END, ECEP, estándares y formación docente.
+:::
+
+::: {.mgp-domain-card}
+### Psicometría, observatorio e investigación
+
+Medición educativa, análisis de resultados y métodos para investigar evaluaciones, materiales y necesidades profesionales.
+:::
+:::
+
+## Contenido disponible {.unnumbered}
+
+MGP se encuentra en desarrollo. La numeración pública corresponde únicamente al contenido actualmente publicado.
+
+::: {.published-toc}
+### Parte I. Matemática escolar para la enseñanza
+
+- [Capítulo 1. Porcentajes](contenidos/libro/numeros/porcentajes.qmd)
+- [Capítulo 2. Estadística escolar](contenidos/libro/estadistica/index.qmd)
+
+### Parte II. Currículo, evaluación y desarrollo profesional
+
+- [Capítulo 3. Sistema curricular chileno](contenidos/curriculum/index.qmd)
+- [Capítulo 4. PAES de Matemática](contenidos/paes/index.qmd)
+:::
+
+## Colecciones disponibles {.unnumbered}
+
+- [Preguntas oficiales de PAES M1 Invierno — Admisión 2027](contenidos/paes/m1/admision-2027-invierno/index.qmd)
+- [Preguntas originales](contenidos/paes/m1/preguntas-originales/porcentajes.qmd)
+- [Problemas matemáticos](contenidos/universitario/estadistica/media-ponderada.qmd)
+
+## Consultar MGP {.unnumbered}
+
+Utiliza la búsqueda del sitio para localizar conceptos, pruebas y objetos, o abre la [tabla completa del contenido publicado](contenidos/index.qmd).
+
+[Qué es MGP y por qué existe →](acerca.qmd)

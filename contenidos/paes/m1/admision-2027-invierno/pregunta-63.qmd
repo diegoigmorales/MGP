@@ -1,11 +1,8 @@
 ---
-description: "Pregunta de la PAES de Competencia Matemática M1 de Invierno para el proceso de Admisión 2027."
+title: "Pregunta 63 · PAES M1 Invierno — Admisión 2027"
+paes-question: 63
+knowledge-tag: "2763"
 ---
-
-# Pregunta 63 · PAES M1 Invierno — Admisión 2027 {.unnumbered}
-
-:::: {.knowledge-object #tag-2763 tag="2763" type="pregunta" title="Pregunta 63 · PAES M1 Invierno — Admisión 2027"}
-## Pregunta 63
 
 En el gráfico adjunto se presentan las preferencias de un grupo de personas respecto a los dispositivos que utilizan para tomar notas durante las reuniones.
 
@@ -24,6 +21,3 @@ Si se selecciona al azar una persona de este grupo, ¿cuál es la probabilidad d
 1. $\dfrac{9}{19}$
 1. $\dfrac{9}{28}$
 :::
-
-
-::::

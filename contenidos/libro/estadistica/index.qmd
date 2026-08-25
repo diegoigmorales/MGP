@@ -1,0 +1,18 @@
+---
+title: "Capítulo 2. Estadística escolar"
+description: "Organización, representación y análisis de datos en la matemática escolar."
+toc: false
+number-sections: false
+---
+
+# Capítulo 2. Estadística escolar {.unnumbered}
+
+Este capítulo reunirá el conocimiento matemático y didáctico necesario para enseñar estadística en el sistema escolar.
+
+## Objetos publicados
+
+### Medidas de centro
+
+- [Media ponderada](../../universitario/estadistica/media-ponderada.qmd)
+
+La colección crecerá mediante objetos vinculados al capítulo, sin convertir cada problema en un capítulo independiente.

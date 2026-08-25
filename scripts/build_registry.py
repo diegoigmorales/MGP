@@ -15,6 +15,10 @@ ROOT = Path(__file__).resolve().parents[1]
 GENERATED = ROOT / "_generated"
 TAG_RE = re.compile(r"^[0-9A-Z]{4}$")
 OPEN_RE = re.compile(r"^\s*:{3,}\s*\{([^}]*)\}\s*$")
+FRONT_MATTER_RE = re.compile(r"\A---\s*\n(?P<yaml>.*?)\n---(?:\s*\n|\Z)", re.DOTALL)
+PAES_NUMBER_RE = re.compile(r"^paes-question:\s*(\d+)\s*$", re.MULTILINE)
+KNOWLEDGE_TAG_RE = re.compile(r'^knowledge-tag:\s*"([0-9A-Z]{4})"\s*$', re.MULTILINE)
+TITLE_RE = re.compile(r'^title:\s*"(.*?)"\s*$', re.MULTILINE)
 RELATIONS = {
     "usa",
     "requiere",
@@ -55,7 +59,26 @@ def discover() -> tuple[list[dict], list[str]]:
         if any(part in ignored for part in path.relative_to(ROOT).parts):
             continue
         relpath = path.relative_to(ROOT).as_posix()
-        for lineno, line in enumerate(path.read_text(encoding="utf-8").splitlines(), 1):
+        source = path.read_text(encoding="utf-8")
+        front_matter = FRONT_MATTER_RE.match(source)
+        if front_matter and PAES_NUMBER_RE.search(front_matter.group("yaml")):
+            yaml = front_matter.group("yaml")
+            tag_match = KNOWLEDGE_TAG_RE.search(yaml)
+            title_match = TITLE_RE.search(yaml)
+            if not tag_match:
+                errors.append(f"{relpath}: falta knowledge-tag para la pregunta PAES")
+            if not title_match:
+                errors.append(f"{relpath}: falta title para la pregunta PAES")
+            if tag_match and title_match:
+                tag = tag_match.group(1)
+                objects.append({
+                    "tag": tag, "type": "pregunta", "title": title_match.group(1),
+                    "source": relpath, "line": 1,
+                    "href": f"../{relpath}#tag-{tag}", "relations": {},
+                })
+            continue
+
+        for lineno, line in enumerate(source.splitlines(), 1):
             match = OPEN_RE.match(line)
             if not match:
                 continue

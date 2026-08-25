@@ -1,11 +1,8 @@
 ---
-description: "Pregunta de la PAES de Competencia Matemática M1 de Invierno para el proceso de Admisión 2027."
+title: "Pregunta 6 · PAES M1 Invierno — Admisión 2027"
+paes-question: 6
+knowledge-tag: "2706"
 ---
-
-# Pregunta 6 · PAES M1 Invierno — Admisión 2027 {.unnumbered}
-
-:::: {.knowledge-object #tag-2706 tag="2706" type="pregunta" title="Pregunta 6 · PAES M1 Invierno — Admisión 2027"}
-## Pregunta 6
 
 Sandra y Miguel quieren leer, cada uno por su cuenta, un libro de $175$ páginas en $5$ días.
 
@@ -20,6 +17,3 @@ Si ambos cumplen con la lectura diaria estipulada, ¿cuál de las siguientes afi
 1. Miguel alcanzó a leer el libro en el plazo, pero Sandra no.
 1. Ninguno alcanzó a leer el libro en el plazo.
 :::
-
-
-::::

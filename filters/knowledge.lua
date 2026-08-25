@@ -2,9 +2,15 @@ local registry = nil
 
 local function load_registry()
   if registry ~= nil then return registry end
-  local file = io.open("_generated/registry.json", "r")
+  local file = nil
+  local prefix = ""
+  for _ = 0, 8 do
+    file = io.open(prefix .. "_generated/registry.json", "r")
+    if file then break end
+    prefix = prefix .. "../"
+  end
   if not file then
-    io.stderr:write("No se encontró _generated/registry.json\n")
+    io.stderr:write("No se encontró _generated/registry.json desde el documento actual\n")
     registry = { backlinks = {} }
     return registry
   end

@@ -3,11 +3,11 @@ number-sections: false
 description: "Cambios regulares e invierno respecto de sus ediciones Admisión 2025."
 ---
 
-# Admisión 2026: reestructuración estadística y expansión de M2 {.unnumbered}
+# 4.4.4 Admisión 2026: reestructuración estadística y expansión de M2 {.unnumbered}
 
 ## Fuentes y rendición
 
-| Modalidad | Publicación | Rendición | Fuentes |
+| Aplicación | Publicación | Rendición | Fuentes |
 |---|---:|---:|---|
 | Invierno | 24 ene 2025 | 16–18 jun 2025 | [M1](https://demre.cl/publicaciones/2026/2026-25-01-24-temario-paes-invierno-m1) · [M2](https://demre.cl/publicaciones/2026/2026-25-01-24-temario-paes-invierno-m2) |
 | Regular | 20 mar 2025 | 1–3 dic 2025 | [M1](https://demre.cl/publicaciones/2026/2026-25-03-20-temario-paes-regular-m1) · [M2](https://demre.cl/publicaciones/2026/2026-25-03-20-temario-paes-regular-m2) |
@@ -58,9 +58,9 @@ M1 pasa de **16 unidades y 46 enunciados** a **15 y 45**. M2 propio pasa de **11
 | [Reformulado]{.change-badge .change-reworded} | Probabilidad · Modelos probabilísticos | Modelos binomiales. | Conserva binomial y agrega distribución normal. |
 :::
 
-### ¿Qué significa para el estudiante?
+### Interpretación profesional
 
-M1 reduce el catálogo explícito de cuerpos y de estadística descriptiva, aunque conserva el promedio en una nueva ubicación. M2, en cambio, da un salto claro hacia familias de funciones, trigonometría, geometría de la circunferencia y dos modelos probabilísticos. Preparar M2 exige leer también la reducción heredada desde M1.
+M1 reduce el catálogo explícito de cuerpos y de estadística descriptiva, aunque conserva el promedio en una nueva ubicación. M2, en cambio, da un salto claro hacia familias de funciones, trigonometría, geometría de la circunferencia y dos modelos probabilísticos. El análisis de M2 debe considerar también la modificación heredada desde M1.
 
 ### Diferencia acumulada respecto de Admisión 2023
 

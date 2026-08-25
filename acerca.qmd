@@ -1,61 +1,92 @@
 ---
-toc: false
+title: "Sobre MGP"
+description: "Propósito, público, alcance y criterios editoriales de Matemática para Gañanes y Patanes."
+toc: true
+toc-depth: 2
 number-sections: false
 ---
 
-# Acerca del proyecto {.unnumbered}
+## Qué es MGP
 
-## Una memoria profesional para enseñar matemática
+**Matemática para Gañanes y Patanes (MGP)** es una obra abierta de referencia orientada principalmente a profesores de matemática. Reúne y conecta conocimiento matemático, didáctico, curricular, evaluativo y metodológico para facilitar su consulta, recuperación y profundización profesional.
 
-**Matemática para Gañanes y Patanes (MGP)** es una biblioteca interconectada orientada principalmente a profesores de matemática y estudiantes de pedagogía. Su propósito es facilitar la recuperación de información disciplinaria, didáctica y curricular cuando hace falta preparar una clase, analizar una pregunta, anticipar errores o volver sobre un contenido olvidado.
+No está concebida como un curso que deba seguirse linealmente. Puede consultarse desde un contenido, un problema, una evaluación, una habilidad, un error o una pregunta profesional concreta.
 
-El proyecto parte de una realidad sencilla: ejercer como profesor no significa mantener disponible, en todo momento, cada definición, demostración, técnica, representación o conexión curricular. MGP busca convertir esa información dispersa en una memoria profesional consultable, sin presentar el olvido como una deficiencia. Los materiales para estudiantes —incluida la preparación PAES— son productos y recorridos derivados de ese propósito principal.
+## Objetivo
+
+> **MGP tiene como objetivo organizar, desarrollar y conectar conocimiento matemático y profesional relevante para la enseñanza de la matemática, de modo que profesores de matemática puedan consultar, recuperar, profundizar y relacionar contenidos disciplinares, didácticos, curriculares, evaluativos y metodológicos en una única obra de referencia.**
 
 ## El problema que busca resolver
 
-El conocimiento que necesita un profesor se encuentra repartido entre textos matemáticos, documentos curriculares, evaluaciones, artículos, apuntes y experiencia de aula. Incluso cuando la información existe, encontrarla, verificarla y reconstruir sus conexiones puede consumir más tiempo que utilizarla.
+La formación y el ejercicio de un profesor reúnen conocimientos adquiridos en momentos, cursos y fuentes diferentes. Parte de ese conocimiento puede dejar de estar inmediatamente disponible; otra parte permanece dispersa entre textos matemáticos, artículos, documentos curriculares, evaluaciones, apuntes y experiencia de aula.
 
-MGP busca reducir esa fragmentación. Una pregunta puede conducir a la técnica que permite resolverla, a la definición que la sostiene, a sus prerrequisitos, representaciones, errores habituales, distractores y habilidades curriculares. La meta no es que el profesor memorice toda la biblioteca, sino que pueda recuperar con rapidez conocimiento fiable y movilizarlo en una decisión profesional concreta.
+MGP responde a esa dispersión. Busca permitir que un concepto pueda recuperarse con su estructura, sus fundamentos y sus conexiones profesionales, con suficiente profundidad para comprenderlo y con suficiente síntesis para consultarlo cuando se necesita.
 
-## Más que un solucionario
+La obra no pretende sustituir libros especializados ni convertir el olvido en una deficiencia profesional. Funciona como una memoria externa organizada que orienta hacia fuentes más profundas cuando corresponde.
 
-Aunque algunas rutas parten de preguntas PAES, MGP no se concibe principalmente como un preuniversitario ni como un solucionario. Cada problema funciona como una entrada a una red más amplia de conocimiento profesional. El proyecto intenta documentar también:
+## Para quién está pensado
 
-- por qué funciona cada procedimiento;
-- qué conocimientos previos requiere;
-- métodos alternativos cuando aportan comprensión;
-- errores frecuentes y el sentido de los distractores;
-- la materia, la habilidad y el contexto curricular involucrados;
-- relaciones con otras preguntas y capítulos.
+El público principal de MGP son los **profesores de matemática**.
 
-Los objetos importantes reciben un identificador estable. Esto permite enlazar una explicación desde distintos lugares sin copiarla ni convertir el sitio en una colección de respuestas aisladas.
+También puede resultar útil para:
 
-## Quién desarrolla MGP
+- estudiantes de pedagogía en matemática;
+- formadores de profesores;
+- investigadores en educación matemática;
+- investigadores y profesionales de evaluación y medición educativa;
+- profesionales vinculados con currículo, formación docente y políticas educativas;
+- otros lectores con interés profesional o académico en la enseñanza de la matemática.
 
-MGP es un proyecto independiente desarrollado y mantenido por **Diego Morales**. El contenido, la estructura pedagógica, el sistema de relaciones y las herramientas de publicación se construyen de manera progresiva. El sitio muestra únicamente las secciones que ya tienen material utilizable; la arquitectura futura se conserva como planificación interna.
+**MGP no está diseñado como plataforma de estudio dirigida directamente a estudiantes escolares.** Las preguntas PAES y de otras evaluaciones se incorporan como objetos de análisis matemático, curricular, didáctico y evaluativo, no como un preuniversitario o solucionario.
+
+## Qué conocimiento reúne
+
+El horizonte editorial integra cinco dominios:
+
+- **Conocimiento profesional y enseñanza:** tareas, representaciones, planificación, evaluación, resolución de problemas, heurismos, errores y análisis profesional.
+- **Matemática escolar:** contenidos escolares desarrollados con profundidad suficiente para comprender qué se enseña, cómo se relaciona y por qué funciona.
+- **Fundamentos universitarios y aplicaciones:** conocimientos para recuperar fundamentos disciplinares y ampliar el horizonte matemático del profesor.
+- **Currículo, evaluación y desarrollo profesional:** currículo chileno, PAES, SIMCE, END, ECEP, estándares y formación docente.
+- **Psicometría, observatorio e investigación:** medición educativa, análisis de resultados y métodos de investigación.
+
+La [tabla de contenidos maestra](docs/tabla-contenidos-maestra.md) describe ese alcance proyectado. La navegación pública, en cambio, muestra y numera solamente el contenido disponible.
+
+## Cómo se organiza
+
+El contenido desarrollado se organiza en partes, capítulos, secciones y subsecciones. Además, MGP utiliza objetos reutilizables —definiciones, técnicas, problemas, preguntas, errores y otros— que pueden relacionarse transversalmente.
+
+Un problema puede conectarse simultáneamente con un contenido matemático, una habilidad, un prerrequisito, una evaluación y una referencia curricular. Las colecciones permiten recuperar conjuntos de objetos, pero no se convierten por ello en capítulos.
+
+Los identificadores permanentes, referencias cruzadas y relaciones permiten reorganizar la obra sin perder la identidad de sus objetos.
+
+## Criterio editorial
+
+MGP busca un equilibrio entre síntesis y profundidad: **contenido detallado y amplio, pero organizado para la consulta profesional**.
+
+Según el tema, una exposición puede incluir:
+
+- definiciones y fundamentos;
+- demostraciones o justificaciones;
+- representaciones y métodos alternativos;
+- ejemplos, no ejemplos y contraejemplos;
+- errores frecuentes y distractores;
+- conexiones curriculares y evaluativas;
+- aplicaciones y referencias para profundizar.
+
+La obra procura distinguir aquello que es conocimiento matemático, evidencia investigativa, material oficial, interpretación documentada o propuesta propia de MGP.
+
+## Fuentes y evidencia
+
+MGP puede utilizar bibliografía matemática, investigación en educación matemática, documentos curriculares oficiales, publicaciones de DEMRE, Agencia de Calidad, Mineduc y CPEIP, evaluaciones nacionales e internacionales, literatura psicométrica y datos públicos.
+
+Las fuentes externas deben identificarse con claridad. Los materiales oficiales conservan su autoría y condiciones de uso; ante discrepancias, prevalece la fuente original. Las preguntas creadas para MGP se identifican como originales, y las inferencias propias deben distinguirse de las afirmaciones de una fuente.
+
+## Desarrollo, autoría y colaboración
+
+MGP es un proyecto independiente desarrollado y mantenido por **Diego Morales**. Se encuentra en desarrollo continuo: la arquitectura maestra representa el alcance previsto, no una afirmación de que todos sus capítulos estén terminados.
 
 El proyecto no representa ni está afiliado al DEMRE, a la Universidad de Chile ni a otra institución educativa.
 
-## Fuentes y procedencia
+Se pueden proponer correcciones, fuentes, explicaciones, métodos alternativos y mejoras de accesibilidad mediante las [incidencias del repositorio](https://github.com/diegoigmorales/MGP/issues). Las contribuciones extensas deben acordar previamente su autoría, procedencia y condiciones de incorporación.
 
-Los temarios y materiales oficiales se identifican con su institución de origen y enlazan, siempre que es posible, a la publicación original. Para la historia de los temarios PAES se utilizan documentos del **Departamento de Evaluación, Medición y Registro Educacional (DEMRE) de la Universidad de Chile**. Puedes consultar el [inventario de fuentes oficiales](contenidos/paes/temarios/fuentes.qmd).
-
-Las preguntas creadas para MGP se señalan como originales. Cuando se incorpora material externo, el proyecto procura registrar autoría, fuente, fecha, titular de derechos, alcance de la transcripción y finalidad educativa. La fuente oficial debe prevalecer ante cualquier diferencia o actualización.
-
-## Licencias y reutilización
-
-El acceso al sitio es gratuito, pero el repositorio **todavía no declara una licencia general de reutilización** para el contenido ni para el código. Hasta que se publique una licencia expresa, no debe suponerse autorización para copiar, adaptar o redistribuir el material más allá de lo permitido por la legislación aplicable.
-
-Los documentos, preguntas, nombres y demás materiales de terceros conservan las licencias y derechos de sus respectivos titulares. Un futuro esquema de licencias del proyecto no podrá modificar esos derechos.
-
-## Cómo colaborar
-
-Hay varias formas de ayudar:
-
-- informar errores matemáticos, enlaces rotos o problemas de accesibilidad;
-- proponer explicaciones más claras o métodos alternativos;
-- aportar preguntas originales con su solución y procedencia;
-- revisar transcripciones, fuentes y metadatos;
-- mejorar el código, el diseño o la experiencia en dispositivos móviles.
-
-Puedes utilizar el enlace **Informar o proponer una mejora** que aparece al pie de cada página, o abrir una [incidencia en GitHub](https://github.com/diegoigmorales/MGP/issues). Quienes colaboran directamente en el repositorio también pueden editar los archivos QMD y enviar sus cambios para revisión. Antes de incorporar contribuciones extensas será necesario acordar su autoría, procedencia y condiciones de licencia.
+El repositorio todavía no declara una licencia general de reutilización. Hasta que exista una licencia expresa, no debe suponerse autorización para copiar, adaptar o redistribuir su contenido más allá de lo permitido por la legislación aplicable. Los materiales de terceros conservan sus propios derechos y licencias.

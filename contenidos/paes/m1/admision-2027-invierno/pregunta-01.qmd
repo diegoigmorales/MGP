@@ -1,11 +1,8 @@
 ---
-description: "Pregunta de la PAES de Competencia Matemática M1 de Invierno para el proceso de Admisión 2027."
+title: "Pregunta 1 · PAES M1 Invierno — Admisión 2027"
+paes-question: 1
+knowledge-tag: "2701"
 ---
-
-# Pregunta 1 · PAES M1 Invierno — Admisión 2027 {.unnumbered}
-
-:::: {.knowledge-object #tag-2701 tag="2701" type="pregunta" title="Pregunta 1 · PAES M1 Invierno — Admisión 2027"}
-## Pregunta 1
 
 En un juego de mesa se pueden obtener las siguientes tarjetas:
 
@@ -39,6 +36,3 @@ $$
 1. Angélica
 1. Roberto
 :::
-
-
-::::

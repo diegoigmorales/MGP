@@ -1,11 +1,8 @@
 ---
-description: "Pregunta de la PAES de Competencia Matemática M1 de Invierno para el proceso de Admisión 2027."
+title: "Pregunta 64 · PAES M1 Invierno — Admisión 2027"
+paes-question: 64
+knowledge-tag: "2764"
 ---
-
-# Pregunta 64 · PAES M1 Invierno — Admisión 2027 {.unnumbered}
-
-:::: {.knowledge-object #tag-2764 tag="2764" type="pregunta" title="Pregunta 64 · PAES M1 Invierno — Admisión 2027"}
-## Pregunta 64
 
 Una ruleta está dividida en nueve partes de igual área, como se representa a continuación:
 
@@ -31,6 +28,3 @@ $$
 1. La probabilidad de sacar una estrella en el primer lanzamiento, una estrella en el segundo y un fantasma en el tercero.
 1. La probabilidad de sacar dos estrellas en los dos primeros lanzamientos y un diamante en el tercero.
 :::
-
-
-::::

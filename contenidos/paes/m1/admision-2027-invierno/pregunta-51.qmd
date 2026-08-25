@@ -1,11 +1,8 @@
 ---
-description: "Pregunta de la PAES de Competencia Matemática M1 de Invierno para el proceso de Admisión 2027."
+title: "Pregunta 51 · PAES M1 Invierno — Admisión 2027"
+paes-question: 51
+knowledge-tag: "2751"
 ---
-
-# Pregunta 51 · PAES M1 Invierno — Admisión 2027 {.unnumbered}
-
-:::: {.knowledge-object #tag-2751 tag="2751" type="pregunta" title="Pregunta 51 · PAES M1 Invierno — Admisión 2027"}
-## Pregunta 51
 
 En la siguiente figura se representa un cuadrilátero cuyas medidas están en centímetros.
 
@@ -24,6 +21,3 @@ En la siguiente figura se representa un cuadrilátero cuyas medidas están en ce
 1. $20\,\mathrm{cm}$
 1. $(\sqrt{29} + 15)$ cm
 :::
-
-
-::::

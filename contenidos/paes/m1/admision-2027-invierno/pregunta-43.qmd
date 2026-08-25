@@ -1,11 +1,8 @@
 ---
-description: "Pregunta de la PAES de Competencia Matemática M1 de Invierno para el proceso de Admisión 2027."
+title: "Pregunta 43 · PAES M1 Invierno — Admisión 2027"
+paes-question: 43
+knowledge-tag: "2743"
 ---
-
-# Pregunta 43 · PAES M1 Invierno — Admisión 2027 {.unnumbered}
-
-:::: {.knowledge-object #tag-2743 tag="2743" type="pregunta" title="Pregunta 43 · PAES M1 Invierno — Admisión 2027"}
-## Pregunta 43
 
 Una empresa que vende cajas de cereales decide ofrecer una oferta que implica un nuevo diseño de caja. Esta es un $10\,\%$ más alta que el diseño original, tal como se representa a continuación:
 
@@ -24,6 +21,3 @@ Una empresa que vende cajas de cereales decide ofrecer una oferta que implica un
 1. $3993\,\mathrm{cm^3}$
 1. $4000\,\mathrm{cm^3}$
 :::
-
-
-::::

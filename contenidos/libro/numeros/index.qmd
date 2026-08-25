@@ -3,10 +3,10 @@ toc: false
 number-sections: false
 ---
 
-# Parte I · Números {.unnumbered}
+# Capítulo 1. Porcentajes {.unnumbered}
 
-## Razones y proporcionalidad
+## Ubicación matemática
 
-### Porcentajes
+### Razones y proporcionalidad
 
 - [Definición, técnicas y ejemplos](porcentajes.qmd)

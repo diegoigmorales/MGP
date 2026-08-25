@@ -1,11 +1,8 @@
 ---
-description: "Pregunta de la PAES de Competencia Matemática M1 de Invierno para el proceso de Admisión 2027."
+title: "Pregunta 47 · PAES M1 Invierno — Admisión 2027"
+paes-question: 47
+knowledge-tag: "2747"
 ---
-
-# Pregunta 47 · PAES M1 Invierno — Admisión 2027 {.unnumbered}
-
-:::: {.knowledge-object #tag-2747 tag="2747" type="pregunta" title="Pregunta 47 · PAES M1 Invierno — Admisión 2027"}
-## Pregunta 47
 
 Una hoja de papel se dobla dos veces consecutivas y luego se le realiza una perforación con forma de triángulo, tal como se presenta a continuación:
 
@@ -24,6 +21,3 @@ Una hoja de papel se dobla dos veces consecutivas y luego se le realiza una perf
 1. (imagen)
 1. (imagen)
 :::
-
-
-::::

@@ -1,11 +1,8 @@
 ---
-description: "Pregunta de la PAES de Competencia Matemática M1 de Invierno para el proceso de Admisión 2027."
+title: "Pregunta 24 · PAES M1 Invierno — Admisión 2027"
+paes-question: 24
+knowledge-tag: "2724"
 ---
-
-# Pregunta 24 · PAES M1 Invierno — Admisión 2027 {.unnumbered}
-
-:::: {.knowledge-object #tag-2724 tag="2724" type="pregunta" title="Pregunta 24 · PAES M1 Invierno — Admisión 2027"}
-## Pregunta 24
 
 El crecimiento de una población de bacterias se modela utilizando la siguiente expresión:
 $$
@@ -31,6 +28,3 @@ Para calcular la cantidad de bacterias que habrá transcurridas $2$ horas, en un
 1. En el Paso 3
 1. En el Paso 4
 :::
-
-
-::::

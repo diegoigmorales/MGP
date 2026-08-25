@@ -1,7 +1,9 @@
 /.quarto/
 /_site/
 /_book/
-/docs/
+/docs/*
+!/docs/tabla-contenidos-maestra.md
+!/docs/organizacion-editorial.md
 /.venv/
 __pycache__/
 *.pyc

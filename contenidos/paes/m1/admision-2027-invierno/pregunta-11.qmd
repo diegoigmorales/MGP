@@ -1,11 +1,8 @@
 ---
-description: "Pregunta de la PAES de Competencia Matemática M1 de Invierno para el proceso de Admisión 2027."
+title: "Pregunta 11 · PAES M1 Invierno — Admisión 2027"
+paes-question: 11
+knowledge-tag: "2711"
 ---
-
-# Pregunta 11 · PAES M1 Invierno — Admisión 2027 {.unnumbered}
-
-:::: {.knowledge-object #tag-2711 tag="2711" type="pregunta" title="Pregunta 11 · PAES M1 Invierno — Admisión 2027"}
-## Pregunta 11
 
 En el siguiente mapa se presenta la hora en cuatro ciudades del mundo en un mismo momento del día lunes.
 
@@ -26,6 +23,3 @@ Una persona viaja en un vuelo directo desde Nueva York hasta Tokio. Su vuelo par
 1. A las $09:30$ $\mathrm{h}$ del día martes
 1. A las $09:50$ $\mathrm{h}$ del día miércoles
 :::
-
-
-::::

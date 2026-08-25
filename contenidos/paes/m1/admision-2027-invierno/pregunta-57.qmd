@@ -1,11 +1,8 @@
 ---
-description: "Pregunta de la PAES de Competencia Matemática M1 de Invierno para el proceso de Admisión 2027."
+title: "Pregunta 57 · PAES M1 Invierno — Admisión 2027"
+paes-question: 57
+knowledge-tag: "2757"
 ---
-
-# Pregunta 57 · PAES M1 Invierno — Admisión 2027 {.unnumbered}
-
-:::: {.knowledge-object #tag-2757 tag="2757" type="pregunta" title="Pregunta 57 · PAES M1 Invierno — Admisión 2027"}
-## Pregunta 57
 
 En los siguientes pictogramas se representa la cantidad de personas que hay en cinco grupos, tal que cada $\square$ corresponde a una persona.
 
@@ -24,6 +21,3 @@ En los siguientes pictogramas se representa la cantidad de personas que hay en c
 1. En el pictograma 3
 1. En el pictograma 4
 :::
-
-
-::::

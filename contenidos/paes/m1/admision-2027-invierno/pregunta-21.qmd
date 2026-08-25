@@ -1,11 +1,8 @@
 ---
-description: "Pregunta de la PAES de Competencia Matemática M1 de Invierno para el proceso de Admisión 2027."
+title: "Pregunta 21 · PAES M1 Invierno — Admisión 2027"
+paes-question: 21
+knowledge-tag: "2721"
 ---
-
-# Pregunta 21 · PAES M1 Invierno — Admisión 2027 {.unnumbered}
-
-:::: {.knowledge-object #tag-2721 tag="2721" type="pregunta" title="Pregunta 21 · PAES M1 Invierno — Admisión 2027"}
-## Pregunta 21
 
 Para promocionar un negocio se contrata a un grupo de personas para que cada una pueda captar a un máximo de $20$ clientes por día.
 
@@ -24,6 +21,3 @@ Si una persona logró captar en un día $16$ clientes, ¿qué porcentaje recibi�
 1. $80\,\%$
 1. $84\,\%$
 :::
-
-
-::::

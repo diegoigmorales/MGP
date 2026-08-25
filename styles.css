@@ -10,6 +10,8 @@
   --mgp-moved-bg: #e7f3fb;
   --mgp-unchanged: #4b5563;
   --mgp-unchanged-bg: #f1f3f5;
+  --mgp-priority: #7a3e00;
+  --mgp-priority-bg: #fff3cd;
 }
 
 .knowledge-object {
@@ -88,6 +90,11 @@
 .change-added {
   background: var(--mgp-added-bg);
   color: var(--mgp-added);
+}
+
+.change-priority {
+  background: var(--mgp-priority-bg);
+  color: var(--mgp-priority);
 }
 
 .change-removed {
@@ -207,6 +214,54 @@
   }
 
   .temario-card {
+    padding: .85rem;
+  }
+}
+
+.mgp-home-hero {
+  background: linear-gradient(135deg, #f3efff 0%, #eef7ff 100%);
+  border: 1px solid #d8cef7;
+  border-radius: 1rem;
+  margin: .5rem 0 2rem;
+  padding: 1.5rem 1.75rem;
+}
+
+.mgp-home-hero > :first-child {
+  margin-top: 0;
+}
+
+.mgp-home-hero > :last-child {
+  margin-bottom: 0;
+}
+
+.mgp-domain-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  margin: 1rem 0 2rem;
+}
+
+.mgp-domain-card {
+  border: 1px solid #d9dee5;
+  border-radius: .8rem;
+  box-shadow: 0 .15rem .45rem rgb(31 41 55 / 8%);
+  padding: 1rem 1.1rem;
+}
+
+.mgp-domain-card > :first-child {
+  margin-top: 0;
+}
+
+.mgp-domain-card > :last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 575.98px) {
+  .mgp-home-hero {
+    padding: 1rem;
+  }
+
+  .mgp-domain-card {
     padding: .85rem;
   }
 }

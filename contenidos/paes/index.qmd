@@ -1,24 +1,42 @@
 ---
-description: "Preguntas convertidas en nodos de conocimiento matemático."
-toc: false
-number-sections: true
+description: "Capítulo sobre las pruebas de Competencia Matemática, sus temarios y sus colecciones de objetos."
+toc: true
+toc-depth: 2
+number-sections: false
 ---
 
-# PAES de Matemática
+# Capítulo 4. PAES de Matemática {.unnumbered}
 
-## Comprender la prueba
+La Prueba de Acceso a la Educación Superior contempla dos pruebas de Competencia Matemática: **M1** y **M2**. Las expresiones *regular* e *invierno* identifican oportunidades de rendición y series documentales; no designan pruebas matemáticas adicionales.
 
-### Temarios, pruebas y habilidades
+## 4.1 Las pruebas de Competencia Matemática
 
-- [Temario vigente · Admisión 2027](temarios/vigente.qmd)
-- [Evolución histórica de los temarios](temarios/evolucion/index.qmd)
-- [Comparación cronológica](temarios/comparacion.qmd)
-- [Cómo leer esta historia](temarios/como-leer.qmd)
-- [Fuentes oficiales](temarios/fuentes.qmd)
+### M1
 
-- [Competencia Matemática M1](m1/index.qmd)
+M1 evalúa la competencia matemática general requerida para las carreras que la solicitan. Sus conocimientos se organizan en Números, Álgebra y funciones, Geometría, y Probabilidad y estadística.
 
-### Preguntas M1
+- [Descripción de M1](m1/index.qmd)
+- [Colección oficial M1 Invierno — Admisión 2027](m1/admision-2027-invierno/index.qmd)
 
-- [Colección PAES M1 Invierno · Admisión 2027](m1/admision-2027-invierno/index.qmd)
-- [Pregunta original sobre porcentajes](m1/preguntas-originales/porcentajes.qmd)
+### M2
+
+M2 se exige para determinadas carreras y considera toda la base de M1 más conocimientos adicionales. No es una versión “intensiva” de M1, sino la segunda prueba oficial de Competencia Matemática.
+
+- [Descripción de M2](m2/index.qmd)
+
+## 4.2 Estudio de los temarios
+
+El estudio se presenta como una secuencia de lectura, desde los criterios metodológicos hasta la documentación de respaldo:
+
+1. [Cómo interpretar los temarios](temarios/index.qmd).
+2. [Temario vigente para M1 y M2](temarios/vigente.qmd).
+3. [Evolución histórica](temarios/evolucion/index.qmd).
+4. [Síntesis comparada](temarios/comparacion.qmd).
+5. [Fuentes oficiales](temarios/fuentes.qmd).
+
+## Colecciones vinculadas
+
+Las colecciones reúnen objetos consultables y permanecen subordinadas al capítulo; no reciben numeración de capítulo.
+
+- [Preguntas oficiales M1](m1/admision-2027-invierno/index.qmd)
+- [Preguntas originales vinculadas con PAES](m1/preguntas-originales/porcentajes.qmd)

@@ -1,11 +1,8 @@
 ---
-description: "Pregunta de la PAES de Competencia Matemática M1 de Invierno para el proceso de Admisión 2027."
+title: "Pregunta 56 · PAES M1 Invierno — Admisión 2027"
+paes-question: 56
+knowledge-tag: "2756"
 ---
-
-# Pregunta 56 · PAES M1 Invierno — Admisión 2027 {.unnumbered}
-
-:::: {.knowledge-object #tag-2756 tag="2756" type="pregunta" title="Pregunta 56 · PAES M1 Invierno — Admisión 2027"}
-## Pregunta 56
 
 El examen médico de tolerancia a la glucosa consiste en medir la respuesta del cuerpo a la glucosa. Se inicia midiendo la concentración de la glucosa basal y luego se ingiere un líquido con una determinada concentración de glucosa para monitorear su concentración en el cuerpo al transcurrir las horas.
 
@@ -26,6 +23,3 @@ En el siguiente gráfico se representa la concentración de glucosa en el cuerpo
 1. La concentración de glucosa basal del paciente es de $110\,\mathrm{mg/dL}$, aproximadamente.
 1. El punto más alto de la concentración de glucosa sucede $3\,\mathrm{h}$ después de ingerir la glucosa.
 :::
-
-
-::::

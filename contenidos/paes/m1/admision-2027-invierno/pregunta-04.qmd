@@ -1,11 +1,8 @@
 ---
-description: "Pregunta de la PAES de Competencia Matemática M1 de Invierno para el proceso de Admisión 2027."
+title: "Pregunta 4 · PAES M1 Invierno — Admisión 2027"
+paes-question: 4
+knowledge-tag: "2704"
 ---
-
-# Pregunta 4 · PAES M1 Invierno — Admisión 2027 {.unnumbered}
-
-:::: {.knowledge-object #tag-2704 tag="2704" type="pregunta" title="Pregunta 4 · PAES M1 Invierno — Admisión 2027"}
-## Pregunta 4
 
 Considera el siguiente modelo que permite estimar la estatura, en centímetros, que tendrán niñas y niños cuando terminen su desarrollo.
 
@@ -28,6 +25,3 @@ tal que:
 1. $170\,\mathrm{cm}$
 1. $176.5\,\mathrm{cm}$
 :::
-
-
-::::
