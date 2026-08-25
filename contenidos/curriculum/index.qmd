@@ -10,26 +10,26 @@ Este capítulo organiza el currículo escolar de Matemática actualmente incorpo
 
 La etiqueta [Prioritario]{.change-badge .change-priority} identifica los objetivos que la fuente original marcaba mediante color como parte de la priorización curricular chilena. La etiqueta se aplica al OA particular y no al eje completo.
 
-## 3.1 Ejes y materias
+## Ejes y materias
 
 - [Ejes y materias](ejes.qmd)
 
-## 3.2 Habilidades matemáticas
+## Habilidades matemáticas
 
 - [Habilidades matemáticas](habilidades.qmd)
 
-## 3.3 Enseñanza básica, ciclo I
+## Enseñanza básica, ciclo I
 
 - [Primero a cuarto básico](basica-ciclo-1.qmd)
 
-## 3.4 Enseñanza básica, ciclo II
+## Enseñanza básica, ciclo II
 
 - [Quinto a octavo básico](basica-ciclo-2.qmd)
 
-## 3.5 Enseñanza media
+## Enseñanza media
 
 - [Primero a cuarto medio](ensenanza-media.qmd)
 
-## 3.6 Formación diferenciada
+## Formación diferenciada
 
 - [Electivos matemáticos](formacion-diferenciada.qmd)

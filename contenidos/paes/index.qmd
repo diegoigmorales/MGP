@@ -9,7 +9,7 @@ toc-depth: 2
 
 La Prueba de Acceso a la Educación Superior contempla dos pruebas de Competencia Matemática: **M1** y **M2**. Las expresiones *regular* e *invierno* identifican oportunidades de rendición y series documentales; no designan pruebas matemáticas adicionales.
 
-## 4.1 Las pruebas de Competencia Matemática
+## Las pruebas de Competencia Matemática
 
 ### M1
 
@@ -24,7 +24,7 @@ M2 se exige para determinadas carreras y considera toda la base de M1 más conoc
 
 - [Descripción de M2](m2/index.qmd)
 
-## 4.2 Estudio de los temarios
+## Estudio de los temarios
 
 El estudio se presenta como una secuencia de lectura, desde los criterios metodológicos hasta la documentación de respaldo:
 
