@@ -6,7 +6,7 @@ knowledge-tag: "2738"
 
 El peso $p$ en newtons ($\mathrm{N}$) de un cuerpo depende de su masa $m$ en kilogramos, y se modela mediante la expresión $p = g \cdot m$, tal que $g$ es una constante que depende del planeta donde se encuentre el cuerpo.
 
-En Mercurio, el valor de $g$ es aproximadamente $3.7\,\mathrm{m/s^2}$, de manera que se puede establecer el siguiente gráfico:
+En Mercurio, el valor de $g$ es aproximadamente $3{,}7\,\mathrm{m/s^2}$, de manera que se puede establecer el siguiente gráfico:
 
 
 ::: {.text-center}

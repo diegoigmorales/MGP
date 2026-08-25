@@ -1,6 +1,8 @@
 project:
   type: website
-  pre-render: python scripts/build_registry.py
+  pre-render:
+    - python scripts/math_notation.py --check
+    - python scripts/build_registry.py
   output-dir: _site
 
 website:

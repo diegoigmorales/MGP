@@ -10,14 +10,17 @@ El proyecto avanza hacia una [arquitectura maestra de cinco partes y 102 capítu
 
 ## Desarrollo local
 
-Requisitos: Python 3.11 o superior y [Quarto](https://quarto.org/docs/get-started/).
+Requisitos: Python 3.11 o superior, [Quarto](https://quarto.org/docs/get-started/) y R con los paquetes `knitr` y `rmarkdown`.
 
 ~~~powershell
 python scripts/build_registry.py
+python scripts/math_notation.py --check
 quarto preview
 ~~~
 
 La validación y el catálogo se ejecutan también como paso previo de cada render.
+
+Las convenciones para delimitadores, números, magnitudes, unidades, porcentajes y moneda se documentan en [Convenciones de notación matemática](docs/convenciones-notacion-matematica.md). Las macros compartidas funcionan en HTML/MathJax y PDF sin depender de `siunitx`.
 
 ## Crear un objeto
 

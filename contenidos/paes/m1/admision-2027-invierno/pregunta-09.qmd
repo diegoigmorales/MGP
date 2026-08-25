@@ -12,20 +12,20 @@ $$
 \begin{array}{c|c|c}
 \text{Producto} & \text{Precio unitario} & \text{Promoción por dos unidades} \\
 \hline
-1 \text{ kilogramo de azúcar} & \$1400 & \$2600 \\
-\frac{1}{2} \text{ litro de lavaozza} & \$1600 & \$3000 \\
-1 \text{ litro de leche} & \$1200 & \$2200 \\
-1 \text{ kilogramo de arroz} & \$1700 & \$3300
+1 \text{ kilogramo de azúcar} & \$1\,400 & \$2\,600 \\
+\frac{1}{2} \text{ litro de lavaozza} & \$1\,600 & \$3\,000 \\
+1 \text{ litro de leche} & \$1\,200 & \$2\,200 \\
+1 \text{ kilogramo de arroz} & \$1\,700 & \$3\,300
 \end{array}
 $$
 
 Para calcular el menor precio por pagar, la persona efectúa el siguiente procedimiento, en el cual comete un error.
 
 
-- Paso 1: calcula que en azúcar debe gastar $\$2600 + \$1400 = \$4000$.
-- Paso 2: calcula que en lavaozza debe gastar $3 \cdot \$3000 = \$9000$.
-- Paso 3: calcula que en leche debe gastar $2 \cdot \$2200 = \$4400$.
-- Paso 4: suma a los valores anteriores el precio de un kilogramo de arroz y obtiene que el precio final por pagar es $\$19100$.
+- Paso 1: calcula que en azúcar debe gastar $\$2\,600 + \$1\,400 = \$4\,000$.
+- Paso 2: calcula que en lavaozza debe gastar $3 \cdot \$3\,000 = \$9\,000$.
+- Paso 3: calcula que en leche debe gastar $2 \cdot \$2\,200 = \$4\,400$.
+- Paso 4: suma a los valores anteriores el precio de un kilogramo de arroz y obtiene que el precio final por pagar es $\$19\,100$.
 
 
 ¿En cuál de los pasos la persona cometió el error?

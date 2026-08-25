@@ -10,7 +10,7 @@ $$
 \begin{array}{c|c}
 \text{Guías de turismo} & \text{Cantidad} \\
 \hline
-\text{en Chile} & 3621 \\
+\text{en Chile} & 3\,621 \\
 \text{en la Región de Valparaíso} & 441
 \end{array}
 $$
@@ -33,6 +33,6 @@ Si se escoge al azar a un guía de turismo de la Región de Valparaíso, ¿cuál
 ::: {.answer-options}
 1. $\dfrac{64 + 51}{441}$
 1. $\dfrac{64}{441} + \dfrac{51}{441}$
-1. $\dfrac{64 + 51}{3621}$
-1. $\dfrac{64}{3621} + \dfrac{51}{3621}$
+1. $\dfrac{64 + 51}{3\,621}$
+1. $\dfrac{64}{3\,621} + \dfrac{51}{3\,621}$
 :::

@@ -27,8 +27,8 @@ Esta municipalidad dará un beneficio a las familias que tengan $3$ o más masco
 
 
 ::: {.answer-options}
-1. $\dfrac{7}{50} \cdot 100\%$
-1. $\dfrac{13}{50} \cdot 100\%$
-1. $\dfrac{37}{50} \cdot 100\%$
-1. $\dfrac{43}{50} \cdot 100\%$
+1. $\dfrac{7}{50} \cdot 100\,\%$
+1. $\dfrac{13}{50} \cdot 100\,\%$
+1. $\dfrac{37}{50} \cdot 100\,\%$
+1. $\dfrac{43}{50} \cdot 100\,\%$
 :::

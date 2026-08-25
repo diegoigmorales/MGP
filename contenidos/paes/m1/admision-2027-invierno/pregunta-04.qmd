@@ -21,7 +21,7 @@ tal que:
 
 ::: {.answer-options}
 1. $157\,\mathrm{cm}$
-1. $163.5\,\mathrm{cm}$
+1. $163{,}5\,\mathrm{cm}$
 1. $170\,\mathrm{cm}$
-1. $176.5\,\mathrm{cm}$
+1. $176{,}5\,\mathrm{cm}$
 :::

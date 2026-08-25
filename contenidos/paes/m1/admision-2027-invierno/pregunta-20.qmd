@@ -4,7 +4,7 @@ paes-question: 20
 knowledge-tag: "2720"
 ---
 
-Una empresa de limpieza de automóviles realiza un cobro base de $\$20000$ por lavado y secado exterior del vehículo. Al agregar otros servicios extras, se cobra un adicional de $\$5000$ por cada uno.
+Una empresa de limpieza de automóviles realiza un cobro base de $\$20\,000$ por lavado y secado exterior del vehículo. Al agregar otros servicios extras, se cobra un adicional de $\$5\,000$ por cada uno.
 
 La empresa ofrece un $15\,\%$ de descuento en el total a pagar si se realizan más de tres tipos de servicios extras.
 
@@ -12,8 +12,8 @@ Si una persona realiza el lavado y secado exterior con cinco servicios extras, �
 
 
 ::: {.answer-options}
-1. $\$38250$
-1. $\$41250$
-1. $\$42000$
-1. $\$42750$
+1. $\$38\,250$
+1. $\$41\,250$
+1. $\$42\,000$
+1. $\$42\,750$
 :::

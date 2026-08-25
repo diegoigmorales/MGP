@@ -17,12 +17,12 @@ $$
 \frac{3}{4}\pi \left(\frac{\text{DAP}}{2}\right)^2 \cdot \text{altura comercial}.
 $$
 
-¿Cuál es el volumen de madera que se obtendrá de un cedro de altura comercial de $6\,\mathrm{m}$ y DAP de $0.4\,\mathrm{m}$?
+¿Cuál es el volumen de madera que se obtendrá de un cedro de altura comercial de $6\,\mathrm{m}$ y DAP de $0{,}4\,\mathrm{m}$?
 
 
 ::: {.answer-options}
-1. $0.72\,\pi m^3$
-1. $0.18\,\pi m^3$
-1. $0.039\,\pi m^3$
-1. $0.156\,\pi m^3$
+1. $0{,}72\pi\,\mathrm{m^3}$
+1. $0{,}18\pi\,\mathrm{m^3}$
+1. $0{,}039\pi\,\mathrm{m^3}$
+1. $0{,}156\pi\,\mathrm{m^3}$
 :::

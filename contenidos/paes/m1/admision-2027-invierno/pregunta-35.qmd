@@ -4,14 +4,14 @@ paes-question: 35
 knowledge-tag: "2735"
 ---
 
-Una empresa contrata a una persona para que publique videos mostrando los beneficios de sus productos. La empresa le paga $\$150000$, más $\$100000$ por cada video publicado.
+Una empresa contrata a una persona para que publique videos mostrando los beneficios de sus productos. La empresa le paga $\$150\,000$, más $\$100\,000$ por cada video publicado.
 
 ¿Cuál de las siguientes funciones modela el dinero que recibirá la persona tras publicar $x$ videos para la empresa?
 
 
 ::: {.answer-options}
-1. $f(x) = 150000x + 100000$
-1. $g(x) = 100000x + 150000$
-1. $h(x) = 100000 \cdot (x + 150000)$
-1. $k(x) = x \cdot (100000 + 150000)$
+1. $f(x) = 150000x + 100\,000$
+1. $g(x) = 100000x + 150\,000$
+1. $h(x) = 100\,000 \cdot (x + 150\,000)$
+1. $k(x) = x \cdot (100\,000 + 150\,000)$
 :::

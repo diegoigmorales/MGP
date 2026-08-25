@@ -4,6 +4,7 @@
 /docs/*
 !/docs/tabla-contenidos-maestra.md
 !/docs/organizacion-editorial.md
+!/docs/convenciones-notacion-matematica.md
 /.venv/
 __pycache__/
 *.pyc

@@ -16,8 +16,8 @@ Si todas las personas contestaron todas las categorías, ¿cuál es el promedio 
 
 
 ::: {.answer-options}
-1. $4.7$ puntos
-1. $4.8$ puntos
-1. $4.9$ puntos
+1. $4{,}7$ puntos
+1. $4{,}8$ puntos
+1. $4{,}9$ puntos
 1. $5$ puntos
 :::

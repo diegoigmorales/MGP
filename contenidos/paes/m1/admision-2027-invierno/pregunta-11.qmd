@@ -12,7 +12,7 @@ En el siguiente mapa se presenta la hora en cuatro ciudades del mundo en un mism
 :::
 
 
-Una persona viaja en un vuelo directo desde Nueva York hasta Tokio. Su vuelo partió a las $05:00$ $\mathrm{h}$ de Nueva York de ese día lunes y duró $14.5\,\mathrm{h}$.
+Una persona viaja en un vuelo directo desde Nueva York hasta Tokio. Su vuelo partió a las $05:00$ $\mathrm{h}$ de Nueva York de ese día lunes y duró $14{,}5\,\mathrm{h}$.
 
 ¿A qué hora de Tokio aterrizó el vuelo de esta persona?
 

@@ -11,5 +11,5 @@ Las diagonales de un rombo miden $24\,\mathrm{cm}$ y $30\,\mathrm{cm}$. ¿Cuál 
 1. $180\,\mathrm{cm^2}$
 1. $360\,\mathrm{cm^2}$
 1. $720\,\mathrm{cm^2}$
-1. $1440\,\mathrm{cm^2}$
+1. $1\,440\,\mathrm{cm^2}$
 :::

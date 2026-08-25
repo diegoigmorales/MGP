@@ -4,7 +4,7 @@ paes-question: 19
 knowledge-tag: "2719"
 ---
 
-La Maratón de Santiago, realizada el 28 de abril de 2024 tenía tres categorías 10k, 21k y 42k, y participaron $31000$ corredores.
+La Maratón de Santiago, realizada el 28 de abril de 2024 tenía tres categorías 10k, 21k y 42k, y participaron $31\,000$ corredores.
 
 Del total de corredores, un $25\,\%$ eran extranjeros y un $12\,\%$ de estos compitieron en la categoría 10k.
 
@@ -12,8 +12,8 @@ Del total de corredores, un $25\,\%$ eran extranjeros y un $12\,\%$ de estos com
 
 
 ::: {.answer-options}
-1. $25 \cdot 12 \cdot 31000$
-1. $(25 + 12) \cdot 31000$
-1. $0.25 \cdot 0.12 \cdot 31000$
-1. $(0.25 + 0.12) \cdot 31000$
+1. $25 \cdot 12 \cdot 31\,000$
+1. $(25 + 12) \cdot 31\,000$
+1. $0{,}25 \cdot 0{,}12 \cdot 31\,000$
+1. $(0{,}25 + 0{,}12) \cdot 31\,000$
 :::

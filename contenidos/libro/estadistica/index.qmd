@@ -120,7 +120,7 @@ Para valores o categorías $x_i$:
 
 - la frecuencia absoluta $f_i$ cuenta observaciones;
 - la frecuencia relativa $h_i=f_i/n$ expresa la proporción;
-- la frecuencia porcentual es $100h_i\%$;
+- la frecuencia porcentual es $100h_i\,\%$;
 - la frecuencia absoluta acumulada $F_i=\sum_{j\le i}f_j$;
 - la frecuencia relativa acumulada $H_i=\sum_{j\le i}h_j$.
 
@@ -343,7 +343,7 @@ La varianza queda en unidades al cuadrado; la desviación estándar recupera las
 
 Cuando la media es distinta de cero y la escala admite comparaciones relativas, el **coeficiente de variación** es
 
-$$CV=\frac{s}{|\bar x|}\cdot100\%.$$
+$$CV=\frac{s}{|\bar x|}\cdot100\,\%.$$
 
 Permite comparar dispersión relativa entre conjuntos con medias o unidades diferentes. No es adecuado para escalas con cero arbitrario, medias cercanas a cero ni datos cualitativos.
 :::
