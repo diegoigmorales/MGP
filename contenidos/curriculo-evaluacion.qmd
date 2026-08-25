@@ -1,0 +1,20 @@
+---
+description: "Introducción a la parte dedicada al currículo, la evaluación y el desarrollo profesional."
+toc: false
+number-sections: false
+---
+
+# Parte II. Currículo, evaluación y desarrollo profesional {.unnumbered}
+
+## Introducción
+
+Esta parte conecta la matemática con los marcos que orientan su enseñanza y evaluación. Su alcance crecerá junto con la obra; la tabla siguiente registra únicamente los capítulos actualmente desarrollados.
+
+## Contenido actual
+
+| Capítulo | Material disponible | Estado |
+|---|---|---|
+| [3. Sistema curricular chileno](curriculum/index.qmd) | Ejes, habilidades, objetivos de aprendizaje y formación diferenciada | En desarrollo |
+| [4. PAES de Matemática](paes/index.qmd) | M1, M2, estudio de temarios y colecciones vinculadas | En desarrollo |
+
+Las páginas curriculares, los estudios documentales y las colecciones se abren desde sus capítulos. El menú principal conserva solamente la jerarquía de partes y capítulos.

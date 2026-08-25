@@ -6,8 +6,15 @@ number-sections: false
 
 # Parte I. Matemática escolar para la enseñanza {.unnumbered}
 
-## Capítulo 1. Porcentajes
+## Introducción
 
-- [Índice de números](numeros/index.qmd)
-- [Porcentajes: definición, técnicas y ejemplos](numeros/porcentajes.qmd)
-- [Pregunta original resuelta y analizada](../paes/m1/preguntas-originales/porcentajes.qmd)
+Esta parte reúne el conocimiento matemático escolar que un profesor puede necesitar consultar, recuperar o profundizar. Los capítulos se incorporan según el contenido efectivamente desarrollado; la numeración no reserva lugares para capítulos futuros.
+
+## Contenido actual
+
+| Capítulo | Material disponible | Estado |
+|---|---|---|
+| [1. Porcentajes](numeros/porcentajes.qmd) | Definición, interpretaciones, técnica fundamental, ejemplos y errores frecuentes | En desarrollo |
+| [2. Estadística escolar](estadistica/index.qmd) | Presentación del campo y objeto sobre media ponderada | En desarrollo |
+
+Las preguntas y los problemas asociados se consultan desde los capítulos o mediante la búsqueda. No forman capítulos ni se despliegan en el menú principal.

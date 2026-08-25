@@ -1,11 +1,9 @@
 ---
-title: "Capítulo 2. Estadística escolar"
+number-sections: true
+title: "Estadística escolar"
 description: "Organización, representación y análisis de datos en la matemática escolar."
 toc: false
-number-sections: false
 ---
-
-# Capítulo 2. Estadística escolar {.unnumbered}
 
 Este capítulo reunirá el conocimiento matemático y didáctico necesario para enseñar estadística en el sistema escolar.
 

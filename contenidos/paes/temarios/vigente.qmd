@@ -16,7 +16,7 @@ La edición regular fue publicada el **19 de marzo de 2026** para rendirse a fin
 ::: {.callout-important}
 ## 4.3.2 Criterio de presentación
 
-Los contenidos comunes se presentan una sola vez. Las marcas **Solo regular** señalan alcance que no figura en el temario de invierno 2027. M2 siempre incluye todo el M1 de la misma aplicación.
+**M1 y M2 son las dos pruebas de Competencia Matemática.** “Regular” e “invierno” nombran oportunidades de aplicación con temarios oficiales propios; no son formatos adicionales de M1 o M2. Los contenidos comunes se presentan una sola vez y las diferencias se atribuyen explícitamente a la aplicación correspondiente. M2 siempre incluye todo el M1 de esa misma aplicación.
 :::
 
 ## 4.3.3 Características generales
@@ -128,7 +128,7 @@ Los contenidos comunes se presentan una sola vez. Las marcas **Solo regular** se
 #### Cuerpos geométricos
 
 - **Ambas aplicaciones:** superficie, volumen y problemas de paralelepípedos y cubos.
-- [Solo regular]{.change-badge .change-added} Los tres enunciados incluyen también cilindros.
+- **Aplicación regular 2027:** los tres enunciados incluyen también cilindros.
 :::
 
 ::: {.temario-unit}
@@ -142,9 +142,7 @@ Los contenidos comunes se presentan una sola vez. Las marcas **Solo regular** se
 ::: {.temario-unit}
 #### Semejanza y proporcionalidad de figuras
 
-[Solo regular]{.change-badge .change-added}
-
-- Aplicación de propiedades de semejanza y proporcionalidad a modelos a escala y a situaciones cotidianas o de otras asignaturas.
+- **Aplicación regular 2027:** propiedades de semejanza y proporcionalidad aplicadas a modelos a escala y a situaciones cotidianas o de otras asignaturas.
 :::
 
 ### Probabilidad y estadística
@@ -247,17 +245,13 @@ M2 puede evaluar **todo el M1 de la aplicación correspondiente** y, además, lo
 ::: {.temario-unit}
 #### Esferas, superficie y volumen
 
-[Solo regular]{.change-badge .change-added}
-
-- Problemas con el área de la superficie y el volumen de la esfera.
+- **Aplicación regular 2027:** problemas con el área de la superficie y el volumen de la esfera.
 :::
 
 ::: {.temario-unit}
 #### Rectas en el plano
 
-[Solo regular]{.change-badge .change-added}
-
-- Problemas con rectas y sus posiciones relativas.
+- **Aplicación regular 2027:** problemas con rectas y sus posiciones relativas.
 :::
 
 ### Probabilidad y estadística

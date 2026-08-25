@@ -12,19 +12,36 @@ book:
   search: true
   sidebar:
     collapse-level: 1
+    contents:
+      - text: "Portada"
+        href: index.qmd
+      - text: "Sobre MGP"
+        href: acerca.qmd
+      - section: "Parte I. Matemática escolar para la enseñanza"
+        href: contenidos/libro/index.qmd
+        contents:
+          - text: "Capítulo 1. Porcentajes"
+            href: contenidos/libro/numeros/porcentajes.qmd
+          - text: "Capítulo 2. Estadística escolar"
+            href: contenidos/libro/estadistica/index.qmd
+      - section: "Parte II. Currículo, evaluación y desarrollo profesional"
+        href: contenidos/curriculo-evaluacion.qmd
+        contents:
+          - text: "Capítulo 3. Sistema curricular chileno"
+            href: contenidos/curriculum/index.qmd
+          - text: "Capítulo 4. PAES de Matemática"
+            href: contenidos/paes/index.qmd
   chapters:
     - index.qmd
     - acerca.qmd
-    - contenidos/index.qmd
-    - part: "Parte I. Matemática escolar para la enseñanza"
+    - part: contenidos/libro/index.qmd
       chapters:
-        - contenidos/libro/index.qmd
         - contenidos/libro/numeros/index.qmd
         - contenidos/libro/numeros/porcentajes.qmd
         - contenidos/paes/m1/preguntas-originales/porcentajes.qmd
         - contenidos/libro/estadistica/index.qmd
         - contenidos/universitario/estadistica/media-ponderada.qmd
-    - part: "Parte II. Currículo, evaluación y desarrollo profesional"
+    - part: contenidos/curriculo-evaluacion.qmd
       chapters:
         - contenidos/curriculum/index.qmd
         - contenidos/curriculum/ejes.qmd
