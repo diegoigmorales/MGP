@@ -3,7 +3,7 @@ toc: true
 toc-depth: 2
 ---
 
-# Capítulo 3. Sistema curricular chileno
+# Capítulo 4. Sistema curricular chileno
 
 Este capítulo organiza el currículo escolar de Matemática actualmente incorporado en MGP. Los objetivos mantienen su orden oficial dentro de cada curso.
 

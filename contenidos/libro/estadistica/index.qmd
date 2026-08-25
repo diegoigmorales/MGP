@@ -1,5 +1,5 @@
 ---
-title: "Capítulo 45. Estadística escolar"
+title: "Capítulo 3. Estadística escolar"
 description: "Investigación estadística, organización, representación, resumen, variabilidad, asociación y lectura crítica de datos."
 format:
   html:
@@ -17,6 +17,7 @@ La estadística escolar no es solo una colección de fórmulas. Es una manera de
 ## El ciclo de investigación estadística
 
 ::: {.knowledge-object #tag-0035 tag="0035" type="definicion" title="Pregunta estadística" pertenece_a="C002"}
+::: {#def-0035}
 ## Pregunta estadística
 
 Una **pregunta estadística** es una pregunta cuya respuesta requiere datos y anticipa variabilidad en ellos. «¿Cuánto mide esta mesa?» no es estadística si se busca una sola medición; «¿cuánto miden las mesas de las salas del colegio?» sí lo es porque las medidas pueden variar.
@@ -24,7 +25,13 @@ Una **pregunta estadística** es una pregunta cuya respuesta requiere datos y an
 Una buena pregunta precisa la población o el fenómeno, las variables relevantes, el periodo y el propósito de la comparación o descripción.
 :::
 
+::: {#exm-0035}
+«¿Cuánto tardan los estudiantes del curso en llegar al colegio?» es estadística porque requiere varias observaciones y anticipa tiempos diferentes.
+:::
+:::
+
 ::: {.knowledge-object #tag-0036 tag="0036" type="proceso" title="Ciclo de investigación estadística" requiere="0035" pertenece_a="C002"}
+::: {#def-0036}
 ## Ciclo estadístico
 
 Una investigación estadística articula, de manera iterativa:
@@ -40,9 +47,15 @@ Una investigación estadística articula, de manera iterativa:
 Los resultados pueden obligar a reformular la pregunta o a recoger mejores datos. Un cálculo correcto no compensa una muestra sesgada ni una variable mal definida.
 :::
 
+::: {#exm-0036}
+Para estudiar el transporte escolar se formula la pregunta, se define la población, se diseña una encuesta, se depuran respuestas, se construye una tabla, se interpreta y se comunican limitaciones.
+:::
+:::
+
 ## Población, unidades y datos
 
 ::: {.knowledge-object #tag-0037 tag="0037" type="definicion" title="Población, censo y muestra" requiere="0035" pertenece_a="C002"}
+::: {#def-0037}
 ## Población, censo y muestra
 
 La **población** es el conjunto completo de unidades sobre el cual se desea concluir. Un **censo** observa todas sus unidades. Una **muestra** es un subconjunto observado para describir o inferir características de la población.
@@ -50,7 +63,13 @@ La **población** es el conjunto completo de unidades sobre el cual se desea con
 La población objetivo debe distinguirse de la población accesible. Por ejemplo, los estudiantes matriculados no son necesariamente idénticos a quienes asistieron el día de una encuesta.
 :::
 
+::: {#exm-0037}
+En un colegio con 800 estudiantes, esos 800 forman la población; entrevistar a 80 produce una muestra y consultar a los 800 constituye un censo.
+:::
+:::
+
 ::: {.knowledge-object #tag-0038 tag="0038" type="definicion" title="Unidad estadística, caso, dato y conjunto de datos" requiere="0037" pertenece_a="C002"}
+::: {#def-0038}
 ## Unidad, caso y dato
 
 La **unidad estadística** es la entidad sobre la que se observa información: una persona, hogar, objeto, institución o instante. Un **caso** es el registro correspondiente a una unidad. Un **dato** es el valor observado de una variable para un caso, acompañado idealmente por sus unidades, condiciones y procedencia.
@@ -58,7 +77,13 @@ La **unidad estadística** es la entidad sobre la que se observa información: u
 Una matriz de datos suele disponer casos en filas y variables en columnas. Los identificadores no deben confundirse con variables de interés.
 :::
 
+::: {#exm-0038}
+En una tabla escolar, cada fila puede representar a un estudiante; «14 años» es el dato observado para la variable edad de ese caso.
+:::
+:::
+
 ::: {.knowledge-object #tag-0039 tag="0039" type="definicion" title="Variable estadística y sus tipos" requiere="0038" pertenece_a="C002"}
+::: {#def-0039}
 ## Variables estadísticas
 
 Una **variable estadística** es una característica que puede tomar distintos valores entre las unidades o mediciones consideradas.
@@ -71,7 +96,13 @@ Una **variable estadística** es una característica que puede tomar distintos v
 La clasificación depende del significado, no solo de la apariencia. Un código postal escrito con números es nominal; una escala ordinal codificada 1–5 no se vuelve automáticamente cuantitativa.
 :::
 
+::: {#exm-0039}
+Grupo sanguíneo es nominal; nivel de satisfacción es ordinal; número de hermanos es discreto; estatura es continua.
+:::
+:::
+
 ::: {.knowledge-object #tag-0040 tag="0040" type="definicion" title="Parámetro y estadístico" requiere="0037,0038" pertenece_a="C002"}
+::: {#def-0040}
 ## Parámetro y estadístico
 
 Un **parámetro** resume una característica de la población; un **estadístico** se calcula con datos muestrales. La media poblacional $\mu$ es un parámetro y la media muestral $\bar x$ es un estadístico que puede utilizarse para estimarla.
@@ -79,9 +110,15 @@ Un **parámetro** resume una característica de la población; un **estadístico
 La notación ayuda a distinguir lo que se desea conocer de lo que efectivamente se observó.
 :::
 
+::: {#exm-0040}
+La media de estatura de los 800 estudiantes es un parámetro. La media calculada con una muestra de 80 es un estadístico que intenta estimarla.
+:::
+:::
+
 ## Producción de datos
 
 ::: {.knowledge-object #tag-0041 tag="0041" type="definicion" title="Muestreo y representatividad" requiere="0037" pertenece_a="C002"}
+::: {#def-0041}
 ## Muestreo
 
 Una muestra es **representativa respecto de una pregunta** cuando su mecanismo de selección permite reflejar adecuadamente las características relevantes de la población. El tamaño por sí solo no garantiza representatividad.
@@ -95,7 +132,13 @@ Entre los diseños escolares más usuales están:
 - por conveniencia o voluntario: accesible, pero especialmente expuesto a sesgo.
 :::
 
+::: {#exm-0041}
+Numerar la lista completa y seleccionar 80 números mediante un generador aleatorio implementa un muestreo aleatorio simple.
+:::
+:::
+
 ::: {.knowledge-object #tag-0042 tag="0042" type="definicion" title="Sesgo, error de medición y variación muestral" requiere="0041" pertenece_a="C002"}
+::: {#def-0042}
 ## Fuentes de error
 
 El **sesgo** es una desviación sistemática producida por el diseño, la selección, la no respuesta, la formulación de preguntas o el instrumento. El **error de medición** es la diferencia entre el valor observado y el valor que se pretendía medir. La **variación muestral** es la diferencia natural entre estadísticas obtenidas de distintas muestras aleatorias.
@@ -103,7 +146,13 @@ El **sesgo** es una desviación sistemática producida por el diseño, la selecc
 Un aumento del tamaño muestral reduce usualmente la variación muestral, pero no elimina un sesgo sistemático.
 :::
 
+::: {#exm-0042}
+Una encuesta voluntaria en redes puede introducir sesgo; una regla mal calibrada produce error de medición; dos muestras aleatorias correctas pueden dar medias diferentes por variación muestral.
+:::
+:::
+
 ::: {.knowledge-object #tag-0043 tag="0043" type="tecnica" title="Recolección, codificación y depuración de datos" requiere="0038,0039,0042" pertenece_a="C002"}
+::: {#def-0043}
 ## Recolección y calidad de datos
 
 Antes de recolectar conviene definir operacionalmente cada variable, sus unidades, categorías admisibles y reglas para datos ausentes. Una encuesta debe evitar preguntas dobles, términos ambiguos, alternativas que se superponen y formulaciones que sugieren una respuesta.
@@ -111,9 +160,15 @@ Antes de recolectar conviene definir operacionalmente cada variable, sus unidade
 La depuración identifica duplicados, valores imposibles, unidades incompatibles y datos faltantes. Corregir exige evidencia; no se reemplaza un valor solo porque parezca atípico.
 :::
 
+::: {#exm-0043}
+Si una base de edades escolares contiene 240, la depuración debe marcarlo como imposible y revisar la fuente antes de corregirlo o eliminarlo.
+:::
+:::
+
 ## Tablas de frecuencias
 
 ::: {.knowledge-object #tag-0044 tag="0044" type="definicion" title="Frecuencias absoluta, relativa y acumulada" requiere="0039" pertenece_a="C002"}
+::: {#def-0044}
 ## Distribución de frecuencias
 
 Para valores o categorías $x_i$:
@@ -125,6 +180,11 @@ Para valores o categorías $x_i$:
 - la frecuencia relativa acumulada $H_i=\sum_{j\le i}h_j$.
 
 Se cumple $\sum f_i=n$ y $\sum h_i=1$, salvo pequeñas diferencias por redondeo. Las frecuencias acumuladas solo tienen significado cuando las categorías están ordenadas.
+:::
+
+::: {#exm-0044}
+Para los datos $1,1,2,3,3$, las frecuencias absolutas son $2,1,2$ y las relativas $0{,}4,0{,}2,0{,}4$.
+:::
 :::
 
 ```{r}
@@ -143,6 +203,7 @@ knitr::kable(tabla, digits = 2,
 ```
 
 ::: {.knowledge-object #tag-0045 tag="0045" type="definicion" title="Datos agrupados en intervalos" requiere="0044" pertenece_a="C002"}
+::: {#def-0045}
 ## Agrupación en intervalos
 
 Para resumir una variable cuantitativa con muchos valores se construyen intervalos o **clases** que cubran el recorrido sin solaparse. Su **amplitud** es la diferencia entre límites y su **marca de clase** es el punto medio.
@@ -150,7 +211,13 @@ Para resumir una variable cuantitativa con muchos valores se construyen interval
 La notación $[a,b)$ incluye $a$ y excluye $b$, evitando ambigüedad en los límites. Agrupar pierde información: los cálculos que usan marcas de clase son aproximaciones, no reconstrucciones exactas de los datos originales.
 :::
 
+::: {#exm-0045}
+El intervalo $[10,12)$ contiene 10 y 11, pero no 12; su amplitud es 2 y su marca de clase es 11.
+:::
+:::
+
 ::: {.knowledge-object #tag-0046 tag="0046" type="definicion" title="Tabla de doble entrada" requiere="0039,0044" pertenece_a="C002"}
+::: {#def-0046}
 ## Tablas de doble entrada
 
 Una **tabla de doble entrada** o contingencia cruza dos variables categóricas. Las celdas interiores contienen frecuencias conjuntas; los totales por filas y columnas son frecuencias marginales. Los porcentajes por fila responden preguntas condicionadas a la categoría de la fila y los porcentajes por columna responden a otra condición.
@@ -158,9 +225,15 @@ Una **tabla de doble entrada** o contingencia cruza dos variables categóricas. 
 Comparar solo recuentos puede ser engañoso cuando los tamaños de los grupos difieren; deben compararse proporciones con el denominador pertinente.
 :::
 
+::: {#exm-0046}
+Una tabla que cruza curso y medio de transporte permite comparar, dentro de cada curso, los porcentajes que viajan en bus, caminan o usan bicicleta.
+:::
+:::
+
 ## Representaciones gráficas
 
 ::: {.knowledge-object #tag-0047 tag="0047" type="criterio" title="Selección de una representación gráfica" requiere="0039,0044" pertenece_a="C002"}
+::: {#def-0047}
 ## Elegir un gráfico
 
 La selección depende del tipo de variable y del propósito:
@@ -176,7 +249,13 @@ La selección depende del tipo de variable y del propósito:
 Todo gráfico debe incluir título informativo, variables, unidades, escala, fuente y, cuando corresponda, tamaño muestral.
 :::
 
+::: {#exm-0047}
+Para comparar preferencias de transporte conviene un gráfico de barras; para estudiar la forma de 200 estaturas conviene un histograma.
+:::
+:::
+
 ::: {.knowledge-object #tag-0048 tag="0048" type="definicion" title="Gráficos de barras, sectores y pictogramas" requiere="0047" pertenece_a="C002"}
+::: {#def-0048}
 ## Barras, sectores y pictogramas
 
 En un gráfico de barras, la longitud de cada barra es proporcional a la frecuencia y las barras se separan porque representan categorías. Un gráfico de sectores asigna a cada categoría un ángulo
@@ -184,6 +263,11 @@ En un gráfico de barras, la longitud de cada barra es proporcional a la frecuen
 $$\theta_i=360^\circ h_i.$$
 
 Un pictograma repite o escala símbolos y debe declarar cuánto representa cada símbolo. Escalar simultáneamente alto y ancho puede exagerar diferencias mediante el área.
+:::
+
+::: {#exm-0048}
+Si 10 de 40 estudiantes prefieren bicicleta, la barra tiene altura 10 y el sector correspondiente mide $360^\circ(10/40)=90^\circ$.
+:::
 :::
 
 ```{r}
@@ -197,12 +281,19 @@ barplot(transporte, col = "steelblue", border = NA,
 ```
 
 ::: {.knowledge-object #tag-0049 tag="0049" type="definicion" title="Gráfico de líneas" requiere="0047" pertenece_a="C002"}
+::: {#def-0049}
 ## Gráfico de líneas
 
 Un gráfico de líneas conecta observaciones ordenadas, habitualmente en el tiempo, para mostrar cambios. Unir puntos sugiere continuidad o una evolución entre ellos; no debe hacerse si el orden de las categorías es arbitrario. La pendiente visual depende de la escala de ambos ejes.
 :::
 
+::: {#exm-0049}
+Las temperaturas medias registradas de enero a diciembre pueden unirse en orden temporal para mostrar subidas y bajadas durante el año.
+:::
+:::
+
 ::: {.knowledge-object #tag-0050 tag="0050" type="definicion" title="Histograma, polígono de frecuencias y ojiva" requiere="0045,0047" pertenece_a="C002"}
+::: {#def-0050}
 ## Histograma, polígono y ojiva
 
 En un **histograma**, los intervalos se representan mediante rectángulos contiguos. Si las amplitudes son iguales, puede usarse frecuencia en el eje vertical; si son distintas, la altura debe ser densidad de frecuencia para que el área represente la frecuencia.
@@ -210,15 +301,27 @@ En un **histograma**, los intervalos se representan mediante rectángulos contig
 El **polígono de frecuencias** une puntos ubicados sobre marcas de clase. La **ojiva** representa frecuencias acumuladas y permite estimar medianas, cuantiles y proporciones bajo un valor.
 :::
 
+::: {#exm-0050}
+Los puntajes agrupados en intervalos de diez puntos forman un histograma; al acumular sus frecuencias se obtiene una ojiva para localizar aproximadamente la mediana.
+:::
+:::
+
 ::: {.knowledge-object #tag-0051 tag="0051" type="definicion" title="Diagrama de puntos y diagrama de tallo y hojas" requiere="0047" pertenece_a="C002"}
+::: {#def-0051}
 ## Puntos y tallo y hojas
 
 Un **diagrama de puntos** coloca una marca por observación sobre una escala numérica. Un **diagrama de tallo y hojas** separa cada dato en un tallo común y una hoja final. Ambos preservan valores individuales y hacen visibles agrupamientos, vacíos, simetría y valores apartados en conjuntos pequeños o medianos.
 :::
 
+::: {#exm-0051}
+Los datos $12,12,13,15$ producen dos puntos sobre 12, uno sobre 13 y uno sobre 15; un tallo 1 con hojas 2, 2, 3 y 5 conserva los mismos valores.
+:::
+:::
+
 ## Medidas de centro
 
 ::: {.knowledge-object #tag-0052 tag="0052" type="definicion" title="Media aritmética" requiere="0038" pertenece_a="C002"}
+::: {#def-0052}
 ## Media aritmética
 
 Para $n$ datos cuantitativos $x_1,\ldots,x_n$, la **media aritmética** es
@@ -232,7 +335,13 @@ $$\bar x=\frac{\sum_i f_ix_i}{\sum_i f_i}.$$
 La media es el punto de equilibrio de los datos y utiliza todos sus valores. Por ello es sensible a valores extremos y puede no coincidir con ningún valor observado.
 :::
 
+::: {#exm-0052}
+Para $4,6,8$, la media es $(4+6+8)/3=6$.
+:::
+:::
+
 ::: {.knowledge-object #tag-0053 tag="0053" type="definicion" title="Media ponderada" requiere="0052" pertenece_a="C002"}
+::: {#def-0053}
 ## Media ponderada
 
 Para valores $x_i$ con pesos no negativos $w_i$, no todos nulos,
@@ -242,7 +351,13 @@ $$\bar x_w=\frac{\sum_iw_ix_i}{\sum_iw_i}.$$
 Si los pesos ya son proporciones que suman 1, el denominador se omite. Las frecuencias son pesos; los porcentajes de una calificación también. Promediar promedios sin ponderar solo es válido cuando los grupos tienen igual tamaño o cuando esa igualdad es parte del diseño.
 :::
 
+::: {#exm-0053}
+Una calificación 5 con peso $30\,\%$ y una calificación 6 con peso $70\,\%$ producen $5(0{,}3)+6(0{,}7)=5{,}7$.
+:::
+:::
+
 ::: {.knowledge-object #tag-0054 tag="0054" type="definicion" title="Mediana" requiere="0038" pertenece_a="C002"}
+::: {#def-0054}
 ## Mediana
 
 La **mediana** divide los datos ordenados en dos mitades. Si $n$ es impar, es el dato en la posición $(n+1)/2$; si $n$ es par, en el tratamiento escolar usual es la media de los datos en posiciones $n/2$ y $n/2+1$.
@@ -250,7 +365,13 @@ La **mediana** divide los datos ordenados en dos mitades. Si $n$ es impar, es el
 Es resistente a valores extremos. Para datos agrupados en intervalos solo puede localizarse el intervalo mediano o estimarse mediante una convención de interpolación.
 :::
 
+::: {#exm-0054}
+La mediana de $2,4,9$ es 4; para $2,4,9,10$ es $(4+9)/2=6{,}5$.
+:::
+:::
+
 ::: {.knowledge-object #tag-0055 tag="0055" type="definicion" title="Moda" requiere="0044" pertenece_a="C002"}
+::: {#def-0055}
 ## Moda
 
 La **moda** es el valor o categoría de mayor frecuencia. Una distribución puede ser amodal, unimodal o multimodal. Para datos agrupados se habla con seguridad de **intervalo modal**; no se conoce la moda exacta sin información adicional.
@@ -258,7 +379,13 @@ La **moda** es el valor o categoría de mayor frecuencia. Una distribución pued
 Es la única medida de centro aplicable directamente a variables nominales, aunque «centro» debe entenderse aquí como categoría más frecuente.
 :::
 
+::: {#exm-0055}
+En rojo, rojo, azul y verde, la moda es rojo porque aparece dos veces.
+:::
+:::
+
 ::: {.knowledge-object #tag-0056 tag="0056" type="criterio" title="Selección e interpretación de medidas de centro" requiere="0052,0054,0055" pertenece_a="C002"}
+::: {#def-0056}
 ## Elegir una medida de centro
 
 La media es útil en distribuciones aproximadamente simétricas y cuando interesan balances o totales; la mediana representa mejor un valor típico en distribuciones muy asimétricas o con extremos; la moda identifica la categoría más frecuente. Conviene informar más de una medida cuando revelan aspectos distintos.
@@ -266,9 +393,15 @@ La media es útil en distribuciones aproximadamente simétricas y cuando interes
 El centro nunca describe por sí solo una distribución: conjuntos con igual media pueden tener formas y dispersiones muy diferentes.
 :::
 
+::: {#exm-0056}
+En los ingresos $500,520,540,5\,000$, la mediana es 530 y representa mejor el centro que la media 1 640, afectada por el valor extremo.
+:::
+:::
+
 ## Posición y diagramas de caja
 
 ::: {.knowledge-object #tag-0057 tag="0057" type="definicion" title="Cuantiles, cuartiles, deciles y percentiles" requiere="0054" pertenece_a="C002"}
+::: {#def-0057}
 ## Cuantiles
 
 Un **cuantil** es un punto de corte asociado a una proporción acumulada de datos ordenados. Los cuartiles $Q_1,Q_2,Q_3$ dividen la distribución en cuatro partes; los deciles en diez y los percentiles $P_k$ en cien. $Q_2$ coincide con la mediana.
@@ -276,12 +409,23 @@ Un **cuantil** es un punto de corte asociado a una proporción acumulada de dato
 Decir que un valor está en el percentil 80 significa, según la convención adoptada, que aproximadamente el 80 % de los datos está en o bajo ese valor. No significa haber respondido correctamente el 80 % de una prueba. Distintos programas pueden usar reglas de interpolación distintas; la convención debe declararse cuando afecta el resultado.
 :::
 
+::: {#exm-0057}
+En siete datos ordenados, el cuarto es la mediana $Q_2$; si 80 de 100 observaciones quedan en o bajo cierto valor, este se asocia aproximadamente al percentil 80.
+:::
+:::
+
 ::: {.knowledge-object #tag-0058 tag="0058" type="representacion" title="Diagrama de caja" requiere="0057" pertenece_a="C002"}
+::: {#def-0058}
 ## Diagrama de caja
 
 Un **diagrama de caja** representa el resumen de cinco números: mínimo, $Q_1$, mediana, $Q_3$ y máximo, o una variante con bigotes limitados y valores atípicos dibujados aparte. La caja va de $Q_1$ a $Q_3$ y muestra el 50 % central de los datos.
 
 El gráfico permite comparar centro, dispersión y asimetría aproximada, pero no muestra todos los rasgos de la forma ni prueba que una distribución sea simétrica.
+:::
+
+::: {#exm-0058}
+El resumen mínimo 40, $Q_1=55$, mediana 63, $Q_3=73$ y máximo 95 se representa con una caja de 55 a 73, línea en 63 y bigotes hacia 40 y 95.
+:::
 :::
 
 ```{r}
@@ -291,14 +435,27 @@ El gráfico permite comparar centro, dispersión y asimetría aproximada, pero n
 #| fig-height: 4
 curso_a <- c(52, 55, 58, 60, 62, 63, 65, 67, 70, 73, 76)
 curso_b <- c(40, 48, 55, 59, 62, 64, 68, 73, 81, 88, 95)
-boxplot(list(`Curso A` = curso_a, `Curso B` = curso_b),
-        horizontal = TRUE, col = c("#7db7d8", "#efb366"),
-        xlab = "Puntaje", xlim = c(35, 100))
+resumen_a <- boxplot.stats(curso_a, coef = Inf)$stats
+resumen_b <- boxplot.stats(curso_b, coef = Inf)$stats
+dibujar_caja <- function(resumen, y, color) {
+  segments(resumen[1], y, resumen[2], y)
+  segments(resumen[4], y, resumen[5], y)
+  segments(resumen[c(1, 5)], y - 0.12, resumen[c(1, 5)], y + 0.12)
+  rect(resumen[2], y - 0.24, resumen[4], y + 0.24,
+       col = color, border = "#333333")
+  segments(resumen[3], y - 0.24, resumen[3], y + 0.24, lwd = 2)
+}
+plot(NA, xlim = c(35, 100), ylim = c(0.5, 2.5), yaxt = "n",
+     xlab = "Puntaje", ylab = "")
+axis(2, at = c(1, 2), labels = c("Curso A", "Curso B"), las = 1)
+dibujar_caja(resumen_a, 1, "#7db7d8")
+dibujar_caja(resumen_b, 2, "#efb366")
 ```
 
 ## Medidas de dispersión y variabilidad
 
 ::: {.knowledge-object #tag-0059 tag="0059" type="definicion" title="Rango y rango intercuartílico" requiere="0057" pertenece_a="C002"}
+::: {#def-0059}
 ## Rango y rango intercuartílico
 
 El **rango** o recorrido es
@@ -312,7 +469,13 @@ $$RIC=Q_3-Q_1$$
 y mide la amplitud del 50 % central, por lo que es más resistente. La regla $1{,}5\,RIC$ puede señalar valores potencialmente atípicos, pero no autoriza a eliminarlos.
 :::
 
+::: {#exm-0059}
+Para $2,4,6,8$, el rango es $8-2=6$. Con la convención de interpolación usual, $Q_1=3{,}5$, $Q_3=6{,}5$ y $RIC=3$.
+:::
+:::
+
 ::: {.knowledge-object #tag-0060 tag="0060" type="definicion" title="Desviación respecto de la media" requiere="0052" pertenece_a="C002"}
+::: {#def-0060}
 ## Desviaciones
 
 La desviación del dato $x_i$ respecto de la media es $x_i-\bar x$. Las desviaciones indican dirección y distancia, pero su suma es cero:
@@ -322,7 +485,13 @@ $$\sum_{i=1}^n(x_i-\bar x)=0.$$
 Por ello la dispersión no se mide sumándolas sin más. La desviación media usa valores absolutos; la varianza usa cuadrados.
 :::
 
+::: {#exm-0060}
+Para $2,4,6$, la media es 4 y las desviaciones son $-2,0,2$; su suma es cero.
+:::
+:::
+
 ::: {.knowledge-object #tag-0061 tag="0061" type="definicion" title="Varianza y desviación estándar" requiere="0060" pertenece_a="C002"}
+::: {#def-0061}
 ## Varianza y desviación estándar
 
 Para una población de $N$ valores,
@@ -338,7 +507,13 @@ $$s^2=\frac1{n-1}\sum_{i=1}^n(x_i-\bar x)^2,
 La varianza queda en unidades al cuadrado; la desviación estándar recupera las unidades originales. En materiales escolares puede aparecer división por $n$ al describir solo el conjunto observado. Debe explicitarse si se resume una población o se estima a partir de una muestra.
 :::
 
+::: {#exm-0061}
+Para la población $2,4,6$, $\mu=4$, $\sigma^2=(4+0+4)/3=8/3$ y $\sigma=\sqrt{8/3}$.
+:::
+:::
+
 ::: {.knowledge-object #tag-0062 tag="0062" type="definicion" title="Coeficiente de variación" requiere="0052,0061" pertenece_a="C002"}
+::: {#def-0062}
 ## Coeficiente de variación
 
 Cuando la media es distinta de cero y la escala admite comparaciones relativas, el **coeficiente de variación** es
@@ -348,7 +523,13 @@ $$CV=\frac{s}{|\bar x|}\cdot100\,\%.$$
 Permite comparar dispersión relativa entre conjuntos con medias o unidades diferentes. No es adecuado para escalas con cero arbitrario, medias cercanas a cero ni datos cualitativos.
 :::
 
+::: {#exm-0062}
+Un grupo con media 50 y desviación 5 tiene $CV=10\,\%$; otro con media 80 y desviación 8 tiene el mismo nivel de dispersión relativa.
+:::
+:::
+
 ::: {.knowledge-object #tag-0063 tag="0063" type="propiedad" title="Efecto de transformaciones sobre centro y dispersión" requiere="0052,0054,0059,0061" pertenece_a="C002"}
+::: {#prp-0063}
 ## Transformaciones de los datos
 
 Si cada dato se transforma como $y_i=ax_i+b$:
@@ -361,7 +542,13 @@ Si cada dato se transforma como $y_i=ax_i+b$:
 Estas propiedades permiten anticipar efectos sin recalcular todos los datos.
 :::
 
+::: {#exm-0063}
+Si $x$ tiene media 4 y desviación 2, la transformación $y=3x+10$ produce media 22 y desviación 6.
+:::
+:::
+
 ::: {.knowledge-object #tag-0064 tag="0064" type="definicion" title="Variabilidad estadística" requiere="0036,0042,0059,0061" pertenece_a="C002"}
+::: {#def-0064}
 ## Variabilidad
 
 La **variabilidad** comprende las diferencias entre individuos, las fluctuaciones de una medición, los cambios temporales y las diferencias entre muestras. Es el fenómeno central que da sentido a la estadística, no un ruido que deba desaparecer.
@@ -369,14 +556,25 @@ La **variabilidad** comprende las diferencias entre individuos, las fluctuacione
 Describir variabilidad exige atender a magnitud, forma, fuentes y contexto. Dos grupos pueden diferir en centro, dispersión, asimetría, agrupamientos o presencia de valores apartados.
 :::
 
+::: {#exm-0064}
+Los conjuntos $4,4,4$ y $1,4,7$ tienen media 4, pero el segundo presenta mayor variabilidad.
+:::
+:::
+
 ## Asociación entre variables
 
 ::: {.knowledge-object #tag-0065 tag="0065" type="definicion" title="Datos bivariados y diagrama de dispersión" requiere="0039,0047" pertenece_a="C002"}
+::: {#def-0065}
 ## Datos bivariados
 
 Los **datos bivariados** registran dos variables sobre las mismas unidades. Si ambas son cuantitativas, un **diagrama de dispersión** representa cada caso como un punto $(x_i,y_i)$. Se examinan dirección, forma, intensidad, agrupamientos y valores influyentes.
 
 Los ejes deben conservar unidades y escalas interpretables; intercambiar los ejes no cambia la existencia de asociación, pero sí cambia qué variable se trata como explicativa.
+:::
+
+::: {#exm-0065}
+Los pares $(1,50),(2,56),(3,63),(4,69)$ relacionan horas de estudio y puntaje; el diagrama de dispersión muestra una tendencia ascendente.
+:::
 :::
 
 ```{r}
@@ -392,6 +590,7 @@ abline(lm(puntaje ~ horas), col = "firebrick", lwd = 2)
 ```
 
 ::: {.knowledge-object #tag-0066 tag="0066" type="definicion" title="Asociación y correlación lineal" requiere="0065" pertenece_a="C002"}
+::: {#def-0066}
 ## Asociación y correlación
 
 Una asociación es **positiva** si valores mayores de una variable tienden a acompañarse de valores mayores de la otra; **negativa** si tienden a acompañarse de valores menores; y **nula o no evidente** si no aparece un patrón claro. La intensidad describe cuán estrechamente se agrupan los puntos en torno a una forma.
@@ -399,15 +598,27 @@ Una asociación es **positiva** si valores mayores de una variable tienden a aco
 El coeficiente de correlación lineal $r$ toma valores entre $-1$ y $1$ y resume dirección e intensidad lineal. Un valor cercano a 0 no descarta una relación no lineal, y un valor extremo puede estar dominado por pocos puntos influyentes.
 :::
 
+::: {#exm-0066}
+Los puntos $(1,2),(2,4),(3,6)$ tienen asociación lineal positiva perfecta, con $r=1$.
+:::
+:::
+
 ::: {.knowledge-object #tag-0067 tag="0067" type="criterio" title="Asociación en tablas de doble entrada" requiere="0046" pertenece_a="C002"}
+::: {#def-0067}
 ## Asociación entre variables categóricas
 
 En una tabla de doble entrada se estudia asociación comparando distribuciones condicionadas. Si los porcentajes por fila son aproximadamente iguales entre filas, no se observa una asociación importante con la variable de fila. Los porcentajes deben calcularse respecto del grupo condicionado, no respecto del total general, salvo que esa sea la pregunta.
 :::
 
+::: {#exm-0067}
+Si el $60\,\%$ del curso A y el $30\,\%$ del curso B eligen bus, comparar esos porcentajes condicionados evidencia asociación entre curso y transporte.
+:::
+:::
+
 ## Interpretación crítica
 
 ::: {.knowledge-object #tag-0068 tag="0068" type="criterio" title="Comparación de distribuciones" requiere="0047,0056,0059,0064" pertenece_a="C002"}
+::: {#def-0068}
 ## Comparar distribuciones
 
 Una comparación completa considera, según sea pertinente:
@@ -422,7 +633,13 @@ Una comparación completa considera, según sea pertinente:
 Las medidas y gráficos deben referirse a los mismos aspectos. Comparar solo medias puede ocultar diferencias decisivas.
 :::
 
+::: {#exm-0068}
+Si dos cursos tienen medianas semejantes, pero uno posee un rango intercuartílico mucho mayor, sus centros son parecidos y sus dispersiones diferentes.
+:::
+:::
+
 ::: {.knowledge-object #tag-0069 tag="0069" type="observacion" title="Gráficos engañosos y denominadores" requiere="0047" pertenece_a="C002"}
+::: {#def-0069}
 ## Gráficos y cifras engañosas
 
 Una lectura crítica revisa si el eje está truncado, si los intervalos tienen amplitudes desiguales, si se usan áreas o volúmenes para representar magnitudes lineales, si faltan categorías, si se mezclan recuentos con porcentajes o si cambió el denominador entre comparaciones.
@@ -430,13 +647,25 @@ Una lectura crítica revisa si el eje está truncado, si los intervalos tienen a
 Truncar un eje no es siempre incorrecto, pero puede exagerar diferencias y debe hacerse visible. Un porcentaje sin denominador, tamaño muestral y periodo suele ser insuficiente.
 :::
 
+::: {#exm-0069}
+Un gráfico de notas entre 98 y 100 con eje iniciado en 97 puede hacer enorme una diferencia de un punto que es pequeña en la escala completa.
+:::
+:::
+
 ::: {.knowledge-object #tag-0070 tag="0070" type="observacion" title="Asociación, causalidad y variables de confusión" requiere="0066" pertenece_a="C002"}
+::: {#def-0070}
 ## Asociación no implica causalidad
 
 Una asociación observada no basta para concluir que una variable causa la otra. Puede existir causalidad inversa, una variable de confusión, sesgo de selección, coincidencia o una combinación de mecanismos. Las afirmaciones causales requieren un diseño y supuestos que permitan descartar explicaciones alternativas, no solo una correlación alta.
 :::
 
+::: {#exm-0070}
+Las ventas de helado y los rescates acuáticos pueden aumentar juntas porque ambas dependen de la temperatura; la asociación no demuestra que una cause la otra.
+:::
+:::
+
 ::: {.knowledge-object #tag-0071 tag="0071" type="criterio" title="Comunicación de conclusiones estadísticas" requiere="0036,0042,0068,0069" pertenece_a="C002"}
+::: {#def-0071}
 ## Comunicar una conclusión
 
 Una conclusión estadística adecuada responde la pregunta original, usa medidas o patrones como evidencia, conserva las unidades y limita su alcance a la población y periodo justificados. Debe distinguir resultado de interpretación, reconocer incertidumbre, advertir sesgos posibles y evitar lenguaje causal no respaldado.
@@ -444,12 +673,23 @@ Una conclusión estadística adecuada responde la pregunta original, usa medidas
 Expresiones como «en esta muestra», «los datos sugieren» o «bajo estos supuestos» no debilitan la conclusión: precisan su alcance.
 :::
 
+::: {#exm-0071}
+Una conclusión prudente sería: «En esta muestra, el curso A obtuvo una mediana mayor; el diseño no permite generalizar a todos los estudiantes».
+:::
+:::
+
 ::: {.knowledge-object #tag-0072 tag="0072" type="observacion" title="Ética y procedencia de los datos" requiere="0036,0043,0071" pertenece_a="C002"}
+::: {#def-0072}
 ## Ética de datos
 
 Recolectar y comunicar datos implica responsabilidades: consentimiento cuando corresponda, minimización de datos personales, anonimización, resguardo, documentación de transformaciones, atribución de la fuente y cuidado con grupos pequeños que puedan ser reidentificados.
 
 Eliminar observaciones, cambiar categorías o escoger solo el gráfico favorable son decisiones sustantivas y deben documentarse.
+:::
+
+::: {#exm-0072}
+Al publicar resultados por curso, agrupar categorías poco frecuentes y retirar identificadores reduce el riesgo de reconocer a estudiantes concretos.
+:::
 :::
 
 ## Síntesis para la consulta docente

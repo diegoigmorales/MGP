@@ -16,7 +16,11 @@ Esta página reúne solamente material desarrollado y lo numera de forma consecu
 - Objetos vinculados:
   - [Pregunta original sobre descuento porcentual](paes/m1/preguntas-originales/porcentajes.qmd)
 
-### Capítulo 2. Estadística escolar
+### Capítulo 2. Combinatoria y probabilidad
+
+- [Presentación del capítulo](libro/probabilidad/combinatoria-probabilidad.qmd)
+
+### Capítulo 3. Estadística escolar
 
 - [Presentación del capítulo](libro/estadistica/index.qmd)
 - Objetos vinculados:
@@ -24,7 +28,7 @@ Esta página reúne solamente material desarrollado y lo numera de forma consecu
 
 ## Parte II. Currículo, evaluación y desarrollo profesional
 
-### Capítulo 3. Sistema curricular chileno
+### Capítulo 4. Sistema curricular chileno
 
 - [Presentación del capítulo](curriculum/index.qmd)
 - [Ejes y materias](curriculum/ejes.qmd)
@@ -34,7 +38,7 @@ Esta página reúne solamente material desarrollado y lo numera de forma consecu
 - [Enseñanza media](curriculum/ensenanza-media.qmd)
 - [Formación diferenciada](curriculum/formacion-diferenciada.qmd)
 
-### Capítulo 4. PAES de Matemática
+### Capítulo 5. PAES de Matemática
 
 - [Presentación del capítulo](paes/index.qmd)
 - Estudio de los temarios:

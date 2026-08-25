@@ -4,7 +4,7 @@ toc: true
 toc-depth: 2
 ---
 
-# Capítulo 4. PAES de Matemática
+# Capítulo 5. PAES de Matemática
 
 La Prueba de Acceso a la Educación Superior contempla dos pruebas de Competencia Matemática: **M1** y **M2**. Las expresiones *regular* e *invierno* identifican oportunidades de rendición y series documentales; no designan pruebas matemáticas adicionales.
 

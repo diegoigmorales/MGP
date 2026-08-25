@@ -60,12 +60,13 @@ MGP se encuentra en desarrollo. La numeración pública corresponde únicamente 
 ### Parte I. Matemática escolar para la enseñanza
 
 - [Capítulo 1. Porcentajes](contenidos/libro/numeros/porcentajes.qmd)
-- [Capítulo 2. Estadística escolar](contenidos/libro/estadistica/index.qmd)
+- [Capítulo 2. Combinatoria y probabilidad](contenidos/libro/probabilidad/combinatoria-probabilidad.qmd)
+- [Capítulo 3. Estadística escolar](contenidos/libro/estadistica/index.qmd)
 
 ### Parte II. Currículo, evaluación y desarrollo profesional
 
-- [Capítulo 3. Sistema curricular chileno](contenidos/curriculum/index.qmd)
-- [Capítulo 4. PAES de Matemática](contenidos/paes/index.qmd)
+- [Capítulo 4. Sistema curricular chileno](contenidos/curriculum/index.qmd)
+- [Capítulo 5. PAES de Matemática](contenidos/paes/index.qmd)
 :::
 
 ## Colecciones disponibles {.unnumbered}

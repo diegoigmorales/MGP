@@ -29,13 +29,6 @@
   margin-bottom: .25rem;
 }
 
-.knowledge-backlinks {
-  border-top: 1px solid #ddd;
-  font-size: .9rem;
-  margin-top: 1rem;
-  padding-top: .6rem;
-}
-
 .answer-options > ol[type="1"] {
   list-style-type: upper-alpha !important;
 }

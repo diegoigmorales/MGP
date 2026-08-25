@@ -19,6 +19,12 @@ FRONT_MATTER_RE = re.compile(r"\A---\s*\n(?P<yaml>.*?)\n---(?:\s*\n|\Z)", re.DOT
 PAES_NUMBER_RE = re.compile(r"^paes-question:\s*(\d+)\s*$", re.MULTILINE)
 KNOWLEDGE_TAG_RE = re.compile(r'^knowledge-tag:\s*"([0-9A-Z]{4})"\s*$', re.MULTILINE)
 TITLE_RE = re.compile(r'^title:\s*"(.*?)"\s*$', re.MULTILINE)
+NATIVE_LABEL_RE = re.compile(r"\{#(?P<label>(?:def|prp|thm|exm)-[0-9A-Z]{4})\}")
+ENRICHED_CHAPTERS = {
+    "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
+    "contenidos/libro/estadistica/index.qmd",
+}
+ENV_PREFIX = {"principio": "prp", "propiedad": "prp", "teorema": "thm"}
 RELATIONS = {
     "usa",
     "requiere",
@@ -54,12 +60,24 @@ def parse_attributes(raw: str) -> tuple[set[str], dict[str, str]]:
 def discover() -> tuple[list[dict], list[str]]:
     objects: list[dict] = []
     errors: list[str] = []
+    native_labels: dict[str, tuple[str, int]] = {}
     ignored = {"_site", "_book", ".quarto", ".git", "_generated"}
     for path in sorted(ROOT.rglob("*.qmd")):
         if any(part in ignored for part in path.relative_to(ROOT).parts):
             continue
         relpath = path.relative_to(ROOT).as_posix()
         source = path.read_text(encoding="utf-8")
+        for label_match in NATIVE_LABEL_RE.finditer(source):
+            label = label_match.group("label")
+            line = source.count("\n", 0, label_match.start()) + 1
+            if label in native_labels:
+                first_source, first_line = native_labels[label]
+                errors.append(
+                    f"etiqueta Quarto duplicada {label}: "
+                    f"{first_source}:{first_line} y {relpath}:{line}"
+                )
+            else:
+                native_labels[label] = (relpath, line)
         front_matter = FRONT_MATTER_RE.match(source)
         if front_matter and PAES_NUMBER_RE.search(front_matter.group("yaml")):
             yaml = front_matter.group("yaml")
@@ -92,6 +110,14 @@ def discover() -> tuple[list[dict], list[str]]:
                 errors.append(f"{relpath}:{lineno}: el id debe ser #tag-{tag}")
             if not attrs.get("type") or not attrs.get("title"):
                 errors.append(f"{relpath}:{lineno}: faltan type o title")
+            if relpath in ENRICHED_CHAPTERS and tag:
+                prefix = ENV_PREFIX.get(attrs.get("type", ""), "def")
+                concept_label = f"#{prefix}-{tag}"
+                example_label = f"#exm-{tag}"
+                if source.count(concept_label) != 1:
+                    errors.append(f"{relpath}:{lineno}: falta el entorno conceptual {concept_label}")
+                if source.count(example_label) != 1:
+                    errors.append(f"{relpath}:{lineno}: falta el ejemplo etiquetado {example_label}")
             relations: dict[str, list[str]] = {}
             for relation in RELATIONS:
                 if attrs.get(relation):
