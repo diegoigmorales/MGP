@@ -1,8 +1,10 @@
 ---
+pagetitle: "Inicio"
 description: "Obra de referencia sobre matemática y conocimiento profesional para la enseñanza."
 toc: false
 number-sections: false
 ---
+pagetitle: "Inicio"
 
 # Matemática para Gañanes y Patanes {.unnumbered}
 

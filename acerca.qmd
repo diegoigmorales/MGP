@@ -1,9 +1,11 @@
 ---
+pagetitle: "Sobre MGP"
 description: "Propósito, público, alcance y criterios editoriales de Matemática para Gañanes y Patanes."
 toc: true
 toc-depth: 2
 number-sections: false
 ---
+pagetitle: "Sobre MGP"
 
 # Sobre MGP {.unnumbered}
 
