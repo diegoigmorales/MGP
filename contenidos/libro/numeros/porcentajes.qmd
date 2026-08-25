@@ -1,6 +1,5 @@
 ---
-number-sections: true
-title: "Porcentajes"
+title: "Capítulo 1. Porcentajes"
 description: "Capítulo 1 de la Parte I: Matemática escolar para la enseñanza."
 format:
   html:

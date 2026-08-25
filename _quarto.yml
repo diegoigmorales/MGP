@@ -1,28 +1,35 @@
 project:
-  type: book
+  type: website
   pre-render: python scripts/build_registry.py
   output-dir: _site
 
-book:
+website:
   title: "Matemática para Gañanes y Patanes"
-  subtitle: "Matemática y conocimiento profesional para la enseñanza"
   site-url: https://diegoigmorales.github.io/MGP/
   repo-url: https://github.com/diegoigmorales/MGP
   page-navigation: true
   search: true
   sidebar:
     collapse-level: 1
-  chapters:
-    - index.qmd
-    - acerca.qmd
-    - part: contenidos/libro/index.qmd
-      chapters:
-        - contenidos/libro/numeros/porcentajes.qmd
-        - contenidos/libro/estadistica/index.qmd
-    - part: contenidos/curriculo-evaluacion.qmd
-      chapters:
-        - contenidos/curriculum/index.qmd
-        - contenidos/paes/index.qmd
+    contents:
+      - text: "Portada"
+        href: index.qmd
+      - text: "Sobre MGP"
+        href: acerca.qmd
+      - section: "Parte I. Matemática escolar para la enseñanza"
+        href: contenidos/libro/index.qmd
+        contents:
+          - text: "Capítulo 1. Porcentajes"
+            href: contenidos/libro/numeros/porcentajes.qmd
+          - text: "Capítulo 2. Estadística escolar"
+            href: contenidos/libro/estadistica/index.qmd
+      - section: "Parte II. Currículo, evaluación y desarrollo profesional"
+        href: contenidos/curriculo-evaluacion.qmd
+        contents:
+          - text: "Capítulo 3. Sistema curricular chileno"
+            href: contenidos/curriculum/index.qmd
+          - text: "Capítulo 4. PAES de Matemática"
+            href: contenidos/paes/index.qmd
   page-footer:
     center: "Para enseñar sin fingir que nunca olvidamos nada."
 
@@ -39,13 +46,7 @@ format:
     filters:
       - filters/paes-question.lua
       - filters/knowledge.lua
-    number-sections: true
-  pdf:
-    documentclass: scrreprt
-    toc: true
-    filters:
-      - filters/paes-question.lua
-      - filters/knowledge.lua
+    number-sections: false
 
 lang: es
 execute:

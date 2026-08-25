@@ -1,0 +1,26 @@
+project:
+  type: book
+  output-dir: _book
+
+book:
+  title: "Matemática para Gañanes y Patanes"
+  subtitle: "Matemática y conocimiento profesional para la enseñanza"
+  chapters:
+    - index.qmd
+    - acerca.qmd
+    - part: contenidos/libro/index.qmd
+      chapters:
+        - contenidos/libro/numeros/porcentajes.qmd
+        - contenidos/libro/estadistica/index.qmd
+    - part: contenidos/curriculo-evaluacion.qmd
+      chapters:
+        - contenidos/curriculum/index.qmd
+        - contenidos/paes/index.qmd
+
+format:
+  pdf:
+    documentclass: scrreprt
+    toc: true
+    filters:
+      - filters/paes-question.lua
+      - filters/knowledge.lua

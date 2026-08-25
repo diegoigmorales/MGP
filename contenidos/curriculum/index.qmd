@@ -1,35 +1,34 @@
 ---
-number-sections: true
 toc: true
 toc-depth: 2
 ---
 
-# Sistema curricular chileno
+# Capítulo 3. Sistema curricular chileno
 
 Este capítulo organiza el currículo escolar de Matemática actualmente incorporado en MGP. Los objetivos mantienen su orden oficial dentro de cada curso.
 
 La etiqueta [Prioritario]{.change-badge .change-priority} identifica los objetivos que la fuente original marcaba mediante color como parte de la priorización curricular chilena. La etiqueta se aplica al OA particular y no al eje completo.
 
-## Ejes y materias
+## 3.1 Ejes y materias
 
 - [Ejes y materias](ejes.qmd)
 
-## Habilidades matemáticas
+## 3.2 Habilidades matemáticas
 
 - [Habilidades matemáticas](habilidades.qmd)
 
-## Enseñanza básica, ciclo I
+## 3.3 Enseñanza básica, ciclo I
 
 - [Primero a cuarto básico](basica-ciclo-1.qmd)
 
-## Enseñanza básica, ciclo II
+## 3.3 Enseñanza básica, ciclo II
 
 - [Quinto a octavo básico](basica-ciclo-2.qmd)
 
-## Enseñanza media
+## 3.5 Enseñanza media
 
 - [Primero a cuarto medio](ensenanza-media.qmd)
 
-## Formación diferenciada
+## 3.6 Formación diferenciada
 
 - [Electivos matemáticos](formacion-diferenciada.qmd)

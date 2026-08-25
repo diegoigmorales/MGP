@@ -40,5 +40,5 @@ Los identificadores tienen cuatro caracteres en mayúsculas (0-9, A-Z). Una vez 
 El sitio se publica con Quarto y GitHub Pages. Para producir PDF se necesita una distribución TeX compatible, por ejemplo TinyTeX:
 
 ~~~powershell
-quarto render --to pdf
+quarto render --profile book --to pdf
 ~~~

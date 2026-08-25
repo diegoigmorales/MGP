@@ -32,7 +32,7 @@
       "type": "definicion",
       "title": "Porcentaje",
       "source": "contenidos/libro/numeros/porcentajes.qmd",
-      "line": 15,
+      "line": 14,
       "href": "../contenidos/libro/numeros/porcentajes.qmd#tag-0001",
       "relations": {
         "pertenece_a": [
@@ -45,14 +45,14 @@
       "type": "tecnica",
       "title": "Calcular un porcentaje de una cantidad",
       "source": "contenidos/libro/numeros/porcentajes.qmd",
-      "line": 39,
+      "line": 38,
       "href": "../contenidos/libro/numeros/porcentajes.qmd#tag-0002",
       "relations": {
-        "requiere": [
-          "0001"
-        ],
         "pertenece_a": [
           "C001"
+        ],
+        "requiere": [
+          "0001"
         ]
       }
     },
@@ -652,12 +652,12 @@
         "evalua": [
           "H001"
         ],
+        "pertenece_a": [
+          "C001"
+        ],
         "usa": [
           "0001",
           "0002"
-        ],
-        "pertenece_a": [
-          "C001"
         ]
       }
     },
@@ -669,15 +669,15 @@
       "line": 12,
       "href": "../contenidos/universitario/estadistica/media-ponderada.qmd#tag-U001",
       "relations": {
+        "pertenece_a": [
+          "C002"
+        ],
         "profundiza": [
           "0003"
         ],
         "requiere": [
           "0001",
           "0002"
-        ],
-        "pertenece_a": [
-          "C002"
         ]
       }
     }
@@ -754,15 +754,6 @@
         "relation": "requiere"
       }
     ],
-    "0003": [
-      {
-        "tag": "U001",
-        "title": "Calificación final ponderada",
-        "source": "contenidos/universitario/estadistica/media-ponderada.qmd",
-        "href": "../../../universitario/estadistica/media-ponderada.qmd#tag-U001",
-        "relation": "profundiza"
-      }
-    ],
     "C002": [
       {
         "tag": "U001",
@@ -770,6 +761,15 @@
         "source": "contenidos/universitario/estadistica/media-ponderada.qmd",
         "href": "../universitario/estadistica/media-ponderada.qmd#tag-U001",
         "relation": "pertenece_a"
+      }
+    ],
+    "0003": [
+      {
+        "tag": "U001",
+        "title": "Calificación final ponderada",
+        "source": "contenidos/universitario/estadistica/media-ponderada.qmd",
+        "href": "../../../universitario/estadistica/media-ponderada.qmd#tag-U001",
+        "relation": "profundiza"
       }
     ]
   }

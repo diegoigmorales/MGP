@@ -1,10 +1,10 @@
 ---
-title: "Matemática para Gañanes y Patanes"
-unnumbered: true
 description: "Obra de referencia sobre matemática y conocimiento profesional para la enseñanza."
 toc: false
 number-sections: false
 ---
+
+# Matemática para Gañanes y Patanes {.unnumbered}
 
 ::: {.mgp-home-hero}
 ## Matemática y conocimiento profesional para la enseñanza {.unnumbered}

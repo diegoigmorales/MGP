@@ -1,6 +1,5 @@
 ---
-number-sections: true
-title: "Estadística escolar"
+title: "Capítulo 2. Estadística escolar"
 description: "Organización, representación y análisis de datos en la matemática escolar."
 toc: false
 ---
