@@ -1,14 +1,14 @@
 ---
-title: "3.5 Enseñanza media"
+title: "9.5 Enseñanza media"
 description: "Objetivos de aprendizaje de Matemática de primero a cuarto medio."
 number-sections: false
 toc: true
 toc-depth: 3
 ---
 
-# 3.5 Enseñanza media {.unnumbered}
+# 9.5 Enseñanza media {.unnumbered}
 
-## 3.5.1 Primero medio
+## 9.5.1 Primero medio
 
 ### Números
 
@@ -94,7 +94,7 @@ toc-depth: 3
 
     - Resolviendo problemas de la vida diaria y de otras asignaturas.
 
-## 3.5.2 Segundo medio
+## 9.5.2 Segundo medio
 
 ### Número
 
@@ -208,7 +208,7 @@ toc-depth: 3
 
     - Explicando decisiones basadas en situaciones subjetivas o en probabilidades.
 
-## 3.5.3 Tercero medio
+## 9.5.3 Tercero medio
 
 ### Unidad 4 -- Necesidad y aplicación de los números complejos. {#unidad-4-necesidad-y-aplicación-de-los-números-complejos.}
 
@@ -226,7 +226,7 @@ toc-depth: 3
 
 4. **OA 4.** [Prioritario]{.change-badge .change-priority} Resolver problemas de geometría euclidiana que involucran relaciones métricas entre ángulos, arcos, cuerdas y secantes en la circunferencia, de forma manuscrita y con uso de herramientas tecnológicas.
 
-## 3.5.4 Cuarto medio
+## 9.5.4 Cuarto medio
 
 ### Unidad 2 -- La toma de decisiones en situaciones financieras y económicas {#unidad-2-la-toma-de-decisiones-en-situaciones-financieras-y-económicas}
 

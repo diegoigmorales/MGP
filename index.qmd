@@ -63,10 +63,16 @@ MGP se encuentra en desarrollo. La numeración pública corresponde únicamente 
 - [Capítulo 2. Combinatoria y probabilidad](contenidos/libro/probabilidad/combinatoria-probabilidad.qmd)
 - [Capítulo 3. Estadística escolar](contenidos/libro/estadistica/index.qmd)
 
+- [Capítulo 4. Potencias, raíces y logaritmos](contenidos/libro/algebra/potencias-raices-logaritmos.qmd)
+- [Capítulo 5. Álgebra elemental](contenidos/libro/algebra/algebra-elemental.qmd)
+- [Capítulo 6. Ecuaciones e inecuaciones](contenidos/libro/algebra/ecuaciones-inecuaciones.qmd)
+- [Capítulo 7. Sucesiones y series elementales](contenidos/libro/algebra/sucesiones-series.qmd)
+- [Capítulo 8. Funciones](contenidos/libro/algebra/funciones.qmd)
+
 ### Parte II. Currículo, evaluación y desarrollo profesional
 
-- [Capítulo 4. Sistema curricular chileno](contenidos/curriculum/index.qmd)
-- [Capítulo 5. PAES de Matemática](contenidos/paes/index.qmd)
+- [Capítulo 9. Sistema curricular chileno](contenidos/curriculum/index.qmd)
+- [Capítulo 10. PAES de Matemática](contenidos/paes/index.qmd)
 :::
 
 ## Colecciones disponibles {.unnumbered}

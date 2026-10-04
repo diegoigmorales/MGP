@@ -1,14 +1,14 @@
 ---
-title: "3.3 Enseñanza básica, ciclo I"
+title: "9.3 Enseñanza básica, ciclo I"
 description: "Objetivos de aprendizaje de Matemática de primero a cuarto básico."
 number-sections: false
 toc: true
 toc-depth: 3
 ---
 
-# 3.3 Enseñanza básica, ciclo I {.unnumbered}
+# 9.3 Enseñanza básica, ciclo I {.unnumbered}
 
-## 3.3.1 Primero básico
+## 9.3.1 Primero básico
 
 ### Números y operaciones
 
@@ -76,7 +76,7 @@ toc-depth: 3
 
 20. **OA 20.** [Prioritario]{.change-badge .change-priority} Construir, leer e interpretar pictogramas.
 
-## 3.3.2 Segundo básico
+## 9.3.2 Segundo básico
 
 ### Números y operaciones
 
@@ -162,7 +162,7 @@ toc-depth: 3
 
 22. **OA 22.** [Prioritario]{.change-badge .change-priority} Construir, leer e interpretar pictogramas con escala y gráficos de barra simple.
 
-## 3.3.3 Tercero básico
+## 9.3.3 Tercero básico
 
 ### Números y operaciones
 
@@ -292,7 +292,7 @@ toc-depth: 3
 
 26. **OA 26.** Representar datos usando diagramas de puntos.
 
-## 3.3.4 Cuarto básico
+## 9.3.4 Cuarto básico
 
 ### Números y operaciones
 

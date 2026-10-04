@@ -21,6 +21,11 @@ KNOWLEDGE_TAG_RE = re.compile(r'^knowledge-tag:\s*"([0-9A-Z]{4})"\s*$', re.MULTI
 TITLE_RE = re.compile(r'^title:\s*"(.*?)"\s*$', re.MULTILINE)
 NATIVE_LABEL_RE = re.compile(r"\{#(?P<label>(?:def|prp|thm|exm)-[0-9A-Z]{4})\}")
 ENRICHED_CHAPTERS = {
+    "contenidos/libro/algebra/potencias-raices-logaritmos.qmd",
+    "contenidos/libro/algebra/algebra-elemental.qmd",
+    "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
+    "contenidos/libro/algebra/sucesiones-series.qmd",
+    "contenidos/libro/algebra/funciones.qmd",
     "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
     "contenidos/libro/estadistica/index.qmd",
 }

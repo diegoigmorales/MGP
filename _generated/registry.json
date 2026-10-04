@@ -28,6 +28,1634 @@
       "relations": {}
     },
     {
+      "tag": "A020",
+      "type": "definicion",
+      "title": "Pensamiento algebraico",
+      "source": "contenidos/libro/algebra/algebra-elemental.qmd",
+      "line": 16,
+      "href": "../contenidos/libro/algebra/algebra-elemental.qmd#tag-A020",
+      "relations": {}
+    },
+    {
+      "tag": "A021",
+      "type": "proceso",
+      "title": "Generalización de patrones",
+      "source": "contenidos/libro/algebra/algebra-elemental.qmd",
+      "line": 28,
+      "href": "../contenidos/libro/algebra/algebra-elemental.qmd#tag-A021",
+      "relations": {
+        "requiere": [
+          "A020"
+        ]
+      }
+    },
+    {
+      "tag": "A022",
+      "type": "definicion",
+      "title": "Variable, incógnita, parámetro e indeterminada",
+      "source": "contenidos/libro/algebra/algebra-elemental.qmd",
+      "line": 42,
+      "href": "../contenidos/libro/algebra/algebra-elemental.qmd#tag-A022",
+      "relations": {
+        "requiere": [
+          "A020"
+        ]
+      }
+    },
+    {
+      "tag": "A023",
+      "type": "definicion",
+      "title": "Expresión algebraica y estructura",
+      "source": "contenidos/libro/algebra/algebra-elemental.qmd",
+      "line": 54,
+      "href": "../contenidos/libro/algebra/algebra-elemental.qmd#tag-A023",
+      "relations": {
+        "requiere": [
+          "A022"
+        ]
+      }
+    },
+    {
+      "tag": "A024",
+      "type": "tecnica",
+      "title": "Traducción entre lenguaje y expresiones",
+      "source": "contenidos/libro/algebra/algebra-elemental.qmd",
+      "line": 66,
+      "href": "../contenidos/libro/algebra/algebra-elemental.qmd#tag-A024",
+      "relations": {
+        "requiere": [
+          "A023"
+        ]
+      }
+    },
+    {
+      "tag": "A025",
+      "type": "tecnica",
+      "title": "Evaluación y dominio de una expresión",
+      "source": "contenidos/libro/algebra/algebra-elemental.qmd",
+      "line": 78,
+      "href": "../contenidos/libro/algebra/algebra-elemental.qmd#tag-A025",
+      "relations": {
+        "requiere": [
+          "A023",
+          "A005",
+          "A012"
+        ]
+      }
+    },
+    {
+      "tag": "A026",
+      "type": "definicion",
+      "title": "Monomios, coeficientes y grado",
+      "source": "contenidos/libro/algebra/algebra-elemental.qmd",
+      "line": 92,
+      "href": "../contenidos/libro/algebra/algebra-elemental.qmd#tag-A026",
+      "relations": {
+        "requiere": [
+          "A023"
+        ]
+      }
+    },
+    {
+      "tag": "A027",
+      "type": "tecnica",
+      "title": "Reducción de términos semejantes",
+      "source": "contenidos/libro/algebra/algebra-elemental.qmd",
+      "line": 104,
+      "href": "../contenidos/libro/algebra/algebra-elemental.qmd#tag-A027",
+      "relations": {
+        "requiere": [
+          "A026"
+        ]
+      }
+    },
+    {
+      "tag": "A028",
+      "type": "propiedad",
+      "title": "Distributividad y eliminación de paréntesis",
+      "source": "contenidos/libro/algebra/algebra-elemental.qmd",
+      "line": 118,
+      "href": "../contenidos/libro/algebra/algebra-elemental.qmd#tag-A028",
+      "relations": {
+        "requiere": [
+          "A023",
+          "A027"
+        ]
+      }
+    },
+    {
+      "tag": "A029",
+      "type": "tecnica",
+      "title": "Suma y producto de polinomios",
+      "source": "contenidos/libro/algebra/algebra-elemental.qmd",
+      "line": 132,
+      "href": "../contenidos/libro/algebra/algebra-elemental.qmd#tag-A029",
+      "relations": {
+        "requiere": [
+          "A026",
+          "A028"
+        ]
+      }
+    },
+    {
+      "tag": "A030",
+      "type": "definicion",
+      "title": "Igualdad como relación",
+      "source": "contenidos/libro/algebra/algebra-elemental.qmd",
+      "line": 146,
+      "href": "../contenidos/libro/algebra/algebra-elemental.qmd#tag-A030",
+      "relations": {
+        "requiere": [
+          "A023"
+        ]
+      }
+    },
+    {
+      "tag": "A031",
+      "type": "definicion",
+      "title": "Expresiones equivalentes y dominio",
+      "source": "contenidos/libro/algebra/algebra-elemental.qmd",
+      "line": 158,
+      "href": "../contenidos/libro/algebra/algebra-elemental.qmd#tag-A031",
+      "relations": {
+        "requiere": [
+          "A025",
+          "A030"
+        ]
+      }
+    },
+    {
+      "tag": "A032",
+      "type": "definicion",
+      "title": "Identidad y ecuación",
+      "source": "contenidos/libro/algebra/algebra-elemental.qmd",
+      "line": 170,
+      "href": "../contenidos/libro/algebra/algebra-elemental.qmd#tag-A032",
+      "relations": {
+        "requiere": [
+          "A030",
+          "A031"
+        ]
+      }
+    },
+    {
+      "tag": "A033",
+      "type": "propiedad",
+      "title": "Cuadrado de un binomio",
+      "source": "contenidos/libro/algebra/algebra-elemental.qmd",
+      "line": 184,
+      "href": "../contenidos/libro/algebra/algebra-elemental.qmd#tag-A033",
+      "relations": {
+        "requiere": [
+          "A029",
+          "A032"
+        ]
+      }
+    },
+    {
+      "tag": "A034",
+      "type": "propiedad",
+      "title": "Suma por diferencia y binomios con término común",
+      "source": "contenidos/libro/algebra/algebra-elemental.qmd",
+      "line": 198,
+      "href": "../contenidos/libro/algebra/algebra-elemental.qmd#tag-A034",
+      "relations": {
+        "requiere": [
+          "A029",
+          "A032"
+        ]
+      }
+    },
+    {
+      "tag": "A035",
+      "type": "propiedad",
+      "title": "Cubo de binomios y suma o diferencia de cubos",
+      "source": "contenidos/libro/algebra/algebra-elemental.qmd",
+      "line": 213,
+      "href": "../contenidos/libro/algebra/algebra-elemental.qmd#tag-A035",
+      "relations": {
+        "requiere": [
+          "A029",
+          "A032"
+        ]
+      }
+    },
+    {
+      "tag": "A036",
+      "type": "tecnica",
+      "title": "Factor común y agrupación",
+      "source": "contenidos/libro/algebra/algebra-elemental.qmd",
+      "line": 232,
+      "href": "../contenidos/libro/algebra/algebra-elemental.qmd#tag-A036",
+      "relations": {
+        "requiere": [
+          "A028"
+        ]
+      }
+    },
+    {
+      "tag": "A037",
+      "type": "tecnica",
+      "title": "Factorización mediante identidades",
+      "source": "contenidos/libro/algebra/algebra-elemental.qmd",
+      "line": 244,
+      "href": "../contenidos/libro/algebra/algebra-elemental.qmd#tag-A037",
+      "relations": {
+        "requiere": [
+          "A033",
+          "A034",
+          "A035",
+          "A036"
+        ]
+      }
+    },
+    {
+      "tag": "A038",
+      "type": "tecnica",
+      "title": "Completar el cuadrado",
+      "source": "contenidos/libro/algebra/algebra-elemental.qmd",
+      "line": 256,
+      "href": "../contenidos/libro/algebra/algebra-elemental.qmd#tag-A038",
+      "relations": {
+        "requiere": [
+          "A033"
+        ]
+      }
+    },
+    {
+      "tag": "A039",
+      "type": "definicion",
+      "title": "Fracciones algebraicas",
+      "source": "contenidos/libro/algebra/algebra-elemental.qmd",
+      "line": 270,
+      "href": "../contenidos/libro/algebra/algebra-elemental.qmd#tag-A039",
+      "relations": {
+        "requiere": [
+          "A025",
+          "A036"
+        ]
+      }
+    },
+    {
+      "tag": "A040",
+      "type": "tecnica",
+      "title": "Simplificación y operaciones con fracciones algebraicas",
+      "source": "contenidos/libro/algebra/algebra-elemental.qmd",
+      "line": 282,
+      "href": "../contenidos/libro/algebra/algebra-elemental.qmd#tag-A040",
+      "relations": {
+        "requiere": [
+          "A031",
+          "A039"
+        ]
+      }
+    },
+    {
+      "tag": "A041",
+      "type": "aplicacion",
+      "title": "Generalización de una construcción",
+      "source": "contenidos/libro/algebra/algebra-elemental.qmd",
+      "line": 298,
+      "href": "../contenidos/libro/algebra/algebra-elemental.qmd#tag-A041",
+      "relations": {
+        "requiere": [
+          "A021",
+          "A031"
+        ]
+      }
+    },
+    {
+      "tag": "A042",
+      "type": "observacion",
+      "title": "Errores algebraicos y evidencia diagnóstica",
+      "source": "contenidos/libro/algebra/algebra-elemental.qmd",
+      "line": 310,
+      "href": "../contenidos/libro/algebra/algebra-elemental.qmd#tag-A042",
+      "relations": {
+        "requiere": [
+          "A027",
+          "A028",
+          "A030",
+          "A040"
+        ]
+      }
+    },
+    {
+      "tag": "A043",
+      "type": "definicion",
+      "title": "Ecuación, dominio y conjunto solución",
+      "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
+      "line": 22,
+      "href": "../contenidos/libro/algebra/ecuaciones-inecuaciones.qmd#tag-A043",
+      "relations": {
+        "requiere": [
+          "A025",
+          "A032"
+        ]
+      }
+    },
+    {
+      "tag": "A044",
+      "type": "definicion",
+      "title": "Ecuaciones equivalentes e implicación",
+      "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
+      "line": 34,
+      "href": "../contenidos/libro/algebra/ecuaciones-inecuaciones.qmd#tag-A044",
+      "relations": {
+        "requiere": [
+          "A043"
+        ]
+      }
+    },
+    {
+      "tag": "A045",
+      "type": "principio",
+      "title": "Transformaciones que preservan soluciones",
+      "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
+      "line": 46,
+      "href": "../contenidos/libro/algebra/ecuaciones-inecuaciones.qmd#tag-A045",
+      "relations": {
+        "requiere": [
+          "A044"
+        ]
+      }
+    },
+    {
+      "tag": "A046",
+      "type": "tecnica",
+      "title": "Ecuación lineal en una incógnita",
+      "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
+      "line": 60,
+      "href": "../contenidos/libro/algebra/ecuaciones-inecuaciones.qmd#tag-A046",
+      "relations": {
+        "requiere": [
+          "A045",
+          "A028"
+        ]
+      }
+    },
+    {
+      "tag": "A047",
+      "type": "tecnica",
+      "title": "Despeje de fórmulas y parámetros",
+      "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
+      "line": 72,
+      "href": "../contenidos/libro/algebra/ecuaciones-inecuaciones.qmd#tag-A047",
+      "relations": {
+        "requiere": [
+          "A022",
+          "A046"
+        ]
+      }
+    },
+    {
+      "tag": "A048",
+      "type": "tecnica",
+      "title": "Factorización y producto nulo",
+      "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
+      "line": 86,
+      "href": "../contenidos/libro/algebra/ecuaciones-inecuaciones.qmd#tag-A048",
+      "relations": {
+        "requiere": [
+          "A037",
+          "A045"
+        ]
+      }
+    },
+    {
+      "tag": "A049",
+      "type": "propiedad",
+      "title": "Fórmula cuadrática y discriminante",
+      "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
+      "line": 98,
+      "href": "../contenidos/libro/algebra/ecuaciones-inecuaciones.qmd#tag-A049",
+      "relations": {
+        "requiere": [
+          "A005",
+          "A038",
+          "A043"
+        ]
+      }
+    },
+    {
+      "tag": "A050",
+      "type": "tecnica",
+      "title": "Completar cuadrados para resolver",
+      "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
+      "line": 112,
+      "href": "../contenidos/libro/algebra/ecuaciones-inecuaciones.qmd#tag-A050",
+      "relations": {
+        "requiere": [
+          "A006",
+          "A038"
+        ]
+      }
+    },
+    {
+      "tag": "A051",
+      "type": "propiedad",
+      "title": "Suma y producto de raíces",
+      "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
+      "line": 124,
+      "href": "../contenidos/libro/algebra/ecuaciones-inecuaciones.qmd#tag-A051",
+      "relations": {
+        "requiere": [
+          "A048",
+          "A049"
+        ]
+      }
+    },
+    {
+      "tag": "A052",
+      "type": "tecnica",
+      "title": "Ecuaciones racionales",
+      "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
+      "line": 140,
+      "href": "../contenidos/libro/algebra/ecuaciones-inecuaciones.qmd#tag-A052",
+      "relations": {
+        "requiere": [
+          "A040",
+          "A045"
+        ]
+      }
+    },
+    {
+      "tag": "A053",
+      "type": "tecnica",
+      "title": "Ecuaciones con radicales y candidatos extraños",
+      "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
+      "line": 152,
+      "href": "../contenidos/libro/algebra/ecuaciones-inecuaciones.qmd#tag-A053",
+      "relations": {
+        "requiere": [
+          "A005",
+          "A006",
+          "A044"
+        ]
+      }
+    },
+    {
+      "tag": "A054",
+      "type": "tecnica",
+      "title": "Ecuaciones exponenciales y logarítmicas",
+      "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
+      "line": 164,
+      "href": "../contenidos/libro/algebra/ecuaciones-inecuaciones.qmd#tag-A054",
+      "relations": {
+        "requiere": [
+          "A012",
+          "A013",
+          "A014",
+          "A045"
+        ]
+      }
+    },
+    {
+      "tag": "A055",
+      "type": "tecnica",
+      "title": "Ecuaciones con valor absoluto",
+      "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
+      "line": 176,
+      "href": "../contenidos/libro/algebra/ecuaciones-inecuaciones.qmd#tag-A055",
+      "relations": {
+        "requiere": [
+          "A043"
+        ]
+      }
+    },
+    {
+      "tag": "A056",
+      "type": "tecnica",
+      "title": "Cambio de variable y recuperación del dominio",
+      "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
+      "line": 188,
+      "href": "../contenidos/libro/algebra/ecuaciones-inecuaciones.qmd#tag-A056",
+      "relations": {
+        "requiere": [
+          "A049",
+          "A055"
+        ]
+      }
+    },
+    {
+      "tag": "A057",
+      "type": "definicion",
+      "title": "Inecuación y representación del conjunto solución",
+      "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
+      "line": 202,
+      "href": "../contenidos/libro/algebra/ecuaciones-inecuaciones.qmd#tag-A057",
+      "relations": {
+        "requiere": [
+          "A043"
+        ]
+      }
+    },
+    {
+      "tag": "A058",
+      "type": "principio",
+      "title": "Transformaciones de desigualdades",
+      "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
+      "line": 214,
+      "href": "../contenidos/libro/algebra/ecuaciones-inecuaciones.qmd#tag-A058",
+      "relations": {
+        "requiere": [
+          "A057"
+        ]
+      }
+    },
+    {
+      "tag": "A059",
+      "type": "tecnica",
+      "title": "Inecuaciones lineales y condiciones simultáneas",
+      "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
+      "line": 226,
+      "href": "../contenidos/libro/algebra/ecuaciones-inecuaciones.qmd#tag-A059",
+      "relations": {
+        "requiere": [
+          "A058"
+        ]
+      }
+    },
+    {
+      "tag": "A060",
+      "type": "tecnica",
+      "title": "Tabla de signos de productos y cocientes",
+      "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
+      "line": 238,
+      "href": "../contenidos/libro/algebra/ecuaciones-inecuaciones.qmd#tag-A060",
+      "relations": {
+        "requiere": [
+          "A036",
+          "A057",
+          "A058"
+        ]
+      }
+    },
+    {
+      "tag": "A061",
+      "type": "tecnica",
+      "title": "Inecuaciones cuadráticas",
+      "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
+      "line": 250,
+      "href": "../contenidos/libro/algebra/ecuaciones-inecuaciones.qmd#tag-A061",
+      "relations": {
+        "requiere": [
+          "A049",
+          "A060"
+        ]
+      }
+    },
+    {
+      "tag": "A062",
+      "type": "tecnica",
+      "title": "Inecuaciones con valor absoluto",
+      "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
+      "line": 262,
+      "href": "../contenidos/libro/algebra/ecuaciones-inecuaciones.qmd#tag-A062",
+      "relations": {
+        "requiere": [
+          "A055",
+          "A057"
+        ]
+      }
+    },
+    {
+      "tag": "A063",
+      "type": "tecnica",
+      "title": "Inecuaciones exponenciales y logarítmicas",
+      "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
+      "line": 274,
+      "href": "../contenidos/libro/algebra/ecuaciones-inecuaciones.qmd#tag-A063",
+      "relations": {
+        "requiere": [
+          "A011",
+          "A014",
+          "A058"
+        ]
+      }
+    },
+    {
+      "tag": "A064",
+      "type": "definicion",
+      "title": "Sistema de ecuaciones y solución simultánea",
+      "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
+      "line": 288,
+      "href": "../contenidos/libro/algebra/ecuaciones-inecuaciones.qmd#tag-A064",
+      "relations": {
+        "requiere": [
+          "A043",
+          "A046"
+        ]
+      }
+    },
+    {
+      "tag": "A065",
+      "type": "tecnica",
+      "title": "Sustitución, igualación y eliminación",
+      "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
+      "line": 300,
+      "href": "../contenidos/libro/algebra/ecuaciones-inecuaciones.qmd#tag-A065",
+      "relations": {
+        "requiere": [
+          "A045",
+          "A064"
+        ]
+      }
+    },
+    {
+      "tag": "A066",
+      "type": "criterio",
+      "title": "Clasificación de sistemas lineales de dos incógnitas",
+      "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
+      "line": 312,
+      "href": "../contenidos/libro/algebra/ecuaciones-inecuaciones.qmd#tag-A066",
+      "relations": {
+        "requiere": [
+          "A064",
+          "A065"
+        ]
+      }
+    },
+    {
+      "tag": "A067",
+      "type": "tecnica",
+      "title": "Interpretación gráfica de ecuaciones e inecuaciones",
+      "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
+      "line": 326,
+      "href": "../contenidos/libro/algebra/ecuaciones-inecuaciones.qmd#tag-A067",
+      "relations": {
+        "requiere": [
+          "A048",
+          "A057",
+          "A064"
+        ]
+      }
+    },
+    {
+      "tag": "A068",
+      "type": "aplicacion",
+      "title": "Construcción e interpretación de modelos algebraicos",
+      "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
+      "line": 338,
+      "href": "../contenidos/libro/algebra/ecuaciones-inecuaciones.qmd#tag-A068",
+      "relations": {
+        "requiere": [
+          "A024",
+          "A043",
+          "A049"
+        ]
+      }
+    },
+    {
+      "tag": "A069",
+      "type": "observacion",
+      "title": "Errores de resolución y control de equivalencias",
+      "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
+      "line": 350,
+      "href": "../contenidos/libro/algebra/ecuaciones-inecuaciones.qmd#tag-A069",
+      "relations": {
+        "requiere": [
+          "A044",
+          "A045",
+          "A053",
+          "A058"
+        ]
+      }
+    },
+    {
+      "tag": "A090",
+      "type": "definicion",
+      "title": "Función como correspondencia unívoca",
+      "source": "contenidos/libro/algebra/funciones.qmd",
+      "line": 22,
+      "href": "../contenidos/libro/algebra/funciones.qmd#tag-A090",
+      "relations": {
+        "requiere": [
+          "A022"
+        ]
+      }
+    },
+    {
+      "tag": "A091",
+      "type": "definicion",
+      "title": "Covariación entre cantidades",
+      "source": "contenidos/libro/algebra/funciones.qmd",
+      "line": 34,
+      "href": "../contenidos/libro/algebra/funciones.qmd#tag-A091",
+      "relations": {
+        "requiere": [
+          "A090"
+        ]
+      }
+    },
+    {
+      "tag": "A092",
+      "type": "definicion",
+      "title": "Dominio y restricciones contextuales",
+      "source": "contenidos/libro/algebra/funciones.qmd",
+      "line": 48,
+      "href": "../contenidos/libro/algebra/funciones.qmd#tag-A092",
+      "relations": {
+        "requiere": [
+          "A025",
+          "A090"
+        ]
+      }
+    },
+    {
+      "tag": "A093",
+      "type": "definicion",
+      "title": "Codominio, imagen y recorrido",
+      "source": "contenidos/libro/algebra/funciones.qmd",
+      "line": 60,
+      "href": "../contenidos/libro/algebra/funciones.qmd#tag-A093",
+      "relations": {
+        "requiere": [
+          "A090",
+          "A092"
+        ]
+      }
+    },
+    {
+      "tag": "A094",
+      "type": "definicion",
+      "title": "Preimagen de un valor o conjunto",
+      "source": "contenidos/libro/algebra/funciones.qmd",
+      "line": 72,
+      "href": "../contenidos/libro/algebra/funciones.qmd#tag-A094",
+      "relations": {
+        "requiere": [
+          "A043",
+          "A093"
+        ]
+      }
+    },
+    {
+      "tag": "A095",
+      "type": "criterio",
+      "title": "Regla verbal, tabla, fórmula y gráfica",
+      "source": "contenidos/libro/algebra/funciones.qmd",
+      "line": 86,
+      "href": "../contenidos/libro/algebra/funciones.qmd#tag-A095",
+      "relations": {
+        "requiere": [
+          "A070",
+          "A090",
+          "A091"
+        ]
+      }
+    },
+    {
+      "tag": "A096",
+      "type": "criterio",
+      "title": "Prueba de la recta vertical",
+      "source": "contenidos/libro/algebra/funciones.qmd",
+      "line": 98,
+      "href": "../contenidos/libro/algebra/funciones.qmd#tag-A096",
+      "relations": {
+        "requiere": [
+          "A090",
+          "A095"
+        ]
+      }
+    },
+    {
+      "tag": "A097",
+      "type": "definicion",
+      "title": "Ceros, signo e intersecciones",
+      "source": "contenidos/libro/algebra/funciones.qmd",
+      "line": 110,
+      "href": "../contenidos/libro/algebra/funciones.qmd#tag-A097",
+      "relations": {
+        "requiere": [
+          "A048",
+          "A060",
+          "A095"
+        ]
+      }
+    },
+    {
+      "tag": "A098",
+      "type": "definicion",
+      "title": "Monotonía y extremos",
+      "source": "contenidos/libro/algebra/funciones.qmd",
+      "line": 122,
+      "href": "../contenidos/libro/algebra/funciones.qmd#tag-A098",
+      "relations": {
+        "requiere": [
+          "A090"
+        ]
+      }
+    },
+    {
+      "tag": "A099",
+      "type": "definicion",
+      "title": "Tasa de cambio media",
+      "source": "contenidos/libro/algebra/funciones.qmd",
+      "line": 134,
+      "href": "../contenidos/libro/algebra/funciones.qmd#tag-A099",
+      "relations": {
+        "requiere": [
+          "A091",
+          "A095"
+        ]
+      }
+    },
+    {
+      "tag": "A100",
+      "type": "definicion",
+      "title": "Composición de funciones",
+      "source": "contenidos/libro/algebra/funciones.qmd",
+      "line": 150,
+      "href": "../contenidos/libro/algebra/funciones.qmd#tag-A100",
+      "relations": {
+        "requiere": [
+          "A092",
+          "A093"
+        ]
+      }
+    },
+    {
+      "tag": "A101",
+      "type": "definicion",
+      "title": "Inyectividad, sobreyectividad y biyectividad",
+      "source": "contenidos/libro/algebra/funciones.qmd",
+      "line": 162,
+      "href": "../contenidos/libro/algebra/funciones.qmd#tag-A101",
+      "relations": {
+        "requiere": [
+          "A090",
+          "A093"
+        ]
+      }
+    },
+    {
+      "tag": "A102",
+      "type": "definicion",
+      "title": "Función inversa y restricción de dominio",
+      "source": "contenidos/libro/algebra/funciones.qmd",
+      "line": 174,
+      "href": "../contenidos/libro/algebra/funciones.qmd#tag-A102",
+      "relations": {
+        "requiere": [
+          "A100",
+          "A101",
+          "A005"
+        ]
+      }
+    },
+    {
+      "tag": "A103",
+      "type": "definicion",
+      "title": "Función lineal y proporcionalidad directa",
+      "source": "contenidos/libro/algebra/funciones.qmd",
+      "line": 188,
+      "href": "../contenidos/libro/algebra/funciones.qmd#tag-A103",
+      "relations": {
+        "requiere": [
+          "A091",
+          "A099"
+        ]
+      }
+    },
+    {
+      "tag": "A104",
+      "type": "definicion",
+      "title": "Función afín y pendiente",
+      "source": "contenidos/libro/algebra/funciones.qmd",
+      "line": 200,
+      "href": "../contenidos/libro/algebra/funciones.qmd#tag-A104",
+      "relations": {
+        "requiere": [
+          "A099",
+          "A103"
+        ]
+      }
+    },
+    {
+      "tag": "A105",
+      "type": "definicion",
+      "title": "Función cuadrática y formas equivalentes",
+      "source": "contenidos/libro/algebra/funciones.qmd",
+      "line": 214,
+      "href": "../contenidos/libro/algebra/funciones.qmd#tag-A105",
+      "relations": {
+        "requiere": [
+          "A038",
+          "A048"
+        ]
+      }
+    },
+    {
+      "tag": "A106",
+      "type": "propiedad",
+      "title": "Vértice, eje de simetría y recorrido",
+      "source": "contenidos/libro/algebra/funciones.qmd",
+      "line": 226,
+      "href": "../contenidos/libro/algebra/funciones.qmd#tag-A106",
+      "relations": {
+        "requiere": [
+          "A098",
+          "A105"
+        ]
+      }
+    },
+    {
+      "tag": "A107",
+      "type": "criterio",
+      "title": "Raíces y variación de una cuadrática",
+      "source": "contenidos/libro/algebra/funciones.qmd",
+      "line": 240,
+      "href": "../contenidos/libro/algebra/funciones.qmd#tag-A107",
+      "relations": {
+        "requiere": [
+          "A049",
+          "A106"
+        ]
+      }
+    },
+    {
+      "tag": "A108",
+      "type": "definicion",
+      "title": "Funciones potencia de exponente entero",
+      "source": "contenidos/libro/algebra/funciones.qmd",
+      "line": 274,
+      "href": "../contenidos/libro/algebra/funciones.qmd#tag-A108",
+      "relations": {
+        "requiere": [
+          "A003",
+          "A004",
+          "A093"
+        ]
+      }
+    },
+    {
+      "tag": "A109",
+      "type": "definicion",
+      "title": "Funciones raíz y potencia racional",
+      "source": "contenidos/libro/algebra/funciones.qmd",
+      "line": 286,
+      "href": "../contenidos/libro/algebra/funciones.qmd#tag-A109",
+      "relations": {
+        "requiere": [
+          "A005",
+          "A010",
+          "A102"
+        ]
+      }
+    },
+    {
+      "tag": "A110",
+      "type": "definicion",
+      "title": "Función recíproca y asíntotas",
+      "source": "contenidos/libro/algebra/funciones.qmd",
+      "line": 298,
+      "href": "../contenidos/libro/algebra/funciones.qmd#tag-A110",
+      "relations": {
+        "requiere": [
+          "A092",
+          "A108"
+        ]
+      }
+    },
+    {
+      "tag": "A111",
+      "type": "definicion",
+      "title": "Función exponencial",
+      "source": "contenidos/libro/algebra/funciones.qmd",
+      "line": 312,
+      "href": "../contenidos/libro/algebra/funciones.qmd#tag-A111",
+      "relations": {
+        "requiere": [
+          "A011",
+          "A091"
+        ]
+      }
+    },
+    {
+      "tag": "A112",
+      "type": "definicion",
+      "title": "Función logarítmica",
+      "source": "contenidos/libro/algebra/funciones.qmd",
+      "line": 324,
+      "href": "../contenidos/libro/algebra/funciones.qmd#tag-A112",
+      "relations": {
+        "requiere": [
+          "A012",
+          "A013",
+          "A102",
+          "A111"
+        ]
+      }
+    },
+    {
+      "tag": "A113",
+      "type": "tecnica",
+      "title": "Traslaciones, reflexiones y escalas",
+      "source": "contenidos/libro/algebra/funciones.qmd",
+      "line": 338,
+      "href": "../contenidos/libro/algebra/funciones.qmd#tag-A113",
+      "relations": {
+        "requiere": [
+          "A092",
+          "A093",
+          "A095"
+        ]
+      }
+    },
+    {
+      "tag": "A114",
+      "type": "definicion",
+      "title": "Funciones definidas por tramos",
+      "source": "contenidos/libro/algebra/funciones.qmd",
+      "line": 350,
+      "href": "../contenidos/libro/algebra/funciones.qmd#tag-A114",
+      "relations": {
+        "requiere": [
+          "A090",
+          "A092"
+        ]
+      }
+    },
+    {
+      "tag": "A115",
+      "type": "definicion",
+      "title": "Valor absoluto, simetría y periodicidad",
+      "source": "contenidos/libro/algebra/funciones.qmd",
+      "line": 362,
+      "href": "../contenidos/libro/algebra/funciones.qmd#tag-A115",
+      "relations": {
+        "requiere": [
+          "A095",
+          "A108",
+          "A114"
+        ]
+      }
+    },
+    {
+      "tag": "A116",
+      "type": "aplicacion",
+      "title": "Selección y validación de modelos funcionales",
+      "source": "contenidos/libro/algebra/funciones.qmd",
+      "line": 376,
+      "href": "../contenidos/libro/algebra/funciones.qmd#tag-A116",
+      "relations": {
+        "requiere": [
+          "A103",
+          "A104",
+          "A110",
+          "A111",
+          "A087"
+        ]
+      }
+    },
+    {
+      "tag": "A117",
+      "type": "observacion",
+      "title": "Errores en el concepto y las representaciones de función",
+      "source": "contenidos/libro/algebra/funciones.qmd",
+      "line": 388,
+      "href": "../contenidos/libro/algebra/funciones.qmd#tag-A117",
+      "relations": {
+        "requiere": [
+          "A090",
+          "A093",
+          "A101",
+          "A102"
+        ]
+      }
+    },
+    {
+      "tag": "A001",
+      "type": "definicion",
+      "title": "Potencia de exponente natural",
+      "source": "contenidos/libro/algebra/potencias-raices-logaritmos.qmd",
+      "line": 16,
+      "href": "../contenidos/libro/algebra/potencias-raices-logaritmos.qmd#tag-A001",
+      "relations": {}
+    },
+    {
+      "tag": "A002",
+      "type": "propiedad",
+      "title": "Propiedades de las potencias",
+      "source": "contenidos/libro/algebra/potencias-raices-logaritmos.qmd",
+      "line": 28,
+      "href": "../contenidos/libro/algebra/potencias-raices-logaritmos.qmd#tag-A002",
+      "relations": {
+        "requiere": [
+          "A001"
+        ]
+      }
+    },
+    {
+      "tag": "A003",
+      "type": "definicion",
+      "title": "Exponentes cero y negativos",
+      "source": "contenidos/libro/algebra/potencias-raices-logaritmos.qmd",
+      "line": 42,
+      "href": "../contenidos/libro/algebra/potencias-raices-logaritmos.qmd#tag-A003",
+      "relations": {
+        "requiere": [
+          "A002"
+        ]
+      }
+    },
+    {
+      "tag": "A004",
+      "type": "propiedad",
+      "title": "Signo de una potencia y paridad",
+      "source": "contenidos/libro/algebra/potencias-raices-logaritmos.qmd",
+      "line": 56,
+      "href": "../contenidos/libro/algebra/potencias-raices-logaritmos.qmd#tag-A004",
+      "relations": {
+        "requiere": [
+          "A001",
+          "A003"
+        ]
+      }
+    },
+    {
+      "tag": "A005",
+      "type": "definicion",
+      "title": "Raíz real principal",
+      "source": "contenidos/libro/algebra/potencias-raices-logaritmos.qmd",
+      "line": 70,
+      "href": "../contenidos/libro/algebra/potencias-raices-logaritmos.qmd#tag-A005",
+      "relations": {
+        "requiere": [
+          "A001"
+        ]
+      }
+    },
+    {
+      "tag": "A006",
+      "type": "propiedad",
+      "title": "Raíz de una potencia y valor absoluto",
+      "source": "contenidos/libro/algebra/potencias-raices-logaritmos.qmd",
+      "line": 82,
+      "href": "../contenidos/libro/algebra/potencias-raices-logaritmos.qmd#tag-A006",
+      "relations": {
+        "requiere": [
+          "A004",
+          "A005"
+        ]
+      }
+    },
+    {
+      "tag": "A007",
+      "type": "propiedad",
+      "title": "Producto y cociente de radicales",
+      "source": "contenidos/libro/algebra/potencias-raices-logaritmos.qmd",
+      "line": 96,
+      "href": "../contenidos/libro/algebra/potencias-raices-logaritmos.qmd#tag-A007",
+      "relations": {
+        "requiere": [
+          "A005"
+        ]
+      }
+    },
+    {
+      "tag": "A008",
+      "type": "tecnica",
+      "title": "Simplificación y combinación de radicales",
+      "source": "contenidos/libro/algebra/potencias-raices-logaritmos.qmd",
+      "line": 110,
+      "href": "../contenidos/libro/algebra/potencias-raices-logaritmos.qmd#tag-A008",
+      "relations": {
+        "requiere": [
+          "A006",
+          "A007"
+        ]
+      }
+    },
+    {
+      "tag": "A009",
+      "type": "tecnica",
+      "title": "Racionalización de denominadores",
+      "source": "contenidos/libro/algebra/potencias-raices-logaritmos.qmd",
+      "line": 122,
+      "href": "../contenidos/libro/algebra/potencias-raices-logaritmos.qmd#tag-A009",
+      "relations": {
+        "requiere": [
+          "A008"
+        ]
+      }
+    },
+    {
+      "tag": "A010",
+      "type": "definicion",
+      "title": "Potencia de exponente racional",
+      "source": "contenidos/libro/algebra/potencias-raices-logaritmos.qmd",
+      "line": 136,
+      "href": "../contenidos/libro/algebra/potencias-raices-logaritmos.qmd#tag-A010",
+      "relations": {
+        "requiere": [
+          "A003",
+          "A005"
+        ]
+      }
+    },
+    {
+      "tag": "A011",
+      "type": "definicion",
+      "title": "Potencia de exponente real",
+      "source": "contenidos/libro/algebra/potencias-raices-logaritmos.qmd",
+      "line": 150,
+      "href": "../contenidos/libro/algebra/potencias-raices-logaritmos.qmd#tag-A011",
+      "relations": {
+        "requiere": [
+          "A010"
+        ]
+      }
+    },
+    {
+      "tag": "A012",
+      "type": "definicion",
+      "title": "Logaritmo y condiciones de existencia",
+      "source": "contenidos/libro/algebra/potencias-raices-logaritmos.qmd",
+      "line": 164,
+      "href": "../contenidos/libro/algebra/potencias-raices-logaritmos.qmd#tag-A012",
+      "relations": {
+        "requiere": [
+          "A011"
+        ]
+      }
+    },
+    {
+      "tag": "A013",
+      "type": "propiedad",
+      "title": "Logaritmo de producto, cociente y potencia",
+      "source": "contenidos/libro/algebra/potencias-raices-logaritmos.qmd",
+      "line": 178,
+      "href": "../contenidos/libro/algebra/potencias-raices-logaritmos.qmd#tag-A013",
+      "relations": {
+        "requiere": [
+          "A012"
+        ]
+      }
+    },
+    {
+      "tag": "A014",
+      "type": "propiedad",
+      "title": "Cambio de base e inversión",
+      "source": "contenidos/libro/algebra/potencias-raices-logaritmos.qmd",
+      "line": 193,
+      "href": "../contenidos/libro/algebra/potencias-raices-logaritmos.qmd#tag-A014",
+      "relations": {
+        "requiere": [
+          "A013"
+        ]
+      }
+    },
+    {
+      "tag": "A015",
+      "type": "tecnica",
+      "title": "Estimación mediante cotas",
+      "source": "contenidos/libro/algebra/potencias-raices-logaritmos.qmd",
+      "line": 209,
+      "href": "../contenidos/libro/algebra/potencias-raices-logaritmos.qmd#tag-A015",
+      "relations": {
+        "requiere": [
+          "A005",
+          "A011",
+          "A012"
+        ]
+      }
+    },
+    {
+      "tag": "A016",
+      "type": "definicion",
+      "title": "Notación científica y orden de magnitud",
+      "source": "contenidos/libro/algebra/potencias-raices-logaritmos.qmd",
+      "line": 221,
+      "href": "../contenidos/libro/algebra/potencias-raices-logaritmos.qmd#tag-A016",
+      "relations": {
+        "requiere": [
+          "A003",
+          "A012"
+        ]
+      }
+    },
+    {
+      "tag": "A017",
+      "type": "aplicacion",
+      "title": "Crecimiento multiplicativo y duplicación",
+      "source": "contenidos/libro/algebra/potencias-raices-logaritmos.qmd",
+      "line": 235,
+      "href": "../contenidos/libro/algebra/potencias-raices-logaritmos.qmd#tag-A017",
+      "relations": {
+        "requiere": [
+          "A014"
+        ]
+      }
+    },
+    {
+      "tag": "A018",
+      "type": "aplicacion",
+      "title": "Escalas logarítmicas",
+      "source": "contenidos/libro/algebra/potencias-raices-logaritmos.qmd",
+      "line": 247,
+      "href": "../contenidos/libro/algebra/potencias-raices-logaritmos.qmd#tag-A018",
+      "relations": {
+        "requiere": [
+          "A013",
+          "A016"
+        ]
+      }
+    },
+    {
+      "tag": "A019",
+      "type": "observacion",
+      "title": "Errores frecuentes y restricciones olvidadas",
+      "source": "contenidos/libro/algebra/potencias-raices-logaritmos.qmd",
+      "line": 259,
+      "href": "../contenidos/libro/algebra/potencias-raices-logaritmos.qmd#tag-A019",
+      "relations": {
+        "requiere": [
+          "A006",
+          "A010",
+          "A013"
+        ]
+      }
+    },
+    {
+      "tag": "A070",
+      "type": "definicion",
+      "title": "Sucesión e índice",
+      "source": "contenidos/libro/algebra/sucesiones-series.qmd",
+      "line": 22,
+      "href": "../contenidos/libro/algebra/sucesiones-series.qmd#tag-A070",
+      "relations": {
+        "requiere": [
+          "A021",
+          "A022"
+        ]
+      }
+    },
+    {
+      "tag": "A071",
+      "type": "definicion",
+      "title": "Fórmula explícita",
+      "source": "contenidos/libro/algebra/sucesiones-series.qmd",
+      "line": 34,
+      "href": "../contenidos/libro/algebra/sucesiones-series.qmd#tag-A071",
+      "relations": {
+        "requiere": [
+          "A070"
+        ]
+      }
+    },
+    {
+      "tag": "A072",
+      "type": "definicion",
+      "title": "Recurrencia y condiciones iniciales",
+      "source": "contenidos/libro/algebra/sucesiones-series.qmd",
+      "line": 46,
+      "href": "../contenidos/libro/algebra/sucesiones-series.qmd#tag-A072",
+      "relations": {
+        "requiere": [
+          "A070",
+          "A071"
+        ]
+      }
+    },
+    {
+      "tag": "A073",
+      "type": "criterio",
+      "title": "Patrón observado y regla determinada",
+      "source": "contenidos/libro/algebra/sucesiones-series.qmd",
+      "line": 58,
+      "href": "../contenidos/libro/algebra/sucesiones-series.qmd#tag-A073",
+      "relations": {
+        "requiere": [
+          "A021",
+          "A070"
+        ]
+      }
+    },
+    {
+      "tag": "A074",
+      "type": "definicion",
+      "title": "Progresión aritmética",
+      "source": "contenidos/libro/algebra/sucesiones-series.qmd",
+      "line": 72,
+      "href": "../contenidos/libro/algebra/sucesiones-series.qmd#tag-A074",
+      "relations": {
+        "requiere": [
+          "A072"
+        ]
+      }
+    },
+    {
+      "tag": "A075",
+      "type": "tecnica",
+      "title": "Determinación de una progresión aritmética",
+      "source": "contenidos/libro/algebra/sucesiones-series.qmd",
+      "line": 86,
+      "href": "../contenidos/libro/algebra/sucesiones-series.qmd#tag-A075",
+      "relations": {
+        "requiere": [
+          "A074"
+        ]
+      }
+    },
+    {
+      "tag": "A076",
+      "type": "propiedad",
+      "title": "Suma de una progresión aritmética",
+      "source": "contenidos/libro/algebra/sucesiones-series.qmd",
+      "line": 100,
+      "href": "../contenidos/libro/algebra/sucesiones-series.qmd#tag-A076",
+      "relations": {
+        "requiere": [
+          "A074"
+        ]
+      }
+    },
+    {
+      "tag": "A077",
+      "type": "definicion",
+      "title": "Progresión geométrica",
+      "source": "contenidos/libro/algebra/sucesiones-series.qmd",
+      "line": 116,
+      "href": "../contenidos/libro/algebra/sucesiones-series.qmd#tag-A077",
+      "relations": {
+        "requiere": [
+          "A003",
+          "A072"
+        ]
+      }
+    },
+    {
+      "tag": "A078",
+      "type": "criterio",
+      "title": "Comportamiento de una progresión geométrica",
+      "source": "contenidos/libro/algebra/sucesiones-series.qmd",
+      "line": 128,
+      "href": "../contenidos/libro/algebra/sucesiones-series.qmd#tag-A078",
+      "relations": {
+        "requiere": [
+          "A077"
+        ]
+      }
+    },
+    {
+      "tag": "A079",
+      "type": "propiedad",
+      "title": "Suma geométrica finita",
+      "source": "contenidos/libro/algebra/sucesiones-series.qmd",
+      "line": 140,
+      "href": "../contenidos/libro/algebra/sucesiones-series.qmd#tag-A079",
+      "relations": {
+        "requiere": [
+          "A077"
+        ]
+      }
+    },
+    {
+      "tag": "A080",
+      "type": "definicion",
+      "title": "Notación de sumatoria",
+      "source": "contenidos/libro/algebra/sucesiones-series.qmd",
+      "line": 156,
+      "href": "../contenidos/libro/algebra/sucesiones-series.qmd#tag-A080",
+      "relations": {
+        "requiere": [
+          "A070",
+          "A028"
+        ]
+      }
+    },
+    {
+      "tag": "A081",
+      "type": "propiedad",
+      "title": "Sumas de naturales, cuadrados y cubos",
+      "source": "contenidos/libro/algebra/sucesiones-series.qmd",
+      "line": 168,
+      "href": "../contenidos/libro/algebra/sucesiones-series.qmd#tag-A081",
+      "relations": {
+        "requiere": [
+          "A076",
+          "A080"
+        ]
+      }
+    },
+    {
+      "tag": "A082",
+      "type": "tecnica",
+      "title": "Sumas telescópicas",
+      "source": "contenidos/libro/algebra/sucesiones-series.qmd",
+      "line": 184,
+      "href": "../contenidos/libro/algebra/sucesiones-series.qmd#tag-A082",
+      "relations": {
+        "requiere": [
+          "A040",
+          "A080"
+        ]
+      }
+    },
+    {
+      "tag": "A083",
+      "type": "definicion",
+      "title": "Serie y sucesión de sumas parciales",
+      "source": "contenidos/libro/algebra/sucesiones-series.qmd",
+      "line": 198,
+      "href": "../contenidos/libro/algebra/sucesiones-series.qmd#tag-A083",
+      "relations": {
+        "requiere": [
+          "A079",
+          "A080"
+        ]
+      }
+    },
+    {
+      "tag": "A084",
+      "type": "propiedad",
+      "title": "Suma geométrica infinita",
+      "source": "contenidos/libro/algebra/sucesiones-series.qmd",
+      "line": 212,
+      "href": "../contenidos/libro/algebra/sucesiones-series.qmd#tag-A084",
+      "relations": {
+        "requiere": [
+          "A079",
+          "A083"
+        ]
+      }
+    },
+    {
+      "tag": "A085",
+      "type": "criterio",
+      "title": "Términos que tienden a cero y convergencia",
+      "source": "contenidos/libro/algebra/sucesiones-series.qmd",
+      "line": 226,
+      "href": "../contenidos/libro/algebra/sucesiones-series.qmd#tag-A085",
+      "relations": {
+        "requiere": [
+          "A070",
+          "A083",
+          "A084"
+        ]
+      }
+    },
+    {
+      "tag": "A086",
+      "type": "tecnica",
+      "title": "Error al truncar una serie geométrica",
+      "source": "contenidos/libro/algebra/sucesiones-series.qmd",
+      "line": 238,
+      "href": "../contenidos/libro/algebra/sucesiones-series.qmd#tag-A086",
+      "relations": {
+        "requiere": [
+          "A084"
+        ]
+      }
+    },
+    {
+      "tag": "A087",
+      "type": "aplicacion",
+      "title": "Crecimiento aditivo y multiplicativo",
+      "source": "contenidos/libro/algebra/sucesiones-series.qmd",
+      "line": 254,
+      "href": "../contenidos/libro/algebra/sucesiones-series.qmd#tag-A087",
+      "relations": {
+        "requiere": [
+          "A074",
+          "A077",
+          "A017"
+        ]
+      }
+    },
+    {
+      "tag": "A088",
+      "type": "aplicacion",
+      "title": "Recurrencia afín con aporte periódico",
+      "source": "contenidos/libro/algebra/sucesiones-series.qmd",
+      "line": 266,
+      "href": "../contenidos/libro/algebra/sucesiones-series.qmd#tag-A088",
+      "relations": {
+        "requiere": [
+          "A072",
+          "A079"
+        ]
+      }
+    },
+    {
+      "tag": "A089",
+      "type": "observacion",
+      "title": "Errores de índices, patrones y sumas",
+      "source": "contenidos/libro/algebra/sucesiones-series.qmd",
+      "line": 280,
+      "href": "../contenidos/libro/algebra/sucesiones-series.qmd#tag-A089",
+      "relations": {
+        "requiere": [
+          "A071",
+          "A074",
+          "A077",
+          "A084"
+        ]
+      }
+    },
+    {
       "tag": "0035",
       "type": "definicion",
       "title": "Pregunta estadística",
@@ -1801,15 +3429,15 @@
       "line": 8,
       "href": "../contenidos/paes/m1/preguntas-originales/porcentajes.qmd#tag-0003",
       "relations": {
+        "pertenece_a": [
+          "C001"
+        ],
         "evalua": [
           "H001"
         ],
         "usa": [
           "0001",
           "0002"
-        ],
-        "pertenece_a": [
-          "C001"
         ]
       }
     },
@@ -1835,6 +3463,1772 @@
     }
   ],
   "backlinks": {
+    "A020": [
+      {
+        "tag": "A021",
+        "title": "Generalización de patrones",
+        "source": "contenidos/libro/algebra/algebra-elemental.qmd",
+        "href": "algebra-elemental.qmd#tag-A021",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A022",
+        "title": "Variable, incógnita, parámetro e indeterminada",
+        "source": "contenidos/libro/algebra/algebra-elemental.qmd",
+        "href": "algebra-elemental.qmd#tag-A022",
+        "relation": "requiere"
+      }
+    ],
+    "A022": [
+      {
+        "tag": "A023",
+        "title": "Expresión algebraica y estructura",
+        "source": "contenidos/libro/algebra/algebra-elemental.qmd",
+        "href": "algebra-elemental.qmd#tag-A023",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A047",
+        "title": "Despeje de fórmulas y parámetros",
+        "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
+        "href": "ecuaciones-inecuaciones.qmd#tag-A047",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A090",
+        "title": "Función como correspondencia unívoca",
+        "source": "contenidos/libro/algebra/funciones.qmd",
+        "href": "funciones.qmd#tag-A090",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A070",
+        "title": "Sucesión e índice",
+        "source": "contenidos/libro/algebra/sucesiones-series.qmd",
+        "href": "sucesiones-series.qmd#tag-A070",
+        "relation": "requiere"
+      }
+    ],
+    "A023": [
+      {
+        "tag": "A024",
+        "title": "Traducción entre lenguaje y expresiones",
+        "source": "contenidos/libro/algebra/algebra-elemental.qmd",
+        "href": "algebra-elemental.qmd#tag-A024",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A025",
+        "title": "Evaluación y dominio de una expresión",
+        "source": "contenidos/libro/algebra/algebra-elemental.qmd",
+        "href": "algebra-elemental.qmd#tag-A025",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A026",
+        "title": "Monomios, coeficientes y grado",
+        "source": "contenidos/libro/algebra/algebra-elemental.qmd",
+        "href": "algebra-elemental.qmd#tag-A026",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A028",
+        "title": "Distributividad y eliminación de paréntesis",
+        "source": "contenidos/libro/algebra/algebra-elemental.qmd",
+        "href": "algebra-elemental.qmd#tag-A028",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A030",
+        "title": "Igualdad como relación",
+        "source": "contenidos/libro/algebra/algebra-elemental.qmd",
+        "href": "algebra-elemental.qmd#tag-A030",
+        "relation": "requiere"
+      }
+    ],
+    "A005": [
+      {
+        "tag": "A025",
+        "title": "Evaluación y dominio de una expresión",
+        "source": "contenidos/libro/algebra/algebra-elemental.qmd",
+        "href": "algebra-elemental.qmd#tag-A025",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A049",
+        "title": "Fórmula cuadrática y discriminante",
+        "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
+        "href": "ecuaciones-inecuaciones.qmd#tag-A049",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A053",
+        "title": "Ecuaciones con radicales y candidatos extraños",
+        "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
+        "href": "ecuaciones-inecuaciones.qmd#tag-A053",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A102",
+        "title": "Función inversa y restricción de dominio",
+        "source": "contenidos/libro/algebra/funciones.qmd",
+        "href": "funciones.qmd#tag-A102",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A109",
+        "title": "Funciones raíz y potencia racional",
+        "source": "contenidos/libro/algebra/funciones.qmd",
+        "href": "funciones.qmd#tag-A109",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A006",
+        "title": "Raíz de una potencia y valor absoluto",
+        "source": "contenidos/libro/algebra/potencias-raices-logaritmos.qmd",
+        "href": "potencias-raices-logaritmos.qmd#tag-A006",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A007",
+        "title": "Producto y cociente de radicales",
+        "source": "contenidos/libro/algebra/potencias-raices-logaritmos.qmd",
+        "href": "potencias-raices-logaritmos.qmd#tag-A007",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A010",
+        "title": "Potencia de exponente racional",
+        "source": "contenidos/libro/algebra/potencias-raices-logaritmos.qmd",
+        "href": "potencias-raices-logaritmos.qmd#tag-A010",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A015",
+        "title": "Estimación mediante cotas",
+        "source": "contenidos/libro/algebra/potencias-raices-logaritmos.qmd",
+        "href": "potencias-raices-logaritmos.qmd#tag-A015",
+        "relation": "requiere"
+      }
+    ],
+    "A012": [
+      {
+        "tag": "A025",
+        "title": "Evaluación y dominio de una expresión",
+        "source": "contenidos/libro/algebra/algebra-elemental.qmd",
+        "href": "algebra-elemental.qmd#tag-A025",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A054",
+        "title": "Ecuaciones exponenciales y logarítmicas",
+        "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
+        "href": "ecuaciones-inecuaciones.qmd#tag-A054",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A112",
+        "title": "Función logarítmica",
+        "source": "contenidos/libro/algebra/funciones.qmd",
+        "href": "funciones.qmd#tag-A112",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A013",
+        "title": "Logaritmo de producto, cociente y potencia",
+        "source": "contenidos/libro/algebra/potencias-raices-logaritmos.qmd",
+        "href": "potencias-raices-logaritmos.qmd#tag-A013",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A015",
+        "title": "Estimación mediante cotas",
+        "source": "contenidos/libro/algebra/potencias-raices-logaritmos.qmd",
+        "href": "potencias-raices-logaritmos.qmd#tag-A015",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A016",
+        "title": "Notación científica y orden de magnitud",
+        "source": "contenidos/libro/algebra/potencias-raices-logaritmos.qmd",
+        "href": "potencias-raices-logaritmos.qmd#tag-A016",
+        "relation": "requiere"
+      }
+    ],
+    "A026": [
+      {
+        "tag": "A027",
+        "title": "Reducción de términos semejantes",
+        "source": "contenidos/libro/algebra/algebra-elemental.qmd",
+        "href": "algebra-elemental.qmd#tag-A027",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A029",
+        "title": "Suma y producto de polinomios",
+        "source": "contenidos/libro/algebra/algebra-elemental.qmd",
+        "href": "algebra-elemental.qmd#tag-A029",
+        "relation": "requiere"
+      }
+    ],
+    "A027": [
+      {
+        "tag": "A028",
+        "title": "Distributividad y eliminación de paréntesis",
+        "source": "contenidos/libro/algebra/algebra-elemental.qmd",
+        "href": "algebra-elemental.qmd#tag-A028",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A042",
+        "title": "Errores algebraicos y evidencia diagnóstica",
+        "source": "contenidos/libro/algebra/algebra-elemental.qmd",
+        "href": "algebra-elemental.qmd#tag-A042",
+        "relation": "requiere"
+      }
+    ],
+    "A028": [
+      {
+        "tag": "A029",
+        "title": "Suma y producto de polinomios",
+        "source": "contenidos/libro/algebra/algebra-elemental.qmd",
+        "href": "algebra-elemental.qmd#tag-A029",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A036",
+        "title": "Factor común y agrupación",
+        "source": "contenidos/libro/algebra/algebra-elemental.qmd",
+        "href": "algebra-elemental.qmd#tag-A036",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A042",
+        "title": "Errores algebraicos y evidencia diagnóstica",
+        "source": "contenidos/libro/algebra/algebra-elemental.qmd",
+        "href": "algebra-elemental.qmd#tag-A042",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A046",
+        "title": "Ecuación lineal en una incógnita",
+        "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
+        "href": "ecuaciones-inecuaciones.qmd#tag-A046",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A080",
+        "title": "Notación de sumatoria",
+        "source": "contenidos/libro/algebra/sucesiones-series.qmd",
+        "href": "sucesiones-series.qmd#tag-A080",
+        "relation": "requiere"
+      }
+    ],
+    "A025": [
+      {
+        "tag": "A031",
+        "title": "Expresiones equivalentes y dominio",
+        "source": "contenidos/libro/algebra/algebra-elemental.qmd",
+        "href": "algebra-elemental.qmd#tag-A031",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A039",
+        "title": "Fracciones algebraicas",
+        "source": "contenidos/libro/algebra/algebra-elemental.qmd",
+        "href": "algebra-elemental.qmd#tag-A039",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A043",
+        "title": "Ecuación, dominio y conjunto solución",
+        "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
+        "href": "ecuaciones-inecuaciones.qmd#tag-A043",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A092",
+        "title": "Dominio y restricciones contextuales",
+        "source": "contenidos/libro/algebra/funciones.qmd",
+        "href": "funciones.qmd#tag-A092",
+        "relation": "requiere"
+      }
+    ],
+    "A030": [
+      {
+        "tag": "A031",
+        "title": "Expresiones equivalentes y dominio",
+        "source": "contenidos/libro/algebra/algebra-elemental.qmd",
+        "href": "algebra-elemental.qmd#tag-A031",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A032",
+        "title": "Identidad y ecuación",
+        "source": "contenidos/libro/algebra/algebra-elemental.qmd",
+        "href": "algebra-elemental.qmd#tag-A032",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A042",
+        "title": "Errores algebraicos y evidencia diagnóstica",
+        "source": "contenidos/libro/algebra/algebra-elemental.qmd",
+        "href": "algebra-elemental.qmd#tag-A042",
+        "relation": "requiere"
+      }
+    ],
+    "A031": [
+      {
+        "tag": "A032",
+        "title": "Identidad y ecuación",
+        "source": "contenidos/libro/algebra/algebra-elemental.qmd",
+        "href": "algebra-elemental.qmd#tag-A032",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A040",
+        "title": "Simplificación y operaciones con fracciones algebraicas",
+        "source": "contenidos/libro/algebra/algebra-elemental.qmd",
+        "href": "algebra-elemental.qmd#tag-A040",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A041",
+        "title": "Generalización de una construcción",
+        "source": "contenidos/libro/algebra/algebra-elemental.qmd",
+        "href": "algebra-elemental.qmd#tag-A041",
+        "relation": "requiere"
+      }
+    ],
+    "A029": [
+      {
+        "tag": "A033",
+        "title": "Cuadrado de un binomio",
+        "source": "contenidos/libro/algebra/algebra-elemental.qmd",
+        "href": "algebra-elemental.qmd#tag-A033",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A034",
+        "title": "Suma por diferencia y binomios con término común",
+        "source": "contenidos/libro/algebra/algebra-elemental.qmd",
+        "href": "algebra-elemental.qmd#tag-A034",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A035",
+        "title": "Cubo de binomios y suma o diferencia de cubos",
+        "source": "contenidos/libro/algebra/algebra-elemental.qmd",
+        "href": "algebra-elemental.qmd#tag-A035",
+        "relation": "requiere"
+      }
+    ],
+    "A032": [
+      {
+        "tag": "A033",
+        "title": "Cuadrado de un binomio",
+        "source": "contenidos/libro/algebra/algebra-elemental.qmd",
+        "href": "algebra-elemental.qmd#tag-A033",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A034",
+        "title": "Suma por diferencia y binomios con término común",
+        "source": "contenidos/libro/algebra/algebra-elemental.qmd",
+        "href": "algebra-elemental.qmd#tag-A034",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A035",
+        "title": "Cubo de binomios y suma o diferencia de cubos",
+        "source": "contenidos/libro/algebra/algebra-elemental.qmd",
+        "href": "algebra-elemental.qmd#tag-A035",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A043",
+        "title": "Ecuación, dominio y conjunto solución",
+        "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
+        "href": "ecuaciones-inecuaciones.qmd#tag-A043",
+        "relation": "requiere"
+      }
+    ],
+    "A033": [
+      {
+        "tag": "A037",
+        "title": "Factorización mediante identidades",
+        "source": "contenidos/libro/algebra/algebra-elemental.qmd",
+        "href": "algebra-elemental.qmd#tag-A037",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A038",
+        "title": "Completar el cuadrado",
+        "source": "contenidos/libro/algebra/algebra-elemental.qmd",
+        "href": "algebra-elemental.qmd#tag-A038",
+        "relation": "requiere"
+      }
+    ],
+    "A034": [
+      {
+        "tag": "A037",
+        "title": "Factorización mediante identidades",
+        "source": "contenidos/libro/algebra/algebra-elemental.qmd",
+        "href": "algebra-elemental.qmd#tag-A037",
+        "relation": "requiere"
+      }
+    ],
+    "A035": [
+      {
+        "tag": "A037",
+        "title": "Factorización mediante identidades",
+        "source": "contenidos/libro/algebra/algebra-elemental.qmd",
+        "href": "algebra-elemental.qmd#tag-A037",
+        "relation": "requiere"
+      }
+    ],
+    "A036": [
+      {
+        "tag": "A037",
+        "title": "Factorización mediante identidades",
+        "source": "contenidos/libro/algebra/algebra-elemental.qmd",
+        "href": "algebra-elemental.qmd#tag-A037",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A039",
+        "title": "Fracciones algebraicas",
+        "source": "contenidos/libro/algebra/algebra-elemental.qmd",
+        "href": "algebra-elemental.qmd#tag-A039",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A060",
+        "title": "Tabla de signos de productos y cocientes",
+        "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
+        "href": "ecuaciones-inecuaciones.qmd#tag-A060",
+        "relation": "requiere"
+      }
+    ],
+    "A039": [
+      {
+        "tag": "A040",
+        "title": "Simplificación y operaciones con fracciones algebraicas",
+        "source": "contenidos/libro/algebra/algebra-elemental.qmd",
+        "href": "algebra-elemental.qmd#tag-A040",
+        "relation": "requiere"
+      }
+    ],
+    "A021": [
+      {
+        "tag": "A041",
+        "title": "Generalización de una construcción",
+        "source": "contenidos/libro/algebra/algebra-elemental.qmd",
+        "href": "algebra-elemental.qmd#tag-A041",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A070",
+        "title": "Sucesión e índice",
+        "source": "contenidos/libro/algebra/sucesiones-series.qmd",
+        "href": "sucesiones-series.qmd#tag-A070",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A073",
+        "title": "Patrón observado y regla determinada",
+        "source": "contenidos/libro/algebra/sucesiones-series.qmd",
+        "href": "sucesiones-series.qmd#tag-A073",
+        "relation": "requiere"
+      }
+    ],
+    "A040": [
+      {
+        "tag": "A042",
+        "title": "Errores algebraicos y evidencia diagnóstica",
+        "source": "contenidos/libro/algebra/algebra-elemental.qmd",
+        "href": "algebra-elemental.qmd#tag-A042",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A052",
+        "title": "Ecuaciones racionales",
+        "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
+        "href": "ecuaciones-inecuaciones.qmd#tag-A052",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A082",
+        "title": "Sumas telescópicas",
+        "source": "contenidos/libro/algebra/sucesiones-series.qmd",
+        "href": "sucesiones-series.qmd#tag-A082",
+        "relation": "requiere"
+      }
+    ],
+    "A043": [
+      {
+        "tag": "A044",
+        "title": "Ecuaciones equivalentes e implicación",
+        "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
+        "href": "ecuaciones-inecuaciones.qmd#tag-A044",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A049",
+        "title": "Fórmula cuadrática y discriminante",
+        "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
+        "href": "ecuaciones-inecuaciones.qmd#tag-A049",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A055",
+        "title": "Ecuaciones con valor absoluto",
+        "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
+        "href": "ecuaciones-inecuaciones.qmd#tag-A055",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A057",
+        "title": "Inecuación y representación del conjunto solución",
+        "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
+        "href": "ecuaciones-inecuaciones.qmd#tag-A057",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A064",
+        "title": "Sistema de ecuaciones y solución simultánea",
+        "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
+        "href": "ecuaciones-inecuaciones.qmd#tag-A064",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A068",
+        "title": "Construcción e interpretación de modelos algebraicos",
+        "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
+        "href": "ecuaciones-inecuaciones.qmd#tag-A068",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A094",
+        "title": "Preimagen de un valor o conjunto",
+        "source": "contenidos/libro/algebra/funciones.qmd",
+        "href": "funciones.qmd#tag-A094",
+        "relation": "requiere"
+      }
+    ],
+    "A044": [
+      {
+        "tag": "A045",
+        "title": "Transformaciones que preservan soluciones",
+        "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
+        "href": "ecuaciones-inecuaciones.qmd#tag-A045",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A053",
+        "title": "Ecuaciones con radicales y candidatos extraños",
+        "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
+        "href": "ecuaciones-inecuaciones.qmd#tag-A053",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A069",
+        "title": "Errores de resolución y control de equivalencias",
+        "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
+        "href": "ecuaciones-inecuaciones.qmd#tag-A069",
+        "relation": "requiere"
+      }
+    ],
+    "A045": [
+      {
+        "tag": "A046",
+        "title": "Ecuación lineal en una incógnita",
+        "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
+        "href": "ecuaciones-inecuaciones.qmd#tag-A046",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A048",
+        "title": "Factorización y producto nulo",
+        "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
+        "href": "ecuaciones-inecuaciones.qmd#tag-A048",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A052",
+        "title": "Ecuaciones racionales",
+        "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
+        "href": "ecuaciones-inecuaciones.qmd#tag-A052",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A054",
+        "title": "Ecuaciones exponenciales y logarítmicas",
+        "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
+        "href": "ecuaciones-inecuaciones.qmd#tag-A054",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A065",
+        "title": "Sustitución, igualación y eliminación",
+        "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
+        "href": "ecuaciones-inecuaciones.qmd#tag-A065",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A069",
+        "title": "Errores de resolución y control de equivalencias",
+        "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
+        "href": "ecuaciones-inecuaciones.qmd#tag-A069",
+        "relation": "requiere"
+      }
+    ],
+    "A046": [
+      {
+        "tag": "A047",
+        "title": "Despeje de fórmulas y parámetros",
+        "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
+        "href": "ecuaciones-inecuaciones.qmd#tag-A047",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A064",
+        "title": "Sistema de ecuaciones y solución simultánea",
+        "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
+        "href": "ecuaciones-inecuaciones.qmd#tag-A064",
+        "relation": "requiere"
+      }
+    ],
+    "A037": [
+      {
+        "tag": "A048",
+        "title": "Factorización y producto nulo",
+        "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
+        "href": "ecuaciones-inecuaciones.qmd#tag-A048",
+        "relation": "requiere"
+      }
+    ],
+    "A038": [
+      {
+        "tag": "A049",
+        "title": "Fórmula cuadrática y discriminante",
+        "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
+        "href": "ecuaciones-inecuaciones.qmd#tag-A049",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A050",
+        "title": "Completar cuadrados para resolver",
+        "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
+        "href": "ecuaciones-inecuaciones.qmd#tag-A050",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A105",
+        "title": "Función cuadrática y formas equivalentes",
+        "source": "contenidos/libro/algebra/funciones.qmd",
+        "href": "funciones.qmd#tag-A105",
+        "relation": "requiere"
+      }
+    ],
+    "A006": [
+      {
+        "tag": "A050",
+        "title": "Completar cuadrados para resolver",
+        "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
+        "href": "ecuaciones-inecuaciones.qmd#tag-A050",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A053",
+        "title": "Ecuaciones con radicales y candidatos extraños",
+        "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
+        "href": "ecuaciones-inecuaciones.qmd#tag-A053",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A008",
+        "title": "Simplificación y combinación de radicales",
+        "source": "contenidos/libro/algebra/potencias-raices-logaritmos.qmd",
+        "href": "potencias-raices-logaritmos.qmd#tag-A008",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A019",
+        "title": "Errores frecuentes y restricciones olvidadas",
+        "source": "contenidos/libro/algebra/potencias-raices-logaritmos.qmd",
+        "href": "potencias-raices-logaritmos.qmd#tag-A019",
+        "relation": "requiere"
+      }
+    ],
+    "A048": [
+      {
+        "tag": "A051",
+        "title": "Suma y producto de raíces",
+        "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
+        "href": "ecuaciones-inecuaciones.qmd#tag-A051",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A067",
+        "title": "Interpretación gráfica de ecuaciones e inecuaciones",
+        "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
+        "href": "ecuaciones-inecuaciones.qmd#tag-A067",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A097",
+        "title": "Ceros, signo e intersecciones",
+        "source": "contenidos/libro/algebra/funciones.qmd",
+        "href": "funciones.qmd#tag-A097",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A105",
+        "title": "Función cuadrática y formas equivalentes",
+        "source": "contenidos/libro/algebra/funciones.qmd",
+        "href": "funciones.qmd#tag-A105",
+        "relation": "requiere"
+      }
+    ],
+    "A049": [
+      {
+        "tag": "A051",
+        "title": "Suma y producto de raíces",
+        "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
+        "href": "ecuaciones-inecuaciones.qmd#tag-A051",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A056",
+        "title": "Cambio de variable y recuperación del dominio",
+        "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
+        "href": "ecuaciones-inecuaciones.qmd#tag-A056",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A061",
+        "title": "Inecuaciones cuadráticas",
+        "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
+        "href": "ecuaciones-inecuaciones.qmd#tag-A061",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A068",
+        "title": "Construcción e interpretación de modelos algebraicos",
+        "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
+        "href": "ecuaciones-inecuaciones.qmd#tag-A068",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A107",
+        "title": "Raíces y variación de una cuadrática",
+        "source": "contenidos/libro/algebra/funciones.qmd",
+        "href": "funciones.qmd#tag-A107",
+        "relation": "requiere"
+      }
+    ],
+    "A013": [
+      {
+        "tag": "A054",
+        "title": "Ecuaciones exponenciales y logarítmicas",
+        "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
+        "href": "ecuaciones-inecuaciones.qmd#tag-A054",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A112",
+        "title": "Función logarítmica",
+        "source": "contenidos/libro/algebra/funciones.qmd",
+        "href": "funciones.qmd#tag-A112",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A014",
+        "title": "Cambio de base e inversión",
+        "source": "contenidos/libro/algebra/potencias-raices-logaritmos.qmd",
+        "href": "potencias-raices-logaritmos.qmd#tag-A014",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A018",
+        "title": "Escalas logarítmicas",
+        "source": "contenidos/libro/algebra/potencias-raices-logaritmos.qmd",
+        "href": "potencias-raices-logaritmos.qmd#tag-A018",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A019",
+        "title": "Errores frecuentes y restricciones olvidadas",
+        "source": "contenidos/libro/algebra/potencias-raices-logaritmos.qmd",
+        "href": "potencias-raices-logaritmos.qmd#tag-A019",
+        "relation": "requiere"
+      }
+    ],
+    "A014": [
+      {
+        "tag": "A054",
+        "title": "Ecuaciones exponenciales y logarítmicas",
+        "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
+        "href": "ecuaciones-inecuaciones.qmd#tag-A054",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A063",
+        "title": "Inecuaciones exponenciales y logarítmicas",
+        "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
+        "href": "ecuaciones-inecuaciones.qmd#tag-A063",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A017",
+        "title": "Crecimiento multiplicativo y duplicación",
+        "source": "contenidos/libro/algebra/potencias-raices-logaritmos.qmd",
+        "href": "potencias-raices-logaritmos.qmd#tag-A017",
+        "relation": "requiere"
+      }
+    ],
+    "A055": [
+      {
+        "tag": "A056",
+        "title": "Cambio de variable y recuperación del dominio",
+        "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
+        "href": "ecuaciones-inecuaciones.qmd#tag-A056",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A062",
+        "title": "Inecuaciones con valor absoluto",
+        "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
+        "href": "ecuaciones-inecuaciones.qmd#tag-A062",
+        "relation": "requiere"
+      }
+    ],
+    "A057": [
+      {
+        "tag": "A058",
+        "title": "Transformaciones de desigualdades",
+        "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
+        "href": "ecuaciones-inecuaciones.qmd#tag-A058",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A060",
+        "title": "Tabla de signos de productos y cocientes",
+        "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
+        "href": "ecuaciones-inecuaciones.qmd#tag-A060",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A062",
+        "title": "Inecuaciones con valor absoluto",
+        "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
+        "href": "ecuaciones-inecuaciones.qmd#tag-A062",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A067",
+        "title": "Interpretación gráfica de ecuaciones e inecuaciones",
+        "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
+        "href": "ecuaciones-inecuaciones.qmd#tag-A067",
+        "relation": "requiere"
+      }
+    ],
+    "A058": [
+      {
+        "tag": "A059",
+        "title": "Inecuaciones lineales y condiciones simultáneas",
+        "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
+        "href": "ecuaciones-inecuaciones.qmd#tag-A059",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A060",
+        "title": "Tabla de signos de productos y cocientes",
+        "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
+        "href": "ecuaciones-inecuaciones.qmd#tag-A060",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A063",
+        "title": "Inecuaciones exponenciales y logarítmicas",
+        "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
+        "href": "ecuaciones-inecuaciones.qmd#tag-A063",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A069",
+        "title": "Errores de resolución y control de equivalencias",
+        "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
+        "href": "ecuaciones-inecuaciones.qmd#tag-A069",
+        "relation": "requiere"
+      }
+    ],
+    "A060": [
+      {
+        "tag": "A061",
+        "title": "Inecuaciones cuadráticas",
+        "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
+        "href": "ecuaciones-inecuaciones.qmd#tag-A061",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A097",
+        "title": "Ceros, signo e intersecciones",
+        "source": "contenidos/libro/algebra/funciones.qmd",
+        "href": "funciones.qmd#tag-A097",
+        "relation": "requiere"
+      }
+    ],
+    "A011": [
+      {
+        "tag": "A063",
+        "title": "Inecuaciones exponenciales y logarítmicas",
+        "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
+        "href": "ecuaciones-inecuaciones.qmd#tag-A063",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A111",
+        "title": "Función exponencial",
+        "source": "contenidos/libro/algebra/funciones.qmd",
+        "href": "funciones.qmd#tag-A111",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A012",
+        "title": "Logaritmo y condiciones de existencia",
+        "source": "contenidos/libro/algebra/potencias-raices-logaritmos.qmd",
+        "href": "potencias-raices-logaritmos.qmd#tag-A012",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A015",
+        "title": "Estimación mediante cotas",
+        "source": "contenidos/libro/algebra/potencias-raices-logaritmos.qmd",
+        "href": "potencias-raices-logaritmos.qmd#tag-A015",
+        "relation": "requiere"
+      }
+    ],
+    "A064": [
+      {
+        "tag": "A065",
+        "title": "Sustitución, igualación y eliminación",
+        "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
+        "href": "ecuaciones-inecuaciones.qmd#tag-A065",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A066",
+        "title": "Clasificación de sistemas lineales de dos incógnitas",
+        "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
+        "href": "ecuaciones-inecuaciones.qmd#tag-A066",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A067",
+        "title": "Interpretación gráfica de ecuaciones e inecuaciones",
+        "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
+        "href": "ecuaciones-inecuaciones.qmd#tag-A067",
+        "relation": "requiere"
+      }
+    ],
+    "A065": [
+      {
+        "tag": "A066",
+        "title": "Clasificación de sistemas lineales de dos incógnitas",
+        "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
+        "href": "ecuaciones-inecuaciones.qmd#tag-A066",
+        "relation": "requiere"
+      }
+    ],
+    "A024": [
+      {
+        "tag": "A068",
+        "title": "Construcción e interpretación de modelos algebraicos",
+        "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
+        "href": "ecuaciones-inecuaciones.qmd#tag-A068",
+        "relation": "requiere"
+      }
+    ],
+    "A053": [
+      {
+        "tag": "A069",
+        "title": "Errores de resolución y control de equivalencias",
+        "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
+        "href": "ecuaciones-inecuaciones.qmd#tag-A069",
+        "relation": "requiere"
+      }
+    ],
+    "A090": [
+      {
+        "tag": "A091",
+        "title": "Covariación entre cantidades",
+        "source": "contenidos/libro/algebra/funciones.qmd",
+        "href": "funciones.qmd#tag-A091",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A092",
+        "title": "Dominio y restricciones contextuales",
+        "source": "contenidos/libro/algebra/funciones.qmd",
+        "href": "funciones.qmd#tag-A092",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A093",
+        "title": "Codominio, imagen y recorrido",
+        "source": "contenidos/libro/algebra/funciones.qmd",
+        "href": "funciones.qmd#tag-A093",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A095",
+        "title": "Regla verbal, tabla, fórmula y gráfica",
+        "source": "contenidos/libro/algebra/funciones.qmd",
+        "href": "funciones.qmd#tag-A095",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A096",
+        "title": "Prueba de la recta vertical",
+        "source": "contenidos/libro/algebra/funciones.qmd",
+        "href": "funciones.qmd#tag-A096",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A098",
+        "title": "Monotonía y extremos",
+        "source": "contenidos/libro/algebra/funciones.qmd",
+        "href": "funciones.qmd#tag-A098",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A101",
+        "title": "Inyectividad, sobreyectividad y biyectividad",
+        "source": "contenidos/libro/algebra/funciones.qmd",
+        "href": "funciones.qmd#tag-A101",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A114",
+        "title": "Funciones definidas por tramos",
+        "source": "contenidos/libro/algebra/funciones.qmd",
+        "href": "funciones.qmd#tag-A114",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A117",
+        "title": "Errores en el concepto y las representaciones de función",
+        "source": "contenidos/libro/algebra/funciones.qmd",
+        "href": "funciones.qmd#tag-A117",
+        "relation": "requiere"
+      }
+    ],
+    "A092": [
+      {
+        "tag": "A093",
+        "title": "Codominio, imagen y recorrido",
+        "source": "contenidos/libro/algebra/funciones.qmd",
+        "href": "funciones.qmd#tag-A093",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A100",
+        "title": "Composición de funciones",
+        "source": "contenidos/libro/algebra/funciones.qmd",
+        "href": "funciones.qmd#tag-A100",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A110",
+        "title": "Función recíproca y asíntotas",
+        "source": "contenidos/libro/algebra/funciones.qmd",
+        "href": "funciones.qmd#tag-A110",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A113",
+        "title": "Traslaciones, reflexiones y escalas",
+        "source": "contenidos/libro/algebra/funciones.qmd",
+        "href": "funciones.qmd#tag-A113",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A114",
+        "title": "Funciones definidas por tramos",
+        "source": "contenidos/libro/algebra/funciones.qmd",
+        "href": "funciones.qmd#tag-A114",
+        "relation": "requiere"
+      }
+    ],
+    "A093": [
+      {
+        "tag": "A094",
+        "title": "Preimagen de un valor o conjunto",
+        "source": "contenidos/libro/algebra/funciones.qmd",
+        "href": "funciones.qmd#tag-A094",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A100",
+        "title": "Composición de funciones",
+        "source": "contenidos/libro/algebra/funciones.qmd",
+        "href": "funciones.qmd#tag-A100",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A101",
+        "title": "Inyectividad, sobreyectividad y biyectividad",
+        "source": "contenidos/libro/algebra/funciones.qmd",
+        "href": "funciones.qmd#tag-A101",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A108",
+        "title": "Funciones potencia de exponente entero",
+        "source": "contenidos/libro/algebra/funciones.qmd",
+        "href": "funciones.qmd#tag-A108",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A113",
+        "title": "Traslaciones, reflexiones y escalas",
+        "source": "contenidos/libro/algebra/funciones.qmd",
+        "href": "funciones.qmd#tag-A113",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A117",
+        "title": "Errores en el concepto y las representaciones de función",
+        "source": "contenidos/libro/algebra/funciones.qmd",
+        "href": "funciones.qmd#tag-A117",
+        "relation": "requiere"
+      }
+    ],
+    "A070": [
+      {
+        "tag": "A095",
+        "title": "Regla verbal, tabla, fórmula y gráfica",
+        "source": "contenidos/libro/algebra/funciones.qmd",
+        "href": "funciones.qmd#tag-A095",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A071",
+        "title": "Fórmula explícita",
+        "source": "contenidos/libro/algebra/sucesiones-series.qmd",
+        "href": "sucesiones-series.qmd#tag-A071",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A072",
+        "title": "Recurrencia y condiciones iniciales",
+        "source": "contenidos/libro/algebra/sucesiones-series.qmd",
+        "href": "sucesiones-series.qmd#tag-A072",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A073",
+        "title": "Patrón observado y regla determinada",
+        "source": "contenidos/libro/algebra/sucesiones-series.qmd",
+        "href": "sucesiones-series.qmd#tag-A073",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A080",
+        "title": "Notación de sumatoria",
+        "source": "contenidos/libro/algebra/sucesiones-series.qmd",
+        "href": "sucesiones-series.qmd#tag-A080",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A085",
+        "title": "Términos que tienden a cero y convergencia",
+        "source": "contenidos/libro/algebra/sucesiones-series.qmd",
+        "href": "sucesiones-series.qmd#tag-A085",
+        "relation": "requiere"
+      }
+    ],
+    "A091": [
+      {
+        "tag": "A095",
+        "title": "Regla verbal, tabla, fórmula y gráfica",
+        "source": "contenidos/libro/algebra/funciones.qmd",
+        "href": "funciones.qmd#tag-A095",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A099",
+        "title": "Tasa de cambio media",
+        "source": "contenidos/libro/algebra/funciones.qmd",
+        "href": "funciones.qmd#tag-A099",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A103",
+        "title": "Función lineal y proporcionalidad directa",
+        "source": "contenidos/libro/algebra/funciones.qmd",
+        "href": "funciones.qmd#tag-A103",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A111",
+        "title": "Función exponencial",
+        "source": "contenidos/libro/algebra/funciones.qmd",
+        "href": "funciones.qmd#tag-A111",
+        "relation": "requiere"
+      }
+    ],
+    "A095": [
+      {
+        "tag": "A096",
+        "title": "Prueba de la recta vertical",
+        "source": "contenidos/libro/algebra/funciones.qmd",
+        "href": "funciones.qmd#tag-A096",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A097",
+        "title": "Ceros, signo e intersecciones",
+        "source": "contenidos/libro/algebra/funciones.qmd",
+        "href": "funciones.qmd#tag-A097",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A099",
+        "title": "Tasa de cambio media",
+        "source": "contenidos/libro/algebra/funciones.qmd",
+        "href": "funciones.qmd#tag-A099",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A113",
+        "title": "Traslaciones, reflexiones y escalas",
+        "source": "contenidos/libro/algebra/funciones.qmd",
+        "href": "funciones.qmd#tag-A113",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A115",
+        "title": "Valor absoluto, simetría y periodicidad",
+        "source": "contenidos/libro/algebra/funciones.qmd",
+        "href": "funciones.qmd#tag-A115",
+        "relation": "requiere"
+      }
+    ],
+    "A100": [
+      {
+        "tag": "A102",
+        "title": "Función inversa y restricción de dominio",
+        "source": "contenidos/libro/algebra/funciones.qmd",
+        "href": "funciones.qmd#tag-A102",
+        "relation": "requiere"
+      }
+    ],
+    "A101": [
+      {
+        "tag": "A102",
+        "title": "Función inversa y restricción de dominio",
+        "source": "contenidos/libro/algebra/funciones.qmd",
+        "href": "funciones.qmd#tag-A102",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A117",
+        "title": "Errores en el concepto y las representaciones de función",
+        "source": "contenidos/libro/algebra/funciones.qmd",
+        "href": "funciones.qmd#tag-A117",
+        "relation": "requiere"
+      }
+    ],
+    "A099": [
+      {
+        "tag": "A103",
+        "title": "Función lineal y proporcionalidad directa",
+        "source": "contenidos/libro/algebra/funciones.qmd",
+        "href": "funciones.qmd#tag-A103",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A104",
+        "title": "Función afín y pendiente",
+        "source": "contenidos/libro/algebra/funciones.qmd",
+        "href": "funciones.qmd#tag-A104",
+        "relation": "requiere"
+      }
+    ],
+    "A103": [
+      {
+        "tag": "A104",
+        "title": "Función afín y pendiente",
+        "source": "contenidos/libro/algebra/funciones.qmd",
+        "href": "funciones.qmd#tag-A104",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A116",
+        "title": "Selección y validación de modelos funcionales",
+        "source": "contenidos/libro/algebra/funciones.qmd",
+        "href": "funciones.qmd#tag-A116",
+        "relation": "requiere"
+      }
+    ],
+    "A098": [
+      {
+        "tag": "A106",
+        "title": "Vértice, eje de simetría y recorrido",
+        "source": "contenidos/libro/algebra/funciones.qmd",
+        "href": "funciones.qmd#tag-A106",
+        "relation": "requiere"
+      }
+    ],
+    "A105": [
+      {
+        "tag": "A106",
+        "title": "Vértice, eje de simetría y recorrido",
+        "source": "contenidos/libro/algebra/funciones.qmd",
+        "href": "funciones.qmd#tag-A106",
+        "relation": "requiere"
+      }
+    ],
+    "A106": [
+      {
+        "tag": "A107",
+        "title": "Raíces y variación de una cuadrática",
+        "source": "contenidos/libro/algebra/funciones.qmd",
+        "href": "funciones.qmd#tag-A107",
+        "relation": "requiere"
+      }
+    ],
+    "A003": [
+      {
+        "tag": "A108",
+        "title": "Funciones potencia de exponente entero",
+        "source": "contenidos/libro/algebra/funciones.qmd",
+        "href": "funciones.qmd#tag-A108",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A004",
+        "title": "Signo de una potencia y paridad",
+        "source": "contenidos/libro/algebra/potencias-raices-logaritmos.qmd",
+        "href": "potencias-raices-logaritmos.qmd#tag-A004",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A010",
+        "title": "Potencia de exponente racional",
+        "source": "contenidos/libro/algebra/potencias-raices-logaritmos.qmd",
+        "href": "potencias-raices-logaritmos.qmd#tag-A010",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A016",
+        "title": "Notación científica y orden de magnitud",
+        "source": "contenidos/libro/algebra/potencias-raices-logaritmos.qmd",
+        "href": "potencias-raices-logaritmos.qmd#tag-A016",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A077",
+        "title": "Progresión geométrica",
+        "source": "contenidos/libro/algebra/sucesiones-series.qmd",
+        "href": "sucesiones-series.qmd#tag-A077",
+        "relation": "requiere"
+      }
+    ],
+    "A004": [
+      {
+        "tag": "A108",
+        "title": "Funciones potencia de exponente entero",
+        "source": "contenidos/libro/algebra/funciones.qmd",
+        "href": "funciones.qmd#tag-A108",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A006",
+        "title": "Raíz de una potencia y valor absoluto",
+        "source": "contenidos/libro/algebra/potencias-raices-logaritmos.qmd",
+        "href": "potencias-raices-logaritmos.qmd#tag-A006",
+        "relation": "requiere"
+      }
+    ],
+    "A010": [
+      {
+        "tag": "A109",
+        "title": "Funciones raíz y potencia racional",
+        "source": "contenidos/libro/algebra/funciones.qmd",
+        "href": "funciones.qmd#tag-A109",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A011",
+        "title": "Potencia de exponente real",
+        "source": "contenidos/libro/algebra/potencias-raices-logaritmos.qmd",
+        "href": "potencias-raices-logaritmos.qmd#tag-A011",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A019",
+        "title": "Errores frecuentes y restricciones olvidadas",
+        "source": "contenidos/libro/algebra/potencias-raices-logaritmos.qmd",
+        "href": "potencias-raices-logaritmos.qmd#tag-A019",
+        "relation": "requiere"
+      }
+    ],
+    "A102": [
+      {
+        "tag": "A109",
+        "title": "Funciones raíz y potencia racional",
+        "source": "contenidos/libro/algebra/funciones.qmd",
+        "href": "funciones.qmd#tag-A109",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A112",
+        "title": "Función logarítmica",
+        "source": "contenidos/libro/algebra/funciones.qmd",
+        "href": "funciones.qmd#tag-A112",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A117",
+        "title": "Errores en el concepto y las representaciones de función",
+        "source": "contenidos/libro/algebra/funciones.qmd",
+        "href": "funciones.qmd#tag-A117",
+        "relation": "requiere"
+      }
+    ],
+    "A108": [
+      {
+        "tag": "A110",
+        "title": "Función recíproca y asíntotas",
+        "source": "contenidos/libro/algebra/funciones.qmd",
+        "href": "funciones.qmd#tag-A110",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A115",
+        "title": "Valor absoluto, simetría y periodicidad",
+        "source": "contenidos/libro/algebra/funciones.qmd",
+        "href": "funciones.qmd#tag-A115",
+        "relation": "requiere"
+      }
+    ],
+    "A111": [
+      {
+        "tag": "A112",
+        "title": "Función logarítmica",
+        "source": "contenidos/libro/algebra/funciones.qmd",
+        "href": "funciones.qmd#tag-A112",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A116",
+        "title": "Selección y validación de modelos funcionales",
+        "source": "contenidos/libro/algebra/funciones.qmd",
+        "href": "funciones.qmd#tag-A116",
+        "relation": "requiere"
+      }
+    ],
+    "A114": [
+      {
+        "tag": "A115",
+        "title": "Valor absoluto, simetría y periodicidad",
+        "source": "contenidos/libro/algebra/funciones.qmd",
+        "href": "funciones.qmd#tag-A115",
+        "relation": "requiere"
+      }
+    ],
+    "A104": [
+      {
+        "tag": "A116",
+        "title": "Selección y validación de modelos funcionales",
+        "source": "contenidos/libro/algebra/funciones.qmd",
+        "href": "funciones.qmd#tag-A116",
+        "relation": "requiere"
+      }
+    ],
+    "A110": [
+      {
+        "tag": "A116",
+        "title": "Selección y validación de modelos funcionales",
+        "source": "contenidos/libro/algebra/funciones.qmd",
+        "href": "funciones.qmd#tag-A116",
+        "relation": "requiere"
+      }
+    ],
+    "A087": [
+      {
+        "tag": "A116",
+        "title": "Selección y validación de modelos funcionales",
+        "source": "contenidos/libro/algebra/funciones.qmd",
+        "href": "funciones.qmd#tag-A116",
+        "relation": "requiere"
+      }
+    ],
+    "A001": [
+      {
+        "tag": "A002",
+        "title": "Propiedades de las potencias",
+        "source": "contenidos/libro/algebra/potencias-raices-logaritmos.qmd",
+        "href": "potencias-raices-logaritmos.qmd#tag-A002",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A004",
+        "title": "Signo de una potencia y paridad",
+        "source": "contenidos/libro/algebra/potencias-raices-logaritmos.qmd",
+        "href": "potencias-raices-logaritmos.qmd#tag-A004",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A005",
+        "title": "Raíz real principal",
+        "source": "contenidos/libro/algebra/potencias-raices-logaritmos.qmd",
+        "href": "potencias-raices-logaritmos.qmd#tag-A005",
+        "relation": "requiere"
+      }
+    ],
+    "A002": [
+      {
+        "tag": "A003",
+        "title": "Exponentes cero y negativos",
+        "source": "contenidos/libro/algebra/potencias-raices-logaritmos.qmd",
+        "href": "potencias-raices-logaritmos.qmd#tag-A003",
+        "relation": "requiere"
+      }
+    ],
+    "A007": [
+      {
+        "tag": "A008",
+        "title": "Simplificación y combinación de radicales",
+        "source": "contenidos/libro/algebra/potencias-raices-logaritmos.qmd",
+        "href": "potencias-raices-logaritmos.qmd#tag-A008",
+        "relation": "requiere"
+      }
+    ],
+    "A008": [
+      {
+        "tag": "A009",
+        "title": "Racionalización de denominadores",
+        "source": "contenidos/libro/algebra/potencias-raices-logaritmos.qmd",
+        "href": "potencias-raices-logaritmos.qmd#tag-A009",
+        "relation": "requiere"
+      }
+    ],
+    "A016": [
+      {
+        "tag": "A018",
+        "title": "Escalas logarítmicas",
+        "source": "contenidos/libro/algebra/potencias-raices-logaritmos.qmd",
+        "href": "potencias-raices-logaritmos.qmd#tag-A018",
+        "relation": "requiere"
+      }
+    ],
+    "A071": [
+      {
+        "tag": "A072",
+        "title": "Recurrencia y condiciones iniciales",
+        "source": "contenidos/libro/algebra/sucesiones-series.qmd",
+        "href": "sucesiones-series.qmd#tag-A072",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A089",
+        "title": "Errores de índices, patrones y sumas",
+        "source": "contenidos/libro/algebra/sucesiones-series.qmd",
+        "href": "sucesiones-series.qmd#tag-A089",
+        "relation": "requiere"
+      }
+    ],
+    "A072": [
+      {
+        "tag": "A074",
+        "title": "Progresión aritmética",
+        "source": "contenidos/libro/algebra/sucesiones-series.qmd",
+        "href": "sucesiones-series.qmd#tag-A074",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A077",
+        "title": "Progresión geométrica",
+        "source": "contenidos/libro/algebra/sucesiones-series.qmd",
+        "href": "sucesiones-series.qmd#tag-A077",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A088",
+        "title": "Recurrencia afín con aporte periódico",
+        "source": "contenidos/libro/algebra/sucesiones-series.qmd",
+        "href": "sucesiones-series.qmd#tag-A088",
+        "relation": "requiere"
+      }
+    ],
+    "A074": [
+      {
+        "tag": "A075",
+        "title": "Determinación de una progresión aritmética",
+        "source": "contenidos/libro/algebra/sucesiones-series.qmd",
+        "href": "sucesiones-series.qmd#tag-A075",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A076",
+        "title": "Suma de una progresión aritmética",
+        "source": "contenidos/libro/algebra/sucesiones-series.qmd",
+        "href": "sucesiones-series.qmd#tag-A076",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A087",
+        "title": "Crecimiento aditivo y multiplicativo",
+        "source": "contenidos/libro/algebra/sucesiones-series.qmd",
+        "href": "sucesiones-series.qmd#tag-A087",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A089",
+        "title": "Errores de índices, patrones y sumas",
+        "source": "contenidos/libro/algebra/sucesiones-series.qmd",
+        "href": "sucesiones-series.qmd#tag-A089",
+        "relation": "requiere"
+      }
+    ],
+    "A077": [
+      {
+        "tag": "A078",
+        "title": "Comportamiento de una progresión geométrica",
+        "source": "contenidos/libro/algebra/sucesiones-series.qmd",
+        "href": "sucesiones-series.qmd#tag-A078",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A079",
+        "title": "Suma geométrica finita",
+        "source": "contenidos/libro/algebra/sucesiones-series.qmd",
+        "href": "sucesiones-series.qmd#tag-A079",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A087",
+        "title": "Crecimiento aditivo y multiplicativo",
+        "source": "contenidos/libro/algebra/sucesiones-series.qmd",
+        "href": "sucesiones-series.qmd#tag-A087",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A089",
+        "title": "Errores de índices, patrones y sumas",
+        "source": "contenidos/libro/algebra/sucesiones-series.qmd",
+        "href": "sucesiones-series.qmd#tag-A089",
+        "relation": "requiere"
+      }
+    ],
+    "A076": [
+      {
+        "tag": "A081",
+        "title": "Sumas de naturales, cuadrados y cubos",
+        "source": "contenidos/libro/algebra/sucesiones-series.qmd",
+        "href": "sucesiones-series.qmd#tag-A081",
+        "relation": "requiere"
+      }
+    ],
+    "A080": [
+      {
+        "tag": "A081",
+        "title": "Sumas de naturales, cuadrados y cubos",
+        "source": "contenidos/libro/algebra/sucesiones-series.qmd",
+        "href": "sucesiones-series.qmd#tag-A081",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A082",
+        "title": "Sumas telescópicas",
+        "source": "contenidos/libro/algebra/sucesiones-series.qmd",
+        "href": "sucesiones-series.qmd#tag-A082",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A083",
+        "title": "Serie y sucesión de sumas parciales",
+        "source": "contenidos/libro/algebra/sucesiones-series.qmd",
+        "href": "sucesiones-series.qmd#tag-A083",
+        "relation": "requiere"
+      }
+    ],
+    "A079": [
+      {
+        "tag": "A083",
+        "title": "Serie y sucesión de sumas parciales",
+        "source": "contenidos/libro/algebra/sucesiones-series.qmd",
+        "href": "sucesiones-series.qmd#tag-A083",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A084",
+        "title": "Suma geométrica infinita",
+        "source": "contenidos/libro/algebra/sucesiones-series.qmd",
+        "href": "sucesiones-series.qmd#tag-A084",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A088",
+        "title": "Recurrencia afín con aporte periódico",
+        "source": "contenidos/libro/algebra/sucesiones-series.qmd",
+        "href": "sucesiones-series.qmd#tag-A088",
+        "relation": "requiere"
+      }
+    ],
+    "A083": [
+      {
+        "tag": "A084",
+        "title": "Suma geométrica infinita",
+        "source": "contenidos/libro/algebra/sucesiones-series.qmd",
+        "href": "sucesiones-series.qmd#tag-A084",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A085",
+        "title": "Términos que tienden a cero y convergencia",
+        "source": "contenidos/libro/algebra/sucesiones-series.qmd",
+        "href": "sucesiones-series.qmd#tag-A085",
+        "relation": "requiere"
+      }
+    ],
+    "A084": [
+      {
+        "tag": "A085",
+        "title": "Términos que tienden a cero y convergencia",
+        "source": "contenidos/libro/algebra/sucesiones-series.qmd",
+        "href": "sucesiones-series.qmd#tag-A085",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A086",
+        "title": "Error al truncar una serie geométrica",
+        "source": "contenidos/libro/algebra/sucesiones-series.qmd",
+        "href": "sucesiones-series.qmd#tag-A086",
+        "relation": "requiere"
+      },
+      {
+        "tag": "A089",
+        "title": "Errores de índices, patrones y sumas",
+        "source": "contenidos/libro/algebra/sucesiones-series.qmd",
+        "href": "sucesiones-series.qmd#tag-A089",
+        "relation": "requiere"
+      }
+    ],
+    "A017": [
+      {
+        "tag": "A087",
+        "title": "Crecimiento aditivo y multiplicativo",
+        "source": "contenidos/libro/algebra/sucesiones-series.qmd",
+        "href": "sucesiones-series.qmd#tag-A087",
+        "relation": "requiere"
+      }
+    ],
     "C002": [
       {
         "tag": "0035",

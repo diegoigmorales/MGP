@@ -27,12 +27,22 @@ website:
             href: contenidos/libro/probabilidad/combinatoria-probabilidad.qmd
           - text: "Capítulo 3. Estadística escolar"
             href: contenidos/libro/estadistica/index.qmd
+          - text: "Capítulo 4. Potencias, raíces y logaritmos"
+            href: contenidos/libro/algebra/potencias-raices-logaritmos.qmd
+          - text: "Capítulo 5. Álgebra elemental"
+            href: contenidos/libro/algebra/algebra-elemental.qmd
+          - text: "Capítulo 6. Ecuaciones e inecuaciones"
+            href: contenidos/libro/algebra/ecuaciones-inecuaciones.qmd
+          - text: "Capítulo 7. Sucesiones y series elementales"
+            href: contenidos/libro/algebra/sucesiones-series.qmd
+          - text: "Capítulo 8. Funciones"
+            href: contenidos/libro/algebra/funciones.qmd
       - section: "Parte II. Currículo, evaluación y desarrollo profesional"
         href: contenidos/curriculo-evaluacion.qmd
         contents:
-          - text: "Capítulo 4. Sistema curricular chileno"
+          - text: "Capítulo 9. Sistema curricular chileno"
             href: contenidos/curriculum/index.qmd
-          - text: "Capítulo 5. PAES de Matemática"
+          - text: "Capítulo 10. PAES de Matemática"
             href: contenidos/paes/index.qmd
   page-footer:
     center: "Para enseñar sin fingir que nunca olvidamos nada."

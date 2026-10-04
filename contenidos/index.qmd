@@ -26,9 +26,29 @@ Esta página reúne solamente material desarrollado y lo numera de forma consecu
 - Objetos vinculados:
   - [Problema de media ponderada](universitario/estadistica/media-ponderada.qmd)
 
+### Capítulo 4. Potencias, raíces y logaritmos
+
+- [Desarrollo del capítulo](libro/algebra/potencias-raices-logaritmos.qmd)
+
+### Capítulo 5. Álgebra elemental
+
+- [Desarrollo del capítulo](libro/algebra/algebra-elemental.qmd)
+
+### Capítulo 6. Ecuaciones e inecuaciones
+
+- [Desarrollo del capítulo](libro/algebra/ecuaciones-inecuaciones.qmd)
+
+### Capítulo 7. Sucesiones y series elementales
+
+- [Desarrollo del capítulo](libro/algebra/sucesiones-series.qmd)
+
+### Capítulo 8. Funciones
+
+- [Desarrollo del capítulo](libro/algebra/funciones.qmd)
+
 ## Parte II. Currículo, evaluación y desarrollo profesional
 
-### Capítulo 4. Sistema curricular chileno
+### Capítulo 9. Sistema curricular chileno
 
 - [Presentación del capítulo](curriculum/index.qmd)
 - [Ejes y materias](curriculum/ejes.qmd)
@@ -38,15 +58,15 @@ Esta página reúne solamente material desarrollado y lo numera de forma consecu
 - [Enseñanza media](curriculum/ensenanza-media.qmd)
 - [Formación diferenciada](curriculum/formacion-diferenciada.qmd)
 
-### Capítulo 5. PAES de Matemática
+### Capítulo 10. PAES de Matemática
 
 - [Presentación del capítulo](paes/index.qmd)
 - Estudio de los temarios:
-  - [4.2 Cómo interpretar los temarios](paes/temarios/index.qmd)
-  - [4.3 Temario vigente](paes/temarios/vigente.qmd)
-  - [4.4 Evolución histórica](paes/temarios/evolucion/index.qmd)
-  - [4.5 Síntesis comparada](paes/temarios/comparacion.qmd)
-  - [4.6 Fuentes oficiales](paes/temarios/fuentes.qmd)
+  - [10.2 Cómo interpretar los temarios](paes/temarios/index.qmd)
+  - [10.3 Temario vigente](paes/temarios/vigente.qmd)
+  - [10.4 Evolución histórica](paes/temarios/evolucion/index.qmd)
+  - [10.5 Síntesis comparada](paes/temarios/comparacion.qmd)
+  - [10.6 Fuentes oficiales](paes/temarios/fuentes.qmd)
 - Pruebas:
   - [Competencia Matemática M1](paes/m1/index.qmd)
   - [Competencia Matemática M2](paes/m2/index.qmd)

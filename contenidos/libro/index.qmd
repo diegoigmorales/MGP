@@ -17,5 +17,10 @@ Esta parte reúne el conocimiento matemático escolar que un profesor puede nece
 | [1. Porcentajes](numeros/porcentajes.qmd) | Definición, interpretaciones, técnica fundamental, ejemplos y errores frecuentes | En desarrollo |
 | [2. Combinatoria y probabilidad](probabilidad/combinatoria-probabilidad.qmd) | Conteo, reglas de probabilidad, condicionalidad, simulación y modelos escolares | Desarrollado |
 | [3. Estadística escolar](estadistica/index.qmd) | Ciclo estadístico, tablas, gráficos, medidas, variabilidad, asociación y lectura crítica | Desarrollado |
+| [4. Potencias, raíces y logaritmos](algebra/potencias-raices-logaritmos.qmd) | Potencias, radicales, exponentes, logaritmos, estimación y aplicaciones | Desarrollado |
+| [5. Álgebra elemental](algebra/algebra-elemental.qmd) | Generalización, variables, expresiones, identidades, productos notables y factorización | Desarrollado |
+| [6. Ecuaciones e inecuaciones](algebra/ecuaciones-inecuaciones.qmd) | Conjuntos solución, equivalencias, ecuaciones, inecuaciones, sistemas y métodos gráficos | Desarrollado |
+| [7. Sucesiones y series elementales](algebra/sucesiones-series.qmd) | Patrones, fórmulas explícitas, recurrencias, progresiones, sumas y convergencia intuitiva | Desarrollado |
+| [8. Funciones](algebra/funciones.qmd) | Correspondencia, covariación, dominio, recorrido, representaciones, familias y modelación | Desarrollado |
 
 Las preguntas y los problemas asociados se consultan desde los capítulos o mediante la búsqueda. No forman capítulos ni se despliegan en el menú principal.

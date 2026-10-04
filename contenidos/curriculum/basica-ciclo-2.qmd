@@ -1,14 +1,14 @@
 ---
-title: "3.4 Enseñanza básica, ciclo II"
+title: "9.4 Enseñanza básica, ciclo II"
 description: "Objetivos de aprendizaje de Matemática de quinto a octavo básico."
 number-sections: false
 toc: true
 toc-depth: 3
 ---
 
-# 3.4 Enseñanza básica, ciclo II {.unnumbered}
+# 9.4 Enseñanza básica, ciclo II {.unnumbered}
 
-## 3.4.1 Quinto básico
+## 9.4.1 Quinto básico
 
 ### Números y operaciones
 
@@ -136,7 +136,7 @@ toc-depth: 3
 
 27. **OA 27.** Utilizar diagramas de tallo y hojas para representar datos provenientes de muestras aleatorias.
 
-## 3.4.2 Sexto básico
+## 9.4.2 Sexto básico
 
 ### Números y operaciones
 
@@ -214,7 +214,7 @@ toc-depth: 3
 
 24. **OA 24.** [Prioritario]{.change-badge .change-priority} Leer e interpretar gráficos de barra doble y circulares y comunicar sus conclusiones.
 
-## 3.4.3 Séptimo básico
+## 9.4.3 Séptimo básico
 
 ### Números
 
@@ -326,7 +326,7 @@ toc-depth: 3
 
 19. **OA 19.** Comparar las frecuencias relativas de un evento obtenidas al repetir un experimento de forma manual y/o con software educativo, con la probabilidad obtenida de manera teórica, usando diagramas de árbol, tablas o gráficos.
 
-## 3.4.4 Octavo básico
+## 9.4.4 Octavo básico
 
 ### Números
 

@@ -147,7 +147,7 @@ def normalize_qmd(text: str) -> str:
             body = body.replace(stripped, rf"{percentage.group('expr')}\,\%")
         body = re.sub(r"(?<![A-Za-z0-9])(?P<int>\d+)\.(?P<dec>\d+)(?!\d)", r"\g<int>{,}\g<dec>", body)
         body = re.sub(
-            r"(?<![A-Za-z0-9])(?P<num>\d{4,})(?![A-Za-z0-9])",
+            r"(?<![A-Za-z0-9])(?<!\{,\})(?P<num>\d{4,})(?![A-Za-z0-9])",
             lambda item: format_number(item.group("num")),
             body,
         )
