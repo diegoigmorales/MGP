@@ -1,5 +1,5 @@
 ---
-title: "Capítulo 7. Sucesiones y series elementales"
+title: "Capítulo 5. Sucesiones y series elementales"
 description: "Patrones discretos, fórmulas explícitas, recurrencias, progresiones, sumas, series geométricas y modelación."
 format:
   html:

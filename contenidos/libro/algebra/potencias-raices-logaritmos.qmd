@@ -1,5 +1,5 @@
 ---
-title: "Capítulo 4. Potencias, raíces y logaritmos"
+title: "Capítulo 2. Potencias, raíces y logaritmos"
 description: "Potenciación, radicación y logaritmación: definiciones, propiedades, dominios, estimación y aplicaciones."
 format:
   html:

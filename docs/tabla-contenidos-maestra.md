@@ -1,12 +1,19 @@
-CONTEXTO MAESTRO DEL PROYECTO MGP
-================================
+---
+pagetitle: "Tabla de contenidos maestra"
+toc: true
+toc-depth: 2
+number-sections: false
+---
+
+# Tabla de contenidos maestra de MGP
 
 Proyecto: Matemática para Gañanes y Patanes (MGP)
 
 Usa la siguiente arquitectura como la TABLA DE CONTENIDOS MAESTRA VIGENTE de MGP
 para cualquier análisis, propuesta, comparación, reorganización o desarrollo futuro.
 
-IMPORTANTE:
+**IMPORTANTE:**
+
 - Esta estructura consta actualmente de 5 Partes y 102 capítulos.
 - No elimines, fusiones, renombres, dividas ni reenumeres capítulos salvo que se solicite
   explícitamente.
@@ -45,24 +52,38 @@ IMPORTANTE:
   ofrecer conocimiento matemático, didáctico, curricular, evaluativo y metodológico
   detallado y exhaustivo, pero sintetizado de manera útil para un profesor de matemática.
 
+## Vista general
 
-======================================================================
-PARTE I. CONOCIMIENTO PROFESIONAL, ENSEÑANZA Y ANÁLISIS DE PROBLEMAS
+Esta tabla conserva los números de la arquitectura proyectada. La navegación del sitio sigue este orden, muestra sólo el material disponible y utiliza una numeración consecutiva provisional, que se ajustará al incorporar capítulos pendientes.
+
+| Parte | Capítulos | Total |
+|---|---|---:|
+| [I. Conocimiento profesional, enseñanza y análisis de problemas](#parte-i) | 1–25 | 25 |
+| [II. Matemática escolar para la enseñanza](#parte-ii) | 26–51 | 26 |
+| [III. Fundamentos universitarios y aplicaciones](#parte-iii) | 52–73 | 22 |
+| [IV. Currículo, evaluación y desarrollo profesional](#parte-iv) | 74–82 | 9 |
+| [V. Psicometría, observatorio e investigación](#parte-v) | 83–102 | 20 |
+| **Total** | **1–102** | **102** |
+
+## PARTE I. CONOCIMIENTO PROFESIONAL, ENSEÑANZA Y ANÁLISIS DE PROBLEMAS {#parte-i}
+
 Capítulos 1–25
-======================================================================
 
-CAPÍTULO 1. CONOCIMIENTO PROFESIONAL DEL PROFESOR DE MATEMÁTICA
+### CAPÍTULO 1. CONOCIMIENTO PROFESIONAL DEL PROFESOR DE MATEMÁTICA {#capitulo-1}
 
-Descripción:
+**Descripción:**
+
 Estudia qué conocimientos necesita movilizar un profesor de matemática para enseñar,
 interpretar producciones de estudiantes, seleccionar tareas y recuperar conocimientos
 disciplinares previamente aprendidos pero no inmediatamente disponibles.
 
-Objetivo general:
+**Objetivo general:**
+
 Establecer un marco integrado del conocimiento profesional del profesor de matemática
 que fundamente el resto de MGP.
 
-Posibles secciones:
+**Posibles secciones:**
+
 - Conocimiento disciplinario
 - Conocimiento pedagógico del contenido
 - Shulman
@@ -81,18 +102,20 @@ Posibles secciones:
 - Uso de recursos externos
 - Marco de conocimiento profesional adoptado por MGP
 
+### CAPÍTULO 2. PROGRESIONES Y TRAYECTORIAS DE APRENDIZAJE {#capitulo-2}
 
-CAPÍTULO 2. PROGRESIONES Y TRAYECTORIAS DE APRENDIZAJE
+**Descripción:**
 
-Descripción:
 Estudia cómo los conocimientos matemáticos se desarrollan mediante precursores,
 prerrequisitos, representaciones y aumentos progresivos de abstracción.
 
-Objetivo general:
+**Objetivo general:**
+
 Proporcionar herramientas para comprender de dónde proviene un conocimiento y qué
 aprendizajes posteriores permite desarrollar.
 
-Posibles secciones:
+**Posibles secciones:**
+
 - Progresiones curriculares
 - Trayectorias hipotéticas de aprendizaje
 - Prerrequisitos
@@ -106,18 +129,20 @@ Posibles secciones:
 - Enseñanza media y universidad
 - Recuperación de conocimientos previos
 
+### CAPÍTULO 3. DISEÑO Y SELECCIÓN DE TAREAS {#capitulo-3}
 
-CAPÍTULO 3. DISEÑO Y SELECCIÓN DE TAREAS
+**Descripción:**
 
-Descripción:
 Estudia criterios para elegir, transformar y secuenciar tareas que generen la actividad
 matemática buscada.
 
-Objetivo general:
+**Objetivo general:**
+
 Ayudar al profesor a evaluar el potencial matemático y didáctico de una tarea antes
 y durante su implementación.
 
-Posibles secciones:
+**Posibles secciones:**
+
 - Propósito matemático de una tarea
 - Ejercicio y problema
 - Demanda matemática
@@ -133,18 +158,20 @@ Posibles secciones:
 - Implementación
 - Conservación y reducción de la demanda cognitiva
 
+### CAPÍTULO 4. EJEMPLOS, CONTRAEJEMPLOS Y EXPLICACIONES {#capitulo-4}
 
-CAPÍTULO 4. EJEMPLOS, CONTRAEJEMPLOS Y EXPLICACIONES
+**Descripción:**
 
-Descripción:
 Analiza cómo ejemplos, no ejemplos, contraejemplos y explicaciones permiten construir
 y delimitar conceptos matemáticos.
 
-Objetivo general:
+**Objetivo general:**
+
 Proporcionar criterios para seleccionar ejemplos y explicaciones que hagan visible
 la estructura matemática relevante.
 
-Posibles secciones:
+**Posibles secciones:**
+
 - Qué constituye una explicación matemática
 - Explicación y demostración
 - Ejemplos prototípicos
@@ -159,18 +186,20 @@ Posibles secciones:
 - Precisión y simplificación
 - Dependencia del conocimiento previo
 
+### CAPÍTULO 5. REPRESENTACIONES PARA ENSEÑAR {#capitulo-5}
 
-CAPÍTULO 5. REPRESENTACIONES PARA ENSEÑAR
+**Descripción:**
 
-Descripción:
 Estudia las representaciones desde el punto de vista de las decisiones profesionales
 del profesor.
 
-Objetivo general:
+**Objetivo general:**
+
 Establecer criterios para seleccionar y conectar representaciones según el contenido,
 el propósito didáctico y las dificultades de los estudiantes.
 
-Posibles secciones:
+**Posibles secciones:**
+
 - Representaciones numéricas
 - Representaciones algebraicas
 - Representaciones gráficas
@@ -185,17 +214,19 @@ Posibles secciones:
 - Selección según propósito
 - Dificultades de interpretación
 
+### CAPÍTULO 6. COMUNICACIÓN Y DISCURSO MATEMÁTICO {#capitulo-6}
 
-CAPÍTULO 6. COMUNICACIÓN Y DISCURSO MATEMÁTICO
+**Descripción:**
 
-Descripción:
 Estudia cómo profesores y estudiantes formulan, comparan, justifican e institucionalizan
 ideas matemáticas mediante el discurso.
 
-Objetivo general:
+**Objetivo general:**
+
 Caracterizar prácticas comunicativas que favorezcan una actividad matemática rigurosa.
 
-Posibles secciones:
+**Posibles secciones:**
+
 - Preguntas docentes
 - Tiempo de espera
 - Discusión matemática
@@ -210,17 +241,19 @@ Posibles secciones:
 - Uso del pizarrón
 - Institucionalización
 
+### CAPÍTULO 7. PLANIFICACIÓN MATEMÁTICA {#capitulo-7}
 
-CAPÍTULO 7. PLANIFICACIÓN MATEMÁTICA
+**Descripción:**
 
-Descripción:
 Integra conocimientos disciplinares, didácticos y curriculares en decisiones de
 planificación.
 
-Objetivo general:
+**Objetivo general:**
+
 Proporcionar criterios matemáticamente informados para planificar clases y unidades.
 
-Posibles secciones:
+**Posibles secciones:**
+
 - Objetivos
 - Conocimientos previos
 - Selección de tareas
@@ -234,18 +267,20 @@ Posibles secciones:
 - Planificación de una clase
 - Planificación de una unidad
 
+### CAPÍTULO 8. EVALUACIÓN FORMATIVA Y RETROALIMENTACIÓN {#capitulo-8}
 
-CAPÍTULO 8. EVALUACIÓN FORMATIVA Y RETROALIMENTACIÓN
+**Descripción:**
 
-Descripción:
 Estudia cómo obtener e interpretar evidencia durante el aprendizaje y utilizarla para
 modificar enseñanza y aprendizaje.
 
-Objetivo general:
+**Objetivo general:**
+
 Desarrollar criterios para evaluar matemáticamente los aprendizajes y proporcionar
 retroalimentación útil.
 
-Posibles secciones:
+**Posibles secciones:**
+
 - Propósitos de la evaluación
 - Evidencia de aprendizaje
 - Diagnóstico
@@ -260,17 +295,19 @@ Posibles secciones:
 - Evaluación entre pares
 - Calificación
 
+### CAPÍTULO 9. AFECTIVIDAD, CREENCIAS E IDENTIDAD MATEMÁTICA {#capitulo-9}
 
-CAPÍTULO 9. AFECTIVIDAD, CREENCIAS E IDENTIDAD MATEMÁTICA
+**Descripción:**
 
-Descripción:
 Examina factores afectivos y creencias que condicionan la relación con la matemática.
 
-Objetivo general:
+**Objetivo general:**
+
 Ayudar a interpretar aspectos no puramente cognitivos que afectan la actividad
 matemática y su enseñanza.
 
-Posibles secciones:
+**Posibles secciones:**
+
 - Ansiedad matemática
 - Autoeficacia
 - Creencias sobre la naturaleza de la matemática
@@ -282,17 +319,19 @@ Posibles secciones:
 - Expectativas docentes
 - Error y seguridad psicológica
 
+### CAPÍTULO 10. INCLUSIÓN Y ACCESIBILIDAD {#capitulo-10}
 
-CAPÍTULO 10. INCLUSIÓN Y ACCESIBILIDAD
+**Descripción:**
 
-Descripción:
 Estudia barreras que dificultan el acceso a representaciones, tareas y discursos
 matemáticos.
 
-Objetivo general:
+**Objetivo general:**
+
 Proporcionar criterios para diseñar enseñanza y materiales matemáticos accesibles.
 
-Posibles secciones:
+**Posibles secciones:**
+
 - Diversidad de estudiantes
 - Barreras de acceso
 - Discapacidad visual
@@ -305,18 +344,20 @@ Posibles secciones:
 - Ajustes de acceso
 - Accesibilidad digital
 
+### CAPÍTULO 11. TECNOLOGÍA PARA ENSEÑAR MATEMÁTICA {#capitulo-11}
 
-CAPÍTULO 11. TECNOLOGÍA PARA ENSEÑAR MATEMÁTICA
+**Descripción:**
 
-Descripción:
 Analiza las tecnologías según su capacidad para transformar o enriquecer la actividad
 matemática.
 
-Objetivo general:
+**Objetivo general:**
+
 Establecer cuándo y cómo utilizar tecnología con una finalidad matemática y didáctica
 justificada.
 
-Posibles secciones:
+**Posibles secciones:**
+
 - Calculadoras
 - Hojas de cálculo
 - Geometría dinámica
@@ -331,18 +372,20 @@ Posibles secciones:
 - Dependencia tecnológica
 - Inteligencia artificial
 
+### CAPÍTULO 12. LENGUAJE MATEMÁTICO {#capitulo-12}
 
-CAPÍTULO 12. LENGUAJE MATEMÁTICO
+**Descripción:**
 
-Descripción:
 Sistematiza convenciones lingüísticas, simbólicas y lógicas necesarias para interpretar
 y producir matemática rigurosa.
 
-Objetivo general:
+**Objetivo general:**
+
 Proporcionar una referencia transversal para evitar ambigüedades frecuentes en el
 uso del lenguaje matemático.
 
-Posibles secciones:
+**Posibles secciones:**
+
 - Objetos y símbolos
 - Variables
 - Constantes
@@ -358,17 +401,19 @@ Posibles secciones:
 - Ambigüedad
 - Lenguaje natural y formal
 
+### CAPÍTULO 13. DEFINIR EN MATEMÁTICA {#capitulo-13}
 
-CAPÍTULO 13. DEFINIR EN MATEMÁTICA
+**Descripción:**
 
-Descripción:
 Estudia la construcción y evaluación de definiciones matemáticas.
 
-Objetivo general:
+**Objetivo general:**
+
 Distinguir definiciones adecuadas de descripciones, propiedades accidentales y
 caracterizaciones incompletas.
 
-Posibles secciones:
+**Posibles secciones:**
+
 - Conceptos primitivos
 - Qué es una definición
 - Condiciones de adecuación
@@ -381,18 +426,20 @@ Posibles secciones:
 - Errores al definir
 - Uso didáctico de las definiciones
 
+### CAPÍTULO 14. ARGUMENTAR Y DEMOSTRAR {#capitulo-14}
 
-CAPÍTULO 14. ARGUMENTAR Y DEMOSTRAR
+**Descripción:**
 
-Descripción:
 Estudia argumentación y demostración como prácticas matemáticas, especialmente desde
 su desarrollo y enseñanza en contextos escolares.
 
-Objetivo general:
+**Objetivo general:**
+
 Caracterizar la progresión desde explicaciones y justificaciones hasta formas de
 demostración matemáticamente aceptables.
 
-Posibles secciones:
+**Posibles secciones:**
+
 - Afirmaciones
 - Conjeturas
 - Evidencia
@@ -411,18 +458,20 @@ Este capítulo NO sustituye al capítulo universitario "Demostración matemátic
 Aquí el foco es la práctica matemática, su desarrollo y su enseñanza; el capítulo
 universitario aborda la formalización y técnicas de prueba con mayor profundidad.
 
+### CAPÍTULO 15. REPRESENTAR {#capitulo-15}
 
-CAPÍTULO 15. REPRESENTAR
+**Descripción:**
 
-Descripción:
 Estudia la representación como práctica matemática mediante la cual se codifica,
 transforma y comunica información.
 
-Objetivo general:
+**Objetivo general:**
+
 Comprender el papel de los diferentes registros en la producción de significado
 matemático.
 
-Posibles secciones:
+**Posibles secciones:**
+
 - Qué significa representar
 - Registros de representación
 - Lenguaje natural
@@ -438,18 +487,20 @@ Posibles secciones:
 - Información preservada
 - Pérdida de información
 
+### CAPÍTULO 16. MODELAR {#capitulo-16}
 
-CAPÍTULO 16. MODELAR
+**Descripción:**
 
-Descripción:
 Estudia la modelación como ciclo entre situaciones reales o hipotéticas y estructuras
 matemáticas.
 
-Objetivo general:
+**Objetivo general:**
+
 Proporcionar criterios para construir, resolver, interpretar y validar modelos
 matemáticos.
 
-Posibles secciones:
+**Posibles secciones:**
+
 - Situación problemática
 - Variables
 - Parámetros
@@ -467,17 +518,19 @@ Posibles secciones:
 - Contexto ilustrativo y contexto genuino
 - Modelación interdisciplinaria
 
+### CAPÍTULO 17. PROBLEMAS Y EJERCICIOS {#capitulo-17}
 
-CAPÍTULO 17. PROBLEMAS Y EJERCICIOS
+**Descripción:**
 
-Descripción:
 Delimita qué constituye un problema y cómo esto depende de la relación entre la tarea
 y el resolutor.
 
-Objetivo general:
+**Objetivo general:**
+
 Proporcionar una taxonomía útil de tareas para enseñanza y análisis profesional.
 
-Posibles secciones:
+**Posibles secciones:**
+
 - Problema
 - Ejercicio
 - Dependencia del resolutor
@@ -491,17 +544,19 @@ Posibles secciones:
 - Demanda matemática
 - Demanda cognitiva
 
+### CAPÍTULO 18. MARCOS DE RESOLUCIÓN DE PROBLEMAS: PÓLYA Y SCHOENFELD {#capitulo-18}
 
-CAPÍTULO 18. MARCOS DE RESOLUCIÓN DE PROBLEMAS: PÓLYA Y SCHOENFELD
+**Descripción:**
 
-Descripción:
 Presenta marcos clásicos que permiten describir las fases, recursos, decisiones y
 procesos metacognitivos involucrados en resolver problemas.
 
-Objetivo general:
+**Objetivo general:**
+
 Establecer una base conceptual para analizar procesos de resolución de problemas.
 
-Posibles secciones:
+**Posibles secciones:**
+
 - Pólya y su contexto
 - Comprender el problema
 - Concebir un plan
@@ -520,18 +575,20 @@ Posibles secciones:
 - Relación entre Pólya y Schoenfeld
 - Desarrollos posteriores
 
+### CAPÍTULO 19. ENSEÑANZA, SELECCIÓN Y EVALUACIÓN DE HEURISMOS {#capitulo-19}
 
-CAPÍTULO 19. ENSEÑANZA, SELECCIÓN Y EVALUACIÓN DE HEURISMOS
+**Descripción:**
 
-Descripción:
 Estudia cómo enseñar heurismos y cómo evaluar su pertinencia y utilización en una
 solución.
 
-Objetivo general:
+**Objetivo general:**
+
 Evitar que los heurismos se transformen en recetas y favorecer su uso flexible y
 consciente.
 
-Posibles secciones:
+**Posibles secciones:**
+
 - Explicitación
 - Modelamiento docente
 - Práctica consciente
@@ -550,19 +607,21 @@ Posibles secciones:
 - Heurismo inferido
 - Evidencia necesaria para clasificar una solución
 
+### CAPÍTULO 20. HEURISMOS PARA LA RESOLUCIÓN DE PROBLEMAS {#capitulo-20}
 
-CAPÍTULO 20. HEURISMOS PARA LA RESOLUCIÓN DE PROBLEMAS
+**Descripción:**
 
-Descripción:
 Sistematiza el repertorio de heurismos utilizados en resolución de problemas,
 tomando como referencia central la taxonomía de Bruder y Collet e incorporando sus
 desarrollos posteriores.
 
-Objetivo general:
+**Objetivo general:**
+
 Proporcionar una clasificación integrada y profesionalmente útil de herramientas,
 estrategias y principios heurísticos y de las relaciones entre ellos.
 
-Posibles secciones:
+**Posibles secciones:**
+
 - Qué es un heurismo
 - Algoritmo, heurística y heurismo
 - Desarrollo histórico del concepto
@@ -607,17 +666,19 @@ Posibles secciones:
 - Limitaciones de las clasificaciones
 - Análisis de heurismos en soluciones reales
 
+### CAPÍTULO 21. NATURALEZA DEL ERROR {#capitulo-21}
 
-CAPÍTULO 21. NATURALEZA DEL ERROR
+**Descripción:**
 
-Descripción:
 Estudia diferentes fuentes y tipos de respuestas matemáticamente incorrectas.
 
-Objetivo general:
+**Objetivo general:**
+
 Superar una concepción binaria correcto/incorrecto y proporcionar categorías útiles
 para interpretar errores.
 
-Posibles secciones:
+**Posibles secciones:**
+
 - Error y descuido
 - Error conceptual
 - Error procedimental
@@ -631,17 +692,19 @@ Posibles secciones:
 - Error observado e inferido
 - Error como oportunidad de indagación
 
+### CAPÍTULO 22. DIAGNÓSTICO E INTERVENCIÓN {#capitulo-22}
 
-CAPÍTULO 22. DIAGNÓSTICO E INTERVENCIÓN
+**Descripción:**
 
-Descripción:
 Estudia cómo reconstruir el razonamiento que genera una respuesta errónea y cómo
 seleccionar una intervención.
 
-Objetivo general:
+**Objetivo general:**
+
 Conectar análisis de errores con decisiones concretas de enseñanza.
 
-Posibles secciones:
+**Posibles secciones:**
+
 - Reconstrucción del razonamiento
 - Producciones escritas
 - Entrevistas
@@ -655,18 +718,20 @@ Posibles secciones:
 - Intervenciones conceptuales
 - Seguimiento
 
+### CAPÍTULO 23. DISTRACTORES {#capitulo-23}
 
-CAPÍTULO 23. DISTRACTORES
+**Descripción:**
 
-Descripción:
 Analiza las alternativas incorrectas de ítems de selección como posibles
 manifestaciones de conocimientos, procedimientos o errores.
 
-Objetivo general:
+**Objetivo general:**
+
 Proporcionar criterios matemáticos, cognitivos y empíricos para interpretar y
 construir distractores.
 
-Posibles secciones:
+**Posibles secciones:**
+
 - Función del distractor
 - Plausibilidad
 - Distractor funcional
@@ -681,18 +746,20 @@ Posibles secciones:
 - Frecuencia de elección
 - Revisión de distractores
 
+### CAPÍTULO 24. CATÁLOGO DE ERRORES {#capitulo-24}
 
-CAPÍTULO 24. CATÁLOGO DE ERRORES
+**Descripción:**
 
-Descripción:
 Organiza errores documentados y sus conexiones con contenidos, problemas, evidencia
 e intervenciones.
 
-Objetivo general:
+**Objetivo general:**
+
 Construir una referencia sistemática sobre errores frecuentes o conceptualmente
 relevantes en matemática.
 
-Posibles secciones:
+**Posibles secciones:**
+
 - Criterios de catalogación
 - Errores en números
 - Fracciones
@@ -710,18 +777,20 @@ Posibles secciones:
 - Evidencia disponible
 - Intervenciones relacionadas
 
+### CAPÍTULO 25. ANÁLISIS PROFESIONAL DE CONTENIDOS Y PROBLEMAS MATEMÁTICOS {#capitulo-25}
 
-CAPÍTULO 25. ANÁLISIS PROFESIONAL DE CONTENIDOS Y PROBLEMAS MATEMÁTICOS
+**Descripción:**
 
-Descripción:
 Integra las distintas perspectivas del conocimiento profesional para analizar
 contenidos, tareas, problemas e ítems.
 
-Objetivo general:
+**Objetivo general:**
+
 Proporcionar un marco general de análisis profesional que conecte matemática,
 didáctica, currículo, heurismos, errores y evidencia.
 
-Posibles secciones:
+**Posibles secciones:**
+
 - Delimitación del objeto
 - Análisis matemático
 - Análisis conceptual
@@ -740,22 +809,23 @@ Posibles secciones:
 - Limitaciones
 - Integración de dimensiones
 
+## PARTE II. MATEMÁTICA ESCOLAR PARA LA ENSEÑANZA {#parte-ii}
 
-==============================================================
-PARTE II. MATEMÁTICA ESCOLAR PARA LA ENSEÑANZA
 Capítulos 26–51
-==============================================================
 
-CAPÍTULO 26. MAGNITUDES, MEDICIÓN Y UNIDADES
+### CAPÍTULO 26. MAGNITUDES, MEDICIÓN Y UNIDADES {#capitulo-26}
 
-Descripción:
+**Descripción:**
+
 Estudia los fundamentos de la medición y las distinciones entre magnitud, cantidad,
 medida y unidad.
 
-Objetivo general:
+**Objetivo general:**
+
 Fundamentar conceptualmente los contenidos escolares relacionados con medición.
 
-Posibles secciones:
+**Posibles secciones:**
+
 - Magnitudes
 - Cantidades
 - Medida
@@ -770,17 +840,19 @@ Posibles secciones:
 - Análisis dimensional
 - Cifras significativas
 
+### CAPÍTULO 27. NÚMEROS NATURALES {#capitulo-27}
 
-CAPÍTULO 27. NÚMEROS NATURALES
+**Descripción:**
 
-Descripción:
 Desarrolla los fundamentos del conteo, numeración y operaciones con naturales.
 
-Objetivo general:
+**Objetivo general:**
+
 Explicar las estructuras que sustentan los procedimientos escolares con números
 naturales.
 
-Posibles secciones:
+**Posibles secciones:**
+
 - Conteo
 - Cardinalidad
 - Sistemas de numeración
@@ -796,16 +868,18 @@ Posibles secciones:
 - Errores frecuentes
 - Problemas
 
+### CAPÍTULO 28. NÚMEROS ENTEROS {#capitulo-28}
 
-CAPÍTULO 28. NÚMEROS ENTEROS
+**Descripción:**
 
-Descripción:
 Estudia la extensión de los naturales hacia números negativos y sus operaciones.
 
-Objetivo general:
+**Objetivo general:**
+
 Fundamentar el significado de números negativos, orden y reglas operatorias.
 
-Posibles secciones:
+**Posibles secciones:**
+
 - Necesidad de números negativos
 - Recta numérica
 - Orden
@@ -820,17 +894,19 @@ Posibles secciones:
 - Errores frecuentes
 - Observaciones históricas
 
+### CAPÍTULO 29. NÚMEROS RACIONALES {#capitulo-29}
 
-CAPÍTULO 29. NÚMEROS RACIONALES
+**Descripción:**
 
-Descripción:
 Integra las múltiples interpretaciones de las fracciones y sus relaciones con
 decimales y razones.
 
-Objetivo general:
+**Objetivo general:**
+
 Construir una comprensión conectada de los números racionales.
 
-Posibles secciones:
+**Posibles secciones:**
+
 - Parte-todo
 - Medida
 - Razón
@@ -846,17 +922,19 @@ Posibles secciones:
 - Representaciones
 - Errores frecuentes
 
+### CAPÍTULO 30. NÚMEROS REALES {#capitulo-30}
 
-CAPÍTULO 30. NÚMEROS REALES
+**Descripción:**
 
-Descripción:
 Amplía los sistemas numéricos escolares hacia irracionales y números reales.
 
-Objetivo general:
+**Objetivo general:**
+
 Fundamentar las propiedades de los reales necesarias para la matemática escolar y
 su transición hacia estudios posteriores.
 
-Posibles secciones:
+**Posibles secciones:**
+
 - Irracionales
 - Números reales
 - Recta real
@@ -870,16 +948,18 @@ Posibles secciones:
 - Continuidad intuitiva
 - Observaciones históricas
 
+### CAPÍTULO 31. TEORÍA ELEMENTAL DE NÚMEROS {#capitulo-31}
 
-CAPÍTULO 31. TEORÍA ELEMENTAL DE NÚMEROS
+**Descripción:**
 
-Descripción:
 Estudia propiedades aritméticas relevantes para problemas y razonamiento matemático.
 
-Objetivo general:
+**Objetivo general:**
+
 Profundizar estructuras de divisibilidad que sustentan numerosos contenidos escolares.
 
-Posibles secciones:
+**Posibles secciones:**
+
 - Divisibilidad
 - Divisores y múltiplos
 - MCD
@@ -893,17 +973,19 @@ Posibles secciones:
 - Ecuaciones diofánticas elementales
 - Aplicaciones
 
+### CAPÍTULO 32. RAZONES Y PROPORCIONALIDAD {#capitulo-32}
 
-CAPÍTULO 32. RAZONES Y PROPORCIONALIDAD
+**Descripción:**
 
-Descripción:
 Estudia razones, tasas y relaciones proporcionales.
 
-Objetivo general:
+**Objetivo general:**
+
 Proporcionar fundamentos para reconocer, representar y resolver situaciones
 proporcionales y distinguirlas de las no proporcionales.
 
-Posibles secciones:
+**Posibles secciones:**
+
 - Razón
 - Tasa
 - Proporción
@@ -918,16 +1000,18 @@ Posibles secciones:
 - Errores frecuentes
 - Problemas
 
+### CAPÍTULO 33. PORCENTAJES {#capitulo-33}
 
-CAPÍTULO 33. PORCENTAJES
+**Descripción:**
 
-Descripción:
 Estudia el porcentaje como razón, número y operador multiplicativo.
 
-Objetivo general:
+**Objetivo general:**
+
 Conectar distintas interpretaciones y técnicas relativas al porcentaje.
 
-Posibles secciones:
+**Posibles secciones:**
+
 - Motivación
 - Definición
 - Porcentaje como fracción
@@ -943,16 +1027,18 @@ Posibles secciones:
 - Errores frecuentes
 - Aplicaciones
 
+### CAPÍTULO 34. POTENCIAS, RAÍCES Y LOGARITMOS {#capitulo-34}
 
-CAPÍTULO 34. POTENCIAS, RAÍCES Y LOGARITMOS
+**Descripción:**
 
-Descripción:
 Integra operaciones de potenciación, radicación y logaritmación.
 
-Objetivo general:
+**Objetivo general:**
+
 Explicar sus propiedades y relaciones inversas desde la matemática escolar.
 
-Posibles secciones:
+**Posibles secciones:**
+
 - Potencias
 - Propiedades
 - Exponentes enteros
@@ -966,16 +1052,18 @@ Posibles secciones:
 - Órdenes de magnitud
 - Aplicaciones
 
+### CAPÍTULO 35. ÁLGEBRA ELEMENTAL {#capitulo-35}
 
-CAPÍTULO 35. ÁLGEBRA ELEMENTAL
+**Descripción:**
 
-Descripción:
 Estudia la transición desde la aritmética hacia el pensamiento algebraico.
 
-Objetivo general:
+**Objetivo general:**
+
 Fundamentar el significado de variables, expresiones y transformaciones algebraicas.
 
-Posibles secciones:
+**Posibles secciones:**
+
 - Pensamiento algebraico
 - Generalización
 - Variables
@@ -990,18 +1078,20 @@ Posibles secciones:
 - Transformaciones
 - Errores frecuentes
 
+### CAPÍTULO 36. ECUACIONES E INECUACIONES {#capitulo-36}
 
-CAPÍTULO 36. ECUACIONES E INECUACIONES
+**Descripción:**
 
-Descripción:
 Estudia relaciones algebraicas y los procedimientos utilizados para determinar
 conjuntos solución.
 
-Objetivo general:
+**Objetivo general:**
+
 Fundamentar las transformaciones de ecuaciones e inecuaciones como preservación de
 equivalencias o implicaciones pertinentes.
 
-Posibles secciones:
+**Posibles secciones:**
+
 - Solución
 - Conjunto solución
 - Equivalencia
@@ -1015,16 +1105,18 @@ Posibles secciones:
 - Métodos gráficos
 - Errores frecuentes
 
+### CAPÍTULO 37. SUCESIONES Y SERIES ELEMENTALES {#capitulo-37}
 
-CAPÍTULO 37. SUCESIONES Y SERIES ELEMENTALES
+**Descripción:**
 
-Descripción:
 Estudia patrones discretos mediante sucesiones, recurrencias y sumas.
 
-Objetivo general:
+**Objetivo general:**
+
 Conectar regularidades, fórmulas y procesos de crecimiento discretos.
 
-Posibles secciones:
+**Posibles secciones:**
+
 - Patrones
 - Sucesiones
 - Términos
@@ -1037,16 +1129,18 @@ Posibles secciones:
 - Convergencia intuitiva
 - Modelación
 
+### CAPÍTULO 38. FUNCIONES {#capitulo-38}
 
-CAPÍTULO 38. FUNCIONES
+**Descripción:**
 
-Descripción:
 Desarrolla la función como relación y como covariación entre cantidades.
 
-Objetivo general:
+**Objetivo general:**
+
 Integrar las principales familias funcionales y sus diferentes representaciones.
 
-Posibles secciones:
+**Posibles secciones:**
+
 - Concepto de función
 - Correspondencia
 - Covariación
@@ -1065,16 +1159,18 @@ Posibles secciones:
 - Transformaciones
 - Modelación
 
+### CAPÍTULO 39. TRIGONOMETRÍA {#capitulo-39}
 
-CAPÍTULO 39. TRIGONOMETRÍA
+**Descripción:**
 
-Descripción:
 Conecta razones trigonométricas, geometría del círculo y funciones periódicas.
 
-Objetivo general:
+**Objetivo general:**
+
 Proporcionar una comprensión articulada de la trigonometría escolar.
 
-Posibles secciones:
+**Posibles secciones:**
+
 - Ángulos
 - Grados
 - Radianes
@@ -1090,17 +1186,19 @@ Posibles secciones:
 - Ley de cosenos
 - Aplicaciones
 
+### CAPÍTULO 40. GEOMETRÍA PLANA {#capitulo-40}
 
-CAPÍTULO 40. GEOMETRÍA PLANA
+**Descripción:**
 
-Descripción:
 Estudia objetos, propiedades y relaciones geométricas del plano.
 
-Objetivo general:
+**Objetivo general:**
+
 Desarrollar fundamentos geométricos escolares vinculando visualización, construcción
 y demostración.
 
-Posibles secciones:
+**Posibles secciones:**
+
 - Punto, recta y plano
 - Ángulos
 - Paralelismo
@@ -1115,16 +1213,18 @@ Posibles secciones:
 - Teorema de Pitágoras
 - Construcciones
 
+### CAPÍTULO 41. CIRCUNFERENCIA Y CÍRCULO {#capitulo-41}
 
-CAPÍTULO 41. CIRCUNFERENCIA Y CÍRCULO
+**Descripción:**
 
-Descripción:
 Estudia relaciones angulares y métricas asociadas a circunferencias.
 
-Objetivo general:
+**Objetivo general:**
+
 Sistematizar resultados escolares sobre circunferencias y círculos y sus fundamentos.
 
-Posibles secciones:
+**Posibles secciones:**
+
 - Elementos de la circunferencia
 - Posiciones relativas
 - Ángulos
@@ -1138,16 +1238,18 @@ Posibles secciones:
 - Teoremas
 - Problemas
 
+### CAPÍTULO 42. GEOMETRÍA ESPACIAL {#capitulo-42}
 
-CAPÍTULO 42. GEOMETRÍA ESPACIAL
+**Descripción:**
 
-Descripción:
 Estudia cuerpos tridimensionales, sus representaciones y propiedades métricas.
 
-Objetivo general:
+**Objetivo general:**
+
 Desarrollar visualización espacial y fundamentos de áreas y volúmenes.
 
-Posibles secciones:
+**Posibles secciones:**
+
 - Poliedros
 - Prismas
 - Pirámides
@@ -1161,16 +1263,18 @@ Posibles secciones:
 - Composición y descomposición
 - Visualización
 
+### CAPÍTULO 43. TRANSFORMACIONES Y GEOMETRÍA ANALÍTICA {#capitulo-43}
 
-CAPÍTULO 43. TRANSFORMACIONES Y GEOMETRÍA ANALÍTICA
+**Descripción:**
 
-Descripción:
 Conecta geometría con coordenadas, transformaciones y relaciones algebraicas.
 
-Objetivo general:
+**Objetivo general:**
+
 Integrar perspectivas sintéticas y analíticas de la geometría escolar.
 
-Posibles secciones:
+**Posibles secciones:**
+
 - Plano cartesiano
 - Distancia
 - Punto medio
@@ -1184,17 +1288,19 @@ Posibles secciones:
 - Simetrías
 - Invariantes
 
+### CAPÍTULO 44. COMBINATORIA Y PROBABILIDAD {#capitulo-44}
 
-CAPÍTULO 44. COMBINATORIA Y PROBABILIDAD
+**Descripción:**
 
-Descripción:
 Desarrolla razonamiento sobre conteo, azar y relaciones entre eventos.
 
-Objetivo general:
+**Objetivo general:**
+
 Fundamentar los contenidos probabilísticos escolares mediante estructuras de conteo
 y modelos de experimentos aleatorios.
 
-Posibles secciones:
+**Posibles secciones:**
+
 - Principios de conteo
 - Diagramas de árbol
 - Permutaciones
@@ -1210,17 +1316,19 @@ Posibles secciones:
 - Bayes elemental
 - Simulación
 
+### CAPÍTULO 45. ESTADÍSTICA ESCOLAR {#capitulo-45}
 
-CAPÍTULO 45. ESTADÍSTICA ESCOLAR
+**Descripción:**
 
-Descripción:
 Estudia el ciclo de investigación estadística y las herramientas descriptivas
 fundamentales.
 
-Objetivo general:
+**Objetivo general:**
+
 Desarrollar conocimiento profesional para enseñar e interpretar datos y variabilidad.
 
-Posibles secciones:
+**Posibles secciones:**
+
 - Preguntas estadísticas
 - Datos
 - Variables
@@ -1236,17 +1344,19 @@ Posibles secciones:
 - Asociación
 - Interpretación crítica
 
+### CAPÍTULO 46. MATEMÁTICA FINANCIERA {#capitulo-46}
 
-CAPÍTULO 46. MATEMÁTICA FINANCIERA
+**Descripción:**
 
-Descripción:
 Aplica porcentajes, sucesiones y funciones al análisis de situaciones financieras.
 
-Objetivo general:
+**Objetivo general:**
+
 Proporcionar fundamentos matemáticos para comprender fenómenos financieros escolares
 y cotidianos.
 
-Posibles secciones:
+**Posibles secciones:**
+
 - Interés simple
 - Interés compuesto
 - Tasas
@@ -1260,17 +1370,19 @@ Posibles secciones:
 - Riesgo
 - Lectura crítica
 
+### CAPÍTULO 47. CIENCIA DE DATOS ESCOLAR {#capitulo-47}
 
-CAPÍTULO 47. CIENCIA DE DATOS ESCOLAR
+**Descripción:**
 
-Descripción:
 Amplía la estadística escolar hacia flujos contemporáneos de tratamiento y comunicación
 de datos.
 
-Objetivo general:
+**Objetivo general:**
+
 Introducir prácticas elementales de ciencia de datos relevantes para educación escolar.
 
-Posibles secciones:
+**Posibles secciones:**
+
 - Ciclo de datos
 - Adquisición
 - Almacenamiento
@@ -1284,24 +1396,25 @@ Posibles secciones:
 - Privacidad
 - Sesgo
 
-
 NOTA SOBRE FORMACIÓN DIFERENCIADA:
 No existe un capítulo independiente denominado "Formación diferenciada matemática".
 Los capítulos 48–51 pertenecen plenamente a la matemática escolar porque corresponden
 a la formación diferenciada de enseñanza media. Puede existir solamente una breve
 introducción editorial antes de este conjunto.
 
+### CAPÍTULO 48. LÍMITES, DERIVADAS E INTEGRALES {#capitulo-48}
 
-CAPÍTULO 48. LÍMITES, DERIVADAS E INTEGRALES
+**Descripción:**
 
-Descripción:
 Introduce ideas de cambio y acumulación dentro de la formación diferenciada escolar.
 
-Objetivo general:
+**Objetivo general:**
+
 Desarrollar una introducción conceptualmente sólida al cálculo desde el contexto de
 enseñanza media.
 
-Posibles secciones:
+**Posibles secciones:**
+
 - Cambio
 - Aproximación
 - Idea de límite
@@ -1318,18 +1431,20 @@ Posibles secciones:
 - Modelación
 - Proyectos
 
+### CAPÍTULO 49. PROBABILIDADES Y ESTADÍSTICA DESCRIPTIVA E INFERENCIAL {#capitulo-49}
 
-CAPÍTULO 49. PROBABILIDADES Y ESTADÍSTICA DESCRIPTIVA E INFERENCIAL
+**Descripción:**
 
-Descripción:
 Profundiza estadística y probabilidad escolar incorporando ideas elementales de
 inferencia.
 
-Objetivo general:
+**Objetivo general:**
+
 Desarrollar razonamiento sobre variabilidad, muestreo e incertidumbre en la formación
 diferenciada.
 
-Posibles secciones:
+**Posibles secciones:**
+
 - Análisis de datos
 - Visualización
 - Estadística descriptiva
@@ -1344,16 +1459,18 @@ Posibles secciones:
 - Simulación
 - Comunicación de resultados
 
+### CAPÍTULO 50. PENSAMIENTO COMPUTACIONAL Y PROGRAMACIÓN {#capitulo-50}
 
-CAPÍTULO 50. PENSAMIENTO COMPUTACIONAL Y PROGRAMACIÓN
+**Descripción:**
 
-Descripción:
 Utiliza algoritmos y programación como formas de representar y resolver problemas.
 
-Objetivo general:
+**Objetivo general:**
+
 Desarrollar pensamiento computacional conectado con actividad matemática.
 
-Posibles secciones:
+**Posibles secciones:**
+
 - Descomposición
 - Reconocimiento de patrones
 - Abstracción
@@ -1369,17 +1486,19 @@ Posibles secciones:
 - Modelación
 - Proyectos
 
+### CAPÍTULO 51. GEOMETRÍA 3D {#capitulo-51}
 
-CAPÍTULO 51. GEOMETRÍA 3D
+**Descripción:**
 
-Descripción:
 Extiende la geometría espacial escolar mediante coordenadas y vectores tridimensionales.
 
-Objetivo general:
+**Objetivo general:**
+
 Conectar visualización espacial, geometría analítica y representación vectorial en
 tres dimensiones.
 
-Posibles secciones:
+**Posibles secciones:**
+
 - Sistemas de coordenadas 3D
 - Puntos
 - Vectores
@@ -1394,22 +1513,23 @@ Posibles secciones:
 - Visualización
 - Modelación
 
+## PARTE III. FUNDAMENTOS UNIVERSITARIOS Y APLICACIONES {#parte-iii}
 
-==============================================================
-PARTE III. FUNDAMENTOS UNIVERSITARIOS Y APLICACIONES
 Capítulos 52–73
-==============================================================
 
-CAPÍTULO 52. LÓGICA Y CONJUNTOS
+### CAPÍTULO 52. LÓGICA Y CONJUNTOS {#capitulo-52}
 
-Descripción:
+**Descripción:**
+
 Proporciona el lenguaje formal básico utilizado en matemática universitaria.
 
-Objetivo general:
+**Objetivo general:**
+
 Fundamentar definiciones, estructuras y demostraciones mediante lógica y teoría
 elemental de conjuntos.
 
-Posibles secciones:
+**Posibles secciones:**
+
 - Proposiciones
 - Conectores
 - Tablas de verdad
@@ -1424,18 +1544,20 @@ Posibles secciones:
 - Relaciones de orden
 - Funciones
 
+### CAPÍTULO 53. DEMOSTRACIÓN MATEMÁTICA {#capitulo-53}
 
-CAPÍTULO 53. DEMOSTRACIÓN MATEMÁTICA
+**Descripción:**
 
-Descripción:
 Profundiza la lectura, construcción y escritura de demostraciones en matemática
 universitaria.
 
-Objetivo general:
+**Objetivo general:**
+
 Proporcionar las técnicas formales de demostración que sustentan estudios matemáticos
 posteriores y que el profesor puede necesitar recuperar.
 
-Posibles secciones:
+**Posibles secciones:**
+
 - Estructura de una demostración
 - Hipótesis y conclusión
 - Demostración directa
@@ -1456,18 +1578,20 @@ Debe evitar duplicar el capítulo 14. El capítulo 14 aborda argumentación y de
 como práctica matemática y escolar; este capítulo desarrolla la matemática formal
 universitaria de las demostraciones.
 
+### CAPÍTULO 54. SISTEMAS NUMÉRICOS {#capitulo-54}
 
-CAPÍTULO 54. SISTEMAS NUMÉRICOS
+**Descripción:**
 
-Descripción:
 Reexamina naturales, enteros, racionales, reales y complejos desde una perspectiva
 estructural y universitaria.
 
-Objetivo general:
+**Objetivo general:**
+
 Comprender las propiedades y construcciones que relacionan los distintos sistemas
 numéricos.
 
-Posibles secciones:
+**Posibles secciones:**
+
 - Números naturales
 - Construcción de enteros
 - Construcción de racionales
@@ -1481,17 +1605,19 @@ Posibles secciones:
 - Propiedades estructurales
 - Conexiones con matemática escolar
 
+### CAPÍTULO 55. ESTRUCTURAS ALGEBRAICAS {#capitulo-55}
 
-CAPÍTULO 55. ESTRUCTURAS ALGEBRAICAS
+**Descripción:**
 
-Descripción:
 Introduce estructuras algebraicas que abstraen propiedades de operaciones y sistemas.
 
-Objetivo general:
+**Objetivo general:**
+
 Proporcionar fundamentos para reconocer estructuras comunes detrás de diferentes
 contenidos algebraicos.
 
-Posibles secciones:
+**Posibles secciones:**
+
 - Operaciones binarias
 - Propiedades
 - Grupos
@@ -1506,17 +1632,19 @@ Posibles secciones:
 - Aritmética modular
 - Conexiones escolares
 
+### CAPÍTULO 56. POLINOMIOS {#capitulo-56}
 
-CAPÍTULO 56. POLINOMIOS
+**Descripción:**
 
-Descripción:
 Profundiza la estructura algebraica de los polinomios.
 
-Objetivo general:
+**Objetivo general:**
+
 Fundamentar resultados utilizados en álgebra escolar y conectar polinomios con
 estructuras algebraicas más generales.
 
-Posibles secciones:
+**Posibles secciones:**
+
 - Anillo de polinomios
 - Grado
 - Operaciones
@@ -1530,17 +1658,19 @@ Posibles secciones:
 - Polinomios irreducibles
 - Teorema fundamental del álgebra
 
+### CAPÍTULO 57. MATEMÁTICA DISCRETA {#capitulo-57}
 
-CAPÍTULO 57. MATEMÁTICA DISCRETA
+**Descripción:**
 
-Descripción:
 Estudia estructuras finitas y técnicas de razonamiento no continuo.
 
-Objetivo general:
+**Objetivo general:**
+
 Proporcionar fundamentos discretos relevantes para combinatoria, algoritmos y
 resolución de problemas.
 
-Posibles secciones:
+**Posibles secciones:**
+
 - Conteo avanzado
 - Inclusión-exclusión
 - Principio del palomar
@@ -1554,17 +1684,19 @@ Posibles secciones:
 - Invariantes discretos
 - Aplicaciones
 
+### CAPÍTULO 58. ÁLGEBRA LINEAL {#capitulo-58}
 
-CAPÍTULO 58. ÁLGEBRA LINEAL
+**Descripción:**
 
-Descripción:
 Estudia vectores, matrices, sistemas lineales y transformaciones lineales.
 
-Objetivo general:
+**Objetivo general:**
+
 Proporcionar fundamentos utilizados transversalmente en matemática, estadística,
 optimización y ciencias.
 
-Posibles secciones:
+**Posibles secciones:**
+
 - Sistemas lineales
 - Matrices
 - Eliminación gaussiana
@@ -1582,17 +1714,19 @@ Posibles secciones:
 - Proyecciones
 - Mínimos cuadrados
 
+### CAPÍTULO 59. GEOMETRÍA ANALÍTICA Y VECTORIAL {#capitulo-59}
 
-CAPÍTULO 59. GEOMETRÍA ANALÍTICA Y VECTORIAL
+**Descripción:**
 
-Descripción:
 Formaliza objetos geométricos mediante coordenadas y vectores.
 
-Objetivo general:
+**Objetivo general:**
+
 Conectar geometría con álgebra lineal y proporcionar herramientas analíticas para
 estudiar objetos geométricos.
 
-Posibles secciones:
+**Posibles secciones:**
+
 - Vectores
 - Norma
 - Producto escalar
@@ -1607,21 +1741,22 @@ Posibles secciones:
 - Proyecciones
 - Conexiones con álgebra lineal
 
-
 NOTA:
 No existe un capítulo "Precálculo". Sus contenidos ya pertenecen a álgebra, funciones,
 trigonometría, sucesiones, polinomios y otros capítulos correspondientes.
 
+### CAPÍTULO 60. ANÁLISIS REAL {#capitulo-60}
 
-CAPÍTULO 60. ANÁLISIS REAL
+**Descripción:**
 
-Descripción:
 Proporciona fundamentos rigurosos para límites, continuidad y convergencia.
 
-Objetivo general:
+**Objetivo general:**
+
 Recuperar y profundizar las estructuras conceptuales que sustentan el cálculo.
 
-Posibles secciones:
+**Posibles secciones:**
+
 - Propiedades de los reales
 - Completitud
 - Supremo e ínfimo
@@ -1635,16 +1770,18 @@ Posibles secciones:
 - Contraejemplos
 - Diferencia entre intuición y formalización
 
+### CAPÍTULO 61. DERIVACIÓN EN UNA VARIABLE {#capitulo-61}
 
-CAPÍTULO 61. DERIVACIÓN EN UNA VARIABLE
+**Descripción:**
 
-Descripción:
 Desarrolla rigurosamente la derivada y sus principales propiedades.
 
-Objetivo general:
+**Objetivo general:**
+
 Profundizar los fundamentos del cálculo diferencial de una variable.
 
-Posibles secciones:
+**Posibles secciones:**
+
 - Definición
 - Interpretaciones
 - Diferenciabilidad
@@ -1659,17 +1796,19 @@ Posibles secciones:
 - Aproximación lineal
 - Taylor elemental
 
+### CAPÍTULO 62. INTEGRACIÓN {#capitulo-62}
 
-CAPÍTULO 62. INTEGRACIÓN
+**Descripción:**
 
-Descripción:
 Construye la integral mediante sumas y acumulación y desarrolla su relación con la
 derivación.
 
-Objetivo general:
+**Objetivo general:**
+
 Profundizar los fundamentos del cálculo integral.
 
-Posibles secciones:
+**Posibles secciones:**
+
 - Sumas de Riemann
 - Integral definida
 - Integrabilidad
@@ -1683,16 +1822,18 @@ Posibles secciones:
 - Volúmenes
 - Aplicaciones
 
+### CAPÍTULO 63. CÁLCULO EN VARIAS VARIABLES {#capitulo-63}
 
-CAPÍTULO 63. CÁLCULO EN VARIAS VARIABLES
+**Descripción:**
 
-Descripción:
 Extiende conceptos de cálculo hacia funciones de varias variables.
 
-Objetivo general:
+**Objetivo general:**
+
 Proporcionar fundamentos de diferenciación, optimización e integración multivariable.
 
-Posibles secciones:
+**Posibles secciones:**
+
 - Funciones multivariables
 - Gráficos y superficies
 - Curvas de nivel
@@ -1708,17 +1849,19 @@ Posibles secciones:
 - Multiplicadores de Lagrange
 - Integración múltiple
 
+### CAPÍTULO 64. ECUACIONES DIFERENCIALES {#capitulo-64}
 
-CAPÍTULO 64. ECUACIONES DIFERENCIALES
+**Descripción:**
 
-Descripción:
 Estudia ecuaciones que modelan procesos de cambio continuo.
 
-Objetivo general:
+**Objetivo general:**
+
 Introducir conceptos y métodos elementales de ecuaciones diferenciales con énfasis
 en interpretación y modelación.
 
-Posibles secciones:
+**Posibles secciones:**
+
 - Qué es una ecuación diferencial
 - Problemas de valor inicial
 - Campos de pendientes
@@ -1732,17 +1875,19 @@ Posibles secciones:
 - Método de Euler
 - Aplicaciones
 
+### CAPÍTULO 65. MÉTODOS NUMÉRICOS {#capitulo-65}
 
-CAPÍTULO 65. MÉTODOS NUMÉRICOS
+**Descripción:**
 
-Descripción:
 Estudia métodos aproximados para problemas que no pueden resolverse convenientemente
 de forma exacta.
 
-Objetivo general:
+**Objetivo general:**
+
 Comprender aproximación computacional, convergencia y propagación del error.
 
-Posibles secciones:
+**Posibles secciones:**
+
 - Aproximación numérica
 - Error
 - Error absoluto y relativo
@@ -1756,16 +1901,18 @@ Posibles secciones:
 - Resolución numérica de EDO
 - Convergencia
 
+### CAPÍTULO 66. PROBABILIDAD MATEMÁTICA {#capitulo-66}
 
-CAPÍTULO 66. PROBABILIDAD MATEMÁTICA
+**Descripción:**
 
-Descripción:
 Formaliza el estudio del azar mediante espacios de probabilidad y variables aleatorias.
 
-Objetivo general:
+**Objetivo general:**
+
 Proporcionar los fundamentos probabilísticos necesarios para estadística y modelación.
 
-Posibles secciones:
+**Posibles secciones:**
+
 - Experimentos
 - Espacios de probabilidad
 - Sigma-álgebras a nivel pertinente
@@ -1782,17 +1929,19 @@ Posibles secciones:
 - Distribuciones conjuntas
 - Convergencia probabilística introductoria
 
+### CAPÍTULO 67. INFERENCIA ESTADÍSTICA {#capitulo-67}
 
-CAPÍTULO 67. INFERENCIA ESTADÍSTICA
+**Descripción:**
 
-Descripción:
 Estudia procedimientos para aprender sobre poblaciones o procesos a partir de muestras.
 
-Objetivo general:
+**Objetivo general:**
+
 Proporcionar fundamentos de estimación, pruebas de hipótesis y modelación estadística
 elemental.
 
-Posibles secciones:
+**Posibles secciones:**
+
 - Población y muestra
 - Muestreo
 - Estadísticos
@@ -1809,17 +1958,19 @@ Posibles secciones:
 - Incertidumbre
 - Asociación y causalidad
 
+### CAPÍTULO 68. OPTIMIZACIÓN Y MODELACIÓN {#capitulo-68}
 
-CAPÍTULO 68. OPTIMIZACIÓN Y MODELACIÓN
+**Descripción:**
 
-Descripción:
 Estudia problemas de decisión mediante funciones objetivo, restricciones y modelos.
 
-Objetivo general:
+**Objetivo general:**
+
 Proporcionar fundamentos para formular, resolver e interpretar problemas de
 optimización.
 
-Posibles secciones:
+**Posibles secciones:**
+
 - Formulación
 - Variables de decisión
 - Función objetivo
@@ -1834,18 +1985,20 @@ Posibles secciones:
 - Sensibilidad
 - Incertidumbre
 
+### CAPÍTULO 69. HORIZONTES AVANZADOS {#capitulo-69}
 
-CAPÍTULO 69. HORIZONTES AVANZADOS
+**Descripción:**
 
-Descripción:
 Presenta áreas matemáticas y estadísticas posteriores que exceden el desarrollo
 principal de MGP.
 
-Objetivo general:
+**Objetivo general:**
+
 Situar los contenidos desarrollados dentro de un panorama matemático más amplio sin
 pretender transformar MGP en una enciclopedia universitaria completa.
 
-Posibles secciones:
+**Posibles secciones:**
+
 - Topología
 - Teoría de medida
 - Integral de Lebesgue
@@ -1859,22 +2012,23 @@ Posibles secciones:
 - Bibliografía especializada
 - Límites del alcance de MGP
 
-
 NOTA SOBRE APLICACIONES:
 No existe un capítulo independiente "Aplicaciones interdisciplinarias".
 Los criterios sobre aplicaciones auténticas, supuestos, validación y límites se
 integran principalmente en "Modelar" y en las introducciones de los capítulos siguientes.
 
+### CAPÍTULO 70. MATEMÁTICA Y FÍSICA {#capitulo-70}
 
-CAPÍTULO 70. MATEMÁTICA Y FÍSICA
+**Descripción:**
 
-Descripción:
 Relaciona conceptos matemáticos con modelos cuantitativos de fenómenos físicos.
 
-Objetivo general:
+**Objetivo general:**
+
 Mostrar conexiones matemáticamente sustantivas entre matemática y física.
 
-Posibles secciones:
+**Posibles secciones:**
+
 - Magnitudes y unidades
 - Vectores
 - Movimiento
@@ -1889,17 +2043,19 @@ Posibles secciones:
 - Validación
 - Límites del modelo
 
+### CAPÍTULO 71. MATEMÁTICA, BIOLOGÍA Y SALUD {#capitulo-71}
 
-CAPÍTULO 71. MATEMÁTICA, BIOLOGÍA Y SALUD
+**Descripción:**
 
-Descripción:
 Aplica funciones, probabilidad y estadística a fenómenos biológicos y sanitarios.
 
-Objetivo general:
+**Objetivo general:**
+
 Desarrollar aplicaciones matemáticas auténticas en contextos caracterizados por
 variabilidad e incertidumbre.
 
-Posibles secciones:
+**Posibles secciones:**
+
 - Crecimiento poblacional
 - Funciones exponenciales
 - Modelo logístico
@@ -1913,17 +2069,19 @@ Posibles secciones:
 - Incertidumbre
 - Límites de los modelos
 
+### CAPÍTULO 72. MATEMÁTICA Y QUÍMICA {#capitulo-72}
 
-CAPÍTULO 72. MATEMÁTICA Y QUÍMICA
+**Descripción:**
 
-Descripción:
 Relaciona contenidos matemáticos con fenómenos y modelos cuantitativos de química.
 
-Objetivo general:
+**Objetivo general:**
+
 Mostrar conexiones estructurales entre proporcionalidad, funciones, unidades y
 modelos químicos.
 
-Posibles secciones:
+**Posibles secciones:**
+
 - Proporciones
 - Estequiometría
 - Concentraciones
@@ -1937,18 +2095,20 @@ Posibles secciones:
 - Gráficos
 - Aproximaciones
 
+### CAPÍTULO 73. MATEMÁTICA, SOCIEDAD Y TERRITORIO {#capitulo-73}
 
-CAPÍTULO 73. MATEMÁTICA, SOCIEDAD Y TERRITORIO
+**Descripción:**
 
-Descripción:
 Estudia aplicaciones matemáticas a fenómenos sociales, económicos, educativos y
 territoriales.
 
-Objetivo general:
+**Objetivo general:**
+
 Desarrollar una lectura cuantitativa crítica de fenómenos sociales sin confundir
 modelos matemáticos con la totalidad del fenómeno estudiado.
 
-Posibles secciones:
+**Posibles secciones:**
+
 - Demografía
 - Finanzas
 - Educación
@@ -1963,23 +2123,24 @@ Posibles secciones:
 - Interpretación crítica
 - Limitaciones
 
+## PARTE IV. CURRÍCULO, EVALUACIÓN Y DESARROLLO PROFESIONAL {#parte-iv}
 
-================================================================
-PARTE IV. CURRÍCULO, EVALUACIÓN Y DESARROLLO PROFESIONAL
 Capítulos 74–82
-================================================================
 
-CAPÍTULO 74. SISTEMA CURRICULAR CHILENO
+### CAPÍTULO 74. SISTEMA CURRICULAR CHILENO {#capitulo-74}
 
-Descripción:
+**Descripción:**
+
 Documenta la estructura del currículo chileno de matemática y sus principales
 componentes.
 
-Objetivo general:
+**Objetivo general:**
+
 Permitir interpretar profesionalmente contenidos, habilidades, progresiones y
 documentos curriculares.
 
-Posibles secciones:
+**Posibles secciones:**
+
 - Sistema curricular
 - Bases Curriculares
 - Objetivos de Aprendizaje
@@ -1993,18 +2154,20 @@ Posibles secciones:
 - Actualizaciones curriculares
 - Correspondencia con objetos MGP
 
+### CAPÍTULO 75. PAES DE MATEMÁTICA {#capitulo-75}
 
-CAPÍTULO 75. PAES DE MATEMÁTICA
+**Descripción:**
 
-Descripción:
 Documenta y analiza la Competencia Matemática 1 y Competencia Matemática 2 dentro
 del sistema de acceso a la educación superior.
 
-Objetivo general:
+**Objetivo general:**
+
 Proporcionar una referencia profesional sobre estructura, contenidos, habilidades
 y evolución de PAES de Matemática.
 
-Posibles secciones:
+**Posibles secciones:**
+
 - Antecedentes
 - Propósito
 - Competencia Matemática 1 (M1)
@@ -2024,6 +2187,7 @@ Posibles secciones:
 - Fuentes oficiales
 
 COLECCIONES ASOCIADAS NO NUMERADAS:
+
 - Preguntas PAES M1
 - Preguntas PAES M2
 - Regular
@@ -2035,22 +2199,25 @@ COLECCIONES ASOCIADAS NO NUMERADAS:
 - Clasificación por error
 - Clasificación por distractor
 
-IMPORTANTE:
+**IMPORTANTE:**
+
 M1 es una sola prueba/modalidad conceptual denominada Competencia Matemática 1.
 No utilizar categorías inventadas como "M1 fundamental" o "M1 intensiva".
 
+### CAPÍTULO 76. PROTOCOLO DE ANÁLISIS DE ÍTEMS Y EVALUACIONES {#capitulo-76}
 
-CAPÍTULO 76. PROTOCOLO DE ANÁLISIS DE ÍTEMS Y EVALUACIONES
+**Descripción:**
 
-Descripción:
 Establece un procedimiento común para analizar profesionalmente preguntas y otros
 objetos evaluativos independientemente del instrumento de procedencia.
 
-Objetivo general:
+**Objetivo general:**
+
 Hacer comparables, reproducibles y transparentes los análisis de PAES, SIMCE, END,
 ECEP, evaluaciones internacionales e ítems originales.
 
-Posibles secciones:
+**Posibles secciones:**
+
 - Propósito del análisis
 - Unidad de análisis
 - Procedencia
@@ -2089,17 +2256,19 @@ No existe un capítulo "Preguntas originales".
 Los ítems originales de MGP constituyen una colección de objetos y su construcción
 y validación se documentan en este protocolo.
 
+### CAPÍTULO 77. ESTÁNDARES DOCENTES {#capitulo-77}
 
-CAPÍTULO 77. ESTÁNDARES DOCENTES
+**Descripción:**
 
-Descripción:
 Documenta marcos que especifican conocimientos y prácticas esperados de profesores.
 
-Objetivo general:
+**Objetivo general:**
+
 Relacionar los estándares profesionales chilenos con el conocimiento matemático y
 didáctico sistematizado en MGP.
 
-Posibles secciones:
+**Posibles secciones:**
+
 - Función de los estándares
 - Marco para la Buena Enseñanza
 - Estándares pedagógicos
@@ -2113,18 +2282,20 @@ Posibles secciones:
 - Vacíos
 - Evolución de estándares
 
+### CAPÍTULO 78. FORMACIÓN INICIAL DOCENTE {#capitulo-78}
 
-CAPÍTULO 78. FORMACIÓN INICIAL DOCENTE
+**Descripción:**
 
-Descripción:
 Estudia la formación de futuros profesores de matemática y los conocimientos y
 prácticas que ésta busca desarrollar.
 
-Objetivo general:
+**Objetivo general:**
+
 Relacionar el corpus profesional de MGP con problemas y estructuras de la formación
 inicial docente.
 
-Posibles secciones:
+**Posibles secciones:**
+
 - Propósitos de la formación inicial
 - Conocimiento disciplinario
 - Conocimiento didáctico
@@ -2139,17 +2310,19 @@ Posibles secciones:
 - Relación universidad-escuela
 - Evaluación de la formación
 
+### CAPÍTULO 79. SIMCE DE MATEMÁTICA {#capitulo-79}
 
-CAPÍTULO 79. SIMCE DE MATEMÁTICA
+**Descripción:**
 
-Descripción:
 Documenta la evaluación SIMCE de matemática, su marco, instrumentos y materiales
 liberados.
 
-Objetivo general:
+**Objetivo general:**
+
 Permitir una lectura profesional y técnicamente informada de SIMCE.
 
-Posibles secciones:
+**Posibles secciones:**
+
 - Propósito
 - Historia y evolución pertinente
 - Niveles evaluados
@@ -2168,17 +2341,19 @@ Posibles secciones:
 COLECCIÓN ASOCIADA:
 Los ítems SIMCE disponibles son objetos clasificables, no un capítulo separado.
 
+### CAPÍTULO 80. END {#capitulo-80}
 
-CAPÍTULO 80. END
+**Descripción:**
 
-Descripción:
 Documenta la Evaluación Nacional Diagnóstica de la Formación Inicial Docente.
 
-Objetivo general:
+**Objetivo general:**
+
 Analizar sus dominios, propósitos, instrumentos y relación con la formación de
 profesores.
 
-Posibles secciones:
+**Posibles secciones:**
+
 - Propósito
 - Contexto institucional
 - Población
@@ -2196,18 +2371,20 @@ Posibles secciones:
 COLECCIÓN ASOCIADA:
 Los ítems o ejemplos disponibles constituyen objetos, no un capítulo adicional.
 
+### CAPÍTULO 81. ECEP Y CARRERA DOCENTE {#capitulo-81}
 
-CAPÍTULO 81. ECEP Y CARRERA DOCENTE
+**Descripción:**
 
-Descripción:
 Documenta el sistema de reconocimiento profesional docente y la evaluación de
 conocimientos específicos y pedagógicos.
 
-Objetivo general:
+**Objetivo general:**
+
 Relacionar las exigencias evaluativas del desarrollo profesional docente con el
 conocimiento profesional sistematizado por MGP.
 
-Posibles secciones:
+**Posibles secciones:**
+
 - Carrera Docente
 - Sistema de Reconocimiento
 - ECEP
@@ -2226,18 +2403,20 @@ Posibles secciones:
 COLECCIÓN ASOCIADA:
 Los ítems ECEP disponibles constituyen objetos, no un capítulo "Preguntas ECEP".
 
+### CAPÍTULO 82. EVALUACIONES INTERNACIONALES {#capitulo-82}
 
-CAPÍTULO 82. EVALUACIONES INTERNACIONALES
+**Descripción:**
 
-Descripción:
 Presenta evaluaciones educativas internacionales relevantes para matemática y
 criterios para interpretar sus resultados e ítems.
 
-Objetivo general:
+**Objetivo general:**
+
 Proporcionar herramientas para interpretar comparaciones internacionales evitando
 lecturas simplistas de puntajes y rankings.
 
-Posibles secciones:
+**Posibles secciones:**
+
 - PISA
 - TIMSS
 - ERCE
@@ -2254,22 +2433,23 @@ Posibles secciones:
 - Incertidumbre
 - Limitaciones
 
+## PARTE V. PSICOMETRÍA, OBSERVATORIO E INVESTIGACIÓN {#parte-v}
 
-==============================================================
-PARTE V. PSICOMETRÍA, OBSERVATORIO E INVESTIGACIÓN
 Capítulos 83–102
-==============================================================
 
-CAPÍTULO 83. FUNDAMENTOS DE PSICOMETRÍA
+### CAPÍTULO 83. FUNDAMENTOS DE PSICOMETRÍA {#capitulo-83}
 
-Descripción:
+**Descripción:**
+
 Introduce conceptos fundamentales de medición educativa.
 
-Objetivo general:
+**Objetivo general:**
+
 Proporcionar los conocimientos necesarios para interpretar qué mide una evaluación
 y qué significan sus puntuaciones.
 
-Posibles secciones:
+**Posibles secciones:**
+
 - Medición
 - Constructos
 - Operacionalización
@@ -2283,16 +2463,18 @@ Posibles secciones:
 - Consecuencias
 - Límites de la medición
 
+### CAPÍTULO 84. TEORÍA CLÁSICA DE TESTS {#capitulo-84}
 
-CAPÍTULO 84. TEORÍA CLÁSICA DE TESTS
+**Descripción:**
 
-Descripción:
 Presenta el modelo clásico de medición y sus herramientas para estudiar pruebas e ítems.
 
-Objetivo general:
+**Objetivo general:**
+
 Proporcionar fundamentos psicométricos para análisis elemental de instrumentos.
 
-Posibles secciones:
+**Posibles secciones:**
+
 - Puntaje observado
 - Puntaje verdadero
 - Error
@@ -2306,18 +2488,20 @@ Posibles secciones:
 - Dependencia de la muestra
 - Limitaciones
 
+### CAPÍTULO 85. TEORÍA DE RESPUESTA AL ÍTEM {#capitulo-85}
 
-CAPÍTULO 85. TEORÍA DE RESPUESTA AL ÍTEM
+**Descripción:**
 
-Descripción:
 Introduce modelos de variables latentes que relacionan respuestas a ítems con
 habilidades o constructos.
 
-Objetivo general:
+**Objetivo general:**
+
 Proporcionar fundamentos para comprender análisis modernos de ítems, escalas y
 precisión de medición.
 
-Posibles secciones:
+**Posibles secciones:**
+
 - Rasgo latente
 - Supuestos
 - Unidimensionalidad
@@ -2337,17 +2521,19 @@ Posibles secciones:
 - Escalamiento
 - Equiparación
 
+### CAPÍTULO 86. CALIDAD, EQUIDAD Y COMPARABILIDAD {#capitulo-86}
 
-CAPÍTULO 86. CALIDAD, EQUIDAD Y COMPARABILIDAD
+**Descripción:**
 
-Descripción:
 Estudia propiedades técnicas y sociales que condicionan interpretaciones justas y
 comparables de evaluaciones.
 
-Objetivo general:
+**Objetivo general:**
+
 Relacionar calidad psicométrica, equidad y comparabilidad de instrumentos y resultados.
 
-Posibles secciones:
+**Posibles secciones:**
+
 - Calidad de ítems
 - Calidad del instrumento
 - Distractores
@@ -2363,18 +2549,20 @@ Posibles secciones:
 - Cambios de instrumento
 - Consecuencias
 
+### CAPÍTULO 87. FUENTES Y SISTEMAS {#capitulo-87}
 
-CAPÍTULO 87. FUENTES Y SISTEMAS
+**Descripción:**
 
-Descripción:
 Documenta las principales fuentes de datos utilizadas para estudiar el sistema
 educativo y las evaluaciones.
 
-Objetivo general:
+**Objetivo general:**
+
 Garantizar que los análisis puedan reconstruirse y que se conozcan las propiedades
 y limitaciones de cada fuente.
 
-Posibles secciones:
+**Posibles secciones:**
+
 - Agencia de Calidad
 - SIMCE
 - Cuestionarios de contexto
@@ -2394,16 +2582,18 @@ Posibles secciones:
 - Limitaciones
 - Reproducibilidad
 
+### CAPÍTULO 88. RESULTADOS SIMCE {#capitulo-88}
 
-CAPÍTULO 88. RESULTADOS SIMCE
+**Descripción:**
 
-Descripción:
 Analiza resultados SIMCE desde perspectivas descriptivas e inferenciales.
 
-Objetivo general:
+**Objetivo general:**
+
 Estudiar patrones, tendencias y brechas evitando atribuciones causales injustificadas.
 
-Posibles secciones:
+**Posibles secciones:**
+
 - Distribuciones
 - Promedios
 - Estándares de aprendizaje
@@ -2420,18 +2610,20 @@ Posibles secciones:
 - Comparabilidad
 - Limitaciones
 
+### CAPÍTULO 89. RESULTADOS PAES {#capitulo-89}
 
-CAPÍTULO 89. RESULTADOS PAES
+**Descripción:**
 
-Descripción:
 Estudia participación y resultados en las pruebas PAES de matemática y sus relaciones
 con características del sistema educativo.
 
-Objetivo general:
+**Objetivo general:**
+
 Proporcionar análisis estadísticos rigurosos del comportamiento de PAES y sus
 poblaciones.
 
-Posibles secciones:
+**Posibles secciones:**
+
 - Rendición
 - Participación
 - Distribuciones
@@ -2448,18 +2640,20 @@ Posibles secciones:
 - Incertidumbre
 - Limitaciones
 
+### CAPÍTULO 90. TRAYECTORIAS DEL SISTEMA {#capitulo-90}
 
-CAPÍTULO 90. TRAYECTORIAS DEL SISTEMA
+**Descripción:**
 
-Descripción:
 Estudia relaciones entre diferentes etapas educativas y distingue conexiones
 individuales, longitudinales y agregadas.
 
-Objetivo general:
+**Objetivo general:**
+
 Comprender cómo se articulan diferentes momentos del sistema educativo sin confundir
 asociaciones agregadas con trayectorias individuales.
 
-Posibles secciones:
+**Posibles secciones:**
+
 - Educación básica
 - Enseñanza media
 - Formación diferenciada
@@ -2475,18 +2669,20 @@ Posibles secciones:
 - Sesgo de selección
 - Limitaciones inferenciales
 
+### CAPÍTULO 91. ALINEACIÓN CURRICULAR Y EVALUATIVA {#capitulo-91}
 
-CAPÍTULO 91. ALINEACIÓN CURRICULAR Y EVALUATIVA
+**Descripción:**
 
-Descripción:
 Compara lo que prescribe el currículo con lo que diferentes evaluaciones declaran
 o efectivamente operacionalizan.
 
-Objetivo general:
+**Objetivo general:**
+
 Analizar cobertura, profundidad, correspondencias, vacíos y redundancias entre
 currículo, estándares y evaluaciones.
 
-Posibles secciones:
+**Posibles secciones:**
+
 - Concepto de alineación
 - Currículo escolar
 - Formación diferenciada
@@ -2504,17 +2700,19 @@ Posibles secciones:
 - Redundancias
 - Evolución temporal
 
+### CAPÍTULO 92. COMUNICACIÓN ESTADÍSTICA {#capitulo-92}
 
-CAPÍTULO 92. COMUNICACIÓN ESTADÍSTICA
+**Descripción:**
 
-Descripción:
 Estudia cómo comunicar resultados cuantitativos educativos de manera rigurosa,
 comprensible y proporcional a la evidencia.
 
-Objetivo general:
+**Objetivo general:**
+
 Evitar exageraciones de precisión, significancia, causalidad o importancia práctica.
 
-Posibles secciones:
+**Posibles secciones:**
+
 - Tablas
 - Gráficos
 - Distribuciones
@@ -2534,18 +2732,20 @@ Posibles secciones:
 - Reproducibilidad
 - Divulgación responsable
 
+### CAPÍTULO 93. MÉTODOS DE ANÁLISIS DE CONTENIDO {#capitulo-93}
 
-CAPÍTULO 93. MÉTODOS DE ANÁLISIS DE CONTENIDO
+**Descripción:**
 
-Descripción:
 Formaliza procedimientos para clasificar y analizar sistemáticamente materiales,
 preguntas, soluciones, heurismos y errores.
 
-Objetivo general:
+**Objetivo general:**
+
 Hacer reproducibles y validables las clasificaciones utilizadas en investigaciones
 y productos de MGP.
 
-Posibles secciones:
+**Posibles secciones:**
+
 - Preguntas de investigación
 - Unidades de análisis
 - Categorías deductivas
@@ -2566,18 +2766,20 @@ Posibles secciones:
 - Análisis de sensibilidad
 - Reproducibilidad
 
+### CAPÍTULO 94. MÉTODOS CUALITATIVOS Y MIXTOS {#capitulo-94}
 
-CAPÍTULO 94. MÉTODOS CUALITATIVOS Y MIXTOS
+**Descripción:**
 
-Descripción:
 Presenta métodos para estudiar experiencias, prácticas, necesidades y usos que no
 pueden comprenderse únicamente mediante datos cuantitativos.
 
-Objetivo general:
+**Objetivo general:**
+
 Proporcionar herramientas de investigación cualitativa y mixta pertinentes para MGP
 y educación matemática.
 
-Posibles secciones:
+**Posibles secciones:**
+
 - Preguntas cualitativas
 - Entrevistas
 - Grupos focales
@@ -2594,18 +2796,20 @@ Posibles secciones:
 - Calidad
 - Reflexividad
 
+### CAPÍTULO 95. INVESTIGACIÓN BASADA EN DISEÑO {#capitulo-95}
 
-CAPÍTULO 95. INVESTIGACIÓN BASADA EN DISEÑO
+**Descripción:**
 
-Descripción:
 Estudia procesos iterativos de diseño, implementación, evaluación y refinamiento de
 intervenciones educativas.
 
-Objetivo general:
+**Objetivo general:**
+
 Proporcionar un marco para que el desarrollo de MGP pueda producir simultáneamente
 mejoras prácticas y conocimiento investigable.
 
-Posibles secciones:
+**Posibles secciones:**
+
 - Problema práctico
 - Investigación basada en diseño
 - Principios de diseño
@@ -2620,18 +2824,20 @@ Posibles secciones:
 - Transferibilidad
 - Documentación
 
+### CAPÍTULO 96. NECESIDADES PROFESIONALES {#capitulo-96}
 
-CAPÍTULO 96. NECESIDADES PROFESIONALES
+**Descripción:**
 
-Descripción:
 Estudia empíricamente qué conocimientos necesitan recuperar, consultar o actualizar
 los profesores de matemática.
 
-Objetivo general:
+**Objetivo general:**
+
 Utilizar evidencia profesional para determinar prioridades de desarrollo y evaluar
 la pertinencia de MGP.
 
-Posibles secciones:
+**Posibles secciones:**
+
 - Qué consultan los profesores
 - Qué conocimientos olvidan
 - Qué necesitan recuperar
@@ -2646,18 +2852,20 @@ Posibles secciones:
 - Análisis
 - Priorización del corpus
 
+### CAPÍTULO 97. USABILIDAD Y ACCESIBILIDAD {#capitulo-97}
 
-CAPÍTULO 97. USABILIDAD Y ACCESIBILIDAD
+**Descripción:**
 
-Descripción:
 Estudia si los usuarios pueden encontrar, comprender y utilizar eficazmente los
 contenidos de MGP.
 
-Objetivo general:
+**Objetivo general:**
+
 Evaluar y mejorar la interacción entre profesores y la infraestructura de información
 del proyecto.
 
-Posibles secciones:
+**Posibles secciones:**
+
 - Usuarios
 - Tareas de consulta
 - Encontrabilidad
@@ -2678,18 +2886,20 @@ Posibles secciones:
 - Métricas
 - Rediseño
 
+### CAPÍTULO 98. EVALUACIÓN DE IMPACTO {#capitulo-98}
 
-CAPÍTULO 98. EVALUACIÓN DE IMPACTO
+**Descripción:**
 
-Descripción:
 Estudia métodos para determinar si el uso de MGP genera cambios en conocimientos o
 prácticas profesionales.
 
-Objetivo general:
+**Objetivo general:**
+
 Proporcionar diseños que permitan evaluar efectos atribuibles o plausiblemente
 relacionados con el proyecto.
 
-Posibles secciones:
+**Posibles secciones:**
+
 - Teoría de cambio
 - Preguntas de impacto
 - Hipótesis
@@ -2707,24 +2917,25 @@ Posibles secciones:
 - Generalización
 - Limitaciones
 
-
 NOTA:
 "Agenda de investigación" NO es un capítulo numerado.
 Puede existir como página dinámica de gestión de proyectos propuestos, en diseño,
 en ejecución, en análisis, publicados o pendientes de replicación.
 
+### CAPÍTULO 99. ARQUITECTURA Y PROCESO EDITORIAL {#capitulo-99}
 
-CAPÍTULO 99. ARQUITECTURA Y PROCESO EDITORIAL
+**Descripción:**
 
-Descripción:
 Documenta cómo se representan, identifican, conectan, crean, revisan, publican,
 actualizan y retiran los objetos que forman MGP.
 
-Objetivo general:
+**Objetivo general:**
+
 Establecer una infraestructura editorial reproducible y sostenible sin convertir
 la arquitectura técnica en el foco principal de la obra.
 
-Posibles secciones:
+**Posibles secciones:**
+
 - Documento y objeto semántico
 - Tipos de objetos
 - Unidades de análisis
@@ -2757,17 +2968,19 @@ Posibles secciones:
 - Objetos históricos
 - Automatización editorial
 
+### CAPÍTULO 100. COLABORACIÓN Y GOBERNANZA {#capitulo-100}
 
-CAPÍTULO 100. COLABORACIÓN Y GOBERNANZA
+**Descripción:**
 
-Descripción:
 Establece reglas para aceptar contribuciones y tomar decisiones manteniendo coherencia
 y responsabilidad editorial.
 
-Objetivo general:
+**Objetivo general:**
+
 Permitir crecimiento colaborativo sin perder trazabilidad ni estándares de calidad.
 
-Posibles secciones:
+**Posibles secciones:**
+
 - Tipos de contribución
 - Roles
 - Responsabilidades
@@ -2783,18 +2996,20 @@ Posibles secciones:
 - Correcciones
 - Gobernanza a largo plazo
 
+### CAPÍTULO 101. DERECHOS, LICENCIAS Y ÉTICA {#capitulo-101}
 
-CAPÍTULO 101. DERECHOS, LICENCIAS Y ÉTICA
+**Descripción:**
 
-Descripción:
 Estudia las condiciones jurídicas y éticas de uso, creación y publicación de
 materiales, datos y código.
 
-Objetivo general:
+**Objetivo general:**
+
 Garantizar que MGP pueda reutilizar y producir materiales de manera jurídicamente
 defendible y éticamente responsable.
 
-Posibles secciones:
+**Posibles secciones:**
+
 - Propiedad intelectual
 - Contenido original
 - Licencias
@@ -2816,18 +3031,20 @@ Posibles secciones:
 - Transparencia
 - Conflictos éticos
 
+### CAPÍTULO 102. SOSTENIBILIDAD {#capitulo-102}
 
-CAPÍTULO 102. SOSTENIBILIDAD
+**Descripción:**
 
-Descripción:
 Estudia las condiciones necesarias para mantener MGP durante años y preservar el
 corpus frente a cambios tecnológicos o institucionales.
 
-Objetivo general:
+**Objetivo general:**
+
 Evitar que el proyecto dependa de tecnologías, personas o recursos cuya desaparición
 haga imposible mantener o recuperar la obra.
 
-Posibles secciones:
+**Posibles secciones:**
+
 - Mantenimiento
 - Actualización
 - Versionamiento
@@ -2848,13 +3065,12 @@ Posibles secciones:
 - Documentación
 - Sucesión del proyecto
 
+## ELEMENTOS DEL PROYECTO QUE NO SON CAPÍTULOS
 
-======================================================================
-ELEMENTOS DEL PROYECTO QUE NO SON CAPÍTULOS
-======================================================================
+### 1. ACERCA DE MGP
 
-1. ACERCA DE MGP
 Página breve destinada a:
+
 - problema que busca resolver;
 - profesor de matemática como público principal;
 - otros públicos profesionales y académicos;
@@ -2868,12 +3084,12 @@ Página breve destinada a:
 
 No convertir estas materias nuevamente en varios capítulos autorreferenciales.
 
-
-2. COLECCIONES DE PREGUNTAS
+### 2. COLECCIONES DE PREGUNTAS
 
 Las preguntas son objetos, no capítulos.
 
 Colecciones posibles:
+
 - PAES M1
 - PAES M2
 - SIMCE
@@ -2883,6 +3099,7 @@ Colecciones posibles:
 - Preguntas originales MGP
 
 Una pregunta puede aparecer simultáneamente mediante filtros por:
+
 - instrumento;
 - año;
 - nivel;
@@ -2896,12 +3113,12 @@ Una pregunta puede aparecer simultáneamente mediante filtros por:
 
 La ubicación física de un archivo no debe determinar todas sus relaciones.
 
-
-3. OBSERVACIONES HISTÓRICAS
+### 3. OBSERVACIONES HISTÓRICAS
 
 La historia de las ideas matemáticas es transversal.
 
 Ejemplos:
+
 - números enteros → aparición y aceptación de números negativos;
 - reales → irracionales e inconmensurabilidad;
 - álgebra → evolución de notación y simbolismo;
@@ -2913,8 +3130,7 @@ Ejemplos:
 
 No crear nuevamente un capítulo global "Historia de las ideas matemáticas".
 
-
-4. FORMACIÓN DIFERENCIADA
+### 4. FORMACIÓN DIFERENCIADA
 
 No es capítulo.
 Los capítulos 48–51 son directamente matemática escolar.
@@ -2922,12 +3138,12 @@ Los capítulos 48–51 son directamente matemática escolar.
 Una breve introducción editorial puede explicar su pertenencia curricular a la
 formación diferenciada chilena, pero no debe ocupar un capítulo autónomo.
 
-
-5. AGENDA DE INVESTIGACIÓN
+### 5. AGENDA DE INVESTIGACIÓN
 
 Página dinámica y no numerada.
 
 Puede registrar:
+
 - ideas;
 - proyectos propuestos;
 - proyectos priorizados;
@@ -2940,10 +3156,7 @@ Puede registrar:
 
 No necesita incorporarse a la tabla de contenidos del libro.
 
-
-======================================================================
-CRITERIO PARA FUTURAS MODIFICACIONES DE LA TABLA
-======================================================================
+## CRITERIO PARA FUTURAS MODIFICACIONES DE LA TABLA
 
 Antes de proponer un nuevo capítulo, eliminar uno o fusionar dos, evaluar:
 
@@ -2974,30 +3187,32 @@ PÁGINA DE GESTIÓN = información operativa y cambiante del proyecto.
 No promover automáticamente colecciones, índices, rutas o páginas operativas al rango
 de capítulo.
 
+## ESTADO ACTUAL DE LA ARQUITECTURA
 
-======================================================================
-ESTADO ACTUAL DE LA ARQUITECTURA
-======================================================================
+### Parte I. Conocimiento profesional, enseñanza y análisis de problemas
 
-Parte I. Conocimiento profesional, enseñanza y análisis de problemas
-Capítulos 1–25
-25 capítulos
+- Capítulos 1–25
+- 25 capítulos
 
-Parte II. Matemática escolar para la enseñanza
-Capítulos 26–51
-26 capítulos
+### Parte II. Matemática escolar para la enseñanza
 
-Parte III. Fundamentos universitarios y aplicaciones
-Capítulos 52–73
-22 capítulos
+- Capítulos 26–51
+- 26 capítulos
 
-Parte IV. Currículo, evaluación y desarrollo profesional
-Capítulos 74–82
-9 capítulos
+### Parte III. Fundamentos universitarios y aplicaciones
 
-Parte V. Psicometría, observatorio e investigación
-Capítulos 83–102
-20 capítulos
+- Capítulos 52–73
+- 22 capítulos
+
+### Parte IV. Currículo, evaluación y desarrollo profesional
+
+- Capítulos 74–82
+- 9 capítulos
+
+### Parte V. Psicometría, observatorio e investigación
+
+- Capítulos 83–102
+- 20 capítulos
 
 TOTAL: 5 Partes, 102 capítulos.
 

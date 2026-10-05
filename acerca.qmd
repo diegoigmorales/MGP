@@ -5,7 +5,6 @@ toc: true
 toc-depth: 2
 number-sections: false
 ---
-pagetitle: "Sobre MGP"
 
 # Sobre MGP {.unnumbered}
 
@@ -52,7 +51,7 @@ El horizonte editorial integra cinco dominios:
 - **Currículo, evaluación y desarrollo profesional:** currículo chileno, PAES, SIMCE, END, ECEP, estándares y formación docente.
 - **Psicometría, observatorio e investigación:** medición educativa, análisis de resultados y métodos de investigación.
 
-La [tabla de contenidos maestra](docs/tabla-contenidos-maestra.md) describe ese alcance proyectado. La navegación pública, en cambio, muestra y numera solamente el contenido disponible.
+La [tabla de contenidos maestra](docs/tabla-contenidos-maestra.md) describe ese alcance proyectado. La navegación pública muestra solamente el contenido disponible, en el orden de esa tabla y con numeración consecutiva provisional.
 
 ## Cómo se organiza
 

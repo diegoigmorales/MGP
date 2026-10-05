@@ -1,5 +1,5 @@
 ---
-title: "Capítulo 8. Funciones"
+title: "Capítulo 6. Funciones"
 description: "Correspondencia y covariación, dominios, representaciones, composición, inversa, familias funcionales, transformaciones y modelación."
 format:
   html:

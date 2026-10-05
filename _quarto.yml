@@ -23,20 +23,20 @@ website:
         contents:
           - text: "Capítulo 1. Porcentajes"
             href: contenidos/libro/numeros/porcentajes.qmd
-          - text: "Capítulo 2. Combinatoria y probabilidad"
-            href: contenidos/libro/probabilidad/combinatoria-probabilidad.qmd
-          - text: "Capítulo 3. Estadística escolar"
-            href: contenidos/libro/estadistica/index.qmd
-          - text: "Capítulo 4. Potencias, raíces y logaritmos"
+          - text: "Capítulo 2. Potencias, raíces y logaritmos"
             href: contenidos/libro/algebra/potencias-raices-logaritmos.qmd
-          - text: "Capítulo 5. Álgebra elemental"
+          - text: "Capítulo 3. Álgebra elemental"
             href: contenidos/libro/algebra/algebra-elemental.qmd
-          - text: "Capítulo 6. Ecuaciones e inecuaciones"
+          - text: "Capítulo 4. Ecuaciones e inecuaciones"
             href: contenidos/libro/algebra/ecuaciones-inecuaciones.qmd
-          - text: "Capítulo 7. Sucesiones y series elementales"
+          - text: "Capítulo 5. Sucesiones y series elementales"
             href: contenidos/libro/algebra/sucesiones-series.qmd
-          - text: "Capítulo 8. Funciones"
+          - text: "Capítulo 6. Funciones"
             href: contenidos/libro/algebra/funciones.qmd
+          - text: "Capítulo 7. Combinatoria y probabilidad"
+            href: contenidos/libro/probabilidad/combinatoria-probabilidad.qmd
+          - text: "Capítulo 8. Estadística escolar"
+            href: contenidos/libro/estadistica/index.qmd
       - section: "Parte II. Currículo, evaluación y desarrollo profesional"
         href: contenidos/curriculo-evaluacion.qmd
         contents:

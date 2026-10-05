@@ -1,5 +1,5 @@
 ---
-title: "Capítulo 2. Combinatoria y probabilidad"
+title: "Capítulo 7. Combinatoria y probabilidad"
 description: "Conteo, azar, eventos, reglas de probabilidad y modelos probabilísticos escolares."
 format:
   html:

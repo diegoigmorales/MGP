@@ -6,7 +6,7 @@ number-sections: false
 
 # Tabla de contenidos publicada {.unnumbered}
 
-Esta página reúne solamente material desarrollado y lo numera de forma consecutiva. La [tabla de contenidos maestra](../docs/tabla-contenidos-maestra.md) describe la estructura futura; los números públicos podrán cambiar a medida que se incorporen capítulos.
+Esta página reúne solamente material desarrollado, en el orden de la [tabla de contenidos maestra](../docs/tabla-contenidos-maestra.md) y con numeración pública consecutiva. Los números se ajustarán al incorporar capítulos pendientes.
 
 ## Parte I. Matemática escolar para la enseñanza
 
@@ -16,35 +16,35 @@ Esta página reúne solamente material desarrollado y lo numera de forma consecu
 - Objetos vinculados:
   - [Pregunta original sobre descuento porcentual](paes/m1/preguntas-originales/porcentajes.qmd)
 
-### Capítulo 2. Combinatoria y probabilidad
+### Capítulo 2. Potencias, raíces y logaritmos
+
+- [Desarrollo del capítulo](libro/algebra/potencias-raices-logaritmos.qmd)
+
+### Capítulo 3. Álgebra elemental
+
+- [Desarrollo del capítulo](libro/algebra/algebra-elemental.qmd)
+
+### Capítulo 4. Ecuaciones e inecuaciones
+
+- [Desarrollo del capítulo](libro/algebra/ecuaciones-inecuaciones.qmd)
+
+### Capítulo 5. Sucesiones y series elementales
+
+- [Desarrollo del capítulo](libro/algebra/sucesiones-series.qmd)
+
+### Capítulo 6. Funciones
+
+- [Desarrollo del capítulo](libro/algebra/funciones.qmd)
+
+### Capítulo 7. Combinatoria y probabilidad
 
 - [Presentación del capítulo](libro/probabilidad/combinatoria-probabilidad.qmd)
 
-### Capítulo 3. Estadística escolar
+### Capítulo 8. Estadística escolar
 
 - [Presentación del capítulo](libro/estadistica/index.qmd)
 - Objetos vinculados:
   - [Problema de media ponderada](universitario/estadistica/media-ponderada.qmd)
-
-### Capítulo 4. Potencias, raíces y logaritmos
-
-- [Desarrollo del capítulo](libro/algebra/potencias-raices-logaritmos.qmd)
-
-### Capítulo 5. Álgebra elemental
-
-- [Desarrollo del capítulo](libro/algebra/algebra-elemental.qmd)
-
-### Capítulo 6. Ecuaciones e inecuaciones
-
-- [Desarrollo del capítulo](libro/algebra/ecuaciones-inecuaciones.qmd)
-
-### Capítulo 7. Sucesiones y series elementales
-
-- [Desarrollo del capítulo](libro/algebra/sucesiones-series.qmd)
-
-### Capítulo 8. Funciones
-
-- [Desarrollo del capítulo](libro/algebra/funciones.qmd)
 
 ## Parte II. Currículo, evaluación y desarrollo profesional
 

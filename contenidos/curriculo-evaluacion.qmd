@@ -8,7 +8,7 @@ number-sections: false
 
 ## Introducción
 
-Esta parte conecta la matemática con los marcos que orientan su enseñanza y evaluación. Su alcance crecerá junto con la obra; la tabla siguiente registra únicamente los capítulos actualmente desarrollados.
+Esta parte conecta la matemática con los marcos que orientan su enseñanza y evaluación. Su alcance crecerá junto con la obra; la tabla siguiente registra únicamente los capítulos actualmente desarrollados, en el orden de la tabla maestra y con numeración pública consecutiva.
 
 ## Contenido actual
 

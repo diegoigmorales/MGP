@@ -11,13 +11,13 @@ book:
     - part: contenidos/libro/index.qmd
       chapters:
         - contenidos/libro/numeros/porcentajes.qmd
-        - contenidos/libro/probabilidad/combinatoria-probabilidad.qmd
-        - contenidos/libro/estadistica/index.qmd
         - contenidos/libro/algebra/potencias-raices-logaritmos.qmd
         - contenidos/libro/algebra/algebra-elemental.qmd
         - contenidos/libro/algebra/ecuaciones-inecuaciones.qmd
         - contenidos/libro/algebra/sucesiones-series.qmd
         - contenidos/libro/algebra/funciones.qmd
+        - contenidos/libro/probabilidad/combinatoria-probabilidad.qmd
+        - contenidos/libro/estadistica/index.qmd
     - part: contenidos/curriculo-evaluacion.qmd
       chapters:
         - contenidos/curriculum/index.qmd

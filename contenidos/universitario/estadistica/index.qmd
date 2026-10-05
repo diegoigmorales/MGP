@@ -8,7 +8,7 @@ number-sections: false
 
 En la arquitectura maestra futura, estos contenidos se distribuirán según su nivel y propósito entre estadística escolar, formación diferenciada, probabilidad matemática e inferencia estadística.
 
-- Capítulo 3. Estadística escolar.
+- Capítulo 8. Estadística escolar.
 
 ## Objetos publicados
 

@@ -1,5 +1,5 @@
 ---
-title: "Capítulo 6. Ecuaciones e inecuaciones"
+title: "Capítulo 4. Ecuaciones e inecuaciones"
 description: "Conjuntos solución, equivalencias, ecuaciones lineales y cuadráticas, inecuaciones, intervalos, sistemas y métodos gráficos."
 format:
   html:

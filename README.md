@@ -6,7 +6,7 @@ MGP es una obra abierta de referencia para profesores de matemática. Su objetiv
 
 No es un preuniversitario, un repositorio de ejercicios ni un manual exclusivamente didáctico. Las preguntas PAES y otros conjuntos de objetos forman colecciones vinculadas con contenidos y capítulos profesionales.
 
-El proyecto avanza hacia una [arquitectura maestra de cinco partes y 102 capítulos](docs/tabla-contenidos-maestra.md). Esa estructura representa el horizonte editorial; la navegación pública numera únicamente el contenido publicado. Consulta la [organización editorial](docs/organizacion-editorial.md) y la página [Sobre MGP](acerca.qmd).
+El proyecto avanza hacia una [arquitectura maestra de cinco partes y 102 capítulos](docs/tabla-contenidos-maestra.md). Esa estructura representa el horizonte editorial; la navegación pública muestra únicamente el contenido publicado y sigue el orden maestro y utiliza una numeración consecutiva provisional. Consulta la [organización editorial](docs/organizacion-editorial.md) y la página [Sobre MGP](acerca.qmd).
 
 ## Desarrollo local
 

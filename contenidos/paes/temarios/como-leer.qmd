@@ -1,9 +1,9 @@
 ---
-description: "Esta página fue integrada en la estructura principal del capítulo 4."
+description: "Esta página fue integrada en la estructura principal del capítulo 10."
 toc: false
 number-sections: false
 ---
 
 # Criterios de lectura {.unnumbered}
 
-Los criterios metodológicos se integraron en [10.2 Cómo interpretar los temarios](index.qmd), para evitar una página preliminar redundante.
+Los criterios metodológicos se integraron en [75.2 Cómo interpretar los temarios](index.qmd), para evitar una página preliminar redundante.
