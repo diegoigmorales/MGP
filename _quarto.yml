@@ -48,6 +48,8 @@ website:
     center: "Para enseñar sin fingir que nunca olvidamos nada."
 
 format:
+  pdf:
+    include-in-header: includes/theorem-styles.tex
   html:
     theme: cosmo
     css: styles.css

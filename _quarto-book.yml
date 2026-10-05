@@ -25,6 +25,7 @@ book:
 
 format:
   pdf:
+    include-in-header: includes/theorem-styles.tex
     documentclass: scrreprt
     toc: true
     filters:

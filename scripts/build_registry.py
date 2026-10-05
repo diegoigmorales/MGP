@@ -19,7 +19,7 @@ FRONT_MATTER_RE = re.compile(r"\A---\s*\n(?P<yaml>.*?)\n---(?:\s*\n|\Z)", re.DOT
 PAES_NUMBER_RE = re.compile(r"^paes-question:\s*(\d+)\s*$", re.MULTILINE)
 KNOWLEDGE_TAG_RE = re.compile(r'^knowledge-tag:\s*"([0-9A-Z]{4})"\s*$', re.MULTILINE)
 TITLE_RE = re.compile(r'^title:\s*"(.*?)"\s*$', re.MULTILINE)
-NATIVE_LABEL_RE = re.compile(r"\{#(?P<label>(?:def|prp|thm|exm)-[0-9A-Z]{4})\}")
+NATIVE_LABEL_RE = re.compile(r"\{#(?P<label>(?:def|prp|thm|lem|cor|exm|rem|concept)-[0-9A-Z]{4})(?=\s|\})")
 ENRICHED_CHAPTERS = {
     "contenidos/libro/algebra/potencias-raices-logaritmos.qmd",
     "contenidos/libro/algebra/algebra-elemental.qmd",
@@ -29,7 +29,8 @@ ENRICHED_CHAPTERS = {
     "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
     "contenidos/libro/estadistica/index.qmd",
 }
-ENV_PREFIX = {"principio": "prp", "propiedad": "prp", "teorema": "thm"}
+ENV_PREFIX = {"principio": "prp", "propiedad": "prp", "teorema": "thm", "definicion": "def"}
+DEFINITION_REPRESENTATIONS = {"0005", "0058"}
 RELATIONS = {
     "usa",
     "requiere",
@@ -62,6 +63,55 @@ def parse_attributes(raw: str) -> tuple[set[str], dict[str, str]]:
     return classes, attrs
 
 
+
+ENVIRONMENT_STYLES = {
+    "def": "definition", "prp": "plain", "thm": "plain",
+    "lem": "plain", "cor": "plain", "cnj": "plain", "axm": "plain",
+    "exm": "remark", "rem": "remark",
+}
+
+
+def validate_environments(source: str, relpath: str) -> list[str]:
+    """Impide barras que agrupen un enunciado y su ejemplo."""
+    errors: list[str] = []
+    stack: list[tuple[str, int]] = []
+    code_fence = None
+    for lineno, line in enumerate(source.splitlines(), 1):
+        stripped = line.strip()
+        code_match = re.match(r"^(`{3,}|~{3,})", stripped)
+        if code_match:
+            fence = code_match.group(1)[0]
+            if code_fence is None:
+                code_fence = fence
+            elif fence == code_fence:
+                code_fence = None
+            continue
+        if code_fence:
+            continue
+        match = OPEN_RE.match(line)
+        if match:
+            classes, attrs = parse_attributes(match.group(1))
+            prefix = attrs.get("id", "").split("-", 1)[0]
+            style = ENVIRONMENT_STYLES.get(prefix)
+            if style:
+                expected = f"theorem-style-{style}"
+                if expected not in classes:
+                    errors.append(f"{relpath}:{lineno}: falta .{expected}")
+                if any(parent in ENVIRONMENT_STYLES for parent, _ in stack):
+                    errors.append(f"{relpath}:{lineno}: un entorno formal no debe contener otro entorno")
+            if "knowledge-object" in classes and any(c.startswith("theorem-style-") for c in classes):
+                errors.append(f"{relpath}:{lineno}: el contenedor de identidad no debe llevar barra")
+            stack.append((prefix, lineno))
+        elif re.fullmatch(r":{3,}", stripped):
+            if not stack:
+                errors.append(f"{relpath}:{lineno}: cierre de entorno sin apertura")
+            else:
+                stack.pop()
+    for _, lineno in stack:
+        errors.append(f"{relpath}:{lineno}: entorno sin cierre")
+    return errors
+
+
 def discover() -> tuple[list[dict], list[str]]:
     objects: list[dict] = []
     errors: list[str] = []
@@ -72,6 +122,7 @@ def discover() -> tuple[list[dict], list[str]]:
             continue
         relpath = path.relative_to(ROOT).as_posix()
         source = path.read_text(encoding="utf-8")
+        errors.extend(validate_environments(source, relpath))
         for label_match in NATIVE_LABEL_RE.finditer(source):
             label = label_match.group("label")
             line = source.count("\n", 0, label_match.start()) + 1
@@ -116,7 +167,7 @@ def discover() -> tuple[list[dict], list[str]]:
             if not attrs.get("type") or not attrs.get("title"):
                 errors.append(f"{relpath}:{lineno}: faltan type o title")
             if relpath in ENRICHED_CHAPTERS and tag:
-                prefix = ENV_PREFIX.get(attrs.get("type", ""), "def")
+                prefix = "def" if tag in DEFINITION_REPRESENTATIONS else ENV_PREFIX.get(attrs.get("type", ""), "concept")
                 concept_label = f"#{prefix}-{tag}"
                 example_label = f"#exm-{tag}"
                 if source.count(concept_label) != 1:

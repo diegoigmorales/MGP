@@ -27,12 +27,22 @@ Las convenciones para delimitadores, números, magnitudes, unidades, porcentajes
 Un archivo QMD puede contener uno o más objetos:
 
 ~~~markdown
-::: {.knowledge-object #tag-00AF tag="00AF" type="teorema" title="Nombre" requiere="0001,0002"}
+:::: {.knowledge-object #tag-00AF tag="00AF" type="teorema" title="Nombre" requiere="0001,0002"}
+::: {#thm-00AF .theorem-style-plain}
 ## Nombre
 
-Contenido del objeto.
+Hipótesis y conclusión del teorema.
 :::
+
+Explicación del autor fuera del enunciado.
+
+::: {#exm-00AF .theorem-style-remark}
+Un ejemplo de aplicación.
+:::
+::::
 ~~~
+
+Los estilos y la separación entre enunciados, explicaciones y ejemplos se describen en [Organización editorial](docs/organizacion-editorial.md).
 
 Las relaciones admitidas incluyen usa, requiere, demuestra, generaliza, especializa, relacionado, error_asociado, alternativa, prerequisito, pertenece_a, evalua, profundiza, aplica y similar_a.
 

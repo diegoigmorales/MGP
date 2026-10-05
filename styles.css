@@ -1,5 +1,8 @@
 :root {
   --mgp-tag: #5b3cc4;
+  --mgp-plain: #e87500;
+  --mgp-definition: #00759a;
+  --mgp-remark: #16821b;
   --mgp-added: #176b3a;
   --mgp-added-bg: #e8f6ee;
   --mgp-removed: #9f1f2f;
@@ -15,9 +18,7 @@
 }
 
 .knowledge-object {
-  border-left: .3rem solid var(--mgp-tag);
   margin: 1.5rem 0;
-  padding: .25rem 1rem 1rem;
 }
 
 .knowledge-tag {
@@ -258,3 +259,32 @@
     padding: .85rem;
   }
 }
+
+/* Familias editoriales equivalentes a los theoremstyle de LaTeX.
+   El objeto padre conserva el tag; la barra pertenece a cada entorno. */
+.theorem-style-plain { --mgp-environment-color: var(--mgp-plain); }
+.theorem-style-definition { --mgp-environment-color: var(--mgp-definition); }
+.theorem-style-remark { --mgp-environment-color: var(--mgp-remark); }
+
+.theorem-style-plain,
+.theorem-style-definition,
+.theorem-style-remark {
+  border-left: .3rem solid var(--mgp-environment-color);
+  background: var(--bs-tertiary-bg, #f5f5f5);
+  margin: 1rem 0;
+  padding: .6rem 1rem;
+}
+
+.theorem-style-plain > :first-child,
+.theorem-style-definition > :first-child,
+.theorem-style-remark > :first-child { margin-top: 0; }
+
+.theorem-style-plain > :last-child,
+.theorem-style-definition > :last-child,
+.theorem-style-remark > :last-child { margin-bottom: 0; }
+
+.theorem-title { color: var(--mgp-environment-color, inherit); }
+
+.editorial-text { margin: 1rem 0; }
+.editorial-text > h2 { font-size: 1.15rem; }
+.knowledge-object ol > li + li { margin-top: .35rem; }

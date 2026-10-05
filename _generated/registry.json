@@ -41,7 +41,7 @@
       "type": "proceso",
       "title": "Generalización de patrones",
       "source": "contenidos/libro/algebra/algebra-elemental.qmd",
-      "line": 28,
+      "line": 30,
       "href": "../contenidos/libro/algebra/algebra-elemental.qmd#tag-A021",
       "relations": {
         "requiere": [
@@ -54,7 +54,7 @@
       "type": "definicion",
       "title": "Variable, incógnita, parámetro e indeterminada",
       "source": "contenidos/libro/algebra/algebra-elemental.qmd",
-      "line": 42,
+      "line": 46,
       "href": "../contenidos/libro/algebra/algebra-elemental.qmd#tag-A022",
       "relations": {
         "requiere": [
@@ -67,7 +67,7 @@
       "type": "definicion",
       "title": "Expresión algebraica y estructura",
       "source": "contenidos/libro/algebra/algebra-elemental.qmd",
-      "line": 54,
+      "line": 68,
       "href": "../contenidos/libro/algebra/algebra-elemental.qmd#tag-A023",
       "relations": {
         "requiere": [
@@ -80,7 +80,7 @@
       "type": "tecnica",
       "title": "Traducción entre lenguaje y expresiones",
       "source": "contenidos/libro/algebra/algebra-elemental.qmd",
-      "line": 66,
+      "line": 82,
       "href": "../contenidos/libro/algebra/algebra-elemental.qmd#tag-A024",
       "relations": {
         "requiere": [
@@ -93,7 +93,7 @@
       "type": "tecnica",
       "title": "Evaluación y dominio de una expresión",
       "source": "contenidos/libro/algebra/algebra-elemental.qmd",
-      "line": 78,
+      "line": 96,
       "href": "../contenidos/libro/algebra/algebra-elemental.qmd#tag-A025",
       "relations": {
         "requiere": [
@@ -108,7 +108,7 @@
       "type": "definicion",
       "title": "Monomios, coeficientes y grado",
       "source": "contenidos/libro/algebra/algebra-elemental.qmd",
-      "line": 92,
+      "line": 112,
       "href": "../contenidos/libro/algebra/algebra-elemental.qmd#tag-A026",
       "relations": {
         "requiere": [
@@ -121,7 +121,7 @@
       "type": "tecnica",
       "title": "Reducción de términos semejantes",
       "source": "contenidos/libro/algebra/algebra-elemental.qmd",
-      "line": 104,
+      "line": 134,
       "href": "../contenidos/libro/algebra/algebra-elemental.qmd#tag-A027",
       "relations": {
         "requiere": [
@@ -134,7 +134,7 @@
       "type": "propiedad",
       "title": "Distributividad y eliminación de paréntesis",
       "source": "contenidos/libro/algebra/algebra-elemental.qmd",
-      "line": 118,
+      "line": 150,
       "href": "../contenidos/libro/algebra/algebra-elemental.qmd#tag-A028",
       "relations": {
         "requiere": [
@@ -148,7 +148,7 @@
       "type": "tecnica",
       "title": "Suma y producto de polinomios",
       "source": "contenidos/libro/algebra/algebra-elemental.qmd",
-      "line": 132,
+      "line": 165,
       "href": "../contenidos/libro/algebra/algebra-elemental.qmd#tag-A029",
       "relations": {
         "requiere": [
@@ -162,7 +162,7 @@
       "type": "definicion",
       "title": "Igualdad como relación",
       "source": "contenidos/libro/algebra/algebra-elemental.qmd",
-      "line": 146,
+      "line": 181,
       "href": "../contenidos/libro/algebra/algebra-elemental.qmd#tag-A030",
       "relations": {
         "requiere": [
@@ -175,7 +175,7 @@
       "type": "definicion",
       "title": "Expresiones equivalentes y dominio",
       "source": "contenidos/libro/algebra/algebra-elemental.qmd",
-      "line": 158,
+      "line": 195,
       "href": "../contenidos/libro/algebra/algebra-elemental.qmd#tag-A031",
       "relations": {
         "requiere": [
@@ -189,7 +189,7 @@
       "type": "definicion",
       "title": "Identidad y ecuación",
       "source": "contenidos/libro/algebra/algebra-elemental.qmd",
-      "line": 170,
+      "line": 209,
       "href": "../contenidos/libro/algebra/algebra-elemental.qmd#tag-A032",
       "relations": {
         "requiere": [
@@ -203,7 +203,7 @@
       "type": "propiedad",
       "title": "Cuadrado de un binomio",
       "source": "contenidos/libro/algebra/algebra-elemental.qmd",
-      "line": 184,
+      "line": 229,
       "href": "../contenidos/libro/algebra/algebra-elemental.qmd#tag-A033",
       "relations": {
         "requiere": [
@@ -217,7 +217,7 @@
       "type": "propiedad",
       "title": "Suma por diferencia y binomios con término común",
       "source": "contenidos/libro/algebra/algebra-elemental.qmd",
-      "line": 198,
+      "line": 244,
       "href": "../contenidos/libro/algebra/algebra-elemental.qmd#tag-A034",
       "relations": {
         "requiere": [
@@ -231,7 +231,7 @@
       "type": "propiedad",
       "title": "Cubo de binomios y suma o diferencia de cubos",
       "source": "contenidos/libro/algebra/algebra-elemental.qmd",
-      "line": 213,
+      "line": 263,
       "href": "../contenidos/libro/algebra/algebra-elemental.qmd#tag-A035",
       "relations": {
         "requiere": [
@@ -245,7 +245,7 @@
       "type": "tecnica",
       "title": "Factor común y agrupación",
       "source": "contenidos/libro/algebra/algebra-elemental.qmd",
-      "line": 232,
+      "line": 286,
       "href": "../contenidos/libro/algebra/algebra-elemental.qmd#tag-A036",
       "relations": {
         "requiere": [
@@ -258,7 +258,7 @@
       "type": "tecnica",
       "title": "Factorización mediante identidades",
       "source": "contenidos/libro/algebra/algebra-elemental.qmd",
-      "line": 244,
+      "line": 300,
       "href": "../contenidos/libro/algebra/algebra-elemental.qmd#tag-A037",
       "relations": {
         "requiere": [
@@ -274,7 +274,7 @@
       "type": "tecnica",
       "title": "Completar el cuadrado",
       "source": "contenidos/libro/algebra/algebra-elemental.qmd",
-      "line": 256,
+      "line": 314,
       "href": "../contenidos/libro/algebra/algebra-elemental.qmd#tag-A038",
       "relations": {
         "requiere": [
@@ -287,7 +287,7 @@
       "type": "definicion",
       "title": "Fracciones algebraicas",
       "source": "contenidos/libro/algebra/algebra-elemental.qmd",
-      "line": 270,
+      "line": 330,
       "href": "../contenidos/libro/algebra/algebra-elemental.qmd#tag-A039",
       "relations": {
         "requiere": [
@@ -301,7 +301,7 @@
       "type": "tecnica",
       "title": "Simplificación y operaciones con fracciones algebraicas",
       "source": "contenidos/libro/algebra/algebra-elemental.qmd",
-      "line": 282,
+      "line": 344,
       "href": "../contenidos/libro/algebra/algebra-elemental.qmd#tag-A040",
       "relations": {
         "requiere": [
@@ -315,7 +315,7 @@
       "type": "aplicacion",
       "title": "Generalización de una construcción",
       "source": "contenidos/libro/algebra/algebra-elemental.qmd",
-      "line": 298,
+      "line": 362,
       "href": "../contenidos/libro/algebra/algebra-elemental.qmd#tag-A041",
       "relations": {
         "requiere": [
@@ -329,7 +329,7 @@
       "type": "observacion",
       "title": "Errores algebraicos y evidencia diagnóstica",
       "source": "contenidos/libro/algebra/algebra-elemental.qmd",
-      "line": 310,
+      "line": 376,
       "href": "../contenidos/libro/algebra/algebra-elemental.qmd#tag-A042",
       "relations": {
         "requiere": [
@@ -359,7 +359,7 @@
       "type": "definicion",
       "title": "Ecuaciones equivalentes e implicación",
       "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
-      "line": 34,
+      "line": 36,
       "href": "../contenidos/libro/algebra/ecuaciones-inecuaciones.qmd#tag-A044",
       "relations": {
         "requiere": [
@@ -372,7 +372,7 @@
       "type": "principio",
       "title": "Transformaciones que preservan soluciones",
       "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
-      "line": 46,
+      "line": 50,
       "href": "../contenidos/libro/algebra/ecuaciones-inecuaciones.qmd#tag-A045",
       "relations": {
         "requiere": [
@@ -385,7 +385,7 @@
       "type": "tecnica",
       "title": "Ecuación lineal en una incógnita",
       "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
-      "line": 60,
+      "line": 66,
       "href": "../contenidos/libro/algebra/ecuaciones-inecuaciones.qmd#tag-A046",
       "relations": {
         "requiere": [
@@ -399,7 +399,7 @@
       "type": "tecnica",
       "title": "Despeje de fórmulas y parámetros",
       "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
-      "line": 72,
+      "line": 80,
       "href": "../contenidos/libro/algebra/ecuaciones-inecuaciones.qmd#tag-A047",
       "relations": {
         "requiere": [
@@ -413,7 +413,7 @@
       "type": "tecnica",
       "title": "Factorización y producto nulo",
       "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
-      "line": 86,
+      "line": 96,
       "href": "../contenidos/libro/algebra/ecuaciones-inecuaciones.qmd#tag-A048",
       "relations": {
         "requiere": [
@@ -427,7 +427,7 @@
       "type": "propiedad",
       "title": "Fórmula cuadrática y discriminante",
       "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
-      "line": 98,
+      "line": 110,
       "href": "../contenidos/libro/algebra/ecuaciones-inecuaciones.qmd#tag-A049",
       "relations": {
         "requiere": [
@@ -442,7 +442,7 @@
       "type": "tecnica",
       "title": "Completar cuadrados para resolver",
       "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
-      "line": 112,
+      "line": 126,
       "href": "../contenidos/libro/algebra/ecuaciones-inecuaciones.qmd#tag-A050",
       "relations": {
         "requiere": [
@@ -456,7 +456,7 @@
       "type": "propiedad",
       "title": "Suma y producto de raíces",
       "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
-      "line": 124,
+      "line": 140,
       "href": "../contenidos/libro/algebra/ecuaciones-inecuaciones.qmd#tag-A051",
       "relations": {
         "requiere": [
@@ -470,7 +470,7 @@
       "type": "tecnica",
       "title": "Ecuaciones racionales",
       "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
-      "line": 140,
+      "line": 157,
       "href": "../contenidos/libro/algebra/ecuaciones-inecuaciones.qmd#tag-A052",
       "relations": {
         "requiere": [
@@ -484,7 +484,7 @@
       "type": "tecnica",
       "title": "Ecuaciones con radicales y candidatos extraños",
       "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
-      "line": 152,
+      "line": 171,
       "href": "../contenidos/libro/algebra/ecuaciones-inecuaciones.qmd#tag-A053",
       "relations": {
         "requiere": [
@@ -499,7 +499,7 @@
       "type": "tecnica",
       "title": "Ecuaciones exponenciales y logarítmicas",
       "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
-      "line": 164,
+      "line": 185,
       "href": "../contenidos/libro/algebra/ecuaciones-inecuaciones.qmd#tag-A054",
       "relations": {
         "requiere": [
@@ -515,7 +515,7 @@
       "type": "tecnica",
       "title": "Ecuaciones con valor absoluto",
       "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
-      "line": 176,
+      "line": 199,
       "href": "../contenidos/libro/algebra/ecuaciones-inecuaciones.qmd#tag-A055",
       "relations": {
         "requiere": [
@@ -528,7 +528,7 @@
       "type": "tecnica",
       "title": "Cambio de variable y recuperación del dominio",
       "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
-      "line": 188,
+      "line": 213,
       "href": "../contenidos/libro/algebra/ecuaciones-inecuaciones.qmd#tag-A056",
       "relations": {
         "requiere": [
@@ -542,7 +542,7 @@
       "type": "definicion",
       "title": "Inecuación y representación del conjunto solución",
       "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
-      "line": 202,
+      "line": 229,
       "href": "../contenidos/libro/algebra/ecuaciones-inecuaciones.qmd#tag-A057",
       "relations": {
         "requiere": [
@@ -555,7 +555,7 @@
       "type": "principio",
       "title": "Transformaciones de desigualdades",
       "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
-      "line": 214,
+      "line": 243,
       "href": "../contenidos/libro/algebra/ecuaciones-inecuaciones.qmd#tag-A058",
       "relations": {
         "requiere": [
@@ -568,7 +568,7 @@
       "type": "tecnica",
       "title": "Inecuaciones lineales y condiciones simultáneas",
       "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
-      "line": 226,
+      "line": 257,
       "href": "../contenidos/libro/algebra/ecuaciones-inecuaciones.qmd#tag-A059",
       "relations": {
         "requiere": [
@@ -581,7 +581,7 @@
       "type": "tecnica",
       "title": "Tabla de signos de productos y cocientes",
       "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
-      "line": 238,
+      "line": 271,
       "href": "../contenidos/libro/algebra/ecuaciones-inecuaciones.qmd#tag-A060",
       "relations": {
         "requiere": [
@@ -596,7 +596,7 @@
       "type": "tecnica",
       "title": "Inecuaciones cuadráticas",
       "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
-      "line": 250,
+      "line": 285,
       "href": "../contenidos/libro/algebra/ecuaciones-inecuaciones.qmd#tag-A061",
       "relations": {
         "requiere": [
@@ -610,7 +610,7 @@
       "type": "tecnica",
       "title": "Inecuaciones con valor absoluto",
       "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
-      "line": 262,
+      "line": 299,
       "href": "../contenidos/libro/algebra/ecuaciones-inecuaciones.qmd#tag-A062",
       "relations": {
         "requiere": [
@@ -624,7 +624,7 @@
       "type": "tecnica",
       "title": "Inecuaciones exponenciales y logarítmicas",
       "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
-      "line": 274,
+      "line": 313,
       "href": "../contenidos/libro/algebra/ecuaciones-inecuaciones.qmd#tag-A063",
       "relations": {
         "requiere": [
@@ -639,7 +639,7 @@
       "type": "definicion",
       "title": "Sistema de ecuaciones y solución simultánea",
       "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
-      "line": 288,
+      "line": 329,
       "href": "../contenidos/libro/algebra/ecuaciones-inecuaciones.qmd#tag-A064",
       "relations": {
         "requiere": [
@@ -653,7 +653,7 @@
       "type": "tecnica",
       "title": "Sustitución, igualación y eliminación",
       "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
-      "line": 300,
+      "line": 343,
       "href": "../contenidos/libro/algebra/ecuaciones-inecuaciones.qmd#tag-A065",
       "relations": {
         "requiere": [
@@ -667,7 +667,7 @@
       "type": "criterio",
       "title": "Clasificación de sistemas lineales de dos incógnitas",
       "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
-      "line": 312,
+      "line": 357,
       "href": "../contenidos/libro/algebra/ecuaciones-inecuaciones.qmd#tag-A066",
       "relations": {
         "requiere": [
@@ -681,7 +681,7 @@
       "type": "tecnica",
       "title": "Interpretación gráfica de ecuaciones e inecuaciones",
       "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
-      "line": 326,
+      "line": 373,
       "href": "../contenidos/libro/algebra/ecuaciones-inecuaciones.qmd#tag-A067",
       "relations": {
         "requiere": [
@@ -696,7 +696,7 @@
       "type": "aplicacion",
       "title": "Construcción e interpretación de modelos algebraicos",
       "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
-      "line": 338,
+      "line": 387,
       "href": "../contenidos/libro/algebra/ecuaciones-inecuaciones.qmd#tag-A068",
       "relations": {
         "requiere": [
@@ -711,7 +711,7 @@
       "type": "observacion",
       "title": "Errores de resolución y control de equivalencias",
       "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
-      "line": 350,
+      "line": 401,
       "href": "../contenidos/libro/algebra/ecuaciones-inecuaciones.qmd#tag-A069",
       "relations": {
         "requiere": [
@@ -740,7 +740,7 @@
       "type": "definicion",
       "title": "Covariación entre cantidades",
       "source": "contenidos/libro/algebra/funciones.qmd",
-      "line": 34,
+      "line": 36,
       "href": "../contenidos/libro/algebra/funciones.qmd#tag-A091",
       "relations": {
         "requiere": [
@@ -753,7 +753,7 @@
       "type": "definicion",
       "title": "Dominio y restricciones contextuales",
       "source": "contenidos/libro/algebra/funciones.qmd",
-      "line": 48,
+      "line": 52,
       "href": "../contenidos/libro/algebra/funciones.qmd#tag-A092",
       "relations": {
         "requiere": [
@@ -767,7 +767,7 @@
       "type": "definicion",
       "title": "Codominio, imagen y recorrido",
       "source": "contenidos/libro/algebra/funciones.qmd",
-      "line": 60,
+      "line": 66,
       "href": "../contenidos/libro/algebra/funciones.qmd#tag-A093",
       "relations": {
         "requiere": [
@@ -781,7 +781,7 @@
       "type": "definicion",
       "title": "Preimagen de un valor o conjunto",
       "source": "contenidos/libro/algebra/funciones.qmd",
-      "line": 72,
+      "line": 84,
       "href": "../contenidos/libro/algebra/funciones.qmd#tag-A094",
       "relations": {
         "requiere": [
@@ -795,7 +795,7 @@
       "type": "criterio",
       "title": "Regla verbal, tabla, fórmula y gráfica",
       "source": "contenidos/libro/algebra/funciones.qmd",
-      "line": 86,
+      "line": 100,
       "href": "../contenidos/libro/algebra/funciones.qmd#tag-A095",
       "relations": {
         "requiere": [
@@ -810,7 +810,7 @@
       "type": "criterio",
       "title": "Prueba de la recta vertical",
       "source": "contenidos/libro/algebra/funciones.qmd",
-      "line": 98,
+      "line": 114,
       "href": "../contenidos/libro/algebra/funciones.qmd#tag-A096",
       "relations": {
         "requiere": [
@@ -824,7 +824,7 @@
       "type": "definicion",
       "title": "Ceros, signo e intersecciones",
       "source": "contenidos/libro/algebra/funciones.qmd",
-      "line": 110,
+      "line": 128,
       "href": "../contenidos/libro/algebra/funciones.qmd#tag-A097",
       "relations": {
         "requiere": [
@@ -839,7 +839,7 @@
       "type": "definicion",
       "title": "Monotonía y extremos",
       "source": "contenidos/libro/algebra/funciones.qmd",
-      "line": 122,
+      "line": 142,
       "href": "../contenidos/libro/algebra/funciones.qmd#tag-A098",
       "relations": {
         "requiere": [
@@ -852,7 +852,7 @@
       "type": "definicion",
       "title": "Tasa de cambio media",
       "source": "contenidos/libro/algebra/funciones.qmd",
-      "line": 134,
+      "line": 161,
       "href": "../contenidos/libro/algebra/funciones.qmd#tag-A099",
       "relations": {
         "requiere": [
@@ -866,7 +866,7 @@
       "type": "definicion",
       "title": "Composición de funciones",
       "source": "contenidos/libro/algebra/funciones.qmd",
-      "line": 150,
+      "line": 179,
       "href": "../contenidos/libro/algebra/funciones.qmd#tag-A100",
       "relations": {
         "requiere": [
@@ -880,7 +880,7 @@
       "type": "definicion",
       "title": "Inyectividad, sobreyectividad y biyectividad",
       "source": "contenidos/libro/algebra/funciones.qmd",
-      "line": 162,
+      "line": 193,
       "href": "../contenidos/libro/algebra/funciones.qmd#tag-A101",
       "relations": {
         "requiere": [
@@ -894,7 +894,7 @@
       "type": "definicion",
       "title": "Función inversa y restricción de dominio",
       "source": "contenidos/libro/algebra/funciones.qmd",
-      "line": 174,
+      "line": 214,
       "href": "../contenidos/libro/algebra/funciones.qmd#tag-A102",
       "relations": {
         "requiere": [
@@ -909,7 +909,7 @@
       "type": "definicion",
       "title": "Función lineal y proporcionalidad directa",
       "source": "contenidos/libro/algebra/funciones.qmd",
-      "line": 188,
+      "line": 230,
       "href": "../contenidos/libro/algebra/funciones.qmd#tag-A103",
       "relations": {
         "requiere": [
@@ -923,7 +923,7 @@
       "type": "definicion",
       "title": "Función afín y pendiente",
       "source": "contenidos/libro/algebra/funciones.qmd",
-      "line": 200,
+      "line": 244,
       "href": "../contenidos/libro/algebra/funciones.qmd#tag-A104",
       "relations": {
         "requiere": [
@@ -937,7 +937,7 @@
       "type": "definicion",
       "title": "Función cuadrática y formas equivalentes",
       "source": "contenidos/libro/algebra/funciones.qmd",
-      "line": 214,
+      "line": 260,
       "href": "../contenidos/libro/algebra/funciones.qmd#tag-A105",
       "relations": {
         "requiere": [
@@ -951,7 +951,7 @@
       "type": "propiedad",
       "title": "Vértice, eje de simetría y recorrido",
       "source": "contenidos/libro/algebra/funciones.qmd",
-      "line": 226,
+      "line": 274,
       "href": "../contenidos/libro/algebra/funciones.qmd#tag-A106",
       "relations": {
         "requiere": [
@@ -965,7 +965,7 @@
       "type": "criterio",
       "title": "Raíces y variación de una cuadrática",
       "source": "contenidos/libro/algebra/funciones.qmd",
-      "line": 240,
+      "line": 290,
       "href": "../contenidos/libro/algebra/funciones.qmd#tag-A107",
       "relations": {
         "requiere": [
@@ -979,7 +979,7 @@
       "type": "definicion",
       "title": "Funciones potencia de exponente entero",
       "source": "contenidos/libro/algebra/funciones.qmd",
-      "line": 274,
+      "line": 326,
       "href": "../contenidos/libro/algebra/funciones.qmd#tag-A108",
       "relations": {
         "requiere": [
@@ -994,7 +994,7 @@
       "type": "definicion",
       "title": "Funciones raíz y potencia racional",
       "source": "contenidos/libro/algebra/funciones.qmd",
-      "line": 286,
+      "line": 338,
       "href": "../contenidos/libro/algebra/funciones.qmd#tag-A109",
       "relations": {
         "requiere": [
@@ -1009,7 +1009,7 @@
       "type": "definicion",
       "title": "Función recíproca y asíntotas",
       "source": "contenidos/libro/algebra/funciones.qmd",
-      "line": 298,
+      "line": 352,
       "href": "../contenidos/libro/algebra/funciones.qmd#tag-A110",
       "relations": {
         "requiere": [
@@ -1023,7 +1023,7 @@
       "type": "definicion",
       "title": "Función exponencial",
       "source": "contenidos/libro/algebra/funciones.qmd",
-      "line": 312,
+      "line": 368,
       "href": "../contenidos/libro/algebra/funciones.qmd#tag-A111",
       "relations": {
         "requiere": [
@@ -1037,7 +1037,7 @@
       "type": "definicion",
       "title": "Función logarítmica",
       "source": "contenidos/libro/algebra/funciones.qmd",
-      "line": 324,
+      "line": 382,
       "href": "../contenidos/libro/algebra/funciones.qmd#tag-A112",
       "relations": {
         "requiere": [
@@ -1053,7 +1053,7 @@
       "type": "tecnica",
       "title": "Traslaciones, reflexiones y escalas",
       "source": "contenidos/libro/algebra/funciones.qmd",
-      "line": 338,
+      "line": 398,
       "href": "../contenidos/libro/algebra/funciones.qmd#tag-A113",
       "relations": {
         "requiere": [
@@ -1068,7 +1068,7 @@
       "type": "definicion",
       "title": "Funciones definidas por tramos",
       "source": "contenidos/libro/algebra/funciones.qmd",
-      "line": 350,
+      "line": 412,
       "href": "../contenidos/libro/algebra/funciones.qmd#tag-A114",
       "relations": {
         "requiere": [
@@ -1082,7 +1082,7 @@
       "type": "definicion",
       "title": "Valor absoluto, simetría y periodicidad",
       "source": "contenidos/libro/algebra/funciones.qmd",
-      "line": 362,
+      "line": 426,
       "href": "../contenidos/libro/algebra/funciones.qmd#tag-A115",
       "relations": {
         "requiere": [
@@ -1097,7 +1097,7 @@
       "type": "aplicacion",
       "title": "Selección y validación de modelos funcionales",
       "source": "contenidos/libro/algebra/funciones.qmd",
-      "line": 376,
+      "line": 442,
       "href": "../contenidos/libro/algebra/funciones.qmd#tag-A116",
       "relations": {
         "requiere": [
@@ -1114,7 +1114,7 @@
       "type": "observacion",
       "title": "Errores en el concepto y las representaciones de función",
       "source": "contenidos/libro/algebra/funciones.qmd",
-      "line": 388,
+      "line": 456,
       "href": "../contenidos/libro/algebra/funciones.qmd#tag-A117",
       "relations": {
         "requiere": [
@@ -1139,7 +1139,7 @@
       "type": "propiedad",
       "title": "Propiedades de las potencias",
       "source": "contenidos/libro/algebra/potencias-raices-logaritmos.qmd",
-      "line": 28,
+      "line": 30,
       "href": "../contenidos/libro/algebra/potencias-raices-logaritmos.qmd#tag-A002",
       "relations": {
         "requiere": [
@@ -1152,7 +1152,7 @@
       "type": "definicion",
       "title": "Exponentes cero y negativos",
       "source": "contenidos/libro/algebra/potencias-raices-logaritmos.qmd",
-      "line": 42,
+      "line": 46,
       "href": "../contenidos/libro/algebra/potencias-raices-logaritmos.qmd#tag-A003",
       "relations": {
         "requiere": [
@@ -1165,7 +1165,7 @@
       "type": "propiedad",
       "title": "Signo de una potencia y paridad",
       "source": "contenidos/libro/algebra/potencias-raices-logaritmos.qmd",
-      "line": 56,
+      "line": 65,
       "href": "../contenidos/libro/algebra/potencias-raices-logaritmos.qmd#tag-A004",
       "relations": {
         "requiere": [
@@ -1179,7 +1179,7 @@
       "type": "definicion",
       "title": "Raíz real principal",
       "source": "contenidos/libro/algebra/potencias-raices-logaritmos.qmd",
-      "line": 70,
+      "line": 81,
       "href": "../contenidos/libro/algebra/potencias-raices-logaritmos.qmd#tag-A005",
       "relations": {
         "requiere": [
@@ -1192,7 +1192,7 @@
       "type": "propiedad",
       "title": "Raíz de una potencia y valor absoluto",
       "source": "contenidos/libro/algebra/potencias-raices-logaritmos.qmd",
-      "line": 82,
+      "line": 95,
       "href": "../contenidos/libro/algebra/potencias-raices-logaritmos.qmd#tag-A006",
       "relations": {
         "requiere": [
@@ -1206,7 +1206,7 @@
       "type": "propiedad",
       "title": "Producto y cociente de radicales",
       "source": "contenidos/libro/algebra/potencias-raices-logaritmos.qmd",
-      "line": 96,
+      "line": 111,
       "href": "../contenidos/libro/algebra/potencias-raices-logaritmos.qmd#tag-A007",
       "relations": {
         "requiere": [
@@ -1219,7 +1219,7 @@
       "type": "tecnica",
       "title": "Simplificación y combinación de radicales",
       "source": "contenidos/libro/algebra/potencias-raices-logaritmos.qmd",
-      "line": 110,
+      "line": 127,
       "href": "../contenidos/libro/algebra/potencias-raices-logaritmos.qmd#tag-A008",
       "relations": {
         "requiere": [
@@ -1233,7 +1233,7 @@
       "type": "tecnica",
       "title": "Racionalización de denominadores",
       "source": "contenidos/libro/algebra/potencias-raices-logaritmos.qmd",
-      "line": 122,
+      "line": 141,
       "href": "../contenidos/libro/algebra/potencias-raices-logaritmos.qmd#tag-A009",
       "relations": {
         "requiere": [
@@ -1246,7 +1246,7 @@
       "type": "definicion",
       "title": "Potencia de exponente racional",
       "source": "contenidos/libro/algebra/potencias-raices-logaritmos.qmd",
-      "line": 136,
+      "line": 157,
       "href": "../contenidos/libro/algebra/potencias-raices-logaritmos.qmd#tag-A010",
       "relations": {
         "requiere": [
@@ -1260,7 +1260,7 @@
       "type": "definicion",
       "title": "Potencia de exponente real",
       "source": "contenidos/libro/algebra/potencias-raices-logaritmos.qmd",
-      "line": 150,
+      "line": 175,
       "href": "../contenidos/libro/algebra/potencias-raices-logaritmos.qmd#tag-A011",
       "relations": {
         "requiere": [
@@ -1273,7 +1273,7 @@
       "type": "definicion",
       "title": "Logaritmo y condiciones de existencia",
       "source": "contenidos/libro/algebra/potencias-raices-logaritmos.qmd",
-      "line": 164,
+      "line": 191,
       "href": "../contenidos/libro/algebra/potencias-raices-logaritmos.qmd#tag-A012",
       "relations": {
         "requiere": [
@@ -1286,7 +1286,7 @@
       "type": "propiedad",
       "title": "Logaritmo de producto, cociente y potencia",
       "source": "contenidos/libro/algebra/potencias-raices-logaritmos.qmd",
-      "line": 178,
+      "line": 206,
       "href": "../contenidos/libro/algebra/potencias-raices-logaritmos.qmd#tag-A013",
       "relations": {
         "requiere": [
@@ -1299,7 +1299,7 @@
       "type": "propiedad",
       "title": "Cambio de base e inversión",
       "source": "contenidos/libro/algebra/potencias-raices-logaritmos.qmd",
-      "line": 193,
+      "line": 222,
       "href": "../contenidos/libro/algebra/potencias-raices-logaritmos.qmd#tag-A014",
       "relations": {
         "requiere": [
@@ -1312,7 +1312,7 @@
       "type": "tecnica",
       "title": "Estimación mediante cotas",
       "source": "contenidos/libro/algebra/potencias-raices-logaritmos.qmd",
-      "line": 209,
+      "line": 240,
       "href": "../contenidos/libro/algebra/potencias-raices-logaritmos.qmd#tag-A015",
       "relations": {
         "requiere": [
@@ -1327,7 +1327,7 @@
       "type": "definicion",
       "title": "Notación científica y orden de magnitud",
       "source": "contenidos/libro/algebra/potencias-raices-logaritmos.qmd",
-      "line": 221,
+      "line": 254,
       "href": "../contenidos/libro/algebra/potencias-raices-logaritmos.qmd#tag-A016",
       "relations": {
         "requiere": [
@@ -1341,7 +1341,7 @@
       "type": "aplicacion",
       "title": "Crecimiento multiplicativo y duplicación",
       "source": "contenidos/libro/algebra/potencias-raices-logaritmos.qmd",
-      "line": 235,
+      "line": 270,
       "href": "../contenidos/libro/algebra/potencias-raices-logaritmos.qmd#tag-A017",
       "relations": {
         "requiere": [
@@ -1354,7 +1354,7 @@
       "type": "aplicacion",
       "title": "Escalas logarítmicas",
       "source": "contenidos/libro/algebra/potencias-raices-logaritmos.qmd",
-      "line": 247,
+      "line": 284,
       "href": "../contenidos/libro/algebra/potencias-raices-logaritmos.qmd#tag-A018",
       "relations": {
         "requiere": [
@@ -1368,7 +1368,7 @@
       "type": "observacion",
       "title": "Errores frecuentes y restricciones olvidadas",
       "source": "contenidos/libro/algebra/potencias-raices-logaritmos.qmd",
-      "line": 259,
+      "line": 298,
       "href": "../contenidos/libro/algebra/potencias-raices-logaritmos.qmd#tag-A019",
       "relations": {
         "requiere": [
@@ -1397,7 +1397,7 @@
       "type": "definicion",
       "title": "Fórmula explícita",
       "source": "contenidos/libro/algebra/sucesiones-series.qmd",
-      "line": 34,
+      "line": 36,
       "href": "../contenidos/libro/algebra/sucesiones-series.qmd#tag-A071",
       "relations": {
         "requiere": [
@@ -1410,7 +1410,7 @@
       "type": "definicion",
       "title": "Recurrencia y condiciones iniciales",
       "source": "contenidos/libro/algebra/sucesiones-series.qmd",
-      "line": 46,
+      "line": 50,
       "href": "../contenidos/libro/algebra/sucesiones-series.qmd#tag-A072",
       "relations": {
         "requiere": [
@@ -1424,7 +1424,7 @@
       "type": "criterio",
       "title": "Patrón observado y regla determinada",
       "source": "contenidos/libro/algebra/sucesiones-series.qmd",
-      "line": 58,
+      "line": 64,
       "href": "../contenidos/libro/algebra/sucesiones-series.qmd#tag-A073",
       "relations": {
         "requiere": [
@@ -1438,7 +1438,7 @@
       "type": "definicion",
       "title": "Progresión aritmética",
       "source": "contenidos/libro/algebra/sucesiones-series.qmd",
-      "line": 72,
+      "line": 80,
       "href": "../contenidos/libro/algebra/sucesiones-series.qmd#tag-A074",
       "relations": {
         "requiere": [
@@ -1451,7 +1451,7 @@
       "type": "tecnica",
       "title": "Determinación de una progresión aritmética",
       "source": "contenidos/libro/algebra/sucesiones-series.qmd",
-      "line": 86,
+      "line": 95,
       "href": "../contenidos/libro/algebra/sucesiones-series.qmd#tag-A075",
       "relations": {
         "requiere": [
@@ -1464,7 +1464,7 @@
       "type": "propiedad",
       "title": "Suma de una progresión aritmética",
       "source": "contenidos/libro/algebra/sucesiones-series.qmd",
-      "line": 100,
+      "line": 111,
       "href": "../contenidos/libro/algebra/sucesiones-series.qmd#tag-A076",
       "relations": {
         "requiere": [
@@ -1477,7 +1477,7 @@
       "type": "definicion",
       "title": "Progresión geométrica",
       "source": "contenidos/libro/algebra/sucesiones-series.qmd",
-      "line": 116,
+      "line": 128,
       "href": "../contenidos/libro/algebra/sucesiones-series.qmd#tag-A077",
       "relations": {
         "requiere": [
@@ -1491,7 +1491,7 @@
       "type": "criterio",
       "title": "Comportamiento de una progresión geométrica",
       "source": "contenidos/libro/algebra/sucesiones-series.qmd",
-      "line": 128,
+      "line": 142,
       "href": "../contenidos/libro/algebra/sucesiones-series.qmd#tag-A078",
       "relations": {
         "requiere": [
@@ -1504,7 +1504,7 @@
       "type": "propiedad",
       "title": "Suma geométrica finita",
       "source": "contenidos/libro/algebra/sucesiones-series.qmd",
-      "line": 140,
+      "line": 156,
       "href": "../contenidos/libro/algebra/sucesiones-series.qmd#tag-A079",
       "relations": {
         "requiere": [
@@ -1517,7 +1517,7 @@
       "type": "definicion",
       "title": "Notación de sumatoria",
       "source": "contenidos/libro/algebra/sucesiones-series.qmd",
-      "line": 156,
+      "line": 174,
       "href": "../contenidos/libro/algebra/sucesiones-series.qmd#tag-A080",
       "relations": {
         "requiere": [
@@ -1531,7 +1531,7 @@
       "type": "propiedad",
       "title": "Sumas de naturales, cuadrados y cubos",
       "source": "contenidos/libro/algebra/sucesiones-series.qmd",
-      "line": 168,
+      "line": 188,
       "href": "../contenidos/libro/algebra/sucesiones-series.qmd#tag-A081",
       "relations": {
         "requiere": [
@@ -1545,7 +1545,7 @@
       "type": "tecnica",
       "title": "Sumas telescópicas",
       "source": "contenidos/libro/algebra/sucesiones-series.qmd",
-      "line": 184,
+      "line": 205,
       "href": "../contenidos/libro/algebra/sucesiones-series.qmd#tag-A082",
       "relations": {
         "requiere": [
@@ -1559,7 +1559,7 @@
       "type": "definicion",
       "title": "Serie y sucesión de sumas parciales",
       "source": "contenidos/libro/algebra/sucesiones-series.qmd",
-      "line": 198,
+      "line": 221,
       "href": "../contenidos/libro/algebra/sucesiones-series.qmd#tag-A083",
       "relations": {
         "requiere": [
@@ -1573,7 +1573,7 @@
       "type": "propiedad",
       "title": "Suma geométrica infinita",
       "source": "contenidos/libro/algebra/sucesiones-series.qmd",
-      "line": 212,
+      "line": 237,
       "href": "../contenidos/libro/algebra/sucesiones-series.qmd#tag-A084",
       "relations": {
         "requiere": [
@@ -1587,7 +1587,7 @@
       "type": "criterio",
       "title": "Términos que tienden a cero y convergencia",
       "source": "contenidos/libro/algebra/sucesiones-series.qmd",
-      "line": 226,
+      "line": 253,
       "href": "../contenidos/libro/algebra/sucesiones-series.qmd#tag-A085",
       "relations": {
         "requiere": [
@@ -1602,7 +1602,7 @@
       "type": "tecnica",
       "title": "Error al truncar una serie geométrica",
       "source": "contenidos/libro/algebra/sucesiones-series.qmd",
-      "line": 238,
+      "line": 267,
       "href": "../contenidos/libro/algebra/sucesiones-series.qmd#tag-A086",
       "relations": {
         "requiere": [
@@ -1615,7 +1615,7 @@
       "type": "aplicacion",
       "title": "Crecimiento aditivo y multiplicativo",
       "source": "contenidos/libro/algebra/sucesiones-series.qmd",
-      "line": 254,
+      "line": 285,
       "href": "../contenidos/libro/algebra/sucesiones-series.qmd#tag-A087",
       "relations": {
         "requiere": [
@@ -1630,7 +1630,7 @@
       "type": "aplicacion",
       "title": "Recurrencia afín con aporte periódico",
       "source": "contenidos/libro/algebra/sucesiones-series.qmd",
-      "line": 266,
+      "line": 299,
       "href": "../contenidos/libro/algebra/sucesiones-series.qmd#tag-A088",
       "relations": {
         "requiere": [
@@ -1644,7 +1644,7 @@
       "type": "observacion",
       "title": "Errores de índices, patrones y sumas",
       "source": "contenidos/libro/algebra/sucesiones-series.qmd",
-      "line": 280,
+      "line": 315,
       "href": "../contenidos/libro/algebra/sucesiones-series.qmd#tag-A089",
       "relations": {
         "requiere": [
@@ -1673,7 +1673,7 @@
       "type": "proceso",
       "title": "Ciclo de investigación estadística",
       "source": "contenidos/libro/estadistica/index.qmd",
-      "line": 33,
+      "line": 35,
       "href": "../contenidos/libro/estadistica/index.qmd#tag-0036",
       "relations": {
         "requiere": [
@@ -1689,7 +1689,7 @@
       "type": "definicion",
       "title": "Población, censo y muestra",
       "source": "contenidos/libro/estadistica/index.qmd",
-      "line": 57,
+      "line": 61,
       "href": "../contenidos/libro/estadistica/index.qmd#tag-0037",
       "relations": {
         "requiere": [
@@ -1705,7 +1705,7 @@
       "type": "definicion",
       "title": "Unidad estadística, caso, dato y conjunto de datos",
       "source": "contenidos/libro/estadistica/index.qmd",
-      "line": 71,
+      "line": 77,
       "href": "../contenidos/libro/estadistica/index.qmd#tag-0038",
       "relations": {
         "requiere": [
@@ -1721,7 +1721,7 @@
       "type": "definicion",
       "title": "Variable estadística y sus tipos",
       "source": "contenidos/libro/estadistica/index.qmd",
-      "line": 85,
+      "line": 93,
       "href": "../contenidos/libro/estadistica/index.qmd#tag-0039",
       "relations": {
         "requiere": [
@@ -1737,7 +1737,7 @@
       "type": "definicion",
       "title": "Parámetro y estadístico",
       "source": "contenidos/libro/estadistica/index.qmd",
-      "line": 104,
+      "line": 112,
       "href": "../contenidos/libro/estadistica/index.qmd#tag-0040",
       "relations": {
         "requiere": [
@@ -1754,7 +1754,7 @@
       "type": "definicion",
       "title": "Muestreo y representatividad",
       "source": "contenidos/libro/estadistica/index.qmd",
-      "line": 120,
+      "line": 131,
       "href": "../contenidos/libro/estadistica/index.qmd#tag-0041",
       "relations": {
         "requiere": [
@@ -1770,7 +1770,7 @@
       "type": "definicion",
       "title": "Sesgo, error de medición y variación muestral",
       "source": "contenidos/libro/estadistica/index.qmd",
-      "line": 140,
+      "line": 153,
       "href": "../contenidos/libro/estadistica/index.qmd#tag-0042",
       "relations": {
         "requiere": [
@@ -1786,7 +1786,7 @@
       "type": "tecnica",
       "title": "Recolección, codificación y depuración de datos",
       "source": "contenidos/libro/estadistica/index.qmd",
-      "line": 154,
+      "line": 169,
       "href": "../contenidos/libro/estadistica/index.qmd#tag-0043",
       "relations": {
         "requiere": [
@@ -1804,7 +1804,7 @@
       "type": "definicion",
       "title": "Frecuencias absoluta, relativa y acumulada",
       "source": "contenidos/libro/estadistica/index.qmd",
-      "line": 170,
+      "line": 187,
       "href": "../contenidos/libro/estadistica/index.qmd#tag-0044",
       "relations": {
         "requiere": [
@@ -1820,7 +1820,7 @@
       "type": "definicion",
       "title": "Datos agrupados en intervalos",
       "source": "contenidos/libro/estadistica/index.qmd",
-      "line": 205,
+      "line": 222,
       "href": "../contenidos/libro/estadistica/index.qmd#tag-0045",
       "relations": {
         "requiere": [
@@ -1836,7 +1836,7 @@
       "type": "definicion",
       "title": "Tabla de doble entrada",
       "source": "contenidos/libro/estadistica/index.qmd",
-      "line": 219,
+      "line": 238,
       "href": "../contenidos/libro/estadistica/index.qmd#tag-0046",
       "relations": {
         "requiere": [
@@ -1853,7 +1853,7 @@
       "type": "criterio",
       "title": "Selección de una representación gráfica",
       "source": "contenidos/libro/estadistica/index.qmd",
-      "line": 235,
+      "line": 256,
       "href": "../contenidos/libro/estadistica/index.qmd#tag-0047",
       "relations": {
         "requiere": [
@@ -1870,7 +1870,7 @@
       "type": "definicion",
       "title": "Gráficos de barras, sectores y pictogramas",
       "source": "contenidos/libro/estadistica/index.qmd",
-      "line": 257,
+      "line": 280,
       "href": "../contenidos/libro/estadistica/index.qmd#tag-0048",
       "relations": {
         "requiere": [
@@ -1886,7 +1886,7 @@
       "type": "definicion",
       "title": "Gráfico de líneas",
       "source": "contenidos/libro/estadistica/index.qmd",
-      "line": 283,
+      "line": 308,
       "href": "../contenidos/libro/estadistica/index.qmd#tag-0049",
       "relations": {
         "requiere": [
@@ -1902,7 +1902,7 @@
       "type": "definicion",
       "title": "Histograma, polígono de frecuencias y ojiva",
       "source": "contenidos/libro/estadistica/index.qmd",
-      "line": 295,
+      "line": 322,
       "href": "../contenidos/libro/estadistica/index.qmd#tag-0050",
       "relations": {
         "requiere": [
@@ -1919,7 +1919,7 @@
       "type": "definicion",
       "title": "Diagrama de puntos y diagrama de tallo y hojas",
       "source": "contenidos/libro/estadistica/index.qmd",
-      "line": 309,
+      "line": 338,
       "href": "../contenidos/libro/estadistica/index.qmd#tag-0051",
       "relations": {
         "requiere": [
@@ -1935,7 +1935,7 @@
       "type": "definicion",
       "title": "Media aritmética",
       "source": "contenidos/libro/estadistica/index.qmd",
-      "line": 323,
+      "line": 355,
       "href": "../contenidos/libro/estadistica/index.qmd#tag-0052",
       "relations": {
         "requiere": [
@@ -1951,7 +1951,7 @@
       "type": "definicion",
       "title": "Media ponderada",
       "source": "contenidos/libro/estadistica/index.qmd",
-      "line": 343,
+      "line": 375,
       "href": "../contenidos/libro/estadistica/index.qmd#tag-0053",
       "relations": {
         "requiere": [
@@ -1967,7 +1967,7 @@
       "type": "definicion",
       "title": "Mediana",
       "source": "contenidos/libro/estadistica/index.qmd",
-      "line": 359,
+      "line": 391,
       "href": "../contenidos/libro/estadistica/index.qmd#tag-0054",
       "relations": {
         "requiere": [
@@ -1983,7 +1983,7 @@
       "type": "definicion",
       "title": "Moda",
       "source": "contenidos/libro/estadistica/index.qmd",
-      "line": 373,
+      "line": 405,
       "href": "../contenidos/libro/estadistica/index.qmd#tag-0055",
       "relations": {
         "requiere": [
@@ -1999,7 +1999,7 @@
       "type": "criterio",
       "title": "Selección e interpretación de medidas de centro",
       "source": "contenidos/libro/estadistica/index.qmd",
-      "line": 387,
+      "line": 421,
       "href": "../contenidos/libro/estadistica/index.qmd#tag-0056",
       "relations": {
         "requiere": [
@@ -2017,7 +2017,7 @@
       "type": "definicion",
       "title": "Cuantiles, cuartiles, deciles y percentiles",
       "source": "contenidos/libro/estadistica/index.qmd",
-      "line": 403,
+      "line": 439,
       "href": "../contenidos/libro/estadistica/index.qmd#tag-0057",
       "relations": {
         "requiere": [
@@ -2033,7 +2033,7 @@
       "type": "representacion",
       "title": "Diagrama de caja",
       "source": "contenidos/libro/estadistica/index.qmd",
-      "line": 417,
+      "line": 457,
       "href": "../contenidos/libro/estadistica/index.qmd#tag-0058",
       "relations": {
         "requiere": [
@@ -2049,7 +2049,7 @@
       "type": "definicion",
       "title": "Rango y rango intercuartílico",
       "source": "contenidos/libro/estadistica/index.qmd",
-      "line": 457,
+      "line": 497,
       "href": "../contenidos/libro/estadistica/index.qmd#tag-0059",
       "relations": {
         "requiere": [
@@ -2065,7 +2065,7 @@
       "type": "definicion",
       "title": "Desviación respecto de la media",
       "source": "contenidos/libro/estadistica/index.qmd",
-      "line": 477,
+      "line": 512,
       "href": "../contenidos/libro/estadistica/index.qmd#tag-0060",
       "relations": {
         "requiere": [
@@ -2081,7 +2081,7 @@
       "type": "definicion",
       "title": "Varianza y desviación estándar",
       "source": "contenidos/libro/estadistica/index.qmd",
-      "line": 493,
+      "line": 530,
       "href": "../contenidos/libro/estadistica/index.qmd#tag-0061",
       "relations": {
         "requiere": [
@@ -2097,7 +2097,7 @@
       "type": "definicion",
       "title": "Coeficiente de variación",
       "source": "contenidos/libro/estadistica/index.qmd",
-      "line": 515,
+      "line": 552,
       "href": "../contenidos/libro/estadistica/index.qmd#tag-0062",
       "relations": {
         "requiere": [
@@ -2114,7 +2114,7 @@
       "type": "propiedad",
       "title": "Efecto de transformaciones sobre centro y dispersión",
       "source": "contenidos/libro/estadistica/index.qmd",
-      "line": 531,
+      "line": 568,
       "href": "../contenidos/libro/estadistica/index.qmd#tag-0063",
       "relations": {
         "requiere": [
@@ -2133,7 +2133,7 @@
       "type": "definicion",
       "title": "Variabilidad estadística",
       "source": "contenidos/libro/estadistica/index.qmd",
-      "line": 550,
+      "line": 587,
       "href": "../contenidos/libro/estadistica/index.qmd#tag-0064",
       "relations": {
         "requiere": [
@@ -2152,7 +2152,7 @@
       "type": "definicion",
       "title": "Datos bivariados y diagrama de dispersión",
       "source": "contenidos/libro/estadistica/index.qmd",
-      "line": 566,
+      "line": 605,
       "href": "../contenidos/libro/estadistica/index.qmd#tag-0065",
       "relations": {
         "requiere": [
@@ -2169,7 +2169,7 @@
       "type": "definicion",
       "title": "Asociación y correlación lineal",
       "source": "contenidos/libro/estadistica/index.qmd",
-      "line": 592,
+      "line": 634,
       "href": "../contenidos/libro/estadistica/index.qmd#tag-0066",
       "relations": {
         "requiere": [
@@ -2185,7 +2185,7 @@
       "type": "criterio",
       "title": "Asociación en tablas de doble entrada",
       "source": "contenidos/libro/estadistica/index.qmd",
-      "line": 606,
+      "line": 651,
       "href": "../contenidos/libro/estadistica/index.qmd#tag-0067",
       "relations": {
         "requiere": [
@@ -2201,7 +2201,7 @@
       "type": "criterio",
       "title": "Comparación de distribuciones",
       "source": "contenidos/libro/estadistica/index.qmd",
-      "line": 620,
+      "line": 667,
       "href": "../contenidos/libro/estadistica/index.qmd#tag-0068",
       "relations": {
         "requiere": [
@@ -2220,7 +2220,7 @@
       "type": "observacion",
       "title": "Gráficos engañosos y denominadores",
       "source": "contenidos/libro/estadistica/index.qmd",
-      "line": 641,
+      "line": 690,
       "href": "../contenidos/libro/estadistica/index.qmd#tag-0069",
       "relations": {
         "requiere": [
@@ -2236,7 +2236,7 @@
       "type": "observacion",
       "title": "Asociación, causalidad y variables de confusión",
       "source": "contenidos/libro/estadistica/index.qmd",
-      "line": 655,
+      "line": 706,
       "href": "../contenidos/libro/estadistica/index.qmd#tag-0070",
       "relations": {
         "requiere": [
@@ -2252,7 +2252,7 @@
       "type": "criterio",
       "title": "Comunicación de conclusiones estadísticas",
       "source": "contenidos/libro/estadistica/index.qmd",
-      "line": 667,
+      "line": 720,
       "href": "../contenidos/libro/estadistica/index.qmd#tag-0071",
       "relations": {
         "requiere": [
@@ -2271,7 +2271,7 @@
       "type": "observacion",
       "title": "Ética y procedencia de los datos",
       "source": "contenidos/libro/estadistica/index.qmd",
-      "line": 681,
+      "line": 736,
       "href": "../contenidos/libro/estadistica/index.qmd#tag-0072",
       "relations": {
         "requiere": [
@@ -2302,7 +2302,7 @@
       "type": "tecnica",
       "title": "Calcular un porcentaje de una cantidad",
       "source": "contenidos/libro/numeros/porcentajes.qmd",
-      "line": 38,
+      "line": 40,
       "href": "../contenidos/libro/numeros/porcentajes.qmd#tag-0002",
       "relations": {
         "requiere": [
@@ -2374,7 +2374,7 @@
       "type": "definicion",
       "title": "Permutación simple",
       "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
-      "line": 107,
+      "line": 109,
       "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#tag-0007",
       "relations": {
         "requiere": [
@@ -2391,7 +2391,7 @@
       "type": "propiedad",
       "title": "Permutaciones con elementos repetidos",
       "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
-      "line": 123,
+      "line": 125,
       "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#tag-0008",
       "relations": {
         "requiere": [
@@ -2408,7 +2408,7 @@
       "type": "propiedad",
       "title": "Permutaciones circulares",
       "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
-      "line": 139,
+      "line": 141,
       "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#tag-0009",
       "relations": {
         "requiere": [
@@ -2425,7 +2425,7 @@
       "type": "definicion",
       "title": "Variación sin repetición",
       "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
-      "line": 155,
+      "line": 159,
       "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#tag-0010",
       "relations": {
         "requiere": [
@@ -2442,7 +2442,7 @@
       "type": "definicion",
       "title": "Variación con repetición",
       "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
-      "line": 171,
+      "line": 175,
       "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#tag-0011",
       "relations": {
         "requiere": [
@@ -2458,7 +2458,7 @@
       "type": "definicion",
       "title": "Combinación sin repetición",
       "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
-      "line": 187,
+      "line": 193,
       "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#tag-0012",
       "relations": {
         "requiere": [
@@ -2475,7 +2475,7 @@
       "type": "definicion",
       "title": "Combinación con repetición",
       "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
-      "line": 203,
+      "line": 209,
       "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#tag-0013",
       "relations": {
         "requiere": [
@@ -2492,7 +2492,7 @@
       "type": "propiedad",
       "title": "Coeficientes binomiales y triángulo de Pascal",
       "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
-      "line": 219,
+      "line": 225,
       "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#tag-0014",
       "relations": {
         "requiere": [
@@ -2508,7 +2508,7 @@
       "type": "definicion",
       "title": "Experimento determinista y experimento aleatorio",
       "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
-      "line": 258,
+      "line": 264,
       "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#tag-0015",
       "relations": {
         "pertenece_a": [
@@ -2521,7 +2521,7 @@
       "type": "definicion",
       "title": "Resultado, espacio muestral y evento",
       "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
-      "line": 272,
+      "line": 279,
       "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#tag-0016",
       "relations": {
         "requiere": [
@@ -2537,7 +2537,7 @@
       "type": "definicion",
       "title": "Operaciones entre eventos",
       "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
-      "line": 290,
+      "line": 302,
       "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#tag-0017",
       "relations": {
         "requiere": [
@@ -2553,7 +2553,7 @@
       "type": "definicion",
       "title": "Probabilidad",
       "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
-      "line": 310,
+      "line": 324,
       "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#tag-0018",
       "relations": {
         "requiere": [
@@ -2569,7 +2569,7 @@
       "type": "tecnica",
       "title": "Regla de Laplace",
       "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
-      "line": 328,
+      "line": 344,
       "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#tag-0019",
       "relations": {
         "requiere": [
@@ -2586,7 +2586,7 @@
       "type": "definicion",
       "title": "Probabilidad empírica y estabilización de frecuencias",
       "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
-      "line": 345,
+      "line": 363,
       "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#tag-0020",
       "relations": {
         "requiere": [
@@ -2602,7 +2602,7 @@
       "type": "propiedad",
       "title": "Regla del complemento",
       "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
-      "line": 376,
+      "line": 394,
       "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#tag-0021",
       "relations": {
         "requiere": [
@@ -2619,7 +2619,7 @@
       "type": "propiedad",
       "title": "Regla aditiva de la probabilidad",
       "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
-      "line": 394,
+      "line": 412,
       "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#tag-0022",
       "relations": {
         "requiere": [
@@ -2636,7 +2636,7 @@
       "type": "definicion",
       "title": "Probabilidad condicional",
       "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
-      "line": 412,
+      "line": 430,
       "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#tag-0023",
       "relations": {
         "requiere": [
@@ -2653,7 +2653,7 @@
       "type": "propiedad",
       "title": "Regla multiplicativa de la probabilidad",
       "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
-      "line": 428,
+      "line": 446,
       "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#tag-0024",
       "relations": {
         "requiere": [
@@ -2669,7 +2669,7 @@
       "type": "definicion",
       "title": "Independencia de eventos",
       "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
-      "line": 446,
+      "line": 464,
       "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#tag-0025",
       "relations": {
         "requiere": [
@@ -2686,7 +2686,7 @@
       "type": "teorema",
       "title": "Regla de la probabilidad total",
       "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
-      "line": 462,
+      "line": 480,
       "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#tag-0026",
       "relations": {
         "requiere": [
@@ -2703,7 +2703,7 @@
       "type": "teorema",
       "title": "Teorema de Bayes elemental",
       "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
-      "line": 478,
+      "line": 496,
       "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#tag-0027",
       "relations": {
         "requiere": [
@@ -2720,7 +2720,7 @@
       "type": "representacion",
       "title": "Árboles de probabilidad y tablas de contingencia",
       "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
-      "line": 495,
+      "line": 512,
       "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#tag-0028",
       "relations": {
         "requiere": [
@@ -2739,7 +2739,7 @@
       "type": "tecnica",
       "title": "Simulación de experimentos aleatorios",
       "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
-      "line": 509,
+      "line": 528,
       "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#tag-0029",
       "relations": {
         "requiere": [
@@ -2756,7 +2756,7 @@
       "type": "definicion",
       "title": "Variable aleatoria",
       "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
-      "line": 529,
+      "line": 550,
       "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#tag-0030",
       "relations": {
         "requiere": [
@@ -2772,7 +2772,7 @@
       "type": "definicion",
       "title": "Distribución de una variable aleatoria discreta",
       "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
-      "line": 543,
+      "line": 564,
       "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#tag-0031",
       "relations": {
         "requiere": [
@@ -2788,7 +2788,7 @@
       "type": "definicion",
       "title": "Modelo de Bernoulli y distribución binomial",
       "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
-      "line": 564,
+      "line": 585,
       "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#tag-0032",
       "relations": {
         "requiere": [
@@ -2806,7 +2806,7 @@
       "type": "definicion",
       "title": "Variable continua y modelo normal",
       "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
-      "line": 580,
+      "line": 601,
       "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#tag-0033",
       "relations": {
         "requiere": [
@@ -2823,7 +2823,7 @@
       "type": "observacion",
       "title": "Interpretaciones de la probabilidad y lectura crítica",
       "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
-      "line": 600,
+      "line": 621,
       "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#tag-0034",
       "relations": {
         "requiere": [
@@ -3429,15 +3429,15 @@
       "line": 8,
       "href": "../contenidos/paes/m1/preguntas-originales/porcentajes.qmd#tag-0003",
       "relations": {
-        "pertenece_a": [
-          "C001"
+        "usa": [
+          "0001",
+          "0002"
         ],
         "evalua": [
           "H001"
         ],
-        "usa": [
-          "0001",
-          "0002"
+        "pertenece_a": [
+          "C001"
         ]
       }
     },
@@ -6648,15 +6648,6 @@
         "relation": "requiere"
       }
     ],
-    "H001": [
-      {
-        "tag": "0003",
-        "title": "Descuento porcentual",
-        "source": "contenidos/paes/m1/preguntas-originales/porcentajes.qmd",
-        "href": "../paes/m1/preguntas-originales/porcentajes.qmd#tag-0003",
-        "relation": "evalua"
-      }
-    ],
     "0002": [
       {
         "tag": "0003",
@@ -6671,6 +6662,15 @@
         "source": "contenidos/universitario/estadistica/media-ponderada.qmd",
         "href": "../../universitario/estadistica/media-ponderada.qmd#tag-U001",
         "relation": "requiere"
+      }
+    ],
+    "H001": [
+      {
+        "tag": "0003",
+        "title": "Descuento porcentual",
+        "source": "contenidos/paes/m1/preguntas-originales/porcentajes.qmd",
+        "href": "../paes/m1/preguntas-originales/porcentajes.qmd#tag-0003",
+        "relation": "evalua"
       }
     ],
     "0003": [

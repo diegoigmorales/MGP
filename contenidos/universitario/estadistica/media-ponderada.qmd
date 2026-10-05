@@ -10,7 +10,8 @@ description: "Ejemplo de conexión entre porcentajes escolares y estadística un
 Una ponderación expresa la importancia relativa de cada observación. Cuando los pesos se presentan como porcentajes, deben sumar $100\,\%$.
 
 :::: {.knowledge-object #tag-U001 tag="U001" type="problema" title="Calificación final ponderada" requiere="0001,0002" profundiza="0003" pertenece_a="C002"}
-## Problema
+::: {#exm-U001 .theorem-style-remark}
+## Calificación final ponderada
 
 La calificación final de un curso se calcula con tres evaluaciones:
 
@@ -20,18 +21,15 @@ La calificación final de un curso se calcula con tres evaluaciones:
 
 Determine la calificación final.
 
-::: {.callout-note collapse="true"}
-## Solución principal
+**Solución.**
 
 La media ponderada es
 
 $$
 0{,}20(5{,}0)+0{,}30(4{,}5)+0{,}50(6{,}0)=5{,}35.
 $$
-:::
 
-::: {.callout-tip collapse="true"}
-## Otra representación
+**Otra representación.**
 
 Puede escribirse como
 

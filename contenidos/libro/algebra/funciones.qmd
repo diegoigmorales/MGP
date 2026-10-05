@@ -19,235 +19,287 @@ Este capítulo integra la función como correspondencia entre conjuntos y como r
 
 ## Concepto de función, correspondencia y covariación
 
-::: {.knowledge-object #tag-A090 tag="A090" type="definicion" title="Función como correspondencia unívoca" requiere="A022"}
-::: {#def-A090}
+:::: {.knowledge-object #tag-A090 tag="A090" type="definicion" title="Función como correspondencia unívoca" requiere="A022"}
+::: {#def-A090 .theorem-style-definition}
 ## Función como correspondencia unívoca
 
-Una función $f:A\to B$ asigna a **cada** elemento de $A$ **exactamente un** elemento de $B$. El conjunto $A$ es el dominio y $B$ el codominio. Puede haber elementos de $B$ que no reciban ninguna imagen y distintos elementos de $A$ pueden compartir imagen. La función incluye dominio, codominio y regla de asignación; una fórmula por sí sola no especifica siempre esos datos.
+Una función $f:A\to B$ asigna a **cada** elemento de $A$ **exactamente un** elemento de $B$. El conjunto $A$ es el dominio y $B$ el codominio.
 :::
 
-::: {#exm-A090}
+Puede haber elementos de $B$ que no reciban ninguna imagen y distintos elementos de $A$ pueden compartir imagen. La función incluye dominio, codominio y regla de asignación; una fórmula por sí sola no especifica siempre esos datos.
+
+::: {#exm-A090 .theorem-style-remark}
 $f:\mathbb R\to\mathbb R$, $f(x)=x^2$, es una función aunque $f(2)=f(-2)=4$. La relación $y^2=x$ no define una única $y$ real para cada $x>0$.
 :::
-:::
+::::
 
-::: {.knowledge-object #tag-A091 tag="A091" type="definicion" title="Covariación entre cantidades" requiere="A090"}
-::: {#def-A091}
+:::: {.knowledge-object #tag-A091 tag="A091" type="definicion" title="Covariación entre cantidades" requiere="A090"}
+::: {#def-A091 .theorem-style-definition}
 ## Covariación entre cantidades
 
-La covariación estudia cómo cambian conjuntamente entrada y salida. Puede describirse con diferencias, razones, incrementos o comportamiento cualitativo. No equivale a listar correspondencias aisladas: exige coordinar cambios. Una función constante sigue siendo función aunque su salida no cambie. La dependencia funcional en un modelo no establece por sí misma causalidad en datos observados.
+La covariación estudia cómo cambian conjuntamente entrada y salida.
 :::
 
-::: {#exm-A091}
+Puede describirse con diferencias, razones, incrementos o comportamiento cualitativo. No equivale a listar correspondencias aisladas: exige coordinar cambios. Una función constante sigue siendo función aunque su salida no cambie. La dependencia funcional en un modelo no establece por sí misma causalidad en datos observados.
+
+::: {#exm-A091 .theorem-style-remark}
 Si $C(x)=5+2x$ es un costo, aumentar $x$ en 3 unidades aumenta $C$ en 6. El cargo fijo no cambia esa diferencia.
 :::
-:::
+::::
 
 ## Dominio, codominio y recorrido
 
-::: {.knowledge-object #tag-A092 tag="A092" type="definicion" title="Dominio y restricciones contextuales" requiere="A025,A090"}
-::: {#def-A092}
+:::: {.knowledge-object #tag-A092 tag="A092" type="definicion" title="Dominio y restricciones contextuales" requiere="A025,A090"}
+::: {#def-A092 .theorem-style-definition}
 ## Dominio y restricciones contextuales
 
-El dominio forma parte de la definición. Si solo se entrega una fórmula, puede buscarse su dominio natural real: entradas para las que todas las operaciones existen. El dominio contextual puede ser menor por unidades, positividad, integridad o límites del modelo. Restringir el dominio produce una función distinta y puede cambiar su recorrido e invertibilidad.
+El dominio forma parte de la definición. Si solo se entrega una fórmula, puede buscarse su dominio natural real: entradas para las que todas las operaciones existen.
 :::
 
-::: {#exm-A092}
+El dominio contextual puede ser menor por unidades, positividad, integridad o límites del modelo. Restringir el dominio produce una función distinta y puede cambiar su recorrido e invertibilidad.
+
+::: {#exm-A092 .theorem-style-remark}
 La fórmula $f(x)=\sqrt{4-x^2}$ tiene dominio natural $[-2,2]$. Si $x$ representa una distancia no negativa, puede usarse el dominio $[0,2]$.
 :::
-:::
+::::
 
-::: {.knowledge-object #tag-A093 tag="A093" type="definicion" title="Codominio, imagen y recorrido" requiere="A090,A092"}
-::: {#def-A093}
+:::: {.knowledge-object #tag-A093 tag="A093" type="definicion" title="Codominio, imagen y recorrido" requiere="A090,A092"}
+::: {#def-A093 .theorem-style-definition}
 ## Codominio, imagen y recorrido
 
-La **imagen** de $x$ es $f(x)$. El **recorrido** o conjunto imagen es $f(A)=\{f(x):x\in A\}$ y está contenido en el codominio. Cambiar el codominio puede modificar si la función es sobreyectiva, aunque no cambie la fórmula ni las imágenes. El recorrido se obtiene usando todas las entradas admisibles, no solo las de una tabla.
+Para una función $f:A\to B$:
+
+1. El **codominio** es el conjunto $B$ declarado como conjunto de llegada.
+2. La **imagen** de $x\in A$ es el valor $f(x)$.
+3. El **recorrido** o **conjunto imagen** es $f(A)=\{f(x):x\in A\}$, contenido en $B$.
 :::
 
-::: {#exm-A093}
+Cambiar el codominio puede modificar si la función es sobreyectiva, aunque no cambie la fórmula ni las imágenes. El recorrido se obtiene usando todas las entradas admisibles, no solo las de una tabla.
+
+::: {#exm-A093 .theorem-style-remark}
 Para $f:\mathbb R\to\mathbb R$, $f(x)=x^2$, el recorrido es $[0,\infty)$ y el codominio es $\mathbb R$.
 :::
-:::
+::::
 
-::: {.knowledge-object #tag-A094 tag="A094" type="definicion" title="Preimagen de un valor o conjunto" requiere="A043,A093"}
-::: {#def-A094}
+:::: {.knowledge-object #tag-A094 tag="A094" type="definicion" title="Preimagen de un valor o conjunto" requiere="A043,A093"}
+::: {#def-A094 .theorem-style-definition}
 ## Preimagen de un valor o conjunto
 
-La preimagen de $b$ reúne las entradas $x$ para las que $f(x)=b$; puede estar vacía o tener varias entradas. Para $S\subseteq B$, la preimagen es $\{x\in A:f(x)\in S\}$. Buscar preimágenes conecta funciones y ecuaciones. La notación de preimagen no exige que exista una función inversa.
+La **preimagen** de $b$ reúne las entradas $x$ para las que $f(x)=b$; puede estar vacía o tener varias entradas. Para $S\subseteq B$, la preimagen es $\{x\in A:f(x)\in S\}$.
 :::
 
-::: {#exm-A094}
+Buscar preimágenes conecta funciones y ecuaciones. La notación de preimagen no exige que exista una función inversa.
+
+::: {#exm-A094 .theorem-style-remark}
 Para $f(x)=x^2$ en $\mathbb R$, la preimagen de 4 es $\{-2,2\}$ y la de $-1$ es vacía.
 :::
-:::
+::::
 
 ## Representaciones y lectura de gráficos
 
-::: {.knowledge-object #tag-A095 tag="A095" type="criterio" title="Regla verbal, tabla, fórmula y gráfica" requiere="A070,A090,A091"}
-::: {#def-A095}
+:::: {.knowledge-object #tag-A095 tag="A095" type="criterio" title="Regla verbal, tabla, fórmula y gráfica" requiere="A070,A090,A091"}
+::: {#concept-A095 .editorial-text}
+[]{#def-A095}
+
 ## Regla verbal, tabla, fórmula y gráfica
 
 Una función puede representarse verbalmente, en tabla, mediante expresión o por su gráfica $\{(x,f(x)):x\in A\}$. Cada registro destaca información distinta. Una tabla finita no suele determinar la función completa; conectar puntos introduce un supuesto sobre valores intermedios. Para dominios discretos, un trazo continuo puede atribuir entradas inexistentes.
 :::
 
-::: {#exm-A095}
+::: {#exm-A095 .theorem-style-remark}
 La tabla de costos para 1, 2 y 3 entradas no determina por sí sola el precio de 4. Un modelo $C(n)=2n+5$ aporta esa regla adicional, con $n$ entero.
 :::
-:::
+::::
 
-::: {.knowledge-object #tag-A096 tag="A096" type="criterio" title="Prueba de la recta vertical" requiere="A090,A095"}
-::: {#def-A096}
+:::: {.knowledge-object #tag-A096 tag="A096" type="criterio" title="Prueba de la recta vertical" requiere="A090,A095"}
+::: {#concept-A096 .editorial-text}
+[]{#def-A096}
+
 ## Prueba de la recta vertical
 
 Una gráfica en el plano representa a lo sumo una salida por entrada si toda recta vertical la corta en como máximo un punto. Para describir una función en el dominio declarado, además debe haber un punto para cada entrada de ese dominio. La prueba horizontal se vincula con inyectividad, no con la condición básica de ser función.
 :::
 
-::: {#exm-A096}
+::: {#exm-A096 .theorem-style-remark}
 Una circunferencia completa falla la prueba vertical. Su semicircunferencia superior puede representar $y=\sqrt{r^2-x^2}$ en $[-r,r]$.
 :::
-:::
+::::
 
-::: {.knowledge-object #tag-A097 tag="A097" type="definicion" title="Ceros, signo e intersecciones" requiere="A048,A060,A095"}
-::: {#def-A097}
+:::: {.knowledge-object #tag-A097 tag="A097" type="definicion" title="Ceros, signo e intersecciones" requiere="A048,A060,A095"}
+::: {#def-A097 .theorem-style-definition}
 ## Ceros, signo e intersecciones
 
-Los ceros son las entradas que cumplen $f(x)=0$ y corresponden a cortes con el eje horizontal. El corte con el eje vertical existe si $0$ está en el dominio y es $(0,f(0))$. El signo de $f(x)$ describe si la gráfica está arriba o abajo del eje horizontal. Un valor excluido del dominio no es cero aunque anule un factor cancelado.
+Los ceros son las entradas que cumplen $f(x)=0$ y corresponden a cortes con el eje horizontal. El corte con el eje vertical existe si $0$ está en el dominio y es $(0,f(0))$. El signo de $f(x)$ describe si la gráfica está arriba o abajo del eje horizontal.
 :::
 
-::: {#exm-A097}
+Un valor excluido del dominio no es cero aunque anule un factor cancelado.
+
+::: {#exm-A097 .theorem-style-remark}
 Para $f(x)=(x-1)(x+2)$, los ceros son $-2$ y 1, y el corte vertical es $(0,-2)$.
 :::
-:::
+::::
 
-::: {.knowledge-object #tag-A098 tag="A098" type="definicion" title="Monotonía y extremos" requiere="A090"}
-::: {#def-A098}
+:::: {.knowledge-object #tag-A098 tag="A098" type="definicion" title="Monotonía y extremos" requiere="A090"}
+::: {#def-A098 .theorem-style-definition}
 ## Monotonía y extremos
 
-Una función es estrictamente creciente en un intervalo si $x_1<x_2$ implica $f(x_1)<f(x_2)$; es estrictamente decreciente si implica la desigualdad opuesta. «No decreciente» permite igualdad. Un máximo o mínimo absoluto compara con todo el dominio; uno local compara con un entorno. El intervalo estudiado debe explicitarse y los valores límite no siempre se alcanzan.
+Para una función definida en un dominio $A$:
+
+1. Es **estrictamente creciente** en un intervalo si $x_1<x_2$ implica $f(x_1)<f(x_2)$; es **estrictamente decreciente** si implica $f(x_1)>f(x_2)$.
+2. Es **no decreciente** si $x_1<x_2$ implica $f(x_1)\le f(x_2)$.
+3. Tiene un **máximo absoluto** en $x_0$ si $f(x)\le f(x_0)$ para todo $x\in A$; tiene un **mínimo absoluto** si $f(x)\ge f(x_0)$.
+4. Un **máximo local** o **mínimo local** satisface la desigualdad correspondiente en un entorno de $x_0$ dentro del dominio.
 :::
 
-::: {#exm-A098}
+El intervalo estudiado debe explicitarse y los valores límite no siempre se alcanzan.
+
+::: {#exm-A098 .theorem-style-remark}
 $f(x)=x^2$ decrece en $(-\infty,0]$ y crece en $[0,\infty)$. Su mínimo absoluto es 0, alcanzado en $x=0$.
 :::
-:::
+::::
 
-::: {.knowledge-object #tag-A099 tag="A099" type="definicion" title="Tasa de cambio media" requiere="A091,A095"}
-::: {#def-A099}
+:::: {.knowledge-object #tag-A099 tag="A099" type="definicion" title="Tasa de cambio media" requiere="A091,A095"}
+::: {#def-A099 .theorem-style-definition}
 ## Tasa de cambio media
 
 Entre dos entradas distintas $a,b$,
 $$\frac{f(b)-f(a)}{b-a}$$
-es la tasa de cambio media o pendiente de la secante. Sus unidades son unidades de salida por unidad de entrada. Una tasa media constante entre cualesquiera dos entradas caracteriza una función afín en un intervalo; en una función no afín puede depender del tramo. No es necesariamente una tasa instantánea.
+es la tasa de cambio media o pendiente de la secante.
 :::
 
-::: {#exm-A099}
+Sus unidades son unidades de salida por unidad de entrada. Una tasa media constante entre cualesquiera dos entradas caracteriza una función afín en un intervalo; en una función no afín puede depender del tramo. No es necesariamente una tasa instantánea.
+
+::: {#exm-A099 .theorem-style-remark}
 Para $f(x)=x^2$, la tasa media entre 1 y 3 es $(9-1)/(3-1)=4$ y entre 3 y 5 es 8.
 :::
-:::
+::::
 
 ## Composición e inversa
 
-::: {.knowledge-object #tag-A100 tag="A100" type="definicion" title="Composición de funciones" requiere="A092,A093"}
-::: {#def-A100}
+:::: {.knowledge-object #tag-A100 tag="A100" type="definicion" title="Composición de funciones" requiere="A092,A093"}
+::: {#def-A100 .theorem-style-definition}
 ## Composición de funciones
 
-Si las salidas de $f$ son entradas admisibles de $g$, se define $(g\circ f)(x)=g(f(x))$. Si esa compatibilidad no vale en todo el dominio de $f$, se restringe a $\{x\in\operatorname{Dom}(f):f(x)\in\operatorname{Dom}(g)\}$. El orden importa y la composición no suele ser conmutativa. Debe usarse también el dominio de la función interior.
+Si las salidas de $f$ son entradas admisibles de $g$, se define $(g\circ f)(x)=g(f(x))$. Si esa compatibilidad no vale en todo el dominio de $f$, se restringe a $\{x\in\operatorname{Dom}(f):f(x)\in\operatorname{Dom}(g)\}$.
 :::
 
-::: {#exm-A100}
+El orden importa y la composición no suele ser conmutativa. Debe usarse también el dominio de la función interior.
+
+::: {#exm-A100 .theorem-style-remark}
 Con $f(x)=x+1$ y $g(x)=x^2$, $(g\circ f)(x)=(x+1)^2$, mientras que $(f\circ g)(x)=x^2+1$.
 :::
-:::
+::::
 
-::: {.knowledge-object #tag-A101 tag="A101" type="definicion" title="Inyectividad, sobreyectividad y biyectividad" requiere="A090,A093"}
-::: {#def-A101}
+:::: {.knowledge-object #tag-A101 tag="A101" type="definicion" title="Inyectividad, sobreyectividad y biyectividad" requiere="A090,A093"}
+::: {#def-A101 .theorem-style-definition}
 ## Inyectividad, sobreyectividad y biyectividad
 
-Una función es **inyectiva** si entradas distintas tienen imágenes distintas; **sobreyectiva** si su recorrido coincide con el codominio; **biyectiva** si cumple ambas. La inyectividad depende del dominio y la sobreyectividad del codominio declarado. Una función constante solo puede ser inyectiva si su dominio tiene como máximo un elemento.
+Una función $f:A\to B$ es:
+
+1. **Inyectiva** si entradas distintas tienen imágenes distintas.
+2. **Sobreyectiva** si su recorrido coincide con $B$.
+3. **Biyectiva** si es inyectiva y sobreyectiva.
 :::
 
-::: {#exm-A101}
-$x\mapsto x^2$ de $\mathbb R$ a $\mathbb R$ no es inyectiva ni sobreyectiva. De $[0,\infty)$ a $[0,\infty)$ es biyectiva.
-:::
-:::
+La inyectividad depende del dominio y la sobreyectividad del codominio declarado. Una función constante solo puede ser inyectiva si su dominio tiene como máximo un elemento.
 
-::: {.knowledge-object #tag-A102 tag="A102" type="definicion" title="Función inversa y restricción de dominio" requiere="A100,A101,A005"}
-::: {#def-A102}
+::: {#exm-A101 .theorem-style-remark}
+Para la regla $x\mapsto x^2$:
+
+1. De $\mathbb R$ a $\mathbb R$, la función no es inyectiva ni sobreyectiva.
+2. De $[0,\infty)$ a $[0,\infty)$, es biyectiva.
+:::
+::::
+
+:::: {.knowledge-object #tag-A102 tag="A102" type="definicion" title="Función inversa y restricción de dominio" requiere="A100,A101,A005"}
+::: {#def-A102 .theorem-style-definition}
 ## Función inversa y restricción de dominio
 
-Una biyección $f:A\to B$ tiene inversa $f^{-1}:B\to A$, que revierte la asignación. Se cumple $f^{-1}(f(x))=x$ y $f(f^{-1}(y))=y$ en los dominios correspondientes. Una inyección tiene inversa definida sobre su recorrido. Si hay varias preimágenes se requiere restringir el dominio antes de hablar de inversa. $f^{-1}$ no significa $1/f$.
+Una biyección $f:A\to B$ tiene inversa $f^{-1}:B\to A$, que revierte la asignación. Se cumple $f^{-1}(f(x))=x$ y $f(f^{-1}(y))=y$ en los dominios correspondientes.
 :::
 
-::: {#exm-A102}
+Una inyección tiene inversa definida sobre su recorrido. Si hay varias preimágenes se requiere restringir el dominio antes de hablar de inversa. $f^{-1}$ no significa $1/f$.
+
+::: {#exm-A102 .theorem-style-remark}
 Para $f(x)=2x+3$ en $\mathbb R$, $f^{-1}(y)=(y-3)/2$. La inversa de $x^2$ restringida a $x\ge0$ es $\sqrt y$.
 :::
-:::
+::::
 
 ## Función lineal y función afín
 
-::: {.knowledge-object #tag-A103 tag="A103" type="definicion" title="Función lineal y proporcionalidad directa" requiere="A091,A099"}
-::: {#def-A103}
+:::: {.knowledge-object #tag-A103 tag="A103" type="definicion" title="Función lineal y proporcionalidad directa" requiere="A091,A099"}
+::: {#def-A103 .theorem-style-definition}
 ## Función lineal y proporcionalidad directa
 
-Aquí se llama **lineal** a $f(x)=mx$. Pasa por el origen y, si $x\ne0$, el cociente $f(x)/x=m$ es constante. Satisface $f(u+v)=f(u)+f(v)$ y $f(cu)=cf(u)$. La función $mx+b$ con $b\ne0$ se denomina afín, aunque algunos textos usan «lineal» para ambas; conviene aclarar la convención.
+Aquí se llama **lineal** a $f(x)=mx$.
 :::
 
-::: {#exm-A103}
+Pasa por el origen y, si $x\ne0$, el cociente $f(x)/x=m$ es constante. Satisface $f(u+v)=f(u)+f(v)$ y $f(cu)=cf(u)$. La función $mx+b$ con $b\ne0$ se denomina afín, aunque algunos textos usan «lineal» para ambas; conviene aclarar la convención.
+
+::: {#exm-A103 .theorem-style-remark}
 Un precio de 3 por kilogramo, sin cargo fijo, se modela por $C(x)=3x$ para $x\ge0$ y presenta proporcionalidad directa.
 :::
-:::
+::::
 
-::: {.knowledge-object #tag-A104 tag="A104" type="definicion" title="Función afín y pendiente" requiere="A099,A103"}
-::: {#def-A104}
+:::: {.knowledge-object #tag-A104 tag="A104" type="definicion" title="Función afín y pendiente" requiere="A099,A103"}
+::: {#def-A104 .theorem-style-definition}
 ## Función afín y pendiente
 
-Una función afín es $f(x)=mx+b$. Su tasa de cambio es $m$ y $b=f(0)$ si el dominio contiene cero. Para dos puntos con abscisas distintas, $m=(y_2-y_1)/(x_2-x_1)$ y $b=y_1-mx_1$. Si $m=0$ es constante y no tiene inversa sobre un dominio con más de un elemento.
+Una **función afín** es $f(x)=mx+b$.
 :::
 
-::: {#exm-A104}
+Su tasa de cambio es $m$ y $b=f(0)$ si el dominio contiene cero. Para dos puntos con abscisas distintas, $m=(y_2-y_1)/(x_2-x_1)$ y $b=y_1-mx_1$. Si $m=0$ es constante y no tiene inversa sobre un dominio con más de un elemento.
+
+::: {#exm-A104 .theorem-style-remark}
 La recta que pasa por $(1,5)$ y $(3,9)$ tiene $m=2$ y $b=3$, por tanto $f(x)=2x+3$.
 :::
-:::
+::::
 
 ## Función cuadrática
 
-::: {.knowledge-object #tag-A105 tag="A105" type="definicion" title="Función cuadrática y formas equivalentes" requiere="A038,A048"}
-::: {#def-A105}
+:::: {.knowledge-object #tag-A105 tag="A105" type="definicion" title="Función cuadrática y formas equivalentes" requiere="A038,A048"}
+::: {#def-A105 .theorem-style-definition}
 ## Función cuadrática y formas equivalentes
 
-Una función cuadrática tiene forma $f(x)=ax^2+bx+c$, con $a\ne0$. La forma general muestra coeficientes; la forma de vértice $a(x-h)^2+k$ muestra extremo y simetría; cuando hay raíces reales, la forma factorizada muestra ceros. Son representaciones de la misma función si se conservan el dominio y los parámetros.
+Una **función cuadrática** tiene forma $f(x)=ax^2+bx+c$, con $a\ne0$.
 :::
 
-::: {#exm-A105}
+La forma general muestra coeficientes; la forma de vértice $a(x-h)^2+k$ muestra extremo y simetría; cuando hay raíces reales, la forma factorizada muestra ceros. Son representaciones de la misma función si se conservan el dominio y los parámetros.
+
+::: {#exm-A105 .theorem-style-remark}
 $x^2-6x+5=(x-3)^2-4=(x-1)(x-5)$. Las formas destacan, respectivamente, coeficientes, vértice y raíces.
 :::
-:::
+::::
 
-::: {.knowledge-object #tag-A106 tag="A106" type="propiedad" title="Vértice, eje de simetría y recorrido" requiere="A098,A105"}
-::: {#prp-A106}
+:::: {.knowledge-object #tag-A106 tag="A106" type="propiedad" title="Vértice, eje de simetría y recorrido" requiere="A098,A105"}
+::: {#prp-A106 .theorem-style-plain}
 ## Vértice, eje de simetría y recorrido
 
 Para dominio $\mathbb R$, el vértice es $(h,k)$, con
 $$h=-\frac b{2a},\qquad k=f(h).$$
-El eje es $x=h$. Si $a>0$ se alcanza mínimo $k$ y el recorrido es $[k,\infty)$; si $a<0$ se alcanza máximo $k$ y el recorrido es $(-\infty,k]$. Al restringir el dominio debe recalcularse si el vértice está incluido y qué valores se alcanzan.
+El eje es $x=h$. Si $a>0$ se alcanza mínimo $k$ y el recorrido es $[k,\infty)$; si $a<0$ se alcanza máximo $k$ y el recorrido es $(-\infty,k]$.
 :::
 
-::: {#exm-A106}
+Al restringir el dominio debe recalcularse si el vértice está incluido y qué valores se alcanzan.
+
+::: {#exm-A106 .theorem-style-remark}
 $f(x)=-2(x-1)^2+8$ tiene máximo 8 en $x=1$. En el dominio $[2,3]$, su recorrido es $[0,6]$.
 :::
-:::
+::::
 
-::: {.knowledge-object #tag-A107 tag="A107" type="criterio" title="Raíces y variación de una cuadrática" requiere="A049,A106"}
-::: {#def-A107}
+:::: {.knowledge-object #tag-A107 tag="A107" type="criterio" title="Raíces y variación de una cuadrática" requiere="A049,A106"}
+::: {#concept-A107 .editorial-text}
+[]{#def-A107}
+
 ## Raíces y variación de una cuadrática
 
 El discriminante determina los cortes reales con el eje horizontal. La cuadrática tiene simetría respecto de su vértice y es monótona a cada lado. Su coeficiente $a$ determina orientación y escala vertical, pero la aparente apertura depende también de las escalas de los ejes. Leer un dibujo sin escalas no permite comparar parámetros de forma fiable.
 :::
 
-::: {#exm-A107}
+::: {#exm-A107 .theorem-style-remark}
 $x^2+1$ no tiene ceros reales; $(x-2)^2$ tiene un cero doble; $(x-1)(x-3)$ tiene dos ceros distintos.
 :::
-:::
+::::
 
 
 La figura permite comparar las tres formas equivalentes de una misma cuadrática: sus ceros, su vértice y el eje de simetría.
@@ -271,131 +323,149 @@ text(c(1, 3, 5), c(0, -4, 0), labels = c("(1, 0)", "(3, -4)", "(5, 0)"),
 
 ## Funciones potencia y racionales elementales
 
-::: {.knowledge-object #tag-A108 tag="A108" type="definicion" title="Funciones potencia de exponente entero" requiere="A003,A004,A093"}
-::: {#def-A108}
+:::: {.knowledge-object #tag-A108 tag="A108" type="definicion" title="Funciones potencia de exponente entero" requiere="A003,A004,A093"}
+::: {#def-A108 .theorem-style-definition}
 ## Funciones potencia de exponente entero
 
 Para $f(x)=x^n$ con entero positivo $n$, el dominio es $\mathbb R$. Si $n$ es par, el recorrido es $[0,\infty)$ y la función es par; si es impar, el recorrido es $\mathbb R$ y la función es impar y estrictamente creciente. Para $n$ entero negativo, se excluye cero del dominio y se expresa la potencia como recíproco.
 :::
 
-::: {#exm-A108}
+::: {#exm-A108 .theorem-style-remark}
 $x^4$ comparte imagen para $x$ y $-x$. La función $x^{-1}=1/x$ está definida en $\mathbb R\setminus\{0\}$.
 :::
-:::
+::::
 
-::: {.knowledge-object #tag-A109 tag="A109" type="definicion" title="Funciones raíz y potencia racional" requiere="A005,A010,A102"}
-::: {#def-A109}
+:::: {.knowledge-object #tag-A109 tag="A109" type="definicion" title="Funciones raíz y potencia racional" requiere="A005,A010,A102"}
+::: {#def-A109 .theorem-style-definition}
 ## Funciones raíz y potencia racional
 
-La función $\sqrt[n]{x}$ tiene dominio y recorrido $[0,\infty)$ para $n$ par, y ambos $\mathbb R$ para $n$ impar. Las potencias racionales se interpretan con las condiciones del exponente y de la base. Para estudiar una potencia de exponente real arbitrario se toma en general $x>0$, ampliando a cero solo cuando la definición lo permite.
+La función $\sqrt[n]{x}$ tiene dominio y recorrido $[0,\infty)$ para $n$ par, y ambos $\mathbb R$ para $n$ impar.
 :::
 
-::: {#exm-A109}
+Las potencias racionales se interpretan con las condiciones del exponente y de la base. Para estudiar una potencia de exponente real arbitrario se toma en general $x>0$, ampliando a cero solo cuando la definición lo permite.
+
+::: {#exm-A109 .theorem-style-remark}
 $\sqrt{x}$ invierte $x^2$ restringida a los no negativos. La raíz cúbica invierte $x^3$ en toda la recta.
 :::
-:::
+::::
 
-::: {.knowledge-object #tag-A110 tag="A110" type="definicion" title="Función recíproca y asíntotas" requiere="A092,A108"}
-::: {#def-A110}
+:::: {.knowledge-object #tag-A110 tag="A110" type="definicion" title="Función recíproca y asíntotas" requiere="A092,A108"}
+::: {#def-A110 .theorem-style-definition}
 ## Función recíproca y asíntotas
 
-Para $f(x)=k/x$ con $k\ne0$, dominio y recorrido son $\mathbb R\setminus\{0\}$. El producto $xf(x)=k$ es constante y expresa proporcionalidad inversa. La recta $x=0$ es asíntota vertical y $y=0$ es horizontal: describen comportamiento límite, no valores asignados. Una función racional general puede cortar una asíntota horizontal en puntos finitos.
+Para $f(x)=k/x$ con $k\ne0$, dominio y recorrido son $\mathbb R\setminus\{0\}$.
 :::
 
-::: {#exm-A110}
+El producto $xf(x)=k$ es constante y expresa proporcionalidad inversa. La recta $x=0$ es asíntota vertical y $y=0$ es horizontal: describen comportamiento límite, no valores asignados. Una función racional general puede cortar una asíntota horizontal en puntos finitos.
+
+::: {#exm-A110 .theorem-style-remark}
 Si el área fija de un rectángulo es $12\,\mathrm{m^2}$, su largo es $12/x$ para ancho $x>0$; duplicar el ancho divide el largo por 2.
 :::
-:::
+::::
 
 ## Funciones exponencial y logarítmica
 
-::: {.knowledge-object #tag-A111 tag="A111" type="definicion" title="Función exponencial" requiere="A011,A091"}
-::: {#def-A111}
+:::: {.knowledge-object #tag-A111 tag="A111" type="definicion" title="Función exponencial" requiere="A011,A091"}
+::: {#def-A111 .theorem-style-definition}
 ## Función exponencial
 
-Para $b>0$, $b\ne1$, $f(x)=b^x$ tiene dominio $\mathbb R$, recorrido $(0,\infty)$ y pasa por $(0,1)$. Es creciente si $b>1$ y decreciente si $0<b<1$. No tiene ceros y $y=0$ es asíntota horizontal hacia el extremo correspondiente. Un incremento fijo $h$ en la entrada multiplica la salida por $b^h$. La variable está en el exponente, a diferencia de una función potencia.
+Para $b>0$, $b\ne1$, $f(x)=b^x$ tiene dominio $\mathbb R$, recorrido $(0,\infty)$ y pasa por $(0,1)$.
 :::
 
-::: {#exm-A111}
+Es creciente si $b>1$ y decreciente si $0<b<1$. No tiene ceros y $y=0$ es asíntota horizontal hacia el extremo correspondiente. Un incremento fijo $h$ en la entrada multiplica la salida por $b^h$. La variable está en el exponente, a diferencia de una función potencia.
+
+::: {#exm-A111 .theorem-style-remark}
 En $2^x$, aumentar $x$ en 3 multiplica la salida por 8. En $x^2$ no existe ese mismo factor para todas las entradas.
 :::
-:::
+::::
 
-::: {.knowledge-object #tag-A112 tag="A112" type="definicion" title="Función logarítmica" requiere="A012,A013,A102,A111"}
-::: {#def-A112}
+:::: {.knowledge-object #tag-A112 tag="A112" type="definicion" title="Función logarítmica" requiere="A012,A013,A102,A111"}
+::: {#def-A112 .theorem-style-definition}
 ## Función logarítmica
 
-Para base válida $b$, $g(x)=\log_bx$ es la inversa de $b^x$. Su dominio es $(0,\infty)$, recorrido $\mathbb R$ y pasa por $(1,0)$. Es creciente si $b>1$ y decreciente si $0<b<1$. Tiene asíntota vertical $x=0$. Multiplicar el argumento por un factor positivo produce una diferencia constante de logaritmos.
+Para base válida $b$, $g(x)=\log_bx$ es la inversa de $b^x$. Su dominio es $(0,\infty)$, recorrido $\mathbb R$ y pasa por $(1,0)$.
 :::
 
-::: {#exm-A112}
+Es creciente si $b>1$ y decreciente si $0<b<1$. Tiene asíntota vertical $x=0$. Multiplicar el argumento por un factor positivo produce una diferencia constante de logaritmos.
+
+::: {#exm-A112 .theorem-style-remark}
 $\log_2(8x)=\log_2x+3$ para $x>0$. La función $\ln(x-2)$ exige $x>2$ y tiene asíntota vertical $x=2$.
 :::
-:::
+::::
 
 ## Transformaciones y otras representaciones escolares
 
-::: {.knowledge-object #tag-A113 tag="A113" type="tecnica" title="Traslaciones, reflexiones y escalas" requiere="A092,A093,A095"}
-::: {#def-A113}
+:::: {.knowledge-object #tag-A113 tag="A113" type="tecnica" title="Traslaciones, reflexiones y escalas" requiere="A092,A093,A095"}
+::: {#concept-A113 .editorial-text}
+[]{#def-A113}
+
 ## Traslaciones, reflexiones y escalas
 
 Para $g(x)=a\,f(b(x-h))+k$ con $a,b\ne0$, un punto $(u,v)$ de la gráfica de $f$ corresponde a $(h+u/b,k+av)$ en la de $g$. Así se describen traslaciones, reflexiones y escalas sin depender de reglas verbales ambiguas. El dominio de $g$ exige $b(x-h)\in\operatorname{Dom}(f)$ y su recorrido transforma el de $f$ mediante $v\mapsto k+av$.
 :::
 
-::: {#exm-A113}
+::: {#exm-A113 .theorem-style-remark}
 Para $g(x)=2(x-3)^2+1$, el vértice de $x^2$ pasa a $(3,1)$ y su recorrido pasa a $[1,\infty)$.
 :::
-:::
+::::
 
-::: {.knowledge-object #tag-A114 tag="A114" type="definicion" title="Funciones definidas por tramos" requiere="A090,A092"}
-::: {#def-A114}
+:::: {.knowledge-object #tag-A114 tag="A114" type="definicion" title="Funciones definidas por tramos" requiere="A090,A092"}
+::: {#def-A114 .theorem-style-definition}
 ## Funciones definidas por tramos
 
-Una función por tramos usa reglas distintas en subconjuntos del dominio. Los tramos deben asignar un único valor a cada entrada: los extremos incluidos y excluidos importan. Puede haber saltos y aun así existir una función. La continuidad exige una condición adicional, no forma parte de la definición básica.
+Una **función por tramos** usa reglas distintas en subconjuntos del dominio. Los tramos deben asignar un único valor a cada entrada: los extremos incluidos y excluidos importan.
 :::
 
-::: {#exm-A114}
+Puede haber saltos y aun así existir una función. La continuidad exige una condición adicional, no forma parte de la definición básica.
+
+::: {#exm-A114 .theorem-style-remark}
 $f(x)=\begin{cases}x+1,&x<0,\\2,&x\ge0.\end{cases}$ asigna $f(0)=2$. Sus valores al acercarse a cero desde la izquierda se aproximan a 1.
 :::
-:::
+::::
 
-::: {.knowledge-object #tag-A115 tag="A115" type="definicion" title="Valor absoluto, simetría y periodicidad" requiere="A095,A108,A114"}
-::: {#def-A115}
+:::: {.knowledge-object #tag-A115 tag="A115" type="definicion" title="Valor absoluto, simetría y periodicidad" requiere="A095,A108,A114"}
+::: {#def-A115 .theorem-style-definition}
 ## Valor absoluto, simetría y periodicidad
 
-La función $|x|$ equivale a $x$ para $x\ge0$ y a $-x$ para $x<0$. En dominios simétricos, una función es par si $f(-x)=f(x)$ e impar si $f(-x)=-f(x)$. Es periódica si existe $T>0$ con $f(x+T)=f(x)$ y dominio compatible con el desplazamiento; un periodo mínimo positivo no existe siempre. Estas propiedades permiten leer estructura más allá de una fórmula.
+La función $|x|$ equivale a $x$ para $x\ge0$ y a $-x$ para $x<0$. En dominios simétricos, una función es par si $f(-x)=f(x)$ e impar si $f(-x)=-f(x)$. Es periódica si existe $T>0$ con $f(x+T)=f(x)$ y dominio compatible con el desplazamiento; un periodo mínimo positivo no existe siempre.
 :::
 
-::: {#exm-A115}
+Estas propiedades permiten leer estructura más allá de una fórmula.
+
+::: {#exm-A115 .theorem-style-remark}
 $|x|$ es par y $x^3$ es impar. La función constante admite todo $T>0$ como periodo y no tiene periodo mínimo positivo.
 :::
-:::
+::::
 
 ## Modelación y errores frecuentes
 
-::: {.knowledge-object #tag-A116 tag="A116" type="aplicacion" title="Selección y validación de modelos funcionales" requiere="A103,A104,A110,A111,A087"}
-::: {#def-A116}
+:::: {.knowledge-object #tag-A116 tag="A116" type="aplicacion" title="Selección y validación de modelos funcionales" requiere="A103,A104,A110,A111,A087"}
+::: {#concept-A116 .editorial-text}
+[]{#def-A116}
+
 ## Selección y validación de modelos funcionales
 
 La familia se elige según la relación del contexto: proporcionalidad directa, cambio aditivo, producto constante o factor multiplicativo. Ajustar una fórmula a pocos datos no determina un mecanismo ni valida extrapolaciones. Se deben declarar unidades, dominio, parámetros, supuestos y un criterio para contrastar predicciones con observaciones.
 :::
 
-::: {#exm-A116}
+::: {#exm-A116 .theorem-style-remark}
 Un costo con cargo fijo y precio unitario constante sugiere una función afín. Un proceso que duplica una cantidad cada periodo sugiere una exponencial o una sucesión geométrica si el tiempo es discreto.
 :::
-:::
+::::
 
-::: {.knowledge-object #tag-A117 tag="A117" type="observacion" title="Errores en el concepto y las representaciones de función" requiere="A090,A093,A101,A102"}
-::: {#def-A117}
+:::: {.knowledge-object #tag-A117 tag="A117" type="observacion" title="Errores en el concepto y las representaciones de función" requiere="A090,A093,A101,A102"}
+::: {#concept-A117 .editorial-text}
+[]{#def-A117}
+
 ## Errores en el concepto y las representaciones de función
 
 Son frecuentes confundir codominio y recorrido, exigir imágenes distintas para que exista función, entender $f(x)$ como producto, confundir inversa con recíproco y leer una gráfica sin dominio ni escalas. Una entrada con dos salidas impide definir una función hacia ese conjunto de salidas; dos entradas con la misma salida solo impiden inyectividad.
 :::
 
-::: {#exm-A117}
+::: {#exm-A117 .theorem-style-remark}
 $f(x)=x^2$ sí es función en $\mathbb R$, pero no tiene inversa global con ese dominio. Restringir a $x\ge0$ permite la inversa $\sqrt x$.
 :::
-:::
+::::
 
 ## Síntesis para la consulta docente
 

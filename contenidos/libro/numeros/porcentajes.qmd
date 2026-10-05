@@ -11,8 +11,9 @@ format:
 
 Los porcentajes permiten comparar cantidades respecto de una referencia común de cien unidades. Aparecen en descuentos, impuestos, variaciones, encuestas y análisis estadísticos.
 
-::: {.knowledge-object #tag-0001 tag="0001" type="definicion" title="Porcentaje" pertenece_a="C001"}
-## Definición
+:::: {.knowledge-object #tag-0001 tag="0001" type="definicion" title="Porcentaje" pertenece_a="C001"}
+::: {#def-0001 .theorem-style-definition}
+## Porcentaje
 
 Un **porcentaje** es una razón cuyo consecuente es $100$. Decir $p\,\%$ equivale a
 
@@ -20,6 +21,7 @@ $$
 \frac{p}{100}.
 $$
 :::
+::::
 
 ## Interpretaciones
 
@@ -44,22 +46,22 @@ $$
 x\cdot\frac{p}{100}.
 $$
 
-::: {.callout-tip collapse="true"}
-## Interpretación alternativa
+### Interpretación alternativa
 
 Primero se encuentra el $1\,\%$ dividiendo por $100$ y después se multiplica por $p$.
-:::
 ::::
 
 ## Ejemplos
 
-### Porcentaje de una cantidad
+::: {#exm-0002 .theorem-style-remark}
+## Porcentaje de una cantidad
 
 El $20\,\%$ de $350$ es
 
 $$
 350\cdot\frac{20}{100}=70.
 $$
+:::
 
 ## Errores frecuentes
 

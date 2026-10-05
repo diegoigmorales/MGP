@@ -1,0 +1,54 @@
+% Barras compartidas para HTML/PDF: plain, definition y remark.
+\usepackage[most]{tcolorbox}
+\definecolor{mgpplaincolor}{HTML}{E87500}
+\definecolor{mgpdefinitioncolor}{HTML}{00759A}
+\definecolor{mgpremarkcolor}{HTML}{16821B}
+\tcbset{mgpbase/.style={enhanced,breakable,frame hidden,
+  colback=black!3,boxrule=0pt,sharp corners,
+  left=8pt,right=8pt,top=6pt,bottom=6pt,
+  before skip=10pt,after skip=10pt}}
+\newtcolorbox{mgpplain}{mgpbase,borderline west={2.5pt}{0pt}{mgpplaincolor}}
+\newtcolorbox{mgpdefinition}{mgpbase,borderline west={2.5pt}{0pt}{mgpdefinitioncolor}}
+\newtcolorbox{mgpremark}{mgpbase,borderline west={2.5pt}{0pt}{mgpremarkcolor}}
+
+% Quarto convierte sus Divs a entornos antes de ejecutar los filtros del usuario.
+% Los hooks rodean el entorno completo, incluido su título y su numeración.
+\usepackage{etoolbox}
+\AtBeginDocument{%
+  \ifcsdef{theorem}{%
+    \BeforeBeginEnvironment{theorem}{\begin{mgpplain}}%
+    \AfterEndEnvironment{theorem}{\end{mgpplain}}%
+  }{}%
+  \ifcsdef{proposition}{%
+    \BeforeBeginEnvironment{proposition}{\begin{mgpplain}}%
+    \AfterEndEnvironment{proposition}{\end{mgpplain}}%
+  }{}%
+  \ifcsdef{lemma}{%
+    \BeforeBeginEnvironment{lemma}{\begin{mgpplain}}%
+    \AfterEndEnvironment{lemma}{\end{mgpplain}}%
+  }{}%
+  \ifcsdef{corollary}{%
+    \BeforeBeginEnvironment{corollary}{\begin{mgpplain}}%
+    \AfterEndEnvironment{corollary}{\end{mgpplain}}%
+  }{}%
+  \ifcsdef{conjecture}{%
+    \BeforeBeginEnvironment{conjecture}{\begin{mgpplain}}%
+    \AfterEndEnvironment{conjecture}{\end{mgpplain}}%
+  }{}%
+  \ifcsdef{axiom}{%
+    \BeforeBeginEnvironment{axiom}{\begin{mgpplain}}%
+    \AfterEndEnvironment{axiom}{\end{mgpplain}}%
+  }{}%
+  \ifcsdef{definition}{%
+    \BeforeBeginEnvironment{definition}{\begin{mgpdefinition}}%
+    \AfterEndEnvironment{definition}{\end{mgpdefinition}}%
+  }{}%
+  \ifcsdef{example}{%
+    \BeforeBeginEnvironment{example}{\begin{mgpremark}}%
+    \AfterEndEnvironment{example}{\end{mgpremark}}%
+  }{}%
+  \ifcsdef{remark}{%
+    \BeforeBeginEnvironment{remark}{\begin{mgpremark}}%
+    \AfterEndEnvironment{remark}{\end{mgpremark}}%
+  }{}%
+}
