@@ -1,7 +1,7 @@
 ---
 title: "Pregunta 9 · PAES M1 Invierno — Admisión 2027"
 paes-question: 9
-knowledge-tag: "2709"
+knowledge-tag: "00AS"
 ---
 
 Una persona necesita comprar $3\,\mathrm{kg}$ de azúcar, $6\,\mathrm{L}$ de lavaozza, $4\,\mathrm{L}$ de leche y $1\,\mathrm{kg}$ de arroz.

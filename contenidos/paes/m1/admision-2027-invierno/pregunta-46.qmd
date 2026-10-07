@@ -1,7 +1,7 @@
 ---
 title: "Pregunta 46 · PAES M1 Invierno — Admisión 2027"
 paes-question: 46
-knowledge-tag: "2746"
+knowledge-tag: "00BT"
 ---
 
 En un plano cartesiano se proyecta la sombra de la cara de un gato, como se representa a continuación:

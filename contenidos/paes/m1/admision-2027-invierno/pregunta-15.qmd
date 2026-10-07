@@ -1,7 +1,7 @@
 ---
 title: "Pregunta 15 · PAES M1 Invierno — Admisión 2027"
 paes-question: 15
-knowledge-tag: "2715"
+knowledge-tag: "00AY"
 ---
 
 Una empresa de estacionamientos cobra una tarifa de $\$25$ por cada minuto de uso.

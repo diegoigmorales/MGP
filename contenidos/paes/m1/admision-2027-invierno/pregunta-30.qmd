@@ -1,7 +1,7 @@
 ---
 title: "Pregunta 30 · PAES M1 Invierno — Admisión 2027"
 paes-question: 30
-knowledge-tag: "2730"
+knowledge-tag: "00BD"
 ---
 
 En una empresa que se dedica a la mantención y reparación de calefont, trabajan Pedro, Joaquín, Rosario y Teresa, como técnicos.

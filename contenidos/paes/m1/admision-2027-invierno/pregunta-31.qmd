@@ -1,7 +1,7 @@
 ---
 title: "Pregunta 31 · PAES M1 Invierno — Admisión 2027"
 paes-question: 31
-knowledge-tag: "2731"
+knowledge-tag: "00BE"
 ---
 
 En la siguiente infografía se presenta información respecto a la rapidez máxima permitida en zonas de escuela.

@@ -1,7 +1,7 @@
 ---
 title: "Pregunta 7 · PAES M1 Invierno — Admisión 2027"
 paes-question: 7
-knowledge-tag: "2707"
+knowledge-tag: "00AQ"
 ---
 
 ¿Cuál es el valor de $2 \cdot (2\sqrt{3}) \cdot \sqrt{3}$?

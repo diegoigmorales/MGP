@@ -11,8 +11,8 @@ format:
 
 Los porcentajes permiten comparar cantidades respecto de una referencia común de cien unidades. Aparecen en descuentos, impuestos, variaciones, encuestas y análisis estadísticos.
 
-:::: {.knowledge-object #tag-0001 tag="0001" type="definicion" title="Porcentaje" pertenece_a="C001"}
-::: {#def-0001 .theorem-style-definition}
+:::: {.knowledge-object #tag-008P tag="008P" type="definicion" title="Porcentaje" pertenece_a="0000"}
+::: {#def-008P .theorem-style-definition data-environment-tag="008P"}
 ## Porcentaje
 
 Un **porcentaje** es una razón cuyo consecuente es $100$. Decir $p\,\%$ equivale a
@@ -37,7 +37,7 @@ $$
 25\,\%=0{,}25.
 $$
 
-:::: {.knowledge-object #tag-0002 tag="0002" type="tecnica" title="Calcular un porcentaje de una cantidad" requiere="0001" pertenece_a="C001"}
+:::: {.knowledge-object #tag-008Q tag="008Q" type="tecnica" title="Calcular un porcentaje de una cantidad" requiere="008P" pertenece_a="0000"}
 ## Técnica fundamental
 
 Para calcular el $p\,\%$ de una cantidad $x$, se multiplica
@@ -53,7 +53,7 @@ Primero se encuentra el $1\,\%$ dividiendo por $100$ y después se multiplica po
 
 ## Ejemplos
 
-::: {#exm-0002 .theorem-style-remark}
+::: {#exm-008Q .theorem-style-remark data-environment-tag="008R"}
 ## Porcentaje de una cantidad
 
 El $20\,\%$ de $350$ es
@@ -71,4 +71,4 @@ $$
 
 ## Preguntas relacionadas
 
-- [Pregunta original sobre descuento](../../paes/m1/preguntas-originales/porcentajes.qmd#tag-0003)
+- [Pregunta original sobre descuento](../../paes/m1/preguntas-originales/porcentajes.qmd#tag-00CD)

@@ -1,7 +1,7 @@
 ---
 title: "Pregunta 60 · PAES M1 Invierno — Admisión 2027"
 paes-question: 60
-knowledge-tag: "2760"
+knowledge-tag: "00C7"
 ---
 
 En el siguiente gráfico se presenta el promedio de las puntuaciones que ha recibido un hotel por parte de sus huéspedes con respecto a seis categorías.

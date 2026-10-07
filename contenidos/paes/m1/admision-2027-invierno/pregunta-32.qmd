@@ -1,7 +1,7 @@
 ---
 title: "Pregunta 32 · PAES M1 Invierno — Admisión 2027"
 paes-question: 32
-knowledge-tag: "2732"
+knowledge-tag: "00BF"
 ---
 
 Considera la siguiente oferta:

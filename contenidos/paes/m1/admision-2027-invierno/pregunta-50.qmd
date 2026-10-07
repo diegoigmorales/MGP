@@ -1,7 +1,7 @@
 ---
 title: "Pregunta 50 · PAES M1 Invierno — Admisión 2027"
 paes-question: 50
-knowledge-tag: "2750"
+knowledge-tag: "00BX"
 ---
 
 En una empresa de embalaje, al ingresar una caja a una cinta transportadora se le efectúa suavemente los movimientos para su sellado, tal como se representa a continuación:

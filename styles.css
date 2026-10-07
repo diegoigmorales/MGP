@@ -288,3 +288,52 @@
 .editorial-text { margin: 1rem 0; }
 .editorial-text > h2 { font-size: 1.15rem; }
 .knowledge-object ol > li + li { margin-top: .35rem; }
+
+/* Incisos semánticos de Pandoc: letras con ambos paréntesis en HTML. */
+@counter-style mgp-incisos {
+  system: extends lower-alpha;
+  prefix: "(";
+  suffix: ") ";
+}
+
+.theorem-style-plain ol[type="a"],
+.theorem-style-definition ol[type="a"],
+.theorem-style-remark ol[type="a"] {
+  list-style-type: mgp-incisos;
+  padding-left: 2.1em;
+}
+
+/* Un mismo control discreto y la misma ubicación para escritorio y móvil. */
+.identifier-control {
+  display: flex;
+  justify-content: flex-end;
+  margin: .25rem 0 1rem;
+  color: var(--bs-secondary-color, #606873);
+  font-size: .8rem;
+}
+.identifier-control label {
+  display: inline-flex;
+  align-items: center;
+  gap: .4rem;
+  cursor: pointer;
+  padding: .3rem .15rem;
+}
+.identifier-control input { accent-color: var(--bs-secondary-color, #606873); }
+.identifier-row { display: none; text-align: right; margin: 0 0 .3rem; }
+.mgp-show-identifiers .identifier-row { display: block; }
+.identifier-row .knowledge-tag {
+  color: var(--bs-secondary-color, #606873);
+  font-size: .75rem;
+  font-weight: 400;
+  letter-spacing: .02em;
+  text-decoration: none;
+}
+.identifier-row .knowledge-tag:hover { text-decoration: underline; }
+.environment-permalink { color: inherit; text-decoration: none; }
+.environment-permalink:hover { text-decoration: underline; }
+.identifier-control input:focus-visible,
+.identifier-row a:focus-visible,
+.environment-permalink:focus-visible { outline: 2px solid currentColor; outline-offset: 3px; }
+@media print {
+  .identifier-control { display: none; }
+}

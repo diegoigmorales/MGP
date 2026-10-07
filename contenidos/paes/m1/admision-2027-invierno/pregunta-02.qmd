@@ -1,7 +1,7 @@
 ---
 title: "Pregunta 2 · PAES M1 Invierno — Admisión 2027"
 paes-question: 2
-knowledge-tag: "2702"
+knowledge-tag: "00AL"
 ---
 
 Una persona compra manzanas en cajas de $24$ unidades para vender en su local. Si esta persona hace un pedido de $45$ de estas cajas, pero le llegaron solo $38$ cajas, ¿cuántas manzanas le faltaron en el pedido?

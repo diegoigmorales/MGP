@@ -28,7 +28,7 @@ Un archivo QMD puede contener uno o más objetos:
 
 ~~~markdown
 :::: {.knowledge-object #tag-00AF tag="00AF" type="teorema" title="Nombre" requiere="0001,0002"}
-::: {#thm-00AF .theorem-style-plain}
+::: {#thm-00AF .theorem-style-plain data-environment-tag="00AF"}
 ## Nombre
 
 Hipótesis y conclusión del teorema.
@@ -36,7 +36,7 @@ Hipótesis y conclusión del teorema.
 
 Explicación del autor fuera del enunciado.
 
-::: {#exm-00AF .theorem-style-remark}
+::: {#exm-00AF .theorem-style-remark data-environment-tag="00AG"}
 Un ejemplo de aplicación.
 :::
 ::::
@@ -46,7 +46,7 @@ Los estilos y la separación entre enunciados, explicaciones y ejemplos se descr
 
 Las relaciones admitidas incluyen usa, requiere, demuestra, generaliza, especializa, relacionado, error_asociado, alternativa, prerequisito, pertenece_a, evalua, profundiza, aplica y similar_a.
 
-Los identificadores tienen cuatro caracteres en mayúsculas (0-9, A-Z). Una vez asignados, no se renombran ni reutilizan.
+Los identificadores siguen una secuencia global de cuatro caracteres en base 36 (0-9, A-Z), desde `0000` y sin saltos. Ejecuta `python scripts/build_registry.py --next-tag` para obtener el primer código libre. Los códigos del ejemplo son ilustrativos; usa los siguientes disponibles al crear objetos. Una vez asignados, no se renombran ni reutilizan.
 
 ## Publicación
 

@@ -1,7 +1,7 @@
 ---
 title: "Pregunta 16 · PAES M1 Invierno — Admisión 2027"
 paes-question: 16
-knowledge-tag: "2716"
+knowledge-tag: "00AZ"
 ---
 
 Se realizó una encuesta a un grupo de personas respecto a su legumbre preferida y cada persona eligió solo una opción. Los resultados se presentan en la siguiente tabla:

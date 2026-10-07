@@ -7,7 +7,7 @@ toc: false
 
 ## Ejes escolares y PAES
 
-::: {.knowledge-object #tag-C001 tag="C001" type="materia" title="Números"}
+::: {.knowledge-object #tag-0000 tag="0000" type="materia" title="Números"}
 ### Números
 
 Comprende sistemas numéricos, razones, proporciones, porcentajes, potencias y raíces, según el nivel curricular correspondiente.
@@ -16,7 +16,7 @@ Comprende sistemas numéricos, razones, proporciones, porcentajes, potencias y r
 <!-- Contenido conservado para el grafo interno, aún no publicado.
 ## Áreas universitarias
 
-::: {.knowledge-object #tag-C002 tag="C002" type="materia" title="Estadística"}
+::: {.knowledge-object #tag-0001 tag="0001" type="materia" title="Estadística"}
 ### Estadística
 
 Estudio de la recolección, descripción, modelamiento e inferencia a partir de datos.

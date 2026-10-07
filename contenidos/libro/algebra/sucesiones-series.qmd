@@ -19,8 +19,8 @@ Este capítulo organiza el conocimiento sobre regularidades discretas y acumulac
 
 ## Patrones y sucesiones
 
-:::: {.knowledge-object #tag-A070 tag="A070" type="definicion" title="Sucesión e índice" requiere="A021,A022"}
-::: {#def-A070 .theorem-style-definition}
+:::: {.knowledge-object #tag-005H tag="005H" type="definicion" title="Sucesión e índice" requiere="0005,0007"}
+::: {#def-005H .theorem-style-definition data-environment-tag="005H"}
 ## Sucesión e índice
 
 Una **sucesión real** es una función cuyo dominio es un conjunto de índices naturales. Aquí se usa $n=1,2,\ldots$, salvo declaración distinta, y se escribe $(a_n)$. El término $a_n$ es el valor en la posición $n$.
@@ -28,13 +28,13 @@ Una **sucesión real** es una función cuyo dominio es un conjunto de índices n
 
 Una sucesión tiene orden y admite valores repetidos; no es lo mismo que el conjunto de sus valores. Una lista finita describe solo un tramo y no determina por sí sola la continuación.
 
-::: {#exm-A070 .theorem-style-remark}
+::: {#exm-005H .theorem-style-remark data-environment-tag="005I"}
 La sucesión $a_n=(-1)^n$ alterna $-1,1,-1,1,\ldots$; su conjunto de valores es solo $\{-1,1\}$.
 :::
 ::::
 
-:::: {.knowledge-object #tag-A071 tag="A071" type="definicion" title="Fórmula explícita" requiere="A070"}
-::: {#def-A071 .theorem-style-definition}
+:::: {.knowledge-object #tag-005J tag="005J" type="definicion" title="Fórmula explícita" requiere="005H"}
+::: {#def-005J .theorem-style-definition data-environment-tag="005J"}
 ## Fórmula explícita
 
 Una **fórmula explícita** permite obtener el término a partir del índice, sin calcular todos los anteriores.
@@ -42,13 +42,13 @@ Una **fórmula explícita** permite obtener el término a partir del índice, si
 
 Debe acompañarse de la convención de inicio y el dominio de índices. Una expresión que parece adecuada por comparación de los primeros valores requiere una justificación de su vínculo con la construcción original.
 
-::: {#exm-A071 .theorem-style-remark}
+::: {#exm-005J .theorem-style-remark data-environment-tag="005K"}
 Con $n\ge1$, $a_n=3n+1$ comienza $4,7,10,\ldots$. Si se inicia en $n=0$, el primer valor es 1 y cambia la interpretación de la posición.
 :::
 ::::
 
-:::: {.knowledge-object #tag-A072 tag="A072" type="definicion" title="Recurrencia y condiciones iniciales" requiere="A070,A071"}
-::: {#def-A072 .theorem-style-definition}
+:::: {.knowledge-object #tag-005L tag="005L" type="definicion" title="Recurrencia y condiciones iniciales" requiere="005H,005J"}
+::: {#def-005L .theorem-style-definition data-environment-tag="005L"}
 ## Recurrencia y condiciones iniciales
 
 Una **recurrencia** define términos a partir de otros ya conocidos. Las condiciones iniciales permiten iniciar el proceso y pueden determinar una única sucesión.
@@ -56,29 +56,29 @@ Una **recurrencia** define términos a partir de otros ya conocidos. Las condici
 
 Una recurrencia de segundo orden normalmente necesita dos valores iniciales. Fórmula explícita y recurrencia pueden describir el mismo objeto desde perspectivas diferentes.
 
-::: {#exm-A072 .theorem-style-remark}
+::: {#exm-005L .theorem-style-remark data-environment-tag="005M"}
 $a_1=4$, $a_{n+1}=a_n+3$ produce $4,7,10,\ldots$ y equivale a $a_n=3n+1$.
 :::
 ::::
 
-:::: {.knowledge-object #tag-A073 tag="A073" type="criterio" title="Patrón observado y regla determinada" requiere="A021,A070"}
-::: {#concept-A073 .editorial-text}
-[]{#def-A073}
+:::: {.knowledge-object #tag-005N tag="005N" type="criterio" title="Patrón observado y regla determinada" requiere="0005,005H"}
+::: {#concept-005N .editorial-text}
+[]{#def-005N}
 
 ## Patrón observado y regla determinada
 
 Una lista finita admite infinitas continuaciones. Para decidir una regla se requieren condiciones adicionales: una construcción, una recurrencia, pertenencia a una familia o un supuesto del modelo. Pedir «el siguiente término» sin más condiciones evalúa una conjetura plausible, no necesariamente una conclusión única.
 :::
 
-::: {#exm-A073 .theorem-style-remark}
+::: {#exm-005N .theorem-style-remark data-environment-tag="005O"}
 Tras $2,4,8$ puede proponerse duplicar, pero $a_n=n^2-n+2$ también da esos tres valores y luego 14.
 :::
 ::::
 
 ## Progresiones aritméticas
 
-:::: {.knowledge-object #tag-A074 tag="A074" type="definicion" title="Progresión aritmética" requiere="A072"}
-::: {#def-A074 .theorem-style-definition}
+:::: {.knowledge-object #tag-005P tag="005P" type="definicion" title="Progresión aritmética" requiere="005L"}
+::: {#def-005P .theorem-style-definition data-environment-tag="005P"}
 ## Progresión aritmética
 
 Una **progresión aritmética** tiene diferencia constante $d=a_{n+1}-a_n$. Con primer término $a_1$,
@@ -87,14 +87,14 @@ $$a_n=a_1+(n-1)d.$$
 
 El factor $n-1$ cuenta cuántos incrementos separan el primer término del término $n$. Si $d>0$, la sucesión es creciente; si $d<0$, decreciente; si $d=0$, constante.
 
-::: {#exm-A074 .theorem-style-remark}
+::: {#exm-005P .theorem-style-remark data-environment-tag="005Q"}
 Con $a_1=7$ y $d=-2$, $a_5=7+4(-2)=-1$.
 :::
 ::::
 
-:::: {.knowledge-object #tag-A075 tag="A075" type="tecnica" title="Determinación de una progresión aritmética" requiere="A074"}
-::: {#concept-A075 .editorial-text}
-[]{#def-A075}
+:::: {.knowledge-object #tag-005R tag="005R" type="tecnica" title="Determinación de una progresión aritmética" requiere="005P"}
+::: {#concept-005R .editorial-text}
+[]{#def-005R}
 
 ## Determinación de una progresión aritmética
 
@@ -103,13 +103,13 @@ $$d=\frac{a_j-a_i}{j-i},\qquad a_1=a_i-(i-1)d.$$
 La diferencia entre valores se divide por el número de pasos, no por el número de términos incluidos. Interpolar términos aritméticos supone que la diferencia se mantiene constante.
 :::
 
-::: {#exm-A075 .theorem-style-remark}
+::: {#exm-005R .theorem-style-remark data-environment-tag="005S"}
 Si $a_3=10$ y $a_7=22$, entonces $d=3$ y $a_1=4$.
 :::
 ::::
 
-:::: {.knowledge-object #tag-A076 tag="A076" type="propiedad" title="Suma de una progresión aritmética" requiere="A074"}
-::: {#prp-A076 .theorem-style-plain}
+:::: {.knowledge-object #tag-005T tag="005T" type="propiedad" title="Suma de una progresión aritmética" requiere="005P"}
+::: {#prp-005T .theorem-style-plain data-environment-tag="005T"}
 ## Suma de una progresión aritmética
 
 La suma de los primeros $n$ términos es
@@ -118,15 +118,15 @@ $$S_n=\frac{n(a_1+a_n)}2=\frac n2\bigl(2a_1+(n-1)d\bigr).$$
 
 Es $n$ veces el promedio de los extremos y vale para diferencias positivas, negativas o nulas. Se deben distinguir término final, número de términos y suma.
 
-::: {#exm-A076 .theorem-style-remark}
+::: {#exm-005T .theorem-style-remark data-environment-tag="005U"}
 $5+8+11+14+17$ contiene cinco términos y suma $5(5+17)/2=55$.
 :::
 ::::
 
 ## Progresiones geométricas
 
-:::: {.knowledge-object #tag-A077 tag="A077" type="definicion" title="Progresión geométrica" requiere="A003,A072"}
-::: {#def-A077 .theorem-style-definition}
+:::: {.knowledge-object #tag-005V tag="005V" type="definicion" title="Progresión geométrica" requiere="004J,005L"}
+::: {#def-005V .theorem-style-definition data-environment-tag="005V"}
 ## Progresión geométrica
 
 Se define mediante $a_{n+1}=r a_n$, con razón fija $r$. Para $n\ge2$, $a_n=a_1r^{n-1}$, y el primer término se declara por separado si $r=0$.
@@ -134,45 +134,46 @@ Se define mediante $a_{n+1}=r a_n$, con razón fija $r$. Para $n\ge2$, $a_n=a_1r
 
 El cociente $a_{n+1}/a_n$ solo permite identificar $r$ cuando $a_n\ne0$. Una razón negativa puede producir alternancia y una razón cero produce ceros después del primer término.
 
-::: {#exm-A077 .theorem-style-remark}
+::: {#exm-005V .theorem-style-remark data-environment-tag="005W"}
 $3,6,12,24,\ldots$ tiene $r=2$. La sucesión $2,-6,18,-54,\ldots$ tiene $r=-3$.
 :::
 ::::
 
-:::: {.knowledge-object #tag-A078 tag="A078" type="criterio" title="Comportamiento de una progresión geométrica" requiere="A077"}
-::: {#concept-A078 .editorial-text}
-[]{#def-A078}
+:::: {.knowledge-object #tag-005X tag="005X" type="criterio" title="Comportamiento de una progresión geométrica" requiere="005V"}
+::: {#concept-005X .editorial-text}
+[]{#def-005X}
 
 ## Comportamiento de una progresión geométrica
 
 Con $a_1>0$, si $r>1$ hay crecimiento; si $0<r<1$ hay decrecimiento hacia cero; si $r=1$ hay constancia. Para $r<0$ los signos alternan y el tamaño absoluto depende de $|r|$. Si $a_1<0$, las afirmaciones de crecimiento para razón positiva cambian de sentido. Es necesario diferenciar valor, signo y magnitud.
 :::
 
-::: {#exm-A078 .theorem-style-remark}
+::: {#exm-005X .theorem-style-remark data-environment-tag="005Y"}
 $a_n=-2(1/2)^{n-1}$ es creciente y se aproxima a cero desde valores negativos, aunque su magnitud disminuye.
 :::
 ::::
 
-:::: {.knowledge-object #tag-A079 tag="A079" type="propiedad" title="Suma geométrica finita" requiere="A077"}
-::: {#prp-A079 .theorem-style-plain}
+:::: {.knowledge-object #tag-005Z tag="005Z" type="propiedad" title="Suma geométrica finita" requiere="005V"}
+::: {#prp-005Z .theorem-style-plain data-environment-tag="005Z"}
 ## Suma geométrica finita
 
-Para $r\ne1$,
-$$S_n=a_1\frac{1-r^n}{1-r}.$$
-Si $r=1$, $S_n=na_1$.
+La suma de los primeros $n$ términos de una progresión geométrica es:
+
+(a) Si $r\ne1$, $S_n=a_1(1-r^n)/(1-r)$.
+(b) Si $r=1$, $S_n=na_1$.
 :::
 
 La suma finita vale aunque $|r|\ge1$ y no debe confundirse con una suma infinita. El término $r^n$ corresponde a la cantidad de términos, mientras que el último término contiene $r^{n-1}$.
 
-::: {#exm-A079 .theorem-style-remark}
+::: {#exm-005Z .theorem-style-remark data-environment-tag="0060"}
 $3+6+12+24=3(1-2^4)/(1-2)=45$.
 :::
 ::::
 
 ## Sumas y series elementales
 
-:::: {.knowledge-object #tag-A080 tag="A080" type="definicion" title="Notación de sumatoria" requiere="A070,A028"}
-::: {#def-A080 .theorem-style-definition}
+:::: {.knowledge-object #tag-0061 tag="0061" type="definicion" title="Notación de sumatoria" requiere="005H,000J"}
+::: {#def-0061 .theorem-style-definition data-environment-tag="0061"}
 ## Notación de sumatoria
 
 La escritura $\sum_{k=p}^q a_k$ suma los términos con índices enteros desde $p$ hasta $q$, incluidos ambos extremos.
@@ -180,31 +181,32 @@ La escritura $\sum_{k=p}^q a_k$ suma los términos con índices enteros desde $p
 
 El índice es auxiliar y puede cambiar de nombre si se conservan límites y términos. Para límites fijos, la suma distribuye sobre sumas y permite extraer factores que no dependen del índice.
 
-::: {#exm-A080 .theorem-style-remark}
+::: {#exm-0061 .theorem-style-remark data-environment-tag="0062"}
 $\sum_{k=1}^4(2k+1)=3+5+7+9=24$; también vale $2\sum_{k=1}^4k+4$.
 :::
 ::::
 
-:::: {.knowledge-object #tag-A081 tag="A081" type="propiedad" title="Sumas de naturales, cuadrados y cubos" requiere="A076,A080"}
-::: {#prp-A081 .theorem-style-plain}
+:::: {.knowledge-object #tag-0063 tag="0063" type="propiedad" title="Sumas de naturales, cuadrados y cubos" requiere="005T,0061"}
+::: {#prp-0063 .theorem-style-plain data-environment-tag="0063"}
 ## Sumas de naturales, cuadrados y cubos
 
 Para un entero $n\ge1$:
-$$\sum_{k=1}^n k=\frac{n(n+1)}2,$$
-$$\sum_{k=1}^n k^2=\frac{n(n+1)(2n+1)}6,$$
-$$\sum_{k=1}^n k^3=\left(\frac{n(n+1)}2\right)^2.$$
+
+(a) **Naturales:** $\sum_{k=1}^n k=n(n+1)/2$.
+(b) **Cuadrados:** $\sum_{k=1}^n k^2=n(n+1)(2n+1)/6$.
+(c) **Cubos:** $\sum_{k=1}^n k^3=\bigl(n(n+1)/2\bigr)^2$.
 :::
 
 Estas fórmulas permiten resumir patrones acumulativos y muestran que un término y su suma parcial pueden tener grados distintos como expresiones del índice.
 
-::: {#exm-A081 .theorem-style-remark}
+::: {#exm-0063 .theorem-style-remark data-environment-tag="0064"}
 $1^2+2^2+3^2+4^2=4\cdot5\cdot9/6=30$, mientras que $1^3+2^3+3^3+4^3=100$.
 :::
 ::::
 
-:::: {.knowledge-object #tag-A082 tag="A082" type="tecnica" title="Sumas telescópicas" requiere="A040,A080"}
-::: {#concept-A082 .editorial-text}
-[]{#def-A082}
+:::: {.knowledge-object #tag-0065 tag="0065" type="tecnica" title="Sumas telescópicas" requiere="0017,0061"}
+::: {#concept-0065 .editorial-text}
+[]{#def-0065}
 
 ## Sumas telescópicas
 
@@ -213,13 +215,13 @@ $$\sum_{k=1}^n(b_k-b_{k+1})=b_1-b_{n+1}.$$
 La cancelación se produce al sumar expresiones completas, no al cancelar sumandos dentro de un cociente. El límite final $n+1$ debe conservarse. Esta estructura permite evaluar sumas que no son progresiones aritméticas ni geométricas.
 :::
 
-::: {#exm-A082 .theorem-style-remark}
+::: {#exm-0065 .theorem-style-remark data-environment-tag="0066"}
 Como $1/(k(k+1))=1/k-1/(k+1)$, $\sum_{k=1}^n1/(k(k+1))=1-1/(n+1)$.
 :::
 ::::
 
-:::: {.knowledge-object #tag-A083 tag="A083" type="definicion" title="Serie y sucesión de sumas parciales" requiere="A079,A080"}
-::: {#def-A083 .theorem-style-definition}
+:::: {.knowledge-object #tag-0067 tag="0067" type="definicion" title="Serie y sucesión de sumas parciales" requiere="005Z,0061"}
+::: {#def-0067 .theorem-style-definition data-environment-tag="0067"}
 ## Serie y sucesión de sumas parciales
 
 La serie $\sum_{n=1}^{\infty}a_n$ se estudia mediante sus sumas parciales $S_N=\sum_{n=1}^N a_n$. Si $S_N$ se aproxima a un límite real $S$, se dice que la serie converge y su suma es $S$.
@@ -227,46 +229,48 @@ La serie $\sum_{n=1}^{\infty}a_n$ se estudia mediante sus sumas parciales $S_N=\
 
 No se trata de ejecutar de una vez una adición con infinitos operandos. Una sucesión de términos y su sucesión de sumas parciales son objetos distintos.
 
-::: {#exm-A083 .theorem-style-remark}
+::: {#exm-0067 .theorem-style-remark data-environment-tag="0068"}
 Para $a_n=2^{-n}$, los términos son $1/2,1/4,1/8,\ldots$ y las sumas parciales son $1/2,3/4,7/8,\ldots$.
 :::
 ::::
 
 ## Series geométricas y convergencia intuitiva
 
-:::: {.knowledge-object #tag-A084 tag="A084" type="propiedad" title="Suma geométrica infinita" requiere="A079,A083"}
-::: {#prp-A084 .theorem-style-plain}
+:::: {.knowledge-object #tag-0069 tag="0069" type="propiedad" title="Suma geométrica infinita" requiere="005Z,0067"}
+::: {#prp-0069 .theorem-style-plain data-environment-tag="0069"}
 ## Suma geométrica infinita
 
-Si $|r|<1$, la serie geométrica converge y
-$$a_1+a_1r+a_1r^2+\cdots=\frac{a_1}{1-r}.$$
-Para $a_1\ne0$, si $|r|\ge1$ no converge. Si $a_1=0$, todos los términos son cero y la serie converge para cualquier razón.
+Para la serie geométrica $a_1+a_1r+a_1r^2+\cdots$:
+
+(a) Si $|r|<1$, converge y su suma es $a_1/(1-r)$.
+(b) Si $a_1\ne0$ y $|r|\ge1$, no converge.
+(c) Si $a_1=0$, todos los términos son cero y converge para cualquier razón.
 :::
 
 La condición corresponde a la serie infinita, no a la fórmula de suma finita.
 
-::: {#exm-A084 .theorem-style-remark}
+::: {#exm-0069 .theorem-style-remark data-environment-tag="006A"}
 $3+3/2+3/4+\cdots=6$. La serie $1+2+4+\cdots$ diverge y no puede calcularse como $1/(1-2)$.
 :::
 ::::
 
-:::: {.knowledge-object #tag-A085 tag="A085" type="criterio" title="Términos que tienden a cero y convergencia" requiere="A070,A083,A084"}
-::: {#concept-A085 .editorial-text}
-[]{#def-A085}
+:::: {.knowledge-object #tag-006B tag="006B" type="criterio" title="Términos que tienden a cero y convergencia" requiere="005H,0067,0069"}
+::: {#concept-006B .editorial-text}
+[]{#def-006B}
 
 ## Términos que tienden a cero y convergencia
 
 Que los términos $a_n$ se aproximen a cero es una condición necesaria para que una serie converja, pero no suficiente. La convergencia de una sucesión tampoco es lo mismo que la convergencia de la serie que la utiliza. Para una sucesión, converger a $L$ significa que todos los términos suficientemente avanzados quedan tan cerca de $L$ como se desee; no solo algunos.
 :::
 
-::: {#exm-A085 .theorem-style-remark}
+::: {#exm-006B .theorem-style-remark data-environment-tag="006C"}
 $1/n$ tiende a cero, pero la serie armónica $\sum_{n=1}^{\infty}1/n$ diverge. $(-1)^n$ tiene solo dos valores y no converge.
 :::
 ::::
 
-:::: {.knowledge-object #tag-A086 tag="A086" type="tecnica" title="Error al truncar una serie geométrica" requiere="A084"}
-::: {#concept-A086 .editorial-text}
-[]{#def-A086}
+:::: {.knowledge-object #tag-006D tag="006D" type="tecnica" title="Error al truncar una serie geométrica" requiere="0069"}
+::: {#concept-006D .editorial-text}
+[]{#def-006D}
 
 ## Error al truncar una serie geométrica
 
@@ -275,30 +279,30 @@ $$S-S_N=\frac{a_1r^N}{1-r}.$$
 Por tanto, su valor absoluto controla el error de truncamiento. Para una razón negativa el error cambia de signo con la paridad de $N$. Debe distinguirse este error matemático del redondeo de una calculadora.
 :::
 
-::: {#exm-A086 .theorem-style-remark}
+::: {#exm-006D .theorem-style-remark data-environment-tag="006E"}
 Para $1+1/2+1/4+\cdots$, $S=2$ y $|S-S_N|=2^{1-N}$. Con diez términos el error es $1/512$.
 :::
 ::::
 
 ## Modelación y consulta profesional
 
-:::: {.knowledge-object #tag-A087 tag="A087" type="aplicacion" title="Crecimiento aditivo y multiplicativo" requiere="A074,A077,A017"}
-::: {#concept-A087 .editorial-text}
-[]{#def-A087}
+:::: {.knowledge-object #tag-006F tag="006F" type="aplicacion" title="Crecimiento aditivo y multiplicativo" requiere="005P,005V,005B"}
+::: {#concept-006F .editorial-text}
+[]{#def-006F}
 
 ## Crecimiento aditivo y multiplicativo
 
 Un incremento constante conduce a una progresión aritmética; un porcentaje constante conduce a una geométrica. El modelo se decide por las condiciones del proceso y no solo por la forma de los primeros datos. Las unidades y el periodo deben explicitarse. Un porcentaje constante no produce diferencias absolutas constantes.
 :::
 
-::: {#exm-A087 .theorem-style-remark}
+::: {#exm-006F .theorem-style-remark data-environment-tag="006G"}
 Ahorrar $20\,000$ pesos adicionales cada mes genera un modelo aditivo. Aumentar un saldo $2\,\%$ por mes genera $Q_n=Q_0(1{,}02)^n$, indexado desde el saldo inicial $n=0$.
 :::
 ::::
 
-:::: {.knowledge-object #tag-A088 tag="A088" type="aplicacion" title="Recurrencia afín con aporte periódico" requiere="A072,A079"}
-::: {#concept-A088 .editorial-text}
-[]{#def-A088}
+:::: {.knowledge-object #tag-006H tag="006H" type="aplicacion" title="Recurrencia afín con aporte periódico" requiere="005L,005Z"}
+::: {#concept-006H .editorial-text}
+[]{#def-006H}
 
 ## Recurrencia afín con aporte periódico
 
@@ -307,21 +311,21 @@ $$B_{n+1}=rB_n+c.$$
 Si $r\ne1$, $B_n=r^nB_0+c(r^n-1)/(r-1)$; si $r=1$, $B_n=B_0+nc$. El momento del aporte importa: aportarlo antes de aplicar el factor produce otra recurrencia.
 :::
 
-::: {#exm-A088 .theorem-style-remark}
+::: {#exm-006H .theorem-style-remark data-environment-tag="006I"}
 Con $B_0=100$, $r=2$ y aporte final $c=10$, $B_1=210$ y $B_2=430$. Si el aporte fuera al inicio, $B_1=220$.
 :::
 ::::
 
-:::: {.knowledge-object #tag-A089 tag="A089" type="observacion" title="Errores de índices, patrones y sumas" requiere="A071,A074,A077,A084"}
-::: {#concept-A089 .editorial-text}
-[]{#def-A089}
+:::: {.knowledge-object #tag-006J tag="006J" type="observacion" title="Errores de índices, patrones y sumas" requiere="005J,005P,005V,0069"}
+::: {#concept-006J .editorial-text}
+[]{#def-006J}
 
 ## Errores de índices, patrones y sumas
 
 Son frecuentes confundir índice y término, usar $n$ incrementos en lugar de $n-1$, sumar cuando se debe multiplicar, determinar una regla única a partir de pocos valores y aplicar la suma infinita sin $|r|<1$. Para interpretar una respuesta conviene pedir los primeros términos generados por la fórmula y comparar con las condiciones iniciales.
 :::
 
-::: {#exm-A089 .theorem-style-remark}
+::: {#exm-006J .theorem-style-remark data-environment-tag="006K"}
 Si se propone $a_n=5+3n$ para $a_1=5$ y diferencia 3, al sustituir $n=1$ se obtiene 8. La forma correcta con índice inicial 1 es $5+3(n-1)$.
 :::
 ::::

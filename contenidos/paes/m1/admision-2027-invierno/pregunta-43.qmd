@@ -1,7 +1,7 @@
 ---
 title: "Pregunta 43 · PAES M1 Invierno — Admisión 2027"
 paes-question: 43
-knowledge-tag: "2743"
+knowledge-tag: "00BQ"
 ---
 
 Una empresa que vende cajas de cereales decide ofrecer una oferta que implica un nuevo diseño de caja. Esta es un $10\,\%$ más alta que el diseño original, tal como se representa a continuación:

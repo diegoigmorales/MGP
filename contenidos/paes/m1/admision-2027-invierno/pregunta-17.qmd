@@ -1,7 +1,7 @@
 ---
 title: "Pregunta 17 · PAES M1 Invierno — Admisión 2027"
 paes-question: 17
-knowledge-tag: "2717"
+knowledge-tag: "00B0"
 ---
 
 Para arrendar botes en una empresa se debe enviar una solicitud. En la siguiente figura se representa una solicitud que está en estado de “Aprobada” y le falta pasar por los últimos tres estados.

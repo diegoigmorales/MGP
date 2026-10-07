@@ -1,7 +1,7 @@
 ---
 title: "Pregunta 19 · PAES M1 Invierno — Admisión 2027"
 paes-question: 19
-knowledge-tag: "2719"
+knowledge-tag: "00B2"
 ---
 
 La Maratón de Santiago, realizada el 28 de abril de 2024 tenía tres categorías 10k, 21k y 42k, y participaron $31\,000$ corredores.

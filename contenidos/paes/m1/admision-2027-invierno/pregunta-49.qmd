@@ -1,7 +1,7 @@
 ---
 title: "Pregunta 49 · PAES M1 Invierno — Admisión 2027"
 paes-question: 49
-knowledge-tag: "2749"
+knowledge-tag: "00BW"
 ---
 
 En la figura adjunta se representan los asientos de un teatro, cuya distribución es simétrica con respecto a la línea segmentada.

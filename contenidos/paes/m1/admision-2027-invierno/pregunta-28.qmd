@@ -1,7 +1,7 @@
 ---
 title: "Pregunta 28 · PAES M1 Invierno — Admisión 2027"
 paes-question: 28
-knowledge-tag: "2728"
+knowledge-tag: "00BB"
 ---
 
 En una empresa hay $4$ trabajadores para cosechar uvas y estos logran llenar $2\,000$ cajas en $20$ días de trabajo, todos trabajando todos los días, al mismo ritmo y la misma cantidad de horas.

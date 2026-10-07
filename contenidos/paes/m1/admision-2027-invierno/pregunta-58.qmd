@@ -1,7 +1,7 @@
 ---
 title: "Pregunta 58 · PAES M1 Invierno — Admisión 2027"
 paes-question: 58
-knowledge-tag: "2758"
+knowledge-tag: "00C5"
 ---
 
 El promedio de edad de un grupo $A$ de personas es $30$ años, mientras que el promedio de edad de un grupo $B$ de personas es $40$ años.

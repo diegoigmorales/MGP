@@ -1,7 +1,7 @@
 ---
 title: "Pregunta 36 · PAES M1 Invierno — Admisión 2027"
 paes-question: 36
-knowledge-tag: "2736"
+knowledge-tag: "00BJ"
 ---
 
 En la siguiente tabla se presenta la tarifa a cobrar por minuto para el uso de los estacionamientos de dos centros comerciales.

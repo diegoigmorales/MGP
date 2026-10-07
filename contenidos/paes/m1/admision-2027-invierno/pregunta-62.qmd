@@ -1,7 +1,7 @@
 ---
 title: "Pregunta 62 · PAES M1 Invierno — Admisión 2027"
 paes-question: 62
-knowledge-tag: "2762"
+knowledge-tag: "00C9"
 ---
 
 Para una tarea de Estadística, una estudiante tiene que representar un conjunto de datos a través de un diagrama de cajón. Los datos que se presentan a continuación corresponden a la cantidad de anotaciones positivas que tuvieron los amigos de esta estudiante el semestre anterior.

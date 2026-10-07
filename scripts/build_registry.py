@@ -30,7 +30,7 @@ ENRICHED_CHAPTERS = {
     "contenidos/libro/estadistica/index.qmd",
 }
 ENV_PREFIX = {"principio": "prp", "propiedad": "prp", "teorema": "thm", "definicion": "def"}
-DEFINITION_REPRESENTATIONS = {"0005", "0058"}
+DEFINITION_REPRESENTATIONS = {"008W", "007V"}
 RELATIONS = {
     "usa",
     "requiere",
@@ -94,6 +94,8 @@ def validate_environments(source: str, relpath: str) -> list[str]:
             prefix = attrs.get("id", "").split("-", 1)[0]
             style = ENVIRONMENT_STYLES.get(prefix)
             if style:
+                if not TAG_RE.fullmatch(attrs.get("data_environment_tag", "")):
+                    errors.append(f"{relpath}:{lineno}: el entorno requiere data-environment-tag válido")
                 expected = f"theorem-style-{style}"
                 if expected not in classes:
                     errors.append(f"{relpath}:{lineno}: falta .{expected}")
@@ -116,6 +118,7 @@ def discover() -> tuple[list[dict], list[str]]:
     objects: list[dict] = []
     errors: list[str] = []
     native_labels: dict[str, tuple[str, int]] = {}
+    environment_tags: dict[str, tuple[str, int]] = {}
     ignored = {"_site", "_book", ".quarto", ".git", "_generated"}
     for path in sorted(ROOT.rglob("*.qmd")):
         if any(part in ignored for part in path.relative_to(ROOT).parts):
@@ -157,6 +160,24 @@ def discover() -> tuple[list[dict], list[str]]:
             if not match:
                 continue
             classes, attrs = parse_attributes(match.group(1))
+            environment_tag = attrs.get("data_environment_tag")
+            if environment_tag:
+                if not TAG_RE.fullmatch(environment_tag):
+                    errors.append(f"{relpath}:{lineno}: identificador de entorno inválido {environment_tag!r}")
+                if environment_tag in environment_tags:
+                    errors.append(f"{relpath}:{lineno}: identificador de entorno duplicado {environment_tag}")
+                environment_tags[environment_tag] = (relpath, lineno)
+                # El entorno principal conserva el tag ya registrado del objeto.
+                if not any(obj["tag"] == environment_tag for obj in objects):
+                    parent = next((obj for obj in reversed(objects) if obj["source"] == relpath and obj["type"] != "ejemplo"), None)
+                    objects.append({
+                        "tag": environment_tag,
+                        "type": "ejemplo" if attrs.get("id", "").startswith("exm-") else "entorno",
+                        "title": "Ejemplo: " + parent["title"] if parent else attrs.get("id", environment_tag),
+                        "source": relpath, "line": lineno,
+                        "href": f"../{relpath}#{attrs['id']}",
+                        "relations": {"aplica": [parent["tag"]]} if parent else {},
+                    })
             if "knowledge-object" not in classes:
                 continue
             tag = attrs.get("tag", "")
@@ -192,6 +213,20 @@ def discover() -> tuple[list[dict], list[str]]:
     return objects, errors
 
 
+def next_tag(used: set[str]) -> str:
+    """Devuelve el primer identificador libre en orden base 36, desde 0000."""
+    digits = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+    for number in range(36 ** 4):
+        value = number
+        code = ""
+        for _ in range(4):
+            value, remainder = divmod(value, 36)
+            code = digits[remainder] + code
+        if code not in used:
+            return code
+    raise ValueError("Se agotaron los identificadores de cuatro caracteres")
+
+
 def main() -> int:
     objects, errors = discover()
     by_tag: dict[str, dict] = {}
@@ -222,14 +257,24 @@ def main() -> int:
                             "tag": obj["tag"],
                             "title": obj["title"],
                             "source": obj["source"],
-                            "href": f"{relative_source}#tag-{obj['tag']}",
+                            "href": f"{relative_source}#{obj['href'].split('#', 1)[1]}",
                             "relation": relation,
                         }
                     )
 
+    valid_tags = {tag for tag in by_tag if TAG_RE.fullmatch(tag)}
+    if valid_tags and len(valid_tags) < 36 ** 4:
+        first_free = next_tag(valid_tags)
+        if int(first_free, 36) < max(int(tag, 36) for tag in valid_tags):
+            errors.append(f"secuencia de identificadores con saltos: falta {first_free}; use el primer código libre")
+
     if errors:
         print("\n".join(f"ERROR: {message}" for message in errors), file=sys.stderr)
         return 1
+
+    if "--next-tag" in sys.argv[1:]:
+        print(next_tag(set(by_tag)))
+        return 0
 
     GENERATED.mkdir(exist_ok=True)
     registry = {"objects": objects, "backlinks": backlinks}

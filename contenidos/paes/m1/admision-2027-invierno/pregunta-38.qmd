@@ -1,7 +1,7 @@
 ---
 title: "Pregunta 38 · PAES M1 Invierno — Admisión 2027"
 paes-question: 38
-knowledge-tag: "2738"
+knowledge-tag: "00BL"
 ---
 
 El peso $p$ en newtons ($\mathrm{N}$) de un cuerpo depende de su masa $m$ en kilogramos, y se modela mediante la expresión $p = g \cdot m$, tal que $g$ es una constante que depende del planeta donde se encuentre el cuerpo.

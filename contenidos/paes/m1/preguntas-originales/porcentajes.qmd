@@ -5,7 +5,7 @@ description: "Ejemplo de análisis progresivo de una pregunta tipo PAES."
 
 ## La pregunta
 
-:::: {.knowledge-object #tag-0003 tag="0003" type="pregunta" title="Descuento porcentual" usa="0001,0002" pertenece_a="C001" evalua="H001"}
+:::: {.knowledge-object #tag-00CD tag="00CD" type="pregunta" title="Descuento porcentual" usa="008P,008Q" pertenece_a="0000" evalua="0002"}
 ### Descuento porcentual
 
 Una chaqueta cuesta $\$40\,000$ y tiene un descuento de $25\,\%$. ¿Cuál es su precio final?
@@ -50,16 +50,16 @@ $$
 
 ### Materia
 
-La pregunta pertenece al eje [Números](../../../curriculum/ejes.qmd#tag-C001).
+La pregunta pertenece al eje [Números](../../../curriculum/ejes.qmd#tag-0000).
 
 ### Habilidad
 
-Evalúa [resolver problemas](../../../curriculum/habilidades.qmd#tag-H001): traducir una situación contextual a una operación porcentual y comprobar la razonabilidad del resultado.
+Evalúa [resolver problemas](../../../curriculum/habilidades.qmd#tag-0002): traducir una situación contextual a una operación porcentual y comprobar la razonabilidad del resultado.
 
 ### Teoría necesaria
 
-- [Definición de porcentaje](../../../libro/numeros/porcentajes.qmd#tag-0001)
-- [Técnica para calcular un porcentaje](../../../libro/numeros/porcentajes.qmd#tag-0002)
+- [Definición de porcentaje](../../../libro/numeros/porcentajes.qmd#tag-008P)
+- [Técnica para calcular un porcentaje](../../../libro/numeros/porcentajes.qmd#tag-008Q)
 
 ## Procedencia
 

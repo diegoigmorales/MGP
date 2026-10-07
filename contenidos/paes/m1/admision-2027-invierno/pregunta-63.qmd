@@ -1,7 +1,7 @@
 ---
 title: "Pregunta 63 · PAES M1 Invierno — Admisión 2027"
 paes-question: 63
-knowledge-tag: "2763"
+knowledge-tag: "00CA"
 ---
 
 En el gráfico adjunto se presentan las preferencias de un grupo de personas respecto a los dispositivos que utilizan para tomar notas durante las reuniones.

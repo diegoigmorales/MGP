@@ -1,7 +1,7 @@
 ---
 title: "Pregunta 55 · PAES M1 Invierno — Admisión 2027"
 paes-question: 55
-knowledge-tag: "2755"
+knowledge-tag: "00C2"
 ---
 
 En el siguiente gráfico se presentan los resultados de una encuesta realizada el 2016 a un grupo de personas estadounidenses y a un grupo de nutricionistas sobre qué alimentos consideraban saludables.

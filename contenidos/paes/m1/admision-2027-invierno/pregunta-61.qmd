@@ -1,7 +1,7 @@
 ---
 title: "Pregunta 61 · PAES M1 Invierno — Admisión 2027"
 paes-question: 61
-knowledge-tag: "2761"
+knowledge-tag: "00C8"
 ---
 
 En el siguiente diagrama de cajón se presenta el tiempo que tardó un grupo de personas en completar un circuito deportivo.

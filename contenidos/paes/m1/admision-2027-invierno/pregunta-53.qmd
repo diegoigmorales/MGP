@@ -1,7 +1,7 @@
 ---
 title: "Pregunta 53 · PAES M1 Invierno — Admisión 2027"
 paes-question: 53
-knowledge-tag: "2753"
+knowledge-tag: "00C0"
 ---
 
 En el siguiente gráfico se presenta la producción mensual de huevos de consumo en Chile desde febrero de 2024 a febrero de 2025.

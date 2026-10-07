@@ -58,7 +58,9 @@ format:
     toc-depth: 3
     code-copy: true
     format-links: false
-    include-after-body: includes/mobile-toc.html
+    include-after-body:
+      - includes/mobile-toc.html
+      - includes/identifiers.html
     filters:
       - filters/paes-question.lua
       - filters/knowledge.lua

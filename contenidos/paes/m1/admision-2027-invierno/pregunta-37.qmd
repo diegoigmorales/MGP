@@ -1,7 +1,7 @@
 ---
 title: "Pregunta 37 · PAES M1 Invierno — Admisión 2027"
 paes-question: 37
-knowledge-tag: "2737"
+knowledge-tag: "00BK"
 ---
 
 En la siguiente gráfica se representa la posición de un automóvil en distintos tiempos.

@@ -1,7 +1,7 @@
 ---
 title: "Pregunta 42 · PAES M1 Invierno — Admisión 2027"
 paes-question: 42
-knowledge-tag: "2742"
+knowledge-tag: "00BP"
 ---
 
 Las diagonales de un rombo miden $24\,\mathrm{cm}$ y $30\,\mathrm{cm}$. ¿Cuál es su área?

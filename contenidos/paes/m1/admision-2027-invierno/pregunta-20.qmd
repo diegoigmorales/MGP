@@ -1,7 +1,7 @@
 ---
 title: "Pregunta 20 · PAES M1 Invierno — Admisión 2027"
 paes-question: 20
-knowledge-tag: "2720"
+knowledge-tag: "00B3"
 ---
 
 Una empresa de limpieza de automóviles realiza un cobro base de $\$20\,000$ por lavado y secado exterior del vehículo. Al agregar otros servicios extras, se cobra un adicional de $\$5\,000$ por cada uno.

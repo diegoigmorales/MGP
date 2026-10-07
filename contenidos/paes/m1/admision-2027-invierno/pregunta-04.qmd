@@ -1,7 +1,7 @@
 ---
 title: "Pregunta 4 · PAES M1 Invierno — Admisión 2027"
 paes-question: 4
-knowledge-tag: "2704"
+knowledge-tag: "00AN"
 ---
 
 Considera el siguiente modelo que permite estimar la estatura, en centímetros, que tendrán niñas y niños cuando terminen su desarrollo.

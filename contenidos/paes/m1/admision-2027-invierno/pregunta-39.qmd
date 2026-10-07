@@ -1,7 +1,7 @@
 ---
 title: "Pregunta 39 · PAES M1 Invierno — Admisión 2027"
 paes-question: 39
-knowledge-tag: "2739"
+knowledge-tag: "00BM"
 ---
 
 Considera la función $f$ definida por $f(x) = 2x^2 - 7x + 1$. ¿Cuál es el valor de $f(-3)$?

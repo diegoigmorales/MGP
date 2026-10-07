@@ -1,7 +1,7 @@
 ---
 title: "Pregunta 45 · PAES M1 Invierno — Admisión 2027"
 paes-question: 45
-knowledge-tag: "2745"
+knowledge-tag: "00BS"
 ---
 
 En la figura adjunta se explican los términos “DAP” y “altura comercial” que se utilizan en la industria de producción forestal.

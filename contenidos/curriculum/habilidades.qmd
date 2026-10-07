@@ -5,7 +5,7 @@ toc: false
 
 # 9.2 Habilidades matemáticas {.unnumbered}
 
-::: {.knowledge-object #tag-H001 tag="H001" type="habilidad" title="Resolver problemas"}
+::: {.knowledge-object #tag-0002 tag="0002" type="habilidad" title="Resolver problemas"}
 ## Resolver problemas
 
 Reconocer la información relevante, seleccionar una estrategia, ejecutar procedimientos y evaluar si la respuesta es coherente con el contexto.

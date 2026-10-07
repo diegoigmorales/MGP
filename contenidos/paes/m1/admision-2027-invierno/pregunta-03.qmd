@@ -1,7 +1,7 @@
 ---
 title: "Pregunta 3 · PAES M1 Invierno — Admisión 2027"
 paes-question: 3
-knowledge-tag: "2703"
+knowledge-tag: "00AM"
 ---
 
 José tiene $90$ dulces y se quedará con $18$, repartiendo el resto en partes iguales entre ocho amigos.

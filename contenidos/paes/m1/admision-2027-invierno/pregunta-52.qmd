@@ -1,7 +1,7 @@
 ---
 title: "Pregunta 52 · PAES M1 Invierno — Admisión 2027"
 paes-question: 52
-knowledge-tag: "2752"
+knowledge-tag: "00BZ"
 ---
 
 En la siguiente tabla se presenta el tiempo que las personas han trabajado en un colegio.

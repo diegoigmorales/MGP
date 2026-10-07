@@ -1,7 +1,7 @@
 ---
 title: "Pregunta 27 · PAES M1 Invierno — Admisión 2027"
 paes-question: 27
-knowledge-tag: "2727"
+knowledge-tag: "00BA"
 ---
 
 Una persona preparará un postre de frutilla. La receta que tiene indica que por cada $500\,\mathrm{g}$ de frutilla deberá usar $200\,\mathrm{g}$ de azúcar. Para elaborar el postre utilizará $100\,\mathrm{g}$ más de frutilla de lo indicado en la receta. ¿Cuántos gramos de azúcar en total deberá utilizar la persona para mantener la proporción indicada en la receta?

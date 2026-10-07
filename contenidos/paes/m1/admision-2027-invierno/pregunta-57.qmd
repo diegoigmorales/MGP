@@ -1,7 +1,7 @@
 ---
 title: "Pregunta 57 · PAES M1 Invierno — Admisión 2027"
 paes-question: 57
-knowledge-tag: "2757"
+knowledge-tag: "00C4"
 ---
 
 En los siguientes pictogramas se representa la cantidad de personas que hay en cinco grupos, tal que cada $\square$ corresponde a una persona.

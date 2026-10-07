@@ -1,7 +1,7 @@
 ---
 title: "Pregunta 1 · PAES M1 Invierno — Admisión 2027"
 paes-question: 1
-knowledge-tag: "2701"
+knowledge-tag: "00AK"
 ---
 
 En un juego de mesa se pueden obtener las siguientes tarjetas:

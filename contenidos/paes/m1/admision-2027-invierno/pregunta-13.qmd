@@ -1,7 +1,7 @@
 ---
 title: "Pregunta 13 · PAES M1 Invierno — Admisión 2027"
 paes-question: 13
-knowledge-tag: "2713"
+knowledge-tag: "00AW"
 ---
 
 ¿Qué número corresponde al $15\,\%$ de $480$?

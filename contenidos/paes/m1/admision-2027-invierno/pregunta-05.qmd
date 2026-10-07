@@ -1,7 +1,7 @@
 ---
 title: "Pregunta 5 · PAES M1 Invierno — Admisión 2027"
 paes-question: 5
-knowledge-tag: "2705"
+knowledge-tag: "00AO"
 ---
 
 En la figura adjunta se representa una barra de $20\,\mathrm{kg}$ con tres discos distintos en cada lado. Los discos de cada lado tienen una masa de $5\,\mathrm{kg}$, $10\,\mathrm{kg}$ y $15\,\mathrm{kg}$.

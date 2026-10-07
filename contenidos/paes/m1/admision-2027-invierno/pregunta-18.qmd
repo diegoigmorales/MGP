@@ -1,7 +1,7 @@
 ---
 title: "Pregunta 18 · PAES M1 Invierno — Admisión 2027"
 paes-question: 18
-knowledge-tag: "2718"
+knowledge-tag: "00B1"
 ---
 
 En la siguiente tabla se presenta la cantidad de licencias de conducir tramitadas a mujeres durante el 2021 por clase.

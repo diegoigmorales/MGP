@@ -1,7 +1,7 @@
 ---
 title: "Pregunta 6 · PAES M1 Invierno — Admisión 2027"
 paes-question: 6
-knowledge-tag: "2706"
+knowledge-tag: "00AP"
 ---
 
 Sandra y Miguel quieren leer, cada uno por su cuenta, un libro de $175$ páginas en $5$ días.

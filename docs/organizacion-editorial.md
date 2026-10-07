@@ -59,7 +59,7 @@ constituye un entorno independiente. No se copian sus enunciados ni sus ejemplos
 - **plain**, barra naranjo: teoremas, propiedades, proposiciones, leyes, principios,
   lemas, corolarios, axiomas y conjeturas. El entorno incluye hipótesis y conclusión.
 - **definition**, barra azul: definiciones. Los términos definidos se destacan en
-  negrita. Si se introducen varios términos relacionados, se usa una lista numerada.
+  negrita. Si se introducen varios términos relacionados, se usa una lista de incisos alfabéticos.
 - **remark**, barra verde: ejemplos y observaciones matemáticas delimitadas.
   La solución forma parte del ejemplo. Varios casos se enumeran juntos cuando
   comparten una estructura o un objetivo; los ejemplos independientes se separan.
@@ -82,3 +82,40 @@ En QMD las listas numeradas se convierten en listas HTML y en enumeraciones
 LaTeX; no requieren escribir `enumitem` en el contenido. Los colores se centralizan
 en `styles.css` e `includes/theorem-styles.tex`. El registro valida la separación
 entre entornos y rechaza un ejemplo contenido dentro de un enunciado.
+
+## Marcadores de listas
+
+Se usan `(a), (b), (c)` para los incisos de enunciados, definiciones y ejemplos,
+con el mismo criterio en las familias plain, definition y remark. Las propiedades
+independientes se separan en incisos; las hipótesis comunes van antes de la lista
+y las restricciones particulares permanecen junto a la afirmación correspondiente.
+Una cadena de igualdades que desarrolla una sola expresión no se divide
+artificialmente en propiedades distintas.
+
+Los pasos de un procedimiento o de una solución usan `1., 2., 3.`. La numeración
+del entorno y la de sus incisos son independientes: «Proposición 1, inciso (b)».
+La fuente usa listas Markdown reales de Pandoc, no letras insertadas dentro de
+una fórmula. `styles.css` conserva ambos paréntesis en HTML mediante un estilo de
+contador; Pandoc conserva el delimitador de la lista en su salida LaTeX.
+
+## Identificadores de entornos y modo de lectura
+
+Cada entorno plain, definition o remark declara `data-environment-tag` en su
+fuente QMD. El entorno principal conserva el identificador publicado del objeto;
+los ejemplos asociados reciben un identificador independiente, registrado con una
+relación `aplica` hacia el concepto. La renumeración inicial autorizada unifica todos los códigos desde `0000`,
+sin saltos, en orden base 36 (`0009`, `000A`, …, `000Z`, `0010`). Las anclas
+y las relaciones se actualizan junto con sus códigos. Los identificadores nuevos se asignan una vez y no se recalculan al
+renderizar: no deben renombrarse ni reutilizarse.
+
+En HTML, el código se muestra sin la palabra TAG y se oculta inicialmente. Un
+control «Mostrar identificadores» al comienzo de las páginas con objetos permite
+activar todos sus códigos. La preferencia se guarda en el navegador, si permite
+almacenamiento local, y se comparte entre páginas y pestañas. Con el almacenamiento
+bloqueado, el control sigue funcionando en la página actual. El código aparece
+alineado a la derecha dentro del entorno, con el mismo estilo en móvil y escritorio.
+Los títulos de los entornos son enlaces permanentes aun cuando el código está
+oculto. El control no aparece en páginas que no contienen objetos identificables.
+
+Para asignar el siguiente código libre, ejecutar `python scripts/build_registry.py --next-tag`.
+La secuencia es global: no hay prefijos reservados para tipos de objeto.

@@ -1,7 +1,7 @@
 ---
 title: "Pregunta 23 · PAES M1 Invierno — Admisión 2027"
 paes-question: 23
-knowledge-tag: "2723"
+knowledge-tag: "00B6"
 ---
 
 En un laboratorio, a partir de un estudio bajo ciertas condiciones, se determinó que un tipo de bacteria se duplica cada $4\,\mathrm{min}$.

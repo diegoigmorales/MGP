@@ -1,7 +1,7 @@
 ---
 title: "Pregunta 29 · PAES M1 Invierno — Admisión 2027"
 paes-question: 29
-knowledge-tag: "2729"
+knowledge-tag: "00BC"
 ---
 
 Josefa y Francisca asistieron al festival juvenil. La entrada a este evento tiene un precio de $\$20\,000$ por persona y quienes asistan pueden comprar chapitas para regalar a $\$500$ cada una. Josefa gastó en total $\$30\,000$ por la entrada y por las chapitas que compró, y por cada $5$ chapitas que compró Francisca, Josefa compró $4$. ¿Cuánto gastó Francisca en chapitas en el festival?

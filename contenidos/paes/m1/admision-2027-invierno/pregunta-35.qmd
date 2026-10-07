@@ -1,7 +1,7 @@
 ---
 title: "Pregunta 35 · PAES M1 Invierno — Admisión 2027"
 paes-question: 35
-knowledge-tag: "2735"
+knowledge-tag: "00BI"
 ---
 
 Una empresa contrata a una persona para que publique videos mostrando los beneficios de sus productos. La empresa le paga $\$150\,000$, más $\$100\,000$ por cada video publicado.

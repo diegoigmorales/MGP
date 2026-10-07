@@ -1,7 +1,7 @@
 ---
 title: "Pregunta 12 · PAES M1 Invierno — Admisión 2027"
 paes-question: 12
-knowledge-tag: "2712"
+knowledge-tag: "00AV"
 ---
 
 En la entrada de una obra de teatro, hay una persona encargada de recibir los tickets de entrada de los asistentes.

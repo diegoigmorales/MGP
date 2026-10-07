@@ -7,6 +7,8 @@ import re
 import textwrap
 from pathlib import Path
 
+from build_registry import KNOWLEDGE_TAG_RE, discover, next_tag
+
 
 ROOT = Path(__file__).resolve().parents[1]
 QUESTIONS = ROOT / "contenidos" / "paes" / "m1" / "admision-2027-invierno"
@@ -78,7 +80,7 @@ def replace_commands(line: str, initial_math_state: bool) -> str:
     return COMMAND_RE.sub(replacement, line)
 
 
-def convert_question(source: str, number: int) -> str:
+def convert_question(source: str, number: int, tag: str) -> str:
     body = re.sub(r"^\s*\\begin\{problem\}\s*", "", source)
     body = re.sub(r"\s*\\end\{problem\}\s*$", "", body)
     body = textwrap.dedent(body).strip()
@@ -132,7 +134,6 @@ def convert_question(source: str, number: int) -> str:
         in_display_math = final_math_state(original_line, in_display_math)
 
     title = f"Pregunta {number} · PAES M1 Invierno — Admisión 2027"
-    tag = f"{2700 + number:04d}"
     header = [
         "---",
         f'title: "{title}"',
@@ -167,9 +168,16 @@ def main() -> int:
     if len(sources) != 65:
         raise SystemExit(f"Se esperaban 65 archivos TeX y se encontraron {len(sources)}")
 
+    objects, errors = discover()
+    if errors:
+        raise SystemExit("\n".join(errors))
+    used = {obj["tag"] for obj in objects}
     for number, source in enumerate(sources, 1):
         destination = source.with_suffix(".qmd")
-        destination.write_text(convert_question(source.read_text(encoding="utf-8"), number), encoding="utf-8")
+        previous = KNOWLEDGE_TAG_RE.search(destination.read_text(encoding="utf-8")) if destination.exists() else None
+        tag = previous.group(1) if previous else next_tag(used)
+        used.add(tag)
+        destination.write_text(convert_question(source.read_text(encoding="utf-8"), number, tag), encoding="utf-8")
 
     (QUESTIONS / "index.qmd").write_text(build_index(), encoding="utf-8")
     print("Conversión terminada: 65 preguntas QMD y un índice.")

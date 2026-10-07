@@ -1,7 +1,7 @@
 ---
 title: "Pregunta 56 · PAES M1 Invierno — Admisión 2027"
 paes-question: 56
-knowledge-tag: "2756"
+knowledge-tag: "00C3"
 ---
 
 El examen médico de tolerancia a la glucosa consiste en medir la respuesta del cuerpo a la glucosa. Se inicia midiendo la concentración de la glucosa basal y luego se ingiere un líquido con una determinada concentración de glucosa para monitorear su concentración en el cuerpo al transcurrir las horas.

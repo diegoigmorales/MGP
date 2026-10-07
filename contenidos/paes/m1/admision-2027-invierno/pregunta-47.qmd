@@ -1,7 +1,7 @@
 ---
 title: "Pregunta 47 · PAES M1 Invierno — Admisión 2027"
 paes-question: 47
-knowledge-tag: "2747"
+knowledge-tag: "00BU"
 ---
 
 Una hoja de papel se dobla dos veces consecutivas y luego se le realiza una perforación con forma de triángulo, tal como se presenta a continuación:

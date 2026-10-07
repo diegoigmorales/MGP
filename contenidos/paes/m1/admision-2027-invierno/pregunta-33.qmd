@@ -1,7 +1,7 @@
 ---
 title: "Pregunta 33 · PAES M1 Invierno — Admisión 2027"
 paes-question: 33
-knowledge-tag: "2733"
+knowledge-tag: "00BG"
 ---
 
 Para la celebración de un evento familiar, una persona compró velas blancas y amarillas. En total, compró $14$ velas y pagó $\$60\,000$. Si por cada vela blanca pagó $\$3\,000$ y por cada vela amarilla pagó $\$6\,000$, ¿cuántas velas blancas compró en total la persona?

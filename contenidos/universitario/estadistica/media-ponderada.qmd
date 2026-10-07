@@ -9,15 +9,15 @@ description: "Ejemplo de conexión entre porcentajes escolares y estadística un
 
 Una ponderación expresa la importancia relativa de cada observación. Cuando los pesos se presentan como porcentajes, deben sumar $100\,\%$.
 
-:::: {.knowledge-object #tag-U001 tag="U001" type="problema" title="Calificación final ponderada" requiere="0001,0002" profundiza="0003" pertenece_a="C002"}
-::: {#exm-U001 .theorem-style-remark}
+:::: {.knowledge-object #tag-00CE tag="00CE" type="problema" title="Calificación final ponderada" requiere="008P,008Q" profundiza="00CD" pertenece_a="0001"}
+::: {#exm-00CE .theorem-style-remark data-environment-tag="00CE"}
 ## Calificación final ponderada
 
 La calificación final de un curso se calcula con tres evaluaciones:
 
-- control: $20\,\%$, nota $5{,}0$;
-- certamen: $30\,\%$, nota $4{,}5$;
-- examen: $50\,\%$, nota $6{,}0$.
+(a) control: $20\,\%$, nota $5{,}0$;
+(b) certamen: $30\,\%$, nota $4{,}5$;
+(c) examen: $50\,\%$, nota $6{,}0$.
 
 Determine la calificación final.
 
@@ -41,7 +41,7 @@ $$
 
 ## Prerrequisitos escolares
 
-Este problema utiliza la [definición de porcentaje](../../libro/numeros/porcentajes.qmd#tag-0001) y la [técnica de cálculo porcentual](../../libro/numeros/porcentajes.qmd#tag-0002).
+Este problema utiliza la [definición de porcentaje](../../libro/numeros/porcentajes.qmd#tag-008P) y la [técnica de cálculo porcentual](../../libro/numeros/porcentajes.qmd#tag-008Q).
 
 ## Generalización
 

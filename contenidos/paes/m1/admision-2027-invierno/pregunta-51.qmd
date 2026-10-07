@@ -1,7 +1,7 @@
 ---
 title: "Pregunta 51 · PAES M1 Invierno — Admisión 2027"
 paes-question: 51
-knowledge-tag: "2751"
+knowledge-tag: "00BY"
 ---
 
 En la siguiente figura se representa un cuadrilátero cuyas medidas están en centímetros.

@@ -1,7 +1,7 @@
 ---
 title: "Pregunta 21 · PAES M1 Invierno — Admisión 2027"
 paes-question: 21
-knowledge-tag: "2721"
+knowledge-tag: "00B4"
 ---
 
 Para promocionar un negocio se contrata a un grupo de personas para que cada una pueda captar a un máximo de $20$ clientes por día.

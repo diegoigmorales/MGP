@@ -1,7 +1,7 @@
 ---
 title: "Pregunta 24 · PAES M1 Invierno — Admisión 2027"
 paes-question: 24
-knowledge-tag: "2724"
+knowledge-tag: "00B7"
 ---
 
 El crecimiento de una población de bacterias se modela utilizando la siguiente expresión:
