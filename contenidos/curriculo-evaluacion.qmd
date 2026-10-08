@@ -14,7 +14,7 @@ Esta parte conecta la matemática con los marcos que orientan su enseñanza y ev
 
 | Capítulo | Material disponible | Estado |
 |---|---|---|
-| [9. Sistema curricular chileno](curriculum/index.qmd) | Ejes, habilidades, objetivos de aprendizaje y formación diferenciada | En desarrollo |
-| [10. PAES de Matemática](paes/index.qmd) | M1, M2, estudio de temarios y colecciones vinculadas | En desarrollo |
+| [15. Sistema curricular chileno](curriculum/index.qmd) | Ejes, habilidades, objetivos de aprendizaje y formación diferenciada | En desarrollo |
+| [16. PAES de Matemática](paes/index.qmd) | M1, M2, estudio de temarios y colecciones vinculadas | En desarrollo |
 
 Las páginas curriculares, los estudios documentales y las colecciones se abren desde sus capítulos. El menú principal conserva solamente la jerarquía de partes y capítulos.

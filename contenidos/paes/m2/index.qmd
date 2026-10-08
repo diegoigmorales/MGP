@@ -5,7 +5,7 @@ toc: false
 number-sections: false
 ---
 
-# 10.1.2 Competencia Matemática M2 {.unnumbered}
+# 16.1.2 Competencia Matemática M2 {.unnumbered}
 
 La M2 evalúa todos los conocimientos definidos para M1 y agrega contenidos que requieren una comprensión conceptual más profunda, especialmente para carreras con mayores requerimientos matemáticos.
 

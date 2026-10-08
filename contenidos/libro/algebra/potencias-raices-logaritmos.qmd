@@ -1,5 +1,5 @@
 ---
-title: "Capítulo 2. Potencias, raíces y logaritmos"
+title: "Capítulo 8. Potencias, raíces y logaritmos"
 description: "Potenciación, radicación y logaritmación: definiciones, propiedades, dominios, estimación y aplicaciones."
 format:
   html:
@@ -326,6 +326,94 @@ Ante $\sqrt{x^2}=x$, elegir $x=-2$ revela el problema. La corrección general es
 :::
 ::::
 
+## Ampliaciones y conexiones con los capítulos numéricos
+
+:::: {.knowledge-object #tag-00H0 tag="00H0" type="propiedad" title="Leyes de potencias y condiciones de extensión" requiere="004J,004X,004Z"}
+::: {#prp-00H0 .theorem-style-plain data-environment-tag="00H0"}
+## Leyes de potencias y condiciones de extensión
+
+Para $a,b>0$ y $r,s\in\mathbb R$:
+
+(a) $a^ra^s=a^{r+s}$ y $a^r/a^s=a^{r-s}$.
+(b) $(a^r)^s=a^{rs}$.
+(c) $(ab)^r=a^rb^r$ y $(a/b)^r=a^r/b^r$.
+
+Para bases reales no nulas estas leyes se conservan con exponentes enteros; con exponentes racionales y bases negativas deben verificarse existencia y convención de cada expresión.
+:::
+
+Las hipótesis permiten tratar todas las expresiones como reales definidos. Una igualdad válida con exponentes enteros puede fallar al introducir exponentes fraccionarios sobre bases negativas. Antes de transformar se revisan los dominios, no solo los símbolos.
+
+::: {#exm-00H0 .theorem-style-remark data-environment-tag="00H1"}
+## Leyes de potencias y condiciones de extensión
+
+Con base positiva, $(16^{1/2})^{1/2}=16^{1/4}=2$. En cambio, $((-1)^2)^{1/2}=1$, mientras que $(-1)^{2(1/2)}=-1$; la regla de potencia de potencia no se traslada sin restricciones.
+:::
+::::
+
+:::: {.knowledge-object #tag-00H2 tag="00H2" type="tecnica" title="Descomposición prima para simplificar radicales" requiere="00DT,00DL,004P,004R"}
+::: {#concept-00H2 .editorial-text}
+## Descomposición prima para simplificar radicales
+
+Para un natural positivo $N$ y un índice $n\ge2$, se factoriza $N$ en primos y se divide cada exponente $\alpha$ como $\alpha=nq+r$, con $0\le r<n$. Las potencias $p^{nq}$ salen del radical como $p^q$; los factores $p^r$ permanecen dentro.
+:::
+
+El teorema fundamental de la aritmética asegura que el procedimiento no depende del árbol de factores elegido. Para variables reales se añaden condiciones de signo: una raíz de índice par de una potencia par requiere valor absoluto. Simplificar un radical no significa aproximarlo decimalmente.
+
+::: {#exm-00H2 .theorem-style-remark data-environment-tag="00H3"}
+## Descomposición prima para simplificar radicales
+
+$72=2^3\cdot3^2$, luego $\sqrt{72}=2\cdot3\sqrt2=6\sqrt2$. Para índice 3, $432=2^4\cdot3^3$, por lo que $\sqrt[3]{432}=6\sqrt[3]{2}$.
+:::
+::::
+
+:::: {.knowledge-object #tag-00H4 tag="00H4" type="tecnica" title="Radicales y comprobación del dominio" requiere="004N,004P"}
+::: {#concept-00H4 .editorial-text}
+## Radicales y comprobación del dominio
+
+Al transformar una ecuación con radicales se conserva el dominio original y se distingue equivalencia de implicación. Elevar ambos miembros a una potencia par puede introducir soluciones que no satisfacen la ecuación inicial. Toda solución candidata se comprueba en la expresión original.
+:::
+
+Este criterio prepara el capítulo de ecuaciones sin duplicar sus métodos. Un radical principal par es no negativo, así que un miembro igualado a él también debe serlo. Las condiciones suelen excluir candidatos antes de calcular.
+
+::: {#exm-00H4 .theorem-style-remark data-environment-tag="00H5"}
+## Radicales y comprobación del dominio
+
+En $\sqrt{x+2}=x$, se requiere $x\ge0$. Al cuadrar se obtiene $x^2-x-2=0$, con candidatos $2$ y $-1$; solo $2$ satisface la ecuación original.
+:::
+::::
+
+:::: {.knowledge-object #tag-00H6 tag="00H6" type="tecnica" title="Logaritmos, dominio y equivalencias" requiere="0051,0053,0055"}
+::: {#concept-00H6 .editorial-text}
+## Logaritmos, dominio y equivalencias
+
+Para una base $b>0$, $b\ne1$, y un argumento $u>0$, la igualdad $\log_bu=v$ equivale a $u=b^v$. La igualdad de logaritmos con la misma base implica igualdad de sus argumentos positivos.
+:::
+
+Combinar logaritmos puede ocultar condiciones de cada argumento: un producto positivo no garantiza que ambos factores sean positivos. Para desigualdades se conserva o invierte el sentido según que la base sea mayor que 1 o esté entre 0 y 1.
+
+::: {#exm-00H6 .theorem-style-remark data-environment-tag="00H7"}
+## Logaritmos, dominio y equivalencias
+
+$\log_2(x-1)=3$ exige $x>1$ y da $x=9$. La desigualdad $\log_{1/2}x>2$, con $x>0$, equivale a $0<x<1/4$.
+:::
+::::
+
+:::: {.knowledge-object #tag-00H8 tag="00H8" type="aplicacion" title="Exponentes y análisis dimensional" requiere="00CR,00CV,005D"}
+::: {#concept-00H8 .editorial-text}
+## Exponentes y análisis dimensional
+
+Una potencia de una cantidad medida eleva también su unidad: $(xu)^n=x^nu^n$ para exponentes enteros positivos. Una raíz de una cantidad no negativa puede interpretarse con una unidad cuya potencia reproduce la unidad del radicando. En un logaritmo de una cantidad física se utiliza un cociente adimensional.
+:::
+
+Estas conexiones permiten comprobar fórmulas de áreas, volúmenes y escalas. El número y la unidad se transforman juntos. Un logaritmo de una medida numérica depende de la unidad elegida si no se incorpora una referencia compatible.
+
+::: {#exm-00H8 .theorem-style-remark data-environment-tag="00H9"}
+## Exponentes y análisis dimensional
+
+Si el área de un cuadrado es $49\,\mathrm{cm^2}$, su lado es $7\,\mathrm{cm}$. Para una escala $L=\log_{10}(Q/Q_0)$, duplicar tanto $Q$ como $Q_0$ no altera $L$.
+:::
+::::
+
 ## Síntesis para la consulta docente
 
 | Operación | Condición principal en los reales | Control conceptual |
@@ -340,5 +428,4 @@ Para explicar una transformación, precisar dominio, base y exponente; distingui
 
 ## Conexiones y procedencia
 
-Este capítulo desarrolla las secciones del capítulo 34 de la [tabla maestra](../../../docs/tabla-contenidos-maestra.md). La exposición y los ejemplos son una elaboración original para MGP. Las relaciones inversas se amplían en [Funciones](funciones.qmd), las restricciones en [Ecuaciones e inecuaciones](ecuaciones-inecuaciones.qmd) y los procesos discretos en [Sucesiones y series elementales](sucesiones-series.qmd).
-
+Este capítulo desarrolla las secciones del capítulo 33 de la [tabla maestra](../../../docs/tabla-contenidos-maestra.md). La exposición y los ejemplos son una elaboración original para MGP. La factorización prima se fundamenta en [Números naturales](../numeros/numeros-naturales.qmd); las cantidades y unidades, en [Magnitudes, medición y unidades](../numeros/magnitudes-medicion-unidades.qmd). Las [Fuentes consultadas](../../../docs/referencias-numeros-medicion.md) documentan la referencia local para esta ampliación. Las relaciones inversas se amplían en [Funciones](funciones.qmd), las restricciones en [Ecuaciones e inecuaciones](ecuaciones-inecuaciones.qmd) y los procesos discretos en [Sucesiones y series elementales](sucesiones-series.qmd).

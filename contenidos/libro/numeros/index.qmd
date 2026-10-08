@@ -3,10 +3,12 @@ toc: false
 number-sections: false
 ---
 
-# Capítulo 1. Porcentajes {.unnumbered}
+# Números, magnitudes y proporcionalidad {.unnumbered}
 
-## Ubicación matemática
-
-### Razones y proporcionalidad
-
-- [Definición, técnicas y ejemplos](porcentajes.qmd)
+- [1. Magnitudes, medición y unidades](magnitudes-medicion-unidades.qmd)
+- [2. Números naturales](numeros-naturales.qmd)
+- [3. Números enteros](numeros-enteros.qmd)
+- [4. Números racionales](numeros-racionales.qmd)
+- [5. Números reales](numeros-reales.qmd)
+- [6. Razones y proporcionalidad](razones-proporcionalidad.qmd)
+- [7. Porcentajes](porcentajes.qmd)

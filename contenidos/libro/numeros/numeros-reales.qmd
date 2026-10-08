@@ -1,0 +1,224 @@
+---
+title: "Capítulo 5. Números reales"
+description: "Irracionales, recta real, orden, densidad, intervalos, aproximaciones y errores."
+format:
+  html:
+    format-links: false
+  pdf: default
+---
+
+## Propósito y alcance
+
+Los reales amplían los racionales para representar longitudes y límites que no admiten escritura fraccionaria. El capítulo trabaja con propiedades y representaciones necesarias para enseñar, distinguiendo valor exacto de aproximación. La completitud se explica intuitivamente; su formalización se desarrolla en Sistemas numéricos y Análisis real, en la parte universitaria.
+
+## Irracionales y números reales
+
+:::: {.knowledge-object #tag-00F9 tag="00F9" type="definicion" title="Números irracionales" requiere="00F1"}
+::: {#def-00F9 .theorem-style-definition data-environment-tag="00F9"}
+## Números irracionales
+
+Un **número irracional** es un número real que no puede expresarse como $a/b$ con $a,b\in\mathbb Z$ y $b\ne0$. Su expansión decimal es infinita y no eventualmente periódica.
+:::
+
+Una expansión infinita no basta para identificar un irracional: los decimales periódicos son racionales. Una pantalla con un número finito de cifras no permite demostrar irracionalidad. Una raíz de un cuadrado perfecto es racional; no todo radical representa un irracional.
+
+::: {#exm-00F9 .theorem-style-remark data-environment-tag="00FA"}
+## Números irracionales
+
+$\sqrt2$ es irracional, pero $\sqrt9=3$ es racional. El decimal $0{,}\overline3=1/3$ es infinito y racional.
+:::
+::::
+
+:::: {.knowledge-object #tag-00FB tag="00FB" type="definicion" title="El conjunto de los números reales" requiere="00F9,00EH"}
+::: {#def-00FB .theorem-style-definition data-environment-tag="00FB"}
+## El conjunto de los números reales
+
+El conjunto $\mathbb R$ contiene los racionales y los irracionales. Estos dos subconjuntos son disjuntos y forman todos los reales. Se tienen las inclusiones
+$$\mathbb N\subset\mathbb Z\subset\mathbb Q\subset\mathbb R.$$
+Cada real corresponde a un punto de la recta real y cada punto corresponde a un real.
+:::
+
+En la enseñanza escolar, esta correspondencia conecta número y medida orientada. Un racional puede escribirse con radicales y un irracional puede tener una expresión exacta breve. Los complejos no pertenecen a esta recta y se tratan en la parte universitaria.
+
+::: {#exm-00FB .theorem-style-remark data-environment-tag="00FC"}
+## El conjunto de los números reales
+
+$-4$ es entero, racional y real; $3/5$ es racional y real; $\sqrt5$ es irracional y real. La expresión $\sqrt{-1}$ no designa un número real.
+:::
+::::
+
+:::: {.knowledge-object #tag-00FD tag="00FD" type="observacion" title="Inconmensurabilidad y raíz de dos" requiere="00DT,00FB"}
+::: {#concept-00FD .editorial-text}
+## Inconmensurabilidad y raíz de dos
+
+Dos longitudes positivas son **conmensurables** si existe una longitud de referencia que cabe un número entero de veces en cada una. La diagonal de un cuadrado y su lado son inconmensurables: su razón es $\sqrt2$, que no es racional.
+:::
+
+La observación histórica muestra una necesidad geométrica de ampliar los racionales. Una justificación breve de irracionalidad parte de suponer $\sqrt2=a/b$ con $a,b$ coprimos: $a^2=2b^2$ obliga a que $a$ sea par y después a que $b$ también lo sea, contradiciendo que fueran coprimos.
+
+::: {#exm-00FD .theorem-style-remark data-environment-tag="00FE"}
+## Inconmensurabilidad y raíz de dos
+
+Un cuadrado de lado $1\,\mathrm{cm}$ tiene diagonal $\sqrt2\,\mathrm{cm}$. El valor $1{,}414\,\mathrm{cm}$ es una aproximación, no la longitud exacta.
+:::
+::::
+
+## Orden, recta y valor absoluto
+
+:::: {.knowledge-object #tag-00FF tag="00FF" type="propiedad" title="Orden y operaciones en los reales" requiere="00FB,00ED"}
+::: {#prp-00FF .theorem-style-plain data-environment-tag="00FF"}
+## Orden y operaciones en los reales
+
+Para $a,b,c\in\mathbb R$:
+
+(a) Si $a<b$, entonces $a+c<b+c$.
+(b) Si $a<b$ y $c>0$, entonces $ac<bc$; si $c<0$, entonces $ac>bc$.
+(c) $a^2\ge0$, con igualdad solo si $a=0$.
+(d) Si $0\le a<b$, entonces $a^2<b^2$ y $\sqrt a<\sqrt b$.
+:::
+
+Las propiedades de adición, multiplicación y distributividad se conservan; la división requiere divisor no nulo. Elevar al cuadrado no conserva el orden en todo el dominio real. Para comparar raíces cuadradas no negativas puede compararse el radicando.
+
+::: {#exm-00FF .theorem-style-remark data-environment-tag="00FG"}
+## Orden y operaciones en los reales
+
+$-3<-2$, pero $(-3)^2>(-2)^2$. En cambio, $5<6$ implica $\sqrt5<\sqrt6$.
+:::
+::::
+
+:::: {.knowledge-object #tag-00FH tag="00FH" type="definicion" title="Valor absoluto y distancia real" requiere="00E3,00FB"}
+::: {#def-00FH .theorem-style-definition data-environment-tag="00FH"}
+## Valor absoluto y distancia real
+
+Para $x\in\mathbb R$, se define $|x|=x$ si $x\ge0$ y $|x|=-x$ si $x<0$. La distancia entre $a,b\in\mathbb R$ es $|a-b|$. Para $r>0$, $|x-a|<r$ equivale a $a-r<x<a+r$.
+:::
+
+El valor absoluto extiende la idea trabajada con enteros. Expresar una tolerancia como distancia permite relacionar medida, aproximación e intervalos. El radio de una tolerancia debe ser no negativo.
+
+::: {#exm-00FH .theorem-style-remark data-environment-tag="00FI"}
+## Valor absoluto y distancia real
+
+$|x-2|<0{,}1$ describe todos los valores entre $1{,}9$ y $2{,}1$, excluidos los extremos.
+:::
+::::
+
+:::: {.knowledge-object #tag-00FJ tag="00FJ" type="definicion" title="Intervalos y extremos" requiere="00FF"}
+::: {#def-00FJ .theorem-style-definition data-environment-tag="00FJ"}
+## Intervalos y extremos
+
+Para $a<b$:
+
+(a) $(a,b)=\{x\in\mathbb R:a<x<b\}$ es un **intervalo abierto**.
+(b) $[a,b]=\{x\in\mathbb R:a\le x\le b\}$ es un **intervalo cerrado**.
+(c) $[a,b)$ y $(a,b]$ incluyen solo el extremo indicado por corchete.
+(d) Los intervalos no acotados usan $-\infty$ o $+\infty$ con paréntesis: estos símbolos no son números reales.
+:::
+
+Se acepta también la notación escolar $]a,b[$ para un intervalo abierto si se declara su equivalencia. Un intervalo describe un conjunto continuo, no solo sus extremos. El intervalo cerrado $[a,a]$ es el conjunto de un único número.
+
+::: {#exm-00FJ .theorem-style-remark data-environment-tag="00FK"}
+## Intervalos y extremos
+
+La condición $x\ge3$ se representa por $[3,+\infty)$. La intersección de $[1,4]$ con $(3,6)$ es $(3,4]$.
+:::
+::::
+
+## Densidad y continuidad intuitiva
+
+:::: {.knowledge-object #tag-00FL tag="00FL" type="propiedad" title="Densidad de racionales e irracionales" requiere="00F7,00FB"}
+::: {#prp-00FL .theorem-style-plain data-environment-tag="00FL"}
+## Densidad de racionales e irracionales
+
+Entre dos reales distintos hay infinitos racionales e infinitos irracionales. En particular, no existe un real inmediatamente siguiente a otro real en el orden usual.
+:::
+
+La densidad no distingue por sí sola a los reales de los racionales: ambos son densos en la recta. La diferencia estructural es la completitud. Una lista de marcas o una representación decimal finita no agota los puntos de un intervalo.
+
+::: {#exm-00FL .theorem-style-remark data-environment-tag="00FM"}
+## Densidad de racionales e irracionales
+
+Entre $1$ y $2$ están los racionales $3/2$ y $7/4$, y los irracionales $\sqrt2$ y $\sqrt3$. Que un punto no esté marcado no implica que carezca de número.
+:::
+::::
+
+:::: {.knowledge-object #tag-00FN tag="00FN" type="observacion" title="Completitud y ausencia de huecos" requiere="00FL,00FJ"}
+::: {#concept-00FN .editorial-text}
+## Completitud y ausencia de huecos
+
+La **completitud** expresa, intuitivamente, que los reales contienen los valores determinados por aproximaciones compatibles cada vez más precisas. Una forma de ilustrarla es mediante intervalos cerrados anidados, no vacíos, cuyas longitudes tienden a cero: determinan un único número real.
+:::
+
+Esta propiedad se formaliza en Análisis real mediante resultados equivalentes y sus hipótesis. La densidad de los racionales no elimina sus huecos: sucesiones racionales pueden aproximarse a un irracional. No se identifica aquí completitud de los reales con continuidad de una función.
+
+::: {#exm-00FN .theorem-style-remark data-environment-tag="00FO"}
+## Completitud y ausencia de huecos
+
+Los intervalos $[1,2]$, $[1{,}4,1{,}5]$, $[1{,}41,1{,}42]$ y sus refinamientos decimales que contienen $\sqrt2$ acotan un mismo punto real aunque este no sea racional.
+:::
+::::
+
+## Aproximación, error y notación científica
+
+:::: {.knowledge-object #tag-00FP tag="00FP" type="tecnica" title="Truncamiento, redondeo y cotas" requiere="00FF"}
+::: {#concept-00FP .editorial-text}
+## Truncamiento, redondeo y cotas
+
+**Truncar** una expansión decimal conserva las primeras posiciones y descarta las restantes. **Redondear** a una posición consiste en elegir el múltiplo de esa unidad decimal más cercano; los empates requieren una convención. Al redondear a $k$ decimales, el error absoluto no supera $\tfrac12 10^{-k}$.
+:::
+
+Para negativos, truncar la expansión hacia cero no es tomar la parte entera inferior. Aquí, en empates exactos, se redondea alejándose de cero. Una cota ofrece información controlada: para raíces no negativas se comparan cuadrados. La relación de aproximación debe escribirse con un símbolo distinto de igualdad.
+
+::: {#exm-00FP .theorem-style-remark data-environment-tag="00FQ"}
+## Truncamiento, redondeo y cotas
+
+$1{,}41^2<2<1{,}42^2$ da $1{,}41<\sqrt2<1{,}42$. A dos decimales, $\sqrt2\approx1{,}41$. Al truncar $-1{,}239$ a dos decimales se obtiene $-1{,}23$; al redondear, $-1{,}24$.
+:::
+::::
+
+:::: {.knowledge-object #tag-00FR tag="00FR" type="definicion" title="Error absoluto y relativo de una aproximación" requiere="00FP,00D1"}
+::: {#def-00FR .theorem-style-definition data-environment-tag="00FR"}
+## Error absoluto y relativo de una aproximación
+
+Para un valor exacto o de referencia $x$ y una aproximación $\widetilde x$, el **error absoluto** es $E_a=|\widetilde x-x|$. Si $x\ne0$, el **error relativo** es $E_r=E_a/|x|$; su expresión porcentual es $100E_r\,\%$.
+:::
+
+Un mismo error absoluto puede ser pequeño en una escala y grande en otra. Si la referencia no se conoce exactamente, se usan cotas en lugar de un error exacto. El error relativo no está definido para referencia cero.
+
+::: {#exm-00FR .theorem-style-remark data-environment-tag="00FS"}
+## Error absoluto y relativo de una aproximación
+
+Aproximar $1/3$ por $0{,}33$ produce $E_a=1/300$ y $E_r=1/100=1\,\%$. El error absoluto no es $0{,}01$: esa es la expresión numérica del error relativo.
+:::
+::::
+
+:::: {.knowledge-object #tag-00FT tag="00FT" type="tecnica" title="Notación científica y escala de un real" requiere="00FB,00D3,0059"}
+::: {#concept-00FT .editorial-text}
+## Notación científica y escala de un real
+
+Todo real no nulo puede escribirse $x=c\cdot10^k$, con $k\in\mathbb Z$ y $1\le|c|<10$. La notación permite comparar escalas y comunicar cifras significativas. Cero se escribe aparte.
+:::
+
+La definición y las leyes de exponentes se desarrollan en [Potencias, raíces y logaritmos](../algebra/potencias-raices-logaritmos.qmd#tag-0059). Aquí se utiliza para aproximaciones y control de resultados. Cuando se habla de orden de magnitud se debe declarar si se usa la década o la potencia de diez más cercana.
+
+::: {#exm-00FT .theorem-style-remark data-environment-tag="00FU"}
+## Notación científica y escala de un real
+
+$0{,}000072=7{,}2\cdot10^{-5}$. El valor $4{,}60\cdot10^6$ conserva tres cifras significativas y evita la ambigüedad de los ceros finales de $4\,600\,000$.
+:::
+::::
+
+## Representaciones y errores frecuentes
+
+| Afirmación | Corrección conceptual |
+|---|---|
+| Toda raíz es irracional | Revisar si el radicando es una potencia perfecta |
+| Todo decimal infinito es irracional | Distinguir periodicidad de infinitud |
+| La calculadora da el valor exacto de una raíz | Distinguir salida decimal finita de expresión exacta |
+| Hay un siguiente real después de $1$ | Construir un valor intermedio entre $1$ y cualquier candidato |
+| Elevar al cuadrado conserva cualquier desigualdad | Examinar signos y dominio |
+
+Una recta real conecta orden, intervalos y medida. Los diagramas de inclusión permiten clasificar un número simultáneamente en varios conjuntos: no hay que elegir una sola categoría cuando las inclusiones permiten varias.
+
+## Conexiones y procedencia
+
+Desarrolla el capítulo 30 de la [tabla maestra](../../../docs/tabla-contenidos-maestra.md). Se conecta con [Racionales](numeros-racionales.qmd), [Magnitudes y medición](magnitudes-medicion-unidades.qmd), [Ecuaciones e inecuaciones](../algebra/ecuaciones-inecuaciones.qmd) y [Funciones](../algebra/funciones.qmd). Redacción y ejemplos originales; [Fuentes consultadas](../../../docs/referencias-numeros-medicion.md).

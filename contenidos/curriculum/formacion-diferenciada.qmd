@@ -1,14 +1,14 @@
 ---
-title: "9.6 Formación diferenciada"
+title: "15.6 Formación diferenciada"
 description: "Objetivos de aprendizaje de los electivos matemáticos de formación diferenciada."
 number-sections: false
 toc: true
 toc-depth: 3
 ---
 
-# 9.6 Formación diferenciada {.unnumbered}
+# 15.6 Formación diferenciada {.unnumbered}
 
-## 9.6.1 Límites, Derivadas e Integrales
+## 15.6.1 Límites, Derivadas e Integrales
 
 ### Unidad 1 -- Funciones {#unidad-1-funciones}
 
@@ -28,7 +28,7 @@ toc-depth: 3
 
 5. **OA 5.** Modelar situaciones o fenómenos que involucren el concepto de integral como área bajo la curva en contextos matemáticos, de las ciencias y de la vida diaria, en forma manuscrita y utilizando herramientas tecnológicas digitales, y evaluar la necesidad eventual de ajustar el modelo obtenido.
 
-## 9.6.2 Probabilidades y Estadística Descriptiva e Inferencial
+## 15.6.2 Probabilidades y Estadística Descriptiva e Inferencial
 
 ### Unidad 1 -- ¿Qué dicen los gráficos? Análisis crítico de la información {#unidad-1-qué-dicen-los-gráficos-análisis-crítico-de-la-información}
 
@@ -46,7 +46,7 @@ toc-depth: 3
 
 4. **OA 4.** Argumentar inferencias acerca de parámetros (media y varianza) o características de una población, a partir de datos de una muestra aleatoria, bajo el supuesto de normalidad y aplicando procedimientos con base en intervalos de confianza o pruebas de hipótesis.
 
-## 9.6.3 Pensamiento Computacional y Programación
+## 15.6.3 Pensamiento Computacional y Programación
 
 ### Unidad 1 -- La escritura como medio para comunicar y almacenar la información {#unidad-1-la-escritura-como-medio-para-comunicar-y-almacenar-la-información}
 
@@ -68,7 +68,7 @@ toc-depth: 3
 
 6. **OA 6.** Utilizar la tecnología digital, y la información personal y privada que esta contiene, de una forma creativa, respetuosa y responsable.
 
-## 9.6.4 Geometría 3D
+## 15.6.4 Geometría 3D
 
 ### Unidad 1 -- Representación vectorial de situaciones y fenómenos {#unidad-1-representación-vectorial-de-situaciones-y-fenómenos}
 

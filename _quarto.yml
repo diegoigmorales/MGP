@@ -21,28 +21,40 @@ website:
       - section: "Parte I. Matemática escolar para la enseñanza"
         href: contenidos/libro/index.qmd
         contents:
-          - text: "Capítulo 1. Porcentajes"
+          - text: "Capítulo 1. Magnitudes, medición y unidades"
+            href: contenidos/libro/numeros/magnitudes-medicion-unidades.qmd
+          - text: "Capítulo 2. Números naturales"
+            href: contenidos/libro/numeros/numeros-naturales.qmd
+          - text: "Capítulo 3. Números enteros"
+            href: contenidos/libro/numeros/numeros-enteros.qmd
+          - text: "Capítulo 4. Números racionales"
+            href: contenidos/libro/numeros/numeros-racionales.qmd
+          - text: "Capítulo 5. Números reales"
+            href: contenidos/libro/numeros/numeros-reales.qmd
+          - text: "Capítulo 6. Razones y proporcionalidad"
+            href: contenidos/libro/numeros/razones-proporcionalidad.qmd
+          - text: "Capítulo 7. Porcentajes"
             href: contenidos/libro/numeros/porcentajes.qmd
-          - text: "Capítulo 2. Potencias, raíces y logaritmos"
+          - text: "Capítulo 8. Potencias, raíces y logaritmos"
             href: contenidos/libro/algebra/potencias-raices-logaritmos.qmd
-          - text: "Capítulo 3. Álgebra elemental"
+          - text: "Capítulo 9. Álgebra elemental"
             href: contenidos/libro/algebra/algebra-elemental.qmd
-          - text: "Capítulo 4. Ecuaciones e inecuaciones"
+          - text: "Capítulo 10. Ecuaciones e inecuaciones"
             href: contenidos/libro/algebra/ecuaciones-inecuaciones.qmd
-          - text: "Capítulo 5. Sucesiones y series elementales"
+          - text: "Capítulo 11. Sucesiones y series elementales"
             href: contenidos/libro/algebra/sucesiones-series.qmd
-          - text: "Capítulo 6. Funciones"
+          - text: "Capítulo 12. Funciones"
             href: contenidos/libro/algebra/funciones.qmd
-          - text: "Capítulo 7. Combinatoria y probabilidad"
+          - text: "Capítulo 13. Combinatoria y probabilidad"
             href: contenidos/libro/probabilidad/combinatoria-probabilidad.qmd
-          - text: "Capítulo 8. Estadística escolar"
+          - text: "Capítulo 14. Estadística escolar"
             href: contenidos/libro/estadistica/index.qmd
       - section: "Parte II. Currículo, evaluación y desarrollo profesional"
         href: contenidos/curriculo-evaluacion.qmd
         contents:
-          - text: "Capítulo 9. Sistema curricular chileno"
+          - text: "Capítulo 15. Sistema curricular chileno"
             href: contenidos/curriculum/index.qmd
-          - text: "Capítulo 10. PAES de Matemática"
+          - text: "Capítulo 16. PAES de Matemática"
             href: contenidos/paes/index.qmd
   page-footer:
     center: "Para enseñar sin fingir que nunca olvidamos nada."

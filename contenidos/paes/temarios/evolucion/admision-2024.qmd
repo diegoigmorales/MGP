@@ -3,7 +3,7 @@ number-sections: false
 description: "Cambios del temario regular respecto de Admisión 2023 y base histórica de la PAES de invierno."
 ---
 
-# 10.4.2 Admisión 2024: cambios y primera aplicación de invierno {.unnumbered}
+# 16.4.2 Admisión 2024: cambios y primera aplicación de invierno {.unnumbered}
 
 ## Fuentes y rendición
 

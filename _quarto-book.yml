@@ -10,6 +10,12 @@ book:
     - acerca.qmd
     - part: contenidos/libro/index.qmd
       chapters:
+        - contenidos/libro/numeros/magnitudes-medicion-unidades.qmd
+        - contenidos/libro/numeros/numeros-naturales.qmd
+        - contenidos/libro/numeros/numeros-enteros.qmd
+        - contenidos/libro/numeros/numeros-racionales.qmd
+        - contenidos/libro/numeros/numeros-reales.qmd
+        - contenidos/libro/numeros/razones-proporcionalidad.qmd
         - contenidos/libro/numeros/porcentajes.qmd
         - contenidos/libro/algebra/potencias-raices-logaritmos.qmd
         - contenidos/libro/algebra/algebra-elemental.qmd

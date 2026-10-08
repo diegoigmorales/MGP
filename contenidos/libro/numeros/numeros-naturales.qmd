@@ -1,0 +1,310 @@
+---
+title: "Capítulo 2. Números naturales"
+description: "Conteo, numeración, operaciones, algoritmos y divisibilidad elemental para la enseñanza."
+format:
+  html:
+    format-links: false
+  pdf: default
+---
+
+## Propósito y alcance
+
+Los naturales organizan el conteo, las posiciones y buena parte de la aritmética escolar. Se estudian tanto sus propiedades como los significados que permiten aprenderlas: representar una cantidad, componer unidades, repartir y agrupar. La divisibilidad elemental se integra aquí; sus demostraciones y métodos generales se profundizan en la parte universitaria.
+
+## Conteo, cardinalidad y ordinalidad
+
+:::: {.knowledge-object #tag-00D5 tag="00D5" type="definicion" title="Naturales y convención sobre el cero"}
+::: {#def-00D5 .theorem-style-definition data-environment-tag="00D5"}
+## Naturales y convención sobre el cero
+
+En MGP se adopta $\mathbb N=\{0,1,2,3,\ldots\}$ y se escribe $\mathbb N_{>0}=\{1,2,3,\ldots\}$ para los naturales positivos. La sucesión de conteo avanza mediante el sucesor $n+1$.
+:::
+
+Otras fuentes reservan el símbolo de naturales para los positivos. La diferencia es de convención y debe declararse; no cambia las propiedades de los números. El cero representa ausencia de elementos y cumple una función distinta como cifra posicional.
+
+::: {#exm-00D5 .theorem-style-remark data-environment-tag="00D6"}
+## Naturales y convención sobre el cero
+
+Una caja vacía contiene $0$ fichas. En $205$, la cifra $0$ indica que no hay decenas en esa escritura, mientras que la cantidad total no es cero.
+:::
+::::
+
+:::: {.knowledge-object #tag-00D7 tag="00D7" type="definicion" title="Cardinalidad, ordinalidad y conteo" requiere="00D5"}
+::: {#def-00D7 .theorem-style-definition data-environment-tag="00D7"}
+## Cardinalidad, ordinalidad y conteo
+
+Para una colección finita:
+
+(a) Su **cardinalidad** es el número de elementos que contiene.
+(b) Una posición en un orden se expresa mediante un **ordinal**: primero, segundo, tercero, etc.
+(c) **Contar** vincula cada elemento una sola vez con una palabra o símbolo de la secuencia numérica y utiliza el último número para expresar el total.
+:::
+
+Una correspondencia uno a uno entre dos colecciones finitas permite comparar sus cardinalidades. El total no depende del orden del conteo. Recitar números no asegura contar: hay que coordinar cada elemento con una única etiqueta y comprender que el último número resume el conjunto.
+
+::: {#exm-00D7 .theorem-style-remark data-environment-tag="00D8"}
+## Cardinalidad, ordinalidad y conteo
+
+Cinco fichas siguen siendo cinco después de separarlas o reordenarlas. «La quinta ficha» indica una posición; «cinco fichas» indica el total.
+:::
+::::
+
+## Sistemas de numeración y valor posicional
+
+:::: {.knowledge-object #tag-00D9 tag="00D9" type="definicion" title="Sistema decimal posicional" requiere="00D5"}
+::: {#def-00D9 .theorem-style-definition data-environment-tag="00D9"}
+## Sistema decimal posicional
+
+En el sistema decimal, cada cifra toma un valor según su posición. Para cifras $d_i\in\{0,\ldots,9\}$:
+$$n=d_k10^k+\cdots+d_1 10+d_0.$$
+Cada diez unidades de un orden constituyen una unidad del orden siguiente.
+:::
+
+Se distingue número de numeral: una cantidad admite distintas escrituras y representaciones. El cero conserva posiciones. Los agrupamientos de diez explican las reagrupaciones de los algoritmos; no son «llevadas» o «préstamos» sin significado.
+
+::: {#exm-00D9 .theorem-style-remark data-environment-tag="00DA"}
+## Sistema decimal posicional
+
+$4\,072=4\cdot1\,000+0\cdot100+7\cdot10+2$. La cifra $7$ vale $70$, mientras que en $704$ vale $700$.
+:::
+::::
+
+:::: {.knowledge-object #tag-00DB tag="00DB" type="tecnica" title="Numeración en otras bases y comparación" requiere="00D9"}
+::: {#concept-00DB .editorial-text}
+## Numeración en otras bases y comparación
+
+Una base entera $b\ge2$ utiliza cifras desde $0$ hasta $b-1$ y posiciones con pesos $1,b,b^2,\ldots$. En base diez, para comparar numerales sin ceros iniciales se compara primero su cantidad de cifras y, si coincide, la primera posición en que difieren.
+:::
+
+La base determina cómo se escribe el número, no la cantidad representada. Comparar desde la derecha confunde valor posicional con valor de la cifra. Otras bases ayudan a hacer visible la regla de agrupamiento.
+
+::: {#exm-00DB .theorem-style-remark data-environment-tag="00DC"}
+## Numeración en otras bases y comparación
+
+$(101)_2=1\cdot4+0\cdot2+1=5$. Además, $4\,072<4\,702$ porque la primera diferencia desde la izquierda está en las centenas.
+:::
+::::
+
+## Significados y propiedades de las operaciones
+
+:::: {.knowledge-object #tag-00DD tag="00DD" type="definicion" title="Adición y sustracción en los naturales" requiere="00D7"}
+::: {#def-00DD .theorem-style-definition data-environment-tag="00DD"}
+## Adición y sustracción en los naturales
+
+Para $a,b\in\mathbb N$, la **adición** produce $a+b$. Si $a\ge b$, la **sustracción** $a-b$ es el único natural $c$ que satisface $b+c=a$. Si $a<b$, no existe ese resultado dentro de $\mathbb N$.
+:::
+
+La adición puede modelar reunión, aumento o comparación; la sustracción puede modelar retiro, diferencia o complemento. La estructura del problema determina la incógnita. «Más» y «menos» en un enunciado no bastan para elegir una operación.
+
+::: {#exm-00DD .theorem-style-remark data-environment-tag="00DE"}
+## Adición y sustracción en los naturales
+
+Una colección tiene $18$ fichas y otra $11$: para determinar cuántas más tiene la primera se calcula $18-11=7$. Si se conoce un total de $18$ y una parte de $11$, la misma resta determina el complemento.
+:::
+::::
+
+:::: {.knowledge-object #tag-00DF tag="00DF" type="definicion" title="Multiplicación y división exacta" requiere="00DD"}
+::: {#def-00DF .theorem-style-definition data-environment-tag="00DF"}
+## Multiplicación y división exacta
+
+Para $a,b\in\mathbb N$, el producto $ab$ puede representar $a$ grupos de $b$ elementos. Para $b>0$, la **división exacta** $a/b$ en los naturales existe si hay un natural $q$ tal que $a=bq$.
+:::
+
+Los arreglos rectangulares conectan multiplicación con área. En división por reparto se conoce el número de grupos y se busca su tamaño; en división por agrupamiento se conoce su tamaño y se busca cuántos grupos hay. El mismo cociente responde preguntas distintas.
+
+::: {#exm-00DF .theorem-style-remark data-environment-tag="00DG"}
+## Multiplicación y división exacta
+
+$24/6=4$ puede significar repartir $24$ fichas entre $6$ personas, con $4$ por persona, o formar grupos de $6$ fichas, obteniendo $4$ grupos.
+:::
+::::
+
+:::: {.knowledge-object #tag-00DH tag="00DH" type="propiedad" title="Propiedades de adición y multiplicación" requiere="00DF"}
+::: {#prp-00DH .theorem-style-plain data-environment-tag="00DH"}
+## Propiedades de adición y multiplicación
+
+Para $a,b,c\in\mathbb N$:
+
+(a) La adición y multiplicación son cerradas, conmutativas y asociativas.
+(b) $a+0=a$, $a\cdot1=a$ y $a\cdot0=0$.
+(c) $a(b+c)=ab+ac$.
+(d) Si $a+c=b+c$, entonces $a=b$; si $ac=bc$ y $c\ne0$, entonces $a=b$.
+:::
+
+Sustracción y división no tienen las mismas propiedades. La distributividad permite descomponer cálculos y fundamentar algoritmos. Cancelar un factor cero no es válido.
+
+::: {#exm-00DH .theorem-style-remark data-environment-tag="00DI"}
+## Propiedades de adición y multiplicación
+
+$7\cdot23=7(20+3)=140+21=161$. En cambio, $12-5$ existe en los naturales y $5-12$ no; de $0\cdot3=0\cdot8$ no puede concluirse $3=8$.
+:::
+::::
+
+:::: {.knowledge-object #tag-00DJ tag="00DJ" type="tecnica" title="Algoritmos y cálculo mental" requiere="00D9,00DH"}
+::: {#concept-00DJ .editorial-text}
+## Algoritmos y cálculo mental
+
+Un **algoritmo** es un procedimiento finito con pasos especificados que produce una respuesta para cada entrada admisible. Los algoritmos de cálculo escolar se justifican mediante valor posicional, propiedades de las operaciones y reagrupación de unidades.
+:::
+
+El cálculo mental también puede ser sistemático: descomposición, compensación y uso de hechos conocidos. La eficiencia depende de los números. Para enseñar un algoritmo conviene relacionar escritura, representación y transformación de la cantidad, sin exigir un único método.
+
+::: {#exm-00DJ .theorem-style-remark data-environment-tag="00DK"}
+## Algoritmos y cálculo mental
+
+Para calcular $402-178$, se puede descomponer $402$ como $3$ centenas, $9$ decenas y $12$ unidades: queda $2$ centenas, $2$ decenas y $4$ unidades. Por compensación, $402-178=404-180=224$.
+:::
+::::
+
+## División con resto y divisibilidad
+
+:::: {.knowledge-object #tag-00DL tag="00DL" type="teorema" title="División euclídea de naturales" requiere="00DF"}
+::: {#thm-00DL .theorem-style-plain data-environment-tag="00DL"}
+## División euclídea de naturales
+
+Dados $a\in\mathbb N$ y $b\in\mathbb N_{>0}$, existen únicos $q,r\in\mathbb N$ tales que
+$$a=bq+r,\qquad 0\le r<b.$$
+Se llaman **cociente** $q$ y **resto** $r$.
+:::
+
+La restricción sobre el resto asegura una representación única. El resto se interpreta según el contexto: objetos que sobran, capacidad disponible o necesidad de un grupo adicional. Dividir por cero queda excluido.
+
+::: {#exm-00DL .theorem-style-remark data-environment-tag="00DM"}
+## División euclídea de naturales
+
+$29=6\cdot4+5$. Caben $4$ grupos completos de $6$, sobran $5$ objetos; para transportar los $29$ objetos en cajas de capacidad $6$ se necesitan $5$ cajas.
+:::
+::::
+
+:::: {.knowledge-object #tag-00DN tag="00DN" type="definicion" title="Divisibilidad, divisores y múltiplos" requiere="00DL"}
+::: {#def-00DN .theorem-style-definition data-environment-tag="00DN"}
+## Divisibilidad, divisores y múltiplos
+
+Para $d\in\mathbb N_{>0}$ y $n\in\mathbb N$, se dice que **$d$ divide a $n$**, y se escribe $d\mid n$, si $n=dk$ para algún $k\in\mathbb N$. Entonces $d$ es un **divisor** de $n$ y $n$ es un **múltiplo** de $d$.
+:::
+
+Equivale a que el resto al dividir $n$ por $d$ sea cero. En esta definición el divisor es positivo; los divisores enteros se estudian en el capítulo siguiente. Cero es múltiplo de todo natural positivo, pero se excluye cuando se busca el mínimo común múltiplo positivo.
+
+::: {#exm-00DN .theorem-style-remark data-environment-tag="00DO"}
+## Divisibilidad, divisores y múltiplos
+
+$6\mid42$ porque $42=6\cdot7$. Los divisores positivos de $12$ son $1,2,3,4,6,12$; sus múltiplos incluyen $0,12,24,36,\ldots$.
+:::
+::::
+
+:::: {.knowledge-object #tag-00DP tag="00DP" type="propiedad" title="Paridad y criterios de divisibilidad" requiere="00DN,00D9"}
+::: {#prp-00DP .theorem-style-plain data-environment-tag="00DP"}
+## Paridad y criterios de divisibilidad
+
+En escritura decimal, un natural:
+
+(a) Es divisible por $2$ si su última cifra es par; por $5$ si termina en $0$ o $5$; por $10$ si termina en $0$.
+(b) Es divisible por $3$ o por $9$ si la suma de sus cifras es divisible por $3$ o por $9$, respectivamente.
+(c) Es divisible por $4$ si el número formado por sus dos últimas cifras lo es; por $6$ si es divisible por $2$ y por $3$.
+
+Un natural es **par** si es múltiplo de $2$ e **impar** si tiene forma $2k+1$, con $k\in\mathbb N$.
+:::
+
+Los criterios dependen del sistema de numeración. Para números de una cifra, el criterio de 4 se aplica al número mismo. La suma de cifras para 3 y 9 se explica porque cada potencia de diez deja resto 1 al dividirse por esos números. No se reemplaza arbitrariamente un criterio por otro.
+
+::: {#exm-00DP .theorem-style-remark data-environment-tag="00DQ"}
+## Paridad y criterios de divisibilidad
+
+$372$ es divisible por $2$, $3$, $4$ y $6$: termina en cifra par, $3+7+2=12$ y $72$ es múltiplo de $4$. No es divisible por $9$ porque $12$ no lo es.
+:::
+::::
+
+## Primos, factorización y teorema fundamental
+
+:::: {.knowledge-object #tag-00DR tag="00DR" type="definicion" title="Números primos y compuestos" requiere="00DN"}
+::: {#def-00DR .theorem-style-definition data-environment-tag="00DR"}
+## Números primos y compuestos
+
+Un natural $p>1$ es **primo** si sus únicos divisores positivos son $1$ y $p$. Un natural $n>1$ es **compuesto** si tiene un divisor positivo distinto de $1$ y de sí mismo. Los números $0$ y $1$ no son primos ni compuestos.
+:::
+
+Ser impar no equivale a ser primo: 9 y 15 son compuestos. El número 2 es el único primo par. Para decidir si un natural mayor que 1 es primo basta buscar divisores primos hasta su raíz cuadrada: un producto de dos factores mayores que esa raíz superaría el número.
+
+::: {#exm-00DR .theorem-style-remark data-environment-tag="00DS"}
+## Números primos y compuestos
+
+$29$ no es divisible por $2$, $3$ ni $5$ y $\sqrt{29}<6$, por lo que es primo. En cambio, $39=3\cdot13$ es compuesto.
+:::
+::::
+
+:::: {.knowledge-object #tag-00DT tag="00DT" type="teorema" title="Teorema fundamental de la aritmética" requiere="00DR"}
+::: {#thm-00DT .theorem-style-plain data-environment-tag="00DT"}
+## Teorema fundamental de la aritmética
+
+Todo natural mayor que $1$ puede escribirse como un producto finito de números primos. Esa factorización es única salvo el orden de los factores. Agrupando primos repetidos, se obtiene
+$$n=p_1^{\alpha_1}\cdots p_k^{\alpha_k},$$
+donde los $p_i$ son primos distintos y los exponentes $\alpha_i$ son enteros positivos.
+:::
+
+Aquí se enuncia y se utiliza el resultado; la demostración de existencia y unicidad corresponde a [Teoría elemental de números](../../../docs/tabla-contenidos-maestra.md#capitulo-54), en la parte universitaria. La unicidad permite comparar divisibilidad mediante exponentes. Elegir distintos pares de factores iniciales no cambia la factorización prima final.
+
+::: {#exm-00DT .theorem-style-remark data-environment-tag="00DU"}
+## Teorema fundamental de la aritmética
+
+$180=18\cdot10=2^2\cdot3^2\cdot5$. También $180=12\cdot15$, y al descomponer ambos factores se recupera el mismo producto de primos.
+:::
+::::
+
+## MCD, MCM y problemas de agrupación
+
+:::: {.knowledge-object #tag-00DV tag="00DV" type="definicion" title="Máximo común divisor y mínimo común múltiplo" requiere="00DN"}
+::: {#def-00DV .theorem-style-definition data-environment-tag="00DV"}
+## Máximo común divisor y mínimo común múltiplo
+
+Para naturales positivos $a,b$:
+
+(a) El **máximo común divisor**, $\operatorname{MCD}(a,b)$, es el mayor divisor positivo común.
+(b) El **mínimo común múltiplo**, $\operatorname{MCM}(a,b)$, es el menor múltiplo positivo común.
+(c) $a,b$ son **coprimos** si $\operatorname{MCD}(a,b)=1$.
+:::
+
+El MCD se asocia a tamaños de grupos comunes sin sobrantes; el MCM, a coincidencias de ciclos que empiezan juntos. El significado de la tarea decide cuál usar: no basta buscar palabras clave.
+
+::: {#exm-00DV .theorem-style-remark data-environment-tag="00DW"}
+## Máximo común divisor y mínimo común múltiplo
+
+Para cintas de $18$ y $24\,\mathrm{cm}$, el mayor largo común de cortes sin sobrantes es $\operatorname{MCD}(18,24)=6\,\mathrm{cm}$. Dos señales que se activan cada $18$ y $24$ minutos vuelven a coincidir tras $72$ minutos.
+:::
+::::
+
+:::: {.knowledge-object #tag-00DX tag="00DX" type="propiedad" title="Cálculo de MCD y MCM por factores primos" requiere="00DT,00DV"}
+::: {#prp-00DX .theorem-style-plain data-environment-tag="00DX"}
+## Cálculo de MCD y MCM por factores primos
+
+Si $a,b$ son positivos y se incluyen todos los primos que aparecen en cualquiera de sus factorizaciones, con exponente cero cuando faltan, entonces:
+
+(a) El MCD utiliza el menor exponente de cada primo.
+(b) El MCM utiliza el mayor exponente de cada primo.
+(c) $\operatorname{MCD}(a,b)\operatorname{MCM}(a,b)=ab$.
+:::
+
+Listar divisores o múltiplos es útil para números pequeños. La factorización vuelve visible la estructura cuando las listas crecen. El algoritmo de Euclides se profundiza en el capítulo universitario; no es necesario introducir congruencias para explicar estos procedimientos escolares.
+
+::: {#exm-00DX .theorem-style-remark data-environment-tag="00DY"}
+## Cálculo de mcd y mcm por factores primos
+
+$18=2\cdot3^2$ y $24=2^3\cdot3$. Por tanto, $\operatorname{MCD}=2\cdot3=6$ y $\operatorname{MCM}=2^3\cdot3^2=72$. Se comprueba $6\cdot72=18\cdot24$.
+:::
+::::
+
+## Representaciones y errores frecuentes
+
+| Aspecto | Representación útil | Error que puede hacerse visible |
+|---|---|---|
+| Cardinalidad | Colecciones con correspondencia uno a uno | Contar dos veces o confundir tamaño físico con cantidad |
+| Valor posicional | Agrupamientos y tabla de posiciones | Leer cifras sin considerar su posición |
+| Multiplicación | Arreglo rectangular y grupos iguales | Confundir producto con suma de los factores |
+| División con resto | Reparto y agrupamiento | Admitir un resto mayor o igual al divisor |
+| Factorización prima | Árboles de factores | Terminar la descomposición en un compuesto |
+| MCD y MCM | Listas, factorizaciones y ciclos | Elegir un procedimiento sin interpretar el problema |
+
+Para diagnosticar conviene pedir una representación y una explicación del procedimiento. Una respuesta incorrecta aislada no permite decidir si hay un descuido, una dificultad posicional o una concepción sobre la operación.
+
+## Conexiones y procedencia
+
+Desarrolla el capítulo 27 de la [tabla maestra](../../../docs/tabla-contenidos-maestra.md). Se conecta con [Números enteros](numeros-enteros.qmd), [Números racionales](numeros-racionales.qmd) y [Potencias, raíces y logaritmos](../algebra/potencias-raices-logaritmos.qmd). Los enunciados y ejemplos son originales para MGP; véanse las [Fuentes consultadas](../../../docs/referencias-numeros-medicion.md).

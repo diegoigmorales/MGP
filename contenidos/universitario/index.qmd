@@ -7,7 +7,7 @@ number-sections: false
 
 # Fundamentos universitarios y aplicaciones {.unnumbered}
 
-La arquitectura maestra ubica aquí los capítulos 52–73. La navegación pública incorporará cada capítulo cuando disponga de contenido desarrollado.
+La arquitectura maestra ubica aquí los capítulos 51–73. La navegación pública incorporará cada capítulo cuando disponga de contenido desarrollado.
 
 ## Objetos publicados
 

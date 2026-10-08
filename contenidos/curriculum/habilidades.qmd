@@ -3,7 +3,7 @@ number-sections: false
 toc: false
 ---
 
-# 9.2 Habilidades matemáticas {.unnumbered}
+# 15.2 Habilidades matemáticas {.unnumbered}
 
 ::: {.knowledge-object #tag-0002 tag="0002" type="habilidad" title="Resolver problemas"}
 ## Resolver problemas

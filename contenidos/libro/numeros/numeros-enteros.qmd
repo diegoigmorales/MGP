@@ -1,0 +1,202 @@
+---
+title: "Capítulo 3. Números enteros"
+description: "Negativos, orden, opuestos, valor absoluto, operaciones, divisibilidad y modelos."
+format:
+  html:
+    format-links: false
+  pdf: default
+---
+
+## Propósito y alcance
+
+Los enteros amplían los naturales para expresar diferencias y cantidades orientadas. El capítulo distingue el signo de un número del signo de una operación, conecta modelos con reglas operatorias y explicita qué operaciones permanecen dentro del conjunto. La construcción formal de los enteros se reserva para Sistemas numéricos, en la parte universitaria.
+
+## Necesidad de números negativos y extensión de los naturales
+
+:::: {.knowledge-object #tag-00DZ tag="00DZ" type="definicion" title="Números enteros" requiere="00D5,00DD"}
+::: {#def-00DZ .theorem-style-definition data-environment-tag="00DZ"}
+## Números enteros
+
+El conjunto de los **números enteros** es $\mathbb Z=\{\ldots,-3,-2,-1,0,1,2,3,\ldots\}$. Incluye a los naturales y, para cada natural positivo $n$, incorpora su opuesto $-n$. Cero no es positivo ni negativo.
+:::
+
+Una orientación o un nivel de referencia da sentido a los signos en un modelo: saldo a favor/deuda, elevación sobre/bajo un nivel o desplazamiento a derecha/izquierda. El contexto debe precisar la unidad y el cero elegido. El signo no atribuye un valor moral o favorable a la cantidad.
+
+::: {#exm-00DZ .theorem-style-remark data-environment-tag="00E0"}
+## Números enteros
+
+Una cuenta con saldo $2$ y un cargo de $5$ queda en $2-5=-3$. La operación antes no tenía resultado natural; en los enteros sí lo tiene.
+:::
+::::
+
+:::: {.knowledge-object #tag-00E1 tag="00E1" type="definicion" title="Recta numérica y orden de enteros" requiere="00DZ"}
+::: {#def-00E1 .theorem-style-definition data-environment-tag="00E1"}
+## Recta numérica y orden de enteros
+
+En la recta numérica orientada, $a<b$ significa que el punto de $a$ está a la izquierda del punto de $b$. Cero fija el origen y los intervalos entre enteros consecutivos representan la misma unidad.
+:::
+
+La magnitud del valor absoluto y el orden del número responden preguntas diferentes. Entre negativos, el que tiene mayor valor absoluto es menor. Elegir un contexto de temperatura permite comprobar este orden, pero no explica por sí solo todas las operaciones.
+
+::: {#exm-00E1 .theorem-style-remark data-environment-tag="00E2"}
+## Recta numérica y orden de enteros
+
+$-7<-3<0<4$. Aunque $7>3$, la temperatura $-7\,{}^\circ\mathrm{C}$ es menor que $-3\,{}^\circ\mathrm{C}$.
+:::
+::::
+
+:::: {.knowledge-object #tag-00E3 tag="00E3" type="definicion" title="Opuesto y valor absoluto" requiere="00E1"}
+::: {#def-00E3 .theorem-style-definition data-environment-tag="00E3"}
+## Opuesto y valor absoluto
+
+Para $a\in\mathbb Z$:
+
+(a) Su **opuesto** $-a$ es el entero que satisface $a+(-a)=0$.
+(b) Su **valor absoluto** es $|a|=a$ si $a\ge0$, y $|a|=-a$ si $a<0$; expresa su distancia a cero en la recta.
+(c) La distancia entre $a$ y $b$ es $|a-b|$.
+:::
+
+El signo menos puede expresar un opuesto o una sustracción. La expresión $-a$ no es necesariamente negativa: depende de $a$. El valor absoluto es no negativo y puede valer cero.
+
+::: {#exm-00E3 .theorem-style-remark data-environment-tag="00E4"}
+## Opuesto y valor absoluto
+
+Si $a=-5$, entonces $-a=5$ y $|a|=5$. La distancia de $-5$ a $2$ es $|-5-2|=7$.
+:::
+::::
+
+## Adición y sustracción
+
+:::: {.knowledge-object #tag-00E5 tag="00E5" type="tecnica" title="Adición de enteros" requiere="00E3"}
+::: {#concept-00E5 .editorial-text}
+## Adición de enteros
+
+Para sumar enteros:
+
+(a) Con el mismo signo se suman los valores absolutos y se conserva el signo.
+(b) Con signos contrarios se restan los valores absolutos y se conserva el signo del sumando con mayor valor absoluto.
+(c) Si son opuestos, la suma es cero.
+:::
+
+Las reglas se conectan con desplazamientos y cancelación de pares opuestos. En la recta, el primer sumando fija el punto inicial y el segundo representa el cambio orientado. Una colección de fichas positivas y negativas modela cantidades netas, no cardinalidades negativas.
+
+::: {#exm-00E5 .theorem-style-remark data-environment-tag="00E6"}
+## Adición de enteros
+
+$-4+(-3)=-7$, $-8+5=-3$ y $8+(-8)=0$. Desde $-4$, un cambio de $+6$ llega a $2$.
+:::
+::::
+
+:::: {.knowledge-object #tag-00E7 tag="00E7" type="propiedad" title="Sustracción como adición del opuesto" requiere="00E5"}
+::: {#prp-00E7 .theorem-style-plain data-environment-tag="00E7"}
+## Sustracción como adición del opuesto
+
+Para $a,b\in\mathbb Z$, la sustracción está definida por
+$$a-b=a+(-b).$$
+Además, $-(a+b)=(-a)+(-b)$ y $-(-a)=a$.
+:::
+
+Se mantiene el significado de diferencia o cambio necesario para pasar de un valor a otro. Restar un negativo exige explicar cuál cantidad se retira o qué diferencia se busca. «Menos por menos es más» es una regla de multiplicación y no basta para describir una suma.
+
+::: {#exm-00E7 .theorem-style-remark data-environment-tag="00E8"}
+## Sustracción como adición del opuesto
+
+$3-(-5)=3+5=8$. Entre las temperaturas $-5$ y $3\,{}^\circ\mathrm{C}$ hay un aumento de $8\,{}^\circ\mathrm{C}$. En cambio, $-3-5=-8$.
+:::
+::::
+
+## Multiplicación, división y regla de signos
+
+:::: {.knowledge-object #tag-00E9 tag="00E9" type="propiedad" title="Producto y regla de signos" requiere="00E7,00DH"}
+::: {#prp-00E9 .theorem-style-plain data-environment-tag="00E9"}
+## Producto y regla de signos
+
+Para $a,b\in\mathbb Z$:
+
+(a) Si alguno de los factores es cero, $ab=0$.
+(b) Si ambos son no nulos, $|ab|=|a||b|$.
+(c) El producto es positivo si los factores tienen el mismo signo y negativo si tienen signos distintos.
+(d) $a(-b)=-(ab)$ y $(-a)(-b)=ab$.
+:::
+
+La regla preserva la distributividad: como $b+(-b)=0$, se tiene $ab+a(-b)=0$. Aplicarla de nuevo justifica el producto de dos negativos. La suma repetida explica un factor natural, pero necesita extensión cuando el número de repeticiones es negativo.
+
+::: {#exm-00E9 .theorem-style-remark data-environment-tag="00EA"}
+## Producto y regla de signos
+
+$(-4)\cdot3=-12$ y $(-4)(-3)=12$. Para comprobar el segundo caso, $(-4)(3+(-3))=0$ exige que $-12+(-4)(-3)=0$.
+:::
+::::
+
+:::: {.knowledge-object #tag-00EB tag="00EB" type="definicion" title="División exacta y exclusión del cero" requiere="00E9"}
+::: {#def-00EB .theorem-style-definition data-environment-tag="00EB"}
+## División exacta y exclusión del cero
+
+Para $a,b\in\mathbb Z$ con $b\ne0$, el cociente $a/b$ es entero si existe $q\in\mathbb Z$ tal que $bq=a$. Cuando existe, su signo sigue la regla del producto. La división por cero no está definida.
+:::
+
+Los enteros no son cerrados para la división: un cociente puede ser racional sin ser entero. Si el dividendo es cero y el divisor no lo es, el cociente es cero. En $a/0$ no hay solución si $a
+e0$; en $0/0$ no hay una solución única.
+
+::: {#exm-00EB .theorem-style-remark data-environment-tag="00EC"}
+## División exacta y exclusión del cero
+
+$(-18)/6=-3$ y $(-18)/(-6)=3$. En cambio, $5/2$ no es entero y $0/7=0$.
+:::
+::::
+
+:::: {.knowledge-object #tag-00ED tag="00ED" type="propiedad" title="Estructura de las operaciones y orden" requiere="00E9,00E1"}
+::: {#prp-00ED .theorem-style-plain data-environment-tag="00ED"}
+## Estructura de las operaciones y orden
+
+Para enteros $a,b,c$:
+
+(a) Adición, sustracción y multiplicación tienen resultados enteros.
+(b) Adición y multiplicación son conmutativas y asociativas; la multiplicación distribuye sobre la adición.
+(c) Si $a<b$, entonces $a+c<b+c$.
+(d) Si $a<b$ y $c>0$, entonces $ac<bc$; si $c<0$, entonces $ac>bc$.
+:::
+
+Las transformaciones del orden requieren atender al signo del factor. En una expresión, paréntesis y jerarquía de operaciones controlan el cálculo. La sustracción no es asociativa ni conmutativa.
+
+::: {#exm-00ED .theorem-style-remark data-environment-tag="00EE"}
+## Estructura de las operaciones y orden
+
+De $-3<2$, al multiplicar por $-4$ se obtiene $12>-8$. Asimismo, $8-(3-1)=6$, mientras que $(8-3)-1=4$.
+:::
+::::
+
+## Divisibilidad en los enteros
+
+:::: {.knowledge-object #tag-00EF tag="00EF" type="definicion" title="Divisores enteros y paridad" requiere="00DN,00DZ"}
+::: {#def-00EF .theorem-style-definition data-environment-tag="00EF"}
+## Divisores enteros y paridad
+
+Para $d,n\in\mathbb Z$ con $d\ne0$, se escribe $d\mid n$ si $n=dk$ para algún $k\in\mathbb Z$. Un entero es **par** si tiene forma $2k$, e **impar** si tiene forma $2k+1$, con $k\in\mathbb Z$.
+:::
+
+Cambiar el signo de un divisor no cambia la divisibilidad. Para trabajar con MCD y MCM se eligen valores no negativos o positivos según la definición utilizada. Para un entero no nulo $b$, se extiende $\operatorname{MCD}(0,b)=|b|$. Para dos enteros no nulos, el MCD se calcula con sus valores absolutos. Los criterios escolares de divisibilidad pueden aplicarse al valor absoluto.
+
+::: {#exm-00EF .theorem-style-remark data-environment-tag="00EG"}
+## Divisores enteros y paridad
+
+Los divisores enteros de $12$ son $\pm1,\pm2,\pm3,\pm4,\pm6,\pm12$. El número $-7$ es impar porque $-7=2(-4)+1$, y $-8$ es par.
+:::
+::::
+
+## Modelos, representaciones y errores frecuentes
+
+| Modelo | Qué ayuda a explicar | Límite que debe explicitarse |
+|---|---|---|
+| Recta numérica | Orden, distancia y desplazamientos | Distinguir punto de cambio orientado |
+| Fichas opuestas | Suma y cancelación | El cero puede representarse con pares; el total es neto |
+| Saldos y deudas | Signos y algunas sumas y restas | No justifica por sí solo el producto de negativos |
+| Propiedades algebraicas | Regla de signos y consistencia | Requiere comprender distributividad y opuesto |
+
+Ante $-7>-3$, indagar si se compararon valores absolutos. Ante $-4+(-3)=12$, pedir distinguir operación y signo. Ante $-a<0$ para todo $a$, probar $a=-2$ y recuperar la condición omitida.
+
+La historia de la aceptación de números negativos permite discutir cómo una ampliación del sistema numérico exige nuevos significados. No debe presentarse como una evolución idéntica a la de cada estudiante ni como prueba de una secuencia didáctica obligatoria.
+
+## Conexiones y procedencia
+
+Desarrolla el capítulo 28 de la [tabla maestra](../../../docs/tabla-contenidos-maestra.md). Continúa [Números naturales](numeros-naturales.qmd) y prepara [Números racionales](numeros-racionales.qmd), [Potencias, raíces y logaritmos](../algebra/potencias-raices-logaritmos.qmd) y [Ecuaciones e inecuaciones](../algebra/ecuaciones-inecuaciones.qmd). Redacción y ejemplos originales; [Fuentes consultadas](../../../docs/referencias-numeros-medicion.md).

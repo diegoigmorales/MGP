@@ -1,5 +1,5 @@
 ---
-title: "Capítulo 6. Funciones"
+title: "Capítulo 12. Funciones"
 description: "Correspondencia y covariación, dominios, representaciones, composición, inversa, familias funcionales, transformaciones y modelación."
 format:
   html:
@@ -485,5 +485,4 @@ Al estudiar una función conviene precisar dominio y codominio, determinar recor
 
 ## Conexiones y procedencia
 
-Se desarrollan las secciones del capítulo 38 de la [tabla maestra](../../../docs/tabla-contenidos-maestra.md). La exposición y los ejemplos son una elaboración original para MGP. Las expresiones se fundamentan en [Álgebra elemental](algebra-elemental.qmd), los conjuntos solución en [Ecuaciones e inecuaciones](ecuaciones-inecuaciones.qmd), las operaciones inversas en [Potencias, raíces y logaritmos](potencias-raices-logaritmos.qmd) y los dominios discretos en [Sucesiones y series elementales](sucesiones-series.qmd).
-
+Se desarrollan las secciones del capítulo 37 de la [tabla maestra](../../../docs/tabla-contenidos-maestra.md). La exposición y los ejemplos son una elaboración original para MGP. Las expresiones se fundamentan en [Álgebra elemental](algebra-elemental.qmd), los conjuntos solución en [Ecuaciones e inecuaciones](ecuaciones-inecuaciones.qmd), las operaciones inversas en [Potencias, raíces y logaritmos](potencias-raices-logaritmos.qmd) y los dominios discretos en [Sucesiones y series elementales](sucesiones-series.qmd).

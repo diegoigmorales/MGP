@@ -59,8 +59,8 @@ Esta tabla conserva los números de la arquitectura proyectada. La navegación d
 | Parte | Capítulos | Total |
 |---|---|---:|
 | [I. Conocimiento profesional, enseñanza y análisis de problemas](#parte-i) | 1–25 | 25 |
-| [II. Matemática escolar para la enseñanza](#parte-ii) | 26–51 | 26 |
-| [III. Fundamentos universitarios y aplicaciones](#parte-iii) | 52–73 | 22 |
+| [II. Matemática escolar para la enseñanza](#parte-ii) | 26–50 | 25 |
+| [III. Fundamentos universitarios y aplicaciones](#parte-iii) | 51–73 | 23 |
 | [IV. Currículo, evaluación y desarrollo profesional](#parte-iv) | 74–82 | 9 |
 | [V. Psicometría, observatorio e investigación](#parte-v) | 83–102 | 20 |
 | **Total** | **1–102** | **102** |
@@ -811,7 +811,7 @@ didáctica, currículo, heurismos, errores y evidencia.
 
 ## PARTE II. MATEMÁTICA ESCOLAR PARA LA ENSEÑANZA {#parte-ii}
 
-Capítulos 26–51
+Capítulos 26–50
 
 ### CAPÍTULO 26. MAGNITUDES, MEDICIÓN Y UNIDADES {#capitulo-26}
 
@@ -844,7 +844,8 @@ Fundamentar conceptualmente los contenidos escolares relacionados con medición.
 
 **Descripción:**
 
-Desarrolla los fundamentos del conteo, numeración y operaciones con naturales.
+Desarrolla los fundamentos del conteo, numeración, operaciones y divisibilidad
+elemental con naturales.
 
 **Objetivo general:**
 
@@ -855,6 +856,8 @@ naturales.
 
 - Conteo
 - Cardinalidad
+- Ordinalidad
+- El cero y las convenciones sobre los naturales
 - Sistemas de numeración
 - Sistema decimal
 - Valor posicional
@@ -862,11 +865,32 @@ naturales.
 - Sustracción
 - Multiplicación
 - División
+- División exacta y división con resto
+- Divisibilidad y criterios elementales
+- Divisores y múltiplos
+- Paridad
+- Números primos y compuestos
+- Descomposición en factores primos
+- Teorema fundamental de la aritmética: enunciado, significado y aplicaciones escolares
+- Máximo común divisor (MCD)
+- Mínimo común múltiplo (MCM)
+- Problemas de agrupación, reparto y coincidencia periódica
 - Propiedades de las operaciones
 - Algoritmos
 - Representaciones
 - Errores frecuentes
 - Problemas
+
+**Delimitación y conexiones:**
+
+Este capítulo conserva un cuerpo propio de conocimiento para la enseñanza: conteo,
+cardinalidad, ordinalidad, numeración posicional, significados de las operaciones y
+algoritmos escolares. La inclusión de los naturales en los enteros no sustituye el
+estudio de estos procesos. Se conecta con Números enteros mediante la ampliación del
+dominio de la sustracción; con Números racionales mediante las aplicaciones del MCD,
+el MCM y la factorización prima; y con Teoría elemental de números mediante la
+profundización formal universitaria. La teoría general de congruencias y ecuaciones
+diofánticas se desarrolla en ese último capítulo.
 
 ### CAPÍTULO 28. NÚMEROS ENTEROS {#capitulo-28}
 
@@ -881,6 +905,7 @@ Fundamentar el significado de números negativos, orden y reglas operatorias.
 **Posibles secciones:**
 
 - Necesidad de números negativos
+- Inclusión de los naturales y ampliación del dominio de la sustracción
 - Recta numérica
 - Orden
 - Opuesto
@@ -890,6 +915,7 @@ Fundamentar el significado de números negativos, orden y reglas operatorias.
 - Multiplicación
 - División
 - Regla de signos
+- Divisibilidad en los enteros y relación con la divisibilidad en los naturales
 - Modelos
 - Errores frecuentes
 - Observaciones históricas
@@ -913,11 +939,15 @@ Construir una comprensión conectada de los números racionales.
 - Cociente
 - Operador
 - Equivalencia
+- Simplificación de fracciones mediante el MCD
+- Fracciones irreducibles y números coprimos
+- Denominadores comunes y aplicación del MCM
 - Comparación
 - Orden
 - Adición y sustracción
 - Multiplicación y división
 - Decimales
+- Relación entre factores primos del denominador y decimales finitos
 - Densidad
 - Representaciones
 - Errores frecuentes
@@ -948,32 +978,7 @@ su transición hacia estudios posteriores.
 - Continuidad intuitiva
 - Observaciones históricas
 
-### CAPÍTULO 31. TEORÍA ELEMENTAL DE NÚMEROS {#capitulo-31}
-
-**Descripción:**
-
-Estudia propiedades aritméticas relevantes para problemas y razonamiento matemático.
-
-**Objetivo general:**
-
-Profundizar estructuras de divisibilidad que sustentan numerosos contenidos escolares.
-
-**Posibles secciones:**
-
-- Divisibilidad
-- Divisores y múltiplos
-- MCD
-- MCM
-- Algoritmo de Euclides
-- Números primos
-- Factorización
-- Teorema fundamental de la aritmética
-- Congruencias
-- Aritmética modular
-- Ecuaciones diofánticas elementales
-- Aplicaciones
-
-### CAPÍTULO 32. RAZONES Y PROPORCIONALIDAD {#capitulo-32}
+### CAPÍTULO 31. RAZONES Y PROPORCIONALIDAD {#capitulo-31}
 
 **Descripción:**
 
@@ -1000,7 +1005,7 @@ proporcionales y distinguirlas de las no proporcionales.
 - Errores frecuentes
 - Problemas
 
-### CAPÍTULO 33. PORCENTAJES {#capitulo-33}
+### CAPÍTULO 32. PORCENTAJES {#capitulo-32}
 
 **Descripción:**
 
@@ -1027,7 +1032,7 @@ Conectar distintas interpretaciones y técnicas relativas al porcentaje.
 - Errores frecuentes
 - Aplicaciones
 
-### CAPÍTULO 34. POTENCIAS, RAÍCES Y LOGARITMOS {#capitulo-34}
+### CAPÍTULO 33. POTENCIAS, RAÍCES Y LOGARITMOS {#capitulo-33}
 
 **Descripción:**
 
@@ -1044,6 +1049,7 @@ Explicar sus propiedades y relaciones inversas desde la matemática escolar.
 - Exponentes enteros
 - Raíces
 - Radicales
+- Simplificación de radicales mediante la descomposición en factores primos
 - Exponentes racionales
 - Exponentes reales
 - Logaritmos
@@ -1052,7 +1058,7 @@ Explicar sus propiedades y relaciones inversas desde la matemática escolar.
 - Órdenes de magnitud
 - Aplicaciones
 
-### CAPÍTULO 35. ÁLGEBRA ELEMENTAL {#capitulo-35}
+### CAPÍTULO 34. ÁLGEBRA ELEMENTAL {#capitulo-34}
 
 **Descripción:**
 
@@ -1066,6 +1072,7 @@ Fundamentar el significado de variables, expresiones y transformaciones algebrai
 
 - Pensamiento algebraico
 - Generalización
+- Expresiones generales para números pares, impares y múltiplos
 - Variables
 - Expresiones
 - Términos semejantes
@@ -1078,7 +1085,7 @@ Fundamentar el significado de variables, expresiones y transformaciones algebrai
 - Transformaciones
 - Errores frecuentes
 
-### CAPÍTULO 36. ECUACIONES E INECUACIONES {#capitulo-36}
+### CAPÍTULO 35. ECUACIONES E INECUACIONES {#capitulo-35}
 
 **Descripción:**
 
@@ -1094,6 +1101,7 @@ equivalencias o implicaciones pertinentes.
 
 - Solución
 - Conjunto solución
+- Dominio de las incógnitas y restricciones naturales o enteras en problemas
 - Equivalencia
 - Ecuaciones lineales
 - Ecuaciones cuadráticas
@@ -1103,9 +1111,10 @@ equivalencias o implicaciones pertinentes.
 - Sistemas de ecuaciones
 - Métodos algebraicos
 - Métodos gráficos
+- Interpretación y validación de soluciones según el contexto
 - Errores frecuentes
 
-### CAPÍTULO 37. SUCESIONES Y SERIES ELEMENTALES {#capitulo-37}
+### CAPÍTULO 36. SUCESIONES Y SERIES ELEMENTALES {#capitulo-36}
 
 **Descripción:**
 
@@ -1129,7 +1138,7 @@ Conectar regularidades, fórmulas y procesos de crecimiento discretos.
 - Convergencia intuitiva
 - Modelación
 
-### CAPÍTULO 38. FUNCIONES {#capitulo-38}
+### CAPÍTULO 37. FUNCIONES {#capitulo-37}
 
 **Descripción:**
 
@@ -1159,7 +1168,7 @@ Integrar las principales familias funcionales y sus diferentes representaciones.
 - Transformaciones
 - Modelación
 
-### CAPÍTULO 39. TRIGONOMETRÍA {#capitulo-39}
+### CAPÍTULO 38. TRIGONOMETRÍA {#capitulo-38}
 
 **Descripción:**
 
@@ -1186,7 +1195,7 @@ Proporcionar una comprensión articulada de la trigonometría escolar.
 - Ley de cosenos
 - Aplicaciones
 
-### CAPÍTULO 40. GEOMETRÍA PLANA {#capitulo-40}
+### CAPÍTULO 39. GEOMETRÍA PLANA {#capitulo-39}
 
 **Descripción:**
 
@@ -1213,7 +1222,7 @@ y demostración.
 - Teorema de Pitágoras
 - Construcciones
 
-### CAPÍTULO 41. CIRCUNFERENCIA Y CÍRCULO {#capitulo-41}
+### CAPÍTULO 40. CIRCUNFERENCIA Y CÍRCULO {#capitulo-40}
 
 **Descripción:**
 
@@ -1238,7 +1247,7 @@ Sistematizar resultados escolares sobre circunferencias y círculos y sus fundam
 - Teoremas
 - Problemas
 
-### CAPÍTULO 42. GEOMETRÍA ESPACIAL {#capitulo-42}
+### CAPÍTULO 41. GEOMETRÍA ESPACIAL {#capitulo-41}
 
 **Descripción:**
 
@@ -1263,7 +1272,7 @@ Desarrollar visualización espacial y fundamentos de áreas y volúmenes.
 - Composición y descomposición
 - Visualización
 
-### CAPÍTULO 43. TRANSFORMACIONES Y GEOMETRÍA ANALÍTICA {#capitulo-43}
+### CAPÍTULO 42. TRANSFORMACIONES Y GEOMETRÍA ANALÍTICA {#capitulo-42}
 
 **Descripción:**
 
@@ -1288,7 +1297,7 @@ Integrar perspectivas sintéticas y analíticas de la geometría escolar.
 - Simetrías
 - Invariantes
 
-### CAPÍTULO 44. COMBINATORIA Y PROBABILIDAD {#capitulo-44}
+### CAPÍTULO 43. COMBINATORIA Y PROBABILIDAD {#capitulo-43}
 
 **Descripción:**
 
@@ -1316,7 +1325,7 @@ y modelos de experimentos aleatorios.
 - Bayes elemental
 - Simulación
 
-### CAPÍTULO 45. ESTADÍSTICA ESCOLAR {#capitulo-45}
+### CAPÍTULO 44. ESTADÍSTICA ESCOLAR {#capitulo-44}
 
 **Descripción:**
 
@@ -1344,7 +1353,7 @@ Desarrollar conocimiento profesional para enseñar e interpretar datos y variabi
 - Asociación
 - Interpretación crítica
 
-### CAPÍTULO 46. MATEMÁTICA FINANCIERA {#capitulo-46}
+### CAPÍTULO 45. MATEMÁTICA FINANCIERA {#capitulo-45}
 
 **Descripción:**
 
@@ -1370,7 +1379,7 @@ y cotidianos.
 - Riesgo
 - Lectura crítica
 
-### CAPÍTULO 47. CIENCIA DE DATOS ESCOLAR {#capitulo-47}
+### CAPÍTULO 46. CIENCIA DE DATOS ESCOLAR {#capitulo-46}
 
 **Descripción:**
 
@@ -1398,11 +1407,11 @@ Introducir prácticas elementales de ciencia de datos relevantes para educación
 
 NOTA SOBRE FORMACIÓN DIFERENCIADA:
 No existe un capítulo independiente denominado "Formación diferenciada matemática".
-Los capítulos 48–51 pertenecen plenamente a la matemática escolar porque corresponden
+Los capítulos 47–50 pertenecen plenamente a la matemática escolar porque corresponden
 a la formación diferenciada de enseñanza media. Puede existir solamente una breve
 introducción editorial antes de este conjunto.
 
-### CAPÍTULO 48. LÍMITES, DERIVADAS E INTEGRALES {#capitulo-48}
+### CAPÍTULO 47. LÍMITES, DERIVADAS E INTEGRALES {#capitulo-47}
 
 **Descripción:**
 
@@ -1431,7 +1440,7 @@ enseñanza media.
 - Modelación
 - Proyectos
 
-### CAPÍTULO 49. PROBABILIDADES Y ESTADÍSTICA DESCRIPTIVA E INFERENCIAL {#capitulo-49}
+### CAPÍTULO 48. PROBABILIDADES Y ESTADÍSTICA DESCRIPTIVA E INFERENCIAL {#capitulo-48}
 
 **Descripción:**
 
@@ -1459,7 +1468,7 @@ diferenciada.
 - Simulación
 - Comunicación de resultados
 
-### CAPÍTULO 50. PENSAMIENTO COMPUTACIONAL Y PROGRAMACIÓN {#capitulo-50}
+### CAPÍTULO 49. PENSAMIENTO COMPUTACIONAL Y PROGRAMACIÓN {#capitulo-49}
 
 **Descripción:**
 
@@ -1486,7 +1495,7 @@ Desarrollar pensamiento computacional conectado con actividad matemática.
 - Modelación
 - Proyectos
 
-### CAPÍTULO 51. GEOMETRÍA 3D {#capitulo-51}
+### CAPÍTULO 50. GEOMETRÍA 3D {#capitulo-50}
 
 **Descripción:**
 
@@ -1515,9 +1524,9 @@ tres dimensiones.
 
 ## PARTE III. FUNDAMENTOS UNIVERSITARIOS Y APLICACIONES {#parte-iii}
 
-Capítulos 52–73
+Capítulos 51–73
 
-### CAPÍTULO 52. LÓGICA Y CONJUNTOS {#capitulo-52}
+### CAPÍTULO 51. LÓGICA Y CONJUNTOS {#capitulo-51}
 
 **Descripción:**
 
@@ -1544,7 +1553,7 @@ elemental de conjuntos.
 - Relaciones de orden
 - Funciones
 
-### CAPÍTULO 53. DEMOSTRACIÓN MATEMÁTICA {#capitulo-53}
+### CAPÍTULO 52. DEMOSTRACIÓN MATEMÁTICA {#capitulo-52}
 
 **Descripción:**
 
@@ -1578,7 +1587,7 @@ Debe evitar duplicar el capítulo 14. El capítulo 14 aborda argumentación y de
 como práctica matemática y escolar; este capítulo desarrolla la matemática formal
 universitaria de las demostraciones.
 
-### CAPÍTULO 54. SISTEMAS NUMÉRICOS {#capitulo-54}
+### CAPÍTULO 53. SISTEMAS NUMÉRICOS {#capitulo-53}
 
 **Descripción:**
 
@@ -1604,6 +1613,47 @@ numéricos.
 - Inclusiones
 - Propiedades estructurales
 - Conexiones con matemática escolar
+
+### CAPÍTULO 54. TEORÍA ELEMENTAL DE NÚMEROS {#capitulo-54}
+
+**Descripción:**
+
+Estudia formalmente la divisibilidad en los enteros, la estructura multiplicativa
+de los números naturales, las congruencias y las ecuaciones diofánticas elementales.
+
+**Objetivo general:**
+
+Profundizar los fundamentos aritméticos que permiten al profesor conectar la
+matemática escolar con resultados, demostraciones y aplicaciones universitarias.
+
+**Posibles secciones:**
+
+- Divisibilidad en los enteros: propiedades y demostraciones
+- MCD y MCM: caracterizaciones y relaciones
+- Algoritmo de Euclides
+- Identidad de Bézout y algoritmo extendido de Euclides
+- Números coprimos
+- Números primos y lema de Euclides
+- Teorema fundamental de la aritmética: existencia y unicidad
+- Congruencias y sus propiedades
+- Aritmética modular e inversos multiplicativos
+- Congruencias lineales
+- Ecuaciones diofánticas lineales: existencia y solución general
+- Otras ecuaciones diofánticas elementales
+- Aplicaciones
+- Conexiones con matemática escolar
+
+**Delimitación y conexiones:**
+
+Los significados elementales, procedimientos y problemas escolares de divisibilidad,
+divisores, múltiplos, primos, factorización prima, MCD y MCM se desarrollan en Números
+naturales. Sus aplicaciones se retoman en Números racionales y Potencias, raíces y
+logaritmos. Álgebra elemental aborda expresiones de paridad y múltiplos; Ecuaciones
+e inecuaciones aborda restricciones del dominio y validación de soluciones en
+contextos escolares, sin sustituir el estudio general de ecuaciones diofánticas.
+Este capítulo concentra las demostraciones y métodos generales. Estructuras
+algebraicas retoma la aritmética modular desde los anillos y cuerpos, mediante
+referencias cruzadas que eviten duplicar su desarrollo aritmético.
 
 ### CAPÍTULO 55. ESTRUCTURAS ALGEBRAICAS {#capitulo-55}
 
@@ -3133,7 +3183,7 @@ No crear nuevamente un capítulo global "Historia de las ideas matemáticas".
 ### 4. FORMACIÓN DIFERENCIADA
 
 No es capítulo.
-Los capítulos 48–51 son directamente matemática escolar.
+Los capítulos 47–50 son directamente matemática escolar.
 
 Una breve introducción editorial puede explicar su pertenencia curricular a la
 formación diferenciada chilena, pero no debe ocupar un capítulo autónomo.
@@ -3196,13 +3246,13 @@ de capítulo.
 
 ### Parte II. Matemática escolar para la enseñanza
 
-- Capítulos 26–51
-- 26 capítulos
+- Capítulos 26–50
+- 25 capítulos
 
 ### Parte III. Fundamentos universitarios y aplicaciones
 
-- Capítulos 52–73
-- 22 capítulos
+- Capítulos 51–73
+- 23 capítulos
 
 ### Parte IV. Currículo, evaluación y desarrollo profesional
 

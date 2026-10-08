@@ -1,0 +1,260 @@
+---
+title: "Capítulo 1. Magnitudes, medición y unidades"
+description: "Magnitud, cantidad, medida, unidades, instrumentos, conversiones y control de resultados."
+format:
+  html:
+    format-links: false
+  pdf: default
+---
+
+## Propósito y alcance
+
+Medir requiere identificar un atributo, elegir una unidad y establecer cómo compararlo. Se distinguen objetos físicos, cantidades y valores numéricos, y se conectan medición, estimación, conversiones y análisis dimensional. Las definiciones operativas sirven para la enseñanza; no sustituyen una teoría metrológica de la incertidumbre.
+
+## Magnitudes, cantidades y medida
+
+:::: {.knowledge-object #tag-00CF tag="00CF" type="definicion" title="Magnitud y cantidad"}
+::: {#def-00CF .theorem-style-definition data-environment-tag="00CF"}
+## Magnitud y cantidad
+
+En este capítulo:
+
+(a) Una **magnitud** es un atributo susceptible de comparación y expresión cuantitativa, como longitud, masa o duración.
+(b) Una **cantidad de una magnitud** es una manifestación particular de ese atributo: la longitud de una mesa o la masa de una mochila.
+(c) Una **unidad de medida** es una cantidad de referencia de la misma magnitud adoptada por convenio para expresar otras cantidades.
+:::
+
+El objeto no es la magnitud: una mesa tiene longitud, área y masa. Elegir qué se quiere medir precede a elegir el instrumento. Aquí «cantidad» no significa solamente número de objetos.
+
+::: {#exm-00CF .theorem-style-remark data-environment-tag="00CG"}
+## Magnitud y cantidad
+
+Una botella puede tener una capacidad de $750\,\mathrm{mL}$ y una masa de $40\,\mathrm{g}$. Capacidad y masa son atributos distintos: el mismo recipiente admite ambas mediciones.
+:::
+::::
+
+:::: {.knowledge-object #tag-00CH tag="00CH" type="definicion" title="Valor de una cantidad y medida numérica" requiere="00CF"}
+::: {#def-00CH .theorem-style-definition data-environment-tag="00CH"}
+## Valor de una cantidad y medida numérica
+
+Para una cantidad $Q$ y una unidad $u$ compatibles, la expresión $Q=xu$ da su **valor** mediante el número $x$ y la unidad $u$. El número $x$ es la **medida numérica respecto de $u$**. Si $u'=ku$, con $k>0$, entonces $Q=(x/k)u'$.
+:::
+
+Cambiar la unidad cambia la medida numérica, pero conserva la cantidad. La ecuación se aplica directamente a longitudes, masas y otras cantidades que admiten esta representación multiplicativa; las escalas de temperatura con desplazamiento de origen requieren una conversión afín.
+
+::: {#exm-00CH .theorem-style-remark data-environment-tag="00CI"}
+## Valor de una cantidad y medida numérica
+
+$2\,\mathrm{m}=200\,\mathrm{cm}$. La longitud no aumenta cien veces: se expresa usando una unidad cien veces menor.
+:::
+::::
+
+:::: {.knowledge-object #tag-00CJ tag="00CJ" type="tecnica" title="Comparación, iteración y medición" requiere="00CH"}
+::: {#concept-00CJ .editorial-text}
+## Comparación, iteración y medición
+
+Una medición directa escolar exige elegir una unidad y aplicarla al atributo sin dejar huecos ni producir superposiciones. Para longitudes se alinea un origen y se cuentan unidades y fracciones de unidad; para áreas se cubre la región con unidades de superficie.
+:::
+
+Comparar directamente, comparar mediante un intermediario y medir son procesos relacionados. Un resultado depende de la unidad, de su reproducción consistente y de la lectura del instrumento. Medir con pasos introduce variabilidad porque cada paso puede tener longitud distinta.
+
+::: {#exm-00CJ .theorem-style-remark data-environment-tag="00CK"}
+## Comparación, iteración y medición
+
+En una regla, un segmento comienza en la marca $3\,\mathrm{cm}$ y termina en $8{,}5\,\mathrm{cm}$. Su longitud es $8{,}5-3=5{,}5\,\mathrm{cm}$, aunque el extremo esté en la marca $8{,}5$.
+:::
+::::
+
+## Sistemas de unidades e instrumentos
+
+:::: {.knowledge-object #tag-00CL tag="00CL" type="observacion" title="Unidades del Sistema Internacional" requiere="00CF"}
+::: {#concept-00CL .editorial-text}
+## Unidades del Sistema Internacional
+
+El Sistema Internacional de Unidades (SI) utiliza siete unidades básicas: metro ($\mathrm{m}$), kilogramo ($\mathrm{kg}$), segundo ($\mathrm{s}$), amperio ($\mathrm{A}$), kelvin ($\mathrm{K}$), mol ($\mathrm{mol}$) y candela ($\mathrm{cd}$). Los símbolos son sensibles a mayúsculas, no se pluralizan ni llevan punto de abreviatura.
+:::
+
+En la enseñanza escolar son especialmente frecuentes longitud, masa, tiempo y temperatura. Se distingue masa de peso: la masa se expresa en kilogramos; el peso es una fuerza y se expresa en newtons. La selección y escritura de unidades sigue el [BIPM](https://www.bipm.org/en/measurement-units/si-base-units).
+
+::: {#exm-00CL .theorem-style-remark data-environment-tag="00CM"}
+## Unidades del sistema internacional
+
+Una masa de $3\,\mathrm{kg}$ se escribe con $\mathrm{kg}$, no «kgs». La aceleración de gravedad permite relacionar masa y peso, pero no identificarlos.
+:::
+::::
+
+:::: {.knowledge-object #tag-00CN tag="00CN" type="tecnica" title="Prefijos y factores de conversión" requiere="00CH,00CL"}
+::: {#concept-00CN .editorial-text}
+## Prefijos y factores de conversión
+
+Los prefijos modifican la unidad mediante potencias de diez. Entre los más usados están kilo ($10^3$), centi ($10^{-2}$) y mili ($10^{-3}$). Una conversión entre unidades multiplicativamente relacionadas puede efectuarse multiplicando por una razón de cantidades iguales, cuyo valor es 1.
+:::
+
+La cancelación de unidades explica el cálculo y permite comprobar su orientación. El prefijo modifica toda la unidad antes de elevarla a una potencia. Los prefijos no convierten horas en minutos: esa relación tiene factor 60.
+
+::: {#exm-00CN .theorem-style-remark data-environment-tag="00CO"}
+## Prefijos y factores de conversión
+
+$$3{,}2\,\mathrm{km}\cdot\frac{1\,000\,\mathrm{m}}{1\,\mathrm{km}}=3\,200\,\mathrm{m}.$$
+Asimismo, $90\,\mathrm{min}\cdot(1\,\mathrm{h}/60\,\mathrm{min})=1{,}5\,\mathrm{h}$.
+:::
+::::
+
+:::: {.knowledge-object #tag-00CP tag="00CP" type="definicion" title="Resolución, precisión y exactitud" requiere="00CJ"}
+::: {#def-00CP .theorem-style-definition data-environment-tag="00CP"}
+## Resolución, precisión y exactitud
+
+En una lectura instrumental:
+
+(a) La **resolución** es el menor cambio que permite distinguir la indicación del instrumento.
+(b) La **precisión de medición** se refiere a la concordancia entre resultados repetidos bajo condiciones especificadas.
+(c) La **exactitud de medición** se refiere a la cercanía al valor verdadero de la cantidad; se utiliza un valor de referencia cuando ese valor no se conoce.
+:::
+
+La terminología distingue [exactitud](https://jcgm.bipm.org/vim/en/2.13.html), [precisión](https://jcgm.bipm.org/vim/en/2.15.html) y [resolución](https://jcgm.bipm.org/vim/en/4.14.html), conforme al VIM. Una escala fina no garantiza exactitud. Un instrumento desajustado puede producir mediciones muy concordantes pero sesgadas. La incertidumbre caracteriza la dispersión de valores atribuibles a la cantidad medida; no equivale a conocer el error verdadero de cada medición.
+
+::: {#exm-00CP .theorem-style-remark data-environment-tag="00CQ"}
+## Resolución, precisión y exactitud
+
+Una balanza indica $102{,}0$, $102{,}1$ y $102{,}0\,\mathrm{g}$ para una masa de referencia de $100{,}0\,\mathrm{g}$. Hay buena concordancia entre lecturas, pero un sesgo cercano a $2\,\mathrm{g}$.
+:::
+::::
+
+## Unidades derivadas y análisis dimensional
+
+:::: {.knowledge-object #tag-00CR tag="00CR" type="propiedad" title="Conversión de área y volumen" requiere="00CN"}
+::: {#prp-00CR .theorem-style-plain data-environment-tag="00CR"}
+## Conversión de área y volumen
+
+Si una unidad de longitud $u$ se expresa como $u=kv$, con $k>0$, entonces:
+
+(a) $u^2=k^2v^2$ para unidades de área.
+(b) $u^3=k^3v^3$ para unidades de volumen.
+(c) $1\,\mathrm{L}=1\,\mathrm{dm^3}$ y $1\,\mathrm{mL}=1\,\mathrm{cm^3}$.
+:::
+
+El área y el volumen cuentan cuadrados y cubos de unidad. No se utiliza el factor lineal sin elevarlo. La capacidad de un recipiente se relaciona con el volumen que puede contener.
+
+::: {#exm-00CR .theorem-style-remark data-environment-tag="00CS"}
+## Conversión de área y volumen
+
+$1\,\mathrm{m^2}=10\,000\,\mathrm{cm^2}$, por lo que $2{,}5\,\mathrm{m^2}=25\,000\,\mathrm{cm^2}$. Además, $0{,}004\,\mathrm{m^3}=4\,\mathrm{L}$.
+:::
+::::
+
+:::: {.knowledge-object #tag-00CT tag="00CT" type="definicion" title="Magnitudes y unidades derivadas" requiere="00CN"}
+::: {#def-00CT .theorem-style-definition data-environment-tag="00CT"}
+## Magnitudes y unidades derivadas
+
+Una **magnitud derivada** se define mediante relaciones entre otras magnitudes. Su unidad se obtiene mediante la misma relación: rapidez como distancia dividida por duración, densidad de masa como masa dividida por volumen y área como producto de dos longitudes.
+:::
+
+El cociente de unidades conserva significado. La rapidez media usa distancia total y tiempo total; no se obtiene en general promediando las rapideces de varios tramos. Una cantidad de dimensión uno puede conservar información sobre su significado, como una razón o un porcentaje.
+
+::: {#exm-00CT .theorem-style-remark data-environment-tag="00CU"}
+## Magnitudes y unidades derivadas
+
+$$72\,\mathrm{km/h}\cdot\frac{1\,000\,\mathrm{m}}{1\,\mathrm{km}}\cdot\frac{1\,\mathrm{h}}{3\,600\,\mathrm{s}}=20\,\mathrm{m/s}.$$
+:::
+::::
+
+:::: {.knowledge-object #tag-00CV tag="00CV" type="principio" title="Homogeneidad dimensional" requiere="00CT"}
+::: {#prp-00CV .theorem-style-plain data-environment-tag="00CV"}
+## Homogeneidad dimensional
+
+En una ecuación entre cantidades físicas, los dos miembros deben tener dimensiones compatibles. Una suma de cantidades requiere compatibilidad de magnitud y unidad. Un argumento de un logaritmo usado en un modelo físico debe ser un número sin dimensión, normalmente obtenido como cociente de cantidades compatibles.
+:::
+
+La homogeneidad es una condición necesaria, no una prueba de que el modelo sea correcto. Dos expresiones pueden tener la misma dimensión y describir fenómenos distintos. Antes de sumar valores numéricos hay que expresar las cantidades en unidades compatibles.
+
+::: {#exm-00CV .theorem-style-remark data-environment-tag="00CW"}
+## Homogeneidad dimensional
+
+Si $v$ es rapidez y $t$ duración, $vt$ tiene dimensión de longitud. La fórmula $d=v+t$ mezcla longitud/tiempo con tiempo y no describe una distancia. En cambio, tanto $vt$ como $2vt$ tienen dimensión de longitud.
+:::
+::::
+
+:::: {.knowledge-object #tag-00CX tag="00CX" type="tecnica" title="Conversiones con cambio de origen" requiere="00CH"}
+::: {#concept-00CX .editorial-text}
+## Conversiones con cambio de origen
+
+La conversión de una temperatura Celsius $t_C$, expresada como valor numérico en grados Celsius, a su valor numérico kelvin $T_K$ es $T_K=t_C+273{,}15$. Para diferencias de temperatura, $\Delta T_K=\Delta t_C$.
+:::
+
+La relación con el kelvin se documenta en la [Brochure del SI](https://www.bipm.org/en/publications/si-brochure). El desplazamiento del origen impide tratar esta conversión como una simple regla de tres. Duplicar un valor numérico Celsius no duplica la temperatura termodinámica. Se escribe kelvin sin el símbolo de grado.
+
+::: {#exm-00CX .theorem-style-remark data-environment-tag="00CY"}
+## Conversiones con cambio de origen
+
+$20\,{}^\circ\mathrm{C}$ corresponden a $293{,}15\,\mathrm{K}$. Un aumento de $5\,{}^\circ\mathrm{C}$ corresponde a un aumento de $5\,\mathrm{K}$.
+:::
+::::
+
+## Estimación, errores y cifras significativas
+
+:::: {.knowledge-object #tag-00CZ tag="00CZ" type="tecnica" title="Estimación de una medida" requiere="00CJ"}
+::: {#concept-00CZ .editorial-text}
+## Estimación de una medida
+
+Estimar una medida consiste en proponer un valor o un intervalo plausible usando referentes, descomposición o comparación, antes o sin efectuar una medición detallada. Debe indicarse la unidad y la precisión que tiene sentido para la situación.
+:::
+
+Una estimación permite anticipar escala y detectar conversiones equivocadas. No es adivinar sin referentes. Conviene contrastarla con la medición y explicar qué supuestos justifican su orden de magnitud.
+
+::: {#exm-00CZ .theorem-style-remark data-environment-tag="00D0"}
+## Estimación de una medida
+
+Si una mesa mide aproximadamente seis largos de una tarjeta de $8{,}5\,\mathrm{cm}$, se estima $6\cdot8{,}5=51\,\mathrm{cm}$. El resultado es aproximado porque la comparación visual no fue exacta.
+:::
+::::
+
+:::: {.knowledge-object #tag-00D1 tag="00D1" type="definicion" title="Error respecto de una referencia" requiere="00CP"}
+::: {#def-00D1 .theorem-style-definition data-environment-tag="00D1"}
+## Error respecto de una referencia
+
+Para un valor de referencia $x$ y una aproximación $\widetilde x$, expresados en la misma unidad:
+
+(a) El **error con signo** es $\widetilde x-x$.
+(b) El **error absoluto** es $|\widetilde x-x|$.
+(c) Si $x\ne0$, el **error relativo** es $|\widetilde x-x|/|x|$.
+:::
+
+El error absoluto conserva la unidad; el relativo no tiene dimensión y permite comparar escalas. Si la referencia es desconocida, no se puede calcular el error verdadero con estas fórmulas. Error e incertidumbre no son intercambiables.
+
+::: {#exm-00D1 .theorem-style-remark data-environment-tag="00D2"}
+## Error respecto de una referencia
+
+Para una referencia de $80\,\mathrm{cm}$ y una lectura de $82\,\mathrm{cm}$, el error absoluto es $2\,\mathrm{cm}$ y el relativo es $2/80=0{,}025=2{,}5\,\%$.
+:::
+::::
+
+:::: {.knowledge-object #tag-00D3 tag="00D3" type="tecnica" title="Redondeo y cifras significativas" requiere="00D1"}
+::: {#concept-00D3 .editorial-text}
+## Redondeo y cifras significativas
+
+Las **cifras significativas** comunican los dígitos que se retienen en un valor aproximado. Los ceros iniciales no cuentan; los ceros entre cifras significativas sí. Los ceros finales deben interpretarse según la escritura y el contexto. La notación científica permite declarar cuántos dígitos se conservan.
+:::
+
+Las reglas escolares de cifras significativas son convenciones de comunicación, no un cálculo completo de incertidumbre. En multiplicaciones y divisiones suele limitarse el resultado al menor número de cifras significativas de los datos; en sumas y restas, a la posición decimal menos precisa. Factores definidos exactamente no limitan cifras. Se redondea al final para evitar acumulación de error.
+
+::: {#exm-00D3 .theorem-style-remark data-environment-tag="00D4"}
+## Redondeo y cifras significativas
+
+$0{,}00450=4{,}50\cdot10^{-3}$ tiene tres cifras significativas. Una medida escrita $1{,}20\,\mathrm{m}$ conserva tres cifras. El producto $2{,}4\cdot3{,}15=7{,}56$ se comunica como $7{,}6$ si los datos son medidas y se adopta la regla de dos cifras.
+:::
+::::
+
+## Representaciones, errores frecuentes y decisiones docentes
+
+| Producción observada | Aspecto que conviene indagar | Intervención posible |
+|---|---|---|
+| Usa la última marca de la regla como longitud | Comprensión del origen y de la diferencia | Medir el mismo segmento desde marcas distintas |
+| Convierte $1\,\mathrm{m^2}$ en $100\,\mathrm{cm^2}$ | Confusión entre unidad lineal y cuadrada | Dibujar una cuadrícula de $100$ por $100$ |
+| Reporta muchos decimales de una medición | Diferencia entre indicación y precisión | Comparar instrumentos y repeticiones |
+| Omite la unidad | Identificación de la magnitud | Pedir dos interpretaciones del mismo número |
+
+Las representaciones deben hacer visible la unidad: segmentos para longitud, mosaicos para superficie y cubos para volumen. La conservación de la cantidad al cambiar de unidad permite conectar medición, racionales y proporcionalidad.
+
+## Conexiones y procedencia
+
+Desarrolla el capítulo 26 de la [tabla maestra](../../../docs/tabla-contenidos-maestra.md). Se conecta con [Números racionales](numeros-racionales.qmd), [Razones y proporcionalidad](razones-proporcionalidad.qmd) y [Números reales](numeros-reales.qmd). La exposición y los ejemplos son originales para MGP; las referencias y sus alcances se registran en [Fuentes consultadas](../../../docs/referencias-numeros-medicion.md).

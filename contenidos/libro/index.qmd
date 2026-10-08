@@ -14,13 +14,19 @@ Esta parte reúne el conocimiento matemático escolar que un profesor puede nece
 
 | Capítulo | Material disponible | Estado |
 |---|---|---|
-| [1. Porcentajes](numeros/porcentajes.qmd) | Definición, interpretaciones, técnica fundamental, ejemplos y errores frecuentes | En desarrollo |
-| [2. Potencias, raíces y logaritmos](algebra/potencias-raices-logaritmos.qmd) | Potencias, radicales, exponentes, logaritmos, estimación y aplicaciones | Desarrollado |
-| [3. Álgebra elemental](algebra/algebra-elemental.qmd) | Generalización, variables, expresiones, identidades, productos notables y factorización | Desarrollado |
-| [4. Ecuaciones e inecuaciones](algebra/ecuaciones-inecuaciones.qmd) | Conjuntos solución, equivalencias, ecuaciones, inecuaciones, sistemas y métodos gráficos | Desarrollado |
-| [5. Sucesiones y series elementales](algebra/sucesiones-series.qmd) | Patrones, fórmulas explícitas, recurrencias, progresiones, sumas y convergencia intuitiva | Desarrollado |
-| [6. Funciones](algebra/funciones.qmd) | Correspondencia, covariación, dominio, recorrido, representaciones, familias y modelación | Desarrollado |
-| [7. Combinatoria y probabilidad](probabilidad/combinatoria-probabilidad.qmd) | Conteo, reglas de probabilidad, condicionalidad, simulación y modelos escolares | Desarrollado |
-| [8. Estadística escolar](estadistica/index.qmd) | Ciclo estadístico, tablas, gráficos, medidas, variabilidad, asociación y lectura crítica | Desarrollado |
+| [1. Magnitudes, medición y unidades](numeros/magnitudes-medicion-unidades.qmd) | Magnitudes, unidades, instrumentos, estimación, conversiones, dimensiones y cifras significativas | Desarrollado |
+| [2. Números naturales](numeros/numeros-naturales.qmd) | Conteo, numeración, operaciones, algoritmos, divisibilidad, primos, MCD y MCM | Desarrollado |
+| [3. Números enteros](numeros/numeros-enteros.qmd) | Negativos, recta, orden, opuestos, valor absoluto, operaciones y divisibilidad | Desarrollado |
+| [4. Números racionales](numeros/numeros-racionales.qmd) | Interpretaciones de fracciones, equivalencia, operaciones, decimales y densidad | Desarrollado |
+| [5. Números reales](numeros/numeros-reales.qmd) | Irracionales, recta, orden, intervalos, densidad, aproximación y errores | Desarrollado |
+| [6. Razones y proporcionalidad](numeros/razones-proporcionalidad.qmd) | Razones, tasas, proporciones, modelos directos e inversos, escalas y regla de tres | Desarrollado |
+| [7. Porcentajes](numeros/porcentajes.qmd) | Interpretaciones, parte y total, aumentos, descuentos, variaciones y puntos porcentuales | Desarrollado |
+| [8. Potencias, raíces y logaritmos](algebra/potencias-raices-logaritmos.qmd) | Potencias, radicales, exponentes, logaritmos, dominio, estimación y aplicaciones | Desarrollado |
+| [9. Álgebra elemental](algebra/algebra-elemental.qmd) | Generalización, variables, expresiones, identidades, productos notables y factorización | Desarrollado |
+| [10. Ecuaciones e inecuaciones](algebra/ecuaciones-inecuaciones.qmd) | Conjuntos solución, equivalencias, ecuaciones, inecuaciones, sistemas y métodos gráficos | Desarrollado |
+| [11. Sucesiones y series elementales](algebra/sucesiones-series.qmd) | Patrones, fórmulas, recurrencias, progresiones, sumas y convergencia intuitiva | Desarrollado |
+| [12. Funciones](algebra/funciones.qmd) | Correspondencia, covariación, dominio, representaciones, familias y modelación | Desarrollado |
+| [13. Combinatoria y probabilidad](probabilidad/combinatoria-probabilidad.qmd) | Conteo, probabilidad, condicionalidad, simulación y modelos escolares | Desarrollado |
+| [14. Estadística escolar](estadistica/index.qmd) | Ciclo estadístico, tablas, gráficos, medidas, variabilidad, asociación y lectura crítica | Desarrollado |
 
 Las preguntas y los problemas asociados se consultan desde los capítulos o mediante la búsqueda. No forman capítulos ni se despliegan en el menú principal.

@@ -1,5 +1,5 @@
 ---
-title: "Capítulo 4. Ecuaciones e inecuaciones"
+title: "Capítulo 10. Ecuaciones e inecuaciones"
 description: "Conjuntos solución, equivalencias, ecuaciones lineales y cuadráticas, inecuaciones, intervalos, sistemas y métodos gráficos."
 format:
   html:
@@ -463,5 +463,4 @@ legend("topleft", c("y = x²", "y = 2x"), col = c("steelblue", "darkorange3"),
 
 ## Conexiones y procedencia
 
-Se desarrollan las secciones del capítulo 36 de la [tabla maestra](../../../docs/tabla-contenidos-maestra.md). La exposición y los ejemplos son una elaboración original para MGP. Las transformaciones de expresiones se fundamentan en [Álgebra elemental](algebra-elemental.qmd); las operaciones inversas, en [Potencias, raíces y logaritmos](potencias-raices-logaritmos.qmd); y las gráficas, en [Funciones](funciones.qmd).
-
+Se desarrollan las secciones del capítulo 35 de la [tabla maestra](../../../docs/tabla-contenidos-maestra.md). La exposición y los ejemplos son una elaboración original para MGP. Las transformaciones de expresiones se fundamentan en [Álgebra elemental](algebra-elemental.qmd); las operaciones inversas, en [Potencias, raíces y logaritmos](potencias-raices-logaritmos.qmd); y las gráficas, en [Funciones](funciones.qmd).

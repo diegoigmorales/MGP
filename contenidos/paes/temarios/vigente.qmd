@@ -3,10 +3,10 @@ number-sections: false
 description: "Temario consolidado de M1 y M2 para las PAES regular y de invierno del proceso de Admisión 2027."
 ---
 
-# 10.3 Temario vigente: Admisión 2027 {.unnumbered}
+# 16.3 Temario vigente: Admisión 2027 {.unnumbered}
 
 ::: {.temario-hero}
-## 10.3.1 Alcance documental
+## 16.3.1 Alcance documental
 
 La edición regular fue publicada el **19 de marzo de 2026** para rendirse a fines de 2026. La edición de invierno fue publicada el **23 de enero de 2026** y se rindió entre el 15 y el 17 de junio de 2026.
 
@@ -14,12 +14,12 @@ La edición regular fue publicada el **19 de marzo de 2026** para rendirse a fin
 :::
 
 ::: {.callout-important}
-## 10.3.2 Criterio de presentación
+## 16.3.2 Criterio de presentación
 
 **M1 y M2 son las dos pruebas de Competencia Matemática.** “Regular” e “invierno” nombran oportunidades de aplicación con temarios oficiales propios; no son formatos adicionales de M1 o M2. Los contenidos comunes se presentan una sola vez y las diferencias se atribuyen explícitamente a la aplicación correspondiente. M2 siempre incluye todo el M1 de esa misma aplicación.
 :::
 
-## 10.3.3 Características generales
+## 16.3.3 Características generales
 
 | Característica | M1 | M2 |
 |---|---|---|
@@ -38,7 +38,7 @@ La edición regular fue publicada el **19 de marzo de 2026** para rendirse a fin
 | Representar | Traduce entre lenguaje natural y matemático, interpreta representaciones y transfiere información entre ellas. |
 | Argumentar | Evalúa argumentos, identifica errores en procedimientos o demostraciones y valida deducciones. |
 
-## 10.3.4 Competencia Matemática M1 {#m1-vigente}
+## 16.3.4 Competencia Matemática M1 {#m1-vigente}
 
 ### Números
 
@@ -171,7 +171,7 @@ La edición regular fue publicada el **19 de marzo de 2026** para rendirse a fin
 - Reglas aditiva y multiplicativa de probabilidades.
 :::
 
-## 10.3.5 Competencia Matemática M2 {#m2-vigente}
+## 16.3.5 Competencia Matemática M2 {#m2-vigente}
 
 M2 puede evaluar **todo el M1 de la aplicación correspondiente** y, además, los contenidos siguientes.
 
@@ -283,7 +283,7 @@ M2 puede evaluar **todo el M1 de la aplicación correspondiente** y, además, lo
 - Problemas con la distribución normal.
 :::
 
-## 10.3.6 Diferencias entre aplicaciones
+## 16.3.6 Diferencias entre aplicaciones
 
 | Prueba | Invierno 2027 | Regular 2027 |
 |---|---|---|

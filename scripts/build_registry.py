@@ -21,6 +21,13 @@ KNOWLEDGE_TAG_RE = re.compile(r'^knowledge-tag:\s*"([0-9A-Z]{4})"\s*$', re.MULTI
 TITLE_RE = re.compile(r'^title:\s*"(.*?)"\s*$', re.MULTILINE)
 NATIVE_LABEL_RE = re.compile(r"\{#(?P<label>(?:def|prp|thm|lem|cor|exm|rem|concept)-[0-9A-Z]{4})(?=\s|\})")
 ENRICHED_CHAPTERS = {
+    "contenidos/libro/numeros/magnitudes-medicion-unidades.qmd",
+    "contenidos/libro/numeros/numeros-naturales.qmd",
+    "contenidos/libro/numeros/numeros-enteros.qmd",
+    "contenidos/libro/numeros/numeros-racionales.qmd",
+    "contenidos/libro/numeros/numeros-reales.qmd",
+    "contenidos/libro/numeros/razones-proporcionalidad.qmd",
+    "contenidos/libro/numeros/porcentajes.qmd",
     "contenidos/libro/algebra/potencias-raices-logaritmos.qmd",
     "contenidos/libro/algebra/algebra-elemental.qmd",
     "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",

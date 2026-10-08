@@ -1,5 +1,5 @@
 ---
-title: "Capítulo 3. Álgebra elemental"
+title: "Capítulo 9. Álgebra elemental"
 description: "Pensamiento algebraico, variables, expresiones, equivalencia, productos notables, factorización y errores frecuentes."
 format:
   html:
@@ -408,5 +408,4 @@ Una intervención docente puede conectar palabras, símbolos y representaciones,
 
 ## Conexiones y procedencia
 
-Se desarrollan las secciones del capítulo 35 de la [tabla maestra](../../../docs/tabla-contenidos-maestra.md). La exposición y los ejemplos son una elaboración original para MGP. Las reglas de exponentes están en [Potencias, raíces y logaritmos](potencias-raices-logaritmos.qmd); determinar valores admisibles pertenece a [Ecuaciones e inecuaciones](ecuaciones-inecuaciones.qmd); los patrones discretos se amplían en [Sucesiones y series elementales](sucesiones-series.qmd).
-
+Se desarrollan las secciones del capítulo 34 de la [tabla maestra](../../../docs/tabla-contenidos-maestra.md). La exposición y los ejemplos son una elaboración original para MGP. Las reglas de exponentes están en [Potencias, raíces y logaritmos](potencias-raices-logaritmos.qmd); determinar valores admisibles pertenece a [Ecuaciones e inecuaciones](ecuaciones-inecuaciones.qmd); los patrones discretos se amplían en [Sucesiones y series elementales](sucesiones-series.qmd).

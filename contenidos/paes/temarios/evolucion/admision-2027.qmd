@@ -3,7 +3,7 @@ number-sections: false
 description: "Últimos cambios regulares e invierno y comparación acumulada desde la primera PAES."
 ---
 
-# 10.4.5 Admisión 2027: temarios vigentes {.unnumbered}
+# 16.4.5 Admisión 2027: temarios vigentes {.unnumbered}
 
 ## Fuentes y rendición
 

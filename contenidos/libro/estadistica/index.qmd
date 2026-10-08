@@ -1,5 +1,5 @@
 ---
-title: "Capítulo 8. Estadística escolar"
+title: "Capítulo 14. Estadística escolar"
 description: "Investigación estadística, organización, representación, resumen, variabilidad, asociación y lectura crítica de datos."
 format:
   html:

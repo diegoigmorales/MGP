@@ -18,16 +18,22 @@ Esta correspondencia registra el estado actual; los números públicos cambian a
 
 | Capítulo público | Capítulo maestro | Contenido |
 |---:|---:|---|
-| 1 | 33 | Porcentajes |
-| 2 | 34 | Potencias, raíces y logaritmos |
-| 3 | 35 | Álgebra elemental |
-| 4 | 36 | Ecuaciones e inecuaciones |
-| 5 | 37 | Sucesiones y series elementales |
-| 6 | 38 | Funciones |
-| 7 | 44 | Combinatoria y probabilidad |
-| 8 | 45 | Estadística escolar |
-| 9 | 74 | Sistema curricular chileno |
-| 10 | 75 | PAES de Matemática |
+| 1 | 26 | Magnitudes, medición y unidades |
+| 2 | 27 | Números naturales |
+| 3 | 28 | Números enteros |
+| 4 | 29 | Números racionales |
+| 5 | 30 | Números reales |
+| 6 | 31 | Razones y proporcionalidad |
+| 7 | 32 | Porcentajes |
+| 8 | 33 | Potencias, raíces y logaritmos |
+| 9 | 34 | Álgebra elemental |
+| 10 | 35 | Ecuaciones e inecuaciones |
+| 11 | 36 | Sucesiones y series elementales |
+| 12 | 37 | Funciones |
+| 13 | 43 | Combinatoria y probabilidad |
+| 14 | 44 | Estadística escolar |
+| 15 | 74 | Sistema curricular chileno |
+| 16 | 75 | PAES de Matemática |
 
 ## Capítulos, colecciones e índices
 

@@ -1,5 +1,5 @@
 ---
-title: "Capítulo 5. Sucesiones y series elementales"
+title: "Capítulo 11. Sucesiones y series elementales"
 description: "Patrones discretos, fórmulas explícitas, recurrencias, progresiones, sumas, series geométricas y modelación."
 format:
   html:
@@ -364,5 +364,4 @@ En la enseñanza, una tabla o una construcción permite reconocer regularidades;
 
 ## Conexiones y procedencia
 
-Se desarrollan las secciones del capítulo 37 de la [tabla maestra](../../../docs/tabla-contenidos-maestra.md). La exposición y los ejemplos son una elaboración original para MGP. Los patrones se fundamentan en [Álgebra elemental](algebra-elemental.qmd), el crecimiento multiplicativo en [Potencias, raíces y logaritmos](potencias-raices-logaritmos.qmd), y la interpretación de sucesiones como funciones de dominio discreto en [Funciones](funciones.qmd).
-
+Se desarrollan las secciones del capítulo 36 de la [tabla maestra](../../../docs/tabla-contenidos-maestra.md). La exposición y los ejemplos son una elaboración original para MGP. Los patrones se fundamentan en [Álgebra elemental](algebra-elemental.qmd), el crecimiento multiplicativo en [Potencias, raíces y logaritmos](potencias-raices-logaritmos.qmd), y la interpretación de sucesiones como funciones de dominio discreto en [Funciones](funciones.qmd).
