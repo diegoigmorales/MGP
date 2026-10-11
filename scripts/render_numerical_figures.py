@@ -35,7 +35,7 @@ def render(previews=None):
     x=np.linspace(0,5,200)
     for ax,title in zip(axes,["Directa: y = 3x","Inversa: y = 12/x","Afín: y = 3x + 2"]):
         ax.set(xlim=(0,5),ylim=(0,18),xlabel="x",ylabel="y",title=title)
-        ax.yaxis.set_major_formatter(FuncFormatter(lambda value, _: f"{value:g}".replace(".", ",")))
+        ax.yaxis.set_major_formatter(FuncFormatter(lambda value, _: f"{value:g}"))
         ax.set_xticks(range(6));ax.grid(alpha=0.2);ax.spines[["top","right"]].set_visible(False)
     axes[0].plot(x,3*x,color=BLUE,lw=2.5)
     xi=np.linspace(0.7,5,200);axes[1].plot(xi,12/xi,color=BLUE,lw=2.5)
@@ -53,7 +53,7 @@ def render(previews=None):
         ax.text(value+1,2-i,f"{value} de 100",va="center",fontsize=11)
     ax.set_yticks([2,1,0],labels);ax.set_xlim(0,120);ax.set_xticks([0,20,40,60,80,100])
     ax.set_xlabel("Cantidad, expresada respecto del valor inicial 100")
-    ax.set_title("Cambios sucesivos: 100 × 0,8 × 0,9 = 72",loc="left",pad=14)
+    ax.set_title("Cambios sucesivos: 100 · 0.8 · 0.9 = 72",loc="left",pad=14)
     ax.spines[["top","right","left"]].set_visible(False);ax.tick_params(axis="y",length=0)
     fig.tight_layout()
     save(fig,"porcentajes-sucesivos",previews)

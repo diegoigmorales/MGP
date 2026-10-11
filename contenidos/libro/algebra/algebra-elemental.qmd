@@ -153,8 +153,17 @@ $3x^2-5x^2=-2x^2$, pero $3x+2x^2$ conserva dos términos. Además, $xy$ y $yx$ s
 
 Para números reales:
 
-(a) **Suma:** $a(b+c)=ab+ac$.
-(b) **Diferencia:** $a(b-c)=ab-ac$.
+(a) **Suma**
+
+    $$
+    a(b+c)=ab+ac.
+    $$
+
+(b) **Diferencia**
+
+    $$
+    a(b-c)=ab-ac.
+    $$
 :::
 
 El factor debe multiplicar cada término. Un signo menos delante de un paréntesis equivale a multiplicar por $-1$: $-(u-v)=-u+v$. La distributividad funciona también en sentido inverso y fundamenta la extracción de factor común.
@@ -234,8 +243,17 @@ Al comparar igualdades en $\mathbb R$:
 
 Para reales $a,b$:
 
-(a) **Cuadrado de una suma:** $(a+b)^2=a^2+2ab+b^2$.
-(b) **Cuadrado de una diferencia:** $(a-b)^2=a^2-2ab+b^2$.
+(a) **Cuadrado de una suma**
+
+    $$
+    (a+b)^2=a^2+2ab+b^2.
+    $$
+
+(b) **Cuadrado de una diferencia**
+
+    $$
+    (a-b)^2=a^2-2ab+b^2.
+    $$
 :::
 
 El término mixto surge de dos productos iguales y su signo depende del binomio. Una representación por áreas con longitudes no negativas ilustra la primera identidad; el alcance algebraico es más amplio que ese dibujo.
@@ -251,8 +269,17 @@ $(2x-3)^2=4x^2-12x+9$. La expresión $a^2+b^2$ omite el término $2ab$ de $(a+b)
 
 Para números reales:
 
-(a) **Suma por diferencia:** $(a+b)(a-b)=a^2-b^2$.
-(b) **Binomios con término común:** $(x+a)(x+b)=x^2+(a+b)x+ab$.
+(a) **Suma por diferencia**
+
+    $$
+    (a+b)(a-b)=a^2-b^2.
+    $$
+
+(b) **Binomios con término común**
+
+    $$
+    (x+a)(x+b)=x^2+(a+b)x+ab.
+    $$
 :::
 
 La primera cancela los términos mixtos y la segunda los agrupa. Reconocer la estructura antes de sustituir ayuda a evitar expandir por rutina sin controlar signos.
@@ -271,10 +298,29 @@ Aplicando cada identidad:
 
 Para reales $a,b$:
 
-(a) **Cubo de una suma:** $(a+b)^3=a^3+3a^2b+3ab^2+b^3$.
-(b) **Cubo de una diferencia:** $(a-b)^3=a^3-3a^2b+3ab^2-b^3$.
-(c) **Suma de cubos:** $a^3+b^3=(a+b)(a^2-ab+b^2)$.
-(d) **Diferencia de cubos:** $a^3-b^3=(a-b)(a^2+ab+b^2)$.
+(a) **Cubo de una suma**
+
+    $$
+    (a+b)^3=a^3+3a^2b+3ab^2+b^3.
+    $$
+
+(b) **Cubo de una diferencia**
+
+    $$
+    (a-b)^3=a^3-3a^2b+3ab^2-b^3.
+    $$
+
+(c) **Suma de cubos**
+
+    $$
+    a^3+b^3=(a+b)(a^2-ab+b^2).
+    $$
+
+(d) **Diferencia de cubos**
+
+    $$
+    a^3-b^3=(a-b)(a^2+ab+b^2).
+    $$
 :::
 
 Los signos de los factores no se obtienen trasladando sin más la regla de cuadrados. Las fórmulas se conectan con la distributividad y los coeficientes binomiales.
@@ -392,19 +438,6 @@ Son frecuentes la lectura operacional del igual, la combinación de términos no
 Ante $(x+3)/x=3$, preguntar por $x=2$ contrasta $5/2$ con 3 y permite examinar si se cancelaron sumandos como si fueran factores.
 :::
 ::::
-
-## Síntesis para la consulta docente
-
-| Decisión | Pregunta de control |
-|---|---|
-| Elegir una letra | ¿Representa una incógnita, una variable o un parámetro? |
-| Leer la estructura | ¿La operación principal es una suma, un producto o un cociente? |
-| Reducir | ¿Las partes literales son realmente iguales? |
-| Expandir o factorizar | ¿Qué forma sirve mejor al propósito? |
-| Simplificar | ¿Se cancelan factores no nulos y se conservan restricciones? |
-| Generalizar | ¿Hay estructura que sostenga todos los casos del dominio? |
-
-Una intervención docente puede conectar palabras, símbolos y representaciones, pero debe precisar qué relaciones preserva cada cambio. La corrección de una expresión no basta para acreditar comprensión del significado de sus letras o de la igualdad.
 
 ## Conexiones y procedencia
 

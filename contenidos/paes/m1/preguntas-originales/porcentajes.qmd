@@ -33,7 +33,7 @@ Por tanto, el precio final es $40\,000-10\,000=30\,000$. La respuesta es **C**.
 Pagar el precio después de un descuento de $25\,\%$ equivale a pagar el $75\,\%$:
 
 $$
-40\,000\cdot 0{,}75=30\,000.
+40\,000\cdot 0.75=30\,000.
 $$
 :::
 
@@ -42,7 +42,7 @@ $$
 
 - **A:** confunde el monto descontado con el precio final.
 - **B:** interpreta el número $25$ como una cantidad monetaria.
-- **D:** corresponde a descontar solamente $12{,}5\,\%$.
+- **D:** corresponde a descontar solamente $12.5\,\%$.
 :::
 ::::
 

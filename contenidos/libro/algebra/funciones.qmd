@@ -277,10 +277,33 @@ $x^2-6x+5=(x-3)^2-4=(x-1)(x-5)$. Las formas destacan, respectivamente, coeficien
 
 Para $f(x)=ax^2+bx+c$, con $a\ne0$ y dominio $\mathbb R$:
 
-(a) **Vértice:** $(h,k)$, donde $h=-b/(2a)$ y $k=f(h)$.
-(b) **Eje de simetría:** $x=h$.
-(c) Si $a>0$, se alcanza el **mínimo** $k$ y el recorrido es $[k,\infty)$.
-(d) Si $a<0$, se alcanza el **máximo** $k$ y el recorrido es $(-\infty,k]$.
+(a) **Vértice**
+
+    $$
+    \left(h,k\right),\qquad h=-\frac{b}{2a},\qquad k=f(h).
+    $$
+
+(b) **Eje de simetría**
+
+    $$
+    x=h.
+    $$
+
+(c) **Mínimo**
+
+    Si $a>0$, se alcanza el mínimo $k$ y su recorrido es:
+
+    $$
+    [k,\infty).
+    $$
+
+(d) **Máximo**
+
+    Si $a<0$, se alcanza el máximo $k$ y su recorrido es:
+
+    $$
+    (-\infty,k].
+    $$
 :::
 
 Al restringir el dominio debe recalcularse si el vértice está incluido y qué valores se alcanzan.
@@ -469,19 +492,6 @@ Son frecuentes confundir codominio y recorrido, exigir imágenes distintas para 
 $f(x)=x^2$ sí es función en $\mathbb R$, pero no tiene inversa global con ese dominio. Restringir a $x\ge0$ permite la inversa $\sqrt x$.
 :::
 ::::
-
-## Síntesis para la consulta docente
-
-| Familia en su dominio natural | Rasgo que conviene reconocer | Precaución |
-|---|---|---|
-| $mx$ | Proporcionalidad directa | Declarar la convención de «lineal» |
-| $mx+b$ | Diferencias proporcionales a incrementos | El cargo fijo cambia los cocientes |
-| $ax^2+bx+c$ | Vértice, simetría y dos tramos monótonos | $a\ne0$ |
-| $k/x$ | Producto constante | Excluir cero y revisar el contexto |
-| $b^x$ | Factores constantes por incrementos iguales | $b>0$, $b\ne1$ |
-| $\log_bx$ | Inversa de una exponencial | Argumento positivo |
-
-Al estudiar una función conviene precisar dominio y codominio, determinar recorrido, comparar representaciones, localizar ceros y extremos, estudiar cambios y revisar la validez contextual. Una propiedad observada en una tabla o una ventana gráfica requiere confirmación para todo el ámbito declarado.
 
 ## Conexiones y procedencia
 

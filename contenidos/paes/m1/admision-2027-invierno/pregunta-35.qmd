@@ -10,8 +10,8 @@ Una empresa contrata a una persona para que publique videos mostrando los benefi
 
 
 ::: {.answer-options}
-1. $f(x) = 150000x + 100\,000$
-1. $g(x) = 100000x + 150\,000$
+1. $f(x) = 150\,000x + 100\,000$
+1. $g(x) = 100\,000x + 150\,000$
 1. $h(x) = 100\,000 \cdot (x + 150\,000)$
 1. $k(x) = x \cdot (100\,000 + 150\,000)$
 :::

@@ -104,6 +104,28 @@ La fuente usa listas Markdown reales de Pandoc, no letras insertadas dentro de
 una fórmula. `styles.css` conserva ambos paréntesis en HTML mediante un estilo de
 contador; Pandoc conserva el delimitador de la lista en su salida LaTeX.
 
+## Lectura rápida de propiedades y proposiciones
+
+El enunciado presenta primero el título numerado y las condiciones comunes. Las propiedades se separan en incisos `(a), (b), (c)`; cuando tienen un nombre breve, este se destaca en negrita en su propia línea. La fórmula principal de cada inciso se escribe en matemática desplegada, mientras que las condiciones y las referencias breves permanecen en línea. Las restricciones particulares se conservan junto a la propiedad correspondiente.
+
+Los cocientes de las fórmulas se escriben como fracciones con `\frac{u}{v}`, en lugar de `u/v`. En QMD se usa `$$...$$` para obtener el entorno desplegado equivalente a `\[...\]` en la salida TeX/MathJax. Dentro de una lista, la fórmula se indenta cuatro espacios para que pertenezca al inciso y no interrumpa la enumeración.
+
+~~~markdown
+Si $u,v>0$ y $b>0$, con $b\ne1$:
+
+(a) **Producto**
+
+    $$
+    \log_b(uv)=\log_b u+\log_b v.
+    $$
+
+(b) **Cociente**
+
+    $$
+    \log_b\left(\frac{u}{v}\right)=\log_b u-\log_b v.
+    $$
+~~~
+
 ## Identificadores de entornos y modo de lectura
 
 Cada entorno plain, definition o remark declara `data-environment-tag` en su

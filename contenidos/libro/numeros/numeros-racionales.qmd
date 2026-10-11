@@ -47,7 +47,7 @@ El modelo parte-todo con una sola figura explica directamente fracciones entre 0
 ::: {#exm-00EJ .theorem-style-remark data-environment-tag="00EK"}
 ## Parte-todo, medida, cociente, razón y operador
 
-$3/4$ puede ser tres cuartos de una cinta, la posición $0{,}75$ en una recta, el reparto de $3$ litros entre $4$ personas o el operador que transforma $20$ en $15$.
+$3/4$ puede ser tres cuartos de una cinta, la posición $0.75$ en una recta, el reparto de $3$ litros entre $4$ personas o el operador que transforma $20$ en $15$.
 :::
 ::::
 
@@ -77,9 +77,23 @@ $11/4=2+3/4$. En la recta se sitúa entre 2 y 3, a tres cuartos de unidad de 2. 
 
 Para $b,d\ne0$:
 
-(a) $a/b=c/d$ si y solo si $ad=bc$.
-(b) Para un entero $k\ne0$, $a/b=(ka)/(kb)$.
-(c) Cambiar el signo de numerador y denominador simultáneamente conserva el valor.
+(a) **Productos cruzados**
+
+    $$
+    \frac{a}{b}=\frac{c}{d}\quad\Longleftrightarrow\quad ad=bc.
+    $$
+
+(b) **Amplificación**
+
+    Para un entero $k\ne0$:
+
+    $$
+    \frac{a}{b}=\frac{ka}{kb}.
+    $$
+
+(c) **Cambio de signo**
+
+    Cambiar el signo de numerador y denominador simultáneamente conserva el valor.
 :::
 
 Amplificar o simplificar modifica la partición, no la cantidad. Solo se cancelan factores comunes; no se cancelan términos de una suma como si fueran factores. La igualdad de productos cruzados permite verificar equivalencia, pero no debe convertirse en una receta desvinculada de la unidad.
@@ -133,10 +147,23 @@ Para $5/12$ y $7/18$, $L=36$: se obtienen $15/36$ y $14/36$. Por tanto, $5/12>7/
 
 Con $b,d>0$:
 
-(a) $a/b<c/d$ si y solo si $ad<bc$.
-(b) A igual denominador, se comparan los numeradores.
-(c) Para numerador positivo fijo, aumentar el denominador disminuye la fracción.
-(d) Entre negativos, el de mayor valor absoluto es menor.
+(a) **Productos cruzados**
+
+    $$
+    \frac{a}{b}<\frac{c}{d}\quad\Longleftrightarrow\quad ad<bc.
+    $$
+
+(b) **Igual denominador**
+
+    A igual denominador, se comparan los numeradores.
+
+(c) **Numerador positivo fijo**
+
+    Para numerador positivo fijo, aumentar el denominador disminuye la fracción.
+
+(d) **Racionales negativos**
+
+    Entre negativos, el de mayor valor absoluto es menor.
 :::
 
 Antes de comparar se normaliza el signo de los denominadores. También pueden utilizarse referencias como 0, $1/2$ y 1. El tamaño de los numerales no determina el tamaño del racional.
@@ -154,7 +181,7 @@ $7/12>1/2$ porque $7>6$, mientras que $5/12<1/2$. Además, $-3/4<-2/3$ porque $-
 
 Para $b,d\ne0$:
 $$\frac ab+\frac cd=\frac{ad+bc}{bd},\qquad \frac ab-\frac cd=\frac{ad-bc}{bd}.$$
-Si ambos denominadores son iguales a $b$, el resultado es $(a\pm c)/b$.
+Si ambos denominadores son iguales a $b$, el resultado es $\frac{a\pm c}{b}$.
 :::
 
 Se suman o restan cantidades expresadas en una misma unidad fraccionaria. Sumar denominadores crea una unidad distinta sin justificación. En contextos de medida también debe conservarse la misma unidad física.
@@ -216,7 +243,7 @@ El denominador fija un número finito de posibles restos; si la división no ter
 ::: {#exm-00F1 .theorem-style-remark data-environment-tag="00F2"}
 ## Decimales finitos y periódicos
 
-$3/8=0{,}375$, $2/3=0{,}\overline6$ y $1/6=0{,}1\overline6$. Para $x=0{,}\overline{27}$, se tiene $100x-x=27$, de donde $x=27/99=3/11$.
+$3/8=0.375$, $2/3=0.\overline6$ y $1/6=0.1\overline6$. Para $x=0.\overline{27}$, se tiene $100x-x=27$, de donde $x=27/99=3/11$.
 :::
 ::::
 
@@ -224,9 +251,9 @@ $3/8=0{,}375$, $2/3=0{,}\overline6$ y $1/6=0{,}1\overline6$. Para $x=0{,}\overli
 ::: {#thm-00F3 .theorem-style-plain data-environment-tag="00F3"}
 ## Criterio para una expansión decimal finita
 
-Una fracción irreducible $a/b$ con $b>0$ admite expansión decimal finita si y solo si
+Una fracción irreducible $\frac{a}{b}$ con $b>0$ admite expansión decimal finita si y solo si
 $$b=2^m5^n,$$
-con $m,n\in\mathbb N$. El caso $b=1$ está incluido.
+con $m,n\in\mathbb N_0=\mathbb N\cup\{0\}$. Los exponentes pueden ser cero; el caso $b=1$ corresponde a $m=n=0$.
 :::
 
 Una escritura finita equivale a un denominador que divide alguna potencia de 10; por el teorema fundamental de la aritmética, sus primos solo pueden ser 2 y 5. Es esencial simplificar antes de examinar el denominador.
@@ -234,7 +261,7 @@ Una escritura finita equivale a un denominador que divide alguna potencia de 10;
 ::: {#exm-00F3 .theorem-style-remark data-environment-tag="00F4"}
 ## Criterio para una expansión decimal finita
 
-$7/40$ termina porque $40=2^3\cdot5$. Aunque $6/15$ tiene denominador múltiplo de 3, primero se reduce a $2/5=0{,}4$. En cambio, $1/12$ no termina porque el 3 permanece en su denominador irreducible.
+$7/40$ termina porque $40=2^3\cdot5$. Aunque $6/15$ tiene denominador múltiplo de 3, primero se reduce a $2/5=0.4$. En cambio, $1/12$ no termina porque el 3 permanece en su denominador irreducible.
 :::
 ::::
 
@@ -250,7 +277,7 @@ Añadir ceros a la derecha de la parte decimal no cambia el valor. Para dividir 
 ::: {#exm-00F5 .theorem-style-remark data-environment-tag="00F6"}
 ## Valor posicional y cálculo con decimales
 
-$0{,}4=0{,}40>0{,}35$. Además, $0{,}12\cdot0{,}3=(12/100)(3/10)=36/1\,000=0{,}036$, y $1{,}2/0{,}03=120/3=40$.
+$0.4=0.40>0.35$. Además, $0.12\cdot0.3=(12/100)(3/10)=36/1000=0.036$, y $1.2/0.03=120/3=40$.
 :::
 ::::
 
@@ -260,7 +287,7 @@ $0{,}4=0{,}40>0{,}35$. Además, $0{,}12\cdot0{,}3=(12/100)(3/10)=36/1\,000=0{,}0
 ::: {#prp-00F7 .theorem-style-plain data-environment-tag="00F7"}
 ## Densidad de los racionales
 
-Si $a,b\in\mathbb Q$ y $a<b$, entonces su promedio $(a+b)/2$ es racional y satisface
+Si $a,b\in\mathbb Q$ y $a<b$, entonces su promedio $\frac{a+b}{2}$ es racional y satisface
 $$a<\frac{a+b}{2}<b.$$
 En consecuencia, entre dos racionales distintos hay infinitos racionales; ningún racional tiene un siguiente racional inmediato.
 :::
@@ -281,7 +308,7 @@ Entre $1/3$ y $1/2$ se encuentra $5/12$. Repitiendo el procedimiento entre $1/3$
 | $1/8>1/6$ porque $8>6$ | Relación entre partición y tamaño | Dividir dos unidades iguales |
 | Sumar numeradores y denominadores | Conservación de la unidad fraccionaria | Recta o tiras con denominador común |
 | Multiplicar siempre agranda | Interpretación como operador | Calcular la mitad de una cantidad |
-| $0{,}35>0{,}4$ porque $35>4$ | Valor posicional decimal | Comparar $35/100$ con $40/100$ |
+| $0.35>0.4$ porque $35>4$ | Valor posicional decimal | Comparar $35/100$ con $40/100$ |
 | Una fracción siempre es menor que 1 | Uso restringido del modelo parte-todo | Iterar unidades sobre la recta |
 
 Una representación continua debe fijar la unidad; una discreta debe precisar el conjunto de referencia. No se deduce un error conceptual de un único cálculo sin pedir justificación.

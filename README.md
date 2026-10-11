@@ -20,7 +20,7 @@ quarto preview
 
 La validación y el catálogo se ejecutan también como paso previo de cada render.
 
-Las convenciones para delimitadores, números, magnitudes, unidades, porcentajes y moneda se documentan en [Convenciones de notación matemática](docs/convenciones-notacion-matematica.md). Las macros compartidas funcionan en HTML/MathJax y PDF sin depender de `siunitx`.
+Las convenciones para delimitadores, números, magnitudes, unidades, porcentajes y moneda se documentan en [Convenciones de notación matemática](docs/convenciones-notacion-matematica.md). La notación explícita funciona en HTML/MathJax y PDF sin depender de macros locales ni de `siunitx`.
 
 ## Crear un objeto
 

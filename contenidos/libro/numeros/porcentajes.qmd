@@ -29,7 +29,7 @@ Como participación de una parte en un total positivo suele tomar valores entre 
 ::: {#exm-008P .theorem-style-remark data-environment-tag="00GH"}
 ## Porcentaje
 
-$25\,\%=25/100=1/4=0{,}25$. Una cantidad que equivale al $150\,\%$ de otra vale $1{,}5$ veces esa referencia.
+$25\,\%=25/100=1/4=0.25$. Una cantidad que equivale al $150\,\%$ de otra vale $1.5$ veces esa referencia.
 :::
 ::::
 
@@ -45,7 +45,7 @@ La conversión modifica la escritura, no el número. Una cuadrícula de cien cel
 ::: {#exm-00GI .theorem-style-remark data-environment-tag="00GJ"}
 ## Porcentaje como fracción y decimal
 
-$12{,}5\,\%=0{,}125=1/8$, mientras que $0{,}7=70\,\%$. El número $0{,}7\,\%$ es $0{,}007$, por lo que no equivale a $70\,\%$.
+$12.5\,\%=0.125=1/8$, mientras que $0.7=70\,\%$. El número $0.7\,\%$ es $0.007$, por lo que no equivale a $70\,\%$.
 :::
 ::::
 
@@ -73,19 +73,29 @@ El $20\,\%$ de $350$ es $350\cdot20/100=70$. El $15\,\%$ de $200$ es $20+10=30$.
 ::: {#prp-00GK .theorem-style-plain data-environment-tag="00GK"}
 ## Recuperar el total y calcular una participación
 
-Si $y=xp/100$:
+Si $y=\frac{xp}{100}$:
 
-(a) Para $p\ne0$, el total es $x=100y/p$.
-(b) Para $x\ne0$, el número porcentual es $p=100y/x$.
+(a) Para $p\ne0$, el total es
+
+    $$
+    x=\frac{100y}{p}.
+    $$
+
+(b) Para $x\ne0$, el número porcentual es
+
+    $$
+    p=\frac{100y}{x}.
+    $$
+
 (c) Si $p=0$, conocer $y=0$ no permite recuperar un total único.
 :::
 
-Las fórmulas provienen de una misma relación. No se divide por el porcentaje escrito como si el número 20 fuera 0,20. Para una participación usual se requiere total positivo y una parte comprendida entre cero y el total.
+Las fórmulas provienen de una misma relación. No se divide por el porcentaje escrito como si el número 20 fuera 0.20. Para una participación usual se requiere total positivo y una parte comprendida entre cero y el total.
 
 ::: {#exm-00GK .theorem-style-remark data-environment-tag="00GL"}
 ## Recuperar el total y calcular una participación
 
-Si $60$ es el $15\,\%$ de un total, ese total es $60/0{,}15=400$. Si $18$ de $24$ respuestas son correctas, la participación es $100(18/24)=75\,\%$.
+Si $60$ es el $15\,\%$ de un total, ese total es $60/0.15=400$. Si $18$ de $24$ respuestas son correctas, la participación es $100(18/24)=75\,\%$.
 :::
 ::::
 
@@ -97,8 +107,17 @@ Si $60$ es el $15\,\%$ de un total, ese total es $60/0{,}15=400$. Si $18$ de $24
 
 Para un valor inicial $x>0$:
 
-(a) Un aumento de $p\,\%$, con $p\ge0$, produce $y=x(1+p/100)$.
-(b) Un descuento de $d\,\%$, con $0\le d\le100$, produce $y=x(1-d/100)$.
+(a) Un aumento de $p\,\%$, con $p\ge0$, produce
+
+    $$
+    y=x(1+\frac{p}{100}).
+    $$
+
+(b) Un descuento de $d\,\%$, con $0\le d\le100$, produce
+
+    $$
+    y=x(1-\frac{d}{100}).
+    $$
 
 La cantidad modificada es distinta de la cantidad que se añade o se descuenta.
 :::
@@ -124,7 +143,7 @@ El porcentaje inverso se calcula sobre una base diferente. Para deshacer un aume
 ::: {#exm-00GO .theorem-style-remark data-environment-tag="00GP"}
 ## Valor inicial a partir del valor final
 
-Si un precio quedó en $\$36\,000$ tras un descuento de $20\,\%$, el original era $36\,000/0{,}8=\$45\,000$. Aumentar el final en 20 % produciría $\$43\,200$, que no recupera el original.
+Si un precio quedó en $\$36\,000$ tras un descuento de $20\,\%$, el original era $36\,000/0.8=\$45\,000$. Aumentar el final en 20 % produciría $\$43\,200$, que no recupera el original.
 :::
 ::::
 
@@ -184,7 +203,7 @@ No se suman los porcentajes sucesivos como si todos tuvieran la misma base. En u
 ::: {#exm-00GU .theorem-style-remark data-environment-tag="00GV"}
 ## Composición de porcentajes sucesivos
 
-Un descuento de 20 % seguido de otro de 10 % deja $0{,}8\cdot0{,}9=0{,}72$ del original: el descuento total es 28 %. Un aumento de 20 % seguido de una disminución de 20 % deja $1{,}2\cdot0{,}8=0{,}96$, una disminución neta de 4 %.
+Un descuento de 20 % seguido de otro de 10 % deja $0.8\cdot0.9=0.72$ del original: el descuento total es 28 %. Un aumento de 20 % seguido de una disminución de 20 % deja $1.2\cdot0.8=0.96$, una disminución neta de 4 %.
 :::
 ::::
 
@@ -200,7 +219,7 @@ El promedio simple de porcentajes de grupos distintos solo coincide con la propo
 ::: {#exm-00GW .theorem-style-remark data-environment-tag="00GX"}
 ## Suma de porcentajes y base común
 
-En un grupo de 10 personas aprueban 8 (80 %); en otro de 30 aprueban 15 (50 %). En conjunto aprueban $23/40=57{,}5\,\%$, no el promedio simple de 65 %.
+En un grupo de 10 personas aprueban 8 (80 %); en otro de 30 aprueban 15 (50 %). En conjunto aprueban $23/40=57.5\,\%$, no el promedio simple de 65 %.
 :::
 ::::
 
@@ -218,22 +237,9 @@ Los ejemplos económicos son hipotéticos: una tasa elegida para ilustrar un cá
 ::: {#exm-00GY .theorem-style-remark data-environment-tag="00GZ"}
 ## Índices, composición y comparación de ofertas
 
-Un índice pasa de 100 a 125 y luego a 120: el primer cambio es 25 %, pero el segundo es $(120-125)/125=-4\,\%$. En una oferta «lleve 3 y pague 2», con unidades de igual precio, la reducción del costo por unidad es $1/3$, aproximadamente $33{,}3\,\%$.
+Un índice pasa de 100 a 125 y luego a 120: el primer cambio es 25 %, pero el segundo es $(120-125)/125=-4\,\%$. En una oferta «lleve 3 y pague 2», con unidades de igual precio, la reducción del costo por unidad es $1/3$, aproximadamente $33.3\,\%$.
 :::
 ::::
-
-## Errores frecuentes y síntesis para la consulta docente
-
-| Pregunta | Relación | Control |
-|---|---|---|
-| ¿Cuánto es $p\,\%$ de $x$? | $y=xp/100$ | Identificar la base |
-| ¿Cuál era el total? | $x=100y/p$ | $p\ne0$ |
-| ¿Qué porcentaje representa una parte? | $p=100y/x$ | Total no nulo |
-| ¿Cuál es el valor final? | $y=x(1\pm p/100)$ | Distinguir cambio y final |
-| ¿Cuál es el cambio relativo? | $(x_1-x_0)/x_0$ | Base inicial no nula |
-| ¿Qué dejan cambios sucesivos? | Producto de factores | Cada cambio usa el resultado anterior |
-
-Los errores frecuentes incluyen omitir la división por 100, restar el número porcentual directamente al precio, confundir descuento con precio final, sumar cambios sucesivos o confundir puntos porcentuales con cambio relativo. Para indagar, pedir que se nombre la base y se escriba el factor multiplicativo antes de calcular.
 
 ## Preguntas relacionadas
 

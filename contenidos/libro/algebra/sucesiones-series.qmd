@@ -23,7 +23,7 @@ Este capítulo organiza el conocimiento sobre regularidades discretas y acumulac
 ::: {#def-005H .theorem-style-definition data-environment-tag="005H"}
 ## Sucesión e índice
 
-Una **sucesión real** es una función cuyo dominio es un conjunto de índices naturales. Aquí se usa $n=1,2,\ldots$, salvo declaración distinta, y se escribe $(a_n)$. El término $a_n$ es el valor en la posición $n$.
+Una **sucesión real** es una función cuyo dominio es un conjunto de índices naturales. Aquí se usa $n=1,2,\ldots$; cuando se declara un inicio en $0$, se utilizan índices en $\mathbb N_0$, y se escribe $(a_n)$. El término $a_n$ es el valor en la posición $n$.
 :::
 
 Una sucesión tiene orden y admite valores repetidos; no es lo mismo que el conjunto de sus valores. Una lista finita describe solo un tramo y no determina por sí sola la continuación.
@@ -159,8 +159,17 @@ $a_n=-2(1/2)^{n-1}$ es creciente y se aproxima a cero desde valores negativos, a
 
 La suma de los primeros $n$ términos de una progresión geométrica es:
 
-(a) Si $r\ne1$, $S_n=a_1(1-r^n)/(1-r)$.
-(b) Si $r=1$, $S_n=na_1$.
+(a) Si $r\ne1$,
+
+    $$
+    S_n=\frac{a_1(1-r^n)}{1-r}.
+    $$
+
+(b) Si $r=1$,
+
+    $$
+    S_n=na_1.
+    $$
 :::
 
 La suma finita vale aunque $|r|\ge1$ y no debe confundirse con una suma infinita. El término $r^n$ corresponde a la cantidad de términos, mientras que el último término contiene $r^{n-1}$.
@@ -192,9 +201,23 @@ $\sum_{k=1}^4(2k+1)=3+5+7+9=24$; también vale $2\sum_{k=1}^4k+4$.
 
 Para un entero $n\ge1$:
 
-(a) **Naturales:** $\sum_{k=1}^n k=n(n+1)/2$.
-(b) **Cuadrados:** $\sum_{k=1}^n k^2=n(n+1)(2n+1)/6$.
-(c) **Cubos:** $\sum_{k=1}^n k^3=\bigl(n(n+1)/2\bigr)^2$.
+(a) **Naturales**
+
+    $$
+    \sum_{k=1}^n k=\frac{n(n+1)}{2}.
+    $$
+
+(b) **Cuadrados**
+
+    $$
+    \sum_{k=1}^n k^2=\frac{n(n+1)(2n+1)}{6}.
+    $$
+
+(c) **Cubos**
+
+    $$
+    \sum_{k=1}^n k^3=\bigl(\frac{n(n+1)}{2}\bigr)^2.
+    $$
 :::
 
 Estas fórmulas permiten resumir patrones acumulativos y muestran que un término y su suma parcial pueden tener grados distintos como expresiones del índice.
@@ -242,9 +265,21 @@ Para $a_n=2^{-n}$, los términos son $1/2,1/4,1/8,\ldots$ y las sumas parciales 
 
 Para la serie geométrica $a_1+a_1r+a_1r^2+\cdots$:
 
-(a) Si $|r|<1$, converge y su suma es $a_1/(1-r)$.
-(b) Si $a_1\ne0$ y $|r|\ge1$, no converge.
-(c) Si $a_1=0$, todos los términos son cero y converge para cualquier razón.
+(a) **Convergencia**
+
+    Si $|r|<1$, la serie converge y su suma es:
+
+    $$
+    S=\frac{a_1}{1-r}.
+    $$
+
+(b) **Divergencia**
+
+    Si $a_1\ne0$ y $|r|\ge1$, no converge.
+
+(c) **Serie nula**
+
+    Si $a_1=0$, todos los términos son cero y converge para cualquier razón.
 :::
 
 La condición corresponde a la serie infinita, no a la fórmula de suma finita.
@@ -296,7 +331,7 @@ Un incremento constante conduce a una progresión aritmética; un porcentaje con
 :::
 
 ::: {#exm-006F .theorem-style-remark data-environment-tag="006G"}
-Ahorrar $20\,000$ pesos adicionales cada mes genera un modelo aditivo. Aumentar un saldo $2\,\%$ por mes genera $Q_n=Q_0(1{,}02)^n$, indexado desde el saldo inicial $n=0$.
+Ahorrar $20\,000$ pesos adicionales cada mes genera un modelo aditivo. Aumentar un saldo $2\,\%$ por mes genera $Q_n=Q_0(1.02)^n$, indexado desde el saldo inicial $n=0$.
 :::
 ::::
 
@@ -348,19 +383,6 @@ points(n, 2*2^(n-1), pch = 17, col = "darkorange3")
 legend("topleft", c("Diferencia 2", "Razón 2"), pch = c(16, 17),
        col = c("steelblue", "darkorange3"), bty = "n")
 ```
-
-## Síntesis para la consulta docente
-
-| Objeto | Qué describe | Información necesaria |
-|---|---|---|
-| Fórmula explícita | Un término a partir de su índice | Convención de inicio y dominio |
-| Recurrencia | Cómo obtener términos posteriores | Regla y condiciones iniciales |
-| Progresión aritmética | Cambio aditivo constante | Primer término y diferencia |
-| Progresión geométrica | Cambio multiplicativo constante | Primer término y razón |
-| Suma parcial | Acumulación de un número finito de términos | Límites de la sumatoria |
-| Serie convergente | Límite de las sumas parciales | Condición que garantice convergencia |
-
-En la enseñanza, una tabla o una construcción permite reconocer regularidades; la expresión simbólica debe explicitar el índice y conservar el significado del proceso. La exploración de varios términos puede orientar una conjetura, pero no sustituye su justificación general.
 
 ## Conexiones y procedencia
 

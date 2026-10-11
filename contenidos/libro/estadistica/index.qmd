@@ -200,7 +200,7 @@ Para valores o categorías $x_i$:
 Se cumple $\sum f_i=n$ y $\sum h_i=1$, salvo pequeñas diferencias por redondeo. Las frecuencias acumuladas solo tienen significado cuando las categorías están ordenadas.
 
 ::: {#exm-0073 .theorem-style-remark data-environment-tag="0074"}
-Para los datos $1,1,2,3,3$, las frecuencias absolutas son $2,1,2$ y las relativas $0{,}4,0{,}2,0{,}4$.
+Para los datos $1,1,2,3,3$, las frecuencias absolutas son $2,1,2$ y las relativas $0.4,0.2,0.4$.
 :::
 ::::
 
@@ -381,7 +381,7 @@ $$\bar x_w=\frac{\sum_iw_ix_i}{\sum_iw_i}.$$
 Si los pesos ya son proporciones que suman 1, el denominador se omite. Las frecuencias son pesos; los porcentajes de una calificación también. Promediar promedios sin ponderar solo es válido cuando los grupos tienen igual tamaño o cuando esa igualdad es parte del diseño.
 
 ::: {#exm-007L .theorem-style-remark data-environment-tag="007M"}
-Una calificación 5 con peso $30\,\%$ y una calificación 6 con peso $70\,\%$ producen $5(0{,}3)+6(0{,}7)=5{,}7$.
+Una calificación 5 con peso $30\,\%$ y una calificación 6 con peso $70\,\%$ producen $5(0.3)+6(0.7)=5.7$.
 :::
 ::::
 
@@ -395,7 +395,7 @@ La **mediana** divide los datos ordenados en dos mitades. Si $n$ es impar, es el
 Es resistente a valores extremos. Para datos agrupados en intervalos solo puede localizarse el intervalo mediano o estimarse mediante una convención de interpolación.
 
 ::: {#exm-007N .theorem-style-remark data-environment-tag="007O"}
-La mediana de $2,4,9$ es 4; para $2,4,9,10$ es $(4+9)/2=6{,}5$.
+La mediana de $2,4,9$ es 4; para $2,4,9,10$ es $(4+9)/2=6.5$.
 :::
 ::::
 
@@ -427,7 +427,7 @@ El centro nunca describe por sí solo una distribución: conjuntos con igual med
 :::
 
 ::: {#exm-007R .theorem-style-remark data-environment-tag="007S"}
-En los ingresos $500,520,540,5\,000$, la mediana es 530 y representa mejor el centro que la media 1 640, afectada por el valor extremo.
+En los ingresos $500,520,540,5000$, la mediana es 530 y representa mejor el centro que la media $1640$, afectada por el valor extremo.
 :::
 ::::
 
@@ -499,10 +499,10 @@ dibujar_caja(resumen_b, 2, "#efb366")
 (b) El **rango intercuartílico** es $RIC=Q_3-Q_1$.
 :::
 
-El rango usa solo los extremos y es muy sensible a ellos. El RIC mide la amplitud del 50 % central y es más resistente. La regla $1{,}5\,RIC$ puede señalar valores potencialmente atípicos, pero no autoriza a eliminarlos.
+El rango usa solo los extremos y es muy sensible a ellos. El RIC mide la amplitud del 50 % central y es más resistente. La regla $1.5\,RIC$ puede señalar valores potencialmente atípicos, pero no autoriza a eliminarlos.
 
 ::: {#exm-007X .theorem-style-remark data-environment-tag="007Y"}
-Para $2,4,6,8$, el rango es $8-2=6$. Con la convención de interpolación usual, $Q_1=3{,}5$, $Q_3=6{,}5$ y $RIC=3$.
+Para $2,4,6,8$, el rango es $8-2=6$. Con la convención de interpolación usual, $Q_1=3.5$, $Q_3=6.5$ y $RIC=3$.
 :::
 ::::
 
@@ -566,8 +566,11 @@ Un grupo con media 50 y desviación 5 tiene $CV=10\,\%$; otro con media 80 y des
 Si cada dato se transforma como $y_i=ax_i+b$:
 
 (a) la media y la mediana se transforman como $a$ veces la medida original más $b$ (si $a<0$, el orden de los cuantiles se invierte);
+
 (b) el rango, el RIC y la desviación estándar se multiplican por $|a|$;
+
 (c) la varianza se multiplica por $a^2$;
+
 (d) sumar una constante no cambia las medidas de dispersión.
 :::
 
@@ -742,19 +745,6 @@ Eliminar observaciones, cambiar categorías o escoger solo el gráfico favorable
 Al publicar resultados por curso, agrupar categorías poco frecuentes y retirar identificadores reduce el riesgo de reconocer a estudiantes concretos.
 :::
 ::::
-
-## Síntesis para la consulta docente
-
-Antes de interpretar una tabla, medida o gráfico conviene preguntar:
-
-1. ¿Cuál era la pregunta y cuál es la población?
-2. ¿Cómo se obtuvieron y definieron los datos?
-3. ¿Qué tipo de variable se analiza?
-4. ¿La tabla o el gráfico usa el denominador y la escala adecuados?
-5. ¿Qué muestran centro, dispersión, forma y valores apartados?
-6. ¿La conclusión va más allá de la muestra o del diseño?
-7. ¿Se está confundiendo asociación con causalidad?
-8. ¿Qué incertidumbre, sesgo o limitación debe comunicarse?
 
 ## Referencias de elaboración
 

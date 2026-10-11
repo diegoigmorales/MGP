@@ -228,9 +228,25 @@ Elegir 4 porciones entre 3 sabores, con repetición y sin importar el orden, pro
 
 Para enteros $n\ge0$ y $0\le r\le n$, los coeficientes binomiales satisfacen:
 
-(a) **Extremos:** $\binom n0=\binom nn=1$.
-(b) **Simetría:** $\binom nr=\binom n{n-r}$.
-(c) **Regla de Pascal**, para $n\ge2$ y $1\le r\le n-1$: $\binom nr=\binom{n-1}{r-1}+\binom{n-1}{r}$.
+(a) **Extremos**
+
+    $$
+    \binom n0=\binom nn=1.
+    $$
+
+(b) **Simetría**
+
+    $$
+    \binom nr=\binom n{n-r}.
+    $$
+
+(c) **Regla de Pascal**
+
+    Para $n\ge2$ y $1\le r\le n-1$:
+
+    $$
+    \binom nr=\binom{n-1}{r-1}+\binom{n-1}{r}.
+    $$
 :::
 
 Forman el triángulo de Pascal y son los coeficientes de $(a+b)^n$. También cuentan los caminos con $r$ decisiones de un tipo entre $n$ decisiones binarias.
@@ -370,13 +386,13 @@ $$h_A=\frac{f_A}{n}.$$
 Esta frecuencia es una estimación experimental de $P(A)$. Al aumentar el número de repeticiones independientes bajo condiciones estables, suele fluctuar cada vez menos alrededor de la probabilidad teórica. Esta estabilización no significa que los resultados deban «compensarse» en el corto plazo.
 
 ::: {#exm-009Q .theorem-style-remark data-environment-tag="009R"}
-Si aparecen 62 caras en 100 lanzamientos, la frecuencia relativa es $62/100=0{,}62$. Es una estimación experimental, no una modificación de la probabilidad teórica $0{,}5$.
+Si aparecen 62 caras en 100 lanzamientos, la frecuencia relativa es $62/100=0.62$. Es una estimación experimental, no una modificación de la probabilidad teórica $0.5$.
 :::
 ::::
 
 ```{r}
 #| label: fig-simulacion-moneda
-#| fig-cap: "Frecuencia relativa acumulada de cara en 1 000 lanzamientos simulados."
+#| fig-cap: "Frecuencia relativa acumulada de cara en 1000 lanzamientos simulados."
 #| fig-width: 7
 #| fig-height: 4
 set.seed(44)
@@ -487,7 +503,7 @@ $$P(A)=\sum_{i=1}^kP(A\mid B_i)P(B_i).$$
 La regla descompone un evento según rutas o grupos que cubren toda la población. Un árbol ayuda a mantener visibles las probabilidades de cada grupo y las condicionales dentro de él.
 
 ::: {#exm-00A2 .theorem-style-remark data-environment-tag="00A3"}
-Una tienda recibe el $60\,\%$ de sus productos de A y el $40\,\%$ de B. Si sus tasas de defecto son $1\,\%$ y $3\,\%$, entonces $P(D)=0{,}6(0{,}01)+0{,}4(0{,}03)=0{,}018$.
+Una tienda recibe el $60\,\%$ de sus productos de A y el $40\,\%$ de B. Si sus tasas de defecto son $1\,\%$ y $3\,\%$, entonces $P(D)=0.6(0.01)+0.4(0.03)=0.018$.
 :::
 ::::
 
@@ -503,7 +519,7 @@ $$P(B_j\mid A)=\frac{P(A\mid B_j)P(B_j)}{\sum_{i=1}^kP(A\mid B_i)P(B_i)}.$$
 Bayes invierte el condicionamiento: combina una probabilidad inicial $P(B_j)$ con la compatibilidad del dato observado $P(A\mid B_j)$. En pruebas diagnósticas, una alta sensibilidad no implica por sí sola que un resultado positivo haga muy probable la condición; también importa su prevalencia.
 
 ::: {#exm-00A4 .theorem-style-remark data-environment-tag="00A5"}
-Con los datos anteriores, si un producto es defectuoso, $P(B\mid D)=0{,}4(0{,}03)/0{,}018=2/3$.
+Con los datos anteriores, si un producto es defectuoso, $P(B\mid D)=0.4(0.03)/0.018=2/3$.
 :::
 ::::
 
@@ -517,7 +533,7 @@ En un árbol, las ramas que parten de un mismo nodo deben sumar 1; se multiplica
 :::
 
 ::: {#exm-00A6 .theorem-style-remark data-environment-tag="00A7"}
-Un árbol con ramas iniciales A y B registra las proporciones $0{,}6$ y $0{,}4$; desde cada rama parten «defectuoso» y «sin defecto». La tabla equivalente contiene las cuatro probabilidades conjuntas.
+Un árbol con ramas iniciales A y B registra las proporciones $0.6$ y $0.4$; desde cada rama parten «defectuoso» y «sin defecto». La tabla equivalente contiene las cuatro probabilidades conjuntas.
 :::
 ::::
 
@@ -541,7 +557,7 @@ La simulación permite estudiar situaciones difíciles de enumerar, pero no corr
 :::
 
 ::: {#exm-00A8 .theorem-style-remark data-environment-tag="00A9"}
-Para estimar la probabilidad de obtener un seis se generan 1 000 enteros uniformes entre 1 y 6 y se calcula la proporción de resultados iguales a 6.
+Para estimar la probabilidad de obtener un seis se generan 1000 enteros uniformes entre 1 y 6 y se calcula la proporción de resultados iguales a 6.
 :::
 ::::
 
@@ -590,7 +606,7 @@ $$P(X=x)=\binom nxp^x(1-p)^{n-x},\qquad x=0,1,\ldots,n.$$
 Además, $E(X)=np$ y $\operatorname{Var}(X)=np(1-p)$. La fórmula no corresponde si cambia $p$ o si los ensayos dependen entre sí.
 
 ::: {#exm-00AE .theorem-style-remark data-environment-tag="00AF"}
-Si $X\sim\operatorname{Binomial}(5,0{,}4)$, entonces $P(X=2)=\binom52(0{,}4)^2(0{,}6)^3=0{,}3\,456$.
+Si $X\sim\operatorname{Binomial}(5,0.4)$, entonces $P(X=2)=\binom52(0.4)^2(0.6)^3=0.3456$.
 :::
 ::::
 

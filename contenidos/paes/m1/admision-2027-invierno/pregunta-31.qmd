@@ -12,7 +12,7 @@ En la siguiente infografía se presenta información respecto a la rapidez máxi
 :::
 
 
-¿En cuál de las siguientes gráficas se representan únicamente todas las posibles rapideces de un vehículo, en $\mathrm{km/h}$, con las que puede transitar en zona de escuela en horario de entrada y salida de clases?
+¿En cuál de las siguientes gráficas se representan únicamente todas las posibles rapideces de un vehículo, en $\mathrm{km\,h^{-1}}$, con las que puede transitar en zona de escuela en horario de entrada y salida de clases?
 
 
 ::: {.answer-options}

@@ -61,7 +61,7 @@ Comparar directamente, comparar mediante un intermediario y medir son procesos r
 ::: {#exm-00CJ .theorem-style-remark data-environment-tag="00CK"}
 ## Comparación, iteración y medición
 
-En una regla, un segmento comienza en la marca $3\,\mathrm{cm}$ y termina en $8{,}5\,\mathrm{cm}$. Su longitud es $8{,}5-3=5{,}5\,\mathrm{cm}$, aunque el extremo esté en la marca $8{,}5$.
+En una regla, un segmento comienza en la marca $3\,\mathrm{cm}$ y termina en $8.5\,\mathrm{cm}$. Su longitud es $8.5-3=5.5\,\mathrm{cm}$, aunque el extremo esté en la marca $8.5$.
 :::
 ::::
 
@@ -95,8 +95,8 @@ La cancelación de unidades explica el cálculo y permite comprobar su orientaci
 ::: {#exm-00CN .theorem-style-remark data-environment-tag="00CO"}
 ## Prefijos y factores de conversión
 
-$$3{,}2\,\mathrm{km}\cdot\frac{1\,000\,\mathrm{m}}{1\,\mathrm{km}}=3\,200\,\mathrm{m}.$$
-Asimismo, $90\,\mathrm{min}\cdot(1\,\mathrm{h}/60\,\mathrm{min})=1{,}5\,\mathrm{h}$.
+$$3.2\,\mathrm{km}\cdot\frac{1000\,\mathrm{m}}{1\,\mathrm{km}}=3200\,\mathrm{m}.$$
+Asimismo, $90\,\mathrm{min}\cdot(1\,\mathrm{h}/60\,\mathrm{min})=1.5\,\mathrm{h}$.
 :::
 ::::
 
@@ -116,7 +116,7 @@ La terminología distingue [exactitud](https://jcgm.bipm.org/vim/en/2.13.html), 
 ::: {#exm-00CP .theorem-style-remark data-environment-tag="00CQ"}
 ## Resolución, precisión y exactitud
 
-Una balanza indica $102{,}0$, $102{,}1$ y $102{,}0\,\mathrm{g}$ para una masa de referencia de $100{,}0\,\mathrm{g}$. Hay buena concordancia entre lecturas, pero un sesgo cercano a $2\,\mathrm{g}$.
+Una balanza indica $102.0$, $102.1$ y $102.0\,\mathrm{g}$ para una masa de referencia de $100.0\,\mathrm{g}$. Hay buena concordancia entre lecturas, pero un sesgo cercano a $2\,\mathrm{g}$.
 :::
 ::::
 
@@ -128,9 +128,23 @@ Una balanza indica $102{,}0$, $102{,}1$ y $102{,}0\,\mathrm{g}$ para una masa de
 
 Si una unidad de longitud $u$ se expresa como $u=kv$, con $k>0$, entonces:
 
-(a) $u^2=k^2v^2$ para unidades de área.
-(b) $u^3=k^3v^3$ para unidades de volumen.
-(c) $1\,\mathrm{L}=1\,\mathrm{dm^3}$ y $1\,\mathrm{mL}=1\,\mathrm{cm^3}$.
+(a) **Área**
+
+    $$
+    u^2=k^2v^2.
+    $$
+
+(b) **Volumen**
+
+    $$
+    u^3=k^3v^3.
+    $$
+
+(c) **Litro y mililitro**
+
+    $$
+    1\,\mathrm{L}=1\,\mathrm{dm^3},\qquad 1\,\mathrm{mL}=1\,\mathrm{cm^3}.
+    $$
 :::
 
 El área y el volumen cuentan cuadrados y cubos de unidad. No se utiliza el factor lineal sin elevarlo. La capacidad de un recipiente se relaciona con el volumen que puede contener.
@@ -138,7 +152,7 @@ El área y el volumen cuentan cuadrados y cubos de unidad. No se utiliza el fact
 ::: {#exm-00CR .theorem-style-remark data-environment-tag="00CS"}
 ## Conversión de área y volumen
 
-$1\,\mathrm{m^2}=10\,000\,\mathrm{cm^2}$, por lo que $2{,}5\,\mathrm{m^2}=25\,000\,\mathrm{cm^2}$. Además, $0{,}004\,\mathrm{m^3}=4\,\mathrm{L}$.
+$1\,\mathrm{m^2}=10\,000\,\mathrm{cm^2}$, por lo que $2.5\,\mathrm{m^2}=25\,000\,\mathrm{cm^2}$. Además, $0.004\,\mathrm{m^3}=4\,\mathrm{L}$.
 :::
 ::::
 
@@ -154,7 +168,7 @@ El cociente de unidades conserva significado. La rapidez media usa distancia tot
 ::: {#exm-00CT .theorem-style-remark data-environment-tag="00CU"}
 ## Magnitudes y unidades derivadas
 
-$$72\,\mathrm{km/h}\cdot\frac{1\,000\,\mathrm{m}}{1\,\mathrm{km}}\cdot\frac{1\,\mathrm{h}}{3\,600\,\mathrm{s}}=20\,\mathrm{m/s}.$$
+$$72\,\mathrm{km\,h^{-1}}\cdot\frac{1000\,\mathrm{m}}{1\,\mathrm{km}}\cdot\frac{1\,\mathrm{h}}{3600\,\mathrm{s}}=20\,\mathrm{m\,s^{-1}}.$$
 :::
 ::::
 
@@ -178,7 +192,7 @@ Si $v$ es rapidez y $t$ duración, $vt$ tiene dimensión de longitud. La fórmul
 ::: {#concept-00CX .editorial-text}
 ## Conversiones con cambio de origen
 
-La conversión de una temperatura Celsius $t_C$, expresada como valor numérico en grados Celsius, a su valor numérico kelvin $T_K$ es $T_K=t_C+273{,}15$. Para diferencias de temperatura, $\Delta T_K=\Delta t_C$.
+La conversión de una temperatura Celsius $t_C$, expresada como valor numérico en grados Celsius, a su valor numérico kelvin $T_K$ es $T_K=t_C+273.15$. Para diferencias de temperatura, $\Delta T_K=\Delta t_C$.
 :::
 
 La relación con el kelvin se documenta en la [Brochure del SI](https://www.bipm.org/en/publications/si-brochure). El desplazamiento del origen impide tratar esta conversión como una simple regla de tres. Duplicar un valor numérico Celsius no duplica la temperatura termodinámica. Se escribe kelvin sin el símbolo de grado.
@@ -186,7 +200,7 @@ La relación con el kelvin se documenta en la [Brochure del SI](https://www.bipm
 ::: {#exm-00CX .theorem-style-remark data-environment-tag="00CY"}
 ## Conversiones con cambio de origen
 
-$20\,{}^\circ\mathrm{C}$ corresponden a $293{,}15\,\mathrm{K}$. Un aumento de $5\,{}^\circ\mathrm{C}$ corresponde a un aumento de $5\,\mathrm{K}$.
+$20\,{}^\circ\mathrm{C}$ corresponden a $293.15\,\mathrm{K}$. Un aumento de $5\,{}^\circ\mathrm{C}$ corresponde a un aumento de $5\,\mathrm{K}$.
 :::
 ::::
 
@@ -204,7 +218,7 @@ Una estimación permite anticipar escala y detectar conversiones equivocadas. No
 ::: {#exm-00CZ .theorem-style-remark data-environment-tag="00D0"}
 ## Estimación de una medida
 
-Si una mesa mide aproximadamente seis largos de una tarjeta de $8{,}5\,\mathrm{cm}$, se estima $6\cdot8{,}5=51\,\mathrm{cm}$. El resultado es aproximado porque la comparación visual no fue exacta.
+Si una mesa mide aproximadamente seis largos de una tarjeta de $8.5\,\mathrm{cm}$, se estima $6\cdot8.5=51\,\mathrm{cm}$. El resultado es aproximado porque la comparación visual no fue exacta.
 :::
 ::::
 
@@ -224,7 +238,7 @@ El error absoluto conserva la unidad; el relativo no tiene dimensión y permite 
 ::: {#exm-00D1 .theorem-style-remark data-environment-tag="00D2"}
 ## Error respecto de una referencia
 
-Para una referencia de $80\,\mathrm{cm}$ y una lectura de $82\,\mathrm{cm}$, el error absoluto es $2\,\mathrm{cm}$ y el relativo es $2/80=0{,}025=2{,}5\,\%$.
+Para una referencia de $80\,\mathrm{cm}$ y una lectura de $82\,\mathrm{cm}$, el error absoluto es $2\,\mathrm{cm}$ y el relativo es $2/80=0.025=2.5\,\%$.
 :::
 ::::
 
@@ -240,7 +254,7 @@ Las reglas escolares de cifras significativas son convenciones de comunicación,
 ::: {#exm-00D3 .theorem-style-remark data-environment-tag="00D4"}
 ## Redondeo y cifras significativas
 
-$0{,}00450=4{,}50\cdot10^{-3}$ tiene tres cifras significativas. Una medida escrita $1{,}20\,\mathrm{m}$ conserva tres cifras. El producto $2{,}4\cdot3{,}15=7{,}56$ se comunica como $7{,}6$ si los datos son medidas y se adopta la regla de dos cifras.
+$0.00450=4.50\cdot10^{-3}$ tiene tres cifras significativas. Una medida escrita $1.20\,\mathrm{m}$ conserva tres cifras. El producto $2.4\cdot3.15=7.56$ se comunica como $7.6$ si los datos son medidas y se adopta la regla de dos cifras.
 :::
 ::::
 

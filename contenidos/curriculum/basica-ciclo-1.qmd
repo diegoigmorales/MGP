@@ -172,7 +172,7 @@ toc-depth: 3
 
     - de 3 en 3, de 4 en 4..., empezando por cualquier múltiplo del número correspondiente
 
-2. **OA 2.** [Prioritario]{.change-badge .change-priority} Leer números hasta 1.000 y representarlos en forma concreta, pictórica y simbólica.
+2. **OA 2.** [Prioritario]{.change-badge .change-priority} Leer números hasta 1000 y representarlos en forma concreta, pictórica y simbólica.
 
 3. **OA 3.** [Prioritario]{.change-badge .change-priority} Comparar y ordenar números naturales hasta 1000, utilizando la recta numérica o la tabla posicional de manera manual y/o por medio de *software* educativo.
 

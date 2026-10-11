@@ -9,15 +9,15 @@ format:
 
 ## Propósito y alcance
 
-Los enteros amplían los naturales para expresar diferencias y cantidades orientadas. El capítulo distingue el signo de un número del signo de una operación, conecta modelos con reglas operatorias y explicita qué operaciones permanecen dentro del conjunto. La construcción formal de los enteros se reserva para Sistemas numéricos, en la parte universitaria.
+Los enteros amplían los naturales incorporando el cero y los negativos para expresar diferencias y cantidades orientadas. El capítulo distingue el signo de un número del signo de una operación, conecta modelos con reglas operatorias y explicita qué operaciones permanecen dentro del conjunto. La construcción formal de los enteros se reserva para Sistemas numéricos, en la parte universitaria.
 
-## Necesidad de números negativos y extensión de los naturales
+## Incorporación del cero y de los negativos
 
 :::: {.knowledge-object #tag-00DZ tag="00DZ" type="definicion" title="Números enteros" requiere="00D5,00DD"}
 ::: {#def-00DZ .theorem-style-definition data-environment-tag="00DZ"}
 ## Números enteros
 
-El conjunto de los **números enteros** es $\mathbb Z=\{\ldots,-3,-2,-1,0,1,2,3,\ldots\}$. Incluye a los naturales y, para cada natural positivo $n$, incorpora su opuesto $-n$. Cero no es positivo ni negativo.
+El conjunto de los **números enteros** es $\mathbb Z=\{\ldots,-3,-2,-1,0,1,2,3,\ldots\}$. Incluye los naturales $\mathbb N=\{1,2,3,\ldots\}$, el cero y, para cada natural $n$, su opuesto $-n$. Por tanto, $\mathbb Z=\{-n:n\in\mathbb N\}\cup\{0\}\cup\mathbb N$. Cero no es positivo ni negativo, y los enteros no negativos forman $\mathbb N_0=\mathbb N\cup\{0\}$.
 :::
 
 Una orientación o un nivel de referencia da sentido a los signos en un modelo: saldo a favor/deuda, elevación sobre/bajo un nivel o desplazamiento a derecha/izquierda. El contexto debe precisar la unidad y el cero elegido. El signo no atribuye un valor moral o favorable a la cantidad.
@@ -25,7 +25,7 @@ Una orientación o un nivel de referencia da sentido a los signos en un modelo: 
 ::: {#exm-00DZ .theorem-style-remark data-environment-tag="00E0"}
 ## Números enteros
 
-Una cuenta con saldo $2$ y un cargo de $5$ queda en $2-5=-3$. La operación antes no tenía resultado natural; en los enteros sí lo tiene.
+Una cuenta con saldo $2$ y un cargo de $2$ queda en $2-2=0$; si el cargo es de $5$, queda en $2-5=-3$. Ambas restas tienen resultado entero, aunque ninguno de esos resultados es natural.
 :::
 ::::
 
@@ -113,10 +113,31 @@ $3-(-5)=3+5=8$. Entre las temperaturas $-5$ y $3\,{}^\circ\mathrm{C}$ hay un aum
 
 Para $a,b\in\mathbb Z$:
 
-(a) Si alguno de los factores es cero, $ab=0$.
-(b) Si ambos son no nulos, $|ab|=|a||b|$.
-(c) El producto es positivo si los factores tienen el mismo signo y negativo si tienen signos distintos.
-(d) $a(-b)=-(ab)$ y $(-a)(-b)=ab$.
+(a) **Factor cero**
+
+    Si alguno de los factores es cero:
+
+    $$
+    ab=0.
+    $$
+
+(b) **Valor absoluto del producto**
+
+    Si ambos son no nulos:
+
+    $$
+    |ab|=|a||b|.
+    $$
+
+(c) **Signo del producto**
+
+    El producto es positivo si los factores tienen el mismo signo y negativo si tienen signos distintos.
+
+(d) **Cambio de signo de los factores**
+
+    $$
+    a(-b)=-(ab),\qquad (-a)(-b)=ab.
+    $$
 :::
 
 La regla preserva la distributividad: como $b+(-b)=0$, se tiene $ab+a(-b)=0$. Aplicarla de nuevo justifica el producto de dos negativos. La suma repetida explica un factor natural, pero necesita extensión cuando el número de repeticiones es negativo.
@@ -132,11 +153,10 @@ $(-4)\cdot3=-12$ y $(-4)(-3)=12$. Para comprobar el segundo caso, $(-4)(3+(-3))=
 ::: {#def-00EB .theorem-style-definition data-environment-tag="00EB"}
 ## División exacta y exclusión del cero
 
-Para $a,b\in\mathbb Z$ con $b\ne0$, el cociente $a/b$ es entero si existe $q\in\mathbb Z$ tal que $bq=a$. Cuando existe, su signo sigue la regla del producto. La división por cero no está definida.
+Para $a,b\in\mathbb Z$ con $b\ne0$, el cociente $a/b$ es entero si existe $q\in\mathbb Z$ tal que $bq=a$. Cuando existe y es no nulo, su signo sigue la regla del producto. La división por cero no está definida.
 :::
 
-Los enteros no son cerrados para la división: un cociente puede ser racional sin ser entero. Si el dividendo es cero y el divisor no lo es, el cociente es cero. En $a/0$ no hay solución si $a
-e0$; en $0/0$ no hay una solución única.
+Los enteros no son cerrados para la división: un cociente puede ser racional sin ser entero. Si el dividendo es cero y el divisor no lo es, el cociente es cero. Para $a\ne0$, una supuesta división $\frac{a}{0}$ exigiría resolver $0q=a$, que no tiene solución; para $\frac{0}{0}$, la ecuación $0q=0$ no determina un cociente único.
 
 ::: {#exm-00EB .theorem-style-remark data-environment-tag="00EC"}
 ## División exacta y exclusión del cero
@@ -151,13 +171,59 @@ $(-18)/6=-3$ y $(-18)/(-6)=3$. En cambio, $5/2$ no es entero y $0/7=0$.
 
 Para enteros $a,b,c$:
 
-(a) Adición, sustracción y multiplicación tienen resultados enteros.
-(b) Adición y multiplicación son conmutativas y asociativas; la multiplicación distribuye sobre la adición.
-(c) Si $a<b$, entonces $a+c<b+c$.
-(d) Si $a<b$ y $c>0$, entonces $ac<bc$; si $c<0$, entonces $ac>bc$.
+(a) **Cierre**
+
+    Adición, sustracción y multiplicación tienen resultados enteros.
+
+(b) **Leyes de las operaciones**
+
+    Adición y multiplicación son conmutativas y asociativas; la multiplicación distribuye sobre la adición.
+
+(c) **Adición y orden**
+
+    Si $a<b$, entonces:
+
+    $$
+    a+c<b+c.
+    $$
+
+(d) **Multiplicación y orden**
+
+    Si $a<b$ y $c>0$, entonces:
+
+    $$
+    ac<bc.
+    $$
+
+    Si $a<b$ y $c<0$, entonces:
+
+    $$
+    ac>bc.
+    $$
+
+(e) **Elementos neutros**
+
+    $$
+    a+0=0+a=a,\qquad a\cdot1=1\cdot a=a.
+    $$
+
+(f) **Producto por cero**
+
+    $$
+    a\cdot0=0\cdot a=0.
+    $$
+
+(g) **Cancelación**
+
+    Si $a+c=b+c$, o si $ac=bc$ con $c\ne0$, entonces:
+
+    $$
+    a=b.
+    $$
+
 :::
 
-Las transformaciones del orden requieren atender al signo del factor. En una expresión, paréntesis y jerarquía de operaciones controlan el cálculo. La sustracción no es asociativa ni conmutativa.
+Las transformaciones del orden requieren atender al signo del factor. En una expresión, paréntesis y jerarquía de operaciones controlan el cálculo. La sustracción no es asociativa ni conmutativa. La cancelación multiplicativa exige un factor no nulo: de $0\cdot3=0\cdot8$ no se deduce $3=8$.
 
 ::: {#exm-00ED .theorem-style-remark data-environment-tag="00EE"}
 ## Estructura de las operaciones y orden
@@ -175,12 +241,12 @@ De $-3<2$, al multiplicar por $-4$ se obtiene $12>-8$. Asimismo, $8-(3-1)=6$, mi
 Para $d,n\in\mathbb Z$ con $d\ne0$, se escribe $d\mid n$ si $n=dk$ para algún $k\in\mathbb Z$. Un entero es **par** si tiene forma $2k$, e **impar** si tiene forma $2k+1$, con $k\in\mathbb Z$.
 :::
 
-Cambiar el signo de un divisor no cambia la divisibilidad. Para trabajar con MCD y MCM se eligen valores no negativos o positivos según la definición utilizada. Para un entero no nulo $b$, se extiende $\operatorname{MCD}(0,b)=|b|$. Para dos enteros no nulos, el MCD se calcula con sus valores absolutos. Los criterios escolares de divisibilidad pueden aplicarse al valor absoluto.
+Cambiar el signo de un divisor no cambia la divisibilidad. El cero es múltiplo de todo entero no nulo $d$, porque $0=d\cdot0$, y es par, pues $0=2\cdot0$. Los múltiplos enteros de un natural incluyen así el cero y los múltiplos negativos. La clasificación en primos y compuestos se aplica a los naturales mayores que $1$; el cero queda fuera de ambas clases. Para trabajar con MCD y MCM se eligen valores no negativos o positivos según la definición utilizada. Para un entero no nulo $b$, se extiende $\operatorname{MCD}(0,b)=|b|$. Para dos enteros no nulos, el MCD se calcula con sus valores absolutos. Los criterios escolares de divisibilidad pueden aplicarse al valor absoluto.
 
 ::: {#exm-00EF .theorem-style-remark data-environment-tag="00EG"}
 ## Divisores enteros y paridad
 
-Los divisores enteros de $12$ son $\pm1,\pm2,\pm3,\pm4,\pm6,\pm12$. El número $-7$ es impar porque $-7=2(-4)+1$, y $-8$ es par.
+Los divisores enteros de $12$ son $\pm1,\pm2,\pm3,\pm4,\pm6,\pm12$. El número $-7$ es impar porque $-7=2(-4)+1$, y $-8$ es par. Los múltiplos enteros de $12$ incluyen $\ldots,-24,-12,0,12,24,\ldots$; en particular, $12\mid0$.
 :::
 ::::
 

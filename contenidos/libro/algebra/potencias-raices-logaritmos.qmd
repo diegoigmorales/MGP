@@ -33,11 +33,40 @@ $(-3)^2=9$, pero $-3^2=-9$. Además, $3^4=81$ y no $3\cdot4$.
 
 Para bases reales y exponentes enteros positivos $m,n$:
 
-(a) **Producto de potencias de igual base:** $a^ma^n=a^{m+n}$.
-(b) **Potencia de una potencia:** $(a^m)^n=a^{mn}$.
-(c) **Potencia de un producto:** $(ab)^n=a^nb^n$.
-(d) **Potencia de un cociente:** $(a/b)^n=a^n/b^n$, si $b\ne0$.
-(e) **Cociente de potencias de igual base:** $a^m/a^n=a^{m-n}$, si $a\ne0$ y $m>n$.
+(a) **Producto de potencias de igual base**
+
+    $$
+    a^ma^n=a^{m+n}.
+    $$
+
+(b) **Potencia de una potencia**
+
+    $$
+    (a^m)^n=a^{mn}.
+    $$
+
+(c) **Potencia de un producto**
+
+    $$
+    (ab)^n=a^nb^n.
+    $$
+
+(d) **Potencia de un cociente**
+
+    Si $b\ne0$:
+
+    $$
+    \left(\frac{a}{b}\right)^n=\frac{a^n}{b^n}.
+    $$
+
+(e) **Cociente de potencias de igual base**
+
+    Si $a\ne0$ y $m>n$:
+
+    $$
+    \frac{a^m}{a^n}=a^{m-n}.
+    $$
+
 
 El caso $m=n$ conduce a definir $a^0=1$.
 :::
@@ -75,7 +104,9 @@ $5^{-2}=1/25$, $(-2)^{-3}=-1/8$ y $7^0=1$. La expresión $0^{-1}$ exigiría divi
 Para exponentes enteros:
 
 (a) Una base positiva produce potencias positivas.
+
 (b) Una base negativa produce un valor positivo si el exponente es par y un valor negativo si es impar.
+
 (c) La base cero produce cero para exponentes positivos.
 :::
 
@@ -108,9 +139,25 @@ $\sqrt9=3$, aunque $x^2=9$ tiene soluciones $3$ y $-3$. Además, $\sqrt[3]{-8}=-
 
 Para todo real $a$ y un entero $n\ge2$:
 
-(a) **Índice par:** $\sqrt[n]{a^n}=|a|$; en particular, $\sqrt{a^2}=|a|$.
-(b) **Índice impar:** $\sqrt[n]{a^n}=a$.
-(c) **Potencia de una raíz:** $(\sqrt[n]{a})^n=a$, siempre que el radical real exista.
+(a) **Índice par**
+
+    $$
+    \sqrt[n]{a^n}=|a|,\qquad \sqrt{a^2}=|a|.
+    $$
+
+(b) **Índice impar**
+
+    $$
+    \sqrt[n]{a^n}=a.
+    $$
+
+(c) **Potencia de una raíz**
+
+    Siempre que el radical real exista:
+
+    $$
+    (\sqrt[n]{a})^n=a.
+    $$
 :::
 
 No se pueden tratar potencia y raíz como operaciones inversas sin especificar el dominio y la rama elegida.
@@ -126,8 +173,21 @@ $\sqrt{(-5)^2}=5$, mientras que $\sqrt[3]{(-5)^3}=-5$.
 
 Para un mismo índice entero $n\ge2$:
 
-(a) **Producto:** $\sqrt[n]{ab}=\sqrt[n]{a}\sqrt[n]{b}$. Si $n$ es par, se exige $a,b\ge0$; si es impar, se admiten reales arbitrarios.
-(b) **Cociente:** $\sqrt[n]{a/b}=\sqrt[n]{a}/\sqrt[n]{b}$. Si $n$ es par, se exige $a\ge0,b>0$; si es impar, se exige $b\ne0$.
+(a) **Producto**
+
+    Si $n$ es par, se exige $a,b\ge0$; si es impar, se admiten reales arbitrarios.
+
+    $$
+    \sqrt[n]{ab}=\sqrt[n]{a}\sqrt[n]{b}.
+    $$
+
+(b) **Cociente**
+
+    Si $n$ es par, se exige $a\ge0,b>0$; si es impar, se exige $b\ne0$.
+
+    $$
+    \sqrt[n]{\frac{a}{b}}=\frac{\sqrt[n]{a}}{\sqrt[n]{b}}.
+    $$
 :::
 
 Que $ab$ tenga raíz real no asegura que cada factor la tenga.
@@ -222,9 +282,23 @@ $\log_2 8=3$, $\log_2(1/4)=-2$ y $\log_{1/2}8=-3$.
 
 Si $u,v>0$, $r\in\mathbb R$ y $b$ es una base válida:
 
-(a) **Producto:** $\log_b(uv)=\log_bu+\log_bv$.
-(b) **Cociente:** $\log_b(u/v)=\log_bu-\log_bv$.
-(c) **Potencia:** $\log_b(u^r)=r\log_bu$.
+(a) **Producto**
+
+    $$
+    \log_b(uv)=\log_bu+\log_bv.
+    $$
+
+(b) **Cociente**
+
+    $$
+    \log_b\left(\frac{u}{v}\right)=\log_bu-\log_bv.
+    $$
+
+(c) **Potencia**
+
+    $$
+    \log_b(u^r)=r\log_bu.
+    $$
 :::
 
 Las condiciones deben valer para cada logaritmo. Para $x\ne0$, $\ln(x^2)=2\ln|x|$; escribir $2\ln x$ exige $x>0$. No hay una propiedad que convierta el logaritmo de una suma en suma de logaritmos.
@@ -240,15 +314,38 @@ $\log_{10}(100\cdot10)=3$, mientras que $\log_{10}(100+10)$ no es 3.
 
 Para bases válidas $b,c$:
 
-(a) **Cambio de base:** $\log_bx=\log_cx/\log_cb$, para $x>0$.
-(b) **Inversión:** $b^{\log_bx}=x$, para $x>0$, y $\log_b(b^t)=t$, para todo real $t$.
-(c) **Monotonía:** el logaritmo es creciente si $b>1$ y decreciente si $0<b<1$.
+(a) **Cambio de base**
+
+    Para $x>0$:
+
+    $$
+    \log_bx=\frac{\log_c x}{\log_c b}.
+    $$
+
+(b) **Inversión**
+
+    Para $x>0$:
+
+    $$
+    b^{\log_bx}=x.
+    $$
+
+    Para todo real $t$:
+
+    $$
+    \log_b(b^t)=t.
+    $$
+
+(c) **Monotonía**
+
+    El logaritmo es creciente si $b>1$ y decreciente si $0<b<1$.
+
 :::
 
 Esta diferencia importa al transformar inecuaciones.
 
 ::: {#exm-0055 .theorem-style-remark data-environment-tag="0056"}
-$\log_2 10=\ln10/\ln2\approx3{,}322$. Además, $\log_{1/2}(1/4)=2$.
+$\log_2 10=\ln10/\ln2\approx3.322$. Además, $\log_{1/2}(1/4)=2$.
 :::
 ::::
 
@@ -278,7 +375,7 @@ Un real no nulo se escribe $c\cdot10^k$, con $1\le|c|<10$ y $k\in\mathbb Z$. «O
 Si se usa la potencia de diez más cercana debe explicitarse, pues el criterio cambia en los límites. El exponente comunica escala y la mantisa conserva información adicional.
 
 ::: {#exm-0059 .theorem-style-remark data-environment-tag="005A"}
-$0{,}00032=3{,}2\cdot10^{-4}$ pertenece a la década de $10^{-4}$. El cociente entre $3\cdot10^6$ y $6\cdot10^3$ es $5\cdot10^2$.
+$0.00032=3.2\cdot10^{-4}$ pertenece a la década de $10^{-4}$. El cociente entre $3\cdot10^6$ y $6\cdot10^3$ es $5\cdot10^2$.
 :::
 ::::
 
@@ -294,7 +391,7 @@ Si $Q_0>0$ se multiplica por $r>0$ en cada periodo, $Q_n=Q_0r^n$. Para un aument
 :::
 
 ::: {#exm-005B .theorem-style-remark data-environment-tag="005C"}
-Con aumento de $10\,\%$ por periodo, $\ln2/\ln(1{,}1)\approx7{,}27$: el doble se supera al finalizar el octavo periodo discreto.
+Con aumento de $10\,\%$ por periodo, $\ln2/\ln(1.1)\approx7.27$: el doble se supera al finalizar el octavo periodo discreto.
 :::
 ::::
 
@@ -334,9 +431,24 @@ Ante $\sqrt{x^2}=x$, elegir $x=-2$ revela el problema. La corrección general es
 
 Para $a,b>0$ y $r,s\in\mathbb R$:
 
-(a) $a^ra^s=a^{r+s}$ y $a^r/a^s=a^{r-s}$.
-(b) $(a^r)^s=a^{rs}$.
-(c) $(ab)^r=a^rb^r$ y $(a/b)^r=a^r/b^r$.
+(a) **Producto y cociente de potencias de igual base**
+
+    $$
+    a^ra^s=a^{r+s},\qquad \frac{a^r}{a^s}=a^{r-s}.
+    $$
+
+(b) **Potencia de una potencia**
+
+    $$
+    (a^r)^s=a^{rs}.
+    $$
+
+(c) **Potencia de un producto y de un cociente**
+
+    $$
+    (ab)^r=a^rb^r,\qquad \left(\frac{a}{b}\right)^r=\frac{a^r}{b^r}.
+    $$
+
 
 Para bases reales no nulas estas leyes se conservan con exponentes enteros; con exponentes racionales y bases negativas deben verificarse existencia y convención de cada expresión.
 :::
@@ -413,18 +525,6 @@ Estas conexiones permiten comprobar fórmulas de áreas, volúmenes y escalas. E
 Si el área de un cuadrado es $49\,\mathrm{cm^2}$, su lado es $7\,\mathrm{cm}$. Para una escala $L=\log_{10}(Q/Q_0)$, duplicar tanto $Q$ como $Q_0$ no altera $L$.
 :::
 ::::
-
-## Síntesis para la consulta docente
-
-| Operación | Condición principal en los reales | Control conceptual |
-|---|---|---|
-| $a^{-n}$ | $a\ne0$ | Es un recíproco |
-| $\sqrt[n]{a}$, $n$ par | $a\ge0$ | Se elige la raíz no negativa |
-| $\sqrt[n]{a}$, $n$ impar | $a\in\mathbb R$ | Se conserva el signo |
-| $a^x$ para todo real $x$ | $a>0$ | La monotonía depende de la base |
-| $\log_bx$ | $b>0$, $b\ne1$, $x>0$ | Es el exponente que produce $x$ |
-
-Para explicar una transformación, precisar dominio, base y exponente; distinguir igualdad exacta de aproximación; y comprobar la interpretación mediante un caso sencillo.
 
 ## Conexiones y procedencia
 

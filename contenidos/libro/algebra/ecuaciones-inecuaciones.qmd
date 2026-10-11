@@ -54,7 +54,9 @@ $x=2\Longrightarrow x^2=4$, pero la segunda ecuación también admite $x=-2$.
 En el dominio considerado, preservan la equivalencia:
 
 (a) Sumar o restar una misma expresión definida en ambos miembros.
+
 (b) Multiplicar o dividir ambos miembros por una expresión no nula en todo ese dominio.
+
 (c) Aplicar una función inyectiva en los valores pertinentes.
 :::
 
@@ -117,8 +119,18 @@ $x^2-x-6=0$ equivale a $(x-3)(x+2)=0$ y da $\{-2,3\}$. De $(x-3)(x+2)=4$ no se s
 
 Para $ax^2+bx+c=0$, con $a\ne0$, sea $\Delta=b^2-4ac$:
 
-(a) Si $\Delta>0$, hay dos raíces reales distintas: $x=(-b\pm\sqrt\Delta)/(2a)$.
-(b) Si $\Delta=0$, hay una raíz real doble: $x=-b/(2a)$.
+(a) Si $\Delta>0$, hay dos raíces reales distintas:
+
+    $$
+    x=\frac{-b\pm\sqrt\Delta}{2a}.
+    $$
+
+(b) Si $\Delta=0$, hay una raíz real doble:
+
+    $$
+    x=-\frac{b}{2a}.
+    $$
+
 (c) Si $\Delta<0$, no hay raíces reales.
 :::
 
@@ -149,8 +161,17 @@ $x^2-6x+5=0$ equivale a $(x-3)^2=4$; por tanto, $x=3\pm2$, es decir, $x=1$ o $x=
 
 Si $ax^2+bx+c$ es una cuadrática real con raíces $r_1,r_2$, contando multiplicidad:
 
-(a) **Suma de raíces:** $r_1+r_2=-b/a$.
-(b) **Producto de raíces:** $r_1r_2=c/a$.
+(a) **Suma de raíces**
+
+    $$
+    r_1+r_2=-\frac{b}{a}.
+    $$
+
+(b) **Producto de raíces**
+
+    $$
+    r_1r_2=\frac{c}{a}.
+    $$
 :::
 
 Las relaciones permiten verificar resultados y reconstruir una ecuación a partir de raíces. No aseguran por sí solas que las raíces sean reales: la existencia real depende del discriminante.
@@ -255,7 +276,9 @@ $x\ge2$ se representa como $[2,\infty)$. La condición $x<-1$ o $x>3$ es $(-\inf
 Para transformar una desigualdad:
 
 (a) Sumar lo mismo a ambos miembros preserva el orden.
+
 (b) Multiplicar o dividir por un número positivo conserva el sentido.
+
 (c) Multiplicar o dividir por un número negativo invierte el sentido.
 :::
 
@@ -443,23 +466,6 @@ points(c(0, 2), c(0, 4), pch = 16, cex = 1.2)
 legend("topleft", c("y = x²", "y = 2x"), col = c("steelblue", "darkorange3"),
        lty = c(1, 2), lwd = 2, bty = "n")
 ```
-
-## Síntesis para la consulta docente
-
-1. Precisar incógnitas, parámetros, dominio algebraico y restricciones contextuales.
-2. Registrar qué operaciones preservan equivalencia y cuáles solo generan candidatos.
-3. Elegir expansión, factorización, sustitución, tabla de signos o representación gráfica según la estructura.
-4. Separar los casos en que un coeficiente o divisor puede anularse.
-5. Verificar candidatos y justificar que no se perdieron soluciones.
-6. Expresar el conjunto solución completo e interpretarlo con sus unidades.
-
-| Situación | Precaución decisiva |
-|---|---|
-| División por una expresión | Puede anularse y perder soluciones |
-| Potencia par | Puede introducir candidatos con signo incorrecto |
-| Inecuación con factor variable | Su signo puede invertir la desigualdad |
-| Sistema | La solución satisface simultáneamente todas las ecuaciones |
-| Gráfica | La ventana y la escala no acreditan exhaustividad |
 
 ## Conexiones y procedencia
 

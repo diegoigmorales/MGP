@@ -30,23 +30,19 @@ def sources(suffix: str) -> list[Path]:
 
 
 def format_number(raw: str) -> str:
-    raw = raw.replace(r"\,", "").strip()
-    if "." in raw:
-        integer, decimal = raw.split(".", 1)
-    else:
-        integer, decimal = raw, ""
+    """Punto decimal y grupos finos desde cinco cifras, sin perder ceros."""
+    raw = raw.replace(r"\,", "").replace("{,}", ".").strip()
+    scientific = re.fullmatch(r"(.+?)[eE]([+-]?\d+)", raw)
+    if scientific:
+        return format_number(scientific[1]) + rf"\cdot10^{{{int(scientific[2])}}}"
+    integer, dot, decimal = raw.partition(".")
     sign = ""
-    if integer.startswith("-"):
-        sign, integer = "-", integer[1:]
-    groups: list[str] = []
-    while len(integer) > 3:
-        groups.insert(0, integer[-3:])
-        integer = integer[:-3]
-    groups.insert(0, integer or "0")
-    result = sign + r"\,".join(groups)
-    if decimal:
-        result += "{,}" + decimal
-    return result
+    if integer.startswith(("-", "+")):
+        sign, integer = integer[0], integer[1:]
+    integer = integer or "0"
+    if len(integer) >= 5:
+        integer = re.sub(r"(?<=\d)(?=(?:\d{3})+$)", lambda _: r"\,", integer)
+    return sign + integer + ("." + decimal if dot else "")
 
 
 def expand_custom_macros(text: str) -> str:
@@ -119,96 +115,79 @@ def normalize_distributions(body: str) -> str:
     return body
 
 
+# Solo tokens numéricos completos: nunca interpretar comas de listas como decimales.
+NUMBER = re.compile(
+    r"(?<![\w.])(?:\d+(?:\\,\d{3})*(?:(?:\.|\{,\})\d+(?:\\,\d{3})*)?|\.\d+)"
+    r"(?:[eE][+-]?\d+)?(?!\d|\.\d)"
+)
+UNIT_FACTOR = re.compile(r"([A-Za-z]+)(?:\^(?:\{(-?\d+)\}|(-?\d+)))?")
+
+
+def normalize_unit(raw: str) -> str:
+    """Cocientes de símbolos en redonda -> producto con potencias negativas."""
+    parts = raw.split("/")
+    if len(parts) != 2:
+        return raw
+    result = []
+    for index, part in enumerate(parts):
+        factors = list(UNIT_FACTOR.finditer(part))
+        rest = UNIT_FACTOR.sub("", part).replace(r"\,", "").strip()
+        if not factors or rest:
+            return raw
+        for factor in factors:
+            power = int(factor[2] or factor[3] or 1) * (-1 if index else 1)
+            result.append(factor[1] + (rf"^{{{power}}}" if power != 1 else ""))
+    return r"\,".join(result)
+
+
+def normalize_math(body: str) -> str:
+    body = normalize_distributions(expand_custom_macros(body))
+    body = body.replace("−", "-").replace("{,}", ".")
+    body = re.sub(r"(\\[A-Za-z]+)([0-9]+(?:\\,[0-9]{3})*(?:\.[0-9]+(?:\\,[0-9]{3})*)?)",
+                  lambda m: m[1] + format_number(m[2]), body)
+    body = NUMBER.sub(lambda m: format_number(m[0]), body)
+    body = re.sub(r"\\(?:times|dot)(?=\s*10\s*\^)", r"\\cdot", body)
+    body = re.sub(
+        r"\\mathrm\{((?:[^{}]|\{[^{}]*\})*)\}",
+        lambda m: rf"\mathrm{{{normalize_unit(m[1])}}}", body,
+    )
+    # El espacio fino es común a HTML/MathJax y PDF/LaTeX.
+    body = re.sub(r"(?<=[\d}])\s*(?=\\mathrm\{)", lambda _: r"\,", body)
+    body = re.sub(r"(?P<expr>\d|[A-Za-z]|\})(?:\s|\\,|\\;|\\ |~)*\\%",
+                  lambda m: m['expr'] + r"\,\%", body)
+    return body
+
+
 def normalize_qmd(text: str) -> str:
-    text = expand_custom_macros(text)
-    text = text.replace(r"\(", "$").replace(r"\)", "$")
-    text = re.sub(
-        r"\\\$(?P<num>\d+(?:\\,\d{3})*(?:\.\d+)?)",
-        lambda m: rf"\${format_number(m.group('num'))}",
-        text,
-    )
-    text = re.sub(
-        r"(?P<num>\d+(?:\.\d+)?)(?:\\,)?\\%",
-        lambda m: rf"{format_number(m.group('num'))}\,\%",
-        text,
-    )
-
-    def math_body(match: re.Match[str]) -> str:
-        delimiter = match.group("delimiter")
-        body = normalize_distributions(match.group("body"))
-        body = re.sub(
-            r"(?P<num>\d+(?:\.\d+|\{,\}\d+)?)\\,\\pi m\^3",
-            lambda item: rf"{format_number(item.group('num').replace('{,}', '.'))}\pi\,\mathrm{{m^3}}",
-            body,
+    # Conservar metadatos, URLs y bloques de código; transformar únicamente fórmulas.
+    def prose(text: str) -> str:
+        text = text.replace(r"\(", "$").replace(r"\)", "$")
+        text = text.replace(r"\[", "$$").replace(r"\]", "$$")
+        return re.sub(
+            r"(?<!\\)(?P<delimiter>\$\$|\$)(?P<body>.*?)(?<!\\)(?P=delimiter)",
+            lambda m: m['delimiter'] + normalize_math(m['body']) + m['delimiter'],
+            text, flags=re.DOTALL,
         )
-        stripped = body.strip()
-        percentage = re.fullmatch(r"(?P<expr>.+?)(?:\\,)?\\%", stripped, re.DOTALL)
-        if percentage:
-            body = body.replace(stripped, rf"{percentage.group('expr')}\,\%")
-        body = re.sub(r"(?<![A-Za-z0-9])(?P<int>\d+)\.(?P<dec>\d+)(?!\d)", r"\g<int>{,}\g<dec>", body)
-        body = re.sub(
-            r"(?<![A-Za-z0-9])(?<!\{,\})(?P<num>\d{4,})(?![A-Za-z0-9])",
-            lambda item: format_number(item.group("num")),
-            body,
-        )
-        return delimiter + body + delimiter
 
-    text = re.sub(
-        r"(?<!\\)(?P<delimiter>\$\$|\$)(?P<body>.*?)(?<!\\)(?P=delimiter)",
-        math_body,
-        text,
-        flags=re.DOTALL,
-    )
-    return text
+    protected = re.compile(r"\A---\n.*?\n---(?:\n|$)|^([`~]{3,})[^\n]*\n.*?^\1[^\n]*(?:\n|$)|`[^`\n]+`",
+                           re.MULTILINE | re.DOTALL)
+    result, cursor = [], 0
+    for match in protected.finditer(text):
+        result.extend((prose(text[cursor:match.start()]), match[0]))
+        cursor = match.end()
+    result.append(prose(text[cursor:]))
+    return "".join(result)
 
 
 def normalize_tex(text: str) -> str:
-    text = expand_custom_macros(text)
-    text = normalize_distributions(text)
-    text = re.sub(
-        r"\\SI\{(?P<num>-?\d+(?:\.\d+)?)\}\[\\\$\]\{\}",
-        lambda m: rf"\${format_number(m.group('num'))}",
-        text,
-    )
-
-    def quantity(match: re.Match[str]) -> str:
-        number = format_number(match.group("num"))
-        unit = match.group("unit")
-        if unit.startswith(r"\pi "):
-            return rf"{number}\pi\,\mathrm{{{unit[4:]}}}"
-        return rf"{number}\,\mathrm{{{unit}}}"
-
-    text = re.sub(
-        r"\\SI\{(?P<num>-?\d+(?:\.\d+)?)\}\{(?P<unit>[^{}]+)\}",
-        quantity,
-        text,
-    )
-    text = re.sub(
-        r"\\si\{(?P<unit>[^{}]+)\}",
-        lambda m: rf"\mathrm{{{m.group('unit')}}}",
-        text,
-    )
-    text = re.sub(
-        r"\\num\{(?P<num>-?\d+(?:\.\d+)?)\}",
-        lambda m: format_number(m.group("num")),
-        text,
-    )
-    text = re.sub(
-        r"(?P<num>\d+(?:\.\d+)?)(?:\\,)?\\%",
-        lambda m: rf"{format_number(m.group('num'))}\,\%",
-        text,
-    )
-
-    def inline_math(match: re.Match[str]) -> str:
-        body = match.group("body")
-        stripped = body.strip()
-        percentage = re.fullmatch(r"(?P<expr>.+?)(?:\\,)?\\%", stripped, re.DOTALL)
-        if percentage:
-            body = body.replace(stripped, rf"{percentage.group('expr')}\,\%")
-        return "$" + body + "$"
-
-    text = re.sub(r"(?<!\\)\$(?P<body>.*?)(?<!\\)\$", inline_math, text, flags=re.DOTALL)
-    return text
+    # Los fragmentos PAES existentes contienen también cantidades sin delimitadores.
+    text = re.sub(r"\\SI\{(-?\d+(?:\.\d+)?)\}\[\\\$\]\{\}",
+                  lambda m: rf"\${format_number(m[1])}", text)
+    text = re.sub(r"\\(?:SI|qty)\{([^{}]+)\}\{([^{}]+)\}",
+                  lambda m: rf"{format_number(m[1])}\,\mathrm{{{m[2]}}}", text)
+    text = re.sub(r"\\(?:si|unit)\{([^{}]+)\}", lambda m: rf"\mathrm{{{m[1]}}}", text)
+    text = re.sub(r"\\num\{([^{}]+)\}", lambda m: format_number(m[1]), text)
+    return normalize_math(text)
 
 
 def normalize(write: bool) -> int:
@@ -221,7 +200,7 @@ def normalize(write: bool) -> int:
             if write:
                 path.write_text(new, encoding="utf-8", newline="\n")
     for path in sources(".tex"):
-        if path == ROOT / "includes" / "math-macros.tex":
+        if path.is_relative_to(ROOT / "includes"):
             continue
         old = path.read_text(encoding="utf-8-sig")
         new = normalize_tex(old)
@@ -245,7 +224,7 @@ def check() -> int:
         rf"\\mathcal\s*\{{?N\}}?|\\mathrm\{{(?:{DISTRIBUTION_NAME_PATTERN}|Normal)\}}|\\mathrm\{{N\}}(?=\s*(?:\\left)?\()": "use \\operatorname para distribuciones",
     }
     tex_rules = {
-        r"\\(?:SI|si|num)\{": "use LaTeX estándar explícito",
+        r"\\(?:SI|si|num|qty|unit)\{": "use LaTeX estándar explícito",
         r"\\usepackage(?:\[[^]]*\])?\{siunitx\}": "siunitx no está permitido",
         r"\\(?:numero|unidad|cantidad|porcentaje|pesos)\{": "no use macros locales no solicitadas",
         rf"\\mathcal\s*\{{?N\}}?|\\mathrm\{{(?:{DISTRIBUTION_NAME_PATTERN}|Normal)\}}|\\mathrm\{{N\}}(?=\s*(?:\\left)?\()": "use \\operatorname para distribuciones",
@@ -259,7 +238,7 @@ def check() -> int:
         if normalize_qmd(text) != text:
             errors.append(f"{path.relative_to(ROOT)}: quedan números o magnitudes por normalizar")
     for path in sources(".tex"):
-        if path == ROOT / "includes" / "math-macros.tex":
+        if path.is_relative_to(ROOT / "includes"):
             continue
         text = path.read_text(encoding="utf-8-sig")
         for pattern, message in tex_rules.items():
@@ -271,7 +250,7 @@ def check() -> int:
     if errors:
         print("\n".join(f"ERROR: {item}" for item in errors), file=sys.stderr)
         return 1
-    print("Notación matemática válida: LaTeX estándar y sin macros locales.")
+    print("Notación matemática válida: punto decimal, agrupación desde cinco cifras y unidades en redonda.")
     return 0
 
 

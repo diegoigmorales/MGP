@@ -25,7 +25,7 @@ Una expansión infinita no basta para identificar un irracional: los decimales p
 ::: {#exm-00F9 .theorem-style-remark data-environment-tag="00FA"}
 ## Números irracionales
 
-$\sqrt2$ es irracional, pero $\sqrt9=3$ es racional. El decimal $0{,}\overline3=1/3$ es infinito y racional.
+$\sqrt2$ es irracional, pero $\sqrt9=3$ es racional. El decimal $0.\overline3=1/3$ es infinito y racional.
 :::
 ::::
 
@@ -59,7 +59,7 @@ La observación histórica muestra una necesidad geométrica de ampliar los raci
 ::: {#exm-00FD .theorem-style-remark data-environment-tag="00FE"}
 ## Inconmensurabilidad y raíz de dos
 
-Un cuadrado de lado $1\,\mathrm{cm}$ tiene diagonal $\sqrt2\,\mathrm{cm}$. El valor $1{,}414\,\mathrm{cm}$ es una aproximación, no la longitud exacta.
+Un cuadrado de lado $1\,\mathrm{cm}$ tiene diagonal $\sqrt2\,\mathrm{cm}$. El valor $1.414\,\mathrm{cm}$ es una aproximación, no la longitud exacta.
 :::
 ::::
 
@@ -71,10 +71,37 @@ Un cuadrado de lado $1\,\mathrm{cm}$ tiene diagonal $\sqrt2\,\mathrm{cm}$. El va
 
 Para $a,b,c\in\mathbb R$:
 
-(a) Si $a<b$, entonces $a+c<b+c$.
-(b) Si $a<b$ y $c>0$, entonces $ac<bc$; si $c<0$, entonces $ac>bc$.
-(c) $a^2\ge0$, con igualdad solo si $a=0$.
-(d) Si $0\le a<b$, entonces $a^2<b^2$ y $\sqrt a<\sqrt b$.
+(a) **Adición y orden**
+
+    Si $a<b$, entonces:
+
+    $$
+    a+c<b+c.
+    $$
+
+(b) **Multiplicación y orden**
+
+    Si $a<b$:
+
+    $$
+    \begin{aligned} ac&<bc &&\text{si }c>0,\\ ac&>bc &&\text{si }c<0.\end{aligned}
+    $$
+
+(c) **Cuadrado no negativo**
+
+    La igualdad se cumple solo si $a=0$.
+
+    $$
+    a^2\ge0.
+    $$
+
+(d) **Cuadrados y raíces en números no negativos**
+
+    Si $0\le a<b$, entonces:
+
+    $$
+    a^2<b^2,\qquad \sqrt a<\sqrt b.
+    $$
 :::
 
 Las propiedades de adición, multiplicación y distributividad se conservan; la división requiere divisor no nulo. Elevar al cuadrado no conserva el orden en todo el dominio real. Para comparar raíces cuadradas no negativas puede compararse el radicando.
@@ -98,7 +125,7 @@ El valor absoluto extiende la idea trabajada con enteros. Expresar una toleranci
 ::: {#exm-00FH .theorem-style-remark data-environment-tag="00FI"}
 ## Valor absoluto y distancia real
 
-$|x-2|<0{,}1$ describe todos los valores entre $1{,}9$ y $2{,}1$, excluidos los extremos.
+$|x-2|<0.1$ describe todos los valores entre $1.9$ y $2.1$, excluidos los extremos.
 :::
 ::::
 
@@ -153,7 +180,7 @@ Esta propiedad se formaliza en Análisis real mediante resultados equivalentes y
 ::: {#exm-00FN .theorem-style-remark data-environment-tag="00FO"}
 ## Completitud y ausencia de huecos
 
-Los intervalos $[1,2]$, $[1{,}4,1{,}5]$, $[1{,}41,1{,}42]$ y sus refinamientos decimales que contienen $\sqrt2$ acotan un mismo punto real aunque este no sea racional.
+Los intervalos $[1,2]$, $[1.4,1.5]$, $[1.41,1.42]$ y sus refinamientos decimales que contienen $\sqrt2$ acotan un mismo punto real aunque este no sea racional.
 :::
 ::::
 
@@ -171,7 +198,7 @@ Para negativos, truncar la expansión hacia cero no es tomar la parte entera inf
 ::: {#exm-00FP .theorem-style-remark data-environment-tag="00FQ"}
 ## Truncamiento, redondeo y cotas
 
-$1{,}41^2<2<1{,}42^2$ da $1{,}41<\sqrt2<1{,}42$. A dos decimales, $\sqrt2\approx1{,}41$. Al truncar $-1{,}239$ a dos decimales se obtiene $-1{,}23$; al redondear, $-1{,}24$.
+$1.41^2<2<1.42^2$ da $1.41<\sqrt2<1.42$. A dos decimales, $\sqrt2\approx1.41$. Al truncar $-1.239$ a dos decimales se obtiene $-1.23$; al redondear, $-1.24$.
 :::
 ::::
 
@@ -187,7 +214,7 @@ Un mismo error absoluto puede ser pequeño en una escala y grande en otra. Si la
 ::: {#exm-00FR .theorem-style-remark data-environment-tag="00FS"}
 ## Error absoluto y relativo de una aproximación
 
-Aproximar $1/3$ por $0{,}33$ produce $E_a=1/300$ y $E_r=1/100=1\,\%$. El error absoluto no es $0{,}01$: esa es la expresión numérica del error relativo.
+Aproximar $1/3$ por $0.33$ produce $E_a=1/300$ y $E_r=1/100=1\,\%$. El error absoluto no es $0.01$: esa es la expresión numérica del error relativo.
 :::
 ::::
 
@@ -203,7 +230,7 @@ La definición y las leyes de exponentes se desarrollan en [Potencias, raíces y
 ::: {#exm-00FT .theorem-style-remark data-environment-tag="00FU"}
 ## Notación científica y escala de un real
 
-$0{,}000072=7{,}2\cdot10^{-5}$. El valor $4{,}60\cdot10^6$ conserva tres cifras significativas y evita la ambigüedad de los ceros finales de $4\,600\,000$.
+$0.000072=7.2\cdot10^{-5}$. El valor $4.60\cdot10^6$ conserva tres cifras significativas y evita la ambigüedad de los ceros finales de $4\,600\,000$.
 :::
 ::::
 

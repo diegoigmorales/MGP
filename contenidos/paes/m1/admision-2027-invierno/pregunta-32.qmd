@@ -19,7 +19,7 @@ Una persona tiene $\$10\,000$ para comprar un paquete de tallarines de $\$800$ y
 
 ::: {.answer-options}
 1. $10\,000 - 800 \geq 1800x$
-1. $10\,000 - 800 \geq 1\,800$
+1. $10\,000 - 800 \geq 1800$
 1. $10\,000 + 800 \geq 1800x$
-1. $10\,000 + 800 \geq 1\,800$
+1. $10\,000 + 800 \geq 1800$
 :::
