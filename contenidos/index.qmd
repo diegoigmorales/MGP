@@ -75,10 +75,10 @@ Esta página reúne solamente material desarrollado, en el orden de la [tabla de
 - [Presentación del capítulo](curriculum/index.qmd)
 - [Ejes y materias](curriculum/ejes.qmd)
 - [Habilidades matemáticas](curriculum/habilidades.qmd)
-- [Enseñanza básica, ciclo I](curriculum/basica-ciclo-1.qmd)
-- [Enseñanza básica, ciclo II](curriculum/basica-ciclo-2.qmd)
-- [Enseñanza media](curriculum/ensenanza-media.qmd)
-- [Formación diferenciada](curriculum/formacion-diferenciada.qmd)
+- [Enseñanza básica, ciclo I](curriculum/index.qmd#oa-primero-basico)
+- [Enseñanza básica, ciclo II](curriculum/index.qmd#oa-quinto-basico)
+- [Enseñanza media](curriculum/index.qmd#oa-primero-medio)
+- [Formación diferenciada](curriculum/index.qmd#oa-limites-derivadas-integrales)
 
 ### Capítulo 16. PAES de Matemática
 

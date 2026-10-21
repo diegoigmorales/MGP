@@ -1,6 +1,6 @@
 ---
 toc: true
-toc-depth: 2
+toc-depth: 3
 title: Sistema curricular chileno
 number-sections: true
 number-depth: 6
@@ -30,18 +30,14 @@ La etiqueta [Prioritario]{.change-badge .change-priority} identifica los objetiv
 
 - [Habilidades matemáticas](habilidades.qmd)
 
-## Enseñanza básica, ciclo I
+## Objetivos de aprendizaje {#objetivos-de-aprendizaje}
 
-- [Primero a cuarto básico](basica-ciclo-1.qmd)
+Los objetivos se organizan por año escolar y, en formación diferenciada, por electivo.
 
-## Enseñanza básica, ciclo II
+{{< include _objetivos-basica-ciclo-1.qmd >}}
 
-- [Quinto a octavo básico](basica-ciclo-2.qmd)
+{{< include _objetivos-basica-ciclo-2.qmd >}}
 
-## Enseñanza media
+{{< include _objetivos-ensenanza-media.qmd >}}
 
-- [Primero a cuarto medio](ensenanza-media.qmd)
-
-## Formación diferenciada
-
-- [Electivos matemáticos](formacion-diferenciada.qmd)
+{{< include _objetivos-formacion-diferenciada.qmd >}}

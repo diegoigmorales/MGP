@@ -4,6 +4,8 @@ project:
   - python scripts/number_chapters.py
   - python scripts/math_notation.py --check
   - python scripts/build_registry.py
+  post-render:
+  - python scripts/clean_chapter_toc.py
   output-dir: _site
 website:
   title: Matemática para Gañanes y Patanes
