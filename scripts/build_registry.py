@@ -269,7 +269,15 @@ def main() -> int:
                         }
                     )
 
-    valid_tags = {tag for tag in by_tag if TAG_RE.fullmatch(tag)}
+    # Los códigos retirados siguen reservados: no se publican ni se reutilizan.
+    retired = json.loads((ROOT / "scripts/retired_tags.json").read_text(encoding="utf-8"))
+    retired_tags = set(retired)
+    for tag in retired_tags:
+        if not TAG_RE.fullmatch(tag):
+            errors.append(f"identificador retirado inválido: {tag!r}")
+        if tag in by_tag:
+            errors.append(f"identificador retirado reutilizado: {tag}")
+    valid_tags = {tag for tag in by_tag.keys() | retired_tags if TAG_RE.fullmatch(tag)}
     if valid_tags and len(valid_tags) < 36 ** 4:
         first_free = next_tag(valid_tags)
         if int(first_free, 36) < max(int(tag, 36) for tag in valid_tags):
@@ -280,7 +288,7 @@ def main() -> int:
         return 1
 
     if "--next-tag" in sys.argv[1:]:
-        print(next_tag(set(by_tag)))
+        print(next_tag(valid_tags))
         return 0
 
     GENERATED.mkdir(exist_ok=True)

@@ -21,6 +21,39 @@ def save(fig, name, previews=None):
         fig.savefig(previews / (name + ".png"), dpi=160, bbox_inches="tight", facecolor="white")
     plt.close(fig)
 
+def render_proportionality(previews=None):
+    """Figuras de los ejemplos de lectura de gráficos del capítulo 6."""
+    for inverse in (False, True):
+        fig, ax = plt.subplots(figsize=(6.5, 4.3), constrained_layout=True)
+        if inverse:
+            x = np.linspace(1.55, 10, 500)
+            y = 24 / x
+            points = [(2, 12), (4, 6), (8, 3)]
+            labels = ["(2, 12)", "(c, 6)", "(8, d)"]
+            xticks, xlabels = [0, 2, 4, 8], ["0", "2", "c", "8"]
+            yticks, ylabels = [0, 3, 6, 12], ["0", "d", "6", "12"]
+            title, name = "Inversa: y = 24/x (x > 0)", "proporcionalidad-inversa"
+        else:
+            x = np.linspace(0, 10, 300)
+            y = 4 * x / 3
+            points = [(3, 4), (6, 8), (9, 12)]
+            labels = ["(3, 4)", "(c, 8)", "(9, d)"]
+            xticks, xlabels = [0, 3, 6, 9], ["0", "3", "c", "9"]
+            yticks, ylabels = [0, 4, 8, 12], ["0", "4", "8", "d"]
+            title, name = "Directa: y = (4/3)x", "proporcionalidad-directa"
+        ax.plot(x, y, color=BLUE, lw=2.5)
+        for (px, py), label in zip(points, labels):
+            ax.plot([px, px, 0], [0, py, py], color="#667788", ls="--", lw=1)
+            ax.scatter([px], [py], color=ORANGE, zorder=3)
+            ax.annotate(label, (px, py), xytext=(8, 9) if inverse else (-8, 12),
+                        ha="left" if inverse else "right", textcoords="offset points", fontsize=11)
+        ax.set(xlim=(0, 10.5), ylim=(0, 16), xlabel="x", ylabel="y", title=title)
+        ax.set_xticks(xticks, xlabels)
+        ax.set_yticks(yticks, ylabels)
+        ax.spines[["top", "right"]].set_visible(False)
+        save(fig, name, previews)
+
+
 def render(previews=None):
     fig, ax = plt.subplots(figsize=(8, 2.6))
     for y, denominator, numerator in [(1.2,4,3),(0.2,8,6)]:
@@ -61,4 +94,8 @@ def render(previews=None):
 if __name__ == "__main__":
     parser=argparse.ArgumentParser()
     parser.add_argument("--previews",type=Path)
-    render(parser.parse_args().previews)
+    parser.add_argument("--proportionality-only", action="store_true")
+    args = parser.parse_args()
+    render_proportionality(args.previews)
+    if not args.proportionality_only:
+        render(args.previews)

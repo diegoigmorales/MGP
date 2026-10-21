@@ -46,7 +46,7 @@ Los estilos y la separación entre enunciados, explicaciones y ejemplos se descr
 
 Las relaciones admitidas incluyen usa, requiere, demuestra, generaliza, especializa, relacionado, error_asociado, alternativa, prerequisito, pertenece_a, evalua, profundiza, aplica y similar_a.
 
-Los identificadores siguen una secuencia global de cuatro caracteres en base 36 (0-9, A-Z), desde `0000` y sin saltos. Ejecuta `python scripts/build_registry.py --next-tag` para obtener el primer código libre. Los códigos del ejemplo son ilustrativos; usa los siguientes disponibles al crear objetos. Una vez asignados, no se renombran ni reutilizan.
+Los identificadores siguen una secuencia global de cuatro caracteres en base 36 (0-9, A-Z), desde `0000` y sin saltos. Ejecuta `python scripts/build_registry.py --next-tag` para obtener el primer código libre. Los códigos del ejemplo son ilustrativos; usa los siguientes disponibles al crear objetos. Una vez asignados, no se renombran ni reutilizan. Al eliminar un objeto, su código se reserva en `scripts/retired_tags.json`; el registro excluye esos objetos del catálogo y evita reutilizar sus identificadores.
 
 ## Publicación
 
