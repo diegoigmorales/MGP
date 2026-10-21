@@ -1,10 +1,21 @@
 ---
-title: "Capítulo 5. Números reales"
-description: "Irracionales, recta real, orden, densidad, intervalos, aproximaciones y errores."
+title: Números reales
+description: Irracionales, recta real, orden, densidad, intervalos, aproximaciones y errores.
 format:
   html:
     format-links: false
+    title: Capítulo 5. Números reales
+    number-offset:
+    - 4
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
   pdf: default
+number-sections: true
+number-depth: 6
+mgp-number-prefix: '5'
 ---
 
 ## Propósito y alcance
@@ -49,7 +60,7 @@ $-4$ es entero, racional y real; $3/5$ es racional y real; $\sqrt5$ es irraciona
 
 :::: {.knowledge-object #tag-00FD tag="00FD" type="observacion" title="Inconmensurabilidad y raíz de dos" requiere="00DT,00FB"}
 ::: {#concept-00FD .editorial-text}
-## Inconmensurabilidad y raíz de dos
+### Inconmensurabilidad y raíz de dos
 
 Dos longitudes positivas son **conmensurables** si existe una longitud de referencia que cabe un número entero de veces en cada una. La diagonal de un cuadrado y su lado son inconmensurables: su razón es $\sqrt2$, que no es racional.
 :::
@@ -170,7 +181,7 @@ Entre $1$ y $2$ están los racionales $3/2$ y $7/4$, y los irracionales $\sqrt2$
 
 :::: {.knowledge-object #tag-00FN tag="00FN" type="observacion" title="Completitud y ausencia de huecos" requiere="00FL,00FJ"}
 ::: {#concept-00FN .editorial-text}
-## Completitud y ausencia de huecos
+### Completitud y ausencia de huecos
 
 La **completitud** expresa, intuitivamente, que los reales contienen los valores determinados por aproximaciones compatibles cada vez más precisas. Una forma de ilustrarla es mediante intervalos cerrados anidados, no vacíos, cuyas longitudes tienden a cero: determinan un único número real.
 :::
@@ -188,7 +199,7 @@ Los intervalos $[1,2]$, $[1.4,1.5]$, $[1.41,1.42]$ y sus refinamientos decimales
 
 :::: {.knowledge-object #tag-00FP tag="00FP" type="tecnica" title="Truncamiento, redondeo y cotas" requiere="00FF"}
 ::: {#concept-00FP .editorial-text}
-## Truncamiento, redondeo y cotas
+### Truncamiento, redondeo y cotas
 
 **Truncar** una expansión decimal conserva las primeras posiciones y descarta las restantes. **Redondear** a una posición consiste en elegir el múltiplo de esa unidad decimal más cercano; los empates requieren una convención. Al redondear a $k$ decimales, el error absoluto no supera $\tfrac12 10^{-k}$.
 :::
@@ -220,7 +231,7 @@ Aproximar $1/3$ por $0.33$ produce $E_a=1/300$ y $E_r=1/100=1\,\%$. El error abs
 
 :::: {.knowledge-object #tag-00FT tag="00FT" type="tecnica" title="Notación científica y escala de un real" requiere="00FB,00D3,0059"}
 ::: {#concept-00FT .editorial-text}
-## Notación científica y escala de un real
+### Notación científica y escala de un real
 
 Todo real no nulo puede escribirse $x=c\cdot10^k$, con $k\in\mathbb Z$ y $1\le|c|<10$. La notación permite comparar escalas y comunicar cifras significativas. Cero se escribe aparte.
 :::

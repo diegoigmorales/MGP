@@ -5,7 +5,7 @@
       "type": "materia",
       "title": "Números",
       "source": "contenidos/curriculum/ejes.qmd",
-      "line": 10,
+      "line": 24,
       "href": "../contenidos/curriculum/ejes.qmd#tag-0000",
       "relations": {}
     },
@@ -14,7 +14,7 @@
       "type": "materia",
       "title": "Estadística",
       "source": "contenidos/curriculum/ejes.qmd",
-      "line": 19,
+      "line": 33,
       "href": "../contenidos/curriculum/ejes.qmd#tag-0001",
       "relations": {}
     },
@@ -23,7 +23,7 @@
       "type": "habilidad",
       "title": "Resolver problemas",
       "source": "contenidos/curriculum/habilidades.qmd",
-      "line": 8,
+      "line": 22,
       "href": "../contenidos/curriculum/habilidades.qmd#tag-0002",
       "relations": {}
     },
@@ -32,7 +32,7 @@
       "type": "definicion",
       "title": "Pensamiento algebraico",
       "source": "contenidos/libro/algebra/algebra-elemental.qmd",
-      "line": 16,
+      "line": 27,
       "href": "../contenidos/libro/algebra/algebra-elemental.qmd#tag-0003",
       "relations": {}
     },
@@ -41,7 +41,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Pensamiento algebraico",
       "source": "contenidos/libro/algebra/algebra-elemental.qmd",
-      "line": 25,
+      "line": 36,
       "href": "../contenidos/libro/algebra/algebra-elemental.qmd#exm-0003",
       "relations": {
         "aplica": [
@@ -54,7 +54,7 @@
       "type": "proceso",
       "title": "Generalización de patrones",
       "source": "contenidos/libro/algebra/algebra-elemental.qmd",
-      "line": 30,
+      "line": 41,
       "href": "../contenidos/libro/algebra/algebra-elemental.qmd#tag-0005",
       "relations": {
         "requiere": [
@@ -67,7 +67,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Generalización de patrones",
       "source": "contenidos/libro/algebra/algebra-elemental.qmd",
-      "line": 39,
+      "line": 50,
       "href": "../contenidos/libro/algebra/algebra-elemental.qmd#exm-0005",
       "relations": {
         "aplica": [
@@ -80,7 +80,7 @@
       "type": "definicion",
       "title": "Variable, incógnita, parámetro e indeterminada",
       "source": "contenidos/libro/algebra/algebra-elemental.qmd",
-      "line": 46,
+      "line": 57,
       "href": "../contenidos/libro/algebra/algebra-elemental.qmd#tag-0007",
       "relations": {
         "requiere": [
@@ -93,7 +93,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Variable, incógnita, parámetro e indeterminada",
       "source": "contenidos/libro/algebra/algebra-elemental.qmd",
-      "line": 60,
+      "line": 71,
       "href": "../contenidos/libro/algebra/algebra-elemental.qmd#exm-0007",
       "relations": {
         "aplica": [
@@ -106,7 +106,7 @@
       "type": "definicion",
       "title": "Expresión algebraica y estructura",
       "source": "contenidos/libro/algebra/algebra-elemental.qmd",
-      "line": 68,
+      "line": 79,
       "href": "../contenidos/libro/algebra/algebra-elemental.qmd#tag-0009",
       "relations": {
         "requiere": [
@@ -119,7 +119,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Expresión algebraica y estructura",
       "source": "contenidos/libro/algebra/algebra-elemental.qmd",
-      "line": 77,
+      "line": 88,
       "href": "../contenidos/libro/algebra/algebra-elemental.qmd#exm-0009",
       "relations": {
         "aplica": [
@@ -132,7 +132,7 @@
       "type": "tecnica",
       "title": "Traducción entre lenguaje y expresiones",
       "source": "contenidos/libro/algebra/algebra-elemental.qmd",
-      "line": 82,
+      "line": 93,
       "href": "../contenidos/libro/algebra/algebra-elemental.qmd#tag-000B",
       "relations": {
         "requiere": [
@@ -145,7 +145,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Traducción entre lenguaje y expresiones",
       "source": "contenidos/libro/algebra/algebra-elemental.qmd",
-      "line": 91,
+      "line": 102,
       "href": "../contenidos/libro/algebra/algebra-elemental.qmd#exm-000B",
       "relations": {
         "aplica": [
@@ -158,7 +158,7 @@
       "type": "tecnica",
       "title": "Evaluación y dominio de una expresión",
       "source": "contenidos/libro/algebra/algebra-elemental.qmd",
-      "line": 96,
+      "line": 107,
       "href": "../contenidos/libro/algebra/algebra-elemental.qmd#tag-000D",
       "relations": {
         "requiere": [
@@ -173,7 +173,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Evaluación y dominio de una expresión",
       "source": "contenidos/libro/algebra/algebra-elemental.qmd",
-      "line": 105,
+      "line": 116,
       "href": "../contenidos/libro/algebra/algebra-elemental.qmd#exm-000D",
       "relations": {
         "aplica": [
@@ -186,7 +186,7 @@
       "type": "definicion",
       "title": "Monomios, coeficientes y grado",
       "source": "contenidos/libro/algebra/algebra-elemental.qmd",
-      "line": 112,
+      "line": 123,
       "href": "../contenidos/libro/algebra/algebra-elemental.qmd#tag-000F",
       "relations": {
         "requiere": [
@@ -199,7 +199,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Monomios, coeficientes y grado",
       "source": "contenidos/libro/algebra/algebra-elemental.qmd",
-      "line": 126,
+      "line": 137,
       "href": "../contenidos/libro/algebra/algebra-elemental.qmd#exm-000F",
       "relations": {
         "aplica": [
@@ -212,7 +212,7 @@
       "type": "tecnica",
       "title": "Reducción de términos semejantes",
       "source": "contenidos/libro/algebra/algebra-elemental.qmd",
-      "line": 134,
+      "line": 145,
       "href": "../contenidos/libro/algebra/algebra-elemental.qmd#tag-000H",
       "relations": {
         "requiere": [
@@ -225,7 +225,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Reducción de términos semejantes",
       "source": "contenidos/libro/algebra/algebra-elemental.qmd",
-      "line": 145,
+      "line": 156,
       "href": "../contenidos/libro/algebra/algebra-elemental.qmd#exm-000H",
       "relations": {
         "aplica": [
@@ -238,7 +238,7 @@
       "type": "propiedad",
       "title": "Distributividad y eliminación de paréntesis",
       "source": "contenidos/libro/algebra/algebra-elemental.qmd",
-      "line": 150,
+      "line": 161,
       "href": "../contenidos/libro/algebra/algebra-elemental.qmd#tag-000J",
       "relations": {
         "requiere": [
@@ -252,7 +252,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Distributividad y eliminación de paréntesis",
       "source": "contenidos/libro/algebra/algebra-elemental.qmd",
-      "line": 171,
+      "line": 182,
       "href": "../contenidos/libro/algebra/algebra-elemental.qmd#exm-000J",
       "relations": {
         "aplica": [
@@ -265,7 +265,7 @@
       "type": "tecnica",
       "title": "Suma y producto de polinomios",
       "source": "contenidos/libro/algebra/algebra-elemental.qmd",
-      "line": 176,
+      "line": 187,
       "href": "../contenidos/libro/algebra/algebra-elemental.qmd#tag-000L",
       "relations": {
         "requiere": [
@@ -279,7 +279,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Suma y producto de polinomios",
       "source": "contenidos/libro/algebra/algebra-elemental.qmd",
-      "line": 185,
+      "line": 196,
       "href": "../contenidos/libro/algebra/algebra-elemental.qmd#exm-000L",
       "relations": {
         "aplica": [
@@ -292,7 +292,7 @@
       "type": "definicion",
       "title": "Igualdad como relación",
       "source": "contenidos/libro/algebra/algebra-elemental.qmd",
-      "line": 192,
+      "line": 203,
       "href": "../contenidos/libro/algebra/algebra-elemental.qmd#tag-000N",
       "relations": {
         "requiere": [
@@ -305,7 +305,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Igualdad como relación",
       "source": "contenidos/libro/algebra/algebra-elemental.qmd",
-      "line": 201,
+      "line": 212,
       "href": "../contenidos/libro/algebra/algebra-elemental.qmd#exm-000N",
       "relations": {
         "aplica": [
@@ -318,7 +318,7 @@
       "type": "definicion",
       "title": "Expresiones equivalentes y dominio",
       "source": "contenidos/libro/algebra/algebra-elemental.qmd",
-      "line": 206,
+      "line": 217,
       "href": "../contenidos/libro/algebra/algebra-elemental.qmd#tag-000P",
       "relations": {
         "requiere": [
@@ -332,7 +332,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Expresiones equivalentes y dominio",
       "source": "contenidos/libro/algebra/algebra-elemental.qmd",
-      "line": 215,
+      "line": 226,
       "href": "../contenidos/libro/algebra/algebra-elemental.qmd#exm-000P",
       "relations": {
         "aplica": [
@@ -345,7 +345,7 @@
       "type": "definicion",
       "title": "Identidad y ecuación",
       "source": "contenidos/libro/algebra/algebra-elemental.qmd",
-      "line": 220,
+      "line": 231,
       "href": "../contenidos/libro/algebra/algebra-elemental.qmd#tag-000R",
       "relations": {
         "requiere": [
@@ -359,7 +359,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Identidad y ecuación",
       "source": "contenidos/libro/algebra/algebra-elemental.qmd",
-      "line": 230,
+      "line": 241,
       "href": "../contenidos/libro/algebra/algebra-elemental.qmd#exm-000R",
       "relations": {
         "aplica": [
@@ -372,7 +372,7 @@
       "type": "propiedad",
       "title": "Cuadrado de un binomio",
       "source": "contenidos/libro/algebra/algebra-elemental.qmd",
-      "line": 240,
+      "line": 251,
       "href": "../contenidos/libro/algebra/algebra-elemental.qmd#tag-000T",
       "relations": {
         "requiere": [
@@ -386,7 +386,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Cuadrado de un binomio",
       "source": "contenidos/libro/algebra/algebra-elemental.qmd",
-      "line": 261,
+      "line": 272,
       "href": "../contenidos/libro/algebra/algebra-elemental.qmd#exm-000T",
       "relations": {
         "aplica": [
@@ -399,7 +399,7 @@
       "type": "propiedad",
       "title": "Suma por diferencia y binomios con término común",
       "source": "contenidos/libro/algebra/algebra-elemental.qmd",
-      "line": 266,
+      "line": 277,
       "href": "../contenidos/libro/algebra/algebra-elemental.qmd#tag-000V",
       "relations": {
         "requiere": [
@@ -413,7 +413,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Suma por diferencia y binomios con término común",
       "source": "contenidos/libro/algebra/algebra-elemental.qmd",
-      "line": 287,
+      "line": 298,
       "href": "../contenidos/libro/algebra/algebra-elemental.qmd#exm-000V",
       "relations": {
         "aplica": [
@@ -426,7 +426,7 @@
       "type": "propiedad",
       "title": "Cubo de binomios y suma o diferencia de cubos",
       "source": "contenidos/libro/algebra/algebra-elemental.qmd",
-      "line": 295,
+      "line": 306,
       "href": "../contenidos/libro/algebra/algebra-elemental.qmd#tag-000X",
       "relations": {
         "requiere": [
@@ -440,7 +440,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Cubo de binomios y suma o diferencia de cubos",
       "source": "contenidos/libro/algebra/algebra-elemental.qmd",
-      "line": 328,
+      "line": 339,
       "href": "../contenidos/libro/algebra/algebra-elemental.qmd#exm-000X",
       "relations": {
         "aplica": [
@@ -453,7 +453,7 @@
       "type": "tecnica",
       "title": "Factor común y agrupación",
       "source": "contenidos/libro/algebra/algebra-elemental.qmd",
-      "line": 338,
+      "line": 349,
       "href": "../contenidos/libro/algebra/algebra-elemental.qmd#tag-000Z",
       "relations": {
         "requiere": [
@@ -466,7 +466,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Factor común y agrupación",
       "source": "contenidos/libro/algebra/algebra-elemental.qmd",
-      "line": 347,
+      "line": 358,
       "href": "../contenidos/libro/algebra/algebra-elemental.qmd#exm-000Z",
       "relations": {
         "aplica": [
@@ -479,7 +479,7 @@
       "type": "tecnica",
       "title": "Factorización mediante identidades",
       "source": "contenidos/libro/algebra/algebra-elemental.qmd",
-      "line": 352,
+      "line": 363,
       "href": "../contenidos/libro/algebra/algebra-elemental.qmd#tag-0011",
       "relations": {
         "requiere": [
@@ -495,7 +495,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Factorización mediante identidades",
       "source": "contenidos/libro/algebra/algebra-elemental.qmd",
-      "line": 361,
+      "line": 372,
       "href": "../contenidos/libro/algebra/algebra-elemental.qmd#exm-0011",
       "relations": {
         "aplica": [
@@ -508,7 +508,7 @@
       "type": "tecnica",
       "title": "Completar el cuadrado",
       "source": "contenidos/libro/algebra/algebra-elemental.qmd",
-      "line": 366,
+      "line": 377,
       "href": "../contenidos/libro/algebra/algebra-elemental.qmd#tag-0013",
       "relations": {
         "requiere": [
@@ -521,7 +521,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Completar el cuadrado",
       "source": "contenidos/libro/algebra/algebra-elemental.qmd",
-      "line": 377,
+      "line": 388,
       "href": "../contenidos/libro/algebra/algebra-elemental.qmd#exm-0013",
       "relations": {
         "aplica": [
@@ -534,7 +534,7 @@
       "type": "definicion",
       "title": "Fracciones algebraicas",
       "source": "contenidos/libro/algebra/algebra-elemental.qmd",
-      "line": 382,
+      "line": 393,
       "href": "../contenidos/libro/algebra/algebra-elemental.qmd#tag-0015",
       "relations": {
         "requiere": [
@@ -548,7 +548,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Fracciones algebraicas",
       "source": "contenidos/libro/algebra/algebra-elemental.qmd",
-      "line": 391,
+      "line": 402,
       "href": "../contenidos/libro/algebra/algebra-elemental.qmd#exm-0015",
       "relations": {
         "aplica": [
@@ -561,7 +561,7 @@
       "type": "tecnica",
       "title": "Simplificación y operaciones con fracciones algebraicas",
       "source": "contenidos/libro/algebra/algebra-elemental.qmd",
-      "line": 396,
+      "line": 407,
       "href": "../contenidos/libro/algebra/algebra-elemental.qmd#tag-0017",
       "relations": {
         "requiere": [
@@ -575,7 +575,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Simplificación y operaciones con fracciones algebraicas",
       "source": "contenidos/libro/algebra/algebra-elemental.qmd",
-      "line": 407,
+      "line": 418,
       "href": "../contenidos/libro/algebra/algebra-elemental.qmd#exm-0017",
       "relations": {
         "aplica": [
@@ -588,7 +588,7 @@
       "type": "aplicacion",
       "title": "Generalización de una construcción",
       "source": "contenidos/libro/algebra/algebra-elemental.qmd",
-      "line": 414,
+      "line": 425,
       "href": "../contenidos/libro/algebra/algebra-elemental.qmd#tag-0019",
       "relations": {
         "requiere": [
@@ -602,7 +602,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Generalización de una construcción",
       "source": "contenidos/libro/algebra/algebra-elemental.qmd",
-      "line": 423,
+      "line": 434,
       "href": "../contenidos/libro/algebra/algebra-elemental.qmd#exm-0019",
       "relations": {
         "aplica": [
@@ -615,7 +615,7 @@
       "type": "observacion",
       "title": "Errores algebraicos y evidencia diagnóstica",
       "source": "contenidos/libro/algebra/algebra-elemental.qmd",
-      "line": 428,
+      "line": 439,
       "href": "../contenidos/libro/algebra/algebra-elemental.qmd#tag-001B",
       "relations": {
         "requiere": [
@@ -631,7 +631,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Errores algebraicos y evidencia diagnóstica",
       "source": "contenidos/libro/algebra/algebra-elemental.qmd",
-      "line": 437,
+      "line": 448,
       "href": "../contenidos/libro/algebra/algebra-elemental.qmd#exm-001B",
       "relations": {
         "aplica": [
@@ -644,7 +644,7 @@
       "type": "definicion",
       "title": "Ecuación, dominio y conjunto solución",
       "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
-      "line": 22,
+      "line": 33,
       "href": "../contenidos/libro/algebra/ecuaciones-inecuaciones.qmd#tag-001D",
       "relations": {
         "requiere": [
@@ -658,7 +658,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Ecuación, dominio y conjunto solución",
       "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
-      "line": 31,
+      "line": 42,
       "href": "../contenidos/libro/algebra/ecuaciones-inecuaciones.qmd#exm-001D",
       "relations": {
         "aplica": [
@@ -671,7 +671,7 @@
       "type": "definicion",
       "title": "Ecuaciones equivalentes e implicación",
       "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
-      "line": 36,
+      "line": 47,
       "href": "../contenidos/libro/algebra/ecuaciones-inecuaciones.qmd#tag-001F",
       "relations": {
         "requiere": [
@@ -684,7 +684,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Ecuaciones equivalentes e implicación",
       "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
-      "line": 45,
+      "line": 56,
       "href": "../contenidos/libro/algebra/ecuaciones-inecuaciones.qmd#exm-001F",
       "relations": {
         "aplica": [
@@ -697,7 +697,7 @@
       "type": "principio",
       "title": "Transformaciones que preservan soluciones",
       "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
-      "line": 50,
+      "line": 61,
       "href": "../contenidos/libro/algebra/ecuaciones-inecuaciones.qmd#tag-001H",
       "relations": {
         "requiere": [
@@ -710,7 +710,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Transformaciones que preservan soluciones",
       "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
-      "line": 65,
+      "line": 76,
       "href": "../contenidos/libro/algebra/ecuaciones-inecuaciones.qmd#exm-001H",
       "relations": {
         "aplica": [
@@ -723,7 +723,7 @@
       "type": "tecnica",
       "title": "Ecuación lineal en una incógnita",
       "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
-      "line": 72,
+      "line": 83,
       "href": "../contenidos/libro/algebra/ecuaciones-inecuaciones.qmd#tag-001J",
       "relations": {
         "requiere": [
@@ -737,7 +737,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Ecuación lineal en una incógnita",
       "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
-      "line": 81,
+      "line": 92,
       "href": "../contenidos/libro/algebra/ecuaciones-inecuaciones.qmd#exm-001J",
       "relations": {
         "aplica": [
@@ -750,7 +750,7 @@
       "type": "tecnica",
       "title": "Despeje de fórmulas y parámetros",
       "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
-      "line": 86,
+      "line": 97,
       "href": "../contenidos/libro/algebra/ecuaciones-inecuaciones.qmd#tag-001L",
       "relations": {
         "requiere": [
@@ -764,7 +764,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Despeje de fórmulas y parámetros",
       "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
-      "line": 95,
+      "line": 106,
       "href": "../contenidos/libro/algebra/ecuaciones-inecuaciones.qmd#exm-001L",
       "relations": {
         "aplica": [
@@ -777,7 +777,7 @@
       "type": "tecnica",
       "title": "Factorización y producto nulo",
       "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
-      "line": 102,
+      "line": 113,
       "href": "../contenidos/libro/algebra/ecuaciones-inecuaciones.qmd#tag-001N",
       "relations": {
         "requiere": [
@@ -791,7 +791,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Factorización y producto nulo",
       "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
-      "line": 111,
+      "line": 122,
       "href": "../contenidos/libro/algebra/ecuaciones-inecuaciones.qmd#exm-001N",
       "relations": {
         "aplica": [
@@ -804,7 +804,7 @@
       "type": "propiedad",
       "title": "Fórmula cuadrática y discriminante",
       "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
-      "line": 116,
+      "line": 127,
       "href": "../contenidos/libro/algebra/ecuaciones-inecuaciones.qmd#tag-001P",
       "relations": {
         "requiere": [
@@ -819,7 +819,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Fórmula cuadrática y discriminante",
       "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
-      "line": 139,
+      "line": 150,
       "href": "../contenidos/libro/algebra/ecuaciones-inecuaciones.qmd#exm-001P",
       "relations": {
         "aplica": [
@@ -832,7 +832,7 @@
       "type": "tecnica",
       "title": "Completar cuadrados para resolver",
       "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
-      "line": 144,
+      "line": 155,
       "href": "../contenidos/libro/algebra/ecuaciones-inecuaciones.qmd#tag-001R",
       "relations": {
         "requiere": [
@@ -846,7 +846,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Completar cuadrados para resolver",
       "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
-      "line": 153,
+      "line": 164,
       "href": "../contenidos/libro/algebra/ecuaciones-inecuaciones.qmd#exm-001R",
       "relations": {
         "aplica": [
@@ -859,7 +859,7 @@
       "type": "propiedad",
       "title": "Suma y producto de raíces",
       "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
-      "line": 158,
+      "line": 169,
       "href": "../contenidos/libro/algebra/ecuaciones-inecuaciones.qmd#tag-001T",
       "relations": {
         "requiere": [
@@ -873,7 +873,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Suma y producto de raíces",
       "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
-      "line": 179,
+      "line": 190,
       "href": "../contenidos/libro/algebra/ecuaciones-inecuaciones.qmd#exm-001T",
       "relations": {
         "aplica": [
@@ -886,7 +886,7 @@
       "type": "tecnica",
       "title": "Ecuaciones racionales",
       "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
-      "line": 186,
+      "line": 197,
       "href": "../contenidos/libro/algebra/ecuaciones-inecuaciones.qmd#tag-001V",
       "relations": {
         "requiere": [
@@ -900,7 +900,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Ecuaciones racionales",
       "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
-      "line": 195,
+      "line": 206,
       "href": "../contenidos/libro/algebra/ecuaciones-inecuaciones.qmd#exm-001V",
       "relations": {
         "aplica": [
@@ -913,7 +913,7 @@
       "type": "tecnica",
       "title": "Ecuaciones con radicales y candidatos extraños",
       "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
-      "line": 200,
+      "line": 211,
       "href": "../contenidos/libro/algebra/ecuaciones-inecuaciones.qmd#tag-001X",
       "relations": {
         "requiere": [
@@ -928,7 +928,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Ecuaciones con radicales y candidatos extraños",
       "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
-      "line": 209,
+      "line": 220,
       "href": "../contenidos/libro/algebra/ecuaciones-inecuaciones.qmd#exm-001X",
       "relations": {
         "aplica": [
@@ -941,7 +941,7 @@
       "type": "tecnica",
       "title": "Ecuaciones exponenciales y logarítmicas",
       "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
-      "line": 214,
+      "line": 225,
       "href": "../contenidos/libro/algebra/ecuaciones-inecuaciones.qmd#tag-001Z",
       "relations": {
         "requiere": [
@@ -957,7 +957,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Ecuaciones exponenciales y logarítmicas",
       "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
-      "line": 223,
+      "line": 234,
       "href": "../contenidos/libro/algebra/ecuaciones-inecuaciones.qmd#exm-001Z",
       "relations": {
         "aplica": [
@@ -970,7 +970,7 @@
       "type": "tecnica",
       "title": "Ecuaciones con valor absoluto",
       "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
-      "line": 228,
+      "line": 239,
       "href": "../contenidos/libro/algebra/ecuaciones-inecuaciones.qmd#tag-0021",
       "relations": {
         "requiere": [
@@ -983,7 +983,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Ecuaciones con valor absoluto",
       "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
-      "line": 237,
+      "line": 248,
       "href": "../contenidos/libro/algebra/ecuaciones-inecuaciones.qmd#exm-0021",
       "relations": {
         "aplica": [
@@ -996,7 +996,7 @@
       "type": "tecnica",
       "title": "Cambio de variable y recuperación del dominio",
       "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
-      "line": 242,
+      "line": 253,
       "href": "../contenidos/libro/algebra/ecuaciones-inecuaciones.qmd#tag-0023",
       "relations": {
         "requiere": [
@@ -1010,7 +1010,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Cambio de variable y recuperación del dominio",
       "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
-      "line": 251,
+      "line": 262,
       "href": "../contenidos/libro/algebra/ecuaciones-inecuaciones.qmd#exm-0023",
       "relations": {
         "aplica": [
@@ -1023,7 +1023,7 @@
       "type": "definicion",
       "title": "Inecuación y representación del conjunto solución",
       "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
-      "line": 258,
+      "line": 269,
       "href": "../contenidos/libro/algebra/ecuaciones-inecuaciones.qmd#tag-0025",
       "relations": {
         "requiere": [
@@ -1036,7 +1036,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Inecuación y representación del conjunto solución",
       "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
-      "line": 267,
+      "line": 278,
       "href": "../contenidos/libro/algebra/ecuaciones-inecuaciones.qmd#exm-0025",
       "relations": {
         "aplica": [
@@ -1049,7 +1049,7 @@
       "type": "principio",
       "title": "Transformaciones de desigualdades",
       "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
-      "line": 272,
+      "line": 283,
       "href": "../contenidos/libro/algebra/ecuaciones-inecuaciones.qmd#tag-0027",
       "relations": {
         "requiere": [
@@ -1062,7 +1062,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Transformaciones de desigualdades",
       "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
-      "line": 287,
+      "line": 298,
       "href": "../contenidos/libro/algebra/ecuaciones-inecuaciones.qmd#exm-0027",
       "relations": {
         "aplica": [
@@ -1075,7 +1075,7 @@
       "type": "tecnica",
       "title": "Inecuaciones lineales y condiciones simultáneas",
       "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
-      "line": 292,
+      "line": 303,
       "href": "../contenidos/libro/algebra/ecuaciones-inecuaciones.qmd#tag-0029",
       "relations": {
         "requiere": [
@@ -1088,7 +1088,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Inecuaciones lineales y condiciones simultáneas",
       "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
-      "line": 301,
+      "line": 312,
       "href": "../contenidos/libro/algebra/ecuaciones-inecuaciones.qmd#exm-0029",
       "relations": {
         "aplica": [
@@ -1101,7 +1101,7 @@
       "type": "tecnica",
       "title": "Tabla de signos de productos y cocientes",
       "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
-      "line": 306,
+      "line": 317,
       "href": "../contenidos/libro/algebra/ecuaciones-inecuaciones.qmd#tag-002B",
       "relations": {
         "requiere": [
@@ -1116,7 +1116,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Tabla de signos de productos y cocientes",
       "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
-      "line": 315,
+      "line": 326,
       "href": "../contenidos/libro/algebra/ecuaciones-inecuaciones.qmd#exm-002B",
       "relations": {
         "aplica": [
@@ -1129,7 +1129,7 @@
       "type": "tecnica",
       "title": "Inecuaciones cuadráticas",
       "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
-      "line": 320,
+      "line": 331,
       "href": "../contenidos/libro/algebra/ecuaciones-inecuaciones.qmd#tag-002D",
       "relations": {
         "requiere": [
@@ -1143,7 +1143,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Inecuaciones cuadráticas",
       "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
-      "line": 329,
+      "line": 340,
       "href": "../contenidos/libro/algebra/ecuaciones-inecuaciones.qmd#exm-002D",
       "relations": {
         "aplica": [
@@ -1156,7 +1156,7 @@
       "type": "tecnica",
       "title": "Inecuaciones con valor absoluto",
       "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
-      "line": 334,
+      "line": 345,
       "href": "../contenidos/libro/algebra/ecuaciones-inecuaciones.qmd#tag-002F",
       "relations": {
         "requiere": [
@@ -1170,7 +1170,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Inecuaciones con valor absoluto",
       "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
-      "line": 343,
+      "line": 354,
       "href": "../contenidos/libro/algebra/ecuaciones-inecuaciones.qmd#exm-002F",
       "relations": {
         "aplica": [
@@ -1183,7 +1183,7 @@
       "type": "tecnica",
       "title": "Inecuaciones exponenciales y logarítmicas",
       "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
-      "line": 348,
+      "line": 359,
       "href": "../contenidos/libro/algebra/ecuaciones-inecuaciones.qmd#tag-002H",
       "relations": {
         "requiere": [
@@ -1198,7 +1198,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Inecuaciones exponenciales y logarítmicas",
       "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
-      "line": 357,
+      "line": 368,
       "href": "../contenidos/libro/algebra/ecuaciones-inecuaciones.qmd#exm-002H",
       "relations": {
         "aplica": [
@@ -1211,7 +1211,7 @@
       "type": "definicion",
       "title": "Sistema de ecuaciones y solución simultánea",
       "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
-      "line": 364,
+      "line": 375,
       "href": "../contenidos/libro/algebra/ecuaciones-inecuaciones.qmd#tag-002J",
       "relations": {
         "requiere": [
@@ -1225,7 +1225,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Sistema de ecuaciones y solución simultánea",
       "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
-      "line": 373,
+      "line": 384,
       "href": "../contenidos/libro/algebra/ecuaciones-inecuaciones.qmd#exm-002J",
       "relations": {
         "aplica": [
@@ -1238,7 +1238,7 @@
       "type": "tecnica",
       "title": "Sustitución, igualación y eliminación",
       "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
-      "line": 378,
+      "line": 389,
       "href": "../contenidos/libro/algebra/ecuaciones-inecuaciones.qmd#tag-002L",
       "relations": {
         "requiere": [
@@ -1252,7 +1252,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Sustitución, igualación y eliminación",
       "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
-      "line": 387,
+      "line": 398,
       "href": "../contenidos/libro/algebra/ecuaciones-inecuaciones.qmd#exm-002L",
       "relations": {
         "aplica": [
@@ -1265,7 +1265,7 @@
       "type": "criterio",
       "title": "Clasificación de sistemas lineales de dos incógnitas",
       "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
-      "line": 392,
+      "line": 403,
       "href": "../contenidos/libro/algebra/ecuaciones-inecuaciones.qmd#tag-002N",
       "relations": {
         "requiere": [
@@ -1279,7 +1279,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Clasificación de sistemas lineales de dos incógnitas",
       "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
-      "line": 401,
+      "line": 412,
       "href": "../contenidos/libro/algebra/ecuaciones-inecuaciones.qmd#exm-002N",
       "relations": {
         "aplica": [
@@ -1292,7 +1292,7 @@
       "type": "tecnica",
       "title": "Interpretación gráfica de ecuaciones e inecuaciones",
       "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
-      "line": 408,
+      "line": 419,
       "href": "../contenidos/libro/algebra/ecuaciones-inecuaciones.qmd#tag-002P",
       "relations": {
         "requiere": [
@@ -1307,7 +1307,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Interpretación gráfica de ecuaciones e inecuaciones",
       "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
-      "line": 417,
+      "line": 428,
       "href": "../contenidos/libro/algebra/ecuaciones-inecuaciones.qmd#exm-002P",
       "relations": {
         "aplica": [
@@ -1320,7 +1320,7 @@
       "type": "aplicacion",
       "title": "Construcción e interpretación de modelos algebraicos",
       "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
-      "line": 422,
+      "line": 433,
       "href": "../contenidos/libro/algebra/ecuaciones-inecuaciones.qmd#tag-002R",
       "relations": {
         "requiere": [
@@ -1335,7 +1335,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Construcción e interpretación de modelos algebraicos",
       "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
-      "line": 431,
+      "line": 442,
       "href": "../contenidos/libro/algebra/ecuaciones-inecuaciones.qmd#exm-002R",
       "relations": {
         "aplica": [
@@ -1348,7 +1348,7 @@
       "type": "observacion",
       "title": "Errores de resolución y control de equivalencias",
       "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
-      "line": 436,
+      "line": 447,
       "href": "../contenidos/libro/algebra/ecuaciones-inecuaciones.qmd#tag-002T",
       "relations": {
         "requiere": [
@@ -1364,7 +1364,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Errores de resolución y control de equivalencias",
       "source": "contenidos/libro/algebra/ecuaciones-inecuaciones.qmd",
-      "line": 445,
+      "line": 456,
       "href": "../contenidos/libro/algebra/ecuaciones-inecuaciones.qmd#exm-002T",
       "relations": {
         "aplica": [
@@ -1377,7 +1377,7 @@
       "type": "definicion",
       "title": "Función como correspondencia unívoca",
       "source": "contenidos/libro/algebra/funciones.qmd",
-      "line": 22,
+      "line": 33,
       "href": "../contenidos/libro/algebra/funciones.qmd#tag-002V",
       "relations": {
         "requiere": [
@@ -1390,7 +1390,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Función como correspondencia unívoca",
       "source": "contenidos/libro/algebra/funciones.qmd",
-      "line": 31,
+      "line": 42,
       "href": "../contenidos/libro/algebra/funciones.qmd#exm-002V",
       "relations": {
         "aplica": [
@@ -1403,7 +1403,7 @@
       "type": "definicion",
       "title": "Covariación entre cantidades",
       "source": "contenidos/libro/algebra/funciones.qmd",
-      "line": 36,
+      "line": 47,
       "href": "../contenidos/libro/algebra/funciones.qmd#tag-002X",
       "relations": {
         "requiere": [
@@ -1416,7 +1416,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Covariación entre cantidades",
       "source": "contenidos/libro/algebra/funciones.qmd",
-      "line": 45,
+      "line": 56,
       "href": "../contenidos/libro/algebra/funciones.qmd#exm-002X",
       "relations": {
         "aplica": [
@@ -1429,7 +1429,7 @@
       "type": "definicion",
       "title": "Dominio y restricciones contextuales",
       "source": "contenidos/libro/algebra/funciones.qmd",
-      "line": 52,
+      "line": 63,
       "href": "../contenidos/libro/algebra/funciones.qmd#tag-002Z",
       "relations": {
         "requiere": [
@@ -1443,7 +1443,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Dominio y restricciones contextuales",
       "source": "contenidos/libro/algebra/funciones.qmd",
-      "line": 61,
+      "line": 72,
       "href": "../contenidos/libro/algebra/funciones.qmd#exm-002Z",
       "relations": {
         "aplica": [
@@ -1456,7 +1456,7 @@
       "type": "definicion",
       "title": "Codominio, imagen y recorrido",
       "source": "contenidos/libro/algebra/funciones.qmd",
-      "line": 66,
+      "line": 77,
       "href": "../contenidos/libro/algebra/funciones.qmd#tag-0031",
       "relations": {
         "requiere": [
@@ -1470,7 +1470,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Codominio, imagen y recorrido",
       "source": "contenidos/libro/algebra/funciones.qmd",
-      "line": 79,
+      "line": 90,
       "href": "../contenidos/libro/algebra/funciones.qmd#exm-0031",
       "relations": {
         "aplica": [
@@ -1483,7 +1483,7 @@
       "type": "definicion",
       "title": "Preimagen de un valor o conjunto",
       "source": "contenidos/libro/algebra/funciones.qmd",
-      "line": 84,
+      "line": 95,
       "href": "../contenidos/libro/algebra/funciones.qmd#tag-0033",
       "relations": {
         "requiere": [
@@ -1497,7 +1497,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Preimagen de un valor o conjunto",
       "source": "contenidos/libro/algebra/funciones.qmd",
-      "line": 93,
+      "line": 104,
       "href": "../contenidos/libro/algebra/funciones.qmd#exm-0033",
       "relations": {
         "aplica": [
@@ -1510,7 +1510,7 @@
       "type": "criterio",
       "title": "Regla verbal, tabla, fórmula y gráfica",
       "source": "contenidos/libro/algebra/funciones.qmd",
-      "line": 100,
+      "line": 111,
       "href": "../contenidos/libro/algebra/funciones.qmd#tag-0035",
       "relations": {
         "requiere": [
@@ -1525,7 +1525,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Regla verbal, tabla, fórmula y gráfica",
       "source": "contenidos/libro/algebra/funciones.qmd",
-      "line": 109,
+      "line": 120,
       "href": "../contenidos/libro/algebra/funciones.qmd#exm-0035",
       "relations": {
         "aplica": [
@@ -1538,7 +1538,7 @@
       "type": "criterio",
       "title": "Prueba de la recta vertical",
       "source": "contenidos/libro/algebra/funciones.qmd",
-      "line": 114,
+      "line": 125,
       "href": "../contenidos/libro/algebra/funciones.qmd#tag-0037",
       "relations": {
         "requiere": [
@@ -1552,7 +1552,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Prueba de la recta vertical",
       "source": "contenidos/libro/algebra/funciones.qmd",
-      "line": 123,
+      "line": 134,
       "href": "../contenidos/libro/algebra/funciones.qmd#exm-0037",
       "relations": {
         "aplica": [
@@ -1565,7 +1565,7 @@
       "type": "definicion",
       "title": "Ceros, signo e intersecciones",
       "source": "contenidos/libro/algebra/funciones.qmd",
-      "line": 128,
+      "line": 139,
       "href": "../contenidos/libro/algebra/funciones.qmd#tag-0039",
       "relations": {
         "requiere": [
@@ -1580,7 +1580,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Ceros, signo e intersecciones",
       "source": "contenidos/libro/algebra/funciones.qmd",
-      "line": 137,
+      "line": 148,
       "href": "../contenidos/libro/algebra/funciones.qmd#exm-0039",
       "relations": {
         "aplica": [
@@ -1593,7 +1593,7 @@
       "type": "definicion",
       "title": "Monotonía y extremos",
       "source": "contenidos/libro/algebra/funciones.qmd",
-      "line": 142,
+      "line": 153,
       "href": "../contenidos/libro/algebra/funciones.qmd#tag-003B",
       "relations": {
         "requiere": [
@@ -1606,7 +1606,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Monotonía y extremos",
       "source": "contenidos/libro/algebra/funciones.qmd",
-      "line": 156,
+      "line": 167,
       "href": "../contenidos/libro/algebra/funciones.qmd#exm-003B",
       "relations": {
         "aplica": [
@@ -1619,7 +1619,7 @@
       "type": "definicion",
       "title": "Tasa de cambio media",
       "source": "contenidos/libro/algebra/funciones.qmd",
-      "line": 161,
+      "line": 172,
       "href": "../contenidos/libro/algebra/funciones.qmd#tag-003D",
       "relations": {
         "requiere": [
@@ -1633,7 +1633,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Tasa de cambio media",
       "source": "contenidos/libro/algebra/funciones.qmd",
-      "line": 172,
+      "line": 183,
       "href": "../contenidos/libro/algebra/funciones.qmd#exm-003D",
       "relations": {
         "aplica": [
@@ -1646,7 +1646,7 @@
       "type": "definicion",
       "title": "Composición de funciones",
       "source": "contenidos/libro/algebra/funciones.qmd",
-      "line": 179,
+      "line": 190,
       "href": "../contenidos/libro/algebra/funciones.qmd#tag-003F",
       "relations": {
         "requiere": [
@@ -1660,7 +1660,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Composición de funciones",
       "source": "contenidos/libro/algebra/funciones.qmd",
-      "line": 188,
+      "line": 199,
       "href": "../contenidos/libro/algebra/funciones.qmd#exm-003F",
       "relations": {
         "aplica": [
@@ -1673,7 +1673,7 @@
       "type": "definicion",
       "title": "Inyectividad, sobreyectividad y biyectividad",
       "source": "contenidos/libro/algebra/funciones.qmd",
-      "line": 193,
+      "line": 204,
       "href": "../contenidos/libro/algebra/funciones.qmd#tag-003H",
       "relations": {
         "requiere": [
@@ -1687,7 +1687,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Inyectividad, sobreyectividad y biyectividad",
       "source": "contenidos/libro/algebra/funciones.qmd",
-      "line": 206,
+      "line": 217,
       "href": "../contenidos/libro/algebra/funciones.qmd#exm-003H",
       "relations": {
         "aplica": [
@@ -1700,7 +1700,7 @@
       "type": "definicion",
       "title": "Función inversa y restricción de dominio",
       "source": "contenidos/libro/algebra/funciones.qmd",
-      "line": 214,
+      "line": 225,
       "href": "../contenidos/libro/algebra/funciones.qmd#tag-003J",
       "relations": {
         "requiere": [
@@ -1715,7 +1715,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Función inversa y restricción de dominio",
       "source": "contenidos/libro/algebra/funciones.qmd",
-      "line": 223,
+      "line": 234,
       "href": "../contenidos/libro/algebra/funciones.qmd#exm-003J",
       "relations": {
         "aplica": [
@@ -1728,7 +1728,7 @@
       "type": "definicion",
       "title": "Función lineal y proporcionalidad directa",
       "source": "contenidos/libro/algebra/funciones.qmd",
-      "line": 230,
+      "line": 241,
       "href": "../contenidos/libro/algebra/funciones.qmd#tag-003L",
       "relations": {
         "requiere": [
@@ -1742,7 +1742,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Función lineal y proporcionalidad directa",
       "source": "contenidos/libro/algebra/funciones.qmd",
-      "line": 239,
+      "line": 250,
       "href": "../contenidos/libro/algebra/funciones.qmd#exm-003L",
       "relations": {
         "aplica": [
@@ -1755,7 +1755,7 @@
       "type": "definicion",
       "title": "Función afín y pendiente",
       "source": "contenidos/libro/algebra/funciones.qmd",
-      "line": 244,
+      "line": 255,
       "href": "../contenidos/libro/algebra/funciones.qmd#tag-003N",
       "relations": {
         "requiere": [
@@ -1769,7 +1769,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Función afín y pendiente",
       "source": "contenidos/libro/algebra/funciones.qmd",
-      "line": 253,
+      "line": 264,
       "href": "../contenidos/libro/algebra/funciones.qmd#exm-003N",
       "relations": {
         "aplica": [
@@ -1782,7 +1782,7 @@
       "type": "definicion",
       "title": "Función cuadrática y formas equivalentes",
       "source": "contenidos/libro/algebra/funciones.qmd",
-      "line": 260,
+      "line": 271,
       "href": "../contenidos/libro/algebra/funciones.qmd#tag-003P",
       "relations": {
         "requiere": [
@@ -1796,7 +1796,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Función cuadrática y formas equivalentes",
       "source": "contenidos/libro/algebra/funciones.qmd",
-      "line": 269,
+      "line": 280,
       "href": "../contenidos/libro/algebra/funciones.qmd#exm-003P",
       "relations": {
         "aplica": [
@@ -1809,7 +1809,7 @@
       "type": "propiedad",
       "title": "Vértice, eje de simetría y recorrido",
       "source": "contenidos/libro/algebra/funciones.qmd",
-      "line": 274,
+      "line": 285,
       "href": "../contenidos/libro/algebra/funciones.qmd#tag-003R",
       "relations": {
         "requiere": [
@@ -1823,7 +1823,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Vértice, eje de simetría y recorrido",
       "source": "contenidos/libro/algebra/funciones.qmd",
-      "line": 311,
+      "line": 322,
       "href": "../contenidos/libro/algebra/funciones.qmd#exm-003R",
       "relations": {
         "aplica": [
@@ -1836,7 +1836,7 @@
       "type": "criterio",
       "title": "Raíces y variación de una cuadrática",
       "source": "contenidos/libro/algebra/funciones.qmd",
-      "line": 316,
+      "line": 327,
       "href": "../contenidos/libro/algebra/funciones.qmd#tag-003T",
       "relations": {
         "requiere": [
@@ -1850,7 +1850,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Raíces y variación de una cuadrática",
       "source": "contenidos/libro/algebra/funciones.qmd",
-      "line": 325,
+      "line": 336,
       "href": "../contenidos/libro/algebra/funciones.qmd#exm-003T",
       "relations": {
         "aplica": [
@@ -1863,7 +1863,7 @@
       "type": "definicion",
       "title": "Funciones potencia de exponente entero",
       "source": "contenidos/libro/algebra/funciones.qmd",
-      "line": 352,
+      "line": 363,
       "href": "../contenidos/libro/algebra/funciones.qmd#tag-003V",
       "relations": {
         "requiere": [
@@ -1878,7 +1878,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Funciones potencia de exponente entero",
       "source": "contenidos/libro/algebra/funciones.qmd",
-      "line": 359,
+      "line": 370,
       "href": "../contenidos/libro/algebra/funciones.qmd#exm-003V",
       "relations": {
         "aplica": [
@@ -1891,7 +1891,7 @@
       "type": "definicion",
       "title": "Funciones raíz y potencia racional",
       "source": "contenidos/libro/algebra/funciones.qmd",
-      "line": 364,
+      "line": 375,
       "href": "../contenidos/libro/algebra/funciones.qmd#tag-003X",
       "relations": {
         "requiere": [
@@ -1906,7 +1906,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Funciones raíz y potencia racional",
       "source": "contenidos/libro/algebra/funciones.qmd",
-      "line": 373,
+      "line": 384,
       "href": "../contenidos/libro/algebra/funciones.qmd#exm-003X",
       "relations": {
         "aplica": [
@@ -1919,7 +1919,7 @@
       "type": "definicion",
       "title": "Función recíproca y asíntotas",
       "source": "contenidos/libro/algebra/funciones.qmd",
-      "line": 378,
+      "line": 389,
       "href": "../contenidos/libro/algebra/funciones.qmd#tag-003Z",
       "relations": {
         "requiere": [
@@ -1933,7 +1933,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Función recíproca y asíntotas",
       "source": "contenidos/libro/algebra/funciones.qmd",
-      "line": 387,
+      "line": 398,
       "href": "../contenidos/libro/algebra/funciones.qmd#exm-003Z",
       "relations": {
         "aplica": [
@@ -1946,7 +1946,7 @@
       "type": "definicion",
       "title": "Función exponencial",
       "source": "contenidos/libro/algebra/funciones.qmd",
-      "line": 394,
+      "line": 405,
       "href": "../contenidos/libro/algebra/funciones.qmd#tag-0041",
       "relations": {
         "requiere": [
@@ -1960,7 +1960,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Función exponencial",
       "source": "contenidos/libro/algebra/funciones.qmd",
-      "line": 403,
+      "line": 414,
       "href": "../contenidos/libro/algebra/funciones.qmd#exm-0041",
       "relations": {
         "aplica": [
@@ -1973,7 +1973,7 @@
       "type": "definicion",
       "title": "Función logarítmica",
       "source": "contenidos/libro/algebra/funciones.qmd",
-      "line": 408,
+      "line": 419,
       "href": "../contenidos/libro/algebra/funciones.qmd#tag-0043",
       "relations": {
         "requiere": [
@@ -1989,7 +1989,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Función logarítmica",
       "source": "contenidos/libro/algebra/funciones.qmd",
-      "line": 417,
+      "line": 428,
       "href": "../contenidos/libro/algebra/funciones.qmd#exm-0043",
       "relations": {
         "aplica": [
@@ -2002,7 +2002,7 @@
       "type": "tecnica",
       "title": "Traslaciones, reflexiones y escalas",
       "source": "contenidos/libro/algebra/funciones.qmd",
-      "line": 424,
+      "line": 435,
       "href": "../contenidos/libro/algebra/funciones.qmd#tag-0045",
       "relations": {
         "requiere": [
@@ -2017,7 +2017,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Traslaciones, reflexiones y escalas",
       "source": "contenidos/libro/algebra/funciones.qmd",
-      "line": 433,
+      "line": 444,
       "href": "../contenidos/libro/algebra/funciones.qmd#exm-0045",
       "relations": {
         "aplica": [
@@ -2030,7 +2030,7 @@
       "type": "definicion",
       "title": "Funciones definidas por tramos",
       "source": "contenidos/libro/algebra/funciones.qmd",
-      "line": 438,
+      "line": 449,
       "href": "../contenidos/libro/algebra/funciones.qmd#tag-0047",
       "relations": {
         "requiere": [
@@ -2044,7 +2044,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Funciones definidas por tramos",
       "source": "contenidos/libro/algebra/funciones.qmd",
-      "line": 447,
+      "line": 458,
       "href": "../contenidos/libro/algebra/funciones.qmd#exm-0047",
       "relations": {
         "aplica": [
@@ -2057,7 +2057,7 @@
       "type": "definicion",
       "title": "Valor absoluto, simetría y periodicidad",
       "source": "contenidos/libro/algebra/funciones.qmd",
-      "line": 452,
+      "line": 463,
       "href": "../contenidos/libro/algebra/funciones.qmd#tag-0049",
       "relations": {
         "requiere": [
@@ -2072,7 +2072,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Valor absoluto, simetría y periodicidad",
       "source": "contenidos/libro/algebra/funciones.qmd",
-      "line": 461,
+      "line": 472,
       "href": "../contenidos/libro/algebra/funciones.qmd#exm-0049",
       "relations": {
         "aplica": [
@@ -2085,7 +2085,7 @@
       "type": "aplicacion",
       "title": "Selección y validación de modelos funcionales",
       "source": "contenidos/libro/algebra/funciones.qmd",
-      "line": 468,
+      "line": 479,
       "href": "../contenidos/libro/algebra/funciones.qmd#tag-004B",
       "relations": {
         "requiere": [
@@ -2102,7 +2102,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Selección y validación de modelos funcionales",
       "source": "contenidos/libro/algebra/funciones.qmd",
-      "line": 477,
+      "line": 488,
       "href": "../contenidos/libro/algebra/funciones.qmd#exm-004B",
       "relations": {
         "aplica": [
@@ -2115,7 +2115,7 @@
       "type": "observacion",
       "title": "Errores en el concepto y las representaciones de función",
       "source": "contenidos/libro/algebra/funciones.qmd",
-      "line": 482,
+      "line": 493,
       "href": "../contenidos/libro/algebra/funciones.qmd#tag-004D",
       "relations": {
         "requiere": [
@@ -2131,7 +2131,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Errores en el concepto y las representaciones de función",
       "source": "contenidos/libro/algebra/funciones.qmd",
-      "line": 491,
+      "line": 502,
       "href": "../contenidos/libro/algebra/funciones.qmd#exm-004D",
       "relations": {
         "aplica": [
@@ -2144,7 +2144,7 @@
       "type": "definicion",
       "title": "Potencia de exponente natural",
       "source": "contenidos/libro/algebra/potencias-raices-logaritmos.qmd",
-      "line": 16,
+      "line": 27,
       "href": "../contenidos/libro/algebra/potencias-raices-logaritmos.qmd#tag-004F",
       "relations": {}
     },
@@ -2153,7 +2153,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Potencia de exponente natural",
       "source": "contenidos/libro/algebra/potencias-raices-logaritmos.qmd",
-      "line": 25,
+      "line": 36,
       "href": "../contenidos/libro/algebra/potencias-raices-logaritmos.qmd#exm-004F",
       "relations": {
         "aplica": [
@@ -2166,7 +2166,7 @@
       "type": "propiedad",
       "title": "Propiedades de las potencias",
       "source": "contenidos/libro/algebra/potencias-raices-logaritmos.qmd",
-      "line": 30,
+      "line": 41,
       "href": "../contenidos/libro/algebra/potencias-raices-logaritmos.qmd#tag-004H",
       "relations": {
         "requiere": [
@@ -2179,7 +2179,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Propiedades de las potencias",
       "source": "contenidos/libro/algebra/potencias-raices-logaritmos.qmd",
-      "line": 76,
+      "line": 87,
       "href": "../contenidos/libro/algebra/potencias-raices-logaritmos.qmd#exm-004H",
       "relations": {
         "aplica": [
@@ -2192,7 +2192,7 @@
       "type": "definicion",
       "title": "Exponentes cero y negativos",
       "source": "contenidos/libro/algebra/potencias-raices-logaritmos.qmd",
-      "line": 81,
+      "line": 92,
       "href": "../contenidos/libro/algebra/potencias-raices-logaritmos.qmd#tag-004J",
       "relations": {
         "requiere": [
@@ -2205,7 +2205,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Exponentes cero y negativos",
       "source": "contenidos/libro/algebra/potencias-raices-logaritmos.qmd",
-      "line": 95,
+      "line": 106,
       "href": "../contenidos/libro/algebra/potencias-raices-logaritmos.qmd#exm-004J",
       "relations": {
         "aplica": [
@@ -2218,7 +2218,7 @@
       "type": "propiedad",
       "title": "Signo de una potencia y paridad",
       "source": "contenidos/libro/algebra/potencias-raices-logaritmos.qmd",
-      "line": 100,
+      "line": 111,
       "href": "../contenidos/libro/algebra/potencias-raices-logaritmos.qmd#tag-004L",
       "relations": {
         "requiere": [
@@ -2232,7 +2232,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Signo de una potencia y paridad",
       "source": "contenidos/libro/algebra/potencias-raices-logaritmos.qmd",
-      "line": 115,
+      "line": 126,
       "href": "../contenidos/libro/algebra/potencias-raices-logaritmos.qmd#exm-004L",
       "relations": {
         "aplica": [
@@ -2245,7 +2245,7 @@
       "type": "definicion",
       "title": "Raíz real principal",
       "source": "contenidos/libro/algebra/potencias-raices-logaritmos.qmd",
-      "line": 122,
+      "line": 133,
       "href": "../contenidos/libro/algebra/potencias-raices-logaritmos.qmd#tag-004N",
       "relations": {
         "requiere": [
@@ -2258,7 +2258,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Raíz real principal",
       "source": "contenidos/libro/algebra/potencias-raices-logaritmos.qmd",
-      "line": 131,
+      "line": 142,
       "href": "../contenidos/libro/algebra/potencias-raices-logaritmos.qmd#exm-004N",
       "relations": {
         "aplica": [
@@ -2271,7 +2271,7 @@
       "type": "propiedad",
       "title": "Raíz de una potencia y valor absoluto",
       "source": "contenidos/libro/algebra/potencias-raices-logaritmos.qmd",
-      "line": 136,
+      "line": 147,
       "href": "../contenidos/libro/algebra/potencias-raices-logaritmos.qmd#tag-004P",
       "relations": {
         "requiere": [
@@ -2285,7 +2285,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Raíz de una potencia y valor absoluto",
       "source": "contenidos/libro/algebra/potencias-raices-logaritmos.qmd",
-      "line": 165,
+      "line": 176,
       "href": "../contenidos/libro/algebra/potencias-raices-logaritmos.qmd#exm-004P",
       "relations": {
         "aplica": [
@@ -2298,7 +2298,7 @@
       "type": "propiedad",
       "title": "Producto y cociente de radicales",
       "source": "contenidos/libro/algebra/potencias-raices-logaritmos.qmd",
-      "line": 170,
+      "line": 181,
       "href": "../contenidos/libro/algebra/potencias-raices-logaritmos.qmd#tag-004R",
       "relations": {
         "requiere": [
@@ -2311,7 +2311,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Producto y cociente de radicales",
       "source": "contenidos/libro/algebra/potencias-raices-logaritmos.qmd",
-      "line": 195,
+      "line": 206,
       "href": "../contenidos/libro/algebra/potencias-raices-logaritmos.qmd#exm-004R",
       "relations": {
         "aplica": [
@@ -2324,7 +2324,7 @@
       "type": "tecnica",
       "title": "Simplificación y combinación de radicales",
       "source": "contenidos/libro/algebra/potencias-raices-logaritmos.qmd",
-      "line": 200,
+      "line": 211,
       "href": "../contenidos/libro/algebra/potencias-raices-logaritmos.qmd#tag-004T",
       "relations": {
         "requiere": [
@@ -2338,7 +2338,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Simplificación y combinación de radicales",
       "source": "contenidos/libro/algebra/potencias-raices-logaritmos.qmd",
-      "line": 209,
+      "line": 220,
       "href": "../contenidos/libro/algebra/potencias-raices-logaritmos.qmd#exm-004T",
       "relations": {
         "aplica": [
@@ -2351,7 +2351,7 @@
       "type": "tecnica",
       "title": "Racionalización de denominadores",
       "source": "contenidos/libro/algebra/potencias-raices-logaritmos.qmd",
-      "line": 214,
+      "line": 225,
       "href": "../contenidos/libro/algebra/potencias-raices-logaritmos.qmd#tag-004V",
       "relations": {
         "requiere": [
@@ -2364,7 +2364,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Racionalización de denominadores",
       "source": "contenidos/libro/algebra/potencias-raices-logaritmos.qmd",
-      "line": 223,
+      "line": 234,
       "href": "../contenidos/libro/algebra/potencias-raices-logaritmos.qmd#exm-004V",
       "relations": {
         "aplica": [
@@ -2377,7 +2377,7 @@
       "type": "definicion",
       "title": "Potencia de exponente racional",
       "source": "contenidos/libro/algebra/potencias-raices-logaritmos.qmd",
-      "line": 230,
+      "line": 241,
       "href": "../contenidos/libro/algebra/potencias-raices-logaritmos.qmd#tag-004X",
       "relations": {
         "requiere": [
@@ -2391,7 +2391,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Potencia de exponente racional",
       "source": "contenidos/libro/algebra/potencias-raices-logaritmos.qmd",
-      "line": 243,
+      "line": 254,
       "href": "../contenidos/libro/algebra/potencias-raices-logaritmos.qmd#exm-004X",
       "relations": {
         "aplica": [
@@ -2404,7 +2404,7 @@
       "type": "definicion",
       "title": "Potencia de exponente real",
       "source": "contenidos/libro/algebra/potencias-raices-logaritmos.qmd",
-      "line": 248,
+      "line": 259,
       "href": "../contenidos/libro/algebra/potencias-raices-logaritmos.qmd#tag-004Z",
       "relations": {
         "requiere": [
@@ -2417,7 +2417,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Potencia de exponente real",
       "source": "contenidos/libro/algebra/potencias-raices-logaritmos.qmd",
-      "line": 257,
+      "line": 268,
       "href": "../contenidos/libro/algebra/potencias-raices-logaritmos.qmd#exm-004Z",
       "relations": {
         "aplica": [
@@ -2430,7 +2430,7 @@
       "type": "definicion",
       "title": "Logaritmo y condiciones de existencia",
       "source": "contenidos/libro/algebra/potencias-raices-logaritmos.qmd",
-      "line": 264,
+      "line": 275,
       "href": "../contenidos/libro/algebra/potencias-raices-logaritmos.qmd#tag-0051",
       "relations": {
         "requiere": [
@@ -2443,7 +2443,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Logaritmo y condiciones de existencia",
       "source": "contenidos/libro/algebra/potencias-raices-logaritmos.qmd",
-      "line": 274,
+      "line": 285,
       "href": "../contenidos/libro/algebra/potencias-raices-logaritmos.qmd#exm-0051",
       "relations": {
         "aplica": [
@@ -2456,7 +2456,7 @@
       "type": "propiedad",
       "title": "Logaritmo de producto, cociente y potencia",
       "source": "contenidos/libro/algebra/potencias-raices-logaritmos.qmd",
-      "line": 279,
+      "line": 290,
       "href": "../contenidos/libro/algebra/potencias-raices-logaritmos.qmd#tag-0053",
       "relations": {
         "requiere": [
@@ -2469,7 +2469,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Logaritmo de producto, cociente y potencia",
       "source": "contenidos/libro/algebra/potencias-raices-logaritmos.qmd",
-      "line": 306,
+      "line": 317,
       "href": "../contenidos/libro/algebra/potencias-raices-logaritmos.qmd#exm-0053",
       "relations": {
         "aplica": [
@@ -2482,7 +2482,7 @@
       "type": "propiedad",
       "title": "Cambio de base e inversión",
       "source": "contenidos/libro/algebra/potencias-raices-logaritmos.qmd",
-      "line": 311,
+      "line": 322,
       "href": "../contenidos/libro/algebra/potencias-raices-logaritmos.qmd#tag-0055",
       "relations": {
         "requiere": [
@@ -2495,7 +2495,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Cambio de base e inversión",
       "source": "contenidos/libro/algebra/potencias-raices-logaritmos.qmd",
-      "line": 347,
+      "line": 358,
       "href": "../contenidos/libro/algebra/potencias-raices-logaritmos.qmd#exm-0055",
       "relations": {
         "aplica": [
@@ -2508,7 +2508,7 @@
       "type": "tecnica",
       "title": "Estimación mediante cotas",
       "source": "contenidos/libro/algebra/potencias-raices-logaritmos.qmd",
-      "line": 354,
+      "line": 365,
       "href": "../contenidos/libro/algebra/potencias-raices-logaritmos.qmd#tag-0057",
       "relations": {
         "requiere": [
@@ -2523,7 +2523,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Estimación mediante cotas",
       "source": "contenidos/libro/algebra/potencias-raices-logaritmos.qmd",
-      "line": 363,
+      "line": 374,
       "href": "../contenidos/libro/algebra/potencias-raices-logaritmos.qmd#exm-0057",
       "relations": {
         "aplica": [
@@ -2536,7 +2536,7 @@
       "type": "definicion",
       "title": "Notación científica y orden de magnitud",
       "source": "contenidos/libro/algebra/potencias-raices-logaritmos.qmd",
-      "line": 368,
+      "line": 379,
       "href": "../contenidos/libro/algebra/potencias-raices-logaritmos.qmd#tag-0059",
       "relations": {
         "requiere": [
@@ -2550,7 +2550,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Notación científica y orden de magnitud",
       "source": "contenidos/libro/algebra/potencias-raices-logaritmos.qmd",
-      "line": 377,
+      "line": 388,
       "href": "../contenidos/libro/algebra/potencias-raices-logaritmos.qmd#exm-0059",
       "relations": {
         "aplica": [
@@ -2563,7 +2563,7 @@
       "type": "aplicacion",
       "title": "Crecimiento multiplicativo y duplicación",
       "source": "contenidos/libro/algebra/potencias-raices-logaritmos.qmd",
-      "line": 384,
+      "line": 395,
       "href": "../contenidos/libro/algebra/potencias-raices-logaritmos.qmd#tag-005B",
       "relations": {
         "requiere": [
@@ -2576,7 +2576,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Crecimiento multiplicativo y duplicación",
       "source": "contenidos/libro/algebra/potencias-raices-logaritmos.qmd",
-      "line": 393,
+      "line": 404,
       "href": "../contenidos/libro/algebra/potencias-raices-logaritmos.qmd#exm-005B",
       "relations": {
         "aplica": [
@@ -2589,7 +2589,7 @@
       "type": "aplicacion",
       "title": "Escalas logarítmicas",
       "source": "contenidos/libro/algebra/potencias-raices-logaritmos.qmd",
-      "line": 398,
+      "line": 409,
       "href": "../contenidos/libro/algebra/potencias-raices-logaritmos.qmd#tag-005D",
       "relations": {
         "requiere": [
@@ -2603,7 +2603,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Escalas logarítmicas",
       "source": "contenidos/libro/algebra/potencias-raices-logaritmos.qmd",
-      "line": 407,
+      "line": 418,
       "href": "../contenidos/libro/algebra/potencias-raices-logaritmos.qmd#exm-005D",
       "relations": {
         "aplica": [
@@ -2616,7 +2616,7 @@
       "type": "observacion",
       "title": "Errores frecuentes y restricciones olvidadas",
       "source": "contenidos/libro/algebra/potencias-raices-logaritmos.qmd",
-      "line": 412,
+      "line": 423,
       "href": "../contenidos/libro/algebra/potencias-raices-logaritmos.qmd#tag-005F",
       "relations": {
         "requiere": [
@@ -2631,7 +2631,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Errores frecuentes y restricciones olvidadas",
       "source": "contenidos/libro/algebra/potencias-raices-logaritmos.qmd",
-      "line": 421,
+      "line": 432,
       "href": "../contenidos/libro/algebra/potencias-raices-logaritmos.qmd#exm-005F",
       "relations": {
         "aplica": [
@@ -2644,7 +2644,7 @@
       "type": "propiedad",
       "title": "Leyes de potencias y condiciones de extensión",
       "source": "contenidos/libro/algebra/potencias-raices-logaritmos.qmd",
-      "line": 428,
+      "line": 439,
       "href": "../contenidos/libro/algebra/potencias-raices-logaritmos.qmd#tag-00H0",
       "relations": {
         "requiere": [
@@ -2659,7 +2659,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Leyes de potencias y condiciones de extensión",
       "source": "contenidos/libro/algebra/potencias-raices-logaritmos.qmd",
-      "line": 458,
+      "line": 469,
       "href": "../contenidos/libro/algebra/potencias-raices-logaritmos.qmd#exm-00H0",
       "relations": {
         "aplica": [
@@ -2672,7 +2672,7 @@
       "type": "tecnica",
       "title": "Descomposición prima para simplificar radicales",
       "source": "contenidos/libro/algebra/potencias-raices-logaritmos.qmd",
-      "line": 465,
+      "line": 476,
       "href": "../contenidos/libro/algebra/potencias-raices-logaritmos.qmd#tag-00H2",
       "relations": {
         "requiere": [
@@ -2688,7 +2688,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Descomposición prima para simplificar radicales",
       "source": "contenidos/libro/algebra/potencias-raices-logaritmos.qmd",
-      "line": 474,
+      "line": 485,
       "href": "../contenidos/libro/algebra/potencias-raices-logaritmos.qmd#exm-00H2",
       "relations": {
         "aplica": [
@@ -2701,7 +2701,7 @@
       "type": "tecnica",
       "title": "Radicales y comprobación del dominio",
       "source": "contenidos/libro/algebra/potencias-raices-logaritmos.qmd",
-      "line": 481,
+      "line": 492,
       "href": "../contenidos/libro/algebra/potencias-raices-logaritmos.qmd#tag-00H4",
       "relations": {
         "requiere": [
@@ -2715,7 +2715,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Radicales y comprobación del dominio",
       "source": "contenidos/libro/algebra/potencias-raices-logaritmos.qmd",
-      "line": 490,
+      "line": 501,
       "href": "../contenidos/libro/algebra/potencias-raices-logaritmos.qmd#exm-00H4",
       "relations": {
         "aplica": [
@@ -2728,7 +2728,7 @@
       "type": "tecnica",
       "title": "Logaritmos, dominio y equivalencias",
       "source": "contenidos/libro/algebra/potencias-raices-logaritmos.qmd",
-      "line": 497,
+      "line": 508,
       "href": "../contenidos/libro/algebra/potencias-raices-logaritmos.qmd#tag-00H6",
       "relations": {
         "requiere": [
@@ -2743,7 +2743,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Logaritmos, dominio y equivalencias",
       "source": "contenidos/libro/algebra/potencias-raices-logaritmos.qmd",
-      "line": 506,
+      "line": 517,
       "href": "../contenidos/libro/algebra/potencias-raices-logaritmos.qmd#exm-00H6",
       "relations": {
         "aplica": [
@@ -2756,7 +2756,7 @@
       "type": "aplicacion",
       "title": "Exponentes y análisis dimensional",
       "source": "contenidos/libro/algebra/potencias-raices-logaritmos.qmd",
-      "line": 513,
+      "line": 524,
       "href": "../contenidos/libro/algebra/potencias-raices-logaritmos.qmd#tag-00H8",
       "relations": {
         "requiere": [
@@ -2771,7 +2771,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Exponentes y análisis dimensional",
       "source": "contenidos/libro/algebra/potencias-raices-logaritmos.qmd",
-      "line": 522,
+      "line": 533,
       "href": "../contenidos/libro/algebra/potencias-raices-logaritmos.qmd#exm-00H8",
       "relations": {
         "aplica": [
@@ -2784,7 +2784,7 @@
       "type": "definicion",
       "title": "Sucesión e índice",
       "source": "contenidos/libro/algebra/sucesiones-series.qmd",
-      "line": 22,
+      "line": 33,
       "href": "../contenidos/libro/algebra/sucesiones-series.qmd#tag-005H",
       "relations": {
         "requiere": [
@@ -2798,7 +2798,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Sucesión e índice",
       "source": "contenidos/libro/algebra/sucesiones-series.qmd",
-      "line": 31,
+      "line": 42,
       "href": "../contenidos/libro/algebra/sucesiones-series.qmd#exm-005H",
       "relations": {
         "aplica": [
@@ -2811,7 +2811,7 @@
       "type": "definicion",
       "title": "Fórmula explícita",
       "source": "contenidos/libro/algebra/sucesiones-series.qmd",
-      "line": 36,
+      "line": 47,
       "href": "../contenidos/libro/algebra/sucesiones-series.qmd#tag-005J",
       "relations": {
         "requiere": [
@@ -2824,7 +2824,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Fórmula explícita",
       "source": "contenidos/libro/algebra/sucesiones-series.qmd",
-      "line": 45,
+      "line": 56,
       "href": "../contenidos/libro/algebra/sucesiones-series.qmd#exm-005J",
       "relations": {
         "aplica": [
@@ -2837,7 +2837,7 @@
       "type": "definicion",
       "title": "Recurrencia y condiciones iniciales",
       "source": "contenidos/libro/algebra/sucesiones-series.qmd",
-      "line": 50,
+      "line": 61,
       "href": "../contenidos/libro/algebra/sucesiones-series.qmd#tag-005L",
       "relations": {
         "requiere": [
@@ -2851,7 +2851,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Recurrencia y condiciones iniciales",
       "source": "contenidos/libro/algebra/sucesiones-series.qmd",
-      "line": 59,
+      "line": 70,
       "href": "../contenidos/libro/algebra/sucesiones-series.qmd#exm-005L",
       "relations": {
         "aplica": [
@@ -2864,7 +2864,7 @@
       "type": "criterio",
       "title": "Patrón observado y regla determinada",
       "source": "contenidos/libro/algebra/sucesiones-series.qmd",
-      "line": 64,
+      "line": 75,
       "href": "../contenidos/libro/algebra/sucesiones-series.qmd#tag-005N",
       "relations": {
         "requiere": [
@@ -2878,7 +2878,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Patrón observado y regla determinada",
       "source": "contenidos/libro/algebra/sucesiones-series.qmd",
-      "line": 73,
+      "line": 84,
       "href": "../contenidos/libro/algebra/sucesiones-series.qmd#exm-005N",
       "relations": {
         "aplica": [
@@ -2891,7 +2891,7 @@
       "type": "definicion",
       "title": "Progresión aritmética",
       "source": "contenidos/libro/algebra/sucesiones-series.qmd",
-      "line": 80,
+      "line": 91,
       "href": "../contenidos/libro/algebra/sucesiones-series.qmd#tag-005P",
       "relations": {
         "requiere": [
@@ -2904,7 +2904,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Progresión aritmética",
       "source": "contenidos/libro/algebra/sucesiones-series.qmd",
-      "line": 90,
+      "line": 101,
       "href": "../contenidos/libro/algebra/sucesiones-series.qmd#exm-005P",
       "relations": {
         "aplica": [
@@ -2917,7 +2917,7 @@
       "type": "tecnica",
       "title": "Determinación de una progresión aritmética",
       "source": "contenidos/libro/algebra/sucesiones-series.qmd",
-      "line": 95,
+      "line": 106,
       "href": "../contenidos/libro/algebra/sucesiones-series.qmd#tag-005R",
       "relations": {
         "requiere": [
@@ -2930,7 +2930,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Determinación de una progresión aritmética",
       "source": "contenidos/libro/algebra/sucesiones-series.qmd",
-      "line": 106,
+      "line": 117,
       "href": "../contenidos/libro/algebra/sucesiones-series.qmd#exm-005R",
       "relations": {
         "aplica": [
@@ -2943,7 +2943,7 @@
       "type": "propiedad",
       "title": "Suma de una progresión aritmética",
       "source": "contenidos/libro/algebra/sucesiones-series.qmd",
-      "line": 111,
+      "line": 122,
       "href": "../contenidos/libro/algebra/sucesiones-series.qmd#tag-005T",
       "relations": {
         "requiere": [
@@ -2956,7 +2956,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Suma de una progresión aritmética",
       "source": "contenidos/libro/algebra/sucesiones-series.qmd",
-      "line": 121,
+      "line": 132,
       "href": "../contenidos/libro/algebra/sucesiones-series.qmd#exm-005T",
       "relations": {
         "aplica": [
@@ -2969,7 +2969,7 @@
       "type": "definicion",
       "title": "Progresión geométrica",
       "source": "contenidos/libro/algebra/sucesiones-series.qmd",
-      "line": 128,
+      "line": 139,
       "href": "../contenidos/libro/algebra/sucesiones-series.qmd#tag-005V",
       "relations": {
         "requiere": [
@@ -2983,7 +2983,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Progresión geométrica",
       "source": "contenidos/libro/algebra/sucesiones-series.qmd",
-      "line": 137,
+      "line": 148,
       "href": "../contenidos/libro/algebra/sucesiones-series.qmd#exm-005V",
       "relations": {
         "aplica": [
@@ -2996,7 +2996,7 @@
       "type": "criterio",
       "title": "Comportamiento de una progresión geométrica",
       "source": "contenidos/libro/algebra/sucesiones-series.qmd",
-      "line": 142,
+      "line": 153,
       "href": "../contenidos/libro/algebra/sucesiones-series.qmd#tag-005X",
       "relations": {
         "requiere": [
@@ -3009,7 +3009,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Comportamiento de una progresión geométrica",
       "source": "contenidos/libro/algebra/sucesiones-series.qmd",
-      "line": 151,
+      "line": 162,
       "href": "../contenidos/libro/algebra/sucesiones-series.qmd#exm-005X",
       "relations": {
         "aplica": [
@@ -3022,7 +3022,7 @@
       "type": "propiedad",
       "title": "Suma geométrica finita",
       "source": "contenidos/libro/algebra/sucesiones-series.qmd",
-      "line": 156,
+      "line": 167,
       "href": "../contenidos/libro/algebra/sucesiones-series.qmd#tag-005Z",
       "relations": {
         "requiere": [
@@ -3035,7 +3035,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Suma geométrica finita",
       "source": "contenidos/libro/algebra/sucesiones-series.qmd",
-      "line": 177,
+      "line": 188,
       "href": "../contenidos/libro/algebra/sucesiones-series.qmd#exm-005Z",
       "relations": {
         "aplica": [
@@ -3048,7 +3048,7 @@
       "type": "definicion",
       "title": "Notación de sumatoria",
       "source": "contenidos/libro/algebra/sucesiones-series.qmd",
-      "line": 184,
+      "line": 195,
       "href": "../contenidos/libro/algebra/sucesiones-series.qmd#tag-0061",
       "relations": {
         "requiere": [
@@ -3062,7 +3062,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Notación de sumatoria",
       "source": "contenidos/libro/algebra/sucesiones-series.qmd",
-      "line": 193,
+      "line": 204,
       "href": "../contenidos/libro/algebra/sucesiones-series.qmd#exm-0061",
       "relations": {
         "aplica": [
@@ -3075,7 +3075,7 @@
       "type": "propiedad",
       "title": "Sumas de naturales, cuadrados y cubos",
       "source": "contenidos/libro/algebra/sucesiones-series.qmd",
-      "line": 198,
+      "line": 209,
       "href": "../contenidos/libro/algebra/sucesiones-series.qmd#tag-0063",
       "relations": {
         "requiere": [
@@ -3089,7 +3089,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Sumas de naturales, cuadrados y cubos",
       "source": "contenidos/libro/algebra/sucesiones-series.qmd",
-      "line": 225,
+      "line": 236,
       "href": "../contenidos/libro/algebra/sucesiones-series.qmd#exm-0063",
       "relations": {
         "aplica": [
@@ -3102,7 +3102,7 @@
       "type": "tecnica",
       "title": "Sumas telescópicas",
       "source": "contenidos/libro/algebra/sucesiones-series.qmd",
-      "line": 230,
+      "line": 241,
       "href": "../contenidos/libro/algebra/sucesiones-series.qmd#tag-0065",
       "relations": {
         "requiere": [
@@ -3116,7 +3116,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Sumas telescópicas",
       "source": "contenidos/libro/algebra/sucesiones-series.qmd",
-      "line": 241,
+      "line": 252,
       "href": "../contenidos/libro/algebra/sucesiones-series.qmd#exm-0065",
       "relations": {
         "aplica": [
@@ -3129,7 +3129,7 @@
       "type": "definicion",
       "title": "Serie y sucesión de sumas parciales",
       "source": "contenidos/libro/algebra/sucesiones-series.qmd",
-      "line": 246,
+      "line": 257,
       "href": "../contenidos/libro/algebra/sucesiones-series.qmd#tag-0067",
       "relations": {
         "requiere": [
@@ -3143,7 +3143,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Serie y sucesión de sumas parciales",
       "source": "contenidos/libro/algebra/sucesiones-series.qmd",
-      "line": 255,
+      "line": 266,
       "href": "../contenidos/libro/algebra/sucesiones-series.qmd#exm-0067",
       "relations": {
         "aplica": [
@@ -3156,7 +3156,7 @@
       "type": "propiedad",
       "title": "Suma geométrica infinita",
       "source": "contenidos/libro/algebra/sucesiones-series.qmd",
-      "line": 262,
+      "line": 273,
       "href": "../contenidos/libro/algebra/sucesiones-series.qmd#tag-0069",
       "relations": {
         "requiere": [
@@ -3170,7 +3170,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Suma geométrica infinita",
       "source": "contenidos/libro/algebra/sucesiones-series.qmd",
-      "line": 287,
+      "line": 298,
       "href": "../contenidos/libro/algebra/sucesiones-series.qmd#exm-0069",
       "relations": {
         "aplica": [
@@ -3183,7 +3183,7 @@
       "type": "criterio",
       "title": "Términos que tienden a cero y convergencia",
       "source": "contenidos/libro/algebra/sucesiones-series.qmd",
-      "line": 292,
+      "line": 303,
       "href": "../contenidos/libro/algebra/sucesiones-series.qmd#tag-006B",
       "relations": {
         "requiere": [
@@ -3198,7 +3198,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Términos que tienden a cero y convergencia",
       "source": "contenidos/libro/algebra/sucesiones-series.qmd",
-      "line": 301,
+      "line": 312,
       "href": "../contenidos/libro/algebra/sucesiones-series.qmd#exm-006B",
       "relations": {
         "aplica": [
@@ -3211,7 +3211,7 @@
       "type": "tecnica",
       "title": "Error al truncar una serie geométrica",
       "source": "contenidos/libro/algebra/sucesiones-series.qmd",
-      "line": 306,
+      "line": 317,
       "href": "../contenidos/libro/algebra/sucesiones-series.qmd#tag-006D",
       "relations": {
         "requiere": [
@@ -3224,7 +3224,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Error al truncar una serie geométrica",
       "source": "contenidos/libro/algebra/sucesiones-series.qmd",
-      "line": 317,
+      "line": 328,
       "href": "../contenidos/libro/algebra/sucesiones-series.qmd#exm-006D",
       "relations": {
         "aplica": [
@@ -3237,7 +3237,7 @@
       "type": "aplicacion",
       "title": "Crecimiento aditivo y multiplicativo",
       "source": "contenidos/libro/algebra/sucesiones-series.qmd",
-      "line": 324,
+      "line": 335,
       "href": "../contenidos/libro/algebra/sucesiones-series.qmd#tag-006F",
       "relations": {
         "requiere": [
@@ -3252,7 +3252,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Crecimiento aditivo y multiplicativo",
       "source": "contenidos/libro/algebra/sucesiones-series.qmd",
-      "line": 333,
+      "line": 344,
       "href": "../contenidos/libro/algebra/sucesiones-series.qmd#exm-006F",
       "relations": {
         "aplica": [
@@ -3265,7 +3265,7 @@
       "type": "aplicacion",
       "title": "Recurrencia afín con aporte periódico",
       "source": "contenidos/libro/algebra/sucesiones-series.qmd",
-      "line": 338,
+      "line": 349,
       "href": "../contenidos/libro/algebra/sucesiones-series.qmd#tag-006H",
       "relations": {
         "requiere": [
@@ -3279,7 +3279,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Recurrencia afín con aporte periódico",
       "source": "contenidos/libro/algebra/sucesiones-series.qmd",
-      "line": 349,
+      "line": 360,
       "href": "../contenidos/libro/algebra/sucesiones-series.qmd#exm-006H",
       "relations": {
         "aplica": [
@@ -3292,7 +3292,7 @@
       "type": "observacion",
       "title": "Errores de índices, patrones y sumas",
       "source": "contenidos/libro/algebra/sucesiones-series.qmd",
-      "line": 354,
+      "line": 365,
       "href": "../contenidos/libro/algebra/sucesiones-series.qmd#tag-006J",
       "relations": {
         "requiere": [
@@ -3308,7 +3308,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Errores de índices, patrones y sumas",
       "source": "contenidos/libro/algebra/sucesiones-series.qmd",
-      "line": 363,
+      "line": 374,
       "href": "../contenidos/libro/algebra/sucesiones-series.qmd#exm-006J",
       "relations": {
         "aplica": [
@@ -3321,7 +3321,7 @@
       "type": "definicion",
       "title": "Pregunta estadística",
       "source": "contenidos/libro/estadistica/index.qmd",
-      "line": 19,
+      "line": 31,
       "href": "../contenidos/libro/estadistica/index.qmd#tag-006L",
       "relations": {
         "pertenece_a": [
@@ -3334,7 +3334,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Pregunta estadística",
       "source": "contenidos/libro/estadistica/index.qmd",
-      "line": 30,
+      "line": 42,
       "href": "../contenidos/libro/estadistica/index.qmd#exm-006L",
       "relations": {
         "aplica": [
@@ -3347,14 +3347,14 @@
       "type": "proceso",
       "title": "Ciclo de investigación estadística",
       "source": "contenidos/libro/estadistica/index.qmd",
-      "line": 35,
+      "line": 47,
       "href": "../contenidos/libro/estadistica/index.qmd#tag-006N",
       "relations": {
-        "requiere": [
-          "006L"
-        ],
         "pertenece_a": [
           "0001"
+        ],
+        "requiere": [
+          "006L"
         ]
       }
     },
@@ -3363,7 +3363,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Ciclo de investigación estadística",
       "source": "contenidos/libro/estadistica/index.qmd",
-      "line": 54,
+      "line": 66,
       "href": "../contenidos/libro/estadistica/index.qmd#exm-006N",
       "relations": {
         "aplica": [
@@ -3376,14 +3376,14 @@
       "type": "definicion",
       "title": "Población, censo y muestra",
       "source": "contenidos/libro/estadistica/index.qmd",
-      "line": 61,
+      "line": 73,
       "href": "../contenidos/libro/estadistica/index.qmd#tag-006P",
       "relations": {
-        "requiere": [
-          "006L"
-        ],
         "pertenece_a": [
           "0001"
+        ],
+        "requiere": [
+          "006L"
         ]
       }
     },
@@ -3392,7 +3392,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Población, censo y muestra",
       "source": "contenidos/libro/estadistica/index.qmd",
-      "line": 72,
+      "line": 84,
       "href": "../contenidos/libro/estadistica/index.qmd#exm-006P",
       "relations": {
         "aplica": [
@@ -3405,14 +3405,14 @@
       "type": "definicion",
       "title": "Unidad estadística, caso, dato y conjunto de datos",
       "source": "contenidos/libro/estadistica/index.qmd",
-      "line": 77,
+      "line": 89,
       "href": "../contenidos/libro/estadistica/index.qmd#tag-006R",
       "relations": {
-        "requiere": [
-          "006P"
-        ],
         "pertenece_a": [
           "0001"
+        ],
+        "requiere": [
+          "006P"
         ]
       }
     },
@@ -3421,7 +3421,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Unidad estadística, caso, dato y conjunto de datos",
       "source": "contenidos/libro/estadistica/index.qmd",
-      "line": 88,
+      "line": 100,
       "href": "../contenidos/libro/estadistica/index.qmd#exm-006R",
       "relations": {
         "aplica": [
@@ -3434,14 +3434,14 @@
       "type": "definicion",
       "title": "Variable estadística y sus tipos",
       "source": "contenidos/libro/estadistica/index.qmd",
-      "line": 93,
+      "line": 105,
       "href": "../contenidos/libro/estadistica/index.qmd#tag-006T",
       "relations": {
-        "requiere": [
-          "006R"
-        ],
         "pertenece_a": [
           "0001"
+        ],
+        "requiere": [
+          "006R"
         ]
       }
     },
@@ -3450,7 +3450,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Variable estadística y sus tipos",
       "source": "contenidos/libro/estadistica/index.qmd",
-      "line": 107,
+      "line": 119,
       "href": "../contenidos/libro/estadistica/index.qmd#exm-006T",
       "relations": {
         "aplica": [
@@ -3463,15 +3463,15 @@
       "type": "definicion",
       "title": "Parámetro y estadístico",
       "source": "contenidos/libro/estadistica/index.qmd",
-      "line": 112,
+      "line": 124,
       "href": "../contenidos/libro/estadistica/index.qmd#tag-006V",
       "relations": {
+        "pertenece_a": [
+          "0001"
+        ],
         "requiere": [
           "006P",
           "006R"
-        ],
-        "pertenece_a": [
-          "0001"
         ]
       }
     },
@@ -3480,7 +3480,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Parámetro y estadístico",
       "source": "contenidos/libro/estadistica/index.qmd",
-      "line": 124,
+      "line": 136,
       "href": "../contenidos/libro/estadistica/index.qmd#exm-006V",
       "relations": {
         "aplica": [
@@ -3493,14 +3493,14 @@
       "type": "definicion",
       "title": "Muestreo y representatividad",
       "source": "contenidos/libro/estadistica/index.qmd",
-      "line": 131,
+      "line": 143,
       "href": "../contenidos/libro/estadistica/index.qmd#tag-006X",
       "relations": {
-        "requiere": [
-          "006P"
-        ],
         "pertenece_a": [
           "0001"
+        ],
+        "requiere": [
+          "006P"
         ]
       }
     },
@@ -3509,7 +3509,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Muestreo y representatividad",
       "source": "contenidos/libro/estadistica/index.qmd",
-      "line": 148,
+      "line": 160,
       "href": "../contenidos/libro/estadistica/index.qmd#exm-006X",
       "relations": {
         "aplica": [
@@ -3522,14 +3522,14 @@
       "type": "definicion",
       "title": "Sesgo, error de medición y variación muestral",
       "source": "contenidos/libro/estadistica/index.qmd",
-      "line": 153,
+      "line": 165,
       "href": "../contenidos/libro/estadistica/index.qmd#tag-006Z",
       "relations": {
-        "requiere": [
-          "006X"
-        ],
         "pertenece_a": [
           "0001"
+        ],
+        "requiere": [
+          "006X"
         ]
       }
     },
@@ -3538,7 +3538,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Sesgo, error de medición y variación muestral",
       "source": "contenidos/libro/estadistica/index.qmd",
-      "line": 164,
+      "line": 176,
       "href": "../contenidos/libro/estadistica/index.qmd#exm-006Z",
       "relations": {
         "aplica": [
@@ -3551,16 +3551,16 @@
       "type": "tecnica",
       "title": "Recolección, codificación y depuración de datos",
       "source": "contenidos/libro/estadistica/index.qmd",
-      "line": 169,
+      "line": 181,
       "href": "../contenidos/libro/estadistica/index.qmd#tag-0071",
       "relations": {
+        "pertenece_a": [
+          "0001"
+        ],
         "requiere": [
           "006R",
           "006T",
           "006Z"
-        ],
-        "pertenece_a": [
-          "0001"
         ]
       }
     },
@@ -3569,7 +3569,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Recolección, codificación y depuración de datos",
       "source": "contenidos/libro/estadistica/index.qmd",
-      "line": 180,
+      "line": 192,
       "href": "../contenidos/libro/estadistica/index.qmd#exm-0071",
       "relations": {
         "aplica": [
@@ -3582,14 +3582,14 @@
       "type": "definicion",
       "title": "Frecuencias absoluta, relativa y acumulada",
       "source": "contenidos/libro/estadistica/index.qmd",
-      "line": 187,
+      "line": 199,
       "href": "../contenidos/libro/estadistica/index.qmd#tag-0073",
       "relations": {
-        "requiere": [
-          "006T"
-        ],
         "pertenece_a": [
           "0001"
+        ],
+        "requiere": [
+          "006T"
         ]
       }
     },
@@ -3598,7 +3598,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Frecuencias absoluta, relativa y acumulada",
       "source": "contenidos/libro/estadistica/index.qmd",
-      "line": 202,
+      "line": 214,
       "href": "../contenidos/libro/estadistica/index.qmd#exm-0073",
       "relations": {
         "aplica": [
@@ -3611,14 +3611,14 @@
       "type": "definicion",
       "title": "Datos agrupados en intervalos",
       "source": "contenidos/libro/estadistica/index.qmd",
-      "line": 222,
+      "line": 234,
       "href": "../contenidos/libro/estadistica/index.qmd#tag-0075",
       "relations": {
-        "requiere": [
-          "0073"
-        ],
         "pertenece_a": [
           "0001"
+        ],
+        "requiere": [
+          "0073"
         ]
       }
     },
@@ -3627,7 +3627,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Datos agrupados en intervalos",
       "source": "contenidos/libro/estadistica/index.qmd",
-      "line": 233,
+      "line": 245,
       "href": "../contenidos/libro/estadistica/index.qmd#exm-0075",
       "relations": {
         "aplica": [
@@ -3640,15 +3640,15 @@
       "type": "definicion",
       "title": "Tabla de doble entrada",
       "source": "contenidos/libro/estadistica/index.qmd",
-      "line": 238,
+      "line": 250,
       "href": "../contenidos/libro/estadistica/index.qmd#tag-0077",
       "relations": {
+        "pertenece_a": [
+          "0001"
+        ],
         "requiere": [
           "006T",
           "0073"
-        ],
-        "pertenece_a": [
-          "0001"
         ]
       }
     },
@@ -3657,7 +3657,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Tabla de doble entrada",
       "source": "contenidos/libro/estadistica/index.qmd",
-      "line": 249,
+      "line": 261,
       "href": "../contenidos/libro/estadistica/index.qmd#exm-0077",
       "relations": {
         "aplica": [
@@ -3670,15 +3670,15 @@
       "type": "criterio",
       "title": "Selección de una representación gráfica",
       "source": "contenidos/libro/estadistica/index.qmd",
-      "line": 256,
+      "line": 268,
       "href": "../contenidos/libro/estadistica/index.qmd#tag-0079",
       "relations": {
+        "pertenece_a": [
+          "0001"
+        ],
         "requiere": [
           "006T",
           "0073"
-        ],
-        "pertenece_a": [
-          "0001"
         ]
       }
     },
@@ -3687,7 +3687,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Selección de una representación gráfica",
       "source": "contenidos/libro/estadistica/index.qmd",
-      "line": 275,
+      "line": 287,
       "href": "../contenidos/libro/estadistica/index.qmd#exm-0079",
       "relations": {
         "aplica": [
@@ -3700,14 +3700,14 @@
       "type": "definicion",
       "title": "Gráficos de barras, sectores y pictogramas",
       "source": "contenidos/libro/estadistica/index.qmd",
-      "line": 280,
+      "line": 292,
       "href": "../contenidos/libro/estadistica/index.qmd#tag-007B",
       "relations": {
-        "requiere": [
-          "0079"
-        ],
         "pertenece_a": [
           "0001"
+        ],
+        "requiere": [
+          "0079"
         ]
       }
     },
@@ -3716,7 +3716,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Gráficos de barras, sectores y pictogramas",
       "source": "contenidos/libro/estadistica/index.qmd",
-      "line": 293,
+      "line": 305,
       "href": "../contenidos/libro/estadistica/index.qmd#exm-007B",
       "relations": {
         "aplica": [
@@ -3729,14 +3729,14 @@
       "type": "definicion",
       "title": "Gráfico de líneas",
       "source": "contenidos/libro/estadistica/index.qmd",
-      "line": 308,
+      "line": 320,
       "href": "../contenidos/libro/estadistica/index.qmd#tag-007D",
       "relations": {
-        "requiere": [
-          "0079"
-        ],
         "pertenece_a": [
           "0001"
+        ],
+        "requiere": [
+          "0079"
         ]
       }
     },
@@ -3745,7 +3745,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Gráfico de líneas",
       "source": "contenidos/libro/estadistica/index.qmd",
-      "line": 317,
+      "line": 329,
       "href": "../contenidos/libro/estadistica/index.qmd#exm-007D",
       "relations": {
         "aplica": [
@@ -3758,15 +3758,15 @@
       "type": "definicion",
       "title": "Histograma, polígono de frecuencias y ojiva",
       "source": "contenidos/libro/estadistica/index.qmd",
-      "line": 322,
+      "line": 334,
       "href": "../contenidos/libro/estadistica/index.qmd#tag-007F",
       "relations": {
+        "pertenece_a": [
+          "0001"
+        ],
         "requiere": [
           "0075",
           "0079"
-        ],
-        "pertenece_a": [
-          "0001"
         ]
       }
     },
@@ -3775,7 +3775,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Histograma, polígono de frecuencias y ojiva",
       "source": "contenidos/libro/estadistica/index.qmd",
-      "line": 333,
+      "line": 345,
       "href": "../contenidos/libro/estadistica/index.qmd#exm-007F",
       "relations": {
         "aplica": [
@@ -3788,14 +3788,14 @@
       "type": "definicion",
       "title": "Diagrama de puntos y diagrama de tallo y hojas",
       "source": "contenidos/libro/estadistica/index.qmd",
-      "line": 338,
+      "line": 350,
       "href": "../contenidos/libro/estadistica/index.qmd#tag-007H",
       "relations": {
-        "requiere": [
-          "0079"
-        ],
         "pertenece_a": [
           "0001"
+        ],
+        "requiere": [
+          "0079"
         ]
       }
     },
@@ -3804,7 +3804,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Diagrama de puntos y diagrama de tallo y hojas",
       "source": "contenidos/libro/estadistica/index.qmd",
-      "line": 348,
+      "line": 360,
       "href": "../contenidos/libro/estadistica/index.qmd#exm-007H",
       "relations": {
         "aplica": [
@@ -3817,14 +3817,14 @@
       "type": "definicion",
       "title": "Media aritmética",
       "source": "contenidos/libro/estadistica/index.qmd",
-      "line": 355,
+      "line": 367,
       "href": "../contenidos/libro/estadistica/index.qmd#tag-007J",
       "relations": {
-        "requiere": [
-          "006R"
-        ],
         "pertenece_a": [
           "0001"
+        ],
+        "requiere": [
+          "006R"
         ]
       }
     },
@@ -3833,7 +3833,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Media aritmética",
       "source": "contenidos/libro/estadistica/index.qmd",
-      "line": 367,
+      "line": 379,
       "href": "../contenidos/libro/estadistica/index.qmd#exm-007J",
       "relations": {
         "aplica": [
@@ -3846,14 +3846,14 @@
       "type": "definicion",
       "title": "Media ponderada",
       "source": "contenidos/libro/estadistica/index.qmd",
-      "line": 372,
+      "line": 384,
       "href": "../contenidos/libro/estadistica/index.qmd#tag-007L",
       "relations": {
-        "requiere": [
-          "007J"
-        ],
         "pertenece_a": [
           "0001"
+        ],
+        "requiere": [
+          "007J"
         ]
       }
     },
@@ -3862,7 +3862,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Media ponderada",
       "source": "contenidos/libro/estadistica/index.qmd",
-      "line": 383,
+      "line": 395,
       "href": "../contenidos/libro/estadistica/index.qmd#exm-007L",
       "relations": {
         "aplica": [
@@ -3875,14 +3875,14 @@
       "type": "definicion",
       "title": "Mediana",
       "source": "contenidos/libro/estadistica/index.qmd",
-      "line": 388,
+      "line": 400,
       "href": "../contenidos/libro/estadistica/index.qmd#tag-007N",
       "relations": {
-        "requiere": [
-          "006R"
-        ],
         "pertenece_a": [
           "0001"
+        ],
+        "requiere": [
+          "006R"
         ]
       }
     },
@@ -3891,7 +3891,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Mediana",
       "source": "contenidos/libro/estadistica/index.qmd",
-      "line": 397,
+      "line": 409,
       "href": "../contenidos/libro/estadistica/index.qmd#exm-007N",
       "relations": {
         "aplica": [
@@ -3904,14 +3904,14 @@
       "type": "definicion",
       "title": "Moda",
       "source": "contenidos/libro/estadistica/index.qmd",
-      "line": 402,
+      "line": 414,
       "href": "../contenidos/libro/estadistica/index.qmd#tag-007P",
       "relations": {
-        "requiere": [
-          "0073"
-        ],
         "pertenece_a": [
           "0001"
+        ],
+        "requiere": [
+          "0073"
         ]
       }
     },
@@ -3920,7 +3920,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Moda",
       "source": "contenidos/libro/estadistica/index.qmd",
-      "line": 413,
+      "line": 425,
       "href": "../contenidos/libro/estadistica/index.qmd#exm-007P",
       "relations": {
         "aplica": [
@@ -3933,16 +3933,16 @@
       "type": "criterio",
       "title": "Selección e interpretación de medidas de centro",
       "source": "contenidos/libro/estadistica/index.qmd",
-      "line": 418,
+      "line": 430,
       "href": "../contenidos/libro/estadistica/index.qmd#tag-007R",
       "relations": {
+        "pertenece_a": [
+          "0001"
+        ],
         "requiere": [
           "007J",
           "007N",
           "007P"
-        ],
-        "pertenece_a": [
-          "0001"
         ]
       }
     },
@@ -3951,7 +3951,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Selección e interpretación de medidas de centro",
       "source": "contenidos/libro/estadistica/index.qmd",
-      "line": 429,
+      "line": 441,
       "href": "../contenidos/libro/estadistica/index.qmd#exm-007R",
       "relations": {
         "aplica": [
@@ -3964,14 +3964,14 @@
       "type": "definicion",
       "title": "Cuantiles, cuartiles, deciles y percentiles",
       "source": "contenidos/libro/estadistica/index.qmd",
-      "line": 436,
+      "line": 448,
       "href": "../contenidos/libro/estadistica/index.qmd#tag-007T",
       "relations": {
-        "requiere": [
-          "007N"
-        ],
         "pertenece_a": [
           "0001"
+        ],
+        "requiere": [
+          "007N"
         ]
       }
     },
@@ -3980,7 +3980,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Cuantiles, cuartiles, deciles y percentiles",
       "source": "contenidos/libro/estadistica/index.qmd",
-      "line": 449,
+      "line": 461,
       "href": "../contenidos/libro/estadistica/index.qmd#exm-007T",
       "relations": {
         "aplica": [
@@ -3993,14 +3993,14 @@
       "type": "representacion",
       "title": "Diagrama de caja",
       "source": "contenidos/libro/estadistica/index.qmd",
-      "line": 454,
+      "line": 466,
       "href": "../contenidos/libro/estadistica/index.qmd#tag-007V",
       "relations": {
-        "requiere": [
-          "007T"
-        ],
         "pertenece_a": [
           "0001"
+        ],
+        "requiere": [
+          "007T"
         ]
       }
     },
@@ -4009,7 +4009,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Diagrama de caja",
       "source": "contenidos/libro/estadistica/index.qmd",
-      "line": 463,
+      "line": 475,
       "href": "../contenidos/libro/estadistica/index.qmd#exm-007V",
       "relations": {
         "aplica": [
@@ -4022,14 +4022,14 @@
       "type": "definicion",
       "title": "Rango y rango intercuartílico",
       "source": "contenidos/libro/estadistica/index.qmd",
-      "line": 494,
+      "line": 506,
       "href": "../contenidos/libro/estadistica/index.qmd#tag-007X",
       "relations": {
-        "requiere": [
-          "007T"
-        ],
         "pertenece_a": [
           "0001"
+        ],
+        "requiere": [
+          "007T"
         ]
       }
     },
@@ -4038,7 +4038,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Rango y rango intercuartílico",
       "source": "contenidos/libro/estadistica/index.qmd",
-      "line": 504,
+      "line": 516,
       "href": "../contenidos/libro/estadistica/index.qmd#exm-007X",
       "relations": {
         "aplica": [
@@ -4051,14 +4051,14 @@
       "type": "definicion",
       "title": "Desviación respecto de la media",
       "source": "contenidos/libro/estadistica/index.qmd",
-      "line": 509,
+      "line": 521,
       "href": "../contenidos/libro/estadistica/index.qmd#tag-007Z",
       "relations": {
-        "requiere": [
-          "007J"
-        ],
         "pertenece_a": [
           "0001"
+        ],
+        "requiere": [
+          "007J"
         ]
       }
     },
@@ -4067,7 +4067,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Desviación respecto de la media",
       "source": "contenidos/libro/estadistica/index.qmd",
-      "line": 522,
+      "line": 534,
       "href": "../contenidos/libro/estadistica/index.qmd#exm-007Z",
       "relations": {
         "aplica": [
@@ -4080,14 +4080,14 @@
       "type": "definicion",
       "title": "Varianza y desviación estándar",
       "source": "contenidos/libro/estadistica/index.qmd",
-      "line": 527,
+      "line": 539,
       "href": "../contenidos/libro/estadistica/index.qmd#tag-0081",
       "relations": {
-        "requiere": [
-          "007Z"
-        ],
         "pertenece_a": [
           "0001"
+        ],
+        "requiere": [
+          "007Z"
         ]
       }
     },
@@ -4096,7 +4096,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Varianza y desviación estándar",
       "source": "contenidos/libro/estadistica/index.qmd",
-      "line": 541,
+      "line": 553,
       "href": "../contenidos/libro/estadistica/index.qmd#exm-0081",
       "relations": {
         "aplica": [
@@ -4109,15 +4109,15 @@
       "type": "definicion",
       "title": "Coeficiente de variación",
       "source": "contenidos/libro/estadistica/index.qmd",
-      "line": 546,
+      "line": 558,
       "href": "../contenidos/libro/estadistica/index.qmd#tag-0083",
       "relations": {
+        "pertenece_a": [
+          "0001"
+        ],
         "requiere": [
           "007J",
           "0081"
-        ],
-        "pertenece_a": [
-          "0001"
         ]
       }
     },
@@ -4126,7 +4126,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Coeficiente de variación",
       "source": "contenidos/libro/estadistica/index.qmd",
-      "line": 557,
+      "line": 569,
       "href": "../contenidos/libro/estadistica/index.qmd#exm-0083",
       "relations": {
         "aplica": [
@@ -4139,17 +4139,17 @@
       "type": "propiedad",
       "title": "Efecto de transformaciones sobre centro y dispersión",
       "source": "contenidos/libro/estadistica/index.qmd",
-      "line": 562,
+      "line": 574,
       "href": "../contenidos/libro/estadistica/index.qmd#tag-0085",
       "relations": {
+        "pertenece_a": [
+          "0001"
+        ],
         "requiere": [
           "007J",
           "007N",
           "007X",
           "0081"
-        ],
-        "pertenece_a": [
-          "0001"
         ]
       }
     },
@@ -4158,7 +4158,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Efecto de transformaciones sobre centro y dispersión",
       "source": "contenidos/libro/estadistica/index.qmd",
-      "line": 579,
+      "line": 591,
       "href": "../contenidos/libro/estadistica/index.qmd#exm-0085",
       "relations": {
         "aplica": [
@@ -4171,17 +4171,17 @@
       "type": "definicion",
       "title": "Variabilidad estadística",
       "source": "contenidos/libro/estadistica/index.qmd",
-      "line": 584,
+      "line": 596,
       "href": "../contenidos/libro/estadistica/index.qmd#tag-0087",
       "relations": {
+        "pertenece_a": [
+          "0001"
+        ],
         "requiere": [
           "006N",
           "006Z",
           "007X",
           "0081"
-        ],
-        "pertenece_a": [
-          "0001"
         ]
       }
     },
@@ -4190,7 +4190,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Variabilidad estadística",
       "source": "contenidos/libro/estadistica/index.qmd",
-      "line": 595,
+      "line": 607,
       "href": "../contenidos/libro/estadistica/index.qmd#exm-0087",
       "relations": {
         "aplica": [
@@ -4203,15 +4203,15 @@
       "type": "definicion",
       "title": "Datos bivariados y diagrama de dispersión",
       "source": "contenidos/libro/estadistica/index.qmd",
-      "line": 602,
+      "line": 614,
       "href": "../contenidos/libro/estadistica/index.qmd#tag-0089",
       "relations": {
+        "pertenece_a": [
+          "0001"
+        ],
         "requiere": [
           "006T",
           "0079"
-        ],
-        "pertenece_a": [
-          "0001"
         ]
       }
     },
@@ -4220,7 +4220,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Datos bivariados y diagrama de dispersión",
       "source": "contenidos/libro/estadistica/index.qmd",
-      "line": 614,
+      "line": 626,
       "href": "../contenidos/libro/estadistica/index.qmd#exm-0089",
       "relations": {
         "aplica": [
@@ -4233,14 +4233,14 @@
       "type": "definicion",
       "title": "Asociación y correlación lineal",
       "source": "contenidos/libro/estadistica/index.qmd",
-      "line": 631,
+      "line": 643,
       "href": "../contenidos/libro/estadistica/index.qmd#tag-008B",
       "relations": {
-        "requiere": [
-          "0089"
-        ],
         "pertenece_a": [
           "0001"
+        ],
+        "requiere": [
+          "0089"
         ]
       }
     },
@@ -4249,7 +4249,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Asociación y correlación lineal",
       "source": "contenidos/libro/estadistica/index.qmd",
-      "line": 643,
+      "line": 655,
       "href": "../contenidos/libro/estadistica/index.qmd#exm-008B",
       "relations": {
         "aplica": [
@@ -4262,14 +4262,14 @@
       "type": "criterio",
       "title": "Asociación en tablas de doble entrada",
       "source": "contenidos/libro/estadistica/index.qmd",
-      "line": 648,
+      "line": 660,
       "href": "../contenidos/libro/estadistica/index.qmd#tag-008D",
       "relations": {
-        "requiere": [
-          "0077"
-        ],
         "pertenece_a": [
           "0001"
+        ],
+        "requiere": [
+          "0077"
         ]
       }
     },
@@ -4278,7 +4278,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Asociación en tablas de doble entrada",
       "source": "contenidos/libro/estadistica/index.qmd",
-      "line": 657,
+      "line": 669,
       "href": "../contenidos/libro/estadistica/index.qmd#exm-008D",
       "relations": {
         "aplica": [
@@ -4291,17 +4291,17 @@
       "type": "criterio",
       "title": "Comparación de distribuciones",
       "source": "contenidos/libro/estadistica/index.qmd",
-      "line": 664,
+      "line": 676,
       "href": "../contenidos/libro/estadistica/index.qmd#tag-008F",
       "relations": {
+        "pertenece_a": [
+          "0001"
+        ],
         "requiere": [
           "0079",
           "007R",
           "007X",
           "0087"
-        ],
-        "pertenece_a": [
-          "0001"
         ]
       }
     },
@@ -4310,7 +4310,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Comparación de distribuciones",
       "source": "contenidos/libro/estadistica/index.qmd",
-      "line": 682,
+      "line": 694,
       "href": "../contenidos/libro/estadistica/index.qmd#exm-008F",
       "relations": {
         "aplica": [
@@ -4323,14 +4323,14 @@
       "type": "observacion",
       "title": "Gráficos engañosos y denominadores",
       "source": "contenidos/libro/estadistica/index.qmd",
-      "line": 687,
+      "line": 699,
       "href": "../contenidos/libro/estadistica/index.qmd#tag-008H",
       "relations": {
-        "requiere": [
-          "0079"
-        ],
         "pertenece_a": [
           "0001"
+        ],
+        "requiere": [
+          "0079"
         ]
       }
     },
@@ -4339,7 +4339,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Gráficos engañosos y denominadores",
       "source": "contenidos/libro/estadistica/index.qmd",
-      "line": 698,
+      "line": 710,
       "href": "../contenidos/libro/estadistica/index.qmd#exm-008H",
       "relations": {
         "aplica": [
@@ -4352,14 +4352,14 @@
       "type": "observacion",
       "title": "Asociación, causalidad y variables de confusión",
       "source": "contenidos/libro/estadistica/index.qmd",
-      "line": 703,
+      "line": 715,
       "href": "../contenidos/libro/estadistica/index.qmd#tag-008J",
       "relations": {
-        "requiere": [
-          "008B"
-        ],
         "pertenece_a": [
           "0001"
+        ],
+        "requiere": [
+          "008B"
         ]
       }
     },
@@ -4368,7 +4368,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Asociación, causalidad y variables de confusión",
       "source": "contenidos/libro/estadistica/index.qmd",
-      "line": 712,
+      "line": 724,
       "href": "../contenidos/libro/estadistica/index.qmd#exm-008J",
       "relations": {
         "aplica": [
@@ -4381,17 +4381,17 @@
       "type": "criterio",
       "title": "Comunicación de conclusiones estadísticas",
       "source": "contenidos/libro/estadistica/index.qmd",
-      "line": 717,
+      "line": 729,
       "href": "../contenidos/libro/estadistica/index.qmd#tag-008L",
       "relations": {
+        "pertenece_a": [
+          "0001"
+        ],
         "requiere": [
           "006N",
           "006Z",
           "008F",
           "008H"
-        ],
-        "pertenece_a": [
-          "0001"
         ]
       }
     },
@@ -4400,7 +4400,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Comunicación de conclusiones estadísticas",
       "source": "contenidos/libro/estadistica/index.qmd",
-      "line": 728,
+      "line": 740,
       "href": "../contenidos/libro/estadistica/index.qmd#exm-008L",
       "relations": {
         "aplica": [
@@ -4413,16 +4413,16 @@
       "type": "observacion",
       "title": "Ética y procedencia de los datos",
       "source": "contenidos/libro/estadistica/index.qmd",
-      "line": 733,
+      "line": 745,
       "href": "../contenidos/libro/estadistica/index.qmd#tag-008N",
       "relations": {
+        "pertenece_a": [
+          "0001"
+        ],
         "requiere": [
           "006N",
           "0071",
           "008L"
-        ],
-        "pertenece_a": [
-          "0001"
         ]
       }
     },
@@ -4431,7 +4431,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Ética y procedencia de los datos",
       "source": "contenidos/libro/estadistica/index.qmd",
-      "line": 744,
+      "line": 756,
       "href": "../contenidos/libro/estadistica/index.qmd#exm-008N",
       "relations": {
         "aplica": [
@@ -4444,7 +4444,7 @@
       "type": "definicion",
       "title": "Magnitud y cantidad",
       "source": "contenidos/libro/numeros/magnitudes-medicion-unidades.qmd",
-      "line": 16,
+      "line": 27,
       "href": "../contenidos/libro/numeros/magnitudes-medicion-unidades.qmd#tag-00CF",
       "relations": {}
     },
@@ -4453,7 +4453,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Magnitud y cantidad",
       "source": "contenidos/libro/numeros/magnitudes-medicion-unidades.qmd",
-      "line": 29,
+      "line": 40,
       "href": "../contenidos/libro/numeros/magnitudes-medicion-unidades.qmd#exm-00CF",
       "relations": {
         "aplica": [
@@ -4466,7 +4466,7 @@
       "type": "definicion",
       "title": "Valor de una cantidad y medida numérica",
       "source": "contenidos/libro/numeros/magnitudes-medicion-unidades.qmd",
-      "line": 36,
+      "line": 47,
       "href": "../contenidos/libro/numeros/magnitudes-medicion-unidades.qmd#tag-00CH",
       "relations": {
         "requiere": [
@@ -4479,7 +4479,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Valor de una cantidad y medida numérica",
       "source": "contenidos/libro/numeros/magnitudes-medicion-unidades.qmd",
-      "line": 45,
+      "line": 56,
       "href": "../contenidos/libro/numeros/magnitudes-medicion-unidades.qmd#exm-00CH",
       "relations": {
         "aplica": [
@@ -4492,7 +4492,7 @@
       "type": "tecnica",
       "title": "Comparación, iteración y medición",
       "source": "contenidos/libro/numeros/magnitudes-medicion-unidades.qmd",
-      "line": 52,
+      "line": 63,
       "href": "../contenidos/libro/numeros/magnitudes-medicion-unidades.qmd#tag-00CJ",
       "relations": {
         "requiere": [
@@ -4505,7 +4505,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Comparación, iteración y medición",
       "source": "contenidos/libro/numeros/magnitudes-medicion-unidades.qmd",
-      "line": 61,
+      "line": 72,
       "href": "../contenidos/libro/numeros/magnitudes-medicion-unidades.qmd#exm-00CJ",
       "relations": {
         "aplica": [
@@ -4518,7 +4518,7 @@
       "type": "observacion",
       "title": "Unidades del Sistema Internacional",
       "source": "contenidos/libro/numeros/magnitudes-medicion-unidades.qmd",
-      "line": 70,
+      "line": 81,
       "href": "../contenidos/libro/numeros/magnitudes-medicion-unidades.qmd#tag-00CL",
       "relations": {
         "requiere": [
@@ -4531,7 +4531,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Unidades del Sistema Internacional",
       "source": "contenidos/libro/numeros/magnitudes-medicion-unidades.qmd",
-      "line": 79,
+      "line": 90,
       "href": "../contenidos/libro/numeros/magnitudes-medicion-unidades.qmd#exm-00CL",
       "relations": {
         "aplica": [
@@ -4544,7 +4544,7 @@
       "type": "tecnica",
       "title": "Prefijos y factores de conversión",
       "source": "contenidos/libro/numeros/magnitudes-medicion-unidades.qmd",
-      "line": 86,
+      "line": 97,
       "href": "../contenidos/libro/numeros/magnitudes-medicion-unidades.qmd#tag-00CN",
       "relations": {
         "requiere": [
@@ -4558,7 +4558,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Prefijos y factores de conversión",
       "source": "contenidos/libro/numeros/magnitudes-medicion-unidades.qmd",
-      "line": 95,
+      "line": 106,
       "href": "../contenidos/libro/numeros/magnitudes-medicion-unidades.qmd#exm-00CN",
       "relations": {
         "aplica": [
@@ -4571,7 +4571,7 @@
       "type": "definicion",
       "title": "Resolución, precisión y exactitud",
       "source": "contenidos/libro/numeros/magnitudes-medicion-unidades.qmd",
-      "line": 103,
+      "line": 114,
       "href": "../contenidos/libro/numeros/magnitudes-medicion-unidades.qmd#tag-00CP",
       "relations": {
         "requiere": [
@@ -4584,7 +4584,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Resolución, precisión y exactitud",
       "source": "contenidos/libro/numeros/magnitudes-medicion-unidades.qmd",
-      "line": 116,
+      "line": 127,
       "href": "../contenidos/libro/numeros/magnitudes-medicion-unidades.qmd#exm-00CP",
       "relations": {
         "aplica": [
@@ -4597,7 +4597,7 @@
       "type": "propiedad",
       "title": "Conversión de área y volumen",
       "source": "contenidos/libro/numeros/magnitudes-medicion-unidades.qmd",
-      "line": 125,
+      "line": 136,
       "href": "../contenidos/libro/numeros/magnitudes-medicion-unidades.qmd#tag-00CR",
       "relations": {
         "requiere": [
@@ -4610,7 +4610,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Conversión de área y volumen",
       "source": "contenidos/libro/numeros/magnitudes-medicion-unidades.qmd",
-      "line": 152,
+      "line": 163,
       "href": "../contenidos/libro/numeros/magnitudes-medicion-unidades.qmd#exm-00CR",
       "relations": {
         "aplica": [
@@ -4623,7 +4623,7 @@
       "type": "definicion",
       "title": "Magnitudes y unidades derivadas",
       "source": "contenidos/libro/numeros/magnitudes-medicion-unidades.qmd",
-      "line": 159,
+      "line": 170,
       "href": "../contenidos/libro/numeros/magnitudes-medicion-unidades.qmd#tag-00CT",
       "relations": {
         "requiere": [
@@ -4636,7 +4636,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Magnitudes y unidades derivadas",
       "source": "contenidos/libro/numeros/magnitudes-medicion-unidades.qmd",
-      "line": 168,
+      "line": 179,
       "href": "../contenidos/libro/numeros/magnitudes-medicion-unidades.qmd#exm-00CT",
       "relations": {
         "aplica": [
@@ -4649,7 +4649,7 @@
       "type": "principio",
       "title": "Homogeneidad dimensional",
       "source": "contenidos/libro/numeros/magnitudes-medicion-unidades.qmd",
-      "line": 175,
+      "line": 186,
       "href": "../contenidos/libro/numeros/magnitudes-medicion-unidades.qmd#tag-00CV",
       "relations": {
         "requiere": [
@@ -4662,7 +4662,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Homogeneidad dimensional",
       "source": "contenidos/libro/numeros/magnitudes-medicion-unidades.qmd",
-      "line": 184,
+      "line": 195,
       "href": "../contenidos/libro/numeros/magnitudes-medicion-unidades.qmd#exm-00CV",
       "relations": {
         "aplica": [
@@ -4675,7 +4675,7 @@
       "type": "tecnica",
       "title": "Conversiones con cambio de origen",
       "source": "contenidos/libro/numeros/magnitudes-medicion-unidades.qmd",
-      "line": 191,
+      "line": 202,
       "href": "../contenidos/libro/numeros/magnitudes-medicion-unidades.qmd#tag-00CX",
       "relations": {
         "requiere": [
@@ -4688,7 +4688,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Conversiones con cambio de origen",
       "source": "contenidos/libro/numeros/magnitudes-medicion-unidades.qmd",
-      "line": 200,
+      "line": 211,
       "href": "../contenidos/libro/numeros/magnitudes-medicion-unidades.qmd#exm-00CX",
       "relations": {
         "aplica": [
@@ -4701,7 +4701,7 @@
       "type": "tecnica",
       "title": "Estimación de una medida",
       "source": "contenidos/libro/numeros/magnitudes-medicion-unidades.qmd",
-      "line": 209,
+      "line": 220,
       "href": "../contenidos/libro/numeros/magnitudes-medicion-unidades.qmd#tag-00CZ",
       "relations": {
         "requiere": [
@@ -4714,7 +4714,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Estimación de una medida",
       "source": "contenidos/libro/numeros/magnitudes-medicion-unidades.qmd",
-      "line": 218,
+      "line": 229,
       "href": "../contenidos/libro/numeros/magnitudes-medicion-unidades.qmd#exm-00CZ",
       "relations": {
         "aplica": [
@@ -4727,7 +4727,7 @@
       "type": "definicion",
       "title": "Error respecto de una referencia",
       "source": "contenidos/libro/numeros/magnitudes-medicion-unidades.qmd",
-      "line": 225,
+      "line": 236,
       "href": "../contenidos/libro/numeros/magnitudes-medicion-unidades.qmd#tag-00D1",
       "relations": {
         "requiere": [
@@ -4740,7 +4740,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Error respecto de una referencia",
       "source": "contenidos/libro/numeros/magnitudes-medicion-unidades.qmd",
-      "line": 238,
+      "line": 249,
       "href": "../contenidos/libro/numeros/magnitudes-medicion-unidades.qmd#exm-00D1",
       "relations": {
         "aplica": [
@@ -4753,7 +4753,7 @@
       "type": "tecnica",
       "title": "Redondeo y cifras significativas",
       "source": "contenidos/libro/numeros/magnitudes-medicion-unidades.qmd",
-      "line": 245,
+      "line": 256,
       "href": "../contenidos/libro/numeros/magnitudes-medicion-unidades.qmd#tag-00D3",
       "relations": {
         "requiere": [
@@ -4766,7 +4766,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Redondeo y cifras significativas",
       "source": "contenidos/libro/numeros/magnitudes-medicion-unidades.qmd",
-      "line": 254,
+      "line": 265,
       "href": "../contenidos/libro/numeros/magnitudes-medicion-unidades.qmd#exm-00D3",
       "relations": {
         "aplica": [
@@ -4779,7 +4779,7 @@
       "type": "definicion",
       "title": "Números enteros",
       "source": "contenidos/libro/numeros/numeros-enteros.qmd",
-      "line": 16,
+      "line": 27,
       "href": "../contenidos/libro/numeros/numeros-enteros.qmd#tag-00DZ",
       "relations": {
         "requiere": [
@@ -4793,7 +4793,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Números enteros",
       "source": "contenidos/libro/numeros/numeros-enteros.qmd",
-      "line": 25,
+      "line": 36,
       "href": "../contenidos/libro/numeros/numeros-enteros.qmd#exm-00DZ",
       "relations": {
         "aplica": [
@@ -4806,7 +4806,7 @@
       "type": "definicion",
       "title": "Recta numérica y orden de enteros",
       "source": "contenidos/libro/numeros/numeros-enteros.qmd",
-      "line": 32,
+      "line": 43,
       "href": "../contenidos/libro/numeros/numeros-enteros.qmd#tag-00E1",
       "relations": {
         "requiere": [
@@ -4819,7 +4819,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Recta numérica y orden de enteros",
       "source": "contenidos/libro/numeros/numeros-enteros.qmd",
-      "line": 41,
+      "line": 52,
       "href": "../contenidos/libro/numeros/numeros-enteros.qmd#exm-00E1",
       "relations": {
         "aplica": [
@@ -4832,7 +4832,7 @@
       "type": "definicion",
       "title": "Opuesto y valor absoluto",
       "source": "contenidos/libro/numeros/numeros-enteros.qmd",
-      "line": 48,
+      "line": 59,
       "href": "../contenidos/libro/numeros/numeros-enteros.qmd#tag-00E3",
       "relations": {
         "requiere": [
@@ -4845,7 +4845,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Opuesto y valor absoluto",
       "source": "contenidos/libro/numeros/numeros-enteros.qmd",
-      "line": 61,
+      "line": 72,
       "href": "../contenidos/libro/numeros/numeros-enteros.qmd#exm-00E3",
       "relations": {
         "aplica": [
@@ -4858,7 +4858,7 @@
       "type": "tecnica",
       "title": "Adición de enteros",
       "source": "contenidos/libro/numeros/numeros-enteros.qmd",
-      "line": 70,
+      "line": 81,
       "href": "../contenidos/libro/numeros/numeros-enteros.qmd#tag-00E5",
       "relations": {
         "requiere": [
@@ -4871,7 +4871,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Adición de enteros",
       "source": "contenidos/libro/numeros/numeros-enteros.qmd",
-      "line": 83,
+      "line": 94,
       "href": "../contenidos/libro/numeros/numeros-enteros.qmd#exm-00E5",
       "relations": {
         "aplica": [
@@ -4884,7 +4884,7 @@
       "type": "propiedad",
       "title": "Sustracción como adición del opuesto",
       "source": "contenidos/libro/numeros/numeros-enteros.qmd",
-      "line": 90,
+      "line": 101,
       "href": "../contenidos/libro/numeros/numeros-enteros.qmd#tag-00E7",
       "relations": {
         "requiere": [
@@ -4897,7 +4897,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Sustracción como adición del opuesto",
       "source": "contenidos/libro/numeros/numeros-enteros.qmd",
-      "line": 101,
+      "line": 112,
       "href": "../contenidos/libro/numeros/numeros-enteros.qmd#exm-00E7",
       "relations": {
         "aplica": [
@@ -4910,7 +4910,7 @@
       "type": "propiedad",
       "title": "Producto y regla de signos",
       "source": "contenidos/libro/numeros/numeros-enteros.qmd",
-      "line": 110,
+      "line": 121,
       "href": "../contenidos/libro/numeros/numeros-enteros.qmd#tag-00E9",
       "relations": {
         "requiere": [
@@ -4924,7 +4924,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Producto y regla de signos",
       "source": "contenidos/libro/numeros/numeros-enteros.qmd",
-      "line": 145,
+      "line": 156,
       "href": "../contenidos/libro/numeros/numeros-enteros.qmd#exm-00E9",
       "relations": {
         "aplica": [
@@ -4937,7 +4937,7 @@
       "type": "definicion",
       "title": "División exacta y exclusión del cero",
       "source": "contenidos/libro/numeros/numeros-enteros.qmd",
-      "line": 152,
+      "line": 163,
       "href": "../contenidos/libro/numeros/numeros-enteros.qmd#tag-00EB",
       "relations": {
         "requiere": [
@@ -4950,7 +4950,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: División exacta y exclusión del cero",
       "source": "contenidos/libro/numeros/numeros-enteros.qmd",
-      "line": 161,
+      "line": 172,
       "href": "../contenidos/libro/numeros/numeros-enteros.qmd#exm-00EB",
       "relations": {
         "aplica": [
@@ -4963,7 +4963,7 @@
       "type": "propiedad",
       "title": "Estructura de las operaciones y orden",
       "source": "contenidos/libro/numeros/numeros-enteros.qmd",
-      "line": 168,
+      "line": 179,
       "href": "../contenidos/libro/numeros/numeros-enteros.qmd#tag-00ED",
       "relations": {
         "requiere": [
@@ -4977,7 +4977,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Estructura de las operaciones y orden",
       "source": "contenidos/libro/numeros/numeros-enteros.qmd",
-      "line": 228,
+      "line": 239,
       "href": "../contenidos/libro/numeros/numeros-enteros.qmd#exm-00ED",
       "relations": {
         "aplica": [
@@ -4990,7 +4990,7 @@
       "type": "definicion",
       "title": "Divisores enteros y paridad",
       "source": "contenidos/libro/numeros/numeros-enteros.qmd",
-      "line": 237,
+      "line": 248,
       "href": "../contenidos/libro/numeros/numeros-enteros.qmd#tag-00EF",
       "relations": {
         "requiere": [
@@ -5004,7 +5004,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Divisores enteros y paridad",
       "source": "contenidos/libro/numeros/numeros-enteros.qmd",
-      "line": 246,
+      "line": 257,
       "href": "../contenidos/libro/numeros/numeros-enteros.qmd#exm-00EF",
       "relations": {
         "aplica": [
@@ -5017,7 +5017,7 @@
       "type": "definicion",
       "title": "Naturales y convención sobre el cero",
       "source": "contenidos/libro/numeros/numeros-naturales.qmd",
-      "line": 16,
+      "line": 27,
       "href": "../contenidos/libro/numeros/numeros-naturales.qmd#tag-00D5",
       "relations": {}
     },
@@ -5026,7 +5026,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Naturales y convención sobre el cero",
       "source": "contenidos/libro/numeros/numeros-naturales.qmd",
-      "line": 27,
+      "line": 38,
       "href": "../contenidos/libro/numeros/numeros-naturales.qmd#exm-00D5",
       "relations": {
         "aplica": [
@@ -5039,7 +5039,7 @@
       "type": "definicion",
       "title": "Cardinalidad, ordinalidad y conteo",
       "source": "contenidos/libro/numeros/numeros-naturales.qmd",
-      "line": 34,
+      "line": 45,
       "href": "../contenidos/libro/numeros/numeros-naturales.qmd#tag-00D7",
       "relations": {
         "requiere": [
@@ -5052,7 +5052,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Cardinalidad, ordinalidad y conteo",
       "source": "contenidos/libro/numeros/numeros-naturales.qmd",
-      "line": 47,
+      "line": 58,
       "href": "../contenidos/libro/numeros/numeros-naturales.qmd#exm-00D7",
       "relations": {
         "aplica": [
@@ -5065,7 +5065,7 @@
       "type": "definicion",
       "title": "Sistema decimal posicional",
       "source": "contenidos/libro/numeros/numeros-naturales.qmd",
-      "line": 56,
+      "line": 67,
       "href": "../contenidos/libro/numeros/numeros-naturales.qmd#tag-00D9",
       "relations": {
         "requiere": [
@@ -5078,7 +5078,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Sistema decimal posicional",
       "source": "contenidos/libro/numeros/numeros-naturales.qmd",
-      "line": 67,
+      "line": 78,
       "href": "../contenidos/libro/numeros/numeros-naturales.qmd#exm-00D9",
       "relations": {
         "aplica": [
@@ -5091,7 +5091,7 @@
       "type": "tecnica",
       "title": "Numeración en otras bases y comparación",
       "source": "contenidos/libro/numeros/numeros-naturales.qmd",
-      "line": 74,
+      "line": 85,
       "href": "../contenidos/libro/numeros/numeros-naturales.qmd#tag-00DB",
       "relations": {
         "requiere": [
@@ -5104,7 +5104,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Numeración en otras bases y comparación",
       "source": "contenidos/libro/numeros/numeros-naturales.qmd",
-      "line": 83,
+      "line": 94,
       "href": "../contenidos/libro/numeros/numeros-naturales.qmd#exm-00DB",
       "relations": {
         "aplica": [
@@ -5117,7 +5117,7 @@
       "type": "definicion",
       "title": "Adición y sustracción en los naturales",
       "source": "contenidos/libro/numeros/numeros-naturales.qmd",
-      "line": 92,
+      "line": 103,
       "href": "../contenidos/libro/numeros/numeros-naturales.qmd#tag-00DD",
       "relations": {
         "requiere": [
@@ -5130,7 +5130,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Adición y sustracción en los naturales",
       "source": "contenidos/libro/numeros/numeros-naturales.qmd",
-      "line": 101,
+      "line": 112,
       "href": "../contenidos/libro/numeros/numeros-naturales.qmd#exm-00DD",
       "relations": {
         "aplica": [
@@ -5143,7 +5143,7 @@
       "type": "definicion",
       "title": "Multiplicación y división exacta",
       "source": "contenidos/libro/numeros/numeros-naturales.qmd",
-      "line": 108,
+      "line": 119,
       "href": "../contenidos/libro/numeros/numeros-naturales.qmd#tag-00DF",
       "relations": {
         "requiere": [
@@ -5156,7 +5156,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Multiplicación y división exacta",
       "source": "contenidos/libro/numeros/numeros-naturales.qmd",
-      "line": 117,
+      "line": 128,
       "href": "../contenidos/libro/numeros/numeros-naturales.qmd#exm-00DF",
       "relations": {
         "aplica": [
@@ -5169,7 +5169,7 @@
       "type": "propiedad",
       "title": "Propiedades de adición y multiplicación",
       "source": "contenidos/libro/numeros/numeros-naturales.qmd",
-      "line": 124,
+      "line": 135,
       "href": "../contenidos/libro/numeros/numeros-naturales.qmd#tag-00DH",
       "relations": {
         "requiere": [
@@ -5182,7 +5182,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Propiedades de adición y multiplicación",
       "source": "contenidos/libro/numeros/numeros-naturales.qmd",
-      "line": 157,
+      "line": 168,
       "href": "../contenidos/libro/numeros/numeros-naturales.qmd#exm-00DH",
       "relations": {
         "aplica": [
@@ -5195,7 +5195,7 @@
       "type": "tecnica",
       "title": "Algoritmos y cálculo mental",
       "source": "contenidos/libro/numeros/numeros-naturales.qmd",
-      "line": 164,
+      "line": 175,
       "href": "../contenidos/libro/numeros/numeros-naturales.qmd#tag-00DJ",
       "relations": {
         "requiere": [
@@ -5209,7 +5209,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Algoritmos y cálculo mental",
       "source": "contenidos/libro/numeros/numeros-naturales.qmd",
-      "line": 173,
+      "line": 184,
       "href": "../contenidos/libro/numeros/numeros-naturales.qmd#exm-00DJ",
       "relations": {
         "aplica": [
@@ -5222,7 +5222,7 @@
       "type": "teorema",
       "title": "División euclídea de naturales",
       "source": "contenidos/libro/numeros/numeros-naturales.qmd",
-      "line": 182,
+      "line": 193,
       "href": "../contenidos/libro/numeros/numeros-naturales.qmd#tag-00DL",
       "relations": {
         "requiere": [
@@ -5235,7 +5235,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: División euclídea de naturales",
       "source": "contenidos/libro/numeros/numeros-naturales.qmd",
-      "line": 193,
+      "line": 204,
       "href": "../contenidos/libro/numeros/numeros-naturales.qmd#exm-00DL",
       "relations": {
         "aplica": [
@@ -5248,7 +5248,7 @@
       "type": "definicion",
       "title": "Divisibilidad, divisores y múltiplos",
       "source": "contenidos/libro/numeros/numeros-naturales.qmd",
-      "line": 200,
+      "line": 211,
       "href": "../contenidos/libro/numeros/numeros-naturales.qmd#tag-00DN",
       "relations": {
         "requiere": [
@@ -5261,7 +5261,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Divisibilidad, divisores y múltiplos",
       "source": "contenidos/libro/numeros/numeros-naturales.qmd",
-      "line": 209,
+      "line": 220,
       "href": "../contenidos/libro/numeros/numeros-naturales.qmd#exm-00DN",
       "relations": {
         "aplica": [
@@ -5274,7 +5274,7 @@
       "type": "propiedad",
       "title": "Paridad y criterios de divisibilidad",
       "source": "contenidos/libro/numeros/numeros-naturales.qmd",
-      "line": 216,
+      "line": 227,
       "href": "../contenidos/libro/numeros/numeros-naturales.qmd#tag-00DP",
       "relations": {
         "requiere": [
@@ -5288,7 +5288,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Paridad y criterios de divisibilidad",
       "source": "contenidos/libro/numeros/numeros-naturales.qmd",
-      "line": 233,
+      "line": 244,
       "href": "../contenidos/libro/numeros/numeros-naturales.qmd#exm-00DP",
       "relations": {
         "aplica": [
@@ -5301,7 +5301,7 @@
       "type": "definicion",
       "title": "Números primos y compuestos",
       "source": "contenidos/libro/numeros/numeros-naturales.qmd",
-      "line": 242,
+      "line": 253,
       "href": "../contenidos/libro/numeros/numeros-naturales.qmd#tag-00DR",
       "relations": {
         "requiere": [
@@ -5314,7 +5314,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Números primos y compuestos",
       "source": "contenidos/libro/numeros/numeros-naturales.qmd",
-      "line": 251,
+      "line": 262,
       "href": "../contenidos/libro/numeros/numeros-naturales.qmd#exm-00DR",
       "relations": {
         "aplica": [
@@ -5327,7 +5327,7 @@
       "type": "teorema",
       "title": "Teorema fundamental de la aritmética",
       "source": "contenidos/libro/numeros/numeros-naturales.qmd",
-      "line": 258,
+      "line": 269,
       "href": "../contenidos/libro/numeros/numeros-naturales.qmd#tag-00DT",
       "relations": {
         "requiere": [
@@ -5340,7 +5340,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Teorema fundamental de la aritmética",
       "source": "contenidos/libro/numeros/numeros-naturales.qmd",
-      "line": 269,
+      "line": 280,
       "href": "../contenidos/libro/numeros/numeros-naturales.qmd#exm-00DT",
       "relations": {
         "aplica": [
@@ -5353,7 +5353,7 @@
       "type": "definicion",
       "title": "Máximo común divisor y mínimo común múltiplo",
       "source": "contenidos/libro/numeros/numeros-naturales.qmd",
-      "line": 278,
+      "line": 289,
       "href": "../contenidos/libro/numeros/numeros-naturales.qmd#tag-00DV",
       "relations": {
         "requiere": [
@@ -5366,7 +5366,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Máximo común divisor y mínimo común múltiplo",
       "source": "contenidos/libro/numeros/numeros-naturales.qmd",
-      "line": 291,
+      "line": 302,
       "href": "../contenidos/libro/numeros/numeros-naturales.qmd#exm-00DV",
       "relations": {
         "aplica": [
@@ -5379,7 +5379,7 @@
       "type": "propiedad",
       "title": "Cálculo de MCD y MCM por factores primos",
       "source": "contenidos/libro/numeros/numeros-naturales.qmd",
-      "line": 298,
+      "line": 309,
       "href": "../contenidos/libro/numeros/numeros-naturales.qmd#tag-00DX",
       "relations": {
         "requiere": [
@@ -5393,7 +5393,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Cálculo de MCD y MCM por factores primos",
       "source": "contenidos/libro/numeros/numeros-naturales.qmd",
-      "line": 321,
+      "line": 332,
       "href": "../contenidos/libro/numeros/numeros-naturales.qmd#exm-00DX",
       "relations": {
         "aplica": [
@@ -5406,7 +5406,7 @@
       "type": "definicion",
       "title": "Número racional y representación fraccionaria",
       "source": "contenidos/libro/numeros/numeros-racionales.qmd",
-      "line": 16,
+      "line": 27,
       "href": "../contenidos/libro/numeros/numeros-racionales.qmd#tag-00EH",
       "relations": {
         "requiere": [
@@ -5419,7 +5419,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Número racional y representación fraccionaria",
       "source": "contenidos/libro/numeros/numeros-racionales.qmd",
-      "line": 25,
+      "line": 36,
       "href": "../contenidos/libro/numeros/numeros-racionales.qmd#exm-00EH",
       "relations": {
         "aplica": [
@@ -5432,7 +5432,7 @@
       "type": "observacion",
       "title": "Parte-todo, medida, cociente, razón y operador",
       "source": "contenidos/libro/numeros/numeros-racionales.qmd",
-      "line": 32,
+      "line": 43,
       "href": "../contenidos/libro/numeros/numeros-racionales.qmd#tag-00EJ",
       "relations": {
         "requiere": [
@@ -5446,7 +5446,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Parte-todo, medida, cociente, razón y operador",
       "source": "contenidos/libro/numeros/numeros-racionales.qmd",
-      "line": 47,
+      "line": 58,
       "href": "../contenidos/libro/numeros/numeros-racionales.qmd#exm-00EJ",
       "relations": {
         "aplica": [
@@ -5459,7 +5459,7 @@
       "type": "tecnica",
       "title": "Unidad fraccionaria y fracciones mayores que uno",
       "source": "contenidos/libro/numeros/numeros-racionales.qmd",
-      "line": 54,
+      "line": 65,
       "href": "../contenidos/libro/numeros/numeros-racionales.qmd#tag-00EL",
       "relations": {
         "requiere": [
@@ -5473,7 +5473,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Unidad fraccionaria y fracciones mayores que uno",
       "source": "contenidos/libro/numeros/numeros-racionales.qmd",
-      "line": 63,
+      "line": 74,
       "href": "../contenidos/libro/numeros/numeros-racionales.qmd#exm-00EL",
       "relations": {
         "aplica": [
@@ -5486,7 +5486,7 @@
       "type": "propiedad",
       "title": "Equivalencia de fracciones",
       "source": "contenidos/libro/numeros/numeros-racionales.qmd",
-      "line": 74,
+      "line": 85,
       "href": "../contenidos/libro/numeros/numeros-racionales.qmd#tag-00EN",
       "relations": {
         "requiere": [
@@ -5500,7 +5500,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Equivalencia de fracciones",
       "source": "contenidos/libro/numeros/numeros-racionales.qmd",
-      "line": 101,
+      "line": 112,
       "href": "../contenidos/libro/numeros/numeros-racionales.qmd#exm-00EN",
       "relations": {
         "aplica": [
@@ -5513,7 +5513,7 @@
       "type": "definicion",
       "title": "Fracción irreducible y simplificación mediante MCD",
       "source": "contenidos/libro/numeros/numeros-racionales.qmd",
-      "line": 108,
+      "line": 119,
       "href": "../contenidos/libro/numeros/numeros-racionales.qmd#tag-00EP",
       "relations": {
         "requiere": [
@@ -5527,7 +5527,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Fracción irreducible y simplificación mediante MCD",
       "source": "contenidos/libro/numeros/numeros-racionales.qmd",
-      "line": 117,
+      "line": 128,
       "href": "../contenidos/libro/numeros/numeros-racionales.qmd#exm-00EP",
       "relations": {
         "aplica": [
@@ -5540,7 +5540,7 @@
       "type": "tecnica",
       "title": "Denominadores comunes y MCM",
       "source": "contenidos/libro/numeros/numeros-racionales.qmd",
-      "line": 124,
+      "line": 135,
       "href": "../contenidos/libro/numeros/numeros-racionales.qmd#tag-00ER",
       "relations": {
         "requiere": [
@@ -5554,7 +5554,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Denominadores comunes y MCM",
       "source": "contenidos/libro/numeros/numeros-racionales.qmd",
-      "line": 135,
+      "line": 146,
       "href": "../contenidos/libro/numeros/numeros-racionales.qmd#exm-00ER",
       "relations": {
         "aplica": [
@@ -5567,7 +5567,7 @@
       "type": "propiedad",
       "title": "Comparación y orden de racionales",
       "source": "contenidos/libro/numeros/numeros-racionales.qmd",
-      "line": 144,
+      "line": 155,
       "href": "../contenidos/libro/numeros/numeros-racionales.qmd#tag-00ET",
       "relations": {
         "requiere": [
@@ -5581,7 +5581,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Comparación y orden de racionales",
       "source": "contenidos/libro/numeros/numeros-racionales.qmd",
-      "line": 171,
+      "line": 182,
       "href": "../contenidos/libro/numeros/numeros-racionales.qmd#exm-00ET",
       "relations": {
         "aplica": [
@@ -5594,7 +5594,7 @@
       "type": "propiedad",
       "title": "Adición y sustracción de fracciones",
       "source": "contenidos/libro/numeros/numeros-racionales.qmd",
-      "line": 178,
+      "line": 189,
       "href": "../contenidos/libro/numeros/numeros-racionales.qmd#tag-00EV",
       "relations": {
         "requiere": [
@@ -5607,7 +5607,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Adición y sustracción de fracciones",
       "source": "contenidos/libro/numeros/numeros-racionales.qmd",
-      "line": 189,
+      "line": 200,
       "href": "../contenidos/libro/numeros/numeros-racionales.qmd#exm-00EV",
       "relations": {
         "aplica": [
@@ -5620,7 +5620,7 @@
       "type": "propiedad",
       "title": "Producto de racionales",
       "source": "contenidos/libro/numeros/numeros-racionales.qmd",
-      "line": 196,
+      "line": 207,
       "href": "../contenidos/libro/numeros/numeros-racionales.qmd#tag-00EX",
       "relations": {
         "requiere": [
@@ -5634,7 +5634,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Producto de racionales",
       "source": "contenidos/libro/numeros/numeros-racionales.qmd",
-      "line": 207,
+      "line": 218,
       "href": "../contenidos/libro/numeros/numeros-racionales.qmd#exm-00EX",
       "relations": {
         "aplica": [
@@ -5647,7 +5647,7 @@
       "type": "definicion",
       "title": "Recíproco y división de racionales",
       "source": "contenidos/libro/numeros/numeros-racionales.qmd",
-      "line": 214,
+      "line": 225,
       "href": "../contenidos/libro/numeros/numeros-racionales.qmd#tag-00EZ",
       "relations": {
         "requiere": [
@@ -5661,7 +5661,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Recíproco y división de racionales",
       "source": "contenidos/libro/numeros/numeros-racionales.qmd",
-      "line": 225,
+      "line": 236,
       "href": "../contenidos/libro/numeros/numeros-racionales.qmd#exm-00EZ",
       "relations": {
         "aplica": [
@@ -5674,7 +5674,7 @@
       "type": "propiedad",
       "title": "Decimales finitos y periódicos",
       "source": "contenidos/libro/numeros/numeros-racionales.qmd",
-      "line": 234,
+      "line": 245,
       "href": "../contenidos/libro/numeros/numeros-racionales.qmd#tag-00F1",
       "relations": {
         "requiere": [
@@ -5688,7 +5688,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Decimales finitos y periódicos",
       "source": "contenidos/libro/numeros/numeros-racionales.qmd",
-      "line": 243,
+      "line": 254,
       "href": "../contenidos/libro/numeros/numeros-racionales.qmd#exm-00F1",
       "relations": {
         "aplica": [
@@ -5701,7 +5701,7 @@
       "type": "teorema",
       "title": "Criterio para una expansión decimal finita",
       "source": "contenidos/libro/numeros/numeros-racionales.qmd",
-      "line": 250,
+      "line": 261,
       "href": "../contenidos/libro/numeros/numeros-racionales.qmd#tag-00F3",
       "relations": {
         "requiere": [
@@ -5716,7 +5716,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Criterio para una expansión decimal finita",
       "source": "contenidos/libro/numeros/numeros-racionales.qmd",
-      "line": 261,
+      "line": 272,
       "href": "../contenidos/libro/numeros/numeros-racionales.qmd#exm-00F3",
       "relations": {
         "aplica": [
@@ -5729,7 +5729,7 @@
       "type": "tecnica",
       "title": "Valor posicional y cálculo con decimales",
       "source": "contenidos/libro/numeros/numeros-racionales.qmd",
-      "line": 268,
+      "line": 279,
       "href": "../contenidos/libro/numeros/numeros-racionales.qmd#tag-00F5",
       "relations": {
         "requiere": [
@@ -5744,7 +5744,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Valor posicional y cálculo con decimales",
       "source": "contenidos/libro/numeros/numeros-racionales.qmd",
-      "line": 277,
+      "line": 288,
       "href": "../contenidos/libro/numeros/numeros-racionales.qmd#exm-00F5",
       "relations": {
         "aplica": [
@@ -5757,7 +5757,7 @@
       "type": "propiedad",
       "title": "Densidad de los racionales",
       "source": "contenidos/libro/numeros/numeros-racionales.qmd",
-      "line": 286,
+      "line": 297,
       "href": "../contenidos/libro/numeros/numeros-racionales.qmd#tag-00F7",
       "relations": {
         "requiere": [
@@ -5771,7 +5771,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Densidad de los racionales",
       "source": "contenidos/libro/numeros/numeros-racionales.qmd",
-      "line": 297,
+      "line": 308,
       "href": "../contenidos/libro/numeros/numeros-racionales.qmd#exm-00F7",
       "relations": {
         "aplica": [
@@ -5784,7 +5784,7 @@
       "type": "definicion",
       "title": "Números irracionales",
       "source": "contenidos/libro/numeros/numeros-reales.qmd",
-      "line": 16,
+      "line": 27,
       "href": "../contenidos/libro/numeros/numeros-reales.qmd#tag-00F9",
       "relations": {
         "requiere": [
@@ -5797,7 +5797,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Números irracionales",
       "source": "contenidos/libro/numeros/numeros-reales.qmd",
-      "line": 25,
+      "line": 36,
       "href": "../contenidos/libro/numeros/numeros-reales.qmd#exm-00F9",
       "relations": {
         "aplica": [
@@ -5810,7 +5810,7 @@
       "type": "definicion",
       "title": "El conjunto de los números reales",
       "source": "contenidos/libro/numeros/numeros-reales.qmd",
-      "line": 32,
+      "line": 43,
       "href": "../contenidos/libro/numeros/numeros-reales.qmd#tag-00FB",
       "relations": {
         "requiere": [
@@ -5824,7 +5824,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: El conjunto de los números reales",
       "source": "contenidos/libro/numeros/numeros-reales.qmd",
-      "line": 43,
+      "line": 54,
       "href": "../contenidos/libro/numeros/numeros-reales.qmd#exm-00FB",
       "relations": {
         "aplica": [
@@ -5837,7 +5837,7 @@
       "type": "observacion",
       "title": "Inconmensurabilidad y raíz de dos",
       "source": "contenidos/libro/numeros/numeros-reales.qmd",
-      "line": 50,
+      "line": 61,
       "href": "../contenidos/libro/numeros/numeros-reales.qmd#tag-00FD",
       "relations": {
         "requiere": [
@@ -5851,7 +5851,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Inconmensurabilidad y raíz de dos",
       "source": "contenidos/libro/numeros/numeros-reales.qmd",
-      "line": 59,
+      "line": 70,
       "href": "../contenidos/libro/numeros/numeros-reales.qmd#exm-00FD",
       "relations": {
         "aplica": [
@@ -5864,7 +5864,7 @@
       "type": "propiedad",
       "title": "Orden y operaciones en los reales",
       "source": "contenidos/libro/numeros/numeros-reales.qmd",
-      "line": 68,
+      "line": 79,
       "href": "../contenidos/libro/numeros/numeros-reales.qmd#tag-00FF",
       "relations": {
         "requiere": [
@@ -5878,7 +5878,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Orden y operaciones en los reales",
       "source": "contenidos/libro/numeros/numeros-reales.qmd",
-      "line": 109,
+      "line": 120,
       "href": "../contenidos/libro/numeros/numeros-reales.qmd#exm-00FF",
       "relations": {
         "aplica": [
@@ -5891,7 +5891,7 @@
       "type": "definicion",
       "title": "Valor absoluto y distancia real",
       "source": "contenidos/libro/numeros/numeros-reales.qmd",
-      "line": 116,
+      "line": 127,
       "href": "../contenidos/libro/numeros/numeros-reales.qmd#tag-00FH",
       "relations": {
         "requiere": [
@@ -5905,7 +5905,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Valor absoluto y distancia real",
       "source": "contenidos/libro/numeros/numeros-reales.qmd",
-      "line": 125,
+      "line": 136,
       "href": "../contenidos/libro/numeros/numeros-reales.qmd#exm-00FH",
       "relations": {
         "aplica": [
@@ -5918,7 +5918,7 @@
       "type": "definicion",
       "title": "Intervalos y extremos",
       "source": "contenidos/libro/numeros/numeros-reales.qmd",
-      "line": 132,
+      "line": 143,
       "href": "../contenidos/libro/numeros/numeros-reales.qmd#tag-00FJ",
       "relations": {
         "requiere": [
@@ -5931,7 +5931,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Intervalos y extremos",
       "source": "contenidos/libro/numeros/numeros-reales.qmd",
-      "line": 146,
+      "line": 157,
       "href": "../contenidos/libro/numeros/numeros-reales.qmd#exm-00FJ",
       "relations": {
         "aplica": [
@@ -5944,7 +5944,7 @@
       "type": "propiedad",
       "title": "Densidad de racionales e irracionales",
       "source": "contenidos/libro/numeros/numeros-reales.qmd",
-      "line": 155,
+      "line": 166,
       "href": "../contenidos/libro/numeros/numeros-reales.qmd#tag-00FL",
       "relations": {
         "requiere": [
@@ -5958,7 +5958,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Densidad de racionales e irracionales",
       "source": "contenidos/libro/numeros/numeros-reales.qmd",
-      "line": 164,
+      "line": 175,
       "href": "../contenidos/libro/numeros/numeros-reales.qmd#exm-00FL",
       "relations": {
         "aplica": [
@@ -5971,7 +5971,7 @@
       "type": "observacion",
       "title": "Completitud y ausencia de huecos",
       "source": "contenidos/libro/numeros/numeros-reales.qmd",
-      "line": 171,
+      "line": 182,
       "href": "../contenidos/libro/numeros/numeros-reales.qmd#tag-00FN",
       "relations": {
         "requiere": [
@@ -5985,7 +5985,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Completitud y ausencia de huecos",
       "source": "contenidos/libro/numeros/numeros-reales.qmd",
-      "line": 180,
+      "line": 191,
       "href": "../contenidos/libro/numeros/numeros-reales.qmd#exm-00FN",
       "relations": {
         "aplica": [
@@ -5998,7 +5998,7 @@
       "type": "tecnica",
       "title": "Truncamiento, redondeo y cotas",
       "source": "contenidos/libro/numeros/numeros-reales.qmd",
-      "line": 189,
+      "line": 200,
       "href": "../contenidos/libro/numeros/numeros-reales.qmd#tag-00FP",
       "relations": {
         "requiere": [
@@ -6011,7 +6011,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Truncamiento, redondeo y cotas",
       "source": "contenidos/libro/numeros/numeros-reales.qmd",
-      "line": 198,
+      "line": 209,
       "href": "../contenidos/libro/numeros/numeros-reales.qmd#exm-00FP",
       "relations": {
         "aplica": [
@@ -6024,7 +6024,7 @@
       "type": "definicion",
       "title": "Error absoluto y relativo de una aproximación",
       "source": "contenidos/libro/numeros/numeros-reales.qmd",
-      "line": 205,
+      "line": 216,
       "href": "../contenidos/libro/numeros/numeros-reales.qmd#tag-00FR",
       "relations": {
         "requiere": [
@@ -6038,7 +6038,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Error absoluto y relativo de una aproximación",
       "source": "contenidos/libro/numeros/numeros-reales.qmd",
-      "line": 214,
+      "line": 225,
       "href": "../contenidos/libro/numeros/numeros-reales.qmd#exm-00FR",
       "relations": {
         "aplica": [
@@ -6051,7 +6051,7 @@
       "type": "tecnica",
       "title": "Notación científica y escala de un real",
       "source": "contenidos/libro/numeros/numeros-reales.qmd",
-      "line": 221,
+      "line": 232,
       "href": "../contenidos/libro/numeros/numeros-reales.qmd#tag-00FT",
       "relations": {
         "requiere": [
@@ -6066,7 +6066,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Notación científica y escala de un real",
       "source": "contenidos/libro/numeros/numeros-reales.qmd",
-      "line": 230,
+      "line": 241,
       "href": "../contenidos/libro/numeros/numeros-reales.qmd#exm-00FT",
       "relations": {
         "aplica": [
@@ -6079,14 +6079,14 @@
       "type": "definicion",
       "title": "Porcentaje",
       "source": "contenidos/libro/numeros/porcentajes.qmd",
-      "line": 18,
+      "line": 29,
       "href": "../contenidos/libro/numeros/porcentajes.qmd#tag-008P",
       "relations": {
-        "requiere": [
-          "00FV"
-        ],
         "pertenece_a": [
           "0000"
+        ],
+        "requiere": [
+          "00FV"
         ]
       }
     },
@@ -6095,7 +6095,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Porcentaje",
       "source": "contenidos/libro/numeros/porcentajes.qmd",
-      "line": 29,
+      "line": 40,
       "href": "../contenidos/libro/numeros/porcentajes.qmd#exm-008P",
       "relations": {
         "aplica": [
@@ -6108,7 +6108,7 @@
       "type": "tecnica",
       "title": "Porcentaje como fracción y decimal",
       "source": "contenidos/libro/numeros/porcentajes.qmd",
-      "line": 36,
+      "line": 47,
       "href": "../contenidos/libro/numeros/porcentajes.qmd#tag-00GI",
       "relations": {
         "requiere": [
@@ -6122,7 +6122,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Porcentaje como fracción y decimal",
       "source": "contenidos/libro/numeros/porcentajes.qmd",
-      "line": 45,
+      "line": 56,
       "href": "../contenidos/libro/numeros/porcentajes.qmd#exm-00GI",
       "relations": {
         "aplica": [
@@ -6135,14 +6135,14 @@
       "type": "tecnica",
       "title": "Calcular un porcentaje de una cantidad",
       "source": "contenidos/libro/numeros/porcentajes.qmd",
-      "line": 52,
+      "line": 63,
       "href": "../contenidos/libro/numeros/porcentajes.qmd#tag-008Q",
       "relations": {
-        "requiere": [
-          "008P"
-        ],
         "pertenece_a": [
           "0000"
+        ],
+        "requiere": [
+          "008P"
         ]
       }
     },
@@ -6151,7 +6151,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Calcular un porcentaje de una cantidad",
       "source": "contenidos/libro/numeros/porcentajes.qmd",
-      "line": 63,
+      "line": 74,
       "href": "../contenidos/libro/numeros/porcentajes.qmd#exm-008Q",
       "relations": {
         "aplica": [
@@ -6164,7 +6164,7 @@
       "type": "propiedad",
       "title": "Recuperar el total y calcular una participación",
       "source": "contenidos/libro/numeros/porcentajes.qmd",
-      "line": 72,
+      "line": 83,
       "href": "../contenidos/libro/numeros/porcentajes.qmd#tag-00GK",
       "relations": {
         "requiere": [
@@ -6178,7 +6178,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Recuperar el total y calcular una participación",
       "source": "contenidos/libro/numeros/porcentajes.qmd",
-      "line": 95,
+      "line": 106,
       "href": "../contenidos/libro/numeros/porcentajes.qmd#exm-00GK",
       "relations": {
         "aplica": [
@@ -6191,7 +6191,7 @@
       "type": "propiedad",
       "title": "Factores de aumento y descuento",
       "source": "contenidos/libro/numeros/porcentajes.qmd",
-      "line": 104,
+      "line": 115,
       "href": "../contenidos/libro/numeros/porcentajes.qmd#tag-00GM",
       "relations": {
         "requiere": [
@@ -6204,7 +6204,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Factores de aumento y descuento",
       "source": "contenidos/libro/numeros/porcentajes.qmd",
-      "line": 127,
+      "line": 138,
       "href": "../contenidos/libro/numeros/porcentajes.qmd#exm-00GM",
       "relations": {
         "aplica": [
@@ -6217,7 +6217,7 @@
       "type": "tecnica",
       "title": "Valor inicial a partir del valor final",
       "source": "contenidos/libro/numeros/porcentajes.qmd",
-      "line": 134,
+      "line": 145,
       "href": "../contenidos/libro/numeros/porcentajes.qmd#tag-00GO",
       "relations": {
         "requiere": [
@@ -6230,7 +6230,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Valor inicial a partir del valor final",
       "source": "contenidos/libro/numeros/porcentajes.qmd",
-      "line": 143,
+      "line": 154,
       "href": "../contenidos/libro/numeros/porcentajes.qmd#exm-00GO",
       "relations": {
         "aplica": [
@@ -6243,7 +6243,7 @@
       "type": "definicion",
       "title": "Variación absoluta y relativa",
       "source": "contenidos/libro/numeros/porcentajes.qmd",
-      "line": 152,
+      "line": 163,
       "href": "../contenidos/libro/numeros/porcentajes.qmd#tag-00GQ",
       "relations": {
         "requiere": [
@@ -6256,7 +6256,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Variación absoluta y relativa",
       "source": "contenidos/libro/numeros/porcentajes.qmd",
-      "line": 165,
+      "line": 176,
       "href": "../contenidos/libro/numeros/porcentajes.qmd#exm-00GQ",
       "relations": {
         "aplica": [
@@ -6269,7 +6269,7 @@
       "type": "definicion",
       "title": "Puntos porcentuales",
       "source": "contenidos/libro/numeros/porcentajes.qmd",
-      "line": 172,
+      "line": 183,
       "href": "../contenidos/libro/numeros/porcentajes.qmd#tag-00GS",
       "relations": {
         "requiere": [
@@ -6282,7 +6282,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Puntos porcentuales",
       "source": "contenidos/libro/numeros/porcentajes.qmd",
-      "line": 181,
+      "line": 192,
       "href": "../contenidos/libro/numeros/porcentajes.qmd#exm-00GS",
       "relations": {
         "aplica": [
@@ -6295,7 +6295,7 @@
       "type": "propiedad",
       "title": "Composición de porcentajes sucesivos",
       "source": "contenidos/libro/numeros/porcentajes.qmd",
-      "line": 192,
+      "line": 203,
       "href": "../contenidos/libro/numeros/porcentajes.qmd#tag-00GU",
       "relations": {
         "requiere": [
@@ -6309,7 +6309,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Composición de porcentajes sucesivos",
       "source": "contenidos/libro/numeros/porcentajes.qmd",
-      "line": 203,
+      "line": 214,
       "href": "../contenidos/libro/numeros/porcentajes.qmd#exm-00GU",
       "relations": {
         "aplica": [
@@ -6322,7 +6322,7 @@
       "type": "observacion",
       "title": "Suma de porcentajes y base común",
       "source": "contenidos/libro/numeros/porcentajes.qmd",
-      "line": 210,
+      "line": 221,
       "href": "../contenidos/libro/numeros/porcentajes.qmd#tag-00GW",
       "relations": {
         "requiere": [
@@ -6335,7 +6335,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Suma de porcentajes y base común",
       "source": "contenidos/libro/numeros/porcentajes.qmd",
-      "line": 219,
+      "line": 230,
       "href": "../contenidos/libro/numeros/porcentajes.qmd#exm-00GW",
       "relations": {
         "aplica": [
@@ -6348,7 +6348,7 @@
       "type": "aplicacion",
       "title": "Índices, composición y comparación de ofertas",
       "source": "contenidos/libro/numeros/porcentajes.qmd",
-      "line": 228,
+      "line": 239,
       "href": "../contenidos/libro/numeros/porcentajes.qmd#tag-00GY",
       "relations": {
         "requiere": [
@@ -6362,7 +6362,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Índices, composición y comparación de ofertas",
       "source": "contenidos/libro/numeros/porcentajes.qmd",
-      "line": 237,
+      "line": 248,
       "href": "../contenidos/libro/numeros/porcentajes.qmd#exm-00GY",
       "relations": {
         "aplica": [
@@ -6375,7 +6375,7 @@
       "type": "definicion",
       "title": "Razón y referentes de comparación",
       "source": "contenidos/libro/numeros/razones-proporcionalidad.qmd",
-      "line": 16,
+      "line": 27,
       "href": "../contenidos/libro/numeros/razones-proporcionalidad.qmd#tag-00FV",
       "relations": {
         "requiere": [
@@ -6389,7 +6389,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Razón y referentes de comparación",
       "source": "contenidos/libro/numeros/razones-proporcionalidad.qmd",
-      "line": 29,
+      "line": 40,
       "href": "../contenidos/libro/numeros/razones-proporcionalidad.qmd#exm-00FV",
       "relations": {
         "aplica": [
@@ -6402,7 +6402,7 @@
       "type": "definicion",
       "title": "Tasa y valor por unidad",
       "source": "contenidos/libro/numeros/razones-proporcionalidad.qmd",
-      "line": 40,
+      "line": 51,
       "href": "../contenidos/libro/numeros/razones-proporcionalidad.qmd#tag-00FX",
       "relations": {
         "requiere": [
@@ -6416,7 +6416,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Tasa y valor por unidad",
       "source": "contenidos/libro/numeros/razones-proporcionalidad.qmd",
-      "line": 49,
+      "line": 60,
       "href": "../contenidos/libro/numeros/razones-proporcionalidad.qmd#exm-00FX",
       "relations": {
         "aplica": [
@@ -6429,7 +6429,7 @@
       "type": "definicion",
       "title": "Proporción e igualdad de razones",
       "source": "contenidos/libro/numeros/razones-proporcionalidad.qmd",
-      "line": 60,
+      "line": 71,
       "href": "../contenidos/libro/numeros/razones-proporcionalidad.qmd#tag-00FZ",
       "relations": {
         "requiere": [
@@ -6443,7 +6443,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Proporción e igualdad de razones",
       "source": "contenidos/libro/numeros/razones-proporcionalidad.qmd",
-      "line": 71,
+      "line": 82,
       "href": "../contenidos/libro/numeros/razones-proporcionalidad.qmd#exm-00FZ",
       "relations": {
         "aplica": [
@@ -6456,7 +6456,7 @@
       "type": "definicion",
       "title": "Relación directamente proporcional",
       "source": "contenidos/libro/numeros/razones-proporcionalidad.qmd",
-      "line": 84,
+      "line": 95,
       "href": "../contenidos/libro/numeros/razones-proporcionalidad.qmd#tag-00G1",
       "relations": {
         "requiere": [
@@ -6470,7 +6470,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Relación directamente proporcional",
       "source": "contenidos/libro/numeros/razones-proporcionalidad.qmd",
-      "line": 103,
+      "line": 114,
       "href": "../contenidos/libro/numeros/razones-proporcionalidad.qmd#exm-00G1",
       "relations": {
         "aplica": [
@@ -6483,7 +6483,7 @@
       "type": "tecnica",
       "title": "Tablas y gráficos de proporcionalidad directa",
       "source": "contenidos/libro/numeros/razones-proporcionalidad.qmd",
-      "line": 122,
+      "line": 133,
       "href": "../contenidos/libro/numeros/razones-proporcionalidad.qmd#tag-00G3",
       "relations": {
         "requiere": [
@@ -6496,7 +6496,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Tablas y gráficos de proporcionalidad directa",
       "source": "contenidos/libro/numeros/razones-proporcionalidad.qmd",
-      "line": 131,
+      "line": 142,
       "href": "../contenidos/libro/numeros/razones-proporcionalidad.qmd#exm-00G3",
       "relations": {
         "aplica": [
@@ -6509,7 +6509,7 @@
       "type": "definicion",
       "title": "Relación inversamente proporcional",
       "source": "contenidos/libro/numeros/razones-proporcionalidad.qmd",
-      "line": 144,
+      "line": 155,
       "href": "../contenidos/libro/numeros/razones-proporcionalidad.qmd#tag-00G5",
       "relations": {
         "requiere": [
@@ -6523,7 +6523,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Relación inversamente proporcional",
       "source": "contenidos/libro/numeros/razones-proporcionalidad.qmd",
-      "line": 163,
+      "line": 174,
       "href": "../contenidos/libro/numeros/razones-proporcionalidad.qmd#exm-00G5",
       "relations": {
         "aplica": [
@@ -6536,7 +6536,7 @@
       "type": "tecnica",
       "title": "Tablas, gráficos y supuestos de un modelo inverso",
       "source": "contenidos/libro/numeros/razones-proporcionalidad.qmd",
-      "line": 182,
+      "line": 193,
       "href": "../contenidos/libro/numeros/razones-proporcionalidad.qmd#tag-00G7",
       "relations": {
         "requiere": [
@@ -6549,7 +6549,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Tablas, gráficos y supuestos de un modelo inverso",
       "source": "contenidos/libro/numeros/razones-proporcionalidad.qmd",
-      "line": 191,
+      "line": 202,
       "href": "../contenidos/libro/numeros/razones-proporcionalidad.qmd#exm-00G7",
       "relations": {
         "aplica": [
@@ -6562,7 +6562,7 @@
       "type": "tecnica",
       "title": "Tasa media y composición de razones",
       "source": "contenidos/libro/numeros/razones-proporcionalidad.qmd",
-      "line": 204,
+      "line": 215,
       "href": "../contenidos/libro/numeros/razones-proporcionalidad.qmd#tag-00GD",
       "relations": {
         "requiere": [
@@ -6575,7 +6575,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Tasa media y composición de razones",
       "source": "contenidos/libro/numeros/razones-proporcionalidad.qmd",
-      "line": 213,
+      "line": 224,
       "href": "../contenidos/libro/numeros/razones-proporcionalidad.qmd#exm-00GD",
       "relations": {
         "aplica": [
@@ -6588,7 +6588,7 @@
       "type": "observacion",
       "title": "Relaciones afines y otros contraejemplos",
       "source": "contenidos/libro/numeros/razones-proporcionalidad.qmd",
-      "line": 226,
+      "line": 237,
       "href": "../contenidos/libro/numeros/razones-proporcionalidad.qmd#tag-00GF",
       "relations": {
         "requiere": [
@@ -6602,7 +6602,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Relaciones afines y otros contraejemplos",
       "source": "contenidos/libro/numeros/razones-proporcionalidad.qmd",
-      "line": 235,
+      "line": 246,
       "href": "../contenidos/libro/numeros/razones-proporcionalidad.qmd#exm-00GF",
       "relations": {
         "aplica": [
@@ -6615,7 +6615,7 @@
       "type": "principio",
       "title": "Principio aditivo de conteo",
       "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
-      "line": 21,
+      "line": 33,
       "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#tag-008S",
       "relations": {
         "pertenece_a": [
@@ -6628,7 +6628,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Principio aditivo de conteo",
       "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
-      "line": 32,
+      "line": 44,
       "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#exm-008S",
       "relations": {
         "aplica": [
@@ -6641,7 +6641,7 @@
       "type": "principio",
       "title": "Principio multiplicativo de conteo",
       "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
-      "line": 38,
+      "line": 50,
       "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#tag-008U",
       "relations": {
         "pertenece_a": [
@@ -6654,7 +6654,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Principio multiplicativo de conteo",
       "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
-      "line": 49,
+      "line": 61,
       "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#exm-008U",
       "relations": {
         "aplica": [
@@ -6667,15 +6667,15 @@
       "type": "representacion",
       "title": "Enumeración sistemática, tablas y diagramas de árbol",
       "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
-      "line": 54,
+      "line": 66,
       "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#tag-008W",
       "relations": {
+        "pertenece_a": [
+          "0001"
+        ],
         "requiere": [
           "008S",
           "008U"
-        ],
-        "pertenece_a": [
-          "0001"
         ]
       }
     },
@@ -6684,7 +6684,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Enumeración sistemática, tablas y diagramas de árbol",
       "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
-      "line": 63,
+      "line": 75,
       "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#exm-008W",
       "relations": {
         "aplica": [
@@ -6697,7 +6697,7 @@
       "type": "definicion",
       "title": "Factorial",
       "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
-      "line": 91,
+      "line": 103,
       "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#tag-008Y",
       "relations": {
         "pertenece_a": [
@@ -6710,7 +6710,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Factorial",
       "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
-      "line": 104,
+      "line": 116,
       "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#exm-008Y",
       "relations": {
         "aplica": [
@@ -6723,15 +6723,15 @@
       "type": "definicion",
       "title": "Permutación simple",
       "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
-      "line": 109,
+      "line": 121,
       "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#tag-0090",
       "relations": {
+        "pertenece_a": [
+          "0001"
+        ],
         "requiere": [
           "008U",
           "008Y"
-        ],
-        "pertenece_a": [
-          "0001"
         ]
       }
     },
@@ -6740,7 +6740,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Permutación simple",
       "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
-      "line": 120,
+      "line": 132,
       "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#exm-0090",
       "relations": {
         "aplica": [
@@ -6753,15 +6753,15 @@
       "type": "propiedad",
       "title": "Permutaciones con elementos repetidos",
       "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
-      "line": 125,
+      "line": 137,
       "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#tag-0092",
       "relations": {
+        "pertenece_a": [
+          "0001"
+        ],
         "requiere": [
           "008Y",
           "0090"
-        ],
-        "pertenece_a": [
-          "0001"
         ]
       }
     },
@@ -6770,7 +6770,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Permutaciones con elementos repetidos",
       "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
-      "line": 136,
+      "line": 148,
       "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#exm-0092",
       "relations": {
         "aplica": [
@@ -6783,15 +6783,15 @@
       "type": "propiedad",
       "title": "Permutaciones circulares",
       "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
-      "line": 141,
+      "line": 153,
       "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#tag-0094",
       "relations": {
+        "pertenece_a": [
+          "0001"
+        ],
         "requiere": [
           "008Y",
           "0090"
-        ],
-        "pertenece_a": [
-          "0001"
         ]
       }
     },
@@ -6800,7 +6800,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Permutaciones circulares",
       "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
-      "line": 154,
+      "line": 166,
       "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#exm-0094",
       "relations": {
         "aplica": [
@@ -6813,15 +6813,15 @@
       "type": "definicion",
       "title": "Variación sin repetición",
       "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
-      "line": 159,
+      "line": 171,
       "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#tag-0096",
       "relations": {
+        "pertenece_a": [
+          "0001"
+        ],
         "requiere": [
           "008U",
           "008Y"
-        ],
-        "pertenece_a": [
-          "0001"
         ]
       }
     },
@@ -6830,7 +6830,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Variación sin repetición",
       "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
-      "line": 170,
+      "line": 182,
       "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#exm-0096",
       "relations": {
         "aplica": [
@@ -6843,14 +6843,14 @@
       "type": "definicion",
       "title": "Variación con repetición",
       "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
-      "line": 175,
+      "line": 187,
       "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#tag-0098",
       "relations": {
-        "requiere": [
-          "008U"
-        ],
         "pertenece_a": [
           "0001"
+        ],
+        "requiere": [
+          "008U"
         ]
       }
     },
@@ -6859,7 +6859,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Variación con repetición",
       "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
-      "line": 188,
+      "line": 200,
       "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#exm-0098",
       "relations": {
         "aplica": [
@@ -6872,15 +6872,15 @@
       "type": "definicion",
       "title": "Combinación sin repetición",
       "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
-      "line": 193,
+      "line": 205,
       "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#tag-009A",
       "relations": {
+        "pertenece_a": [
+          "0001"
+        ],
         "requiere": [
           "008Y",
           "0096"
-        ],
-        "pertenece_a": [
-          "0001"
         ]
       }
     },
@@ -6889,7 +6889,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Combinación sin repetición",
       "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
-      "line": 204,
+      "line": 216,
       "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#exm-009A",
       "relations": {
         "aplica": [
@@ -6902,15 +6902,15 @@
       "type": "definicion",
       "title": "Combinación con repetición",
       "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
-      "line": 209,
+      "line": 221,
       "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#tag-009C",
       "relations": {
+        "pertenece_a": [
+          "0001"
+        ],
         "requiere": [
           "008Y",
           "009A"
-        ],
-        "pertenece_a": [
-          "0001"
         ]
       }
     },
@@ -6919,7 +6919,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Combinación con repetición",
       "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
-      "line": 220,
+      "line": 232,
       "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#exm-009C",
       "relations": {
         "aplica": [
@@ -6932,14 +6932,14 @@
       "type": "propiedad",
       "title": "Coeficientes binomiales y triángulo de Pascal",
       "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
-      "line": 225,
+      "line": 237,
       "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#tag-009E",
       "relations": {
-        "requiere": [
-          "009A"
-        ],
         "pertenece_a": [
           "0001"
+        ],
+        "requiere": [
+          "009A"
         ]
       }
     },
@@ -6948,7 +6948,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Coeficientes binomiales y triángulo de Pascal",
       "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
-      "line": 254,
+      "line": 266,
       "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#exm-009E",
       "relations": {
         "aplica": [
@@ -6961,7 +6961,7 @@
       "type": "definicion",
       "title": "Experimento determinista y experimento aleatorio",
       "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
-      "line": 278,
+      "line": 290,
       "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#tag-009G",
       "relations": {
         "pertenece_a": [
@@ -6974,7 +6974,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Experimento determinista y experimento aleatorio",
       "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
-      "line": 288,
+      "line": 300,
       "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#exm-009G",
       "relations": {
         "aplica": [
@@ -6987,14 +6987,14 @@
       "type": "definicion",
       "title": "Resultado, espacio muestral y evento",
       "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
-      "line": 293,
+      "line": 305,
       "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#tag-009I",
       "relations": {
-        "requiere": [
-          "009G"
-        ],
         "pertenece_a": [
           "0001"
+        ],
+        "requiere": [
+          "009G"
         ]
       }
     },
@@ -7003,7 +7003,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Resultado, espacio muestral y evento",
       "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
-      "line": 311,
+      "line": 323,
       "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#exm-009I",
       "relations": {
         "aplica": [
@@ -7016,14 +7016,14 @@
       "type": "definicion",
       "title": "Operaciones entre eventos",
       "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
-      "line": 316,
+      "line": 328,
       "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#tag-009K",
       "relations": {
-        "requiere": [
-          "009I"
-        ],
         "pertenece_a": [
           "0001"
+        ],
+        "requiere": [
+          "009I"
         ]
       }
     },
@@ -7032,7 +7032,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Operaciones entre eventos",
       "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
-      "line": 332,
+      "line": 344,
       "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#exm-009K",
       "relations": {
         "aplica": [
@@ -7045,14 +7045,14 @@
       "type": "definicion",
       "title": "Probabilidad",
       "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
-      "line": 338,
+      "line": 350,
       "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#tag-009M",
       "relations": {
-        "requiere": [
-          "009I"
-        ],
         "pertenece_a": [
           "0001"
+        ],
+        "requiere": [
+          "009I"
         ]
       }
     },
@@ -7061,7 +7061,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Probabilidad",
       "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
-      "line": 353,
+      "line": 365,
       "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#exm-009M",
       "relations": {
         "aplica": [
@@ -7074,15 +7074,15 @@
       "type": "tecnica",
       "title": "Regla de Laplace",
       "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
-      "line": 358,
+      "line": 370,
       "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#tag-009O",
       "relations": {
+        "pertenece_a": [
+          "0001"
+        ],
         "requiere": [
           "009I",
           "009M"
-        ],
-        "pertenece_a": [
-          "0001"
         ]
       }
     },
@@ -7091,7 +7091,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Regla de Laplace",
       "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
-      "line": 372,
+      "line": 384,
       "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#exm-009O",
       "relations": {
         "aplica": [
@@ -7104,14 +7104,14 @@
       "type": "definicion",
       "title": "Probabilidad empírica y estabilización de frecuencias",
       "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
-      "line": 377,
+      "line": 389,
       "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#tag-009Q",
       "relations": {
-        "requiere": [
-          "009M"
-        ],
         "pertenece_a": [
           "0001"
+        ],
+        "requiere": [
+          "009M"
         ]
       }
     },
@@ -7120,7 +7120,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Probabilidad empírica y estabilización de frecuencias",
       "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
-      "line": 388,
+      "line": 400,
       "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#exm-009Q",
       "relations": {
         "aplica": [
@@ -7133,15 +7133,15 @@
       "type": "propiedad",
       "title": "Regla del complemento",
       "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
-      "line": 408,
+      "line": 420,
       "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#tag-009S",
       "relations": {
+        "pertenece_a": [
+          "0001"
+        ],
         "requiere": [
           "009K",
           "009M"
-        ],
-        "pertenece_a": [
-          "0001"
         ]
       }
     },
@@ -7150,7 +7150,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Regla del complemento",
       "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
-      "line": 421,
+      "line": 433,
       "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#exm-009S",
       "relations": {
         "aplica": [
@@ -7163,15 +7163,15 @@
       "type": "propiedad",
       "title": "Regla aditiva de la probabilidad",
       "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
-      "line": 426,
+      "line": 438,
       "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#tag-009U",
       "relations": {
+        "pertenece_a": [
+          "0001"
+        ],
         "requiere": [
           "009K",
           "009M"
-        ],
-        "pertenece_a": [
-          "0001"
         ]
       }
     },
@@ -7180,7 +7180,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Regla aditiva de la probabilidad",
       "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
-      "line": 437,
+      "line": 449,
       "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#exm-009U",
       "relations": {
         "aplica": [
@@ -7193,15 +7193,15 @@
       "type": "definicion",
       "title": "Probabilidad condicional",
       "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
-      "line": 444,
+      "line": 456,
       "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#tag-009W",
       "relations": {
+        "pertenece_a": [
+          "0001"
+        ],
         "requiere": [
           "009K",
           "009M"
-        ],
-        "pertenece_a": [
-          "0001"
         ]
       }
     },
@@ -7210,7 +7210,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Probabilidad condicional",
       "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
-      "line": 455,
+      "line": 467,
       "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#exm-009W",
       "relations": {
         "aplica": [
@@ -7223,14 +7223,14 @@
       "type": "propiedad",
       "title": "Regla multiplicativa de la probabilidad",
       "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
-      "line": 460,
+      "line": 472,
       "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#tag-009Y",
       "relations": {
-        "requiere": [
-          "009W"
-        ],
         "pertenece_a": [
           "0001"
+        ],
+        "requiere": [
+          "009W"
         ]
       }
     },
@@ -7239,7 +7239,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Regla multiplicativa de la probabilidad",
       "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
-      "line": 473,
+      "line": 485,
       "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#exm-009Y",
       "relations": {
         "aplica": [
@@ -7252,15 +7252,15 @@
       "type": "definicion",
       "title": "Independencia de eventos",
       "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
-      "line": 478,
+      "line": 490,
       "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#tag-00A0",
       "relations": {
+        "pertenece_a": [
+          "0001"
+        ],
         "requiere": [
           "009W",
           "009Y"
-        ],
-        "pertenece_a": [
-          "0001"
         ]
       }
     },
@@ -7269,7 +7269,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Independencia de eventos",
       "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
-      "line": 489,
+      "line": 501,
       "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#exm-00A0",
       "relations": {
         "aplica": [
@@ -7282,15 +7282,15 @@
       "type": "teorema",
       "title": "Regla de la probabilidad total",
       "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
-      "line": 494,
+      "line": 506,
       "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#tag-00A2",
       "relations": {
+        "pertenece_a": [
+          "0001"
+        ],
         "requiere": [
           "009U",
           "009Y"
-        ],
-        "pertenece_a": [
-          "0001"
         ]
       }
     },
@@ -7299,7 +7299,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Regla de la probabilidad total",
       "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
-      "line": 505,
+      "line": 517,
       "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#exm-00A2",
       "relations": {
         "aplica": [
@@ -7312,15 +7312,15 @@
       "type": "teorema",
       "title": "Teorema de Bayes elemental",
       "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
-      "line": 510,
+      "line": 522,
       "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#tag-00A4",
       "relations": {
+        "pertenece_a": [
+          "0001"
+        ],
         "requiere": [
           "009W",
           "00A2"
-        ],
-        "pertenece_a": [
-          "0001"
         ]
       }
     },
@@ -7329,7 +7329,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Teorema de Bayes elemental",
       "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
-      "line": 521,
+      "line": 533,
       "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#exm-00A4",
       "relations": {
         "aplica": [
@@ -7342,17 +7342,17 @@
       "type": "representacion",
       "title": "Árboles de probabilidad y tablas de contingencia",
       "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
-      "line": 526,
+      "line": 538,
       "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#tag-00A6",
       "relations": {
+        "pertenece_a": [
+          "0001"
+        ],
         "requiere": [
           "008W",
           "009W",
           "009Y",
           "00A2"
-        ],
-        "pertenece_a": [
-          "0001"
         ]
       }
     },
@@ -7361,7 +7361,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Árboles de probabilidad y tablas de contingencia",
       "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
-      "line": 535,
+      "line": 547,
       "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#exm-00A6",
       "relations": {
         "aplica": [
@@ -7374,15 +7374,15 @@
       "type": "tecnica",
       "title": "Simulación de experimentos aleatorios",
       "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
-      "line": 542,
+      "line": 554,
       "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#tag-00A8",
       "relations": {
+        "pertenece_a": [
+          "0001"
+        ],
         "requiere": [
           "009G",
           "009Q"
-        ],
-        "pertenece_a": [
-          "0001"
         ]
       }
     },
@@ -7391,7 +7391,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Simulación de experimentos aleatorios",
       "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
-      "line": 559,
+      "line": 571,
       "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#exm-00A8",
       "relations": {
         "aplica": [
@@ -7404,14 +7404,14 @@
       "type": "definicion",
       "title": "Variable aleatoria",
       "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
-      "line": 564,
+      "line": 576,
       "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#tag-00AA",
       "relations": {
-        "requiere": [
-          "009I"
-        ],
         "pertenece_a": [
           "0001"
+        ],
+        "requiere": [
+          "009I"
         ]
       }
     },
@@ -7420,7 +7420,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Variable aleatoria",
       "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
-      "line": 573,
+      "line": 585,
       "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#exm-00AA",
       "relations": {
         "aplica": [
@@ -7433,14 +7433,14 @@
       "type": "definicion",
       "title": "Distribución de una variable aleatoria discreta",
       "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
-      "line": 578,
+      "line": 590,
       "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#tag-00AC",
       "relations": {
-        "requiere": [
-          "00AA"
-        ],
         "pertenece_a": [
           "0001"
+        ],
+        "requiere": [
+          "00AA"
         ]
       }
     },
@@ -7449,7 +7449,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Distribución de una variable aleatoria discreta",
       "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
-      "line": 592,
+      "line": 604,
       "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#exm-00AC",
       "relations": {
         "aplica": [
@@ -7462,16 +7462,16 @@
       "type": "definicion",
       "title": "Modelo de Bernoulli y distribución binomial",
       "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
-      "line": 597,
+      "line": 609,
       "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#tag-00AE",
       "relations": {
+        "pertenece_a": [
+          "0001"
+        ],
         "requiere": [
           "009A",
           "00A0",
           "00AC"
-        ],
-        "pertenece_a": [
-          "0001"
         ]
       }
     },
@@ -7480,7 +7480,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Modelo de Bernoulli y distribución binomial",
       "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
-      "line": 608,
+      "line": 620,
       "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#exm-00AE",
       "relations": {
         "aplica": [
@@ -7493,15 +7493,15 @@
       "type": "definicion",
       "title": "Variable continua y modelo normal",
       "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
-      "line": 613,
+      "line": 625,
       "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#tag-00AG",
       "relations": {
+        "pertenece_a": [
+          "0001"
+        ],
         "requiere": [
           "00AA",
           "00AC"
-        ],
-        "pertenece_a": [
-          "0001"
         ]
       }
     },
@@ -7510,7 +7510,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Variable continua y modelo normal",
       "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
-      "line": 626,
+      "line": 638,
       "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#exm-00AG",
       "relations": {
         "aplica": [
@@ -7523,16 +7523,16 @@
       "type": "observacion",
       "title": "Interpretaciones de la probabilidad y lectura crítica",
       "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
-      "line": 633,
+      "line": 645,
       "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#tag-00AI",
       "relations": {
+        "pertenece_a": [
+          "0001"
+        ],
         "requiere": [
           "009M",
           "009Q",
           "009W"
-        ],
-        "pertenece_a": [
-          "0001"
         ]
       }
     },
@@ -7541,7 +7541,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Interpretaciones de la probabilidad y lectura crítica",
       "source": "contenidos/libro/probabilidad/combinatoria-probabilidad.qmd",
-      "line": 653,
+      "line": 665,
       "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#exm-00AI",
       "relations": {
         "aplica": [
@@ -8142,15 +8142,15 @@
       "line": 8,
       "href": "../contenidos/paes/m1/preguntas-originales/porcentajes.qmd#tag-00CD",
       "relations": {
-        "evalua": [
-          "0002"
-        ],
         "pertenece_a": [
           "0000"
         ],
         "usa": [
           "008P",
           "008Q"
+        ],
+        "evalua": [
+          "0002"
         ]
       }
     },
@@ -8162,15 +8162,15 @@
       "line": 12,
       "href": "../contenidos/universitario/estadistica/media-ponderada.qmd#tag-00CE",
       "relations": {
-        "requiere": [
-          "008P",
-          "008Q"
-        ],
         "pertenece_a": [
           "0001"
         ],
         "profundiza": [
           "00CD"
+        ],
+        "requiere": [
+          "008P",
+          "008Q"
         ]
       }
     }
@@ -13501,6 +13501,29 @@
         "relation": "aplica"
       }
     ],
+    "0000": [
+      {
+        "tag": "008P",
+        "title": "Porcentaje",
+        "source": "contenidos/libro/numeros/porcentajes.qmd",
+        "href": "../libro/numeros/porcentajes.qmd#tag-008P",
+        "relation": "pertenece_a"
+      },
+      {
+        "tag": "008Q",
+        "title": "Calcular un porcentaje de una cantidad",
+        "source": "contenidos/libro/numeros/porcentajes.qmd",
+        "href": "../libro/numeros/porcentajes.qmd#tag-008Q",
+        "relation": "pertenece_a"
+      },
+      {
+        "tag": "00CD",
+        "title": "Descuento porcentual",
+        "source": "contenidos/paes/m1/preguntas-originales/porcentajes.qmd",
+        "href": "../paes/m1/preguntas-originales/porcentajes.qmd#tag-00CD",
+        "relation": "pertenece_a"
+      }
+    ],
     "00FV": [
       {
         "tag": "008P",
@@ -13529,29 +13552,6 @@
         "source": "contenidos/libro/numeros/razones-proporcionalidad.qmd",
         "href": "razones-proporcionalidad.qmd#tag-00FZ",
         "relation": "requiere"
-      }
-    ],
-    "0000": [
-      {
-        "tag": "008P",
-        "title": "Porcentaje",
-        "source": "contenidos/libro/numeros/porcentajes.qmd",
-        "href": "../libro/numeros/porcentajes.qmd#tag-008P",
-        "relation": "pertenece_a"
-      },
-      {
-        "tag": "008Q",
-        "title": "Calcular un porcentaje de una cantidad",
-        "source": "contenidos/libro/numeros/porcentajes.qmd",
-        "href": "../libro/numeros/porcentajes.qmd#tag-008Q",
-        "relation": "pertenece_a"
-      },
-      {
-        "tag": "00CD",
-        "title": "Descuento porcentual",
-        "source": "contenidos/paes/m1/preguntas-originales/porcentajes.qmd",
-        "href": "../paes/m1/preguntas-originales/porcentajes.qmd#tag-00CD",
-        "relation": "pertenece_a"
       }
     ],
     "008P": [

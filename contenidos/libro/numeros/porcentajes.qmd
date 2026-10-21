@@ -1,10 +1,21 @@
 ---
-title: "Capítulo 7. Porcentajes"
-description: "Porcentajes como razón y operador, total, variaciones, descuentos, puntos porcentuales y composición."
+title: Porcentajes
+description: Porcentajes como razón y operador, total, variaciones, descuentos, puntos porcentuales y composición.
 format:
   html:
     format-links: false
+    title: Capítulo 7. Porcentajes
+    number-offset:
+    - 6
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
   pdf: default
+number-sections: true
+number-depth: 6
+mgp-number-prefix: '7'
 ---
 
 ## Propósito y alcance
@@ -35,7 +46,7 @@ $25\,\%=25/100=1/4=0.25$. Una cantidad que equivale al $150\,\%$ de otra vale $1
 
 :::: {.knowledge-object #tag-00GI tag="00GI" type="tecnica" title="Porcentaje como fracción y decimal" requiere="008P,00F1"}
 ::: {#concept-00GI .editorial-text}
-## Porcentaje como fracción y decimal
+### Porcentaje como fracción y decimal
 
 Para pasar de un porcentaje a una fracción o decimal se divide el número porcentual por 100. Para expresar un número $r$ como porcentaje se escribe $(100r)\,\%$.
 :::
@@ -51,7 +62,7 @@ $12.5\,\%=0.125=1/8$, mientras que $0.7=70\,\%$. El número $0.7\,\%$ es $0.007$
 
 :::: {.knowledge-object #tag-008Q tag="008Q" type="tecnica" title="Calcular un porcentaje de una cantidad" pertenece_a="0000" requiere="008P"}
 ::: {#concept-008Q .editorial-text}
-## Calcular un porcentaje de una cantidad
+### Calcular un porcentaje de una cantidad
 
 Para calcular el $p\,\%$ de una cantidad $x$, se aplica el operador multiplicativo
 $$y=x\cdot\frac{p}{100}.$$
@@ -133,7 +144,7 @@ Un precio hipotético de $\$40\,000$ con descuento de $25\,\%$ pierde $\$10\,000
 
 :::: {.knowledge-object #tag-00GO tag="00GO" type="tecnica" title="Valor inicial a partir del valor final" requiere="00GM"}
 ::: {#concept-00GO .editorial-text}
-## Valor inicial a partir del valor final
+### Valor inicial a partir del valor final
 
 Si $y=xF$ y $F\ne0$, se recupera $x=y/F$. Para aumentos se usa $F=1+p/100$; para descuentos menores que 100 % se usa $F=1-d/100$.
 :::
@@ -209,7 +220,7 @@ Un descuento de 20 % seguido de otro de 10 % deja $0.8\cdot0.9=0.72$ del origina
 
 :::: {.knowledge-object #tag-00GW tag="00GW" type="observacion" title="Suma de porcentajes y base común" requiere="00GK"}
 ::: {#concept-00GW .editorial-text}
-## Suma de porcentajes y base común
+### Suma de porcentajes y base común
 
 Sumar porcentajes describe una suma de partes solo cuando sus referentes son comunes y las partes pueden sumarse sin doble conteo. Si los totales son distintos, la participación conjunta se calcula sumando cantidades y luego dividiendo por el total conjunto.
 :::
@@ -227,7 +238,7 @@ En un grupo de 10 personas aprueban 8 (80 %); en otro de 30 aprueban 15 (50 %). 
 
 :::: {.knowledge-object #tag-00GY tag="00GY" type="aplicacion" title="Índices, composición y comparación de ofertas" requiere="00GQ,00FX"}
 ::: {#concept-00GY .editorial-text}
-## Índices, composición y comparación de ofertas
+### Índices, composición y comparación de ofertas
 
 En un índice de base 100, un nivel $I$ expresa $I/100$ veces la referencia. Los porcentajes de componentes describen una distribución si todos utilizan el mismo total y se controlan solapamientos. Las ofertas deben compararse mediante precio final por cantidad equivalente.
 :::

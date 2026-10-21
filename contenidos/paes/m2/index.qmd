@@ -1,11 +1,24 @@
 ---
-title: "Competencia Matemática M2"
-description: "Temarios, evolución y análisis de preguntas de Competencia Matemática M2."
+title: Competencia Matemática M2
+description: Temarios, evolución y análisis de preguntas de Competencia Matemática M2.
 toc: false
-number-sections: false
+number-sections: true
+mgp-linked-section: true
+number-depth: 6
+format:
+  html:
+    title: 16.1.2 Competencia Matemática M2
+    number-offset:
+    - 15
+    - 0
+    - 1
+    - 0
+    - 0
+    - 0
+mgp-number-prefix: 16.1.2
 ---
 
-# 16.1.2 Competencia Matemática M2 {.unnumbered}
+
 
 La M2 evalúa todos los conocimientos definidos para M1 y agrega contenidos que requieren una comprensión conceptual más profunda, especialmente para carreras con mayores requerimientos matemáticos.
 

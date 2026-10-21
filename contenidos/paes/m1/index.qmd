@@ -1,9 +1,23 @@
 ---
 toc: false
-number-sections: false
+number-sections: true
+title: Competencia Matemática M1
+mgp-linked-section: true
+number-depth: 6
+format:
+  html:
+    title: 16.1.1 Competencia Matemática M1
+    number-offset:
+    - 15
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+mgp-number-prefix: 16.1.1
 ---
 
-# 16.1.1 Competencia Matemática M1 {.unnumbered}
+
 
 ## Números
 

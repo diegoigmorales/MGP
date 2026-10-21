@@ -1,9 +1,23 @@
 ---
-number-sections: false
-description: "Últimos cambios regulares e invierno y comparación acumulada desde la primera PAES."
+number-sections: true
+description: Últimos cambios regulares e invierno y comparación acumulada desde la primera PAES.
+title: 'Admisión 2027: temarios vigentes'
+mgp-linked-section: true
+number-depth: 6
+format:
+  html:
+    title: '16.2.2.6.1.1 Admisión 2027: temarios vigentes'
+    number-offset:
+    - 15
+    - 1
+    - 1
+    - 5
+    - 0
+    - 0
+mgp-number-prefix: 16.2.2.6.1.1
 ---
 
-# 16.4.5 Admisión 2027: temarios vigentes {.unnumbered}
+
 
 ## Fuentes y rendición
 

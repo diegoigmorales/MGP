@@ -1,10 +1,21 @@
 ---
-title: "Capítulo 1. Magnitudes, medición y unidades"
-description: "Magnitud, cantidad, medida, unidades, instrumentos, conversiones y control de resultados."
+title: Magnitudes, medición y unidades
+description: Magnitud, cantidad, medida, unidades, instrumentos, conversiones y control de resultados.
 format:
   html:
     format-links: false
+    title: Capítulo 1. Magnitudes, medición y unidades
+    number-offset:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
   pdf: default
+number-sections: true
+number-depth: 6
+mgp-number-prefix: '1'
 ---
 
 ## Propósito y alcance
@@ -51,7 +62,7 @@ $2\,\mathrm{m}=200\,\mathrm{cm}$. La longitud no aumenta cien veces: se expresa 
 
 :::: {.knowledge-object #tag-00CJ tag="00CJ" type="tecnica" title="Comparación, iteración y medición" requiere="00CH"}
 ::: {#concept-00CJ .editorial-text}
-## Comparación, iteración y medición
+### Comparación, iteración y medición
 
 Una medición directa escolar exige elegir una unidad y aplicarla al atributo sin dejar huecos ni producir superposiciones. Para longitudes se alinea un origen y se cuentan unidades y fracciones de unidad; para áreas se cubre la región con unidades de superficie.
 :::
@@ -69,7 +80,7 @@ En una regla, un segmento comienza en la marca $3\,\mathrm{cm}$ y termina en $8.
 
 :::: {.knowledge-object #tag-00CL tag="00CL" type="observacion" title="Unidades del Sistema Internacional" requiere="00CF"}
 ::: {#concept-00CL .editorial-text}
-## Unidades del Sistema Internacional
+### Unidades del Sistema Internacional
 
 El Sistema Internacional de Unidades (SI) utiliza siete unidades básicas: metro ($\mathrm{m}$), kilogramo ($\mathrm{kg}$), segundo ($\mathrm{s}$), amperio ($\mathrm{A}$), kelvin ($\mathrm{K}$), mol ($\mathrm{mol}$) y candela ($\mathrm{cd}$). Los símbolos son sensibles a mayúsculas, no se pluralizan ni llevan punto de abreviatura.
 :::
@@ -85,7 +96,7 @@ Una masa de $3\,\mathrm{kg}$ se escribe con $\mathrm{kg}$, no «kgs». La aceler
 
 :::: {.knowledge-object #tag-00CN tag="00CN" type="tecnica" title="Prefijos y factores de conversión" requiere="00CH,00CL"}
 ::: {#concept-00CN .editorial-text}
-## Prefijos y factores de conversión
+### Prefijos y factores de conversión
 
 Los prefijos modifican la unidad mediante potencias de diez. Entre los más usados están kilo ($10^3$), centi ($10^{-2}$) y mili ($10^{-3}$). Una conversión entre unidades multiplicativamente relacionadas puede efectuarse multiplicando por una razón de cantidades iguales, cuyo valor es 1.
 :::
@@ -190,7 +201,7 @@ Si $v$ es rapidez y $t$ duración, $vt$ tiene dimensión de longitud. La fórmul
 
 :::: {.knowledge-object #tag-00CX tag="00CX" type="tecnica" title="Conversiones con cambio de origen" requiere="00CH"}
 ::: {#concept-00CX .editorial-text}
-## Conversiones con cambio de origen
+### Conversiones con cambio de origen
 
 La conversión de una temperatura Celsius $t_C$, expresada como valor numérico en grados Celsius, a su valor numérico kelvin $T_K$ es $T_K=t_C+273.15$. Para diferencias de temperatura, $\Delta T_K=\Delta t_C$.
 :::
@@ -208,7 +219,7 @@ $20\,{}^\circ\mathrm{C}$ corresponden a $293.15\,\mathrm{K}$. Un aumento de $5\,
 
 :::: {.knowledge-object #tag-00CZ tag="00CZ" type="tecnica" title="Estimación de una medida" requiere="00CJ"}
 ::: {#concept-00CZ .editorial-text}
-## Estimación de una medida
+### Estimación de una medida
 
 Estimar una medida consiste en proponer un valor o un intervalo plausible usando referentes, descomposición o comparación, antes o sin efectuar una medición detallada. Debe indicarse la unidad y la precisión que tiene sentido para la situación.
 :::
@@ -244,7 +255,7 @@ Para una referencia de $80\,\mathrm{cm}$ y una lectura de $82\,\mathrm{cm}$, el 
 
 :::: {.knowledge-object #tag-00D3 tag="00D3" type="tecnica" title="Redondeo y cifras significativas" requiere="00D1"}
 ::: {#concept-00D3 .editorial-text}
-## Redondeo y cifras significativas
+### Redondeo y cifras significativas
 
 Las **cifras significativas** comunican los dígitos que se retienen en un valor aproximado. Los ceros iniciales no cuentan; los ceros entre cifras significativas sí. Los ceros finales deben interpretarse según la escritura y el contexto. La notación científica permite declarar cuántos dígitos se conservan.
 :::

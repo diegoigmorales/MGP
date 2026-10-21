@@ -1,10 +1,21 @@
 ---
-title: "Capítulo 11. Sucesiones y series elementales"
-description: "Patrones discretos, fórmulas explícitas, recurrencias, progresiones, sumas, series geométricas y modelación."
+title: Sucesiones y series elementales
+description: Patrones discretos, fórmulas explícitas, recurrencias, progresiones, sumas, series geométricas y modelación.
 format:
   html:
     format-links: false
+    title: Capítulo 11. Sucesiones y series elementales
+    number-offset:
+    - 10
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
   pdf: default
+number-sections: true
+number-depth: 6
+mgp-number-prefix: '11'
 ---
 
 ```{r}
@@ -65,7 +76,7 @@ $a_1=4$, $a_{n+1}=a_n+3$ produce $4,7,10,\ldots$ y equivale a $a_n=3n+1$.
 ::: {#concept-005N .editorial-text}
 []{#def-005N}
 
-## Patrón observado y regla determinada
+### Patrón observado y regla determinada
 
 Una lista finita admite infinitas continuaciones. Para decidir una regla se requieren condiciones adicionales: una construcción, una recurrencia, pertenencia a una familia o un supuesto del modelo. Pedir «el siguiente término» sin más condiciones evalúa una conjetura plausible, no necesariamente una conclusión única.
 :::
@@ -96,7 +107,7 @@ Con $a_1=7$ y $d=-2$, $a_5=7+4(-2)=-1$.
 ::: {#concept-005R .editorial-text}
 []{#def-005R}
 
-## Determinación de una progresión aritmética
+### Determinación de una progresión aritmética
 
 Con dos términos $a_i,a_j$ de índices distintos se obtiene
 $$d=\frac{a_j-a_i}{j-i},\qquad a_1=a_i-(i-1)d.$$
@@ -143,7 +154,7 @@ $3,6,12,24,\ldots$ tiene $r=2$. La sucesión $2,-6,18,-54,\ldots$ tiene $r=-3$.
 ::: {#concept-005X .editorial-text}
 []{#def-005X}
 
-## Comportamiento de una progresión geométrica
+### Comportamiento de una progresión geométrica
 
 Con $a_1>0$, si $r>1$ hay crecimiento; si $0<r<1$ hay decrecimiento hacia cero; si $r=1$ hay constancia. Para $r<0$ los signos alternan y el tamaño absoluto depende de $|r|$. Si $a_1<0$, las afirmaciones de crecimiento para razón positiva cambian de sentido. Es necesario diferenciar valor, signo y magnitud.
 :::
@@ -231,7 +242,7 @@ $1^2+2^2+3^2+4^2=4\cdot5\cdot9/6=30$, mientras que $1^3+2^3+3^3+4^3=100$.
 ::: {#concept-0065 .editorial-text}
 []{#def-0065}
 
-## Sumas telescópicas
+### Sumas telescópicas
 
 Una suma telescópica contiene cancelaciones entre términos consecutivos:
 $$\sum_{k=1}^n(b_k-b_{k+1})=b_1-b_{n+1}.$$
@@ -293,7 +304,7 @@ $3+3/2+3/4+\cdots=6$. La serie $1+2+4+\cdots$ diverge y no puede calcularse como
 ::: {#concept-006B .editorial-text}
 []{#def-006B}
 
-## Términos que tienden a cero y convergencia
+### Términos que tienden a cero y convergencia
 
 Que los términos $a_n$ se aproximen a cero es una condición necesaria para que una serie converja, pero no suficiente. La convergencia de una sucesión tampoco es lo mismo que la convergencia de la serie que la utiliza. Para una sucesión, converger a $L$ significa que todos los términos suficientemente avanzados quedan tan cerca de $L$ como se desee; no solo algunos.
 :::
@@ -307,7 +318,7 @@ $1/n$ tiende a cero, pero la serie armónica $\sum_{n=1}^{\infty}1/n$ diverge. $
 ::: {#concept-006D .editorial-text}
 []{#def-006D}
 
-## Error al truncar una serie geométrica
+### Error al truncar una serie geométrica
 
 Con $|r|<1$, la diferencia entre la suma infinita y la suma de los primeros $N$ términos es
 $$S-S_N=\frac{a_1r^N}{1-r}.$$
@@ -325,7 +336,7 @@ Para $1+1/2+1/4+\cdots$, $S=2$ y $|S-S_N|=2^{1-N}$. Con diez términos el error 
 ::: {#concept-006F .editorial-text}
 []{#def-006F}
 
-## Crecimiento aditivo y multiplicativo
+### Crecimiento aditivo y multiplicativo
 
 Un incremento constante conduce a una progresión aritmética; un porcentaje constante conduce a una geométrica. El modelo se decide por las condiciones del proceso y no solo por la forma de los primeros datos. Las unidades y el periodo deben explicitarse. Un porcentaje constante no produce diferencias absolutas constantes.
 :::
@@ -339,7 +350,7 @@ Ahorrar $20\,000$ pesos adicionales cada mes genera un modelo aditivo. Aumentar 
 ::: {#concept-006H .editorial-text}
 []{#def-006H}
 
-## Recurrencia afín con aporte periódico
+### Recurrencia afín con aporte periódico
 
 Para una cantidad inicial $B_0$, factor por periodo $r$ y aporte fijo $c$ al final de cada periodo,
 $$B_{n+1}=rB_n+c.$$
@@ -355,7 +366,7 @@ Con $B_0=100$, $r=2$ y aporte final $c=10$, $B_1=210$ y $B_2=430$. Si el aporte 
 ::: {#concept-006J .editorial-text}
 []{#def-006J}
 
-## Errores de índices, patrones y sumas
+### Errores de índices, patrones y sumas
 
 Son frecuentes confundir índice y término, usar $n$ incrementos en lugar de $n-1$, sumar cuando se debe multiplicar, determinar una regla única a partir de pocos valores y aplicar la suma infinita sin $|r|<1$. Para interpretar una respuesta conviene pedir los primeros términos generados por la fórmula y comparar con las condiciones iniciales.
 :::

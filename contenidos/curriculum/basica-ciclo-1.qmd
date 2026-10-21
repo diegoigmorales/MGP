@@ -1,14 +1,27 @@
 ---
-title: "15.3 Enseñanza básica, ciclo I"
-description: "Objetivos de aprendizaje de Matemática de primero a cuarto básico."
-number-sections: false
+title: Enseñanza básica, ciclo I
+description: Objetivos de aprendizaje de Matemática de primero a cuarto básico.
+number-sections: true
 toc: true
 toc-depth: 3
+mgp-linked-section: true
+number-depth: 6
+format:
+  html:
+    title: 15.3 Enseñanza básica, ciclo I
+    number-offset:
+    - 14
+    - 2
+    - 0
+    - 0
+    - 0
+    - 0
+mgp-number-prefix: '15.3'
 ---
 
-# 15.3 Enseñanza básica, ciclo I {.unnumbered}
 
-## 15.3.1 Primero básico
+
+## Primero básico
 
 ### Números y operaciones
 
@@ -76,7 +89,7 @@ toc-depth: 3
 
 20. **OA 20.** [Prioritario]{.change-badge .change-priority} Construir, leer e interpretar pictogramas.
 
-## 15.3.2 Segundo básico
+## Segundo básico
 
 ### Números y operaciones
 
@@ -162,7 +175,7 @@ toc-depth: 3
 
 22. **OA 22.** [Prioritario]{.change-badge .change-priority} Construir, leer e interpretar pictogramas con escala y gráficos de barra simple.
 
-## 15.3.3 Tercero básico
+## Tercero básico
 
 ### Números y operaciones
 
@@ -292,7 +305,7 @@ toc-depth: 3
 
 26. **OA 26.** Representar datos usando diagramas de puntos.
 
-## 15.3.4 Cuarto básico
+## Cuarto básico
 
 ### Números y operaciones
 

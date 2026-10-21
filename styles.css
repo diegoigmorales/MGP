@@ -286,7 +286,7 @@
 .theorem-title { color: var(--mgp-environment-color, inherit); }
 
 .editorial-text { margin: 1rem 0; }
-.editorial-text > h2 { font-size: 1.15rem; }
+.editorial-text > :is(h2, h3) { font-size: 1.15rem; }
 .knowledge-object ol > li + li { margin-top: .35rem; }
 
 /* Incisos semánticos de Pandoc: letras con ambos paréntesis en HTML. */
@@ -337,3 +337,8 @@
 @media print {
   .identifier-control { display: none; }
 }
+
+/* El título visible del capítulo ya está en #title-block-header. */
+.mgp-chapter-anchor { display: none; }
+#TOC li:has(> a[href^="#mgp-chapter-"]),
+.mobile-page-toc li:has(> a[href^="#mgp-chapter-"]) { display: none; }

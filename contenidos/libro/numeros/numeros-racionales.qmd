@@ -1,10 +1,21 @@
 ---
-title: "Capítulo 4. Números racionales"
-description: "Fracciones, interpretaciones, equivalencia, orden, operaciones, decimales y densidad."
+title: Números racionales
+description: Fracciones, interpretaciones, equivalencia, orden, operaciones, decimales y densidad.
 format:
   html:
     format-links: false
+    title: Capítulo 4. Números racionales
+    number-offset:
+    - 3
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
   pdf: default
+number-sections: true
+number-depth: 6
+mgp-number-prefix: '4'
 ---
 
 ## Propósito y alcance
@@ -31,7 +42,7 @@ $3/4$, $6/8$ y $-9/(-12)$ representan el mismo racional. Además, $-5=-5/1$ y $0
 
 :::: {.knowledge-object #tag-00EJ tag="00EJ" type="observacion" title="Parte-todo, medida, cociente, razón y operador" requiere="00EH,00CH"}
 ::: {#concept-00EJ .editorial-text}
-## Parte-todo, medida, cociente, razón y operador
+### Parte-todo, medida, cociente, razón y operador
 
 La escritura $a/b$, con denominador positivo, admite varios significados:
 
@@ -53,7 +64,7 @@ $3/4$ puede ser tres cuartos de una cinta, la posición $0.75$ en una recta, el 
 
 :::: {.knowledge-object #tag-00EL tag="00EL" type="tecnica" title="Unidad fraccionaria y fracciones mayores que uno" requiere="00EJ,00DL"}
 ::: {#concept-00EL .editorial-text}
-## Unidad fraccionaria y fracciones mayores que uno
+### Unidad fraccionaria y fracciones mayores que uno
 
 Para representar $a/b\ge0$ con $b>0$, se fija una unidad, se divide en $b$ partes de igual medida y se iteran $a$ partes. Si $a=qb+r$, con $0\le r<b$, entonces $a/b=q+r/b$.
 :::
@@ -123,7 +134,7 @@ $-18/24=-3/4$, al dividir ambos términos por $6$. Los valores $3$ y $4$ son cop
 
 :::: {.knowledge-object #tag-00ER tag="00ER" type="tecnica" title="Denominadores comunes y MCM" requiere="00EN,00DX"}
 ::: {#concept-00ER .editorial-text}
-## Denominadores comunes y MCM
+### Denominadores comunes y MCM
 
 Para fracciones con denominadores positivos $b,d$, cualquier múltiplo común positivo $L$ permite escribir
 $$\frac ab=\frac{a(L/b)}L,\qquad \frac cd=\frac{c(L/d)}L.$$
@@ -267,7 +278,7 @@ $7/40$ termina porque $40=2^3\cdot5$. Aunque $6/15$ tiene denominador múltiplo 
 
 :::: {.knowledge-object #tag-00F5 tag="00F5" type="tecnica" title="Valor posicional y cálculo con decimales" requiere="00D9,00EX,00EZ"}
 ::: {#concept-00F5 .editorial-text}
-## Valor posicional y cálculo con decimales
+### Valor posicional y cálculo con decimales
 
 En un decimal finito, las posiciones a la derecha de la coma corresponden a décimos, centésimos, milésimos, etc. Para sumar se alinean posiciones del mismo valor; para multiplicar se interpreta cada factor como una fracción de denominador potencia de 10.
 :::

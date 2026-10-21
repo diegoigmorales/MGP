@@ -1,10 +1,21 @@
 ---
-title: "Capítulo 3. Números enteros"
-description: "Negativos, orden, opuestos, valor absoluto, operaciones, divisibilidad y modelos."
+title: Números enteros
+description: Negativos, orden, opuestos, valor absoluto, operaciones, divisibilidad y modelos.
 format:
   html:
     format-links: false
+    title: Capítulo 3. Números enteros
+    number-offset:
+    - 2
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
   pdf: default
+number-sections: true
+number-depth: 6
+mgp-number-prefix: '3'
 ---
 
 ## Propósito y alcance
@@ -69,7 +80,7 @@ Si $a=-5$, entonces $-a=5$ y $|a|=5$. La distancia de $-5$ a $2$ es $|-5-2|=7$.
 
 :::: {.knowledge-object #tag-00E5 tag="00E5" type="tecnica" title="Adición de enteros" requiere="00E3"}
 ::: {#concept-00E5 .editorial-text}
-## Adición de enteros
+### Adición de enteros
 
 Para sumar enteros:
 

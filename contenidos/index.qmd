@@ -43,11 +43,11 @@ Esta página reúne solamente material desarrollado, en el orden de la [tabla de
 
 - [Desarrollo del capítulo](libro/algebra/potencias-raices-logaritmos.qmd)
 
-### Capítulo 15. Álgebra elemental
+### Capítulo 9. Álgebra elemental
 
 - [Desarrollo del capítulo](libro/algebra/algebra-elemental.qmd)
 
-### Capítulo 16. Ecuaciones e inecuaciones
+### Capítulo 10. Ecuaciones e inecuaciones
 
 - [Desarrollo del capítulo](libro/algebra/ecuaciones-inecuaciones.qmd)
 
@@ -84,11 +84,11 @@ Esta página reúne solamente material desarrollado, en el orden de la [tabla de
 
 - [Presentación del capítulo](paes/index.qmd)
 - Estudio de los temarios:
-  - [16.2 Cómo interpretar los temarios](paes/temarios/index.qmd)
-  - [16.3 Temario vigente](paes/temarios/vigente.qmd)
-  - [16.4 Evolución histórica](paes/temarios/evolucion/index.qmd)
-  - [16.5 Síntesis comparada](paes/temarios/comparacion.qmd)
-  - [16.6 Fuentes oficiales](paes/temarios/fuentes.qmd)
+  - [16.2.1 Cómo interpretar los temarios](paes/temarios/index.qmd)
+  - [16.2.2 Temario vigente](paes/temarios/vigente.qmd)
+  - [16.2.3 Evolución histórica](paes/temarios/evolucion/index.qmd)
+  - [16.2.4 Síntesis comparada](paes/temarios/comparacion.qmd)
+  - [16.2.5 Fuentes oficiales](paes/temarios/fuentes.qmd)
 - Pruebas:
   - [Competencia Matemática M1](paes/m1/index.qmd)
   - [Competencia Matemática M2](paes/m2/index.qmd)

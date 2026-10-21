@@ -1,10 +1,21 @@
 ---
-title: "Capítulo 10. Ecuaciones e inecuaciones"
-description: "Conjuntos solución, equivalencias, ecuaciones lineales y cuadráticas, inecuaciones, intervalos, sistemas y métodos gráficos."
+title: Ecuaciones e inecuaciones
+description: Conjuntos solución, equivalencias, ecuaciones lineales y cuadráticas, inecuaciones, intervalos, sistemas y métodos gráficos.
 format:
   html:
     format-links: false
+    title: Capítulo 10. Ecuaciones e inecuaciones
+    number-offset:
+    - 9
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
   pdf: default
+number-sections: true
+number-depth: 6
+mgp-number-prefix: '10'
 ---
 
 ```{r}
@@ -73,7 +84,7 @@ En $x(x-1)=0$, dividir por $x$ pierde la solución $x=0$. La factorización cons
 ::: {#concept-001J .editorial-text}
 []{#def-001J}
 
-## Ecuación lineal en una incógnita
+### Ecuación lineal en una incógnita
 
 Una ecuación lineal se reduce a $ax+b=0$. Si $a\ne0$, su única solución real es $x=-b/a$. Si $a=0$ y $b=0$, todo valor del dominio es solución; si $a=0$ y $b\ne0$, no hay soluciones. En ecuaciones con denominadores se registran las exclusiones antes de reducir, incluso si la expresión final parece lineal.
 :::
@@ -87,7 +98,7 @@ $3(x-2)=x+4$ equivale a $2x=10$ y da $x=5$. En cambio, $2(x+1)=2x+2$ es verdader
 ::: {#concept-001L .editorial-text}
 []{#def-001L}
 
-## Despeje de fórmulas y parámetros
+### Despeje de fórmulas y parámetros
 
 Despejar una letra expresa su dependencia respecto de las otras. Los parámetros pueden cambiar el número de soluciones o volver inválida una división. Por ello se distingue el caso de coeficiente nulo antes de usar una fórmula general. Las unidades y las condiciones físicas del contexto también restringen las asignaciones admisibles.
 :::
@@ -103,7 +114,7 @@ Para $ax=b$, si $a\ne0$ se obtiene $x=b/a$; si $a=0$, hay infinitas soluciones c
 ::: {#concept-001N .editorial-text}
 []{#def-001N}
 
-## Factorización y producto nulo
+### Factorización y producto nulo
 
 En los reales, $uv=0$ equivale a $u=0$ o $v=0$. Si una cuadrática se expresa como $a(x-r_1)(x-r_2)=0$, con $a\ne0$, sus soluciones son las raíces de los factores. La propiedad exige que el producto sea cero: no se separa de la misma manera un producto igual a un número no nulo.
 :::
@@ -145,7 +156,7 @@ En $2x^2-3x-2=0$, $\Delta=25$ y las soluciones son $2$ y $-1/2$.
 ::: {#concept-001R .editorial-text}
 []{#def-001R}
 
-## Completar cuadrados para resolver
+### Completar cuadrados para resolver
 
 La forma $a(x-h)^2+k=0$ permite determinar $(x-h)^2=-k/a$. Si el segundo miembro es positivo, hay dos soluciones; si es cero, una; si es negativo, ninguna real. Este método conecta solución y posición del vértice de la función cuadrática, y explica la necesidad de los dos signos al extraer una raíz.
 :::
@@ -187,7 +198,7 @@ Las raíces 2 y 5 producen $(x-2)(x-5)=x^2-7x+10$. Su suma es 7 y su producto 10
 ::: {#concept-001V .editorial-text}
 []{#def-001V}
 
-## Ecuaciones racionales
+### Ecuaciones racionales
 
 Se excluyen primero los ceros de los denominadores. En ese dominio, multiplicar por un denominador común no nulo preserva equivalencia. Después de resolver se descartan candidatos excluidos y se verifica en la ecuación inicial. Que un factor del denominador desaparezca en la simplificación no lo vuelve admisible.
 :::
@@ -201,7 +212,7 @@ $1/(x-1)=2/(x+1)$, con $x\ne1,-1$, equivale a $x+1=2(x-1)$ y tiene solución $x=
 ::: {#concept-001X .editorial-text}
 []{#def-001X}
 
-## Ecuaciones con radicales y candidatos extraños
+### Ecuaciones con radicales y candidatos extraños
 
 Se fija el dominio de los radicales. Si se aísla una raíz par, su lado opuesto debe ser no negativo antes de elevar a una potencia par. Elevar al cuadrado sin imponer esta condición conserva una implicación, pero puede introducir candidatos extraños. El control final se realiza en la ecuación original.
 :::
@@ -215,7 +226,7 @@ $\sqrt{x+2}=x$ exige $x\ge0$. Al cuadrar se obtiene $(x-2)(x+1)=0$, pero solo $x
 ::: {#concept-001Z .editorial-text}
 []{#def-001Z}
 
-## Ecuaciones exponenciales y logarítmicas
+### Ecuaciones exponenciales y logarítmicas
 
 Para una base $b>0$, $b\ne1$, la función exponencial es inyectiva: $b^u=b^v$ equivale a $u=v$. Si no se pueden igualar bases, se usan logaritmos cuando los miembros son positivos. En una ecuación logarítmica se determina la positividad de cada argumento antes de reunirlos mediante propiedades.
 :::
@@ -229,7 +240,7 @@ $3^{2x-1}=27$ da $x=2$. La ecuación $\ln(x-1)+\ln(x+1)=\ln8$ exige $x>1$; $x^2-
 ::: {#concept-0021 .editorial-text}
 []{#def-0021}
 
-## Ecuaciones con valor absoluto
+### Ecuaciones con valor absoluto
 
 Para $c\ge0$, $|u|=c$ equivale a $u=c$ o $u=-c$. Si $c<0$, no hay soluciones. Cuando el otro miembro depende de la incógnita, primero se exige su no negatividad y luego se separan los dos casos. El valor absoluto representa distancia al cero, lo que permite interpretar la ecuación en la recta.
 :::
@@ -243,7 +254,7 @@ $|2x-1|=3$ da $x=2$ o $x=-1$. $|x|=-2$ no tiene solución real.
 ::: {#concept-0023 .editorial-text}
 []{#def-0023}
 
-## Cambio de variable y recuperación del dominio
+### Cambio de variable y recuperación del dominio
 
 Un cambio de variable puede reducir una ecuación a otra conocida, pero la nueva incógnita hereda restricciones. Al volver a la variable original se recuperan todas las soluciones admisibles. Una ecuación bicuadrada se reduce con $u=x^2$, de modo que $u\ge0$ en los reales.
 :::
@@ -293,7 +304,7 @@ $-2x<6$ equivale a $x>-3$. No puede multiplicarse $1/x>1$ por $x$ sin distinguir
 ::: {#concept-0029 .editorial-text}
 []{#def-0029}
 
-## Inecuaciones lineales y condiciones simultáneas
+### Inecuaciones lineales y condiciones simultáneas
 
 Se reduce a una desigualdad lineal y se despeja atendiendo al signo del coeficiente. Si este se anula, se evalúa la desigualdad constante. Una doble desigualdad expresa dos condiciones simultáneas y ambas deben transformarse o resolverse por separado.
 :::
@@ -307,7 +318,7 @@ $-1<2x+3\le7$ equivale a $-4<2x\le4$, por lo que el conjunto solución es $(-2,2
 ::: {#concept-002B .editorial-text}
 []{#def-002B}
 
-## Tabla de signos de productos y cocientes
+### Tabla de signos de productos y cocientes
 
 Se factoriza, se localizan ceros y puntos donde no existe la expresión, y se divide la recta en intervalos. En cada intervalo se determina el signo de los factores. Un cero de multiplicidad impar cambia el signo del factor polinómico; uno de multiplicidad par no lo cambia. Los ceros del numerador pueden incluirse en desigualdades no estrictas; los del denominador siempre se excluyen.
 :::
@@ -321,7 +332,7 @@ $(x-1)/(x+2)\ge0$ tiene solución $(-\infty,-2)\cup[1,\infty)$. El punto $-2$ se
 ::: {#concept-002D .editorial-text}
 []{#def-002D}
 
-## Inecuaciones cuadráticas
+### Inecuaciones cuadráticas
 
 Si una cuadrática tiene dos raíces distintas, estas separan los intervalos de signo. Para coeficiente principal positivo, es positiva fuera de las raíces y negativa entre ellas; con coeficiente negativo ocurre lo contrario. Una raíz doble no cambia el signo. Si no hay raíces reales, la cuadrática conserva el signo de su coeficiente principal en toda la recta.
 :::
@@ -335,7 +346,7 @@ $x^2-5x+6\le0$ da $[2,3]$. En cambio, $(x-2)^2>0$ da $\mathbb R\setminus\{2\}$.
 ::: {#concept-002F .editorial-text}
 []{#def-002F}
 
-## Inecuaciones con valor absoluto
+### Inecuaciones con valor absoluto
 
 Para $r>0$, $|x-a|<r$ equivale a $a-r<x<a+r$ y $|x-a|>r$ equivale a $x<a-r$ o $x>a+r$. En desigualdades no estrictas se incluyen los extremos. Si el umbral es cero o negativo, se analiza directamente la no negatividad del valor absoluto.
 :::
@@ -349,7 +360,7 @@ $|x-2|\le3$ da $[-1,5]$, mientras que $|x-2|>3$ da $(-\infty,-1)\cup(5,\infty)$.
 ::: {#concept-002H .editorial-text}
 []{#def-002H}
 
-## Inecuaciones exponenciales y logarítmicas
+### Inecuaciones exponenciales y logarítmicas
 
 Para base mayor que 1, aplicar la exponencial o el logaritmo preserva orden; para base entre 0 y 1 lo invierte. En logaritmos, el dominio positivo del argumento se intersecta con la desigualdad obtenida. Una raíz par o potencia par tampoco se aplica sin revisar signo y monotonía en el intervalo pertinente.
 :::
@@ -379,7 +390,7 @@ El sistema $x+y=5$, $x-y=1$ tiene solución $(x,y)=(3,2)$. La pareja $(2,3)$ sol
 ::: {#concept-002L .editorial-text}
 []{#def-002L}
 
-## Sustitución, igualación y eliminación
+### Sustitución, igualación y eliminación
 
 Sustituir reemplaza una incógnita despejada en las otras ecuaciones; igualar compara dos expresiones para la misma incógnita. Eliminar combina ecuaciones para retirar una incógnita. Se preserva equivalencia al reemplazar una ecuación por ella más un múltiplo de otra, conservando esta última. Si se multiplica una ecuación, el factor debe ser no nulo.
 :::
@@ -393,7 +404,7 @@ Para $2x+y=7$ y $x-y=2$, sumar elimina $y$ y da $3x=9$. Luego $x=3$ y $y=1$, que
 ::: {#concept-002N .editorial-text}
 []{#def-002N}
 
-## Clasificación de sistemas lineales de dos incógnitas
+### Clasificación de sistemas lineales de dos incógnitas
 
 Para $ax+by=e$ y $cx+dy=f$, si $ad-bc\ne0$ existe una única solución. Si $ad-bc=0$, se revisa si las ecuaciones son compatibles: rectas coincidentes dan infinitas soluciones y rectas paralelas distintas no dan ninguna. Las ecuaciones degeneradas $0=e$ se evalúan aparte; no toda ecuación escrita en esta forma representa una recta.
 :::
@@ -409,7 +420,7 @@ $x+y=2$, $2x+2y=4$ tiene infinitas soluciones; sustituir 4 por 5 en la segunda p
 ::: {#concept-002P .editorial-text}
 []{#def-002P}
 
-## Interpretación gráfica de ecuaciones e inecuaciones
+### Interpretación gráfica de ecuaciones e inecuaciones
 
 Las soluciones de $f(x)=g(x)$ son las abscisas de intersección de sus gráficas. Las soluciones de $f(x)>g(x)$ corresponden a donde la primera está por encima. En sistemas de dos variables, una desigualdad lineal describe un semiplano y un sistema exige intersectar regiones. Una gráfica numérica puede orientar, pero una ventana finita o una resolución insuficiente puede ocultar soluciones.
 :::
@@ -423,7 +434,7 @@ Las gráficas de $y=x^2$ y $y=2x$ se intersectan en $(0,0)$ y $(2,4)$; por eso $
 ::: {#concept-002R .editorial-text}
 []{#def-002R}
 
-## Construcción e interpretación de modelos algebraicos
+### Construcción e interpretación de modelos algebraicos
 
 Modelar requiere definir incógnitas y unidades, traducir relaciones, resolver y validar en el contexto. El dominio contextual puede ser más restringido que el algebraico: cantidades enteras, longitudes positivas o tiempos futuros. Un valor que satisface la ecuación puede ser inadmisible para la situación.
 :::
@@ -437,7 +448,7 @@ Un rectángulo tiene ancho $x>0$, largo $x+3$ y área $10\,\mathrm{m^2}$. $x(x+3
 ::: {#concept-002T .editorial-text}
 []{#def-002T}
 
-## Errores de resolución y control de equivalencias
+### Errores de resolución y control de equivalencias
 
 Son relevantes dividir por una incógnita sin separar el cero, cuadrar sin controlar signos, olvidar exclusiones, invertir incorrectamente una desigualdad y aceptar cada raíz sin volver al contexto. Verificar un candidato demuestra que es solución, pero no que se encontraron todas. La exhaustividad exige justificar las transformaciones y la separación de casos.
 :::

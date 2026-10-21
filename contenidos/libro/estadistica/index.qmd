@@ -1,13 +1,25 @@
 ---
-title: "Capítulo 14. Estadística escolar"
-description: "Investigación estadística, organización, representación, resumen, variabilidad, asociación y lectura crítica de datos."
+title: Estadística escolar
+description: Investigación estadística, organización, representación, resumen, variabilidad, asociación y lectura crítica de datos.
 format:
   html:
-    format-links: [pdf]
+    format-links:
+    - pdf
+    title: Capítulo 14. Estadística escolar
+    number-offset:
+    - 13
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
   pdf: default
 execute:
   echo: false
   warning: false
+number-sections: true
+number-depth: 6
+mgp-number-prefix: '14'
 ---
 
 ## Propósito y alcance
@@ -36,7 +48,7 @@ Una buena pregunta precisa la población o el fenómeno, las variables relevante
 ::: {#concept-006N .editorial-text}
 []{#def-006N}
 
-## Ciclo estadístico
+### Ciclo estadístico
 
 Una investigación estadística articula, de manera iterativa:
 
@@ -170,7 +182,7 @@ Una encuesta voluntaria en redes puede introducir sesgo; una regla mal calibrada
 ::: {#concept-0071 .editorial-text}
 []{#def-0071}
 
-## Recolección y calidad de datos
+### Recolección y calidad de datos
 
 Antes de recolectar conviene definir operacionalmente cada variable, sus unidades, categorías admisibles y reglas para datos ausentes. Una encuesta debe evitar preguntas dobles, términos ambiguos, alternativas que se superponen y formulaciones que sugieren una respuesta.
 
@@ -257,7 +269,7 @@ Una tabla que cruza curso y medio de transporte permite comparar, dentro de cada
 ::: {#concept-0079 .editorial-text}
 []{#def-0079}
 
-## Elegir un gráfico
+### Elegir un gráfico
 
 La selección depende del tipo de variable y del propósito:
 
@@ -419,7 +431,7 @@ En rojo, rojo, azul y verde, la moda es rojo porque aparece dos veces.
 ::: {#concept-007R .editorial-text}
 []{#def-007R}
 
-## Elegir una medida de centro
+### Elegir una medida de centro
 
 La media es útil en distribuciones aproximadamente simétricas y cuando interesan balances o totales; la mediana representa mejor un valor típico en distribuciones muy asimétricas o con extremos; la moda identifica la categoría más frecuente. Conviene informar más de una medida cuando revelan aspectos distintos.
 
@@ -649,7 +661,7 @@ Los puntos $(1,2),(2,4),(3,6)$ tienen asociación lineal positiva perfecta, con 
 ::: {#concept-008D .editorial-text}
 []{#def-008D}
 
-## Asociación entre variables categóricas
+### Asociación entre variables categóricas
 
 En una tabla de doble entrada se estudia asociación comparando distribuciones condicionadas. Si los porcentajes por fila son aproximadamente iguales entre filas, no se observa una asociación importante con la variable de fila. Los porcentajes deben calcularse respecto del grupo condicionado, no respecto del total general, salvo que esa sea la pregunta.
 :::
@@ -665,7 +677,7 @@ Si el $60\,\%$ del curso A y el $30\,\%$ del curso B eligen bus, comparar esos p
 ::: {#concept-008F .editorial-text}
 []{#def-008F}
 
-## Comparar distribuciones
+### Comparar distribuciones
 
 Una comparación completa considera, según sea pertinente:
 
@@ -688,7 +700,7 @@ Si dos cursos tienen medianas semejantes, pero uno posee un rango intercuartíli
 ::: {#concept-008H .editorial-text}
 []{#def-008H}
 
-## Gráficos y cifras engañosas
+### Gráficos y cifras engañosas
 
 Una lectura crítica revisa si el eje está truncado, si los intervalos tienen amplitudes desiguales, si se usan áreas o volúmenes para representar magnitudes lineales, si faltan categorías, si se mezclan recuentos con porcentajes o si cambió el denominador entre comparaciones.
 
@@ -704,7 +716,7 @@ Un gráfico de notas entre 98 y 100 con eje iniciado en 97 puede hacer enorme un
 ::: {#concept-008J .editorial-text}
 []{#def-008J}
 
-## Asociación no implica causalidad
+### Asociación no implica causalidad
 
 Una asociación observada no basta para concluir que una variable causa la otra. Puede existir causalidad inversa, una variable de confusión, sesgo de selección, coincidencia o una combinación de mecanismos. Las afirmaciones causales requieren un diseño y supuestos que permitan descartar explicaciones alternativas, no solo una correlación alta.
 :::
@@ -718,7 +730,7 @@ Las ventas de helado y los rescates acuáticos pueden aumentar juntas porque amb
 ::: {#concept-008L .editorial-text}
 []{#def-008L}
 
-## Comunicar una conclusión
+### Comunicar una conclusión
 
 Una conclusión estadística adecuada responde la pregunta original, usa medidas o patrones como evidencia, conserva las unidades y limita su alcance a la población y periodo justificados. Debe distinguir resultado de interpretación, reconocer incertidumbre, advertir sesgos posibles y evitar lenguaje causal no respaldado.
 
@@ -734,7 +746,7 @@ Una conclusión prudente sería: «En esta muestra, el curso A obtuvo una median
 ::: {#concept-008N .editorial-text}
 []{#def-008N}
 
-## Ética de datos
+### Ética de datos
 
 Recolectar y comunicar datos implica responsabilidades: consentimiento cuando corresponda, minimización de datos personales, anonimización, resguardo, documentación de transformaciones, atribución de la fuente y cuidado con grupos pequeños que puedan ser reidentificados.
 

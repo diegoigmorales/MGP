@@ -1,13 +1,25 @@
 ---
-title: "Capítulo 13. Combinatoria y probabilidad"
-description: "Conteo, azar, eventos, reglas de probabilidad y modelos probabilísticos escolares."
+title: Combinatoria y probabilidad
+description: Conteo, azar, eventos, reglas de probabilidad y modelos probabilísticos escolares.
 format:
   html:
-    format-links: [pdf]
+    format-links:
+    - pdf
+    title: Capítulo 13. Combinatoria y probabilidad
+    number-offset:
+    - 12
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
   pdf: default
 execute:
   echo: false
   warning: false
+number-sections: true
+number-depth: 6
+mgp-number-prefix: '13'
 ---
 
 ## Propósito y alcance
@@ -359,7 +371,7 @@ En un dado equilibrado, el evento «obtener un número par» tiene probabilidad 
 ::: {#concept-009O .editorial-text}
 []{#def-009O}
 
-## Probabilidad clásica o regla de Laplace
+### Probabilidad clásica o regla de Laplace
 
 Si $\Omega$ es finito y todos sus resultados elementales son equiprobables, entonces
 
@@ -527,7 +539,7 @@ Con los datos anteriores, si un producto es defectuoso, $P(B\mid D)=0.4(0.03)/0.
 ::: {#concept-00A6 .editorial-text}
 []{#def-00A6}
 
-## Árboles y tablas para probabilidades condicionadas
+### Árboles y tablas para probabilidades condicionadas
 
 En un árbol, las ramas que parten de un mismo nodo deben sumar 1; se multiplican probabilidades a lo largo de una ruta y se suman rutas incompatibles que producen el evento buscado. Una tabla de contingencia organiza frecuencias conjuntas y marginales, y suele ser más segura que una fórmula cuando los datos se entregan como recuentos.
 :::
@@ -543,7 +555,7 @@ Un árbol con ramas iniciales A y B registra las proporciones $0.6$ y $0.4$; des
 ::: {#concept-00A8 .editorial-text}
 []{#def-00A8}
 
-## Simulación
+### Simulación
 
 Simular es reproducir un experimento mediante un mecanismo físico o computacional cuyo comportamiento probabilístico representa el fenómeno de interés. Un estudio de simulación debe declarar:
 
@@ -634,7 +646,7 @@ Si las estaturas se modelan por $X\sim\operatorname{N}(170,6^2)$, una estatura d
 ::: {#concept-00AI .editorial-text}
 []{#def-00AI}
 
-## Interpretaciones y cautelas
+### Interpretaciones y cautelas
 
 La probabilidad puede interpretarse como proporción de casos equiprobables, frecuencia de largo plazo, grado de creencia coherente o medida derivada de un modelo. Conviene explicitar cuál interpretación se usa.
 

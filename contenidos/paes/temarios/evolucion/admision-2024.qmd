@@ -1,9 +1,23 @@
 ---
-number-sections: false
-description: "Cambios del temario regular respecto de Admisión 2023 y base histórica de la PAES de invierno."
+number-sections: true
+description: Cambios del temario regular respecto de Admisión 2023 y base histórica de la PAES de invierno.
+title: 'Admisión 2024: cambios y primera aplicación de invierno'
+mgp-linked-section: true
+number-depth: 6
+format:
+  html:
+    title: '16.2.3.1.2 Admisión 2024: cambios y primera aplicación de invierno'
+    number-offset:
+    - 15
+    - 1
+    - 2
+    - 0
+    - 1
+    - 0
+mgp-number-prefix: 16.2.3.1.2
 ---
 
-# 16.4.2 Admisión 2024: cambios y primera aplicación de invierno {.unnumbered}
+
 
 ## Fuentes y rendición
 

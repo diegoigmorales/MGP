@@ -1,10 +1,24 @@
 ---
-description: "Cambios documentados en M1 y M2 entre los procesos de Admisión 2023 y 2027."
+description: Cambios documentados en M1 y M2 entre los procesos de Admisión 2023 y 2027.
 toc: false
-number-sections: false
+number-sections: true
+title: Evolución histórica de los temarios
+mgp-linked-section: true
+number-depth: 6
+format:
+  html:
+    title: 16.2.3 Evolución histórica de los temarios
+    number-offset:
+    - 15
+    - 1
+    - 2
+    - 0
+    - 0
+    - 0
+mgp-number-prefix: 16.2.3
 ---
 
-# 16.4 Evolución histórica de los temarios {.unnumbered}
+
 
 ## Organización de las dos series
 

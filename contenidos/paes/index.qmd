@@ -1,14 +1,27 @@
 ---
-description: "Capítulo sobre las pruebas de Competencia Matemática, sus temarios y sus colecciones de objetos."
+description: Capítulo sobre las pruebas de Competencia Matemática, sus temarios y sus colecciones de objetos.
 toc: true
 toc-depth: 2
+title: PAES de Matemática
+number-sections: true
+number-depth: 6
+format:
+  html:
+    title: Capítulo 16. PAES de Matemática
+    number-offset:
+    - 15
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+mgp-number-prefix: '16'
 ---
 
-# Capítulo 16. PAES de Matemática
 
 La Prueba de Acceso a la Educación Superior contempla dos pruebas de Competencia Matemática: **M1** y **M2**. Las expresiones *regular* e *invierno* identifican oportunidades de rendición y series documentales; no designan pruebas matemáticas adicionales.
 
-## 16.1 Las pruebas de Competencia Matemática
+## Las pruebas de Competencia Matemática
 
 ### M1
 
@@ -23,7 +36,7 @@ M2 se exige para determinadas carreras y considera toda la base de M1 más conoc
 
 - [Descripción de M2](m2/index.qmd)
 
-## 16.2 Estudio de los temarios
+## Estudio de los temarios
 
 El estudio se presenta como una secuencia de lectura, desde los criterios metodológicos hasta la documentación de respaldo:
 

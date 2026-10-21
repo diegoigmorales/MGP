@@ -1,10 +1,21 @@
 ---
-title: "Capítulo 12. Funciones"
-description: "Correspondencia y covariación, dominios, representaciones, composición, inversa, familias funcionales, transformaciones y modelación."
+title: Funciones
+description: Correspondencia y covariación, dominios, representaciones, composición, inversa, familias funcionales, transformaciones y modelación.
 format:
   html:
     format-links: false
+    title: Capítulo 12. Funciones
+    number-offset:
+    - 11
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
   pdf: default
+number-sections: true
+number-depth: 6
+mgp-number-prefix: '12'
 ---
 
 ```{r}
@@ -101,7 +112,7 @@ Para $f(x)=x^2$ en $\mathbb R$, la preimagen de 4 es $\{-2,2\}$ y la de $-1$ es 
 ::: {#concept-0035 .editorial-text}
 []{#def-0035}
 
-## Regla verbal, tabla, fórmula y gráfica
+### Regla verbal, tabla, fórmula y gráfica
 
 Una función puede representarse verbalmente, en tabla, mediante expresión o por su gráfica $\{(x,f(x)):x\in A\}$. Cada registro destaca información distinta. Una tabla finita no suele determinar la función completa; conectar puntos introduce un supuesto sobre valores intermedios. Para dominios discretos, un trazo continuo puede atribuir entradas inexistentes.
 :::
@@ -115,7 +126,7 @@ La tabla de costos para 1, 2 y 3 entradas no determina por sí sola el precio de
 ::: {#concept-0037 .editorial-text}
 []{#def-0037}
 
-## Prueba de la recta vertical
+### Prueba de la recta vertical
 
 Una gráfica en el plano representa a lo sumo una salida por entrada si toda recta vertical la corta en como máximo un punto. Para describir una función en el dominio declarado, además debe haber un punto para cada entrada de ese dominio. La prueba horizontal se vincula con inyectividad, no con la condición básica de ser función.
 :::
@@ -317,7 +328,7 @@ $f(x)=-2(x-1)^2+8$ tiene máximo 8 en $x=1$. En el dominio $[2,3]$, su recorrido
 ::: {#concept-003T .editorial-text}
 []{#def-003T}
 
-## Raíces y variación de una cuadrática
+### Raíces y variación de una cuadrática
 
 El discriminante determina los cortes reales con el eje horizontal. La cuadrática tiene simetría respecto de su vértice y es monótona a cada lado. Su coeficiente $a$ determina orientación y escala vertical, pero la aparente apertura depende también de las escalas de los ejes. Leer un dibujo sin escalas no permite comparar parámetros de forma fiable.
 :::
@@ -425,7 +436,7 @@ $\log_2(8x)=\log_2x+3$ para $x>0$. La función $\ln(x-2)$ exige $x>2$ y tiene as
 ::: {#concept-0045 .editorial-text}
 []{#def-0045}
 
-## Traslaciones, reflexiones y escalas
+### Traslaciones, reflexiones y escalas
 
 Para $g(x)=a\,f(b(x-h))+k$ con $a,b\ne0$, un punto $(u,v)$ de la gráfica de $f$ corresponde a $(h+u/b,k+av)$ en la de $g$. Así se describen traslaciones, reflexiones y escalas sin depender de reglas verbales ambiguas. El dominio de $g$ exige $b(x-h)\in\operatorname{Dom}(f)$ y su recorrido transforma el de $f$ mediante $v\mapsto k+av$.
 :::
@@ -469,7 +480,7 @@ $|x|$ es par y $x^3$ es impar. La función constante admite todo $T>0$ como peri
 ::: {#concept-004B .editorial-text}
 []{#def-004B}
 
-## Selección y validación de modelos funcionales
+### Selección y validación de modelos funcionales
 
 La familia se elige según la relación del contexto: proporcionalidad directa, cambio aditivo, producto constante o factor multiplicativo. Ajustar una fórmula a pocos datos no determina un mecanismo ni valida extrapolaciones. Se deben declarar unidades, dominio, parámetros, supuestos y un criterio para contrastar predicciones con observaciones.
 :::
@@ -483,7 +494,7 @@ Un costo con cargo fijo y precio unitario constante sugiere una función afín. 
 ::: {#concept-004D .editorial-text}
 []{#def-004D}
 
-## Errores en el concepto y las representaciones de función
+### Errores en el concepto y las representaciones de función
 
 Son frecuentes confundir codominio y recorrido, exigir imágenes distintas para que exista función, entender $f(x)$ como producto, confundir inversa con recíproco y leer una gráfica sin dominio ni escalas. Una entrada con dos salidas impide definir una función hacia ese conjunto de salidas; dos entradas con la misma salida solo impiden inyectividad.
 :::

@@ -1,10 +1,21 @@
 ---
-title: "Capítulo 9. Álgebra elemental"
-description: "Pensamiento algebraico, variables, expresiones, equivalencia, productos notables, factorización y errores frecuentes."
+title: Álgebra elemental
+description: Pensamiento algebraico, variables, expresiones, equivalencia, productos notables, factorización y errores frecuentes.
 format:
   html:
     format-links: false
+    title: Capítulo 9. Álgebra elemental
+    number-offset:
+    - 8
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
   pdf: default
+number-sections: true
+number-depth: 6
+mgp-number-prefix: '9'
 ---
 
 ## Propósito y alcance
@@ -31,7 +42,7 @@ Decir «la suma de dos números pares siempre es par» expresa una relación gen
 ::: {#concept-0005 .editorial-text}
 []{#def-0005}
 
-## Generalización de patrones
+### Generalización de patrones
 
 Generalizar es formular una relación que abarca una familia de casos y precisar su ámbito de validez. Observar unos pocos términos permite conjeturar, pero no determina una única regla ni justifica que continúe. Una generalización estructural identifica qué permanece y qué cambia en la construcción; debe distinguirse de una extrapolación basada solo en valores.
 :::
@@ -83,7 +94,7 @@ En $3(x+2)$, los factores son $3$ y $x+2$; en $3x+2$, los términos son $3x$ y $
 ::: {#concept-000B .editorial-text}
 []{#def-000B}
 
-## Traducción entre lenguaje y expresiones
+### Traducción entre lenguaje y expresiones
 
 Traducir exige precisar referentes, orden y agrupación. «El doble de la suma» y «la suma del doble» pueden describir operaciones diferentes. Si se modelan cantidades, las unidades ayudan a decidir si una suma o un producto tiene sentido. Una expresión no se elige por palabras clave aisladas, sino por las relaciones del contexto.
 :::
@@ -97,7 +108,7 @@ Traducir exige precisar referentes, orden y agrupación. «El doble de la suma»
 ::: {#concept-000D .editorial-text}
 []{#def-000D}
 
-## Evaluación y dominio de una expresión
+### Evaluación y dominio de una expresión
 
 Evaluar consiste en sustituir valores admisibles y ejecutar las operaciones. El **dominio de evaluación** reúne las asignaciones para las que todas las operaciones están definidas. Los denominadores no pueden ser cero; los radicales pares requieren radicando no negativo; los logaritmos exigen argumento positivo. Sustituir un negativo requiere conservar paréntesis.
 :::
@@ -135,7 +146,7 @@ Con la definición anterior:
 ::: {#concept-000H .editorial-text}
 []{#def-000H}
 
-## Reducción de términos semejantes
+### Reducción de términos semejantes
 
 Dos términos son semejantes cuando tienen la misma parte literal, incluidos los exponentes de cada variable. Se suman sus coeficientes por distributividad:
 $$au+bu=(a+b)u.$$
@@ -177,7 +188,7 @@ $2(3x-4)-(-x+5)=6x-8+x-5=7x-13$.
 ::: {#concept-000L .editorial-text}
 []{#def-000L}
 
-## Suma y producto de polinomios
+### Suma y producto de polinomios
 
 Para sumar se agrupan términos semejantes; para multiplicar se distribuye cada término de un factor por cada término del otro y se reduce. Si los polinomios reales $P,Q$ son no nulos, el grado del producto es la suma de sus grados. En una suma puede bajar el grado por cancelación de coeficientes principales.
 :::
@@ -339,7 +350,7 @@ Aplicando las identidades de cubos:
 ::: {#concept-000Z .editorial-text}
 []{#def-000Z}
 
-## Factor común y agrupación
+### Factor común y agrupación
 
 Factorizar es expresar una suma o diferencia como producto. El factor común puede ser numérico, monomial o una expresión. La agrupación reorganiza términos para hacer aparecer un factor común compartido. El control consiste en volver a expandir; si no se obtiene la expresión inicial, la factorización es incorrecta.
 :::
@@ -353,7 +364,7 @@ $6x^2+9x=3x(2x+3)$ y $ax+ay+bx+by=(a+b)(x+y)$.
 ::: {#concept-0011 .editorial-text}
 []{#def-0011}
 
-## Factorización mediante identidades
+### Factorización mediante identidades
 
 Se reconocen diferencias de cuadrados, trinomios cuadrados perfectos y sumas o diferencias de cubos. Para un trinomio $x^2+sx+p$, buscar $u,v$ tales que $u+v=s$ y $uv=p$ produce $(x+u)(x+v)$. Que no se encuentren factores enteros no significa que no existan factores reales. La respuesta depende del conjunto de coeficientes permitido.
 :::
@@ -367,7 +378,7 @@ $x^2-9=(x-3)(x+3)$, $x^2+6x+9=(x+3)^2$ y $x^2-x-6=(x-3)(x+2)$.
 ::: {#concept-0013 .editorial-text}
 []{#def-0013}
 
-## Completar el cuadrado
+### Completar el cuadrado
 
 Completar el cuadrado expresa una cuadrática como un cuadrado más una constante. Para $a\ne0$:
 $$ax^2+bx+c=a\left(x+\frac{b}{2a}\right)^2+c-\frac{b^2}{4a}.$$
@@ -397,7 +408,7 @@ $(x^2-4)/(x+2)$ exige $x\ne-2$. En cambio, $(x+2)/x$ exige $x\ne0$ y no es igual
 ::: {#concept-0017 .editorial-text}
 []{#def-0017}
 
-## Simplificación y operaciones con fracciones algebraicas
+### Simplificación y operaciones con fracciones algebraicas
 
 Solo se cancelan factores comunes no nulos. La suma requiere denominador común:
 $$\frac AB+\frac CD=\frac{AD+BC}{BD},\qquad B,D\ne0.$$
@@ -415,7 +426,7 @@ $(x^2-4)/(x+2)=x-2$ para $x\ne-2$. Además, $1/x+1/(x+1)=(2x+1)/(x(x+1))$, con $
 ::: {#concept-0019 .editorial-text}
 []{#def-0019}
 
-## Generalización de una construcción
+### Generalización de una construcción
 
 Una representación puede convertir una regla numérica en una relación estructural. Para interpretar el trabajo de estudiantes conviene distinguir descripción recursiva, regla para cualquier posición y explicación de por qué funciona. Dos expresiones diferentes pueden representar la misma construcción; comprobar su equivalencia recupera las propiedades utilizadas.
 :::
@@ -429,7 +440,7 @@ Una fila de $n$ cuadrados contiguos hechos con palitos usa $4+3(n-1)=3n+1$ palit
 ::: {#concept-001B .editorial-text}
 []{#def-001B}
 
-## Errores algebraicos y evidencia diagnóstica
+### Errores algebraicos y evidencia diagnóstica
 
 Son frecuentes la lectura operacional del igual, la combinación de términos no semejantes, la distribución incompleta, la cancelación de sumandos y la omisión de restricciones. Una respuesta aislada no permite atribuir una concepción estable: interesa solicitar explicación y variar un rasgo de la tarea para distinguir descuido de regla generalizada.
 :::

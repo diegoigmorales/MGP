@@ -1,10 +1,21 @@
 ---
-title: "Capítulo 2. Números naturales"
-description: "Conteo, numeración, operaciones, algoritmos y divisibilidad elemental para la enseñanza."
+title: Números naturales
+description: Conteo, numeración, operaciones, algoritmos y divisibilidad elemental para la enseñanza.
 format:
   html:
     format-links: false
+    title: Capítulo 2. Números naturales
+    number-offset:
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
   pdf: default
+number-sections: true
+number-depth: 6
+mgp-number-prefix: '2'
 ---
 
 ## Propósito y alcance
@@ -73,7 +84,7 @@ $4072=4\cdot1000+0\cdot100+7\cdot10+2$. La cifra $7$ vale $70$, mientras que en 
 
 :::: {.knowledge-object #tag-00DB tag="00DB" type="tecnica" title="Numeración en otras bases y comparación" requiere="00D9"}
 ::: {#concept-00DB .editorial-text}
-## Numeración en otras bases y comparación
+### Numeración en otras bases y comparación
 
 Una base entera $b\ge2$ utiliza cifras desde $0$ hasta $b-1$ y posiciones con pesos $1,b,b^2,\ldots$. En base diez, para comparar numerales sin ceros iniciales se compara primero su cantidad de cifras y, si coincide, la primera posición en que difieren.
 :::
@@ -163,7 +174,7 @@ $7\cdot23=7(20+3)=140+21=161$. De $3\cdot5=3b$ se concluye $b=5$. En cambio, $12
 
 :::: {.knowledge-object #tag-00DJ tag="00DJ" type="tecnica" title="Algoritmos y cálculo mental" requiere="00D9,00DH"}
 ::: {#concept-00DJ .editorial-text}
-## Algoritmos y cálculo mental
+### Algoritmos y cálculo mental
 
 Un **algoritmo** es un procedimiento finito con pasos especificados que produce una respuesta para cada entrada admisible. Los algoritmos de cálculo escolar se justifican mediante valor posicional, propiedades de las operaciones y reagrupación de unidades.
 :::

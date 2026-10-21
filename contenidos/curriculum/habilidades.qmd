@@ -1,9 +1,23 @@
 ---
-number-sections: false
+number-sections: true
 toc: false
+title: Habilidades matemáticas
+mgp-linked-section: true
+number-depth: 6
+format:
+  html:
+    title: 15.2 Habilidades matemáticas
+    number-offset:
+    - 14
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+mgp-number-prefix: '15.2'
 ---
 
-# 15.2 Habilidades matemáticas {.unnumbered}
+
 
 ::: {.knowledge-object #tag-0002 tag="0002" type="habilidad" title="Resolver problemas"}
 ## Resolver problemas

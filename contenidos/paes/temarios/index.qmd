@@ -1,22 +1,37 @@
 ---
-description: "Criterios para interpretar y comparar los temarios oficiales de Competencia Matemática M1 y M2."
+description: Criterios para interpretar y comparar los temarios oficiales de Competencia Matemática M1 y M2.
+title: Cómo interpretar los temarios
+mgp-linked-section: true
+number-sections: true
+number-depth: 6
+format:
+  html:
+    title: 16.2.1 Cómo interpretar los temarios
+    number-offset:
+    - 15
+    - 1
+    - 0
+    - 0
+    - 0
+    - 0
+mgp-number-prefix: 16.2.1
 ---
 
-# 16.2 Cómo interpretar los temarios {.unnumbered}
+
 
 El estudio distingue las **dos pruebas existentes, M1 y M2**, de sus oportunidades de rendición. Cada proceso de admisión puede disponer de una aplicación de invierno y una aplicación regular, pero ambas utilizan las mismas denominaciones M1 y M2.
 
-## 16.2.1 Proceso de admisión y rendición
+## Proceso de admisión y rendición
 
 El año del proceso de admisión es posterior, por regla general, al año en que se publica y rinde la prueba regular. Por ejemplo, la PAES regular para Admisión 2027 se publica y rinde durante 2026. Esta convención evita atribuir un cambio al año equivocado.
 
-## 16.2.2 Dos series documentales
+## Dos series documentales
 
 Las aplicaciones regular e invierno forman series documentales distintas. Para estudiar evolución temporal se compara regular con regular e invierno con invierno. Una diferencia entre aplicaciones del mismo proceso no se interpreta automáticamente como una reforma anual.
 
 La serie regular comienza con Admisión 2023. La serie de invierno comienza con Admisión 2024.
 
-## 16.2.3 Relación entre M1 y M2
+## Relación entre M1 y M2
 
 M1 y M2 comparten cuatro habilidades:
 
@@ -33,7 +48,7 @@ M2 incorpora toda la cobertura de M1 correspondiente a la misma aplicación y ag
 
 Esta distinción analítica no crea pruebas nuevas.
 
-## 16.2.4 Tipos de cambio
+## Tipos de cambio
 
 Las comparaciones utilizan cinco categorías:
 
@@ -45,7 +60,7 @@ Las comparaciones utilizan cinco categorías:
 
 La ausencia documental significa únicamente que un contenido dejó de declararse en el temario. No demuestra, por sí sola, una decisión curricular más amplia.
 
-## 16.2.5 Nivel de detalle adoptado
+## Nivel de detalle adoptado
 
 El cuerpo principal conserva las diferencias que cambian cobertura, organización o interpretación profesional. Los conteos de viñetas y las variaciones editoriales se mantienen como evidencia secundaria en las tablas históricas. Las páginas anuales sirven como subsecciones documentales y no como capítulos independientes.
 

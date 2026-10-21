@@ -1,14 +1,27 @@
 ---
-title: "15.4 Enseñanza básica, ciclo II"
-description: "Objetivos de aprendizaje de Matemática de quinto a octavo básico."
-number-sections: false
+title: Enseñanza básica, ciclo II
+description: Objetivos de aprendizaje de Matemática de quinto a octavo básico.
+number-sections: true
 toc: true
 toc-depth: 3
+mgp-linked-section: true
+number-depth: 6
+format:
+  html:
+    title: 15.4 Enseñanza básica, ciclo II
+    number-offset:
+    - 14
+    - 3
+    - 0
+    - 0
+    - 0
+    - 0
+mgp-number-prefix: '15.4'
 ---
 
-# 15.4 Enseñanza básica, ciclo II {.unnumbered}
 
-## 15.4.1 Quinto básico
+
+## Quinto básico
 
 ### Números y operaciones
 
@@ -136,7 +149,7 @@ toc-depth: 3
 
 27. **OA 27.** Utilizar diagramas de tallo y hojas para representar datos provenientes de muestras aleatorias.
 
-## 15.4.2 Sexto básico
+## Sexto básico
 
 ### Números y operaciones
 
@@ -214,7 +227,7 @@ toc-depth: 3
 
 24. **OA 24.** [Prioritario]{.change-badge .change-priority} Leer e interpretar gráficos de barra doble y circulares y comunicar sus conclusiones.
 
-## 15.4.3 Séptimo básico
+## Séptimo básico
 
 ### Números
 
@@ -326,7 +339,7 @@ toc-depth: 3
 
 19. **OA 19.** Comparar las frecuencias relativas de un evento obtenidas al repetir un experimento de forma manual y/o con software educativo, con la probabilidad obtenida de manera teórica, usando diagramas de árbol, tablas o gráficos.
 
-## 15.4.4 Octavo básico
+## Octavo básico
 
 ### Números
 

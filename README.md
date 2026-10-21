@@ -13,6 +13,8 @@ El proyecto avanza hacia una [arquitectura maestra de cinco partes y 102 capítu
 Requisitos: Python 3.11 o superior, [Quarto](https://quarto.org/docs/get-started/) y R con los paquetes `knitr` y `rmarkdown`.
 
 ~~~powershell
+python -m pip install -r scripts/requirements.txt
+python scripts/number_chapters.py
 python scripts/build_registry.py
 python scripts/math_notation.py --check
 quarto preview
@@ -55,3 +57,27 @@ El sitio se publica con Quarto y GitHub Pages. Para producir PDF se necesita una
 ~~~powershell
 quarto render --profile book --to pdf
 ~~~
+
+## Numeración de capítulos y secciones
+
+El orden de capítulos tiene una única fuente: `book.chapters` en `_quarto-book.yml`.
+Para insertar o mover un capítulo, edita esa lista (dentro de la parte correspondiente).
+Cada compilación ejecuta `scripts/number_chapters.py`, que sincroniza el menú del
+sitio, los títulos HTML y los desplazamientos de numeración de todos los capítulos.
+No escribas números en los títulos: `## Sección`, `### Subsección`, `#### Apartado`.
+Así, una sección del capítulo 6 se numera 6.1, una subsección 6.1.1, y al insertar
+un capítulo anterior pasan automáticamente a 7.1 y 7.1.1. Los cambios se muestran
+al volver a compilar; el sitio publicado se actualiza mediante el flujo habitual.
+
+Los títulos de definiciones, propiedades y ejemplos conservan sus contadores
+propios. Los títulos expositivos `#concept-TAG` usan nivel 3 bajo la sección
+correspondiente. Los identificadores permanentes no cambian con la numeración.
+En el perfil de libro, Quarto calcula la numeración PDF a partir del mismo orden;
+los desplazamientos generados se aplican solamente a HTML.
+
+Las páginas de sección de Currículo y PAES se numeran a partir del encabezado
+que contiene su enlace en la página madre. Si un encabezado enlaza varias páginas
+de sección, se ordenan por sus enlaces. Para añadir una página de este tipo,
+usa `mgp-linked-section: true` en su YAML y enlázala desde su capítulo o una
+sección ya vinculada. Escribe un título sin números y usa `##` para su primer
+nivel interior: la compilación calcula el prefijo y ajusta el nivel HTML.
