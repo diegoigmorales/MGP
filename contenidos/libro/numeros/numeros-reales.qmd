@@ -36,7 +36,11 @@ Una expansión infinita no basta para identificar un irracional: los decimales p
 ::: {#exm-00F9 .theorem-style-remark data-environment-tag="00FA"}
 ## Números irracionales
 
-$\sqrt2$ es irracional, pero $\sqrt9=3$ es racional. El decimal $0.\overline3=1/3$ es infinito y racional.
+(a) $\sqrt2$ es irracional: no puede escribirse como cociente de enteros con denominador no nulo.
+
+(b) $\pi$ es irracional y $3.14$ es una aproximación racional de él.
+
+(c) $0.101001000100001\ldots$, con bloques crecientes de ceros entre unos, no es eventualmente periódico y representa un irracional.
 :::
 ::::
 
@@ -44,9 +48,9 @@ $\sqrt2$ es irracional, pero $\sqrt9=3$ es racional. El decimal $0.\overline3=1/
 ::: {#def-00FB .theorem-style-definition data-environment-tag="00FB"}
 ## El conjunto de los números reales
 
-El conjunto $\mathbb R$ contiene los racionales y los irracionales. Estos dos subconjuntos son disjuntos y forman todos los reales. Se tienen las inclusiones
+El conjunto de los **números reales** es la unión disjunta de los racionales y los irracionales. Se tienen las inclusiones
 $$\mathbb N\subset\mathbb Z\subset\mathbb Q\subset\mathbb R.$$
-Cada real corresponde a un punto de la recta real y cada punto corresponde a un real.
+Los números reales están en correspondencia con los puntos de la recta real.
 :::
 
 En la enseñanza escolar, esta correspondencia conecta número y medida orientada. Un racional puede escribirse con radicales y un irracional puede tener una expresión exacta breve. Los complejos no pertenecen a esta recta y se tratan en la parte universitaria.
@@ -54,7 +58,11 @@ En la enseñanza escolar, esta correspondencia conecta número y medida orientad
 ::: {#exm-00FB .theorem-style-remark data-environment-tag="00FC"}
 ## El conjunto de los números reales
 
-$-4$ es entero, racional y real; $3/5$ es racional y real; $\sqrt5$ es irracional y real. La expresión $\sqrt{-1}$ no designa un número real.
+(a) $-4\in\mathbb Z\subset\mathbb Q\subset\mathbb R$: un mismo número pertenece a conjuntos incluidos unos en otros.
+
+(b) $3/5$ es real y racional, mientras que $\sqrt5$ es real e irracional.
+
+(c) La ecuación $x^2=2$ tiene soluciones reales $\pm\sqrt2$; $x^2=-1$ no tiene soluciones en $\mathbb R$.
 :::
 ::::
 
@@ -62,7 +70,7 @@ $-4$ es entero, racional y real; $3/5$ es racional y real; $\sqrt5$ es irraciona
 ::: {#concept-00FD .editorial-text}
 ### Inconmensurabilidad y raíz de dos
 
-Dos longitudes positivas son **conmensurables** si existe una longitud de referencia que cabe un número entero de veces en cada una. La diagonal de un cuadrado y su lado son inconmensurables: su razón es $\sqrt2$, que no es racional.
+Dos longitudes positivas $\ell_1,\ell_2$ son **conmensurables** si existen una longitud $u>0$ y naturales $m,n$ tales que $\ell_1=mu$ y $\ell_2=nu$. Son **inconmensurables** si no existe esa unidad común. Son conmensurables si y solo si $\ell_1/\ell_2$ es racional.
 :::
 
 La observación histórica muestra una necesidad geométrica de ampliar los racionales. Una justificación breve de irracionalidad parte de suponer $\sqrt2=a/b$ con $a,b$ coprimos: $a^2=2b^2$ obliga a que $a$ sea par y después a que $b$ también lo sea, contradiciendo que fueran coprimos.
@@ -70,7 +78,11 @@ La observación histórica muestra una necesidad geométrica de ampliar los raci
 ::: {#exm-00FD .theorem-style-remark data-environment-tag="00FE"}
 ## Inconmensurabilidad y raíz de dos
 
-Un cuadrado de lado $1\,\mathrm{cm}$ tiene diagonal $\sqrt2\,\mathrm{cm}$. El valor $1.414\,\mathrm{cm}$ es una aproximación, no la longitud exacta.
+(a) Un cuadrado de lado $1\,\mathrm{cm}$ tiene diagonal $\sqrt2\,\mathrm{cm}$ por Pitágoras.
+
+(b) Si una longitud $u$ midiera un número entero de veces tanto el lado $1$ como la diagonal, su razón sería racional. Como esa razón es $\sqrt2$, tal unidad común no existe.
+
+(c) La diagonal de un cuadrado de lado $3\,\mathrm{cm}$ es $3\sqrt2\,\mathrm{cm}$ y conserva la razón irracional $\sqrt2$ con el lado.
 :::
 ::::
 
@@ -120,7 +132,11 @@ Las propiedades de adición, multiplicación y distributividad se conservan; la 
 ::: {#exm-00FF .theorem-style-remark data-environment-tag="00FG"}
 ## Orden y operaciones en los reales
 
-$-3<-2$, pero $(-3)^2>(-2)^2$. En cambio, $5<6$ implica $\sqrt5<\sqrt6$.
+(a) De $-3<2$, al sumar $5$ se obtiene $2<7$; sumar la misma cantidad conserva el orden.
+
+(b) De $2<5$, al multiplicar por $-3$ se obtiene $-6>-15$; un factor negativo invierte el orden.
+
+(c) Como $0\le5<6$, se tiene $\sqrt5<\sqrt6$ por monotonía de la raíz cuadrada en los no negativos.
 :::
 ::::
 
@@ -128,7 +144,9 @@ $-3<-2$, pero $(-3)^2>(-2)^2$. En cambio, $5<6$ implica $\sqrt5<\sqrt6$.
 ::: {#def-00FH .theorem-style-definition data-environment-tag="00FH"}
 ## Valor absoluto y distancia real
 
-Para $x\in\mathbb R$, se define $|x|=x$ si $x\ge0$ y $|x|=-x$ si $x<0$. La distancia entre $a,b\in\mathbb R$ es $|a-b|$. Para $r>0$, $|x-a|<r$ equivale a $a-r<x<a+r$.
+Para $x\in\mathbb R$, el **valor absoluto** se define por
+$$|x|=\begin{cases}x,&x\ge0,\\-x,&x<0.\end{cases}$$
+La **distancia** entre $a,b\in\mathbb R$ es $d(a,b)=|a-b|$.
 :::
 
 El valor absoluto extiende la idea trabajada con enteros. Expresar una tolerancia como distancia permite relacionar medida, aproximación e intervalos. El radio de una tolerancia debe ser no negativo.
@@ -136,7 +154,11 @@ El valor absoluto extiende la idea trabajada con enteros. Expresar una toleranci
 ::: {#exm-00FH .theorem-style-remark data-environment-tag="00FI"}
 ## Valor absoluto y distancia real
 
-$|x-2|<0.1$ describe todos los valores entre $1.9$ y $2.1$, excluidos los extremos.
+(a) $|-3|=3$: el valor absoluto mide la distancia al cero.
+
+(b) La distancia entre $-1.5$ y $2$ es $|2-(-1.5)|=3.5$.
+
+(c) $|x-2|<0.1$ equivale a $1.9<x<2.1$, los puntos situados a menos de $0.1$ de $2$.
 :::
 ::::
 
@@ -157,7 +179,11 @@ Se acepta también la notación escolar $]a,b[$ para un intervalo abierto si se 
 ::: {#exm-00FJ .theorem-style-remark data-environment-tag="00FK"}
 ## Intervalos y extremos
 
-La condición $x\ge3$ se representa por $[3,+\infty)$. La intersección de $[1,4]$ con $(3,6)$ es $(3,4]$.
+(a) $x\ge3$ describe el intervalo $[3,+\infty)$: incluye $3$ y no tiene extremo superior real.
+
+(b) $[1,4]\cap(3,6)=(3,4]$ porque deben cumplirse ambas condiciones de pertenencia.
+
+(c) $(-2,1]\cup[1,5)=(-2,5)$: ambos intervalos se encuentran en $1$ y cubren todos los puntos intermedios.
 :::
 ::::
 
@@ -175,7 +201,11 @@ La densidad no distingue por sí sola a los reales de los racionales: ambos son 
 ::: {#exm-00FL .theorem-style-remark data-environment-tag="00FM"}
 ## Densidad de racionales e irracionales
 
-Entre $1$ y $2$ están los racionales $3/2$ y $7/4$, y los irracionales $\sqrt2$ y $\sqrt3$. Que un punto no esté marcado no implica que carezca de número.
+(a) Entre $1$ y $2$ están el racional $3/2$ y el irracional $\sqrt2$.
+
+(b) Entre $0$ y $0.1$ están $1/20=0.05$ y $\sqrt2/100$, aproximadamente $0.01414$.
+
+(c) Entre $2$ y $2.01$ están $2.005$ y $2+\sqrt2/1000$, aproximadamente $2.001414$.
 :::
 ::::
 
@@ -183,7 +213,7 @@ Entre $1$ y $2$ están los racionales $3/2$ y $7/4$, y los irracionales $\sqrt2$
 ::: {#concept-00FN .editorial-text}
 ### Completitud y ausencia de huecos
 
-La **completitud** expresa, intuitivamente, que los reales contienen los valores determinados por aproximaciones compatibles cada vez más precisas. Una forma de ilustrarla es mediante intervalos cerrados anidados, no vacíos, cuyas longitudes tienden a cero: determinan un único número real.
+La **completitud de $\mathbb R$** es la propiedad de que todo subconjunto no vacío de $\mathbb R$ acotado superiormente tiene **supremo** en $\mathbb R$. El supremo es la menor de sus cotas superiores.
 :::
 
 Esta propiedad se formaliza en Análisis real mediante resultados equivalentes y sus hipótesis. La densidad de los racionales no elimina sus huecos: sucesiones racionales pueden aproximarse a un irracional. No se identifica aquí completitud de los reales con continuidad de una función.
@@ -191,7 +221,11 @@ Esta propiedad se formaliza en Análisis real mediante resultados equivalentes y
 ::: {#exm-00FN .theorem-style-remark data-environment-tag="00FO"}
 ## Completitud y ausencia de huecos
 
-Los intervalos $[1,2]$, $[1.4,1.5]$, $[1.41,1.42]$ y sus refinamientos decimales que contienen $\sqrt2$ acotan un mismo punto real aunque este no sea racional.
+(a) El conjunto $A=\{x\in\mathbb R:x^2<2\}$ está acotado superiormente y tiene supremo $\sqrt2$, aunque $\sqrt2\notin A$.
+
+(b) Para $B=(0,1)$, el supremo es $1$ y el ínfimo es $0$; ninguno pertenece a $B$.
+
+(c) Los intervalos cerrados encajados $[0,1/n]$ tienen un único punto común, $0$, al tender sus longitudes a cero.
 :::
 ::::
 
@@ -209,7 +243,11 @@ Para negativos, truncar la expansión hacia cero no es tomar la parte entera inf
 ::: {#exm-00FP .theorem-style-remark data-environment-tag="00FQ"}
 ## Truncamiento, redondeo y cotas
 
-$1.41^2<2<1.42^2$ da $1.41<\sqrt2<1.42$. A dos decimales, $\sqrt2\approx1.41$. Al truncar $-1.239$ a dos decimales se obtiene $-1.23$; al redondear, $-1.24$.
+(a) $1.41^2<2<1.42^2$ implica $1.41<\sqrt2<1.42$: se obtiene una cota inferior y otra superior.
+
+(b) Truncar $-1.239$ a dos decimales da $-1.23$; redondearlo da $-1.24$.
+
+(c) Al redondear $7.846$ a centésimas se obtiene $7.85$, con error absoluto no mayor que $0.005$.
 :::
 ::::
 
@@ -225,7 +263,11 @@ Un mismo error absoluto puede ser pequeño en una escala y grande en otra. Si la
 ::: {#exm-00FR .theorem-style-remark data-environment-tag="00FS"}
 ## Error absoluto y relativo de una aproximación
 
-Aproximar $1/3$ por $0.33$ produce $E_a=1/300$ y $E_r=1/100=1\,\%$. El error absoluto no es $0.01$: esa es la expresión numérica del error relativo.
+(a) Aproximar $1/3$ por $0.33$ da $E_a=1/300$ y $E_r=(1/300)/(1/3)=1\,\%$.
+
+(b) Para $x=200$ y aproximación $198$, $E_a=2$ y $E_r=2/200=1\,\%$.
+
+(c) Si $x=\sqrt2$ se aproxima por $1.414$, las cotas $1.4142<x<1.4143$ permiten concluir $0.0002<E_a<0.0003$.
 :::
 ::::
 
@@ -233,7 +275,9 @@ Aproximar $1/3$ por $0.33$ produce $E_a=1/300$ y $E_r=1/100=1\,\%$. El error abs
 ::: {#concept-00FT .editorial-text}
 ### Notación científica y escala de un real
 
-Todo real no nulo puede escribirse $x=c\cdot10^k$, con $k\in\mathbb Z$ y $1\le|c|<10$. La notación permite comparar escalas y comunicar cifras significativas. Cero se escribe aparte.
+La **notación científica** de un real $x\ne0$ es
+$$x=c\cdot10^k,\qquad k\in\mathbb Z,\quad1\le|c|<10.$$
+El coeficiente $c$ conserva el signo de $x$.
 :::
 
 La definición y las leyes de exponentes se desarrollan en [Potencias, raíces y logaritmos](../algebra/potencias-raices-logaritmos.qmd#tag-0059). Aquí se utiliza para aproximaciones y control de resultados. Cuando se habla de orden de magnitud se debe declarar si se usa la década o la potencia de diez más cercana.
@@ -241,21 +285,13 @@ La definición y las leyes de exponentes se desarrollan en [Potencias, raíces y
 ::: {#exm-00FT .theorem-style-remark data-environment-tag="00FU"}
 ## Notación científica y escala de un real
 
-$0.000072=7.2\cdot10^{-5}$. El valor $4.60\cdot10^6$ conserva tres cifras significativas y evita la ambigüedad de los ceros finales de $4\,600\,000$.
+(a) $0.000072=7.2\cdot10^{-5}$: la mantisa está entre $1$ y $10$.
+
+(b) $4.60\cdot10^6$ representa $4\,600\,000$ y comunica tres cifras significativas.
+
+(c) Comparar $8.2\cdot10^4$ con $1.3\cdot10^5$ equivale a comparar $0.82\cdot10^5$ con $1.3\cdot10^5$; el segundo es mayor.
 :::
 ::::
-
-## Representaciones y errores frecuentes
-
-| Afirmación | Corrección conceptual |
-|---|---|
-| Toda raíz es irracional | Revisar si el radicando es una potencia perfecta |
-| Todo decimal infinito es irracional | Distinguir periodicidad de infinitud |
-| La calculadora da el valor exacto de una raíz | Distinguir salida decimal finita de expresión exacta |
-| Hay un siguiente real después de $1$ | Construir un valor intermedio entre $1$ y cualquier candidato |
-| Elevar al cuadrado conserva cualquier desigualdad | Examinar signos y dominio |
-
-Una recta real conecta orden, intervalos y medida. Los diagramas de inclusión permiten clasificar un número simultáneamente en varios conjuntos: no hay que elegir una sola categoría cuando las inclusiones permiten varias.
 
 ## Conexiones y procedencia
 

@@ -1,6 +1,6 @@
 ---
 title: Álgebra elemental
-description: Pensamiento algebraico, variables, expresiones, equivalencia, productos notables, factorización y errores frecuentes.
+description: Pensamiento algebraico, variables, expresiones, equivalencia, productos notables, factorización.
 format:
   html:
     format-links: false
@@ -28,13 +28,19 @@ Este capítulo fundamenta el paso de calcular casos particulares a describir rel
 ::: {#def-0003 .theorem-style-definition data-environment-tag="0003"}
 ## Pensamiento algebraico
 
-El pensamiento algebraico permite expresar regularidades, relaciones y operaciones de manera general. Incluye reconocer estructura, razonar con cantidades desconocidas o variables y justificar relaciones para una clase de casos.
+El **pensamiento algebraico** consiste en expresar y justificar relaciones generales entre cantidades, mediante regularidades, operaciones y representaciones con valores desconocidos o variables.
 :::
 
 No se reduce a usar letras: comparar métodos aritméticos o explicar una regularidad verbalmente puede ser actividad algebraica. Para el profesor interesa qué se generaliza y qué propiedades sostienen esa generalización.
 
 ::: {#exm-0003 .theorem-style-remark data-environment-tag="0004"}
-Decir «la suma de dos números pares siempre es par» expresa una relación general; escribir $2m+2n=2(m+n)$ hace visible su estructura.
+## Pensamiento algebraico
+
+(a) La suma de dos pares es par: si son $2m$ y $2n$, su suma es $2(m+n)$. La expresión justifica el resultado para cualquier par de enteros.
+
+(b) Si cada mesa admite cuatro personas, $n$ mesas separadas admiten $4n$ personas. La letra permite describir cualquier cantidad de mesas.
+
+(c) Para repartir $a$ objetos en dos partes, una de tamaño $x$, la otra tiene tamaño $a-x$. Se expresa una relación entre cantidades sin fijar sus valores.
 :::
 ::::
 
@@ -48,7 +54,13 @@ Generalizar es formular una relación que abarca una familia de casos y precisar
 :::
 
 ::: {#exm-0005 .theorem-style-remark data-environment-tag="0006"}
-Los valores $1,4,9$ son compatibles tanto con $a_n=n^2$ como con $a_n=n^2+(n-1)(n-2)(n-3)$. Una construcción geométrica adicional puede decidir qué regla se busca.
+## Generalización de patrones
+
+(a) Una fila de figuras contiene $3,5,7,9$ fichas y añade dos en cada paso. La construcción da $a_n=2n+1$, con índice inicial $1$.
+
+(b) Una cuadrícula cuadrada de lado $n$ contiene $n^2$ casillas; para $n=4$, contiene $16$.
+
+(c) Los primeros valores $1,4,9$ coinciden con $n^2$ y con $n^2+(n-1)(n-2)(n-3)$. En $n=4$ dan $16$ y $22$: los datos iniciales por sí solos no eligen una regla única.
 :::
 ::::
 
@@ -69,10 +81,13 @@ Según su papel en una expresión, una letra representa:
 El papel depende de la situación. Dos letras diferentes no necesariamente tienen valores distintos y una misma letra debe conservar significado dentro de un argumento.
 
 ::: {#exm-0007 .theorem-style-remark data-environment-tag="0008"}
-En los siguientes usos de letras:
+## Variable, incógnita, parámetro e indeterminada
 
-(a) En $y=mx+b$, $x,y$ pueden variar y $m,b$ fijarse como parámetros.
-(b) En $3x+2=11$, $x$ es una incógnita.
+(a) En $y=mx+b$, fijar $m=2$ y $b=1$ define una relación entre las variables $x,y$: para $x=3$, $y=7$.
+
+(b) En $3x+2=11$, $x$ es una incógnita cuyo valor es $3$.
+
+(c) En el polinomio formal $X^2+2X+1$, $X$ es una indeterminada; en la familia $x^2+c$, $c$ puede actuar como parámetro.
 :::
 ::::
 
@@ -80,13 +95,19 @@ En los siguientes usos de letras:
 ::: {#def-0009 .theorem-style-definition data-environment-tag="0009"}
 ## Expresión algebraica y estructura
 
-Una **expresión algebraica** combina números, letras y operaciones con una sintaxis definida.
+Una **expresión algebraica** combina números, letras y operaciones con una sintaxis definida. Su valor se obtiene al asignar valores admisibles a las letras y efectuar las operaciones indicadas.
 :::
 
 No afirma por sí misma una igualdad. Su estructura permite reconocer términos, factores, potencias, numeradores y denominadores. Antes de operar se identifica la operación principal y el alcance de paréntesis, barras de fracción y exponentes.
 
 ::: {#exm-0009 .theorem-style-remark data-environment-tag="000A"}
-En $3(x+2)$, los factores son $3$ y $x+2$; en $3x+2$, los términos son $3x$ y $2$.
+## Expresión algebraica y estructura
+
+(a) En $3(x+2)$, la operación exterior es un producto y sus factores son $3$ y $x+2$.
+
+(b) En $3x+2$, la operación exterior es una suma y sus términos son $3x$ y $2$.
+
+(c) En $(x+1)/(x-2)$, numerador y denominador son expresiones completas; para $x=3$, el cociente vale $4$.
 :::
 ::::
 
@@ -100,7 +121,13 @@ Traducir exige precisar referentes, orden y agrupación. «El doble de la suma»
 :::
 
 ::: {#exm-000B .theorem-style-remark data-environment-tag="000C"}
-«El doble de la suma de un número y 5» se escribe $2(x+5)$; «la suma del doble de un número y 5», $2x+5$.
+## Traducción entre lenguaje y expresiones
+
+(a) «El doble de la suma de un número y cinco» se escribe $2(x+5)$.
+
+(b) «La suma del doble de un número y cinco» se escribe $2x+5$. Para $x=3$, vale $11$.
+
+(c) Si un rectángulo tiene ancho $x$ y largo $x+3$, su perímetro es $2x+2(x+3)=4x+6$.
 :::
 ::::
 
@@ -114,7 +141,13 @@ Evaluar consiste en sustituir valores admisibles y ejecutar las operaciones. El 
 :::
 
 ::: {#exm-000D .theorem-style-remark data-environment-tag="000E"}
-Para $E(x)=(x+1)/(x-2)$, el dominio es $\mathbb R\setminus\{2\}$ y $E(-1)=0$. La expresión $\sqrt{x-1}$ exige $x\ge1$.
+## Evaluación y dominio de una expresión
+
+(a) Para $E(x)=(x+1)/(x-2)$, el dominio real es $\mathbb R\setminus\{2\}$ y $E(-1)=0$.
+
+(b) $F(x)=\sqrt{x-1}$ está definida en $[1,\infty)$; $F(5)=2$.
+
+(c) $G(x)=1/\sqrt{x+2}$ exige $x+2>0$, de modo que su dominio es $(-2,\infty)$.
 :::
 ::::
 
@@ -135,10 +168,13 @@ Aquí no se asigna grado al polinomio cero.
 :::
 
 ::: {#exm-000F .theorem-style-remark data-environment-tag="000G"}
-Con la definición anterior:
+## Monomios, coeficientes y grado
 
-(a) El monomio $-3x^2y$ tiene coeficiente $-3$, parte literal $x^2y$ y grado total $2+1=3$.
-(b) Las expresiones $1/x$ y $\sqrt x$ no son monomios en $x$, porque sus exponentes no son enteros no negativos.
+(a) El monomio $-3x^2y$ tiene coeficiente $-3$, parte literal $x^2y$ y grado total $3$.
+
+(b) El polinomio $2x^3-5x+7$ tiene grado $3$ y término independiente $7$.
+
+(c) El producto $(4x^2y)(-2xy^3)=-8x^3y^4$ es un monomio de grado total $7$.
 :::
 ::::
 
@@ -154,7 +190,13 @@ No se combinan como un único monomio términos con partes literales diferentes.
 :::
 
 ::: {#exm-000H .theorem-style-remark data-environment-tag="000I"}
-$3x^2-5x^2=-2x^2$, pero $3x+2x^2$ conserva dos términos. Además, $xy$ y $yx$ son semejantes en el álgebra real conmutativa.
+## Reducción de términos semejantes
+
+(a) $3x^2-5x^2=-2x^2$, al sumar los coeficientes de términos con igual parte literal.
+
+(b) $4xy+3yx=7xy$, porque $xy=yx$ en el álgebra real conmutativa.
+
+(c) $2x+3x^2-x=x+3x^2$; los términos de grados diferentes permanecen separados.
 :::
 ::::
 
@@ -180,7 +222,13 @@ Para números reales:
 El factor debe multiplicar cada término. Un signo menos delante de un paréntesis equivale a multiplicar por $-1$: $-(u-v)=-u+v$. La distributividad funciona también en sentido inverso y fundamenta la extracción de factor común.
 
 ::: {#exm-000J .theorem-style-remark data-environment-tag="000K"}
-$2(3x-4)-(-x+5)=6x-8+x-5=7x-13$.
+## Distributividad y eliminación de paréntesis
+
+(a) $2(3x-4)-(-x+5)=6x-8+x-5=7x-13$.
+
+(b) $-(a-2b+3)=-a+2b-3$, distribuyendo el factor $-1$.
+
+(c) $3x(2x^2-x+4)=6x^3-3x^2+12x$, multiplicando cada término por $3x$.
 :::
 ::::
 
@@ -194,7 +242,13 @@ Para sumar se agrupan términos semejantes; para multiplicar se distribuye cada 
 :::
 
 ::: {#exm-000L .theorem-style-remark data-environment-tag="000M"}
-$(x+2)(x-3)=x^2-x-6$. La suma $(x^2+x)+(-x^2+2)$ es $x+2$, de grado 1.
+## Suma y producto de polinomios
+
+(a) $(x^2+x)+(-x^2+2)=x+2$; al sumar se cancelan los términos cuadráticos.
+
+(b) $(x+2)(x-3)=x^2-3x+2x-6=x^2-x-6$.
+
+(c) $(2x^2)(3x^3-x)=6x^5-2x^3$, un polinomio de grado $5$.
 :::
 ::::
 
@@ -204,13 +258,19 @@ $(x+2)(x-3)=x^2-x-6$. La suma $(x^2+x)+(-x^2+2)$ es $x+2$, de grado 1.
 ::: {#def-000N .theorem-style-definition data-environment-tag="000N"}
 ## Igualdad como relación
 
-El signo $=$ afirma que las expresiones a ambos lados representan el mismo valor bajo las condiciones fijadas.
+Una **igualdad** afirma que dos expresiones representan el mismo valor bajo las condiciones declaradas. Se escribe $A=B$.
 :::
 
 La igualdad real es reflexiva, simétrica y transitiva. No es una instrucción que signifique «ahora viene el resultado». Una cadena de igualdades requiere que cada expresión sea igual a las demás; los pasos de una resolución pueden precisar equivalencias en lugar de igualdades.
 
 ::: {#exm-000N .theorem-style-remark data-environment-tag="000O"}
-La cadena $2+3=5\cdot2=10$ es falsa porque $2+3\ne10$. Puede escribirse $(2+3)\cdot2=5\cdot2=10$.
+## Igualdad como relación
+
+(a) $2+3=5$ y $5=2+3$ expresan la misma igualdad por simetría.
+
+(b) Si $a=b$ y $b=7$, entonces $a=7$ por transitividad.
+
+(c) La cadena $(2+3)\cdot2=5\cdot2=10$ es válida porque cada expresión tiene el mismo valor.
 :::
 ::::
 
@@ -218,13 +278,20 @@ La cadena $2+3=5\cdot2=10$ es falsa porque $2+3\ne10$. Puede escribirse $(2+3)\c
 ::: {#def-000P .theorem-style-definition data-environment-tag="000P"}
 ## Expresiones equivalentes y dominio
 
-Dos expresiones son equivalentes **en un dominio declarado** si dan el mismo valor para todas sus asignaciones.
+Dos expresiones $E,F$ definidas en un mismo dominio $D$ son **equivalentes en $D$** si
+$$E(x)=F(x)\quad\text{para todo }x\in D.$$
 :::
 
 La transformación debe conservar o registrar las restricciones originales. Coincidir en algunos valores no basta. Una forma simplificada puede estar definida en más puntos que la original; eso no autoriza a ampliar el dominio de la expresión inicial.
 
 ::: {#exm-000P .theorem-style-remark data-environment-tag="000Q"}
-$(x^2-1)/(x-1)=x+1$ para $x\ne1$. El lado derecho admite $x=1$, pero el izquierdo continúa indefinido allí.
+## Expresiones equivalentes y dominio
+
+(a) $(x^2-1)/(x-1)=x+1$ para $x\ne1$; la equivalencia conserva el dominio de la fracción original.
+
+(b) $2(x+3)$ y $2x+6$ son equivalentes para todo real $x$ por distributividad.
+
+(c) $\sqrt{x^2}=|x|$ para todo real; si se restringe a $x\ge0$, también equivale a $x$.
 :::
 ::::
 
@@ -239,10 +306,13 @@ $(x^2-1)/(x-1)=x+1$ para $x\ne1$. El lado derecho admite $x=1$, pero el izquierd
 La misma escritura puede interpretarse según el propósito y el dominio. Una identidad se justifica mediante propiedades generales; comprobar ejemplos no acredita universalidad.
 
 ::: {#exm-000R .theorem-style-remark data-environment-tag="000S"}
-Al comparar igualdades en $\mathbb R$:
+## Identidad y ecuación
 
-(a) $(x+1)^2=x^2+2x+1$ es una identidad.
-(b) La ecuación $x^2=4$ tiene soluciones $x=-2$ y $x=2$.
+(a) $(x+1)^2=x^2+2x+1$ se cumple para todo real $x$: es una identidad.
+
+(b) $x^2=4$ se cumple exactamente para $x=-2$ o $x=2$: es una ecuación con dos soluciones reales.
+
+(c) $x+1=x$ no se cumple para ningún real; su conjunto solución es vacío.
 :::
 ::::
 
@@ -270,7 +340,13 @@ Para reales $a,b$:
 El término mixto surge de dos productos iguales y su signo depende del binomio. Una representación por áreas con longitudes no negativas ilustra la primera identidad; el alcance algebraico es más amplio que ese dibujo.
 
 ::: {#exm-000T .theorem-style-remark data-environment-tag="000U"}
-$(2x-3)^2=4x^2-12x+9$. La expresión $a^2+b^2$ omite el término $2ab$ de $(a+b)^2$.
+## Cuadrado de un binomio
+
+(a) $(2x-3)^2=4x^2-12x+9$, usando el término doble $2(2x)(-3)$.
+
+(b) $(a+5)^2=a^2+10a+25$.
+
+(c) $101^2=(100+1)^2=10\,000+200+1=10\,201$; la identidad también permite cálculo numérico.
 :::
 ::::
 
@@ -296,10 +372,13 @@ Para números reales:
 La primera cancela los términos mixtos y la segunda los agrupa. Reconocer la estructura antes de sustituir ayuda a evitar expandir por rutina sin controlar signos.
 
 ::: {#exm-000V .theorem-style-remark data-environment-tag="000W"}
-Aplicando cada identidad:
+## Suma por diferencia y binomios con término común
 
-(a) **Suma por diferencia:** $(3x+2)(3x-2)=9x^2-4$.
-(b) **Término común:** $(x+2)(x-5)=x^2-3x-10$.
+(a) $(3x+2)(3x-2)=9x^2-4$, por suma por diferencia.
+
+(b) $(x+2)(x-5)=x^2-3x-10$, sumando $2+(-5)$ y multiplicando $2(-5)$.
+
+(c) $48\cdot52=(50-2)(50+2)=2500-4=2496$.
 :::
 ::::
 
@@ -337,10 +416,13 @@ Para reales $a,b$:
 Los signos de los factores no se obtienen trasladando sin más la regla de cuadrados. Las fórmulas se conectan con la distributividad y los coeficientes binomiales.
 
 ::: {#exm-000X .theorem-style-remark data-environment-tag="000Y"}
-Aplicando las identidades de cubos:
+## Cubo de binomios y suma o diferencia de cubos
 
-(a) **Diferencia de cubos:** $x^3-8=(x-2)(x^2+2x+4)$.
-(b) **Cubo de un binomio:** $(x+1)^3=x^3+3x^2+3x+1$.
+(a) $(x+1)^3=x^3+3x^2+3x+1$.
+
+(b) $x^3-8=(x-2)(x^2+2x+4)$, como diferencia de cubos.
+
+(c) $8x^3+27=(2x+3)(4x^2-6x+9)$, como suma de cubos.
 :::
 ::::
 
@@ -356,7 +438,13 @@ Factorizar es expresar una suma o diferencia como producto. El factor común pue
 :::
 
 ::: {#exm-000Z .theorem-style-remark data-environment-tag="0010"}
-$6x^2+9x=3x(2x+3)$ y $ax+ay+bx+by=(a+b)(x+y)$.
+## Factor común y agrupación
+
+(a) $6x^2+9x=3x(2x+3)$, extrayendo el factor común $3x$.
+
+(b) $ax+ay+bx+by=a(x+y)+b(x+y)=(a+b)(x+y)$.
+
+(c) $x^3-2x^2+3x-6=x^2(x-2)+3(x-2)=(x-2)(x^2+3)$.
 :::
 ::::
 
@@ -370,7 +458,13 @@ Se reconocen diferencias de cuadrados, trinomios cuadrados perfectos y sumas o d
 :::
 
 ::: {#exm-0011 .theorem-style-remark data-environment-tag="0012"}
-$x^2-9=(x-3)(x+3)$, $x^2+6x+9=(x+3)^2$ y $x^2-x-6=(x-3)(x+2)$.
+## Factorización mediante identidades
+
+(a) $x^2-9=(x-3)(x+3)$ es una diferencia de cuadrados.
+
+(b) $x^2+6x+9=(x+3)^2$ es un trinomio cuadrado perfecto.
+
+(c) $x^2-x-6=(x-3)(x+2)$ porque $-3+2=-1$ y $(-3)2=-6$.
 :::
 ::::
 
@@ -386,7 +480,13 @@ La identidad conecta expansión, ecuaciones cuadráticas y forma de vértice. No
 :::
 
 ::: {#exm-0013 .theorem-style-remark data-environment-tag="0014"}
-$x^2-6x+5=(x-3)^2-4$. El mínimo de esta expresión es $-4$.
+## Completar el cuadrado
+
+(a) $x^2-6x+5=(x-3)^2-4$, añadiendo y restando $9$.
+
+(b) $x^2+4x+7=(x+2)^2+3$, por lo que su valor mínimo real es $3$.
+
+(c) $2x^2-8x+1=2(x-2)^2-7$, extrayendo primero el coeficiente $2$.
 :::
 ::::
 
@@ -394,13 +494,19 @@ $x^2-6x+5=(x-3)^2-4$. El mínimo de esta expresión es $-4$.
 ::: {#def-0015 .theorem-style-definition data-environment-tag="0015"}
 ## Fracciones algebraicas
 
-Una **fracción algebraica** es un cociente de expresiones; aquí se consideran sobre todo cocientes de polinomios. Su denominador debe ser no nulo.
+Una **fracción algebraica** es un cociente $P(x)/Q(x)$ de expresiones algebraicas, definido cuando $Q(x)\ne0$. Si $P,Q$ son polinomios, se llama **expresión racional**.
 :::
 
 Numerador y denominador son expresiones completas: un término de una suma no es un factor del conjunto. Antes de simplificar conviene factorizar y registrar los valores excluidos.
 
 ::: {#exm-0015 .theorem-style-remark data-environment-tag="0016"}
-$(x^2-4)/(x+2)$ exige $x\ne-2$. En cambio, $(x+2)/x$ exige $x\ne0$ y no es igual a 2.
+## Fracciones algebraicas
+
+(a) La fracción $(x^2-4)/(x+2)$ está definida para $x\ne-2$.
+
+(b) En $2/(x^2-9)$, las restricciones son $x\ne-3,3$, las raíces del denominador.
+
+(c) Para $F(x)=(x+1)/x$, se tiene dominio $\mathbb R\setminus\{0\}$ y $F(2)=3/2$.
 :::
 ::::
 
@@ -416,37 +522,13 @@ Multiplicar combina factores; dividir por $C/D$ requiere además $C\ne0$. Toda e
 :::
 
 ::: {#exm-0017 .theorem-style-remark data-environment-tag="0018"}
-$(x^2-4)/(x+2)=x-2$ para $x\ne-2$. Además, $1/x+1/(x+1)=(2x+1)/(x(x+1))$, con $x\ne0,-1$.
-:::
-::::
+## Simplificación y operaciones con fracciones algebraicas
 
-## Patrones, enseñanza y errores frecuentes
+(a) $(x^2-4)/(x+2)=x-2$ para $x\ne-2$, tras factorizar el numerador.
 
-:::: {.knowledge-object #tag-0019 tag="0019" type="aplicacion" title="Generalización de una construcción" requiere="0005,000P"}
-::: {#concept-0019 .editorial-text}
-[]{#def-0019}
+(b) $1/x+1/(x+1)=(2x+1)/(x(x+1))$, con $x\ne0,-1$.
 
-### Generalización de una construcción
-
-Una representación puede convertir una regla numérica en una relación estructural. Para interpretar el trabajo de estudiantes conviene distinguir descripción recursiva, regla para cualquier posición y explicación de por qué funciona. Dos expresiones diferentes pueden representar la misma construcción; comprobar su equivalencia recupera las propiedades utilizadas.
-:::
-
-::: {#exm-0019 .theorem-style-remark data-environment-tag="001A"}
-Una fila de $n$ cuadrados contiguos hechos con palitos usa $4+3(n-1)=3n+1$ palitos para $n\ge1$. La primera forma destaca el cuadrado inicial; la segunda destaca la dependencia respecto de $n$.
-:::
-::::
-
-:::: {.knowledge-object #tag-001B tag="001B" type="observacion" title="Errores algebraicos y evidencia diagnóstica" requiere="000H,000J,000N,0017"}
-::: {#concept-001B .editorial-text}
-[]{#def-001B}
-
-### Errores algebraicos y evidencia diagnóstica
-
-Son frecuentes la lectura operacional del igual, la combinación de términos no semejantes, la distribución incompleta, la cancelación de sumandos y la omisión de restricciones. Una respuesta aislada no permite atribuir una concepción estable: interesa solicitar explicación y variar un rasgo de la tarea para distinguir descuido de regla generalizada.
-:::
-
-::: {#exm-001B .theorem-style-remark data-environment-tag="001C"}
-Ante $(x+3)/x=3$, preguntar por $x=2$ contrasta $5/2$ con 3 y permite examinar si se cancelaron sumandos como si fueran factores.
+(c) $((x^2-1)/x)\div((x+1)/2)=2(x-1)/x$, con $x\ne0,-1$; se exige que el divisor sea no nulo.
 :::
 ::::
 

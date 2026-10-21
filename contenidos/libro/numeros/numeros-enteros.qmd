@@ -28,7 +28,9 @@ Los enteros amplían los naturales incorporando el cero y los negativos para exp
 ::: {#def-00DZ .theorem-style-definition data-environment-tag="00DZ"}
 ## Números enteros
 
-El conjunto de los **números enteros** es $\mathbb Z=\{\ldots,-3,-2,-1,0,1,2,3,\ldots\}$. Incluye los naturales $\mathbb N=\{1,2,3,\ldots\}$, el cero y, para cada natural $n$, su opuesto $-n$. Por tanto, $\mathbb Z=\{-n:n\in\mathbb N\}\cup\{0\}\cup\mathbb N$. Cero no es positivo ni negativo, y los enteros no negativos forman $\mathbb N_0=\mathbb N\cup\{0\}$.
+El conjunto de los **números enteros** es
+$$\mathbb Z=\{\ldots,-3,-2,-1,0,1,2,3,\ldots\}.$$
+Está formado por el cero, los naturales y sus opuestos. El cero no es positivo ni negativo.
 :::
 
 Una orientación o un nivel de referencia da sentido a los signos en un modelo: saldo a favor/deuda, elevación sobre/bajo un nivel o desplazamiento a derecha/izquierda. El contexto debe precisar la unidad y el cero elegido. El signo no atribuye un valor moral o favorable a la cantidad.
@@ -36,7 +38,11 @@ Una orientación o un nivel de referencia da sentido a los signos en un modelo: 
 ::: {#exm-00DZ .theorem-style-remark data-environment-tag="00E0"}
 ## Números enteros
 
-Una cuenta con saldo $2$ y un cargo de $2$ queda en $2-2=0$; si el cargo es de $5$, queda en $2-5=-3$. Ambas restas tienen resultado entero, aunque ninguno de esos resultados es natural.
+(a) Un saldo de $2$ con un cargo de $5$ queda en $2-5=-3$; el signo negativo expresa deuda.
+
+(b) El nivel $0$ sirve de referencia: un estacionamiento en el nivel $-2$ está dos pisos por debajo de él.
+
+(c) $-4$, $0$ y $7$ pertenecen a $\mathbb Z$; $3/2$ no pertenece porque no es un entero.
 :::
 ::::
 
@@ -52,7 +58,11 @@ La magnitud del valor absoluto y el orden del número responden preguntas difere
 ::: {#exm-00E1 .theorem-style-remark data-environment-tag="00E2"}
 ## Recta numérica y orden de enteros
 
-$-7<-3<0<4$. Aunque $7>3$, la temperatura $-7\,{}^\circ\mathrm{C}$ es menor que $-3\,{}^\circ\mathrm{C}$.
+(a) En la recta, $-7$ queda a la izquierda de $-3$; por tanto, $-7<-3$.
+
+(b) Ordenar $4,-2,0,-5$ de menor a mayor produce $-5<-2<0<4$.
+
+(c) Una temperatura de $-1\,{}^\circ\mathrm{C}$ es mayor que una de $-6\,{}^\circ\mathrm{C}$ porque $-1$ está más a la derecha.
 :::
 ::::
 
@@ -60,7 +70,7 @@ $-7<-3<0<4$. Aunque $7>3$, la temperatura $-7\,{}^\circ\mathrm{C}$ es menor que 
 ::: {#def-00E3 .theorem-style-definition data-environment-tag="00E3"}
 ## Opuesto y valor absoluto
 
-Para $a\in\mathbb Z$:
+Para $a,b\in\mathbb Z$:
 
 (a) Su **opuesto** $-a$ es el entero que satisface $a+(-a)=0$.
 (b) Su **valor absoluto** es $|a|=a$ si $a\ge0$, y $|a|=-a$ si $a<0$; expresa su distancia a cero en la recta.
@@ -72,7 +82,11 @@ El signo menos puede expresar un opuesto o una sustracción. La expresión $-a$ 
 ::: {#exm-00E3 .theorem-style-remark data-environment-tag="00E4"}
 ## Opuesto y valor absoluto
 
-Si $a=-5$, entonces $-a=5$ y $|a|=5$. La distancia de $-5$ a $2$ es $|-5-2|=7$.
+(a) Para $a=-5$, su opuesto es $-a=5$ y su valor absoluto es $|a|=5$.
+
+(b) La distancia de $-5$ a $2$ es $|2-(-5)|=7$ unidades.
+
+(c) La igualdad $|x|=4$ tiene soluciones enteras $x=-4$ y $x=4$, simétricas respecto del cero.
 :::
 ::::
 
@@ -94,7 +108,11 @@ Las reglas se conectan con desplazamientos y cancelación de pares opuestos. En 
 ::: {#exm-00E5 .theorem-style-remark data-environment-tag="00E6"}
 ## Adición de enteros
 
-$-4+(-3)=-7$, $-8+5=-3$ y $8+(-8)=0$. Desde $-4$, un cambio de $+6$ llega a $2$.
+(a) $-4+(-3)=-7$: sumar dos enteros negativos conserva el signo negativo y suma sus valores absolutos.
+
+(b) $-8+5=-3$: avanzar cinco unidades desde $-8$ termina en $-3$.
+
+(c) Un saldo de $8$ y una deuda de $8$ se compensan: $8+(-8)=0$.
 :::
 ::::
 
@@ -112,7 +130,11 @@ Se mantiene el significado de diferencia o cambio necesario para pasar de un val
 ::: {#exm-00E7 .theorem-style-remark data-environment-tag="00E8"}
 ## Sustracción como adición del opuesto
 
-$3-(-5)=3+5=8$. Entre las temperaturas $-5$ y $3\,{}^\circ\mathrm{C}$ hay un aumento de $8\,{}^\circ\mathrm{C}$. En cambio, $-3-5=-8$.
+(a) $3-(-5)=3+5=8$. Restar un entero equivale a sumar su opuesto.
+
+(b) Desde $-3$, disminuir $5$ unidades da $-3-5=-8$.
+
+(c) Entre $-5$ y $3\,{}^\circ\mathrm{C}$ el cambio es $3-(-5)=8\,{}^\circ\mathrm{C}$.
 :::
 ::::
 
@@ -156,7 +178,11 @@ La regla preserva la distributividad: como $b+(-b)=0$, se tiene $ab+a(-b)=0$. Ap
 ::: {#exm-00E9 .theorem-style-remark data-environment-tag="00EA"}
 ## Producto y regla de signos
 
-$(-4)\cdot3=-12$ y $(-4)(-3)=12$. Para comprobar el segundo caso, $(-4)(3+(-3))=0$ exige que $-12+(-4)(-3)=0$.
+(a) $(-4)\cdot3=-12$: tres cambios de $-4$ acumulan una variación de $-12$.
+
+(b) $(-4)(-3)=12$, pues la distributividad exige $(-4)(3+(-3))=-12+12=0$.
+
+(c) $(-2)(-3)(-5)=6(-5)=-30$; tres factores negativos producen un resultado negativo.
 :::
 ::::
 
@@ -172,7 +198,11 @@ Los enteros no son cerrados para la división: un cociente puede ser racional si
 ::: {#exm-00EB .theorem-style-remark data-environment-tag="00EC"}
 ## División exacta y exclusión del cero
 
-$(-18)/6=-3$ y $(-18)/(-6)=3$. En cambio, $5/2$ no es entero y $0/7=0$.
+(a) $(-18)/6=-3$, ya que $6(-3)=-18$.
+
+(b) $(-18)/(-6)=3$, ya que $(-6)3=-18$.
+
+(c) $0/7=0$ es una división exacta en enteros. En cambio, $5/2$ no es entero y una división por cero no está definida.
 :::
 ::::
 
@@ -239,7 +269,11 @@ Las transformaciones del orden requieren atender al signo del factor. En una exp
 ::: {#exm-00ED .theorem-style-remark data-environment-tag="00EE"}
 ## Estructura de las operaciones y orden
 
-De $-3<2$, al multiplicar por $-4$ se obtiene $12>-8$. Asimismo, $8-(3-1)=6$, mientras que $(8-3)-1=4$.
+(a) De $-3<2$, al multiplicar por $-4$ se obtiene $12>-8$; el orden se invierte.
+
+(b) $8-(3-1)=6$, mientras que $(8-3)-1=4$; los paréntesis determinan qué resta se efectúa primero.
+
+(c) Por distributividad, $-3(4-7)=-12+21=9$, el mismo resultado que $-3(-3)$.
 :::
 ::::
 
@@ -257,22 +291,13 @@ Cambiar el signo de un divisor no cambia la divisibilidad. El cero es múltiplo 
 ::: {#exm-00EF .theorem-style-remark data-environment-tag="00EG"}
 ## Divisores enteros y paridad
 
-Los divisores enteros de $12$ son $\pm1,\pm2,\pm3,\pm4,\pm6,\pm12$. El número $-7$ es impar porque $-7=2(-4)+1$, y $-8$ es par. Los múltiplos enteros de $12$ incluyen $\ldots,-24,-12,0,12,24,\ldots$; en particular, $12\mid0$.
+(a) Los divisores enteros de $12$ son $\pm1,\pm2,\pm3,\pm4,\pm6,\pm12$.
+
+(b) $-7=2(-4)+1$ es impar y $-8=2(-4)$ es par. Las formas $2k+1$ y $2k$ admiten enteros negativos.
+
+(c) $12\mid0$ porque $0=12\cdot0$; los múltiplos enteros de $12$ también incluyen $-24,-12,12,24$.
 :::
 ::::
-
-## Modelos, representaciones y errores frecuentes
-
-| Modelo | Qué ayuda a explicar | Límite que debe explicitarse |
-|---|---|---|
-| Recta numérica | Orden, distancia y desplazamientos | Distinguir punto de cambio orientado |
-| Fichas opuestas | Suma y cancelación | El cero puede representarse con pares; el total es neto |
-| Saldos y deudas | Signos y algunas sumas y restas | No justifica por sí solo el producto de negativos |
-| Propiedades algebraicas | Regla de signos y consistencia | Requiere comprender distributividad y opuesto |
-
-Ante $-7>-3$, indagar si se compararon valores absolutos. Ante $-4+(-3)=12$, pedir distinguir operación y signo. Ante $-a<0$ para todo $a$, probar $a=-2$ y recuperar la condición omitida.
-
-La historia de la aceptación de números negativos permite discutir cómo una ampliación del sistema numérico exige nuevos significados. No debe presentarse como una evolución idéntica a la de cada estudiante ni como prueba de una secuencia didáctica obligatoria.
 
 ## Conexiones y procedencia
 

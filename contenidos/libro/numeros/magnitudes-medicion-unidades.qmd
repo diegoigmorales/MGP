@@ -28,11 +28,7 @@ Medir requiere identificar un atributo, elegir una unidad y establecer cómo com
 ::: {#def-00CF .theorem-style-definition data-environment-tag="00CF"}
 ## Magnitud y cantidad
 
-En este capítulo:
-
-(a) Una **magnitud** es un atributo susceptible de comparación y expresión cuantitativa, como longitud, masa o duración.
-(b) Una **cantidad de una magnitud** es una manifestación particular de ese atributo: la longitud de una mesa o la masa de una mochila.
-(c) Una **unidad de medida** es una cantidad de referencia de la misma magnitud adoptada por convenio para expresar otras cantidades.
+Una **magnitud** es un atributo que admite comparación y expresión cuantitativa. Una **cantidad de una magnitud** es una manifestación particular de ese atributo. Una **unidad de medida** es una cantidad de referencia de la misma magnitud, adoptada por convenio.
 :::
 
 El objeto no es la magnitud: una mesa tiene longitud, área y masa. Elegir qué se quiere medir precede a elegir el instrumento. Aquí «cantidad» no significa solamente número de objetos.
@@ -40,7 +36,11 @@ El objeto no es la magnitud: una mesa tiene longitud, área y masa. Elegir qué 
 ::: {#exm-00CF .theorem-style-remark data-environment-tag="00CG"}
 ## Magnitud y cantidad
 
-Una botella puede tener una capacidad de $750\,\mathrm{mL}$ y una masa de $40\,\mathrm{g}$. Capacidad y masa son atributos distintos: el mismo recipiente admite ambas mediciones.
+(a) Una botella tiene capacidad de $750\,\mathrm{mL}$ y masa de $40\,\mathrm{g}$. La capacidad y la masa son magnitudes distintas del mismo objeto.
+
+(b) Dos cintas miden $2\,\mathrm{m}$ y $5\,\mathrm{m}$: se comparan cantidades de la misma magnitud, la longitud.
+
+(c) Una sala tiene superficie de $24\,\mathrm{m^2}$ y altura de $3\,\mathrm{m}$. El área mide su extensión superficial y la altura, una longitud.
 :::
 ::::
 
@@ -48,7 +48,9 @@ Una botella puede tener una capacidad de $750\,\mathrm{mL}$ y una masa de $40\,\
 ::: {#def-00CH .theorem-style-definition data-environment-tag="00CH"}
 ## Valor de una cantidad y medida numérica
 
-Para una cantidad $Q$ y una unidad $u$ compatibles, la expresión $Q=xu$ da su **valor** mediante el número $x$ y la unidad $u$. El número $x$ es la **medida numérica respecto de $u$**. Si $u'=ku$, con $k>0$, entonces $Q=(x/k)u'$.
+Sean $Q$ una cantidad y $u$ una unidad de su misma magnitud. En
+$$Q=xu,$$
+el número $x$ es la **medida numérica de $Q$ respecto de $u$**. Si $u'=ku$, con $k>0$, entonces $Q=(x/k)u'$.
 :::
 
 Cambiar la unidad cambia la medida numérica, pero conserva la cantidad. La ecuación se aplica directamente a longitudes, masas y otras cantidades que admiten esta representación multiplicativa; las escalas de temperatura con desplazamiento de origen requieren una conversión afín.
@@ -56,7 +58,11 @@ Cambiar la unidad cambia la medida numérica, pero conserva la cantidad. La ecua
 ::: {#exm-00CH .theorem-style-remark data-environment-tag="00CI"}
 ## Valor de una cantidad y medida numérica
 
-$2\,\mathrm{m}=200\,\mathrm{cm}$. La longitud no aumenta cien veces: se expresa usando una unidad cien veces menor.
+(a) Una longitud de $2\,\mathrm{m}$ equivale a $200\,\mathrm{cm}$: cambia el valor numérico y la unidad, pero no la longitud.
+
+(b) Una masa de $1500\,\mathrm{g}$ es $1.5\,\mathrm{kg}$. Al usar una unidad mil veces mayor, el valor numérico se divide por $1000$.
+
+(c) Si una cinta mide $12$ unidades de $5\,\mathrm{cm}$, su longitud es $12\cdot5=60\,\mathrm{cm}$.
 :::
 ::::
 
@@ -72,7 +78,11 @@ Comparar directamente, comparar mediante un intermediario y medir son procesos r
 ::: {#exm-00CJ .theorem-style-remark data-environment-tag="00CK"}
 ## Comparación, iteración y medición
 
-En una regla, un segmento comienza en la marca $3\,\mathrm{cm}$ y termina en $8.5\,\mathrm{cm}$. Su longitud es $8.5-3=5.5\,\mathrm{cm}$, aunque el extremo esté en la marca $8.5$.
+(a) Un segmento comienza en $3\,\mathrm{cm}$ y termina en $8.5\,\mathrm{cm}$ de una regla. Su longitud es $8.5-3=5.5\,\mathrm{cm}$.
+
+(b) Cuatro varillas de $25\,\mathrm{cm}$, colocadas consecutivamente sin huecos, cubren $4\cdot25=100\,\mathrm{cm}$.
+
+(c) Para comparar dos cintas sin medirlas, se hacen coincidir sus extremos iniciales. La que sobrepasa el extremo de la otra tiene mayor longitud.
 :::
 ::::
 
@@ -82,15 +92,19 @@ En una regla, un segmento comienza en la marca $3\,\mathrm{cm}$ y termina en $8.
 ::: {#concept-00CL .editorial-text}
 ### Unidades del Sistema Internacional
 
-El Sistema Internacional de Unidades (SI) utiliza siete unidades básicas: metro ($\mathrm{m}$), kilogramo ($\mathrm{kg}$), segundo ($\mathrm{s}$), amperio ($\mathrm{A}$), kelvin ($\mathrm{K}$), mol ($\mathrm{mol}$) y candela ($\mathrm{cd}$). Los símbolos son sensibles a mayúsculas, no se pluralizan ni llevan punto de abreviatura.
+Las **unidades básicas del Sistema Internacional (SI)** son metro ($\mathrm{m}$), kilogramo ($\mathrm{kg}$), segundo ($\mathrm{s}$), amperio ($\mathrm{A}$), kelvin ($\mathrm{K}$), mol ($\mathrm{mol}$) y candela ($\mathrm{cd}$).
 :::
 
 En la enseñanza escolar son especialmente frecuentes longitud, masa, tiempo y temperatura. Se distingue masa de peso: la masa se expresa en kilogramos; el peso es una fuerza y se expresa en newtons. La selección y escritura de unidades sigue el [BIPM](https://www.bipm.org/en/measurement-units/si-base-units).
 
 ::: {#exm-00CL .theorem-style-remark data-environment-tag="00CM"}
-## Unidades del sistema internacional
+## Unidades del Sistema Internacional
 
-Una masa de $3\,\mathrm{kg}$ se escribe con $\mathrm{kg}$, no «kgs». La aceleración de gravedad permite relacionar masa y peso, pero no identificarlos.
+(a) Una masa de $3$ kilogramos se escribe $3\,\mathrm{kg}$; el símbolo de la unidad permanece igual al cambiar la cantidad.
+
+(b) Un intervalo de dos minutos equivale a $120\,\mathrm{s}$, expresado en la unidad base del SI para tiempo.
+
+(c) Una fuerza de $10\,\mathrm{N}$ usa una unidad derivada: $1\,\mathrm{N}=1\,\mathrm{kg\,m\,s^{-2}}$.
 :::
 ::::
 
@@ -106,8 +120,11 @@ La cancelación de unidades explica el cálculo y permite comprobar su orientaci
 ::: {#exm-00CN .theorem-style-remark data-environment-tag="00CO"}
 ## Prefijos y factores de conversión
 
-$$3.2\,\mathrm{km}\cdot\frac{1000\,\mathrm{m}}{1\,\mathrm{km}}=3200\,\mathrm{m}.$$
-Asimismo, $90\,\mathrm{min}\cdot(1\,\mathrm{h}/60\,\mathrm{min})=1.5\,\mathrm{h}$.
+(a) $3.2\,\mathrm{km}=3.2\cdot1000=3200\,\mathrm{m}$. El prefijo kilo representa un factor de $1000$.
+
+(b) $450\,\mathrm{mg}=450/1000=0.45\,\mathrm{g}$. El prefijo mili representa una milésima de la unidad.
+
+(c) $90\,\mathrm{min}\cdot(1\,\mathrm{h}/60\,\mathrm{min})=1.5\,\mathrm{h}$: las unidades minuto se cancelan.
 :::
 ::::
 
@@ -127,7 +144,11 @@ La terminología distingue [exactitud](https://jcgm.bipm.org/vim/en/2.13.html), 
 ::: {#exm-00CP .theorem-style-remark data-environment-tag="00CQ"}
 ## Resolución, precisión y exactitud
 
-Una balanza indica $102.0$, $102.1$ y $102.0\,\mathrm{g}$ para una masa de referencia de $100.0\,\mathrm{g}$. Hay buena concordancia entre lecturas, pero un sesgo cercano a $2\,\mathrm{g}$.
+(a) Una regla con marcas cada $1\,\mathrm{mm}$ tiene resolución de $1\,\mathrm{mm}$; una con marcas cada $5\,\mathrm{mm}$ distingue cambios mayores.
+
+(b) Para una referencia de $100.0\,\mathrm{g}$ se leen $102.0$, $102.1$ y $102.0\,\mathrm{g}$. Las lecturas concuerdan entre sí, aunque están alejadas de la referencia.
+
+(c) Para la misma referencia, las lecturas $99.9$, $100.0$ y $100.1\,\mathrm{g}$ presentan buena concordancia y están próximas al valor de referencia.
 :::
 ::::
 
@@ -163,7 +184,11 @@ El área y el volumen cuentan cuadrados y cubos de unidad. No se utiliza el fact
 ::: {#exm-00CR .theorem-style-remark data-environment-tag="00CS"}
 ## Conversión de área y volumen
 
-$1\,\mathrm{m^2}=10\,000\,\mathrm{cm^2}$, por lo que $2.5\,\mathrm{m^2}=25\,000\,\mathrm{cm^2}$. Además, $0.004\,\mathrm{m^3}=4\,\mathrm{L}$.
+(a) Como $1\,\mathrm{m}=100\,\mathrm{cm}$, se tiene $1\,\mathrm{m^2}=100^2=10\,000\,\mathrm{cm^2}$. Así, $2.5\,\mathrm{m^2}=25\,000\,\mathrm{cm^2}$.
+
+(b) $1\,\mathrm{cm^3}=10^3\,\mathrm{mm^3}$; por tanto, $8\,\mathrm{cm^3}=8000\,\mathrm{mm^3}$.
+
+(c) $0.004\,\mathrm{m^3}=4\,\mathrm{dm^3}=4\,\mathrm{L}$, pues un decímetro cúbico equivale a un litro.
 :::
 ::::
 
@@ -171,7 +196,7 @@ $1\,\mathrm{m^2}=10\,000\,\mathrm{cm^2}$, por lo que $2.5\,\mathrm{m^2}=25\,000\
 ::: {#def-00CT .theorem-style-definition data-environment-tag="00CT"}
 ## Magnitudes y unidades derivadas
 
-Una **magnitud derivada** se define mediante relaciones entre otras magnitudes. Su unidad se obtiene mediante la misma relación: rapidez como distancia dividida por duración, densidad de masa como masa dividida por volumen y área como producto de dos longitudes.
+Una **magnitud derivada** se define mediante relaciones entre otras magnitudes. Su **unidad derivada** se obtiene aplicando las mismas relaciones a las unidades correspondientes.
 :::
 
 El cociente de unidades conserva significado. La rapidez media usa distancia total y tiempo total; no se obtiene en general promediando las rapideces de varios tramos. Una cantidad de dimensión uno puede conservar información sobre su significado, como una razón o un porcentaje.
@@ -179,7 +204,11 @@ El cociente de unidades conserva significado. La rapidez media usa distancia tot
 ::: {#exm-00CT .theorem-style-remark data-environment-tag="00CU"}
 ## Magnitudes y unidades derivadas
 
-$$72\,\mathrm{km\,h^{-1}}\cdot\frac{1000\,\mathrm{m}}{1\,\mathrm{km}}\cdot\frac{1\,\mathrm{h}}{3600\,\mathrm{s}}=20\,\mathrm{m\,s^{-1}}.$$
+(a) $72\,\mathrm{km\,h^{-1}}=72(1000/3600)=20\,\mathrm{m\,s^{-1}}$. Se convierte tanto la longitud como el tiempo.
+
+(b) Una pieza de masa $540\,\mathrm{g}$ y volumen $200\,\mathrm{cm^3}$ tiene densidad $540/200=2.7\,\mathrm{g\,cm^{-3}}$.
+
+(c) Recorrer $150\,\mathrm{m}$ en $30\,\mathrm{s}$ da una rapidez media de $150/30=5\,\mathrm{m\,s^{-1}}$.
 :::
 ::::
 
@@ -195,7 +224,11 @@ La homogeneidad es una condición necesaria, no una prueba de que el modelo sea 
 ::: {#exm-00CV .theorem-style-remark data-environment-tag="00CW"}
 ## Homogeneidad dimensional
 
-Si $v$ es rapidez y $t$ duración, $vt$ tiene dimensión de longitud. La fórmula $d=v+t$ mezcla longitud/tiempo con tiempo y no describe una distancia. En cambio, tanto $vt$ como $2vt$ tienen dimensión de longitud.
+(a) Si $v$ es rapidez y $t$ tiempo, $vt$ tiene dimensión de longitud porque $(\mathrm{m\,s^{-1}})\mathrm{s}=\mathrm{m}$.
+
+(b) En $A=bh/2$, base y altura son longitudes; por ello, el producto $bh$ tiene dimensión de área y el factor $1/2$ no cambia la dimensión.
+
+(c) En $d=v_0t+at^2/2$, ambos sumandos tienen dimensión de longitud: $(\mathrm{m\,s^{-1}})\mathrm{s}=\mathrm{m}$ y $(\mathrm{m\,s^{-2}})\mathrm{s^2}=\mathrm{m}$.
 :::
 ::::
 
@@ -211,7 +244,11 @@ La relación con el kelvin se documenta en la [Brochure del SI](https://www.bipm
 ::: {#exm-00CX .theorem-style-remark data-environment-tag="00CY"}
 ## Conversiones con cambio de origen
 
-$20\,{}^\circ\mathrm{C}$ corresponden a $293.15\,\mathrm{K}$. Un aumento de $5\,{}^\circ\mathrm{C}$ corresponde a un aumento de $5\,\mathrm{K}$.
+(a) $20\,{}^\circ\mathrm{C}$ corresponden a $20+273.15=293.15\,\mathrm{K}$.
+
+(b) Una temperatura de $300\,\mathrm{K}$ equivale a $300-273.15=26.85\,{}^\circ\mathrm{C}$.
+
+(c) Pasar de $15$ a $20\,{}^\circ\mathrm{C}$ supone un aumento de $5\,\mathrm{K}$, pues el desplazamiento del origen se cancela al restar.
 :::
 ::::
 
@@ -229,7 +266,11 @@ Una estimación permite anticipar escala y detectar conversiones equivocadas. No
 ::: {#exm-00CZ .theorem-style-remark data-environment-tag="00D0"}
 ## Estimación de una medida
 
-Si una mesa mide aproximadamente seis largos de una tarjeta de $8.5\,\mathrm{cm}$, se estima $6\cdot8.5=51\,\mathrm{cm}$. El resultado es aproximado porque la comparación visual no fue exacta.
+(a) Una mesa ocupa aproximadamente seis largos de una tarjeta de $8.5\,\mathrm{cm}$. Se estima su longitud en $6\cdot8.5=51\,\mathrm{cm}$.
+
+(b) Un trayecto dura aproximadamente tres canciones de cuatro minutos: se estima una duración de $12\,\mathrm{min}$.
+
+(c) Un piso contiene unas $8$ por $10$ baldosas de lado $0.3\,\mathrm{m}$. Su área se estima en $80\cdot0.09=7.2\,\mathrm{m^2}$.
 :::
 ::::
 
@@ -249,7 +290,11 @@ El error absoluto conserva la unidad; el relativo no tiene dimensión y permite 
 ::: {#exm-00D1 .theorem-style-remark data-environment-tag="00D2"}
 ## Error respecto de una referencia
 
-Para una referencia de $80\,\mathrm{cm}$ y una lectura de $82\,\mathrm{cm}$, el error absoluto es $2\,\mathrm{cm}$ y el relativo es $2/80=0.025=2.5\,\%$.
+(a) Para referencia $80\,\mathrm{cm}$ y lectura $82\,\mathrm{cm}$, el error con signo es $2\,\mathrm{cm}$, el absoluto $2\,\mathrm{cm}$ y el relativo $2/80=2.5\,\%$.
+
+(b) Para referencia $50\,\mathrm{g}$ y lectura $49\,\mathrm{g}$, el error con signo es $-1\,\mathrm{g}$ y el absoluto $1\,\mathrm{g}$; el relativo es $1/50=2\,\%$.
+
+(c) Una lectura de $0.2\,\mathrm{V}$ respecto de referencia $0\,\mathrm{V}$ tiene error absoluto $0.2\,\mathrm{V}$. El error relativo no está definido porque la referencia es cero.
 :::
 ::::
 
@@ -257,7 +302,7 @@ Para una referencia de $80\,\mathrm{cm}$ y una lectura de $82\,\mathrm{cm}$, el 
 ::: {#concept-00D3 .editorial-text}
 ### Redondeo y cifras significativas
 
-Las **cifras significativas** comunican los dígitos que se retienen en un valor aproximado. Los ceros iniciales no cuentan; los ceros entre cifras significativas sí. Los ceros finales deben interpretarse según la escritura y el contexto. La notación científica permite declarar cuántos dígitos se conservan.
+Las **cifras significativas** son los dígitos conservados al comunicar un valor aproximado. Se cuentan desde el primer dígito no nulo, incluidos los ceros intermedios y los ceros finales declarados como significativos.
 :::
 
 Las reglas escolares de cifras significativas son convenciones de comunicación, no un cálculo completo de incertidumbre. En multiplicaciones y divisiones suele limitarse el resultado al menor número de cifras significativas de los datos; en sumas y restas, a la posición decimal menos precisa. Factores definidos exactamente no limitan cifras. Se redondea al final para evitar acumulación de error.
@@ -265,20 +310,13 @@ Las reglas escolares de cifras significativas son convenciones de comunicación,
 ::: {#exm-00D3 .theorem-style-remark data-environment-tag="00D4"}
 ## Redondeo y cifras significativas
 
-$0.00450=4.50\cdot10^{-3}$ tiene tres cifras significativas. Una medida escrita $1.20\,\mathrm{m}$ conserva tres cifras. El producto $2.4\cdot3.15=7.56$ se comunica como $7.6$ si los datos son medidas y se adopta la regla de dos cifras.
+(a) $0.00450=4.50\cdot10^{-3}$ tiene tres cifras significativas: los ceros iniciales no se cuentan y el cero final sí.
+
+(b) Al redondear $18.376$ a dos decimales, el tercer decimal es $6$ y se obtiene $18.38$.
+
+(c) Para medidas de dos y tres cifras significativas, $2.4\cdot3.15=7.56$ se comunica como $7.6$ al adoptar dos cifras significativas para el producto.
 :::
 ::::
-
-## Representaciones, errores frecuentes y decisiones docentes
-
-| Producción observada | Aspecto que conviene indagar | Intervención posible |
-|---|---|---|
-| Usa la última marca de la regla como longitud | Comprensión del origen y de la diferencia | Medir el mismo segmento desde marcas distintas |
-| Convierte $1\,\mathrm{m^2}$ en $100\,\mathrm{cm^2}$ | Confusión entre unidad lineal y cuadrada | Dibujar una cuadrícula de $100$ por $100$ |
-| Reporta muchos decimales de una medición | Diferencia entre indicación y precisión | Comparar instrumentos y repeticiones |
-| Omite la unidad | Identificación de la magnitud | Pedir dos interpretaciones del mismo número |
-
-Las representaciones deben hacer visible la unidad: segmentos para longitud, mosaicos para superficie y cubos para volumen. La conservación de la cantidad al cambiar de unidad permite conectar medición, racionales y proporcionalidad.
 
 ## Conexiones y procedencia
 

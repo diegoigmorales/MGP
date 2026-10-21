@@ -342,3 +342,27 @@
 .mgp-chapter-anchor { display: none; }
 #TOC li:has(> a[href^="#mgp-chapter"]),
 .mobile-page-toc li:has(> a[href^="#mgp-chapter"]) { display: none; }
+
+/* Los controles del índice conservan la elección del lector al desplazarse. */
+#TOC .mgp-toc-root,
+.mobile-page-toc .mgp-toc-root,
+#TOC .mgp-toc-children,
+.mobile-page-toc .mgp-toc-children { display: block !important; }
+#TOC .mgp-toc-children.is-collapsed,
+.mobile-page-toc .mgp-toc-children.is-collapsed { display: none !important; }
+.mgp-toc-branch { position: relative; list-style: none; padding-left: 1.2rem; }
+.mgp-toc-toggle {
+  position: absolute;
+  left: 0;
+  top: .05rem;
+  width: 1.15rem;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: #5f6873;
+  font: inherit;
+  line-height: inherit;
+  cursor: pointer;
+}
+.mgp-toc-toggle:hover { color: var(--bs-link-color); }
+.mgp-toc-toggle:focus-visible { outline: 2px solid var(--bs-link-color); outline-offset: 2px; }

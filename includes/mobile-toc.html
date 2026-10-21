@@ -42,6 +42,46 @@ document.addEventListener("DOMContentLoaded", () => {
 
   if (!source || document.querySelector(".mobile-page-toc")) return;
 
+  // El estado manual se comparte entre el índice lateral y su versión móvil.
+  const branchStates = new Map();
+  const branchInstances = new Map();
+  let branchSequence = 0;
+  const setBranchExpanded = (key, expanded) => {
+    branchStates.set(key, expanded);
+    (branchInstances.get(key) || []).forEach(({ button, children, title }) => {
+      children.classList.toggle("is-collapsed", !expanded);
+      button.setAttribute("aria-expanded", String(expanded));
+      button.setAttribute("aria-label", `${expanded ? "Plegar" : "Desplegar"} subsecciones de ${title}`);
+      button.textContent = expanded ? "▾" : "▸";
+    });
+  };
+  const makeCollapsible = (root) => {
+    root.classList.add("mgp-toc-root");
+    root.querySelectorAll("li").forEach((item) => {
+      const link = [...item.children].find((child) => child.tagName === "A");
+      const children = [...item.children].find((child) => child.tagName === "UL");
+      if (!link || !children) return;
+      const key = link.getAttribute("href");
+      const title = link.textContent.trim();
+      const button = document.createElement("button");
+      button.type = "button";
+      button.className = "mgp-toc-toggle";
+      children.id = `mgp-toc-branch-${++branchSequence}`;
+      children.classList.add("mgp-toc-children");
+      button.setAttribute("aria-controls", children.id);
+      item.classList.add("mgp-toc-branch");
+      item.insertBefore(button, link);
+      if (!branchInstances.has(key)) branchInstances.set(key, []);
+      branchInstances.get(key).push({ button, children, title });
+      setBranchExpanded(key, branchStates.get(key) ?? false);
+      button.addEventListener("click", (event) => {
+        event.preventDefault();
+        event.stopPropagation();
+        setBranchExpanded(key, !branchStates.get(key));
+      });
+    });
+  };
+
   const details = document.createElement("details");
   details.className = "mobile-page-toc";
 
@@ -56,6 +96,9 @@ document.addEventListener("DOMContentLoaded", () => {
   list.querySelectorAll(".collapse").forEach((element) => element.classList.remove("collapse"));
   nav.appendChild(list);
   details.append(summary, nav);
+
+  makeCollapsible(source);
+  makeCollapsible(list);
 
   const title = main.querySelector("#title-block-header");
   if (title) title.insertAdjacentElement("afterend", details);

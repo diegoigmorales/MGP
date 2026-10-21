@@ -28,7 +28,9 @@ Una fracción puede expresar parte de una unidad, una medida, una razón, un coc
 ::: {#def-00EH .theorem-style-definition data-environment-tag="00EH"}
 ## Número racional y representación fraccionaria
 
-Un **número racional** es un número que admite una escritura $a/b$ con $a,b\in\mathbb Z$ y $b\ne0$. El conjunto de estos números se denota $\mathbb Q$. En una fracción, $a$ es el **numerador** y $b$ el **denominador**. Para comparar y normalizar fracciones se puede elegir $b>0$.
+El conjunto de los **números racionales** es
+$$\mathbb Q=\left\{\frac ab:a,b\in\mathbb Z,\ b\ne0\right\}.$$
+En $a/b$, $a$ es el **numerador** y $b$ el **denominador**.
 :::
 
 Una fracción es una representación, no una pareja de números que se opera siempre por separado. Distintas fracciones pueden representar el mismo número. Los enteros son racionales porque $a=a/1$. El denominador nunca es cero.
@@ -36,7 +38,11 @@ Una fracción es una representación, no una pareja de números que se opera sie
 ::: {#exm-00EH .theorem-style-remark data-environment-tag="00EI"}
 ## Número racional y representación fraccionaria
 
-$3/4$, $6/8$ y $-9/(-12)$ representan el mismo racional. Además, $-5=-5/1$ y $0=0/7$, pero $3/0$ no define un racional.
+(a) $3/4=6/8=-9/(-12)$: las tres fracciones representan el mismo número racional.
+
+(b) Todo entero es racional: $-5=-5/1$ y $0=0/1$.
+
+(c) La fracción $7/(-3)$ representa $-7/3$, porque el denominador es no nulo; $3/0$ queda fuera de la definición.
 :::
 ::::
 
@@ -58,7 +64,11 @@ El modelo parte-todo con una sola figura explica directamente fracciones entre 0
 ::: {#exm-00EJ .theorem-style-remark data-environment-tag="00EK"}
 ## Parte-todo, medida, cociente, razón y operador
 
-$3/4$ puede ser tres cuartos de una cinta, la posición $0.75$ en una recta, el reparto de $3$ litros entre $4$ personas o el operador que transforma $20$ en $15$.
+(a) Si una cinta unidad se divide en cuatro partes iguales, tres partes representan $3/4$ de la cinta.
+
+(b) Repartir tres litros entre cuatro personas da $3/4$ de litro a cada una: la fracción expresa un cociente.
+
+(c) Calcular $3/4$ de $20$ da $(3/4)20=15$; aquí la fracción actúa como operador.
 :::
 ::::
 
@@ -66,7 +76,9 @@ $3/4$ puede ser tres cuartos de una cinta, la posición $0.75$ en una recta, el 
 ::: {#concept-00EL .editorial-text}
 ### Unidad fraccionaria y fracciones mayores que uno
 
-Para representar $a/b\ge0$ con $b>0$, se fija una unidad, se divide en $b$ partes de igual medida y se iteran $a$ partes. Si $a=qb+r$, con $0\le r<b$, entonces $a/b=q+r/b$.
+Para $b\in\mathbb N$, la **unidad fraccionaria** $1/b$ es una de las $b$ partes iguales de una unidad. Si $a\in\mathbb N_0$ y $a=qb+r$, con $0\le r<b$, entonces
+$$\frac ab=q+\frac rb.$$
+El cociente $q$ cuenta las unidades completas y $r/b$ la parte restante.
 :::
 
 La unidad debe permanecer estable entre representaciones. Un denominador mayor produce partes menores cuando se mantiene la misma unidad; esto no permite ordenar fracciones con numeradores arbitrarios. La escritura mixta es una suma, no una multiplicación implícita.
@@ -74,7 +86,11 @@ La unidad debe permanecer estable entre representaciones. Un denominador mayor p
 ::: {#exm-00EL .theorem-style-remark data-environment-tag="00EM"}
 ## Unidad fraccionaria y fracciones mayores que uno
 
-$11/4=2+3/4$. En la recta se sitúa entre 2 y 3, a tres cuartos de unidad de 2. Dibujar únicamente tres de cuatro partes de una figura perdería las dos unidades completas.
+(a) $11/4=2+3/4$ contiene dos unidades completas y tres cuartos de otra.
+
+(b) En la recta, $7/3=2+1/3$ se ubica entre $2$ y $3$, a un tercio de unidad de $2$.
+
+(c) Cinco porciones de $1/2$ litro reúnen $5/2=2.5$ litros: una fracción puede superar una unidad.
 :::
 ::::
 
@@ -112,7 +128,11 @@ Amplificar o simplificar modifica la partición, no la cantidad. Solo se cancela
 ::: {#exm-00EN .theorem-style-remark data-environment-tag="00EO"}
 ## Equivalencia de fracciones
 
-$6/8=3/4$ porque $6\cdot4=8\cdot3$. En cambio, $(2+3)/(2+5)=5/7$, y cancelar los 2 produciría incorrectamente $3/5$.
+(a) $6/8=3/4$ porque $6\cdot4=8\cdot3=24$.
+
+(b) Multiplicar ambos términos de $2/5$ por $7$ produce $14/35$, una fracción equivalente.
+
+(c) Si $x/12=3/4$, entonces $4x=36$ y $x=9$; se obtiene la fracción equivalente $9/12$.
 :::
 ::::
 
@@ -126,9 +146,13 @@ Una fracción $a/b$ con $b>0$ es **irreducible** si $\operatorname{MCD}(|a|,b)=1
 Se utiliza el MCD sobre valores positivos como se definió en naturales; el caso cero se trata aparte. Una fracción irreducible no es necesariamente propia: $7/3$ es irreducible y mayor que 1.
 
 ::: {#exm-00EP .theorem-style-remark data-environment-tag="00EQ"}
-## Fracción irreducible y simplificación mediante mcd
+## Fracción irreducible y simplificación mediante MCD
 
-$-18/24=-3/4$, al dividir ambos términos por $6$. Los valores $3$ y $4$ son coprimos. La representación irreducible de $0/24$ es $0/1$.
+(a) $-18/24=-3/4$ al dividir numerador y denominador por su MCD, $6$.
+
+(b) $42/56=3/4$, pues $\operatorname{MCD}(42,56)=14$ y $3,4$ son coprimos.
+
+(c) $0/24=0/1$; esta última es su representación irreducible con denominador positivo.
 :::
 ::::
 
@@ -136,17 +160,21 @@ $-18/24=-3/4$, al dividir ambos términos por $6$. Los valores $3$ y $4$ son cop
 ::: {#concept-00ER .editorial-text}
 ### Denominadores comunes y MCM
 
-Para fracciones con denominadores positivos $b,d$, cualquier múltiplo común positivo $L$ permite escribir
-$$\frac ab=\frac{a(L/b)}L,\qquad \frac cd=\frac{c(L/d)}L.$$
-Elegir $L=\operatorname{MCM}(b,d)$ evita un denominador común innecesariamente grande.
+Sean $a/b,c/d\in\mathbb Q$, con $b,d>0$. Si $L$ es un múltiplo común positivo de $b$ y $d$,
+$$\frac ab=\frac{a(L/b)}L,\qquad\frac cd=\frac{c(L/d)}L.$$
+El menor denominador común positivo es $\operatorname{MCM}(b,d)$.
 :::
 
 El denominador común convierte las cantidades en unidades fraccionarias del mismo tamaño. Es una herramienta para suma, resta y comparación; no es requisito para multiplicar fracciones.
 
 ::: {#exm-00ER .theorem-style-remark data-environment-tag="00ES"}
-## Denominadores comunes y mcm
+## Denominadores comunes y MCM
 
-Para $5/12$ y $7/18$, $L=36$: se obtienen $15/36$ y $14/36$. Por tanto, $5/12>7/18$ y su diferencia es $1/36$.
+(a) Para $5/12$ y $7/18$, el MCM de los denominadores es $36$ y se obtienen $15/36$ y $14/36$.
+
+(b) Para sumar $1/6+1/4$, se usa denominador $12$: $2/12+3/12=5/12$.
+
+(c) Para comparar $3/10$ y $2/5$, se escribe $2/5=4/10$; entonces $3/10<2/5$.
 :::
 ::::
 
@@ -182,7 +210,11 @@ Antes de comparar se normaliza el signo de los denominadores. También pueden ut
 ::: {#exm-00ET .theorem-style-remark data-environment-tag="00EU"}
 ## Comparación y orden de racionales
 
-$7/12>1/2$ porque $7>6$, mientras que $5/12<1/2$. Además, $-3/4<-2/3$ porque $-9/12<-8/12$.
+(a) $7/12>1/2$ porque $1/2=6/12$ y $7>6$.
+
+(b) $-3/4<-2/3$ porque sus expresiones con denominador $12$ son $-9/12$ y $-8/12$.
+
+(c) $5/8<7/10$ porque los denominadores son positivos y $5\cdot10=50<56=7\cdot8$.
 :::
 ::::
 
@@ -200,7 +232,11 @@ Se suman o restan cantidades expresadas en una misma unidad fraccionaria. Sumar 
 ::: {#exm-00EV .theorem-style-remark data-environment-tag="00EW"}
 ## Adición y sustracción de fracciones
 
-$2/3+1/4=8/12+3/12=11/12$. No es $(2+1)/(3+4)=3/7$: esa fracción incluso es menor que uno de los sumandos positivos.
+(a) $2/3+1/4=8/12+3/12=11/12$.
+
+(b) $5/6-1/4=10/12-3/12=7/12$.
+
+(c) Si se consumen $3/8$ y luego $1/4$ de una reserva inicial, se consume $3/8+2/8=5/8$ y queda $3/8$.
 :::
 ::::
 
@@ -218,7 +254,11 @@ El operador «una fracción de una cantidad» explica por qué multiplicar por u
 ::: {#exm-00EX .theorem-style-remark data-environment-tag="00EY"}
 ## Producto de racionales
 
-$3/4$ de $2/3$ de una cinta es $(3/4)(2/3)=1/2$ de la cinta original. Además, $(5/6)(9/10)=3/4$ tras simplificar factores.
+(a) Tres cuartos de dos tercios de una cinta representan $(3/4)(2/3)=1/2$ de la cinta inicial.
+
+(b) $(5/6)(9/10)=45/60=3/4$, simplificando factores comunes.
+
+(c) $(-2/3)(9/4)=-18/12=-3/2$; los signos distintos producen un resultado negativo.
 :::
 ::::
 
@@ -236,7 +276,11 @@ El cociente responde cuántas veces una cantidad cabe en otra, o cuál es un fac
 ::: {#exm-00EZ .theorem-style-remark data-environment-tag="00F0"}
 ## Recíproco y división de racionales
 
-$(3/4)\div(1/8)=6$: en tres cuartos de litro caben seis porciones de un octavo de litro. En cambio, dividir por $0/5$ no está permitido.
+(a) $(3/4)\div(1/8)=6$: caben seis porciones de un octavo de litro en tres cuartos de litro.
+
+(b) $(5/6)\div(10/9)=(5/6)(9/10)=3/4$.
+
+(c) El recíproco de $-3/5$ es $-5/3$, pues su producto es $1$. El cero no tiene recíproco.
 :::
 ::::
 
@@ -254,7 +298,11 @@ El denominador fija un número finito de posibles restos; si la división no ter
 ::: {#exm-00F1 .theorem-style-remark data-environment-tag="00F2"}
 ## Decimales finitos y periódicos
 
-$3/8=0.375$, $2/3=0.\overline6$ y $1/6=0.1\overline6$. Para $x=0.\overline{27}$, se tiene $100x-x=27$, de donde $x=27/99=3/11$.
+(a) $3/8=0.375$ es un decimal finito porque la división termina.
+
+(b) $1/6=0.1\overline6$ es periódico mixto: el período $6$ comienza después del primer decimal.
+
+(c) Para $x=0.\overline{27}$, $100x-x=27$, de donde $x=27/99=3/11$.
 :::
 ::::
 
@@ -272,7 +320,11 @@ Una escritura finita equivale a un denominador que divide alguna potencia de 10;
 ::: {#exm-00F3 .theorem-style-remark data-environment-tag="00F4"}
 ## Criterio para una expansión decimal finita
 
-$7/40$ termina porque $40=2^3\cdot5$. Aunque $6/15$ tiene denominador múltiplo de 3, primero se reduce a $2/5=0.4$. En cambio, $1/12$ no termina porque el 3 permanece en su denominador irreducible.
+(a) $7/40=0.175$ es finito, pues $40=2^3\cdot5$.
+
+(b) $6/15=2/5=0.4$: el criterio se aplica después de reducir la fracción.
+
+(c) $1/12$ no tiene expansión finita porque $12=2^2\cdot3$ conserva el factor primo $3$ en su denominador irreducible.
 :::
 ::::
 
@@ -280,7 +332,9 @@ $7/40$ termina porque $40=2^3\cdot5$. Aunque $6/15$ tiene denominador múltiplo 
 ::: {#concept-00F5 .editorial-text}
 ### Valor posicional y cálculo con decimales
 
-En un decimal finito, las posiciones a la derecha de la coma corresponden a décimos, centésimos, milésimos, etc. Para sumar se alinean posiciones del mismo valor; para multiplicar se interpreta cada factor como una fracción de denominador potencia de 10.
+La **escritura decimal finita** de un número no negativo tiene la forma
+$$x=a_0+\frac{a_1}{10}+\cdots+\frac{a_k}{10^k},$$
+donde $a_0\in\mathbb N_0$ y $a_1,\ldots,a_k\in\{0,\ldots,9\}$. Las posiciones a la derecha del punto representan décimos, centésimos, milésimos y sucesivas potencias negativas de diez. Para un número negativo, se antepone el signo menos a la escritura de su valor absoluto.
 :::
 
 Añadir ceros a la derecha de la parte decimal no cambia el valor. Para dividir puede multiplicarse dividendo y divisor por la misma potencia de 10; se conserva el cociente. Mover solo una coma cambia el problema.
@@ -288,7 +342,11 @@ Añadir ceros a la derecha de la parte decimal no cambia el valor. Para dividir 
 ::: {#exm-00F5 .theorem-style-remark data-environment-tag="00F6"}
 ## Valor posicional y cálculo con decimales
 
-$0.4=0.40>0.35$. Además, $0.12\cdot0.3=(12/100)(3/10)=36/1000=0.036$, y $1.2/0.03=120/3=40$.
+(a) $0.4=0.40>0.35$: comparar centésimas da $40>35$.
+
+(b) $0.12\cdot0.3=(12/100)(3/10)=36/1000=0.036$.
+
+(c) $1.2/0.03=120/3=40$, multiplicando dividendo y divisor por $100$.
 :::
 ::::
 
@@ -308,21 +366,13 @@ La propiedad contrasta con los enteros, donde cada número tiene un sucesor. Una
 ::: {#exm-00F7 .theorem-style-remark data-environment-tag="00F8"}
 ## Densidad de los racionales
 
-Entre $1/3$ y $1/2$ se encuentra $5/12$. Repitiendo el procedimiento entre $1/3$ y $5/12$ se obtiene $3/8$, y puede continuarse sin alcanzar un siguiente racional.
+(a) Entre $1/3$ y $1/2$ está su promedio: $(1/3+1/2)/2=5/12$.
+
+(b) Entre $-1$ y $0$ está $-1/2$; entre $-1$ y $-1/2$ está $-3/4$. El procedimiento puede repetirse.
+
+(c) Entre $0.2$ y $0.21$ está $0.205$, pues $0.2<0.205<0.21$.
 :::
 ::::
-
-## Errores frecuentes y decisiones docentes
-
-| Error o afirmación | Qué revisar | Representación o contraste |
-|---|---|---|
-| $1/8>1/6$ porque $8>6$ | Relación entre partición y tamaño | Dividir dos unidades iguales |
-| Sumar numeradores y denominadores | Conservación de la unidad fraccionaria | Recta o tiras con denominador común |
-| Multiplicar siempre agranda | Interpretación como operador | Calcular la mitad de una cantidad |
-| $0.35>0.4$ porque $35>4$ | Valor posicional decimal | Comparar $35/100$ con $40/100$ |
-| Una fracción siempre es menor que 1 | Uso restringido del modelo parte-todo | Iterar unidades sobre la recta |
-
-Una representación continua debe fijar la unidad; una discreta debe precisar el conjunto de referencia. No se deduce un error conceptual de un único cálculo sin pedir justificación.
 
 ## Conexiones y procedencia
 

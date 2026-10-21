@@ -34,13 +34,19 @@ El capítulo estudia la resolución como determinación de conjuntos solución e
 ::: {#def-001D .theorem-style-definition data-environment-tag="001D"}
 ## Ecuación, dominio y conjunto solución
 
-Una ecuación es una igualdad entre expresiones que se quiere hacer verdadera mediante valores de sus incógnitas. El dominio admisible se fija antes de resolver. Una **solución** es una asignación del dominio que satisface la igualdad; el **conjunto solución** reúne todas ellas.
+Una **ecuación en un dominio $D$** es una igualdad entre expresiones definidas en $D$. Una **solución** es una asignación de valores de $D$ a las incógnitas que satisface la igualdad. El **conjunto solución** reúne todas las soluciones en ese dominio.
 :::
 
 Según dominio y contexto puede haber ninguna, una, varias o infinitas soluciones.
 
 ::: {#exm-001D .theorem-style-remark data-environment-tag="001E"}
-$x^2=2$ tiene soluciones $\{-\sqrt2,\sqrt2\}$ en $\mathbb R$ y ninguna en $\mathbb Q$.
+## Ecuación, dominio y conjunto solución
+
+(a) En $\mathbb R$, $x^2=2$ tiene conjunto solución $\{-\sqrt2,\sqrt2\}$; en $\mathbb Q$, el conjunto es vacío.
+
+(b) $2x+1=7$ tiene solución $x=3$ tanto en $\mathbb Z$ como en $\mathbb R$.
+
+(c) Si $x$ cuenta cajas, $2x=5$ no tiene solución contextual entera, aunque su solución real sea $2.5$.
 :::
 ::::
 
@@ -54,7 +60,13 @@ Dos ecuaciones son equivalentes en un dominio si tienen exactamente el mismo con
 Una transformación no reversible genera candidatos adicionales o puede perder soluciones si se usa indebidamente.
 
 ::: {#exm-001F .theorem-style-remark data-environment-tag="001G"}
-$x=2\Longrightarrow x^2=4$, pero la segunda ecuación también admite $x=-2$.
+## Ecuaciones equivalentes e implicación
+
+(a) $2x+2=8$ y $x=3$ son equivalentes en $\mathbb R$: tienen el mismo conjunto solución.
+
+(b) $x=2$ implica $x^2=4$, pero esta última ecuación también admite $-2$; la implicación no es equivalencia.
+
+(c) Para $x\ge0$, $\sqrt{x}=3$ equivale a $x=9$, pues ambas condiciones se cumplen exactamente para ese valor.
 :::
 ::::
 
@@ -74,7 +86,13 @@ En el dominio considerado, preservan la equivalencia:
 Si el factor puede anularse, se separan casos o se conserva la ecuación sin dividir.
 
 ::: {#exm-001H .theorem-style-remark data-environment-tag="001I"}
-En $x(x-1)=0$, dividir por $x$ pierde la solución $x=0$. La factorización conserva ambas: $x=0$ o $x=1$.
+## Transformaciones que preservan soluciones
+
+(a) $3x+2=11$ equivale a $3x=9$ al restar $2$ a ambos miembros.
+
+(b) $-4x=12$ equivale a $x=-3$ al dividir ambos miembros por $-4$, que es no nulo.
+
+(c) $x(x-1)=0$ equivale a $x=0$ o $x=1$ por producto nulo; la separación de casos conserva todas las soluciones.
 :::
 ::::
 
@@ -90,7 +108,13 @@ Una ecuación lineal se reduce a $ax+b=0$. Si $a\ne0$, su única solución real 
 :::
 
 ::: {#exm-001J .theorem-style-remark data-environment-tag="001K"}
-$3(x-2)=x+4$ equivale a $2x=10$ y da $x=5$. En cambio, $2(x+1)=2x+2$ es verdadera para todo real.
+## Ecuación lineal en una incógnita
+
+(a) $3(x-2)=x+4$ equivale a $2x=10$, de donde $x=5$.
+
+(b) $2(x+1)=2x+2$ se reduce a $0=0$ y tiene solución todo $\mathbb R$.
+
+(c) $2x+1=2x+3$ se reduce a $1=3$ y tiene conjunto solución vacío.
 :::
 ::::
 
@@ -104,7 +128,13 @@ Despejar una letra expresa su dependencia respecto de las otras. Los parámetros
 :::
 
 ::: {#exm-001L .theorem-style-remark data-environment-tag="001M"}
-Para $ax=b$, si $a\ne0$ se obtiene $x=b/a$; si $a=0$, hay infinitas soluciones cuando $b=0$ y ninguna cuando $b\ne0$.
+## Despeje de fórmulas y parámetros
+
+(a) En $ax=b$, si $a\ne0$, el despeje es $x=b/a$; para $a=4,b=12$, se obtiene $x=3$.
+
+(b) Si $a=0$ y $b=0$, la ecuación $0x=0$ admite cualquier real.
+
+(c) De $A=bh/2$, con $b\ne0$, se despeja $h=2A/b$; para $A=12$ y $b=6$, $h=4$.
 :::
 ::::
 
@@ -120,7 +150,13 @@ En los reales, $uv=0$ equivale a $u=0$ o $v=0$. Si una cuadrática se expresa co
 :::
 
 ::: {#exm-001N .theorem-style-remark data-environment-tag="001O"}
-$x^2-x-6=0$ equivale a $(x-3)(x+2)=0$ y da $\{-2,3\}$. De $(x-3)(x+2)=4$ no se sigue que un factor sea 4.
+## Factorización y producto nulo
+
+(a) $x^2-x-6=0$ equivale a $(x-3)(x+2)=0$, de donde $x=3$ o $x=-2$.
+
+(b) $x^2=5x$ equivale a $x(x-5)=0$, con soluciones $0$ y $5$.
+
+(c) $(2x+1)^2=0$ exige $2x+1=0$ y da una única solución, $x=-1/2$.
 :::
 ::::
 
@@ -148,7 +184,13 @@ Para $ax^2+bx+c=0$, con $a\ne0$, sea $\Delta=b^2-4ac$:
 La fórmula no se usa como ecuación cuadrática cuando $a=0$.
 
 ::: {#exm-001P .theorem-style-remark data-environment-tag="001Q"}
-En $2x^2-3x-2=0$, $\Delta=25$ y las soluciones son $2$ y $-1/2$.
+## Fórmula cuadrática y discriminante
+
+(a) En $2x^2-3x-2=0$, $\Delta=25$ y $x=(3\pm5)/4$ da $2$ y $-1/2$.
+
+(b) En $x^2-6x+9=0$, $\Delta=0$ y la raíz doble es $3$.
+
+(c) En $x^2+x+1=0$, $\Delta=-3<0$, por lo que no existen soluciones reales.
 :::
 ::::
 
@@ -162,7 +204,13 @@ La forma $a(x-h)^2+k=0$ permite determinar $(x-h)^2=-k/a$. Si el segundo miembro
 :::
 
 ::: {#exm-001R .theorem-style-remark data-environment-tag="001S"}
-$x^2-6x+5=0$ equivale a $(x-3)^2=4$; por tanto, $x=3\pm2$, es decir, $x=1$ o $x=5$.
+## Completar cuadrados para resolver
+
+(a) $x^2-6x+5=0$ equivale a $(x-3)^2=4$ y da $x=1,5$.
+
+(b) $x^2+4x-1=0$ equivale a $(x+2)^2=5$ y da $x=-2\pm\sqrt5$.
+
+(c) $x^2+2x+5=0$ equivale a $(x+1)^2=-4$, sin soluciones reales.
 :::
 ::::
 
@@ -188,7 +236,13 @@ Si $ax^2+bx+c$ es una cuadrática real con raíces $r_1,r_2$, contando multiplic
 Las relaciones permiten verificar resultados y reconstruir una ecuación a partir de raíces. No aseguran por sí solas que las raíces sean reales: la existencia real depende del discriminante.
 
 ::: {#exm-001T .theorem-style-remark data-environment-tag="001U"}
-Las raíces 2 y 5 producen $(x-2)(x-5)=x^2-7x+10$. Su suma es 7 y su producto 10.
+## Suma y producto de raíces
+
+(a) Las raíces $2,5$ producen $(x-2)(x-5)=x^2-7x+10$, con suma $7$ y producto $10$.
+
+(b) Para $2x^2-3x-2=0$, la suma de raíces es $3/2$ y el producto $-1$, sin resolver primero la ecuación.
+
+(c) Si una ecuación mónica tiene suma de raíces $-4$ y producto $3$, es $x^2+4x+3=0$, cuyas raíces son $-1,-3$.
 :::
 ::::
 
@@ -204,7 +258,13 @@ Se excluyen primero los ceros de los denominadores. En ese dominio, multiplicar 
 :::
 
 ::: {#exm-001V .theorem-style-remark data-environment-tag="001W"}
-$1/(x-1)=2/(x+1)$, con $x\ne1,-1$, equivale a $x+1=2(x-1)$ y tiene solución $x=3$.
+## Ecuaciones racionales
+
+(a) $1/(x-1)=2/(x+1)$, con $x\ne\pm1$, da $x+1=2x-2$ y solución $x=3$.
+
+(b) $x/(x-2)=1$, con $x\ne2$, exige $x=x-2$ y no tiene solución.
+
+(c) $1/x+1/2=1$, con $x\ne0$, da $2+x=2x$ y solución $x=2$.
 :::
 ::::
 
@@ -218,7 +278,13 @@ Se fija el dominio de los radicales. Si se aísla una raíz par, su lado opuesto
 :::
 
 ::: {#exm-001X .theorem-style-remark data-environment-tag="001Y"}
-$\sqrt{x+2}=x$ exige $x\ge0$. Al cuadrar se obtiene $(x-2)(x+1)=0$, pero solo $x=2$ satisface la ecuación inicial.
+## Ecuaciones con radicales y candidatos extraños
+
+(a) $\sqrt{x+2}=x$ exige $x\ge0$; al cuadrar aparecen $2,-1$, y solo $2$ verifica la ecuación inicial.
+
+(b) $\sqrt{2x+1}=3$ da $2x+1=9$, de donde $x=4$; la sustitución confirma $\sqrt9=3$.
+
+(c) $\sqrt{x-1}=-2$ no tiene solución real porque una raíz cuadrada real es no negativa.
 :::
 ::::
 
@@ -232,7 +298,13 @@ Para una base $b>0$, $b\ne1$, la función exponencial es inyectiva: $b^u=b^v$ eq
 :::
 
 ::: {#exm-001Z .theorem-style-remark data-environment-tag="0020"}
-$3^{2x-1}=27$ da $x=2$. La ecuación $\ln(x-1)+\ln(x+1)=\ln8$ exige $x>1$; $x^2-1=8$ produce candidatos $\pm3$, pero solo queda 3.
+## Ecuaciones exponenciales y logarítmicas
+
+(a) $3^{2x-1}=27=3^3$ da $2x-1=3$ y $x=2$.
+
+(b) $\ln(x-1)+\ln(x+1)=\ln8$ exige $x>1$; $x^2-1=8$ da finalmente $x=3$.
+
+(c) $2^x=5$ tiene solución $x=\log_2 5=\ln5/\ln2$.
 :::
 ::::
 
@@ -246,7 +318,13 @@ Para $c\ge0$, $|u|=c$ equivale a $u=c$ o $u=-c$. Si $c<0$, no hay soluciones. Cu
 :::
 
 ::: {#exm-0021 .theorem-style-remark data-environment-tag="0022"}
-$|2x-1|=3$ da $x=2$ o $x=-1$. $|x|=-2$ no tiene solución real.
+## Ecuaciones con valor absoluto
+
+(a) $|2x-1|=3$ equivale a $2x-1=3$ o $2x-1=-3$, con soluciones $2,-1$.
+
+(b) $|x+4|=0$ exige $x+4=0$ y da $x=-4$.
+
+(c) $|x|=-2$ no tiene solución real porque el valor absoluto es no negativo.
 :::
 ::::
 
@@ -260,7 +338,13 @@ Un cambio de variable puede reducir una ecuación a otra conocida, pero la nueva
 :::
 
 ::: {#exm-0023 .theorem-style-remark data-environment-tag="0024"}
-$x^4-5x^2+4=0$ se convierte en $u^2-5u+4=0$. De $u=1$ o $u=4$ se obtienen $x=\pm1,\pm2$.
+## Cambio de variable y recuperación del dominio
+
+(a) En $x^4-5x^2+4=0$, tomar $u=x^2$ da $u=1,4$ y luego $x=\pm1,\pm2$.
+
+(b) En $2^{2x}-5\cdot2^x+4=0$, tomar $u=2^x>0$ da $u=1,4$ y soluciones $x=0,2$.
+
+(c) $x^4+x^2-2=0$ da $u^2+u-2=0$, con $u=1,-2$; como $u=x^2\ge0$, solo quedan $x=\pm1$.
 :::
 ::::
 
@@ -270,13 +354,19 @@ $x^4-5x^2+4=0$ se convierte en $u^2-5u+4=0$. De $u=1$ o $u=4$ se obtienen $x=\pm
 ::: {#def-0025 .theorem-style-definition data-environment-tag="0025"}
 ## Inecuación y representación del conjunto solución
 
-Una inecuación pide asignaciones que hacen verdadera una desigualdad.
+Una **inecuación en un dominio $D$** es una desigualdad entre expresiones definidas en $D$. Su **conjunto solución** contiene las asignaciones del dominio que hacen verdadera la desigualdad.
 :::
 
 En una variable real, el conjunto se representa mediante intervalos, uniones y puntos aislados. $(a,b)$ excluye extremos; $[a,b]$ los incluye. El infinito nunca es un extremo incluido. Las condiciones simultáneas se intersectan y las alternativas se unen.
 
 ::: {#exm-0025 .theorem-style-remark data-environment-tag="0026"}
-$x\ge2$ se representa como $[2,\infty)$. La condición $x<-1$ o $x>3$ es $(-\infty,-1)\cup(3,\infty)$.
+## Inecuación y representación del conjunto solución
+
+(a) $x\ge2$ representa $[2,\infty)$ y contiene su extremo finito $2$.
+
+(b) $x<-1$ o $x>3$ representa $(-\infty,-1)\cup(3,\infty)$.
+
+(c) $-2<x\le4$ representa $(-2,4]$: se excluye el extremo izquierdo y se incluye el derecho.
 :::
 ::::
 
@@ -296,7 +386,13 @@ Para transformar una desigualdad:
 Si el signo de una expresión depende de la incógnita, deben separarse casos o estudiar signos. Multiplicar por cero destruye la información de la desigualdad original.
 
 ::: {#exm-0027 .theorem-style-remark data-environment-tag="0028"}
-$-2x<6$ equivale a $x>-3$. No puede multiplicarse $1/x>1$ por $x$ sin distinguir su signo.
+## Transformaciones de desigualdades
+
+(a) $-2x<6$ equivale a $x>-3$, invirtiendo el signo al dividir por $-2$.
+
+(b) $3x+1\le10$ equivale a $3x\le9$ y luego a $x\le3$.
+
+(c) Para $1/x>1$, se separa el signo de $x$: con $x>0$ resulta $x<1$; con $x<0$ no hay soluciones. El conjunto final es $(0,1)$.
 :::
 ::::
 
@@ -310,7 +406,13 @@ Se reduce a una desigualdad lineal y se despeja atendiendo al signo del coeficie
 :::
 
 ::: {#exm-0029 .theorem-style-remark data-environment-tag="002A"}
-$-1<2x+3\le7$ equivale a $-4<2x\le4$, por lo que el conjunto solución es $(-2,2]$.
+## Inecuaciones lineales y condiciones simultáneas
+
+(a) $-1<2x+3\le7$ equivale a $-2<x\le2$, por lo que la solución es $(-2,2]$.
+
+(b) Las condiciones $x\ge1$ y $x<4$ se intersectan en $[1,4)$.
+
+(c) Las condiciones $2x>8$ y $x\le3$ son incompatibles: exigirían a la vez $x>4$ y $x\le3$.
 :::
 ::::
 
@@ -324,7 +426,13 @@ Se factoriza, se localizan ceros y puntos donde no existe la expresión, y se di
 :::
 
 ::: {#exm-002B .theorem-style-remark data-environment-tag="002C"}
-$(x-1)/(x+2)\ge0$ tiene solución $(-\infty,-2)\cup[1,\infty)$. El punto $-2$ se excluye porque anula el denominador.
+## Tabla de signos de productos y cocientes
+
+(a) $(x-1)/(x+2)\ge0$ cambia de signo en $-2$ y $1$; la solución es $(-\infty,-2)\cup[1,\infty)$.
+
+(b) $(x+3)(x-2)<0$ es negativo entre sus raíces, por lo que $-3<x<2$.
+
+(c) $(x-1)^2/(x+2)>0$ exige $x>-2$ y $x\ne1$; la solución es $(-2,1)\cup(1,\infty)$.
 :::
 ::::
 
@@ -338,7 +446,13 @@ Si una cuadrática tiene dos raíces distintas, estas separan los intervalos de 
 :::
 
 ::: {#exm-002D .theorem-style-remark data-environment-tag="002E"}
-$x^2-5x+6\le0$ da $[2,3]$. En cambio, $(x-2)^2>0$ da $\mathbb R\setminus\{2\}$.
+## Inecuaciones cuadráticas
+
+(a) $x^2-5x+6\le0$ equivale a $(x-2)(x-3)\le0$ y da $[2,3]$.
+
+(b) $(x-2)^2>0$ se cumple para todo real salvo $2$.
+
+(c) $x^2+x+1>0$ se cumple en todo $\mathbb R$, pues $(x+1/2)^2+3/4$ es siempre positivo.
 :::
 ::::
 
@@ -352,7 +466,13 @@ Para $r>0$, $|x-a|<r$ equivale a $a-r<x<a+r$ y $|x-a|>r$ equivale a $x<a-r$ o $x
 :::
 
 ::: {#exm-002F .theorem-style-remark data-environment-tag="002G"}
-$|x-2|\le3$ da $[-1,5]$, mientras que $|x-2|>3$ da $(-\infty,-1)\cup(5,\infty)$.
+## Inecuaciones con valor absoluto
+
+(a) $|x-2|\le3$ equivale a $-3\le x-2\le3$, de donde $x\in[-1,5]$.
+
+(b) $|x-2|>3$ da $x<-1$ o $x>5$.
+
+(c) $|2x+1|<5$ equivale a $-5<2x+1<5$ y da $-3<x<2$.
 :::
 ::::
 
@@ -366,7 +486,13 @@ Para base mayor que 1, aplicar la exponencial o el logaritmo preserva orden; par
 :::
 
 ::: {#exm-002H .theorem-style-remark data-environment-tag="002I"}
-$(1/2)^x>1/4$ da $x<2$. $\log_2(x-1)\le3$ exige $x>1$ y da finalmente $(1,9]$.
+## Inecuaciones exponenciales y logarítmicas
+
+(a) $(1/2)^x>1/4=(1/2)^2$ da $x<2$, porque la base está entre $0$ y $1$.
+
+(b) $\log_2(x-1)\le3$ exige $x>1$ y equivale a $x-1\le8$; la solución es $(1,9]$.
+
+(c) $3^{x+1}\ge9=3^2$ equivale a $x+1\ge2$, de donde $x\ge1$.
 :::
 ::::
 
@@ -376,13 +502,19 @@ $(1/2)^x>1/4$ da $x<2$. $\log_2(x-1)\le3$ exige $x>1$ y da finalmente $(1,9]$.
 ::: {#def-002J .theorem-style-definition data-environment-tag="002J"}
 ## Sistema de ecuaciones y solución simultánea
 
-Un sistema reúne ecuaciones que deben satisfacerse simultáneamente. Una solución es una tupla ordenada, no una lista de valores elegidos independientemente.
+Un **sistema de ecuaciones** es un conjunto de ecuaciones que deben satisfacerse simultáneamente. Una **solución del sistema** es una tupla de valores del dominio declarado que satisface cada ecuación.
 :::
 
 Para dos ecuaciones lineales con dos incógnitas puede haber una solución, ninguna o infinitas. La sustitución y la eliminación permiten reducir sin perder simultaneidad.
 
 ::: {#exm-002J .theorem-style-remark data-environment-tag="002K"}
-El sistema $x+y=5$, $x-y=1$ tiene solución $(x,y)=(3,2)$. La pareja $(2,3)$ solo satisface la primera ecuación.
+## Sistema de ecuaciones y solución simultánea
+
+(a) El sistema $x+y=5$, $x-y=1$ tiene solución $(3,2)$, que satisface ambas ecuaciones.
+
+(b) $x+y=2$, $x+y=3$ no tiene solución, pues una misma suma no puede tomar ambos valores.
+
+(c) $x+y=2$, $2x+2y=4$ tiene soluciones $(t,2-t)$ para cualquier real $t$.
 :::
 ::::
 
@@ -396,7 +528,13 @@ Sustituir reemplaza una incógnita despejada en las otras ecuaciones; igualar co
 :::
 
 ::: {#exm-002L .theorem-style-remark data-environment-tag="002M"}
-Para $2x+y=7$ y $x-y=2$, sumar elimina $y$ y da $3x=9$. Luego $x=3$ y $y=1$, que verifican ambas ecuaciones.
+## Sustitución, igualación y eliminación
+
+(a) Al sumar $2x+y=7$ y $x-y=2$, se obtiene $3x=9$; entonces $x=3,y=1$.
+
+(b) En $y=2x+1$ y $x+y=7$, sustituir da $3x+1=7$; así, $x=2,y=5$.
+
+(c) En $y=3x-2$ y $y=x+4$, igualar da $3x-2=x+4$; resulta $x=3,y=7$.
 :::
 ::::
 
@@ -410,73 +548,15 @@ Para $ax+by=e$ y $cx+dy=f$, si $ad-bc\ne0$ existe una única solución. Si $ad-b
 :::
 
 ::: {#exm-002N .theorem-style-remark data-environment-tag="002O"}
-$x+y=2$, $2x+2y=4$ tiene infinitas soluciones; sustituir 4 por 5 en la segunda produce un sistema incompatible.
+## Clasificación de sistemas lineales de dos incógnitas
+
+(a) $x+y=2$, $x-y=0$ tiene determinante $-2\ne0$ y solución única $(1,1)$.
+
+(b) $x+y=2$, $2x+2y=4$ representa la misma recta dos veces y tiene infinitas soluciones.
+
+(c) $x+y=2$, $2x+2y=5$ representa rectas paralelas distintas y no tiene solución.
 :::
 ::::
-
-## Métodos gráficos, modelación y errores
-
-:::: {.knowledge-object #tag-002P tag="002P" type="tecnica" title="Interpretación gráfica de ecuaciones e inecuaciones" requiere="001N,0025,002J"}
-::: {#concept-002P .editorial-text}
-[]{#def-002P}
-
-### Interpretación gráfica de ecuaciones e inecuaciones
-
-Las soluciones de $f(x)=g(x)$ son las abscisas de intersección de sus gráficas. Las soluciones de $f(x)>g(x)$ corresponden a donde la primera está por encima. En sistemas de dos variables, una desigualdad lineal describe un semiplano y un sistema exige intersectar regiones. Una gráfica numérica puede orientar, pero una ventana finita o una resolución insuficiente puede ocultar soluciones.
-:::
-
-::: {#exm-002P .theorem-style-remark data-environment-tag="002Q"}
-Las gráficas de $y=x^2$ y $y=2x$ se intersectan en $(0,0)$ y $(2,4)$; por eso $x^2=2x$ tiene soluciones 0 y 2.
-:::
-::::
-
-:::: {.knowledge-object #tag-002R tag="002R" type="aplicacion" title="Construcción e interpretación de modelos algebraicos" requiere="000B,001D,001P"}
-::: {#concept-002R .editorial-text}
-[]{#def-002R}
-
-### Construcción e interpretación de modelos algebraicos
-
-Modelar requiere definir incógnitas y unidades, traducir relaciones, resolver y validar en el contexto. El dominio contextual puede ser más restringido que el algebraico: cantidades enteras, longitudes positivas o tiempos futuros. Un valor que satisface la ecuación puede ser inadmisible para la situación.
-:::
-
-::: {#exm-002R .theorem-style-remark data-environment-tag="002S"}
-Un rectángulo tiene ancho $x>0$, largo $x+3$ y área $10\,\mathrm{m^2}$. $x(x+3)=10$ da $x=2$ o $x=-5$, pero solo $x=2\,\mathrm m$ representa un ancho.
-:::
-::::
-
-:::: {.knowledge-object #tag-002T tag="002T" type="observacion" title="Errores de resolución y control de equivalencias" requiere="001F,001H,001X,0027"}
-::: {#concept-002T .editorial-text}
-[]{#def-002T}
-
-### Errores de resolución y control de equivalencias
-
-Son relevantes dividir por una incógnita sin separar el cero, cuadrar sin controlar signos, olvidar exclusiones, invertir incorrectamente una desigualdad y aceptar cada raíz sin volver al contexto. Verificar un candidato demuestra que es solución, pero no que se encontraron todas. La exhaustividad exige justificar las transformaciones y la separación de casos.
-:::
-
-::: {#exm-002T .theorem-style-remark data-environment-tag="002U"}
-Comprobar $x=1$ en $x^2=1$ confirma una solución; no permite concluir que es la única, pues falta $x=-1$.
-:::
-::::
-
-
-La representación gráfica ofrece una lectura complementaria de la ecuación, con abscisas de intersección que luego se verifican algebraicamente.
-
-```{r}
-#| label: fig-intersecciones-algebra
-#| fig-cap: "Intersecciones de y = x² e y = 2x: las abscisas 0 y 2 resuelven x² = 2x."
-#| fig-width: 7
-#| fig-height: 4
-#| echo: false
-#| warning: false
-x <- seq(-1, 3, length.out = 301)
-plot(x, x^2, type = "l", col = "steelblue", lwd = 2,
-     xlab = "Entrada x", ylab = "Salida y", ylim = c(-2, 9))
-lines(x, 2*x, lwd = 2, lty = 2, col = "darkorange3")
-abline(h = 0, v = 0, col = "gray80")
-points(c(0, 2), c(0, 4), pch = 16, cex = 1.2)
-legend("topleft", c("y = x²", "y = 2x"), col = c("steelblue", "darkorange3"),
-       lty = c(1, 2), lwd = 2, bty = "n")
-```
 
 ## Conexiones y procedencia
 

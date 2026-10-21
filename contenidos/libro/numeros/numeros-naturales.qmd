@@ -28,9 +28,9 @@ Los naturales organizan el conteo, las posiciones y buena parte de la aritmétic
 ::: {#def-00D5 .theorem-style-definition data-environment-tag="00D5"}
 ## Naturales y convención sobre el cero
 
-En MGP, el conjunto de los **números naturales** comienza en $1$:
+El conjunto de los **números naturales**, con la convención de este libro, es
 $$\mathbb N=\{1,2,3,\ldots\}.$$
-El sucesor de un natural $n$ es $n+1$. El cero no pertenece a $\mathbb N$. Cuando se necesitan enteros no negativos, se escribe $\mathbb N_0=\mathbb N\cup\{0\}=\{0,1,2,3,\ldots\}$.
+El **sucesor** de $n\in\mathbb N$ es $n+1$. Se escribe $\mathbb N_0=\mathbb N\cup\{0\}$ para los enteros no negativos.
 :::
 
 Algunas fuentes incluyen el cero entre los naturales; aquí se mantiene la convención de comenzar en $1$. El cero puede representar ausencia de elementos o actuar como cifra posicional sin pertenecer a $\mathbb N$. Las operaciones con cero se desarrollan en [Números enteros](numeros-enteros.qmd).
@@ -38,7 +38,11 @@ Algunas fuentes incluyen el cero entre los naturales; aquí se mantiene la conve
 ::: {#exm-00D5 .theorem-style-remark data-environment-tag="00D6"}
 ## Naturales y convención sobre el cero
 
-Una caja con una ficha tiene cardinalidad $1$, el menor natural. Una caja vacía tiene cardinalidad $0$, que no es un natural según esta convención. En $205$, la cifra $0$ indica que no hay decenas en esa escritura, mientras que el número $205$ sí es natural.
+(a) Una caja con una ficha tiene cardinalidad $1$, el menor elemento de $\mathbb N$ en la convención del libro.
+
+(b) Una caja vacía tiene cardinalidad $0$. Este valor pertenece a $\mathbb N_0$ y no a $\mathbb N$.
+
+(c) El sucesor de $205$ es $206$. Aunque su escritura contiene la cifra $0$, ambos números pertenecen a $\mathbb N$.
 :::
 ::::
 
@@ -58,7 +62,11 @@ Una correspondencia uno a uno entre dos colecciones finitas permite comparar sus
 ::: {#exm-00D7 .theorem-style-remark data-environment-tag="00D8"}
 ## Cardinalidad, ordinalidad y conteo
 
-Cinco fichas siguen siendo cinco después de separarlas o reordenarlas. «La quinta ficha» indica una posición; «cinco fichas» indica el total.
+(a) Al contar cinco fichas, la última etiqueta es cinco; la cardinalidad del conjunto es $5$.
+
+(b) En una fila de ocho personas, «la quinta» expresa una posición ordinal; no el tamaño de la fila.
+
+(c) Reordenar siete libros sin añadir ni retirar ninguno conserva su cardinalidad $7$, aunque cambien sus posiciones.
 :::
 ::::
 
@@ -68,9 +76,9 @@ Cinco fichas siguen siendo cinco después de separarlas o reordenarlas. «La qui
 ::: {#def-00D9 .theorem-style-definition data-environment-tag="00D9"}
 ## Sistema decimal posicional
 
-En el sistema decimal, cada cifra toma un valor según su posición. Para cifras $d_i\in\{0,\ldots,9\}$:
-$$n=d_k10^k+\cdots+d_1 10+d_0.$$
-Cada diez unidades de un orden constituyen una unidad del orden siguiente.
+En el **sistema decimal posicional**, un numeral representa
+$$n=\sum_{i=0}^k d_i10^i,$$
+donde $k\in\mathbb N_0$ y cada cifra $d_i$ pertenece a $\{0,1,\ldots,9\}$. El valor posicional de $d_i$ es $d_i10^i$. Si el numeral es no nulo y no tiene ceros iniciales, $d_k\ne0$.
 :::
 
 Se distingue número de numeral: una cantidad admite distintas escrituras y representaciones. El cero conserva posiciones. Los agrupamientos de diez explican las reagrupaciones de los algoritmos; no son «llevadas» o «préstamos» sin significado.
@@ -78,7 +86,11 @@ Se distingue número de numeral: una cantidad admite distintas escrituras y repr
 ::: {#exm-00D9 .theorem-style-remark data-environment-tag="00DA"}
 ## Sistema decimal posicional
 
-$4072=4\cdot1000+0\cdot100+7\cdot10+2$. La cifra $7$ vale $70$, mientras que en $704$ vale $700$.
+(a) $4072=4\cdot1000+0\cdot100+7\cdot10+2$; la cifra $7$ representa siete decenas.
+
+(b) En $704$, la misma cifra $7$ representa siete centenas y vale $700$.
+
+(c) Cambiar diez unidades por una decena transforma $3$ decenas y $14$ unidades en $4$ decenas y $4$ unidades: ambas representaciones valen $44$.
 :::
 ::::
 
@@ -94,7 +106,11 @@ La base determina cómo se escribe el número, no la cantidad representada. Comp
 ::: {#exm-00DB .theorem-style-remark data-environment-tag="00DC"}
 ## Numeración en otras bases y comparación
 
-$(101)_2=1\cdot4+0\cdot2+1=5$. Además, $4072<4702$ porque la primera diferencia desde la izquierda está en las centenas.
+(a) $(101)_2=1\cdot2^2+0\cdot2+1=5$ en base diez.
+
+(b) $(23)_5=2\cdot5+3=13$; sus cifras son menores que la base $5$.
+
+(c) $4072<4702$: ambos numerales tienen cuatro cifras y la primera diferencia desde la izquierda está en las centenas, con $0<7$.
 :::
 ::::
 
@@ -104,7 +120,7 @@ $(101)_2=1\cdot4+0\cdot2+1=5$. Además, $4072<4702$ porque la primera diferencia
 ::: {#def-00DD .theorem-style-definition data-environment-tag="00DD"}
 ## Adición y sustracción en los naturales
 
-Para $a,b\in\mathbb N$, la **adición** produce el natural $a+b$. Si $a>b$, la **sustracción** $a-b$ es el único natural $c$ que satisface $b+c=a$. Si $a=b$, el resultado es $0$; si $a<b$, es negativo. En estos dos últimos casos el resultado no pertenece a $\mathbb N$ y se estudia en los enteros.
+Para $a,b\in\mathbb N$, la **adición** da el natural $a+b$. Si $a>b$, la **diferencia** $a-b$ es el único natural $c$ tal que $b+c=a$. Para $a=b$ vale cero; para $a<b$ es negativa. En estos últimos casos, se interpreta en $\mathbb Z$.
 :::
 
 La adición puede modelar reunión, aumento o comparación; la sustracción puede modelar retiro, diferencia o complemento. La estructura del problema determina la incógnita. «Más» y «menos» en un enunciado no bastan para elegir una operación.
@@ -112,7 +128,11 @@ La adición puede modelar reunión, aumento o comparación; la sustracción pued
 ::: {#exm-00DD .theorem-style-remark data-environment-tag="00DE"}
 ## Adición y sustracción en los naturales
 
-Una colección tiene $18$ fichas y otra $11$: para determinar cuántas más tiene la primera se calcula $18-11=7$. Si se conoce un total de $18$ y una parte de $11$, la misma resta determina el complemento.
+(a) Juntar colecciones de $18$ y $11$ fichas da $18+11=29$ fichas.
+
+(b) Si de $18$ fichas se retiran $11$, quedan $18-11=7$.
+
+(c) Si una colección tiene $18$ fichas y otra $11$, la primera tiene $18-11=7$ fichas más; la resta expresa una comparación.
 :::
 ::::
 
@@ -120,7 +140,9 @@ Una colección tiene $18$ fichas y otra $11$: para determinar cuántas más tien
 ::: {#def-00DF .theorem-style-definition data-environment-tag="00DF"}
 ## Multiplicación y división exacta
 
-Para $a,b\in\mathbb N$, el producto $ab$ puede representar $a$ grupos de $b$ elementos. La **división exacta** $\frac{a}{b}$ en los naturales existe si hay un natural $q$ tal que $a=bq$. El divisor $b$ es positivo porque pertenece a $\mathbb N$.
+Para $a,b\in\mathbb N$, el **producto** $ab$ es la suma de $a$ sumandos iguales a $b$. La **división exacta** de $a$ por $b$ existe en $\mathbb N$ si hay $q\in\mathbb N$ tal que
+$$a=bq.$$
+En ese caso, $q=a/b$ es el **cociente**.
 :::
 
 Los arreglos rectangulares conectan multiplicación con área. En división por reparto se conoce el número de grupos y se busca su tamaño; en división por agrupamiento se conoce su tamaño y se busca cuántos grupos hay. El mismo cociente responde preguntas distintas.
@@ -128,7 +150,11 @@ Los arreglos rectangulares conectan multiplicación con área. En división por 
 ::: {#exm-00DF .theorem-style-remark data-environment-tag="00DG"}
 ## Multiplicación y división exacta
 
-$24/6=4$ puede significar repartir $24$ fichas entre $6$ personas, con $4$ por persona, o formar grupos de $6$ fichas, obteniendo $4$ grupos.
+(a) Cuatro paquetes de seis lápices contienen $4\cdot6=24$ lápices.
+
+(b) Repartir $24$ fichas entre seis personas da $24/6=4$ fichas por persona.
+
+(c) Formar grupos de seis fichas con $24$ fichas da $24/6=4$ grupos: el mismo cociente responde a otra pregunta.
 :::
 ::::
 
@@ -168,7 +194,11 @@ Sustracción y división no son operaciones cerradas en $\mathbb N$. La distribu
 ::: {#exm-00DH .theorem-style-remark data-environment-tag="00DI"}
 ## Propiedades de adición y multiplicación
 
-$7\cdot23=7(20+3)=140+21=161$. De $3\cdot5=3b$ se concluye $b=5$. En cambio, $12-5=7$ pertenece a $\mathbb N$, mientras que $5-5=0$ y $5-12=-7$ no pertenecen a $\mathbb N$.
+(a) Por distributividad, $7\cdot23=7(20+3)=140+21=161$.
+
+(b) Por asociatividad, $(25\cdot4)\cdot3=25\cdot(4\cdot3)=300$.
+
+(c) En $3\cdot5=3b$, el factor común $3$ es no nulo y puede cancelarse: $b=5$.
 :::
 ::::
 
@@ -184,7 +214,11 @@ El cálculo mental también puede ser sistemático: descomposición, compensaci�
 ::: {#exm-00DJ .theorem-style-remark data-environment-tag="00DK"}
 ## Algoritmos y cálculo mental
 
-Para calcular $402-178$, se puede descomponer $402$ como $3$ centenas, $9$ decenas y $12$ unidades: queda $2$ centenas, $2$ decenas y $4$ unidades. Por compensación, $402-178=404-180=224$.
+(a) $402-178=(300-100)+(90-70)+(12-8)=224$, tras reagrupar centenas, decenas y unidades.
+
+(b) Por compensación, $402-178=404-180=224$: sumar lo mismo a ambos términos conserva la diferencia.
+
+(c) Para calcular $25\cdot48$, se usa $25\cdot4\cdot12=100\cdot12=1200$.
 :::
 ::::
 
@@ -204,7 +238,11 @@ El cociente puede ser $0$ cuando $a<b$, y el resto es $0$ cuando la división es
 ::: {#exm-00DL .theorem-style-remark data-environment-tag="00DM"}
 ## División euclídea de naturales
 
-$29=6\cdot4+5$. Caben $4$ grupos completos de $6$, sobran $5$ objetos; para transportar los $29$ objetos en cajas de capacidad $6$ se necesitan $5$ cajas. En la división exacta $24=6\cdot4+0$, el resto es $0$; en $3=6\cdot0+3$, el cociente es $0$.
+(a) $29=6\cdot4+5$: al formar grupos de seis, se completan cuatro y sobran cinco.
+
+(b) Para transportar esos $29$ objetos en cajas de capacidad seis hacen falta cinco cajas, pues el resto requiere una caja adicional.
+
+(c) En $3=6\cdot0+3$, el cociente es cero y el resto $3$ cumple $0\le3<6$.
 :::
 ::::
 
@@ -220,7 +258,11 @@ Equivale a que el resto al dividir $n$ por $d$ sea cero. Los divisores y múltip
 ::: {#exm-00DN .theorem-style-remark data-environment-tag="00DO"}
 ## Divisibilidad, divisores y múltiplos
 
-$6\mid42$ porque $42=6\cdot7$. Los divisores naturales de $12$ son $1,2,3,4,6,12$; sus múltiplos naturales son $12,24,36,\ldots$.
+(a) $6\mid42$ porque $42=6\cdot7$, con cociente natural.
+
+(b) Los divisores naturales de $12$ son $1,2,3,4,6,12$; se obtienen de los pares de factores $1\cdot12$, $2\cdot6$ y $3\cdot4$.
+
+(c) Los primeros cuatro múltiplos naturales de $7$ son $7,14,21,28$; cada uno es $7$ por un natural.
 :::
 ::::
 
@@ -244,7 +286,11 @@ Los criterios dependen del sistema de numeración. Para números de una cifra, e
 ::: {#exm-00DP .theorem-style-remark data-environment-tag="00DQ"}
 ## Paridad y criterios de divisibilidad
 
-$372$ es divisible por $2$, $3$, $4$ y $6$: termina en cifra par, $3+7+2=12$ y $72$ es múltiplo de $4$. No es divisible por $9$ porque $12$ no lo es.
+(a) $372$ es divisible por $2$ y por $3$: termina en cifra par y sus cifras suman $12$. Como $2$ y $3$ son coprimos, también es divisible por $6$.
+
+(b) $1316$ es divisible por $4$ porque sus dos últimas cifras forman $16$, que es múltiplo de $4$.
+
+(c) $729$ es divisible por $9$ porque $7+2+9=18$ es múltiplo de $9$; en efecto, $729=9\cdot81$.
 :::
 ::::
 
@@ -262,7 +308,11 @@ Ser impar no equivale a ser primo: 9 y 15 son compuestos. El número 2 es el ún
 ::: {#exm-00DR .theorem-style-remark data-environment-tag="00DS"}
 ## Números primos y compuestos
 
-$29$ no es divisible por $2$, $3$ ni $5$ y $\sqrt{29}<6$, por lo que es primo. En cambio, $39=3\cdot13$ es compuesto.
+(a) $29$ es primo: ninguno de los primos $2,3,5$, que son los que no superan $\sqrt{29}$, lo divide.
+
+(b) $39=3\cdot13$ es compuesto porque tiene divisores naturales distintos de $1$ y de sí mismo.
+
+(c) $1$ tiene un solo divisor natural, mientras que un primo tiene exactamente dos; por ello, $1$ no es primo.
 :::
 ::::
 
@@ -280,7 +330,11 @@ Aquí se enuncia y se utiliza el resultado; la demostración de existencia y uni
 ::: {#exm-00DT .theorem-style-remark data-environment-tag="00DU"}
 ## Teorema fundamental de la aritmética
 
-$180=18\cdot10=2^2\cdot3^2\cdot5$. También $180=12\cdot15$, y al descomponer ambos factores se recupera el mismo producto de primos.
+(a) $180=2^2\cdot3^2\cdot5$ expresa $180$ como producto de primos.
+
+(b) Partir de $180=12\cdot15$ produce $(2^2\cdot3)(3\cdot5)$ y recupera la misma factorización prima.
+
+(c) Si $n=2^3\cdot5^2$, entonces $n=200$. Sus exponentes primos quedan determinados de manera única por $n$.
 :::
 ::::
 
@@ -302,7 +356,11 @@ El MCD se asocia a tamaños de grupos comunes sin sobrantes; el MCM, a coinciden
 ::: {#exm-00DV .theorem-style-remark data-environment-tag="00DW"}
 ## Máximo común divisor y mínimo común múltiplo
 
-Para cintas de $18$ y $24\,\mathrm{cm}$, el mayor largo común de cortes sin sobrantes es $\operatorname{MCD}(18,24)=6\,\mathrm{cm}$. Dos señales que se activan cada $18$ y $24$ minutos vuelven a coincidir tras $72$ minutos.
+(a) Para cortar cintas de $18$ y $24\,\mathrm{cm}$ en trozos iguales del mayor largo posible, se usa $\operatorname{MCD}(18,24)=6\,\mathrm{cm}$.
+
+(b) Dos señales que se activan cada $18$ y $24$ minutos coinciden nuevamente tras $\operatorname{MCM}(18,24)=72$ minutos.
+
+(c) Para distribuir $20$ lápices y $30$ gomas en el mayor número de paquetes idénticos sin sobrantes, se forman $\operatorname{MCD}(20,30)=10$ paquetes.
 :::
 ::::
 
@@ -330,24 +388,15 @@ Si $a,b$ son positivos y se incluyen todos los primos que aparecen en cualquiera
 Listar divisores o múltiplos es útil para números pequeños. La factorización vuelve visible la estructura cuando las listas crecen. El algoritmo de Euclides se profundiza en el capítulo universitario; no es necesario introducir congruencias para explicar estos procedimientos escolares.
 
 ::: {#exm-00DX .theorem-style-remark data-environment-tag="00DY"}
-## Cálculo de mcd y mcm por factores primos
+## Cálculo de MCD y MCM por factores primos
 
-$18=2\cdot3^2$ y $24=2^3\cdot3$. Por tanto, $\operatorname{MCD}=2\cdot3=6$ y $\operatorname{MCM}=2^3\cdot3^2=72$. Se comprueba $6\cdot72=18\cdot24$.
+(a) Como $18=2\cdot3^2$ y $24=2^3\cdot3$, el MCD usa exponentes mínimos: $2\cdot3=6$.
+
+(b) Para los mismos números, el MCM usa exponentes máximos: $2^3\cdot3^2=72$. Se verifica $6\cdot72=18\cdot24$.
+
+(c) $45=3^2\cdot5$ y $75=3\cdot5^2$ dan MCD $15$ y MCM $225$.
 :::
 ::::
-
-## Representaciones y errores frecuentes
-
-| Aspecto | Representación útil | Error que puede hacerse visible |
-|---|---|---|
-| Cardinalidad | Colecciones con correspondencia uno a uno | Contar dos veces o confundir tamaño físico con cantidad |
-| Valor posicional | Agrupamientos y tabla de posiciones | Leer cifras sin considerar su posición |
-| Multiplicación | Arreglo rectangular y grupos iguales | Confundir producto con suma de los factores |
-| División con resto | Reparto y agrupamiento | Admitir un resto mayor o igual al divisor |
-| Factorización prima | Árboles de factores | Terminar la descomposición en un compuesto |
-| MCD y MCM | Listas, factorizaciones y ciclos | Elegir un procedimiento sin interpretar el problema |
-
-Para diagnosticar conviene pedir una representación y una explicación del procedimiento. Una respuesta incorrecta aislada no permite decidir si hay un descuido, una dificultad posicional o una concepción sobre la operación.
 
 ## Conexiones y procedencia
 

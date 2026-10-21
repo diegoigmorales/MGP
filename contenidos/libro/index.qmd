@@ -18,7 +18,7 @@ Esta parte reúne el conocimiento matemático escolar que un profesor puede nece
 | [2. Números naturales](numeros/numeros-naturales.qmd) | Conteo, numeración, operaciones, algoritmos, divisibilidad, primos, MCD y MCM | Desarrollado |
 | [3. Números enteros](numeros/numeros-enteros.qmd) | Negativos, recta, orden, opuestos, valor absoluto, operaciones y divisibilidad | Desarrollado |
 | [4. Números racionales](numeros/numeros-racionales.qmd) | Interpretaciones de fracciones, equivalencia, operaciones, decimales y densidad | Desarrollado |
-| [5. Números reales](numeros/numeros-reales.qmd) | Irracionales, recta, orden, intervalos, densidad, aproximación y errores | Desarrollado |
+| [5. Números reales](numeros/numeros-reales.qmd) | Irracionales, recta, orden, intervalos, densidad, aproximación y cotas | Desarrollado |
 | [6. Razones y proporcionalidad](numeros/razones-proporcionalidad.qmd) | Razones, tasas, proporciones, modelos directos e inversos, escalas y regla de tres | Desarrollado |
 | [7. Porcentajes](numeros/porcentajes.qmd) | Interpretaciones, parte y total, aumentos, descuentos, variaciones y puntos porcentuales | Desarrollado |
 | [8. Potencias, raíces y logaritmos](algebra/potencias-raices-logaritmos.qmd) | Potencias, radicales, exponentes, logaritmos, dominio, estimación y aplicaciones | Desarrollado |

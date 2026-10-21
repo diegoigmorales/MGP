@@ -30,9 +30,8 @@ Comparar 18 respuestas correctas de 20 con 21 de 30 exige tener en cuenta ambos 
 ::: {#def-008P .theorem-style-definition data-environment-tag="008P"}
 ## Porcentaje
 
-Un **porcentaje** expresa una razón respecto de cien. Para un número real $p$,
-$$p\,\%=\frac{p}{100}.$$
-El símbolo porcentual forma parte de la expresión del número: $p\,\%$ y $p$ no representan el mismo valor.
+Para $p\in\mathbb R$, el **porcentaje** $p\,\%$ es la razón de $p$ a cien:
+$$p\,\%=\frac p{100}.$$
 :::
 
 Como participación de una parte en un total positivo suele tomar valores entre 0 y 100 %. Como comparación o variación puede superar 100 % o ser negativo. Hay que declarar el referente y el significado; no se impone el intervalo de una participación a todas las aplicaciones.
@@ -40,7 +39,11 @@ Como participación de una parte en un total positivo suele tomar valores entre 
 ::: {#exm-008P .theorem-style-remark data-environment-tag="00GH"}
 ## Porcentaje
 
-$25\,\%=25/100=1/4=0.25$. Una cantidad que equivale al $150\,\%$ de otra vale $1.5$ veces esa referencia.
+(a) $25\,\%=25/100=1/4$: expresa veinticinco partes de cada cien.
+
+(b) $150\,\%=150/100=1.5$: un porcentaje puede representar más que el total de referencia.
+
+(c) $0.5\,\%=0.5/100=0.005$: el símbolo porcentual divide el número escrito por cien.
 :::
 ::::
 
@@ -56,7 +59,11 @@ La conversión modifica la escritura, no el número. Una cuadrícula de cien cel
 ::: {#exm-00GI .theorem-style-remark data-environment-tag="00GJ"}
 ## Porcentaje como fracción y decimal
 
-$12.5\,\%=0.125=1/8$, mientras que $0.7=70\,\%$. El número $0.7\,\%$ es $0.007$, por lo que no equivale a $70\,\%$.
+(a) $12.5\,\%=0.125=1/8$.
+
+(b) Para expresar $0.7$ como porcentaje, se multiplica por cien: $0.7=70\,\%$.
+
+(c) $3/5=0.6=60\,\%$; las tres expresiones representan la misma proporción.
 :::
 ::::
 
@@ -74,7 +81,11 @@ También puede calcularse el 1 % dividiendo por 100, y multiplicar después por 
 ::: {#exm-008Q .theorem-style-remark data-environment-tag="008R"}
 ## Calcular un porcentaje de una cantidad
 
-El $20\,\%$ de $350$ es $350\cdot20/100=70$. El $15\,\%$ de $200$ es $20+10=30$.
+(a) El $20\,\%$ de $350$ es $0.2\cdot350=70$.
+
+(b) El $15\,\%$ de $200$ puede calcularse como $10\,\%+5\,\%$: $20+10=30$.
+
+(c) Si se usa el $35\,\%$ de una reserva de $80\,\mathrm{L}$, se usan $28\,\mathrm{L}$ y quedan $52\,\mathrm{L}$.
 :::
 ::::
 
@@ -106,7 +117,11 @@ Las fórmulas provienen de una misma relación. No se divide por el porcentaje e
 ::: {#exm-00GK .theorem-style-remark data-environment-tag="00GL"}
 ## Recuperar el total y calcular una participación
 
-Si $60$ es el $15\,\%$ de un total, ese total es $60/0.15=400$. Si $18$ de $24$ respuestas son correctas, la participación es $100(18/24)=75\,\%$.
+(a) Si $60$ representa el $15\,\%$ de un total $T$, $0.15T=60$ y $T=400$.
+
+(b) Si $18$ de $24$ respuestas son correctas, la proporción es $18/24=0.75=75\,\%$.
+
+(c) Una colección aumenta en $12$ objetos, equivalentes al $8\,\%$ de su tamaño inicial. Este era $12/0.08=150$ objetos.
 :::
 ::::
 
@@ -138,7 +153,11 @@ El 100 % representa la cantidad inicial. El factor reúne en una operación la b
 ::: {#exm-00GM .theorem-style-remark data-environment-tag="00GN"}
 ## Factores de aumento y descuento
 
-Un precio hipotético de $\$40\,000$ con descuento de $25\,\%$ pierde $\$10\,000$ y queda en $\$30\,000$. Con aumento de $25\,\%$, queda en $\$50\,000$.
+(a) Un precio de $\$40\,000$ con descuento del $25\,\%$ queda en $40\,000(0.75)=\$30\,000$.
+
+(b) Un precio de $\$40\,000$ con aumento del $25\,\%$ queda en $40\,000(1.25)=\$50\,000$.
+
+(c) Una población inicial de $800$ que aumenta un $12\,\%$ pasa a $800(1.12)=896$ individuos.
 :::
 ::::
 
@@ -154,7 +173,11 @@ El porcentaje inverso se calcula sobre una base diferente. Para deshacer un aume
 ::: {#exm-00GO .theorem-style-remark data-environment-tag="00GP"}
 ## Valor inicial a partir del valor final
 
-Si un precio quedó en $\$36\,000$ tras un descuento de $20\,\%$, el original era $36\,000/0.8=\$45\,000$. Aumentar el final en 20 % produciría $\$43\,200$, que no recupera el original.
+(a) Si el precio final es $\$36\,000$ tras un descuento del $20\,\%$, el inicial es $36\,000/0.8=\$45\,000$.
+
+(b) Si una cantidad final de $264$ resulta de un aumento del $10\,\%$, el valor inicial era $264/1.1=240$.
+
+(c) Después de disminuir un $5\,\%$, quedan $57\,\mathrm{L}$. El volumen inicial era $57/0.95=60\,\mathrm{L}$.
 :::
 ::::
 
@@ -176,7 +199,11 @@ Para magnitudes usuales se interpreta con una base inicial positiva. Cuando la b
 ::: {#exm-00GQ .theorem-style-remark data-environment-tag="00GR"}
 ## Variación absoluta y relativa
 
-Pasar de $80$ a $100$ aumenta $20$ unidades y $25\,\%$. Volver de $100$ a $80$ disminuye $20$ unidades y $20\,\%$, porque cambia la base.
+(a) Pasar de $80$ a $100$ supone variación absoluta $20$ y relativa $20/80=25\,\%$.
+
+(b) Volver de $100$ a $80$ supone variación absoluta $-20$ y relativa $-20/100=-20\,\%$.
+
+(c) Pasar de $250$ a $275$ aumenta $25$ unidades, equivalentes al $10\,\%$ del valor inicial.
 :::
 ::::
 
@@ -192,7 +219,11 @@ Puntos porcentuales expresan una diferencia entre números porcentuales; cambio 
 ::: {#exm-00GS .theorem-style-remark data-environment-tag="00GT"}
 ## Puntos porcentuales
 
-Pasar de $40\,\%$ a $50\,\%$ aumenta $10$ puntos porcentuales, y representa un aumento relativo de $25\,\%$. No es un aumento relativo de 10 %.
+(a) Pasar del $40\,\%$ al $50\,\%$ añade $10$ puntos porcentuales y aumenta relativamente un $10/40=25\,\%$.
+
+(b) Bajar del $12\,\%$ al $9\,\%$ reduce $3$ puntos porcentuales y un $3/12=25\,\%$ respecto del porcentaje inicial.
+
+(c) Subir del $2\,\%$ al $4\,\%$ añade $2$ puntos porcentuales, pero duplica el porcentaje: el aumento relativo es $100\,\%$.
 :::
 ::::
 
@@ -214,7 +245,11 @@ No se suman los porcentajes sucesivos como si todos tuvieran la misma base. En u
 ::: {#exm-00GU .theorem-style-remark data-environment-tag="00GV"}
 ## Composición de porcentajes sucesivos
 
-Un descuento de 20 % seguido de otro de 10 % deja $0.8\cdot0.9=0.72$ del original: el descuento total es 28 %. Un aumento de 20 % seguido de una disminución de 20 % deja $1.2\cdot0.8=0.96$, una disminución neta de 4 %.
+(a) Dos descuentos del $20\,\%$ y del $10\,\%$ dejan $0.8\cdot0.9=0.72$ del original: el descuento total es $28\,\%$.
+
+(b) Un aumento del $20\,\%$ seguido de una disminución del $20\,\%$ deja $1.2\cdot0.8=0.96$, una disminución neta del $4\,\%$.
+
+(c) Dos aumentos sucesivos del $10\,\%$ multiplican por $1.1^2=1.21$, un aumento total del $21\,\%$.
 :::
 ::::
 
@@ -230,7 +265,11 @@ El promedio simple de porcentajes de grupos distintos solo coincide con la propo
 ::: {#exm-00GW .theorem-style-remark data-environment-tag="00GX"}
 ## Suma de porcentajes y base común
 
-En un grupo de 10 personas aprueban 8 (80 %); en otro de 30 aprueban 15 (50 %). En conjunto aprueban $23/40=57.5\,\%$, no el promedio simple de 65 %.
+(a) En un curso, el $20\,\%$ participa en música y el $30\,\%$ solo en deporte, sin superposición. En total participa el $50\,\%$ del mismo curso.
+
+(b) En grupos de tamaños $10$ y $30$ aprueban $8$ y $15$ personas. El porcentaje global es $23/40=57.5\,\%$.
+
+(c) Si el $30\,\%$ y el $40\,\%$ de una población pertenecen a dos grupos cuya intersección es el $10\,\%$, su unión representa $30+40-10=60\,\%$.
 :::
 ::::
 
@@ -248,7 +287,11 @@ Los ejemplos económicos son hipotéticos: una tasa elegida para ilustrar un cá
 ::: {#exm-00GY .theorem-style-remark data-environment-tag="00GZ"}
 ## Índices, composición y comparación de ofertas
 
-Un índice pasa de 100 a 125 y luego a 120: el primer cambio es 25 %, pero el segundo es $(120-125)/125=-4\,\%$. En una oferta «lleve 3 y pague 2», con unidades de igual precio, la reducción del costo por unidad es $1/3$, aproximadamente $33.3\,\%$.
+(a) Un índice pasa de $100$ a $125$ y luego a $120$. Los cambios relativos son $25\,\%$ y $(120-125)/125=-4\,\%$.
+
+(b) En una oferta de tres unidades por el precio de dos, el ahorro por unidad respecto del precio normal es $1/3$, aproximadamente $33.3\,\%$.
+
+(c) Una oferta reduce un precio de $\$8000$ a $\$6000$; otra descuenta el $20\,\%$ del mismo precio y cobra $\$6400$. La primera tiene menor precio final.
 :::
 ::::
 

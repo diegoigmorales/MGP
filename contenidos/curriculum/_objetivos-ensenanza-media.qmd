@@ -200,36 +200,36 @@
 
 ### Tercero medio {#oa-tercero-medio}
 
-#### Unidad 4 -- Necesidad y aplicación de los números complejos. {#unidad-4-necesidad-y-aplicación-de-los-números-complejos.}
+#### Necesidad y aplicación de los números complejos. {#unidad-4-necesidad-y-aplicación-de-los-números-complejos.}
 
 1. Resolver problemas de adición, sustracción, multiplicación y división de números complejos $\mathbb{C}$, en forma pictórica simbólica y con uso de herramientas tecnológicas.
 
-#### Unidad 1 -- El uso de datos estadísticos y de modelos probabilísticos para tomar decisiones. {#unidad-1-el-uso-de-datos-estadísticos-y-de-modelos-probabilísticos-para-tomar-decisiones.}
+#### El uso de datos estadísticos y de modelos probabilísticos para tomar decisiones. {#unidad-1-el-uso-de-datos-estadísticos-y-de-modelos-probabilísticos-para-tomar-decisiones.}
 
 2. [Prioritario]{.change-badge .change-priority} Tomar desiciones en situaciones de incerteza que involucren el análisis de datos estadísticos con medidas de dispersión y probabilidades condicionales.
 
-#### Unidad 2 -- Predecir acerca de situaciones, utilizando modelos matemáticos {#unidad-2-predecir-acerca-de-situaciones-utilizando-modelos-matemáticos}
+#### Predecir acerca de situaciones, utilizando modelos matemáticos {#unidad-2-predecir-acerca-de-situaciones-utilizando-modelos-matemáticos}
 
 3. [Prioritario]{.change-badge .change-priority} Aplicar modelos matemáticos que describen fenómenos o situaciones de crecimiento y decrecimiento, que involucran las funciones exponencial y logarítmica, de forma manuscrita, con uso de herramientas tecnológicas y promoviendo la búsqueda, selección, contrastación y verificación de información en ambientes digitales y redes sociales.
 
-#### Unidad 3 -- Relaciones métricas en geometría. {#unidad-3-relaciones-métricas-en-geometría.}
+#### Relaciones métricas en geometría. {#unidad-3-relaciones-métricas-en-geometría.}
 
 4. [Prioritario]{.change-badge .change-priority} Resolver problemas de geometría euclidiana que involucran relaciones métricas entre ángulos, arcos, cuerdas y secantes en la circunferencia, de forma manuscrita y con uso de herramientas tecnológicas.
 
 ### Cuarto medio {#oa-cuarto-medio}
 
-#### Unidad 2 -- La toma de decisiones en situaciones financieras y económicas {#unidad-2-la-toma-de-decisiones-en-situaciones-financieras-y-económicas}
+#### La toma de decisiones en situaciones financieras y económicas {#unidad-2-la-toma-de-decisiones-en-situaciones-financieras-y-económicas}
 
 1. [Prioritario]{.change-badge .change-priority} Fundamentar decisiones en el ámbito financiero y económico personal o comunitario, a partir de modelos que consideren tasas de interés e índices económicos.
 
-#### Unidad 1 -- La toma de decisiones en situaciones de incerteza {#unidad-1-la-toma-de-decisiones-en-situaciones-de-incerteza}
+#### La toma de decisiones en situaciones de incerteza {#unidad-1-la-toma-de-decisiones-en-situaciones-de-incerteza}
 
 2. [Prioritario]{.change-badge .change-priority} Fundamentar decisiones en situaciones de incerteza, a partir del análisis crítico de datos estadísticos y con base en los modelos binomial y normal.
 
-#### Unidad 3 -- Modelamiento matemático para describir y predecir {#unidad-3-modelamiento-matemático-para-describir-y-predecir}
+#### Modelamiento matemático para describir y predecir {#unidad-3-modelamiento-matemático-para-describir-y-predecir}
 
 3. [Prioritario]{.change-badge .change-priority} Construir modelos de situaciones o fenómenos de crecimiento, decrecimiento y periódicos que involucren funciones potencia de exponente entero y trigonométricas $\sin(x)$ y $\cos{x}$, de forma manuscrita, con uso de herramientas tecnológicas y promoviendo la búsqueda, selección, contrastación y verificación de información en ambientes digitales y redes sociales.
 
-#### Unidad 4 -- Geometría con coordenadas {#unidad-4-geometría-con-coordenadas}
+#### Geometría con coordenadas {#unidad-4-geometría-con-coordenadas}
 
 4. Resolver problemas acerca de rectas y circunferencias en el plano, mediante su representación analítica, de forma manuscrita y con uso de herramientas tecnológicas.
