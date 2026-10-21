@@ -340,5 +340,5 @@
 
 /* El título visible del capítulo ya está en #title-block-header. */
 .mgp-chapter-anchor { display: none; }
-#TOC li:has(> a[href^="#mgp-chapter-"]),
-.mobile-page-toc li:has(> a[href^="#mgp-chapter-"]) { display: none; }
+#TOC li:has(> a[href^="#mgp-chapter"]),
+.mobile-page-toc li:has(> a[href^="#mgp-chapter"]) { display: none; }

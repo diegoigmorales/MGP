@@ -132,8 +132,6 @@ El paso por la unidad consiste en calcular primero $k$, el valor de $y$ que corr
 
 :::: {.knowledge-object #tag-00G3 tag="00G3" type="tecnica" title="Tablas y gráficos de proporcionalidad directa" requiere="00G1"}
 ::: {#concept-00G3 .editorial-text}
-### Tablas y gráficos de proporcionalidad directa
-
 Para contrastar un modelo directo se comprueba que los cocientes $y/x$ sean iguales para las entradas no nulas. Su representación gráfica está contenida en una recta que pasa por el origen; si el dominio es discreto, se representan solo los puntos admisibles.
 :::
 
@@ -192,8 +190,6 @@ Antes de calcular se determina qué producto permanece constante y se comprueba 
 
 :::: {.knowledge-object #tag-00G7 tag="00G7" type="tecnica" title="Tablas, gráficos y supuestos de un modelo inverso" requiere="00G5"}
 ::: {#concept-00G7 .editorial-text}
-### Tablas, gráficos y supuestos de un modelo inverso
-
 Un modelo inverso se contrasta mediante productos constantes. Para variables positivas, su gráfica es una rama de hipérbola en el primer cuadrante; no corta los ejes. Al cambiar una variable por un factor $r>0$, la otra cambia por el factor $1/r$.
 :::
 
@@ -210,34 +206,10 @@ En tareas de trabajo y tiempo se requieren supuestos: igual productividad, traba
 :::
 ::::
 
-## Tasa media y composición de razones
-
-:::: {.knowledge-object #tag-00GD tag="00GD" type="tecnica" title="Tasa media y composición de razones" requiere="00FX"}
-::: {#concept-00GD .editorial-text}
-### Tasa media y composición de razones
-
-La tasa media de un conjunto de tramos se obtiene dividiendo el total de la magnitud del numerador por el total de la magnitud del denominador. Componer tasas exige mantener unidades compatibles y controlar qué cantidades se cancelan.
-:::
-
-El promedio aritmético de tasas solo coincide con la tasa global bajo condiciones específicas. Por ejemplo, el promedio de rapideces es adecuado para tiempos iguales, no para distancias iguales. Las tablas con unidades permiten reconstruir el cálculo.
-
-::: {#exm-00GD .theorem-style-remark data-environment-tag="00GE"}
-## Tasa media y composición de razones
-
-(a) **Tramos de igual distancia.** Recorrer $60\,\mathrm{km}$ a $30\,\mathrm{km\,h^{-1}}$ toma $2\,\mathrm{h}$ y otros $60\,\mathrm{km}$ a $60\,\mathrm{km\,h^{-1}}$ toma $1\,\mathrm{h}$. La rapidez media es $120/3=40\,\mathrm{km\,h^{-1}}$.
-
-(b) **Tramos de igual tiempo.** Viajar $1\,\mathrm{h}$ a $30\,\mathrm{km\,h^{-1}}$ y otra hora a $60\,\mathrm{km\,h^{-1}}$ suma $90\,\mathrm{km}$ en $2\,\mathrm{h}$. Aquí la rapidez media es $45\,\mathrm{km\,h^{-1}}$, que coincide con el promedio aritmético porque los tiempos son iguales.
-
-(c) **Componer tasas.** Una máquina produce $12$ piezas por minuto y cada pieza requiere $0.25\,\mathrm{kg}$ de material. El consumo es $(12\,\mathrm{piezas\,min^{-1}})(0.25\,\mathrm{kg\,pieza^{-1}})=3\,\mathrm{kg\,min^{-1}}$. La unidad pieza se cancela.
-:::
-::::
-
 ## Relaciones afines y otros contraejemplos
 
 :::: {.knowledge-object #tag-00GF tag="00GF" type="observacion" title="Relaciones afines y otros contraejemplos" requiere="00G3,00G7"}
 ::: {#concept-00GF .editorial-text}
-### Relaciones afines y otros contraejemplos
-
 Una relación $y=kx+b$ con $b\ne0$ no es directamente proporcional, aunque su gráfica sea una recta. Un modelo $y=kx^2$ con $k\ne0$ tampoco lo es. Una dependencia decreciente, como $y=10-x$, no es en general inversamente proporcional.
 :::
 

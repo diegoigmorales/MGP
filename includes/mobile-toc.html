@@ -8,6 +8,19 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   const source = document.querySelector("#quarto-margin-sidebar nav#TOC > ul");
+  // Excluye los encabezados auxiliares del índice lateral antes de copiarlo
+  // al índice móvil. Conserva las secciones que Quarto pudiera anidar debajo.
+  if (source) {
+    const chapterLinks = [...source.querySelectorAll('a[href^="#mgp-chapter"]')];
+    chapterLinks.reverse().forEach((link) => {
+      const item = link.closest("li");
+      if (!item) return;
+      [...item.children].filter((child) => child.tagName === "UL").forEach((list) => {
+        item.before(...list.children);
+      });
+      item.remove();
+    });
+  }
   const main = document.querySelector("main.content");
 
   if (!main) return;

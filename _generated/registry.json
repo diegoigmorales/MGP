@@ -6496,7 +6496,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Tablas y gráficos de proporcionalidad directa",
       "source": "contenidos/libro/numeros/razones-proporcionalidad.qmd",
-      "line": 142,
+      "line": 140,
       "href": "../contenidos/libro/numeros/razones-proporcionalidad.qmd#exm-00G3",
       "relations": {
         "aplica": [
@@ -6509,7 +6509,7 @@
       "type": "definicion",
       "title": "Relación inversamente proporcional",
       "source": "contenidos/libro/numeros/razones-proporcionalidad.qmd",
-      "line": 155,
+      "line": 153,
       "href": "../contenidos/libro/numeros/razones-proporcionalidad.qmd#tag-00G5",
       "relations": {
         "requiere": [
@@ -6523,7 +6523,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Relación inversamente proporcional",
       "source": "contenidos/libro/numeros/razones-proporcionalidad.qmd",
-      "line": 174,
+      "line": 172,
       "href": "../contenidos/libro/numeros/razones-proporcionalidad.qmd#exm-00G5",
       "relations": {
         "aplica": [
@@ -6536,7 +6536,7 @@
       "type": "tecnica",
       "title": "Tablas, gráficos y supuestos de un modelo inverso",
       "source": "contenidos/libro/numeros/razones-proporcionalidad.qmd",
-      "line": 193,
+      "line": 191,
       "href": "../contenidos/libro/numeros/razones-proporcionalidad.qmd#tag-00G7",
       "relations": {
         "requiere": [
@@ -6549,7 +6549,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Tablas, gráficos y supuestos de un modelo inverso",
       "source": "contenidos/libro/numeros/razones-proporcionalidad.qmd",
-      "line": 202,
+      "line": 198,
       "href": "../contenidos/libro/numeros/razones-proporcionalidad.qmd#exm-00G7",
       "relations": {
         "aplica": [
@@ -6558,37 +6558,11 @@
       }
     },
     {
-      "tag": "00GD",
-      "type": "tecnica",
-      "title": "Tasa media y composición de razones",
-      "source": "contenidos/libro/numeros/razones-proporcionalidad.qmd",
-      "line": 215,
-      "href": "../contenidos/libro/numeros/razones-proporcionalidad.qmd#tag-00GD",
-      "relations": {
-        "requiere": [
-          "00FX"
-        ]
-      }
-    },
-    {
-      "tag": "00GE",
-      "type": "ejemplo",
-      "title": "Ejemplo: Tasa media y composición de razones",
-      "source": "contenidos/libro/numeros/razones-proporcionalidad.qmd",
-      "line": 224,
-      "href": "../contenidos/libro/numeros/razones-proporcionalidad.qmd#exm-00GD",
-      "relations": {
-        "aplica": [
-          "00GD"
-        ]
-      }
-    },
-    {
       "tag": "00GF",
       "type": "observacion",
       "title": "Relaciones afines y otros contraejemplos",
       "source": "contenidos/libro/numeros/razones-proporcionalidad.qmd",
-      "line": 237,
+      "line": 211,
       "href": "../contenidos/libro/numeros/razones-proporcionalidad.qmd#tag-00GF",
       "relations": {
         "requiere": [
@@ -6602,7 +6576,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Relaciones afines y otros contraejemplos",
       "source": "contenidos/libro/numeros/razones-proporcionalidad.qmd",
-      "line": 246,
+      "line": 218,
       "href": "../contenidos/libro/numeros/razones-proporcionalidad.qmd#exm-00GF",
       "relations": {
         "aplica": [
@@ -8142,12 +8116,12 @@
       "line": 8,
       "href": "../contenidos/paes/m1/preguntas-originales/porcentajes.qmd#tag-00CD",
       "relations": {
-        "pertenece_a": [
-          "0000"
-        ],
         "usa": [
           "008P",
           "008Q"
+        ],
+        "pertenece_a": [
+          "0000"
         ],
         "evalua": [
           "0002"
@@ -8162,11 +8136,11 @@
       "line": 12,
       "href": "../contenidos/universitario/estadistica/media-ponderada.qmd#tag-00CE",
       "relations": {
-        "pertenece_a": [
-          "0001"
-        ],
         "profundiza": [
           "00CD"
+        ],
+        "pertenece_a": [
+          "0001"
         ],
         "requiere": [
           "008P",
@@ -13770,13 +13744,6 @@
         "source": "contenidos/libro/numeros/razones-proporcionalidad.qmd",
         "href": "razones-proporcionalidad.qmd#tag-00G5",
         "relation": "requiere"
-      },
-      {
-        "tag": "00GD",
-        "title": "Tasa media y composición de razones",
-        "source": "contenidos/libro/numeros/razones-proporcionalidad.qmd",
-        "href": "razones-proporcionalidad.qmd#tag-00GD",
-        "relation": "requiere"
       }
     ],
     "00GY": [
@@ -13873,15 +13840,6 @@
         "source": "contenidos/libro/numeros/razones-proporcionalidad.qmd",
         "href": "razones-proporcionalidad.qmd#tag-00GF",
         "relation": "requiere"
-      }
-    ],
-    "00GD": [
-      {
-        "tag": "00GE",
-        "title": "Ejemplo: Tasa media y composición de razones",
-        "source": "contenidos/libro/numeros/razones-proporcionalidad.qmd",
-        "href": "razones-proporcionalidad.qmd#exm-00GD",
-        "relation": "aplica"
       }
     ],
     "00GF": [
