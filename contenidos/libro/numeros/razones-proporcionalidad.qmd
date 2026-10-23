@@ -18,11 +18,26 @@ number-depth: 6
 mgp-number-prefix: '6'
 ---
 
-## Propósito y alcance
+El capítulo distingue la comparación entre cantidades, las igualdades entre razones y las relaciones entre variables. Los entornos existentes se conservan; las propiedades algebraicas se presentan con sus condiciones y justificaciones.
 
-El razonamiento proporcional compara cantidades multiplicativamente. Se distinguen razón, tasa y proporción, y se establecen criterios para reconocer modelos directos e inversos. La selección del modelo precede al cálculo: se identifica si permanece constante un cociente o un producto y se justifican los supuestos del problema.
+La siguiente tabla describe el contenido y el tipo de entorno. Cada entorno incluye un ejemplo resuelto con tres incisos.
 
-## Razón, tasa y proporción
+| Sección y subsección | Contenidos y tipos de entorno |
+|:---|:---|
+| Razones y tasas / Razones | **Definición:** razón; **propiedad:** razones equivalentes. |
+| Razones y tasas / Tasas y valores por unidad | **Definición:** tasa y tasa unitaria. |
+| Proporciones y series de razones / Proporciones | **Definición:** proporción; **observación:** extremos, medios, proporciones continuas y discontinuas. |
+| Proporciones y series de razones / Propiedades y transformaciones | **Propiedad:** productos cruzados; **proposición:** inversión, alternación y transformación aditiva; **corolario:** suma y diferencia. |
+| Proporciones y series de razones / Series de razones iguales | **Definición:** serie y valor común; **propiedad:** cociente de las sumas y reparto. |
+| Proporcionalidad / Proporciones y proporcionalidad | Distinción conceptual introductoria. |
+| Proporcionalidad / Proporcionalidad directa | **Definición:** relación directa; **técnica:** tablas y gráficos. |
+| Proporcionalidad / Proporcionalidad inversa | **Definición:** relación inversa; **técnica:** tablas, gráficos y supuestos. |
+| Proporcionalidad / Proporcionalidad compuesta | **Definición:** modelo con varias variables. |
+| Proporcionalidad / Relaciones afines y otros contraejemplos | **Observación:** relaciones que no son proporcionales. |
+
+## Razones y tasas
+
+### Razones
 
 :::: {.knowledge-object #tag-00FV tag="00FV" type="definicion" title="Razón y referentes de comparación" requiere="00EJ,00CH"}
 ::: {#def-00FV .theorem-style-definition data-environment-tag="00FV"}
@@ -48,6 +63,30 @@ Para comparar cantidades de la misma magnitud, se expresan primero en unidades c
 :::
 ::::
 
+:::: {.knowledge-object #tag-00HA tag="00HA" type="propiedad" title="Razones equivalentes" requiere="00FV"}
+::: {#prp-00HA .theorem-style-plain data-environment-tag="00HA"}
+## Razones equivalentes
+
+Para $b\ne0$ y $t\ne0$,
+$$\frac{ta}{tb}=\frac ab.$$
+Multiplicar o dividir ambos términos por un mismo número no nulo conserva la razón.
+:::
+
+**Justificación.** El factor $t$ se cancela en el cociente porque es no nulo.
+
+::: {#exm-00HA .theorem-style-remark data-environment-tag="00HB"}
+## Razones equivalentes
+
+(a) **Amplificar.** $3:5=12:20$, pues se multiplican ambos términos por $4$.
+
+(b) **Simplificar.** $18:24=3:4$, al dividir ambos términos por $6$.
+
+(c) **Comparar unidades.** $2\,\mathrm{m}:50\,\mathrm{cm}=200:50=4:1$. Primero se usa una unidad común.
+:::
+::::
+
+### Tasas y valores por unidad
+
 :::: {.knowledge-object #tag-00FX tag="00FX" type="definicion" title="Tasa y valor por unidad" requiere="00FV,00CT"}
 ::: {#def-00FX .theorem-style-definition data-environment-tag="00FX"}
 ## Tasa y valor por unidad
@@ -68,13 +107,17 @@ La tasa media resume totales de un intervalo o conjunto; no afirma que la relaci
 :::
 ::::
 
+## Proporciones y series de razones
+
+### Proporciones
+
 :::: {.knowledge-object #tag-00FZ tag="00FZ" type="definicion" title="Proporción e igualdad de razones" requiere="00FV,00EN"}
 ::: {#def-00FZ .theorem-style-definition data-environment-tag="00FZ"}
 ## Proporción e igualdad de razones
 
 Una **proporción** es una igualdad de razones:
 $$\frac ab=\frac cd,$$
-con $b,d\ne0$. Equivale a $ad=bc$.
+con $b,d\ne0$.
 :::
 
 Una proporción compara razones; no es sinónimo de cualquier relación entre cantidades. Multiplicar ambos términos de una razón por un mismo factor no nulo conserva su valor. Los productos cruzados resuelven una igualdad ya justificada, pero no establecen por sí solos el modelo.
@@ -90,7 +133,156 @@ Una proporción compara razones; no es sinónimo de cualquier relación entre ca
 :::
 ::::
 
-## Proporcionalidad directa
+:::: {.knowledge-object #tag-00HC tag="00HC" type="observacion" title="Extremos, medios y proporciones continuas y discontinuas" requiere="00FZ"}
+::: {#rem-00HC .theorem-style-remark data-environment-tag="00HC"}
+## Extremos, medios y proporciones continuas y discontinuas
+
+En una proporción escrita $a:b=c:d$, los términos $a,d$ se llaman **extremos**, y $b,c$, **medios**. En la terminología clásica, es **continua** si los medios coinciden, de modo que se escribe $a:b=b:c$, con $b,c\ne0$; si los medios son distintos, se llama **discontinua**. Estas denominaciones describen la disposición de los términos.
+:::
+
+::: {#exm-00HC .theorem-style-remark data-environment-tag="00HD"}
+## Extremos, medios y proporciones continuas y discontinuas
+
+(a) **Identificar términos.** En $2:3=8:12$, los extremos son $2$ y $12$, y los medios, $3$ y $8$; es discontinua.
+
+(b) **Reconocer una proporción continua.** En $4:6=6:9$, los medios son ambos $6$; los extremos son $4$ y $9$.
+
+(c) **Atender a los términos.** $4:6=6:9$ es continua, mientras que $4:6=8:12$ es discontinua. Todas esas razones valen $2/3$, pero la clasificación depende de los medios escritos.
+:::
+::::
+
+### Propiedades y transformaciones de las proporciones
+
+:::: {.knowledge-object #tag-00HE tag="00HE" type="propiedad" title="Propiedad fundamental de las proporciones" requiere="00FZ"}
+::: {#prp-00HE .theorem-style-plain data-environment-tag="00HE"}
+## Propiedad fundamental de las proporciones
+
+Sean $a,b,c,d\in\mathbb{R}$, con $b,d\ne0$. Entonces
+$$\frac ab=\frac cd\quad\Longleftrightarrow\quad ad=bc.$$
+El producto de los extremos es igual al producto de los medios.
+:::
+
+**Demostración.** Multiplicar la igualdad de razones por $bd\ne0$ da $ad=bc$. Recíprocamente, dividir esa igualdad por $bd$ recupera la proporción.
+
+::: {#exm-00HE .theorem-style-remark data-environment-tag="00HF"}
+## Propiedad fundamental de las proporciones
+
+(a) **Comprobar.** $5/8=15/24$ porque $5\cdot24=8\cdot15=120$.
+
+(b) **Hallar un antecedente.** De $x/7=12/21$ se obtiene $21x=84$ y $x=4$.
+
+(c) **Hallar un consecuente.** De $9/x=3/5$, con $x\ne0$, se obtiene $45=3x$ y $x=15$.
+:::
+::::
+
+:::: {.knowledge-object #tag-00HG tag="00HG" type="proposicion" title="Transformaciones de una proporción" requiere="00HE"}
+::: {#prp-00HG .theorem-style-plain data-environment-tag="00HG"}
+## Transformaciones de una proporción
+
+Si $a/b=c/d$, con $b,d\ne0$, se cumplen las siguientes identidades, siempre que sus denominadores sean no nulos:
+
+- **Inversión**, si $a,c\ne0$: $b/a=d/c$.
+- **Alternación**, si $c\ne0$: $a/c=b/d$.
+- **Transformación aditiva**, para todo $\lambda\in\mathbb{R}$:
+  $$\frac{a+\lambda b}{b}=\frac{c+\lambda d}{d}.$$
+
+:::
+
+**Demostración.** La inversión toma recíprocos no nulos. La alternación se obtiene de $ad=bc$ al dividir por $cd$. La última identidad resulta de sumar $\lambda$ a ambos miembros de $a/b=c/d$.
+
+::: {#exm-00HG .theorem-style-remark data-environment-tag="00HH"}
+## Transformaciones de una proporción
+
+(a) **Invertir.** De $3/5=6/10$ se deduce $5/3=10/6$.
+
+(b) **Alternar.** De $3/5=6/10$ se deduce $3/6=5/10=1/2$.
+
+(c) **Sumar un múltiplo.** Con $\lambda=2$, de $3/5=6/10$ resulta $(3+2\cdot5)/5=(6+2\cdot10)/10=13/5$.
+:::
+::::
+
+:::: {.knowledge-object #tag-00HI tag="00HI" type="corolario" title="Suma y diferencia en una proporción" requiere="00HG"}
+::: {#cor-00HI .theorem-style-plain data-environment-tag="00HI"}
+## Suma y diferencia en una proporción
+
+Si $a/b=c/d$, con $b,d\ne0$, entonces
+$$\frac{a+b}{b}=\frac{c+d}{d},\qquad
+\frac{a-b}{b}=\frac{c-d}{d}.$$
+Si además $a-b\ne0$ y $c-d\ne0$, se tiene
+$$\frac{a+b}{a-b}=\frac{c+d}{c-d}.$$
+
+:::
+
+**Demostración.** Las dos primeras identidades corresponden a $\lambda=1$ y $\lambda=-1$. Dividir miembro a miembro esas dos igualdades, cuando la segunda tiene valor no nulo, da la tercera.
+
+::: {#exm-00HI .theorem-style-remark data-environment-tag="00HJ"}
+## Suma y diferencia en una proporción
+
+(a) **Suma.** De $2/3=8/12$ se obtiene $5/3=20/12$.
+
+(b) **Diferencia.** De $2/3=8/12$ se obtiene $-1/3=-4/12$.
+
+(c) **Combinación.** De $5/2=15/6$ se deduce $7/3=21/9$. Los denominadores $5-2=3$ y $15-6=9$ no son nulos.
+:::
+::::
+
+### Series de razones iguales
+
+:::: {.knowledge-object #tag-00HK tag="00HK" type="definicion" title="Serie de razones iguales" requiere="00FZ"}
+::: {#def-00HK .theorem-style-definition data-environment-tag="00HK"}
+## Serie de razones iguales
+
+Una **serie de razones iguales** es una igualdad
+$$\frac{a_1}{b_1}=\frac{a_2}{b_2}=\cdots=\frac{a_n}{b_n}=k,$$
+donde $n\ge2$ y $b_i\ne0$ para todo $i$. El número $k$ es el **valor común**. Equivalentemente, $a_i=kb_i$ para cada $i$.
+
+Para cantidades positivas, decir que $u_1,\ldots,u_n$ están en razón $r_1:\cdots:r_n$, con $r_i>0$, significa que $u_i=tr_i$ para un mismo $t>0$.
+:::
+
+::: {#exm-00HK .theorem-style-remark data-environment-tag="00HL"}
+## Serie de razones iguales
+
+(a) **Reconocer el valor común.** $6/2=15/5=21/7=3$, de modo que $k=3$.
+
+(b) **Determinar cantidades.** Si $x/2=y/3=z/5=4$, entonces $x=8$, $y=12$ y $z=20$.
+
+(c) **Interpretar una razón múltiple.** Cantidades en razón $2:3:5$ pueden escribirse $2t,3t,5t$; para $t=7$ se obtienen $14,21,35$.
+:::
+::::
+
+:::: {.knowledge-object #tag-00HM tag="00HM" type="propiedad" title="Cociente de las sumas y reparto proporcional" requiere="00HK"}
+::: {#prp-00HM .theorem-style-plain data-environment-tag="00HM"}
+## Cociente de las sumas y reparto proporcional
+
+Si $a_i/b_i=k$ para $i=1,\ldots,n$, con $b_i\ne0$ y $b_1+\cdots+b_n\ne0$, entonces
+$$\frac{a_1+\cdots+a_n}{b_1+\cdots+b_n}=k.$$
+En particular, repartir un total $S>0$ en razón $r_1:\cdots:r_n$, con $r_i>0$, da
+$$u_i=\frac{Sr_i}{r_1+\cdots+r_n}.$$
+
+:::
+
+**Demostración.** De $a_i=kb_i$ se deduce $\sum_i a_i=k\sum_i b_i$. Se divide por la suma no nula de los denominadores. Para el reparto, $S=t\sum_i r_i$, de donde se obtiene $t$.
+
+::: {#exm-00HM .theorem-style-remark data-environment-tag="00HN"}
+## Cociente de las sumas y reparto proporcional
+
+(a) **Sumar razones iguales.** Como $6/2=15/5=3$, resulta $(6+15)/(2+5)=21/7=3$.
+
+(b) **Repartir un premio.** Un premio de $\$100\,000$ en razón $2:3:5$ tiene $10$ partes de $\$10\,000$. Corresponden $\$20\,000$, $\$30\,000$ y $\$50\,000$.
+
+(c) **Determinar edades.** Dos edades están en razón $3:5$ y suman $32$ años. Como $32/(3+5)=4$, las edades son $12$ y $20$ años.
+:::
+::::
+
+## Proporcionalidad
+
+### Proporciones y proporcionalidad
+
+Una **proporción** es una igualdad entre razones; la **proporcionalidad** es una relación entre cantidades variables que se cumple para todos los pares correspondientes del modelo. Si $y=kx$, para dos entradas no nulas se tiene
+$$\frac{y_1}{x_1}=\frac{y_2}{x_2}=k.$$
+Una igualdad aislada entre razones no demuestra por sí sola que exista ese modelo para otros valores.
+
+### Proporcionalidad directa
 
 :::: {.knowledge-object #tag-00G1 tag="00G1" type="definicion" title="Relación directamente proporcional" requiere="00FX,00FZ"}
 ::: {#def-00G1 .theorem-style-definition data-environment-tag="00G1"}
@@ -148,7 +340,7 @@ Que dos cantidades aumenten simultáneamente no basta. En una tabla finita, los 
 :::
 ::::
 
-## Proporcionalidad inversa
+### Proporcionalidad inversa
 
 :::: {.knowledge-object #tag-00G5 tag="00G5" type="definicion" title="Relación inversamente proporcional" requiere="00FX,00FZ"}
 ::: {#def-00G5 .theorem-style-definition data-environment-tag="00G5"}
@@ -206,7 +398,30 @@ En tareas de trabajo y tiempo se requieren supuestos: igual productividad, traba
 :::
 ::::
 
-## Relaciones afines y otros contraejemplos
+### Proporcionalidad compuesta
+
+:::: {.knowledge-object #tag-00HO tag="00HO" type="definicion" title="Proporcionalidad compuesta" requiere="00G1,00G5"}
+::: {#def-00HO .theorem-style-definition data-environment-tag="00HO"}
+## Proporcionalidad compuesta
+
+Una cantidad $y$ presenta **proporcionalidad compuesta** respecto de $x_1,\ldots,x_n$, con $n\ge2$, en un modelo de la forma
+$$y=k\prod_{i=1}^{n}x_i^{\varepsilon_i},\qquad
+k\ne0,\quad\varepsilon_i\in\{-1,1\}.$$
+Las variables que aparecen con exponente $-1$ deben ser no nulas. Manteniendo fijas las demás variables, $y$ es directamente proporcional a $x_i$ si $\varepsilon_i=1$, e inversamente proporcional si $\varepsilon_i=-1$, en los valores admisibles donde el factor constante resultante es no nulo.
+:::
+
+::: {#exm-00HO .theorem-style-remark data-environment-tag="00HP"}
+## Proporcionalidad compuesta
+
+(a) **Producción.** Si $4$ máquinas producen $600$ piezas en $3$ horas, con rendimiento constante e independiente, $Q=kmh$ y $k=600/(4\cdot3)=50$ piezas por máquina y hora. Con $6$ máquinas durante $5$ horas se producen $50\cdot6\cdot5=1500$ piezas.
+
+(b) **Duración de una tarea.** Si $6$ personas, trabajando $4$ horas diarias, terminan una tarea en $10$ días, el trabajo equivale a $6\cdot4\cdot10=240$ horas-persona. Con igual productividad y trabajo divisible, $8$ personas a $5$ horas diarias tardan $240/(8\cdot5)=6$ días.
+
+(c) **Distancia y rapidez.** A $60\,\mathrm{km\,h^{-1}}$, un trayecto de $180\,\mathrm{km}$ toma $3$ horas. Para $240\,\mathrm{km}$ a $80\,\mathrm{km\,h^{-1}}$, $t=d/v=3$ horas: el tiempo es directo respecto de la distancia e inverso respecto de la rapidez, fijando la otra variable.
+:::
+::::
+
+### Relaciones afines y otros contraejemplos
 
 :::: {.knowledge-object #tag-00GF tag="00GF" type="observacion" title="Relaciones afines y otros contraejemplos" requiere="00G3,00G7"}
 ::: {#concept-00GF .editorial-text}

@@ -3041,11 +3041,11 @@
       "line": 53,
       "href": "../contenidos/libro/estadistica/index.qmd#tag-006N",
       "relations": {
-        "pertenece_a": [
-          "0001"
-        ],
         "requiere": [
           "006L"
+        ],
+        "pertenece_a": [
+          "0001"
         ]
       }
     },
@@ -3070,11 +3070,11 @@
       "line": 85,
       "href": "../contenidos/libro/estadistica/index.qmd#tag-006P",
       "relations": {
-        "pertenece_a": [
-          "0001"
-        ],
         "requiere": [
           "006L"
+        ],
+        "pertenece_a": [
+          "0001"
         ]
       }
     },
@@ -3099,11 +3099,11 @@
       "line": 107,
       "href": "../contenidos/libro/estadistica/index.qmd#tag-006R",
       "relations": {
-        "pertenece_a": [
-          "0001"
-        ],
         "requiere": [
           "006P"
+        ],
+        "pertenece_a": [
+          "0001"
         ]
       }
     },
@@ -3128,11 +3128,11 @@
       "line": 129,
       "href": "../contenidos/libro/estadistica/index.qmd#tag-006T",
       "relations": {
-        "pertenece_a": [
-          "0001"
-        ],
         "requiere": [
           "006R"
+        ],
+        "pertenece_a": [
+          "0001"
         ]
       }
     },
@@ -3157,12 +3157,12 @@
       "line": 154,
       "href": "../contenidos/libro/estadistica/index.qmd#tag-006V",
       "relations": {
-        "pertenece_a": [
-          "0001"
-        ],
         "requiere": [
           "006P",
           "006R"
+        ],
+        "pertenece_a": [
+          "0001"
         ]
       }
     },
@@ -3187,11 +3187,11 @@
       "line": 179,
       "href": "../contenidos/libro/estadistica/index.qmd#tag-006X",
       "relations": {
-        "pertenece_a": [
-          "0001"
-        ],
         "requiere": [
           "006P"
+        ],
+        "pertenece_a": [
+          "0001"
         ]
       }
     },
@@ -3216,11 +3216,11 @@
       "line": 207,
       "href": "../contenidos/libro/estadistica/index.qmd#tag-006Z",
       "relations": {
-        "pertenece_a": [
-          "0001"
-        ],
         "requiere": [
           "006X"
+        ],
+        "pertenece_a": [
+          "0001"
         ]
       }
     },
@@ -3245,13 +3245,13 @@
       "line": 229,
       "href": "../contenidos/libro/estadistica/index.qmd#tag-0071",
       "relations": {
-        "pertenece_a": [
-          "0001"
-        ],
         "requiere": [
           "006R",
           "006T",
           "006Z"
+        ],
+        "pertenece_a": [
+          "0001"
         ]
       }
     },
@@ -3276,11 +3276,11 @@
       "line": 253,
       "href": "../contenidos/libro/estadistica/index.qmd#tag-0073",
       "relations": {
-        "pertenece_a": [
-          "0001"
-        ],
         "requiere": [
           "006T"
+        ],
+        "pertenece_a": [
+          "0001"
         ]
       }
     },
@@ -3305,11 +3305,11 @@
       "line": 289,
       "href": "../contenidos/libro/estadistica/index.qmd#tag-0075",
       "relations": {
-        "pertenece_a": [
-          "0001"
-        ],
         "requiere": [
           "0073"
+        ],
+        "pertenece_a": [
+          "0001"
         ]
       }
     },
@@ -3334,12 +3334,12 @@
       "line": 311,
       "href": "../contenidos/libro/estadistica/index.qmd#tag-0077",
       "relations": {
-        "pertenece_a": [
-          "0001"
-        ],
         "requiere": [
           "006T",
           "0073"
+        ],
+        "pertenece_a": [
+          "0001"
         ]
       }
     },
@@ -3364,12 +3364,12 @@
       "line": 335,
       "href": "../contenidos/libro/estadistica/index.qmd#tag-0079",
       "relations": {
-        "pertenece_a": [
-          "0001"
-        ],
         "requiere": [
           "006T",
           "0073"
+        ],
+        "pertenece_a": [
+          "0001"
         ]
       }
     },
@@ -3394,11 +3394,11 @@
       "line": 365,
       "href": "../contenidos/libro/estadistica/index.qmd#tag-007B",
       "relations": {
-        "pertenece_a": [
-          "0001"
-        ],
         "requiere": [
           "0079"
+        ],
+        "pertenece_a": [
+          "0001"
         ]
       }
     },
@@ -3423,11 +3423,11 @@
       "line": 399,
       "href": "../contenidos/libro/estadistica/index.qmd#tag-007D",
       "relations": {
-        "pertenece_a": [
-          "0001"
-        ],
         "requiere": [
           "0079"
+        ],
+        "pertenece_a": [
+          "0001"
         ]
       }
     },
@@ -3452,12 +3452,12 @@
       "line": 419,
       "href": "../contenidos/libro/estadistica/index.qmd#tag-007F",
       "relations": {
-        "pertenece_a": [
-          "0001"
-        ],
         "requiere": [
           "0075",
           "0079"
+        ],
+        "pertenece_a": [
+          "0001"
         ]
       }
     },
@@ -3482,11 +3482,11 @@
       "line": 441,
       "href": "../contenidos/libro/estadistica/index.qmd#tag-007H",
       "relations": {
-        "pertenece_a": [
-          "0001"
-        ],
         "requiere": [
           "0079"
+        ],
+        "pertenece_a": [
+          "0001"
         ]
       }
     },
@@ -3511,11 +3511,11 @@
       "line": 464,
       "href": "../contenidos/libro/estadistica/index.qmd#tag-007J",
       "relations": {
-        "pertenece_a": [
-          "0001"
-        ],
         "requiere": [
           "006R"
+        ],
+        "pertenece_a": [
+          "0001"
         ]
       }
     },
@@ -3540,11 +3540,11 @@
       "line": 486,
       "href": "../contenidos/libro/estadistica/index.qmd#tag-007L",
       "relations": {
-        "pertenece_a": [
-          "0001"
-        ],
         "requiere": [
           "007J"
+        ],
+        "pertenece_a": [
+          "0001"
         ]
       }
     },
@@ -3569,11 +3569,11 @@
       "line": 507,
       "href": "../contenidos/libro/estadistica/index.qmd#tag-007N",
       "relations": {
-        "pertenece_a": [
-          "0001"
-        ],
         "requiere": [
           "006R"
+        ],
+        "pertenece_a": [
+          "0001"
         ]
       }
     },
@@ -3598,11 +3598,11 @@
       "line": 528,
       "href": "../contenidos/libro/estadistica/index.qmd#tag-007P",
       "relations": {
-        "pertenece_a": [
-          "0001"
-        ],
         "requiere": [
           "0073"
+        ],
+        "pertenece_a": [
+          "0001"
         ]
       }
     },
@@ -3627,13 +3627,13 @@
       "line": 550,
       "href": "../contenidos/libro/estadistica/index.qmd#tag-007R",
       "relations": {
-        "pertenece_a": [
-          "0001"
-        ],
         "requiere": [
           "007J",
           "007N",
           "007P"
+        ],
+        "pertenece_a": [
+          "0001"
         ]
       }
     },
@@ -3658,11 +3658,11 @@
       "line": 574,
       "href": "../contenidos/libro/estadistica/index.qmd#tag-007T",
       "relations": {
-        "pertenece_a": [
-          "0001"
-        ],
         "requiere": [
           "007N"
+        ],
+        "pertenece_a": [
+          "0001"
         ]
       }
     },
@@ -3687,11 +3687,11 @@
       "line": 598,
       "href": "../contenidos/libro/estadistica/index.qmd#tag-007V",
       "relations": {
-        "pertenece_a": [
-          "0001"
-        ],
         "requiere": [
           "007T"
+        ],
+        "pertenece_a": [
+          "0001"
         ]
       }
     },
@@ -3716,11 +3716,11 @@
       "line": 644,
       "href": "../contenidos/libro/estadistica/index.qmd#tag-007X",
       "relations": {
-        "pertenece_a": [
-          "0001"
-        ],
         "requiere": [
           "007T"
+        ],
+        "pertenece_a": [
+          "0001"
         ]
       }
     },
@@ -3745,11 +3745,11 @@
       "line": 665,
       "href": "../contenidos/libro/estadistica/index.qmd#tag-007Z",
       "relations": {
-        "pertenece_a": [
-          "0001"
-        ],
         "requiere": [
           "007J"
+        ],
+        "pertenece_a": [
+          "0001"
         ]
       }
     },
@@ -3774,11 +3774,11 @@
       "line": 689,
       "href": "../contenidos/libro/estadistica/index.qmd#tag-0081",
       "relations": {
-        "pertenece_a": [
-          "0001"
-        ],
         "requiere": [
           "007Z"
+        ],
+        "pertenece_a": [
+          "0001"
         ]
       }
     },
@@ -3803,12 +3803,12 @@
       "line": 714,
       "href": "../contenidos/libro/estadistica/index.qmd#tag-0083",
       "relations": {
-        "pertenece_a": [
-          "0001"
-        ],
         "requiere": [
           "007J",
           "0081"
+        ],
+        "pertenece_a": [
+          "0001"
         ]
       }
     },
@@ -3833,14 +3833,14 @@
       "line": 736,
       "href": "../contenidos/libro/estadistica/index.qmd#tag-0085",
       "relations": {
-        "pertenece_a": [
-          "0001"
-        ],
         "requiere": [
           "007J",
           "007N",
           "007X",
           "0081"
+        ],
+        "pertenece_a": [
+          "0001"
         ]
       }
     },
@@ -3865,14 +3865,14 @@
       "line": 764,
       "href": "../contenidos/libro/estadistica/index.qmd#tag-0087",
       "relations": {
-        "pertenece_a": [
-          "0001"
-        ],
         "requiere": [
           "006N",
           "006Z",
           "007X",
           "0081"
+        ],
+        "pertenece_a": [
+          "0001"
         ]
       }
     },
@@ -3897,12 +3897,12 @@
       "line": 788,
       "href": "../contenidos/libro/estadistica/index.qmd#tag-0089",
       "relations": {
-        "pertenece_a": [
-          "0001"
-        ],
         "requiere": [
           "006T",
           "0079"
+        ],
+        "pertenece_a": [
+          "0001"
         ]
       }
     },
@@ -3927,11 +3927,11 @@
       "line": 823,
       "href": "../contenidos/libro/estadistica/index.qmd#tag-008B",
       "relations": {
-        "pertenece_a": [
-          "0001"
-        ],
         "requiere": [
           "0089"
+        ],
+        "pertenece_a": [
+          "0001"
         ]
       }
     },
@@ -3956,11 +3956,11 @@
       "line": 845,
       "href": "../contenidos/libro/estadistica/index.qmd#tag-008D",
       "relations": {
-        "pertenece_a": [
-          "0001"
-        ],
         "requiere": [
           "0077"
+        ],
+        "pertenece_a": [
+          "0001"
         ]
       }
     },
@@ -3985,14 +3985,14 @@
       "line": 867,
       "href": "../contenidos/libro/estadistica/index.qmd#tag-008F",
       "relations": {
-        "pertenece_a": [
-          "0001"
-        ],
         "requiere": [
           "0079",
           "007R",
           "007X",
           "0087"
+        ],
+        "pertenece_a": [
+          "0001"
         ]
       }
     },
@@ -4017,11 +4017,11 @@
       "line": 896,
       "href": "../contenidos/libro/estadistica/index.qmd#tag-008H",
       "relations": {
-        "pertenece_a": [
-          "0001"
-        ],
         "requiere": [
           "0079"
+        ],
+        "pertenece_a": [
+          "0001"
         ]
       }
     },
@@ -4046,11 +4046,11 @@
       "line": 918,
       "href": "../contenidos/libro/estadistica/index.qmd#tag-008J",
       "relations": {
-        "pertenece_a": [
-          "0001"
-        ],
         "requiere": [
           "008B"
+        ],
+        "pertenece_a": [
+          "0001"
         ]
       }
     },
@@ -4075,14 +4075,14 @@
       "line": 938,
       "href": "../contenidos/libro/estadistica/index.qmd#tag-008L",
       "relations": {
-        "pertenece_a": [
-          "0001"
-        ],
         "requiere": [
           "006N",
           "006Z",
           "008F",
           "008H"
+        ],
+        "pertenece_a": [
+          "0001"
         ]
       }
     },
@@ -4107,13 +4107,13 @@
       "line": 960,
       "href": "../contenidos/libro/estadistica/index.qmd#tag-008N",
       "relations": {
-        "pertenece_a": [
-          "0001"
-        ],
         "requiere": [
           "006N",
           "0071",
           "008L"
+        ],
+        "pertenece_a": [
+          "0001"
         ]
       }
     },
@@ -5773,11 +5773,11 @@
       "line": 29,
       "href": "../contenidos/libro/numeros/porcentajes.qmd#tag-008P",
       "relations": {
-        "pertenece_a": [
-          "0000"
-        ],
         "requiere": [
           "00FV"
+        ],
+        "pertenece_a": [
+          "0000"
         ]
       }
     },
@@ -5829,11 +5829,11 @@
       "line": 70,
       "href": "../contenidos/libro/numeros/porcentajes.qmd#tag-008Q",
       "relations": {
-        "pertenece_a": [
-          "0000"
-        ],
         "requiere": [
           "008P"
+        ],
+        "pertenece_a": [
+          "0000"
         ]
       }
     },
@@ -6066,7 +6066,7 @@
       "type": "definicion",
       "title": "Razón y referentes de comparación",
       "source": "contenidos/libro/numeros/razones-proporcionalidad.qmd",
-      "line": 27,
+      "line": 42,
       "href": "../contenidos/libro/numeros/razones-proporcionalidad.qmd#tag-00FV",
       "relations": {
         "requiere": [
@@ -6080,7 +6080,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Razón y referentes de comparación",
       "source": "contenidos/libro/numeros/razones-proporcionalidad.qmd",
-      "line": 40,
+      "line": 55,
       "href": "../contenidos/libro/numeros/razones-proporcionalidad.qmd#exm-00FV",
       "relations": {
         "aplica": [
@@ -6089,11 +6089,37 @@
       }
     },
     {
+      "tag": "00HA",
+      "type": "propiedad",
+      "title": "Razones equivalentes",
+      "source": "contenidos/libro/numeros/razones-proporcionalidad.qmd",
+      "line": 66,
+      "href": "../contenidos/libro/numeros/razones-proporcionalidad.qmd#tag-00HA",
+      "relations": {
+        "requiere": [
+          "00FV"
+        ]
+      }
+    },
+    {
+      "tag": "00HB",
+      "type": "ejemplo",
+      "title": "Ejemplo: Razones equivalentes",
+      "source": "contenidos/libro/numeros/razones-proporcionalidad.qmd",
+      "line": 77,
+      "href": "../contenidos/libro/numeros/razones-proporcionalidad.qmd#exm-00HA",
+      "relations": {
+        "aplica": [
+          "00HA"
+        ]
+      }
+    },
+    {
       "tag": "00FX",
       "type": "definicion",
       "title": "Tasa y valor por unidad",
       "source": "contenidos/libro/numeros/razones-proporcionalidad.qmd",
-      "line": 51,
+      "line": 90,
       "href": "../contenidos/libro/numeros/razones-proporcionalidad.qmd#tag-00FX",
       "relations": {
         "requiere": [
@@ -6107,7 +6133,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Tasa y valor por unidad",
       "source": "contenidos/libro/numeros/razones-proporcionalidad.qmd",
-      "line": 60,
+      "line": 99,
       "href": "../contenidos/libro/numeros/razones-proporcionalidad.qmd#exm-00FX",
       "relations": {
         "aplica": [
@@ -6120,7 +6146,7 @@
       "type": "definicion",
       "title": "Proporción e igualdad de razones",
       "source": "contenidos/libro/numeros/razones-proporcionalidad.qmd",
-      "line": 71,
+      "line": 114,
       "href": "../contenidos/libro/numeros/razones-proporcionalidad.qmd#tag-00FZ",
       "relations": {
         "requiere": [
@@ -6134,7 +6160,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Proporción e igualdad de razones",
       "source": "contenidos/libro/numeros/razones-proporcionalidad.qmd",
-      "line": 82,
+      "line": 125,
       "href": "../contenidos/libro/numeros/razones-proporcionalidad.qmd#exm-00FZ",
       "relations": {
         "aplica": [
@@ -6143,11 +6169,167 @@
       }
     },
     {
+      "tag": "00HC",
+      "type": "observacion",
+      "title": "Extremos, medios y proporciones continuas y discontinuas",
+      "source": "contenidos/libro/numeros/razones-proporcionalidad.qmd",
+      "line": 136,
+      "href": "../contenidos/libro/numeros/razones-proporcionalidad.qmd#tag-00HC",
+      "relations": {
+        "requiere": [
+          "00FZ"
+        ]
+      }
+    },
+    {
+      "tag": "00HD",
+      "type": "ejemplo",
+      "title": "Ejemplo: Extremos, medios y proporciones continuas y discontinuas",
+      "source": "contenidos/libro/numeros/razones-proporcionalidad.qmd",
+      "line": 143,
+      "href": "../contenidos/libro/numeros/razones-proporcionalidad.qmd#exm-00HC",
+      "relations": {
+        "aplica": [
+          "00HC"
+        ]
+      }
+    },
+    {
+      "tag": "00HE",
+      "type": "propiedad",
+      "title": "Propiedad fundamental de las proporciones",
+      "source": "contenidos/libro/numeros/razones-proporcionalidad.qmd",
+      "line": 156,
+      "href": "../contenidos/libro/numeros/razones-proporcionalidad.qmd#tag-00HE",
+      "relations": {
+        "requiere": [
+          "00FZ"
+        ]
+      }
+    },
+    {
+      "tag": "00HF",
+      "type": "ejemplo",
+      "title": "Ejemplo: Propiedad fundamental de las proporciones",
+      "source": "contenidos/libro/numeros/razones-proporcionalidad.qmd",
+      "line": 167,
+      "href": "../contenidos/libro/numeros/razones-proporcionalidad.qmd#exm-00HE",
+      "relations": {
+        "aplica": [
+          "00HE"
+        ]
+      }
+    },
+    {
+      "tag": "00HG",
+      "type": "proposicion",
+      "title": "Transformaciones de una proporción",
+      "source": "contenidos/libro/numeros/razones-proporcionalidad.qmd",
+      "line": 178,
+      "href": "../contenidos/libro/numeros/razones-proporcionalidad.qmd#tag-00HG",
+      "relations": {
+        "requiere": [
+          "00HE"
+        ]
+      }
+    },
+    {
+      "tag": "00HH",
+      "type": "ejemplo",
+      "title": "Ejemplo: Transformaciones de una proporción",
+      "source": "contenidos/libro/numeros/razones-proporcionalidad.qmd",
+      "line": 193,
+      "href": "../contenidos/libro/numeros/razones-proporcionalidad.qmd#exm-00HG",
+      "relations": {
+        "aplica": [
+          "00HG"
+        ]
+      }
+    },
+    {
+      "tag": "00HI",
+      "type": "corolario",
+      "title": "Suma y diferencia en una proporción",
+      "source": "contenidos/libro/numeros/razones-proporcionalidad.qmd",
+      "line": 204,
+      "href": "../contenidos/libro/numeros/razones-proporcionalidad.qmd#tag-00HI",
+      "relations": {
+        "requiere": [
+          "00HG"
+        ]
+      }
+    },
+    {
+      "tag": "00HJ",
+      "type": "ejemplo",
+      "title": "Ejemplo: Suma y diferencia en una proporción",
+      "source": "contenidos/libro/numeros/razones-proporcionalidad.qmd",
+      "line": 218,
+      "href": "../contenidos/libro/numeros/razones-proporcionalidad.qmd#exm-00HI",
+      "relations": {
+        "aplica": [
+          "00HI"
+        ]
+      }
+    },
+    {
+      "tag": "00HK",
+      "type": "definicion",
+      "title": "Serie de razones iguales",
+      "source": "contenidos/libro/numeros/razones-proporcionalidad.qmd",
+      "line": 231,
+      "href": "../contenidos/libro/numeros/razones-proporcionalidad.qmd#tag-00HK",
+      "relations": {
+        "requiere": [
+          "00FZ"
+        ]
+      }
+    },
+    {
+      "tag": "00HL",
+      "type": "ejemplo",
+      "title": "Ejemplo: Serie de razones iguales",
+      "source": "contenidos/libro/numeros/razones-proporcionalidad.qmd",
+      "line": 242,
+      "href": "../contenidos/libro/numeros/razones-proporcionalidad.qmd#exm-00HK",
+      "relations": {
+        "aplica": [
+          "00HK"
+        ]
+      }
+    },
+    {
+      "tag": "00HM",
+      "type": "propiedad",
+      "title": "Cociente de las sumas y reparto proporcional",
+      "source": "contenidos/libro/numeros/razones-proporcionalidad.qmd",
+      "line": 253,
+      "href": "../contenidos/libro/numeros/razones-proporcionalidad.qmd#tag-00HM",
+      "relations": {
+        "requiere": [
+          "00HK"
+        ]
+      }
+    },
+    {
+      "tag": "00HN",
+      "type": "ejemplo",
+      "title": "Ejemplo: Cociente de las sumas y reparto proporcional",
+      "source": "contenidos/libro/numeros/razones-proporcionalidad.qmd",
+      "line": 266,
+      "href": "../contenidos/libro/numeros/razones-proporcionalidad.qmd#exm-00HM",
+      "relations": {
+        "aplica": [
+          "00HM"
+        ]
+      }
+    },
+    {
       "tag": "00G1",
       "type": "definicion",
       "title": "Relación directamente proporcional",
       "source": "contenidos/libro/numeros/razones-proporcionalidad.qmd",
-      "line": 95,
+      "line": 287,
       "href": "../contenidos/libro/numeros/razones-proporcionalidad.qmd#tag-00G1",
       "relations": {
         "requiere": [
@@ -6161,7 +6343,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Relación directamente proporcional",
       "source": "contenidos/libro/numeros/razones-proporcionalidad.qmd",
-      "line": 114,
+      "line": 306,
       "href": "../contenidos/libro/numeros/razones-proporcionalidad.qmd#exm-00G1",
       "relations": {
         "aplica": [
@@ -6174,7 +6356,7 @@
       "type": "tecnica",
       "title": "Tablas y gráficos de proporcionalidad directa",
       "source": "contenidos/libro/numeros/razones-proporcionalidad.qmd",
-      "line": 133,
+      "line": 325,
       "href": "../contenidos/libro/numeros/razones-proporcionalidad.qmd#tag-00G3",
       "relations": {
         "requiere": [
@@ -6187,7 +6369,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Tablas y gráficos de proporcionalidad directa",
       "source": "contenidos/libro/numeros/razones-proporcionalidad.qmd",
-      "line": 140,
+      "line": 332,
       "href": "../contenidos/libro/numeros/razones-proporcionalidad.qmd#exm-00G3",
       "relations": {
         "aplica": [
@@ -6200,7 +6382,7 @@
       "type": "definicion",
       "title": "Relación inversamente proporcional",
       "source": "contenidos/libro/numeros/razones-proporcionalidad.qmd",
-      "line": 153,
+      "line": 345,
       "href": "../contenidos/libro/numeros/razones-proporcionalidad.qmd#tag-00G5",
       "relations": {
         "requiere": [
@@ -6214,7 +6396,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Relación inversamente proporcional",
       "source": "contenidos/libro/numeros/razones-proporcionalidad.qmd",
-      "line": 172,
+      "line": 364,
       "href": "../contenidos/libro/numeros/razones-proporcionalidad.qmd#exm-00G5",
       "relations": {
         "aplica": [
@@ -6227,7 +6409,7 @@
       "type": "tecnica",
       "title": "Tablas, gráficos y supuestos de un modelo inverso",
       "source": "contenidos/libro/numeros/razones-proporcionalidad.qmd",
-      "line": 191,
+      "line": 383,
       "href": "../contenidos/libro/numeros/razones-proporcionalidad.qmd#tag-00G7",
       "relations": {
         "requiere": [
@@ -6240,7 +6422,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Tablas, gráficos y supuestos de un modelo inverso",
       "source": "contenidos/libro/numeros/razones-proporcionalidad.qmd",
-      "line": 198,
+      "line": 390,
       "href": "../contenidos/libro/numeros/razones-proporcionalidad.qmd#exm-00G7",
       "relations": {
         "aplica": [
@@ -6249,11 +6431,38 @@
       }
     },
     {
+      "tag": "00HO",
+      "type": "definicion",
+      "title": "Proporcionalidad compuesta",
+      "source": "contenidos/libro/numeros/razones-proporcionalidad.qmd",
+      "line": 403,
+      "href": "../contenidos/libro/numeros/razones-proporcionalidad.qmd#tag-00HO",
+      "relations": {
+        "requiere": [
+          "00G1",
+          "00G5"
+        ]
+      }
+    },
+    {
+      "tag": "00HP",
+      "type": "ejemplo",
+      "title": "Ejemplo: Proporcionalidad compuesta",
+      "source": "contenidos/libro/numeros/razones-proporcionalidad.qmd",
+      "line": 413,
+      "href": "../contenidos/libro/numeros/razones-proporcionalidad.qmd#exm-00HO",
+      "relations": {
+        "aplica": [
+          "00HO"
+        ]
+      }
+    },
+    {
       "tag": "00GF",
       "type": "observacion",
       "title": "Relaciones afines y otros contraejemplos",
       "source": "contenidos/libro/numeros/razones-proporcionalidad.qmd",
-      "line": 211,
+      "line": 426,
       "href": "../contenidos/libro/numeros/razones-proporcionalidad.qmd#tag-00GF",
       "relations": {
         "requiere": [
@@ -6267,7 +6476,7 @@
       "type": "ejemplo",
       "title": "Ejemplo: Relaciones afines y otros contraejemplos",
       "source": "contenidos/libro/numeros/razones-proporcionalidad.qmd",
-      "line": 218,
+      "line": 433,
       "href": "../contenidos/libro/numeros/razones-proporcionalidad.qmd#exm-00GF",
       "relations": {
         "aplica": [
@@ -6335,12 +6544,12 @@
       "line": 78,
       "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#tag-008W",
       "relations": {
-        "pertenece_a": [
-          "0001"
-        ],
         "requiere": [
           "008S",
           "008U"
+        ],
+        "pertenece_a": [
+          "0001"
         ]
       }
     },
@@ -6391,12 +6600,12 @@
       "line": 143,
       "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#tag-0090",
       "relations": {
-        "pertenece_a": [
-          "0001"
-        ],
         "requiere": [
           "008U",
           "008Y"
+        ],
+        "pertenece_a": [
+          "0001"
         ]
       }
     },
@@ -6421,12 +6630,12 @@
       "line": 165,
       "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#tag-0092",
       "relations": {
-        "pertenece_a": [
-          "0001"
-        ],
         "requiere": [
           "008Y",
           "0090"
+        ],
+        "pertenece_a": [
+          "0001"
         ]
       }
     },
@@ -6451,12 +6660,12 @@
       "line": 187,
       "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#tag-0094",
       "relations": {
-        "pertenece_a": [
-          "0001"
-        ],
         "requiere": [
           "008Y",
           "0090"
+        ],
+        "pertenece_a": [
+          "0001"
         ]
       }
     },
@@ -6481,12 +6690,12 @@
       "line": 207,
       "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#tag-0096",
       "relations": {
-        "pertenece_a": [
-          "0001"
-        ],
         "requiere": [
           "008U",
           "008Y"
+        ],
+        "pertenece_a": [
+          "0001"
         ]
       }
     },
@@ -6511,11 +6720,11 @@
       "line": 229,
       "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#tag-0098",
       "relations": {
-        "pertenece_a": [
-          "0001"
-        ],
         "requiere": [
           "008U"
+        ],
+        "pertenece_a": [
+          "0001"
         ]
       }
     },
@@ -6540,12 +6749,12 @@
       "line": 249,
       "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#tag-009A",
       "relations": {
-        "pertenece_a": [
-          "0001"
-        ],
         "requiere": [
           "008Y",
           "0096"
+        ],
+        "pertenece_a": [
+          "0001"
         ]
       }
     },
@@ -6570,12 +6779,12 @@
       "line": 270,
       "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#tag-009C",
       "relations": {
-        "pertenece_a": [
-          "0001"
-        ],
         "requiere": [
           "008Y",
           "009A"
+        ],
+        "pertenece_a": [
+          "0001"
         ]
       }
     },
@@ -6600,11 +6809,11 @@
       "line": 291,
       "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#tag-009E",
       "relations": {
-        "pertenece_a": [
-          "0001"
-        ],
         "requiere": [
           "009A"
+        ],
+        "pertenece_a": [
+          "0001"
         ]
       }
     },
@@ -6655,11 +6864,11 @@
       "line": 371,
       "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#tag-009I",
       "relations": {
-        "pertenece_a": [
-          "0001"
-        ],
         "requiere": [
           "009G"
+        ],
+        "pertenece_a": [
+          "0001"
         ]
       }
     },
@@ -6684,11 +6893,11 @@
       "line": 400,
       "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#tag-009K",
       "relations": {
-        "pertenece_a": [
-          "0001"
-        ],
         "requiere": [
           "009I"
+        ],
+        "pertenece_a": [
+          "0001"
         ]
       }
     },
@@ -6713,11 +6922,11 @@
       "line": 428,
       "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#tag-009M",
       "relations": {
-        "pertenece_a": [
-          "0001"
-        ],
         "requiere": [
           "009I"
+        ],
+        "pertenece_a": [
+          "0001"
         ]
       }
     },
@@ -6742,12 +6951,12 @@
       "line": 459,
       "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#tag-009O",
       "relations": {
-        "pertenece_a": [
-          "0001"
-        ],
         "requiere": [
           "009I",
           "009M"
+        ],
+        "pertenece_a": [
+          "0001"
         ]
       }
     },
@@ -6772,11 +6981,11 @@
       "line": 484,
       "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#tag-009Q",
       "relations": {
-        "pertenece_a": [
-          "0001"
-        ],
         "requiere": [
           "009M"
+        ],
+        "pertenece_a": [
+          "0001"
         ]
       }
     },
@@ -6801,12 +7010,12 @@
       "line": 521,
       "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#tag-009S",
       "relations": {
-        "pertenece_a": [
-          "0001"
-        ],
         "requiere": [
           "009K",
           "009M"
+        ],
+        "pertenece_a": [
+          "0001"
         ]
       }
     },
@@ -6831,12 +7040,12 @@
       "line": 545,
       "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#tag-009U",
       "relations": {
-        "pertenece_a": [
-          "0001"
-        ],
         "requiere": [
           "009K",
           "009M"
+        ],
+        "pertenece_a": [
+          "0001"
         ]
       }
     },
@@ -6861,12 +7070,12 @@
       "line": 569,
       "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#tag-009W",
       "relations": {
-        "pertenece_a": [
-          "0001"
-        ],
         "requiere": [
           "009K",
           "009M"
+        ],
+        "pertenece_a": [
+          "0001"
         ]
       }
     },
@@ -6891,11 +7100,11 @@
       "line": 590,
       "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#tag-009Y",
       "relations": {
-        "pertenece_a": [
-          "0001"
-        ],
         "requiere": [
           "009W"
+        ],
+        "pertenece_a": [
+          "0001"
         ]
       }
     },
@@ -6920,12 +7129,12 @@
       "line": 615,
       "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#tag-00A0",
       "relations": {
-        "pertenece_a": [
-          "0001"
-        ],
         "requiere": [
           "009W",
           "009Y"
+        ],
+        "pertenece_a": [
+          "0001"
         ]
       }
     },
@@ -6950,12 +7159,12 @@
       "line": 637,
       "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#tag-00A2",
       "relations": {
-        "pertenece_a": [
-          "0001"
-        ],
         "requiere": [
           "009U",
           "009Y"
+        ],
+        "pertenece_a": [
+          "0001"
         ]
       }
     },
@@ -6980,12 +7189,12 @@
       "line": 659,
       "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#tag-00A4",
       "relations": {
-        "pertenece_a": [
-          "0001"
-        ],
         "requiere": [
           "009W",
           "00A2"
+        ],
+        "pertenece_a": [
+          "0001"
         ]
       }
     },
@@ -7010,14 +7219,14 @@
       "line": 681,
       "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#tag-00A6",
       "relations": {
-        "pertenece_a": [
-          "0001"
-        ],
         "requiere": [
           "008W",
           "009W",
           "009Y",
           "00A2"
+        ],
+        "pertenece_a": [
+          "0001"
         ]
       }
     },
@@ -7042,12 +7251,12 @@
       "line": 703,
       "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#tag-00A8",
       "relations": {
-        "pertenece_a": [
-          "0001"
-        ],
         "requiere": [
           "009G",
           "009Q"
+        ],
+        "pertenece_a": [
+          "0001"
         ]
       }
     },
@@ -7072,11 +7281,11 @@
       "line": 731,
       "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#tag-00AA",
       "relations": {
-        "pertenece_a": [
-          "0001"
-        ],
         "requiere": [
           "009I"
+        ],
+        "pertenece_a": [
+          "0001"
         ]
       }
     },
@@ -7101,11 +7310,11 @@
       "line": 751,
       "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#tag-00AC",
       "relations": {
-        "pertenece_a": [
-          "0001"
-        ],
         "requiere": [
           "00AA"
+        ],
+        "pertenece_a": [
+          "0001"
         ]
       }
     },
@@ -7130,13 +7339,13 @@
       "line": 776,
       "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#tag-00AE",
       "relations": {
-        "pertenece_a": [
-          "0001"
-        ],
         "requiere": [
           "009A",
           "00A0",
           "00AC"
+        ],
+        "pertenece_a": [
+          "0001"
         ]
       }
     },
@@ -7161,12 +7370,12 @@
       "line": 798,
       "href": "../contenidos/libro/probabilidad/combinatoria-probabilidad.qmd#tag-00AG",
       "relations": {
-        "pertenece_a": [
-          "0001"
-        ],
         "requiere": [
           "00AA",
           "00AC"
+        ],
+        "pertenece_a": [
+          "0001"
         ]
       }
     },
@@ -7776,12 +7985,12 @@
       "line": 8,
       "href": "../contenidos/paes/m1/preguntas-originales/porcentajes.qmd#tag-00CD",
       "relations": {
-        "evalua": [
-          "0002"
-        ],
         "usa": [
           "008P",
           "008Q"
+        ],
+        "evalua": [
+          "0002"
         ],
         "pertenece_a": [
           "0000"
@@ -7796,15 +8005,15 @@
       "line": 12,
       "href": "../contenidos/universitario/estadistica/media-ponderada.qmd#tag-00CE",
       "relations": {
-        "pertenece_a": [
-          "0001"
-        ],
         "requiere": [
           "008P",
           "008Q"
         ],
         "profundiza": [
           "00CD"
+        ],
+        "pertenece_a": [
+          "0001"
         ]
       }
     }
@@ -12791,6 +13000,43 @@
         "relation": "aplica"
       }
     ],
+    "00FV": [
+      {
+        "tag": "008P",
+        "title": "Porcentaje",
+        "source": "contenidos/libro/numeros/porcentajes.qmd",
+        "href": "porcentajes.qmd#tag-008P",
+        "relation": "requiere"
+      },
+      {
+        "tag": "00FW",
+        "title": "Ejemplo: Razón y referentes de comparación",
+        "source": "contenidos/libro/numeros/razones-proporcionalidad.qmd",
+        "href": "razones-proporcionalidad.qmd#exm-00FV",
+        "relation": "aplica"
+      },
+      {
+        "tag": "00HA",
+        "title": "Razones equivalentes",
+        "source": "contenidos/libro/numeros/razones-proporcionalidad.qmd",
+        "href": "razones-proporcionalidad.qmd#tag-00HA",
+        "relation": "requiere"
+      },
+      {
+        "tag": "00FX",
+        "title": "Tasa y valor por unidad",
+        "source": "contenidos/libro/numeros/razones-proporcionalidad.qmd",
+        "href": "razones-proporcionalidad.qmd#tag-00FX",
+        "relation": "requiere"
+      },
+      {
+        "tag": "00FZ",
+        "title": "Proporción e igualdad de razones",
+        "source": "contenidos/libro/numeros/razones-proporcionalidad.qmd",
+        "href": "razones-proporcionalidad.qmd#tag-00FZ",
+        "relation": "requiere"
+      }
+    ],
     "0000": [
       {
         "tag": "008P",
@@ -12812,36 +13058,6 @@
         "source": "contenidos/paes/m1/preguntas-originales/porcentajes.qmd",
         "href": "../paes/m1/preguntas-originales/porcentajes.qmd#tag-00CD",
         "relation": "pertenece_a"
-      }
-    ],
-    "00FV": [
-      {
-        "tag": "008P",
-        "title": "Porcentaje",
-        "source": "contenidos/libro/numeros/porcentajes.qmd",
-        "href": "porcentajes.qmd#tag-008P",
-        "relation": "requiere"
-      },
-      {
-        "tag": "00FW",
-        "title": "Ejemplo: Razón y referentes de comparación",
-        "source": "contenidos/libro/numeros/razones-proporcionalidad.qmd",
-        "href": "razones-proporcionalidad.qmd#exm-00FV",
-        "relation": "aplica"
-      },
-      {
-        "tag": "00FX",
-        "title": "Tasa y valor por unidad",
-        "source": "contenidos/libro/numeros/razones-proporcionalidad.qmd",
-        "href": "razones-proporcionalidad.qmd#tag-00FX",
-        "relation": "requiere"
-      },
-      {
-        "tag": "00FZ",
-        "title": "Proporción e igualdad de razones",
-        "source": "contenidos/libro/numeros/razones-proporcionalidad.qmd",
-        "href": "razones-proporcionalidad.qmd#tag-00FZ",
-        "relation": "requiere"
       }
     ],
     "008P": [
@@ -13071,6 +13287,15 @@
         "relation": "aplica"
       }
     ],
+    "00HA": [
+      {
+        "tag": "00HB",
+        "title": "Ejemplo: Razones equivalentes",
+        "source": "contenidos/libro/numeros/razones-proporcionalidad.qmd",
+        "href": "razones-proporcionalidad.qmd#exm-00HA",
+        "relation": "aplica"
+      }
+    ],
     "00FZ": [
       {
         "tag": "00G0",
@@ -13078,6 +13303,27 @@
         "source": "contenidos/libro/numeros/razones-proporcionalidad.qmd",
         "href": "razones-proporcionalidad.qmd#exm-00FZ",
         "relation": "aplica"
+      },
+      {
+        "tag": "00HC",
+        "title": "Extremos, medios y proporciones continuas y discontinuas",
+        "source": "contenidos/libro/numeros/razones-proporcionalidad.qmd",
+        "href": "razones-proporcionalidad.qmd#tag-00HC",
+        "relation": "requiere"
+      },
+      {
+        "tag": "00HE",
+        "title": "Propiedad fundamental de las proporciones",
+        "source": "contenidos/libro/numeros/razones-proporcionalidad.qmd",
+        "href": "razones-proporcionalidad.qmd#tag-00HE",
+        "relation": "requiere"
+      },
+      {
+        "tag": "00HK",
+        "title": "Serie de razones iguales",
+        "source": "contenidos/libro/numeros/razones-proporcionalidad.qmd",
+        "href": "razones-proporcionalidad.qmd#tag-00HK",
+        "relation": "requiere"
       },
       {
         "tag": "00G1",
@@ -13094,6 +13340,81 @@
         "relation": "requiere"
       }
     ],
+    "00HC": [
+      {
+        "tag": "00HD",
+        "title": "Ejemplo: Extremos, medios y proporciones continuas y discontinuas",
+        "source": "contenidos/libro/numeros/razones-proporcionalidad.qmd",
+        "href": "razones-proporcionalidad.qmd#exm-00HC",
+        "relation": "aplica"
+      }
+    ],
+    "00HE": [
+      {
+        "tag": "00HF",
+        "title": "Ejemplo: Propiedad fundamental de las proporciones",
+        "source": "contenidos/libro/numeros/razones-proporcionalidad.qmd",
+        "href": "razones-proporcionalidad.qmd#exm-00HE",
+        "relation": "aplica"
+      },
+      {
+        "tag": "00HG",
+        "title": "Transformaciones de una proporción",
+        "source": "contenidos/libro/numeros/razones-proporcionalidad.qmd",
+        "href": "razones-proporcionalidad.qmd#tag-00HG",
+        "relation": "requiere"
+      }
+    ],
+    "00HG": [
+      {
+        "tag": "00HH",
+        "title": "Ejemplo: Transformaciones de una proporción",
+        "source": "contenidos/libro/numeros/razones-proporcionalidad.qmd",
+        "href": "razones-proporcionalidad.qmd#exm-00HG",
+        "relation": "aplica"
+      },
+      {
+        "tag": "00HI",
+        "title": "Suma y diferencia en una proporción",
+        "source": "contenidos/libro/numeros/razones-proporcionalidad.qmd",
+        "href": "razones-proporcionalidad.qmd#tag-00HI",
+        "relation": "requiere"
+      }
+    ],
+    "00HI": [
+      {
+        "tag": "00HJ",
+        "title": "Ejemplo: Suma y diferencia en una proporción",
+        "source": "contenidos/libro/numeros/razones-proporcionalidad.qmd",
+        "href": "razones-proporcionalidad.qmd#exm-00HI",
+        "relation": "aplica"
+      }
+    ],
+    "00HK": [
+      {
+        "tag": "00HL",
+        "title": "Ejemplo: Serie de razones iguales",
+        "source": "contenidos/libro/numeros/razones-proporcionalidad.qmd",
+        "href": "razones-proporcionalidad.qmd#exm-00HK",
+        "relation": "aplica"
+      },
+      {
+        "tag": "00HM",
+        "title": "Cociente de las sumas y reparto proporcional",
+        "source": "contenidos/libro/numeros/razones-proporcionalidad.qmd",
+        "href": "razones-proporcionalidad.qmd#tag-00HM",
+        "relation": "requiere"
+      }
+    ],
+    "00HM": [
+      {
+        "tag": "00HN",
+        "title": "Ejemplo: Cociente de las sumas y reparto proporcional",
+        "source": "contenidos/libro/numeros/razones-proporcionalidad.qmd",
+        "href": "razones-proporcionalidad.qmd#exm-00HM",
+        "relation": "aplica"
+      }
+    ],
     "00G1": [
       {
         "tag": "00G2",
@@ -13107,6 +13428,13 @@
         "title": "Tablas y gráficos de proporcionalidad directa",
         "source": "contenidos/libro/numeros/razones-proporcionalidad.qmd",
         "href": "razones-proporcionalidad.qmd#tag-00G3",
+        "relation": "requiere"
+      },
+      {
+        "tag": "00HO",
+        "title": "Proporcionalidad compuesta",
+        "source": "contenidos/libro/numeros/razones-proporcionalidad.qmd",
+        "href": "razones-proporcionalidad.qmd#tag-00HO",
         "relation": "requiere"
       }
     ],
@@ -13140,6 +13468,13 @@
         "source": "contenidos/libro/numeros/razones-proporcionalidad.qmd",
         "href": "razones-proporcionalidad.qmd#tag-00G7",
         "relation": "requiere"
+      },
+      {
+        "tag": "00HO",
+        "title": "Proporcionalidad compuesta",
+        "source": "contenidos/libro/numeros/razones-proporcionalidad.qmd",
+        "href": "razones-proporcionalidad.qmd#tag-00HO",
+        "relation": "requiere"
       }
     ],
     "00G7": [
@@ -13156,6 +13491,15 @@
         "source": "contenidos/libro/numeros/razones-proporcionalidad.qmd",
         "href": "razones-proporcionalidad.qmd#tag-00GF",
         "relation": "requiere"
+      }
+    ],
+    "00HO": [
+      {
+        "tag": "00HP",
+        "title": "Ejemplo: Proporcionalidad compuesta",
+        "source": "contenidos/libro/numeros/razones-proporcionalidad.qmd",
+        "href": "razones-proporcionalidad.qmd#exm-00HO",
+        "relation": "aplica"
       }
     ],
     "00GF": [

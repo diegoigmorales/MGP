@@ -198,7 +198,11 @@ def discover() -> tuple[list[dict], list[str]]:
                 prefix = "def" if tag in DEFINITION_REPRESENTATIONS else ENV_PREFIX.get(attrs.get("type", ""), "concept")
                 concept_label = f"#{prefix}-{tag}"
                 example_label = f"#exm-{tag}"
-                if source.count(concept_label) != 1:
+                # Los tipos editoriales anteriores conservan sus anclas concept-;
+                # los nuevos pueden usar el entorno matemático nativo correspondiente.
+                native_prefix = {"observacion": "rem", "proposicion": "prp", "corolario": "cor"}.get(attrs.get("type", ""))
+                native_label = f"#{native_prefix}-{tag}" if native_prefix else concept_label
+                if source.count(concept_label) + (source.count(native_label) if native_label != concept_label else 0) != 1:
                     errors.append(f"{relpath}:{lineno}: falta el entorno conceptual {concept_label}")
                 if source.count(example_label) != 1:
                     errors.append(f"{relpath}:{lineno}: falta el ejemplo etiquetado {example_label}")
